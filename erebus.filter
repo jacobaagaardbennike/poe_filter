@@ -1,0 +1,621 @@
+####################################################################################################
+########## Guide
+####################################################################################################
+
+# Build tag for edits
+
+# Item classes full
+# "Abyss Jewels" "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "Hybrid Flasks" "Jewels" "Life Flasks" "Mana Flasks" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Utility Flasks" "Wands" "Warstaves"
+
+# Weapons
+# "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+
+# Armours
+# "Body Armours" "Boots" "Gloves" "Helmets"
+
+# Jewlery
+# "Amulets" "Belts" "Rings"
+
+#Jewels
+# "Abyss Jewels" "Jewels"
+
+# Flasks
+# "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+
+# unsorted
+# Class "Atlas Upgrade Items" "Blueprints" "Breachstones" "Charms" "Contracts" "Embers of the Allflame" "Expedition Logbooks" "Fishing Rods" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Hideout Doodads" "Incubators" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Leaguestones" "Maps" "Memories" "Metamorph Samples" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Pieces" "Quest Items" "Sanctified Relics" "Sanctum Research" "Sentinels" "Skill Gems" "Support Gems" "Tinctures" "Trinkets" "Vault Keys"
+
+####################################################################################################
+########## CHANGEME
+####################################################################################################
+
+####################################################################################################
+########## Item Section Start
+####################################################################################################
+
+##################################################
+########## Build Items
+##################################################
+Show
+  BaseType == "Convoking Wand" "Bone Ring" "Bone Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield"
+  FracturedItem True
+  SetFontSize 45
+
+Show # can roll % Increased Attributes
+  BaseType == "Heavy Belt"
+  HasInfluence Elder Hunter
+  SetFontSize 45
+
+Show # can roll 18% Increased Strength implicit
+  Class == "Belts"
+  SynthesisedItem True
+  SetFontSize 45
+
+Show
+  BaseType == "Large Cluster Jewel"
+  EnchantmentPassiveNode "Minion Damage"
+	EnchantmentPassiveNum 8
+	SetFontSize 45
+
+Show
+  BaseType == "Medium Cluster Jewel"
+  EnchantmentPassiveNode "Minion Life"
+	EnchantmentPassiveNum 5
+	SetFontSize 45
+
+########## Coruscating Elixir
+Show # Only from cards?
+  BaseType == "Ruby Flask"
+  Rarity Unique
+  SetFontSize 45
+
+Show # Bramble Valley - Dark Forest - Forbidden Woods - The Northern Forest
+	Class == "Divination Cards"
+	BaseType == "The Dragon"
+	SetFontSize 45
+
+########## Alberon's Warpath
+Show # anywhere
+  BaseType == "Soldier Boots"
+  Rarity Unique
+  SetFontSize 45
+
+########## Maata's Teaching
+Show # anywhere
+  BaseType == "Karui Sceptre"
+  Rarity Unique
+  SetFontSize 45
+
+########## Ghostwrithe
+Show # anywhere +chance
+  BaseType == "Silken Vest"
+  Rarity Unique
+  SetFontSize 45
+
+########## Prism Guardian
+Show # anywhere +chance
+  BaseType == "Archon Kite Shield"
+  Rarity Unique
+  SetFontSize 45
+
+Show # Basilica - Residence
+	Class == "Divination Cards"
+	BaseType == "Desperate Crusade"
+	SetFontSize 45
+
+########## Shaper's Touch
+Show # drops from The Shaper
+  BaseType == "Crusader Gloves"
+  Rarity Unique
+  SetFontSize 45
+
+########## Replica Dragonfang's Flight
+Show # anywhere +chance
+  BaseType == "Onyx Amulet"
+  Rarity Unique
+  SetFontSize 45
+
+########## Eyes of the Greatwolf
+Show #anywhere -chance
+  BaseType == "Greatwolf Talisman"
+  Rarity Unique
+  SetFontSize 45
+
+Show # Bramble Valley - Dark Forest - Forbidden Woods
+	Class == "Divination Cards"
+	BaseType == "Mawr Blaidd"
+	SetFontSize 45
+
+########## The Baron
+Show # anywhere +chance
+  BaseType == "Close Helmet"
+  Rarity Unique
+  SetFontSize 45
+
+########## Mon'tregul's Grasp
+Show # anywhere
+  BaseType == "Void Sceptre"
+  Rarity Unique
+  SetFontSize 45
+
+Show # Abomination - Bog - Marshes - Mud Geyser
+	Class == "Divination Cards"
+	BaseType == "Death"
+	SetFontSize 45
+
+########## Geofri's Sanctuary
+Show # anywhere
+  BaseType == "Elegant Ringmail"
+  Rarity Unique
+  SetFontSize 45
+
+
+  
+##################################################
+########## Special Items
+##################################################
+Show
+  FracturedItem True
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+	PlayAlertSound 6 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+Show
+  SynthesisedItem True
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+	PlayAlertSound 6 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+Show
+  HasInfluence Shaper Elder Crusader Hunter Redeemer Warlord
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+	PlayAlertSound 6 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+Show
+  AnyEnchantment True
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+	PlayAlertSound 6 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+Show
+  HasEaterOfWorldsImplicit >= 1
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+	PlayAlertSound 6 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+Show
+  HasSearingExarchImplicit >= 1
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+	PlayAlertSound 6 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+Show
+  Identified True
+  HasExplicitMod "Veil"
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+	PlayAlertSound 6 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+Show
+  Class == "Body Armours" "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+  LinkedSockets == 6
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+	PlayAlertSound 6 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+##################################################
+########## Jewels
+##################################################
+Show
+  BaseType == "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
+  Rarity Normal Magic Rare
+
+Show
+  Class == "Abyss Jewels" "Jewels"
+  Rarity Rare
+
+##################################################
+########## Unique Collector Items
+##################################################
+Show
+  BaseType == "Sage Wand" "Saint's Hauberk" "Necromancer Silks" "Saintly Chainmail" "Sadist Garb" "Crusader Plate" "Majestic Plate" "Exquisite Leather" "Gladiator Plate" "Onyx Amulet" "Paua Amulet" "Greatwolf Talisman" "Spine Bow" "Assassin Bow" "Ornate Quiver" "Two-Point Arrow Quiver" "Ebony Tower Shield" "Elegant Round Shield" "Jingling Spirit Shield" "Lacquered Buckler" "Titanium Spirit Shield" "Branded Kite Shield" "Champion Kite Shield" "Highborn Staff" "Void Sceptre" "Karui Sceptre" "Karui Maul" "Gavel" "Crystal Sceptre" "Imperial Maul" "Siege Axe" "Void Axe" "Eternal Sword" "Vaal Blade" "Engraved Greatsword" "Jewelled Foil" "Fiend Dagger" "Slaughter Knife" "Imperial Skean" "Demon Dagger" "Vaal Claw" "Terror Claw" "Granite Flask" "Stibnite Flask" "Sapphire Flask" "Grand Mana Flask" "Solaris Circlet" "Prophet Crown" "Mind Cage" "Praetor Crown" "Necromancer Circlet" "Sinner Tricorne" "Goathide Boots" "Sorcerer Boots" "Stealth Boots" "Carnal Boots" "Two-Toned Boots" "Zealot Gloves" "Crusader Gloves" "Murder Mitts" "Hydrascale Gauntlets" "Steelscale Gauntlets" "Cloth Belt" "Moonstone Ring" "Topaz Ring" "Coral Ring" "Paua Ring" "Ring" "Ruby Ring" "Midnight Blade"
+  Rarity Unique
+  SetBorderColor 255 138 0
+  SetFontSize 45
+  SetBackgroundColor 243 232 232
+  SetTextColor 255 138 0
+  PlayEffect Orange
+  MinimapIcon 0 Orange Star
+  PlayAlertSound 1 300
+
+##################################################
+########## Build Uniques
+##################################################
+
+##################################################
+########## League Start Unique Items
+##################################################
+Show
+  Class == "Abyss Jewels" "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "Hybrid Flasks" "Jewels" "Life Flasks" "Mana Flasks" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Utility Flasks" "Wands" "Warstaves"
+  Rarity Unique
+ 	SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 175 96 37
+	PlayAlertSound 1 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+##################################################
+########## Late League Late
+##################################################
+
+Show
+  BaseType == "Bone Ring"
+  Rarity Normal Rare
+  ItemLevel >= 86
+  SetFontSize 45
+
+Show
+  BaseType == "Convoking Wand"
+  Rarity Rare
+  ItemLevel >= 86
+  SetFontSize 45
+
+Show
+  BaseType == "Bone Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield"
+  Rarity Rare
+  ItemLevel >= 86
+  SetFontSize 45
+
+
+##################################################
+########## League Start Early
+##################################################
+
+Show
+  BaseType == "Bone Ring" "Convoking Wand" "Amber Amulet" "Stygian Vise"
+  Rarity Rare
+  AreaLevel < 83 # below tier 16
+  SetFontSize 45
+
+Show
+  BaseType == "Bone Helmet" "Bone Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield"
+  Rarity Rare
+  ItemLevel >= 81
+  AreaLevel < 81 # below tier 14 (low maps)
+  SetFontSize 45
+
+Show
+  Class == "Body Armours"
+  Rarity Normal Rare
+  SocketGroup >= 5BBBBBR
+  AreaLevel < 78 # below tier 11 (white and yellow maps)
+  BaseEnergyShield > 1
+
+  Show
+  Class == "Body Armours"
+  Rarity Normal Magic Rare
+  SocketGroup >= 5BBBBBR
+  AreaLevel < 73 # below tier 6 (white maps)
+
+Show
+  Class == "Body Armours" "Boots" "Gloves" "Helmets"
+  Rarity Rare
+  AreaLevel < 73 # below tier 6 (white maps)
+  SocketGroup >= 4BBRR
+	SetFontSize 45
+
+Show
+  Class == "Body Armours" "Boots" "Gloves" "Helmets"
+  Rarity Rare
+  AreaLevel <= 56
+  SocketGroup >= 4BR
+	SetFontSize 45
+
+Show
+  Class == "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Wands" "Body Armours" "Boots" "Gloves" "Helmets"
+  Rarity Rare
+  AreaLevel <= 40
+  SocketGroup >= 3BR
+	SetFontSize 45
+
+Show
+  BaseType == "Calling Wand" "Convening Wand" "Bone Ring" "Convoking Wand" "Bone Helmet"
+  Rarity Normal Magic
+  AreaLevel <= 40
+  SetFontSize 45
+
+##################################################
+########## League Start Build Specific
+##################################################
+
+Show
+  BaseType == "Amethyst Ring" "Jade Amulet" "Paua Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring"
+  AreaLevel < 73 # below tier 6 (white maps)
+  Rarity Rare
+  SetFontSize 45
+
+Show
+  Class == "Body Armours" "Gloves" "Helmets"
+  Rarity Rare
+  AreaLevel <= 20
+  SetFontSize 45
+
+Show
+  Class == "Shields"
+  Rarity Rare
+  AreaLevel <= 20
+  SetFontSize 45
+
+Show
+  BaseType == "Jade Amulet" "Paua Ring"
+  AreaLevel < 73 # below tier 6 (white maps)
+  Rarity Rare
+  SetFontSize 45
+
+##################################################
+########## League Start
+##################################################
+Show
+  BaseType == "Stygian Vise"
+  Rarity Normal Magic Rare
+  SetFontSize 45
+
+Show
+  BaseType == "Amethyst Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring"
+  AreaLevel < 73 # below tier 6 (white maps)
+  Rarity Rare
+  SetFontSize 45
+
+Show
+  Class == "Boots"
+  Rarity Rare
+  AreaLevel <= 20
+  SetFontSize 45
+
+Show
+  Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves" "Body Armours" "Boots" "Gloves" "Helmets" "Amulets" "Belts" "Rings"
+  Rarity Normal Magic
+  AreaLevel <= 6
+  SetFontSize 45
+
+##################################################
+########## Hide Items
+##################################################
+Hide
+  Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves" "Body Armours" "Boots" "Gloves" "Helmets" "Amulets" "Belts" "Rings" "Abyss Jewels" "Jewels"
+  Rarity Normal Magic Rare
+
+####################################################################################################
+########## Item Section End
+####################################################################################################
+
+####################################################################################################
+########## Highlight Currency
+####################################################################################################
+Show
+  BaseType == "Mirror of Kalandra"
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+  PlayAlertSound ShMirror 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+Show
+  BaseType == "Divine Orb"
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+  PlayAlertSound ShDivine 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+Show
+  BaseType == "Exalted Orb"
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+  PlayAlertSound ShExalted 300
+  MinimapIcon 0 Red Star
+  PlayEffect Red
+
+# Show
+#   BaseType == CHANGE
+#   SetTextColor 255 0 0
+#   SetBackgroundColor 255 255 255
+#   SetBorderColor 255 0 0
+#   SetFontSize 45
+#   PlayAlertSound CHANGE
+#   MinimapIcon 0 Red Star
+#   PlayEffect Red
+
+####################################################################################################
+########## Stacked Currency
+####################################################################################################
+Show
+  BaseType == "Orb of Alteration" "Chromatic Orb" "Gemcutter's Prism" "Jeweller's Orb" "Regal Shard"
+  StackSize >= 3
+  SetFontSize 45
+
+Show
+  BaseType == "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+  StackSize >= 10
+  SetFontSize 45
+
+####################################################################################################
+########## League Start Currency
+####################################################################################################
+Show
+  BaseType == "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Chance" "Chaos Shard" "Horizon Shard" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+  AreaLevel < 75
+  SetFontSize 45
+
+Show
+  BaseType == "Armourer's Scrap" "Blacksmith's Whetstone" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation"
+  AreaLevel < 78
+  StackSize >= 3
+  SetFontSize 45
+
+Show
+  BaseType == "Cartographer's Chisel" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Horizons" "Regal Shard"
+  AreaLevel < 81
+  SetFontSize 45
+
+Show
+  BaseType == "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Chance" "Orb of Transmutation"
+  AreaLevel < 81
+  StackSize >= 3
+  SetFontSize 45
+
+Show
+  BaseType == "Binding Shard" "Chaos Shard" "Horizon Shard" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
+  AreaLevel < 81
+  StackSize >= 5
+  SetFontSize 45
+
+Show
+  BaseType == "Armourer's Scrap" "Blacksmith's Whetstone" "Horizon Shard" "Orb of Horizons" "Transmutation Shard"
+  AreaLevel < 81
+  StackSize >= 10
+  SetFontSize 45
+
+####################################################################################################
+########## Currency and Fragments
+####################################################################################################
+Show 
+  Class "Map Fragments" "Currency"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 240 90 35
+	PlayAlertSound 2 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Circle
+
+Show 
+  Class "Atlas Upgrade Items" "Blueprints" "Breachstones" "Charms" "Contracts" "Embers of the Allflame" "Expedition Logbooks" "Fishing Rods" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Hideout Doodads" "Incubators" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Leaguestones" "Maps" "Memories" "Metamorph Samples" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Pieces" "Quest Items" "Sanctified Relics" "Sanctum Research" "Sentinels" "Skill Gems" "Support Gems" "Tinctures" "Trinkets" "Vault Keys"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 240 90 35
+	PlayAlertSound 2 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Circle
+
+####################################################################################################
+########## Divination Cards
+####################################################################################################
+Show 
+  Class "Divination Cards"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 240 90 35
+	PlayAlertSound 2 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Circle
+
+
+
+####################################################################################################
+########## Flasks
+####################################################################################################
+
+Show
+  Class == "Life Flasks" "Mana Flasks" "Utility Flasks"
+  Rarity Normal Magic Rare
+  SetFontSize 45
+
+####################################################################################################
+########## Hide Things
+####################################################################################################
+
+##################################################
+########## Hide Currency
+##################################################
+Hide
+  BaseType == "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
+  AreaLevel >= 60
+  SetTextColor 255 0 0
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 0
+  SetFontSize 45
+  PlayAlertSound ShExalted 300
+  MinimapIcon 0 Orange Circle
+  PlayEffect Orange
+
+##################################################
+########## Hide Currency
+##################################################
+
+##################################################
+########## Hide Flasks
+##################################################
+Hide
+  Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks"#"Utility Flasks"
+  Rarity Normal Magic Rare
+  SetFontSize 18
+  DisableDropSound True
+  Continue
+  Show
+    Class == "Life Flasks" "Mana Flasks"
+	  BaseType "Large" "Medium" "Small"
+	  AreaLevel <= 15
+    SetFontSize 45
+    Continue
+  Show
+    Class == "Life Flasks" "Mana Flasks"
+	  BaseType "Grand" "Greater"
+	  AreaLevel <= 30
+    SetFontSize 45
+    Continue
+  Show
+    Class == "Life Flasks"
+	  BaseType "Colossal" "Giant" "Sacred"
+	  AreaLevel <= 48
+    SetFontSize 45
+    Continue
+  Show
+    Class == "Life Flasks"
+	  BaseType "Hallowed" "Sanctified"
+	  AreaLevel >= 60
+    SetFontSize 45
+

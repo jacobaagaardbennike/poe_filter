@@ -44,117 +44,283 @@ Show
   BaseType == "Convoking Wand" "Bone Ring" "Bone Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield"
   FracturedItem True
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 Show # can roll % Increased Attributes
   BaseType == "Heavy Belt"
   HasInfluence Elder Hunter
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 Show # can roll 18% Increased Strength implicit
   Class == "Belts"
   SynthesisedItem True
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 Show
   BaseType == "Large Cluster Jewel"
   EnchantmentPassiveNode "Minion Damage"
 	EnchantmentPassiveNum 8
-	SetFontSize 45
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 Show
   BaseType == "Medium Cluster Jewel"
   EnchantmentPassiveNode "Minion Life"
 	EnchantmentPassiveNum 5
-	SetFontSize 45
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
+
+########## The Covenant
+Show # anywhere +chance
+  BaseType == "Spidersilk Robe"
+  Rarity Unique
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
+
+########## United in Dream
+# Only Chayula in the Flawless Breachstone -chance
+# can be crafted from Severed in Sleep + Blessing of Chayula
+Show 
+  BaseType == "Cutlass"
+  Rarity Unique
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
+
+Show # only from breach monsters or maybe Drops from Null Portals that spawn in Elder-Influenced maps
+  Class == "Divination Cards"
+	BaseType == "The Breach"
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
+
+Show # only from breach monsters in shaper influenced maps
+  Class == "Divination Cards"
+	BaseType == "The Dreamer"
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Coruscating Elixir
 Show # Only from cards?
   BaseType == "Ruby Flask"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 Show # Bramble Valley - Dark Forest - Forbidden Woods - The Northern Forest
 	Class == "Divination Cards"
 	BaseType == "The Dragon"
-	SetFontSize 45
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Alberon's Warpath
 Show # anywhere
   BaseType == "Soldier Boots"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Maata's Teaching
 Show # anywhere
   BaseType == "Karui Sceptre"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Ghostwrithe
 Show # anywhere +chance
   BaseType == "Silken Vest"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Prism Guardian
 Show # anywhere +chance
   BaseType == "Archon Kite Shield"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 Show # Basilica - Residence
 	Class == "Divination Cards"
 	BaseType == "Desperate Crusade"
-	SetFontSize 45
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Shaper's Touch
 Show # drops from The Shaper
   BaseType == "Crusader Gloves"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Replica Dragonfang's Flight
 Show # anywhere +chance
   BaseType == "Onyx Amulet"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Eyes of the Greatwolf
 Show #anywhere -chance
   BaseType == "Greatwolf Talisman"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 Show # Bramble Valley - Dark Forest - Forbidden Woods
 	Class == "Divination Cards"
 	BaseType == "Mawr Blaidd"
-	SetFontSize 45
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## The Baron
 Show # anywhere +chance
   BaseType == "Close Helmet"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Mon'tregul's Grasp
 Show # anywhere
   BaseType == "Void Sceptre"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 Show # Abomination - Bog - Marshes - Mud Geyser
 	Class == "Divination Cards"
 	BaseType == "Death"
-	SetFontSize 45
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
 ########## Geofri's Sanctuary
 Show # anywhere
   BaseType == "Elegant Ringmail"
   Rarity Unique
-  SetFontSize 45
+   SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Star
 
-
-  
 ####################################################################################################
 ########## Special Items
 ####################################################################################################
@@ -289,6 +455,13 @@ Show
 Show
   Class == "Abyss Jewels" "Jewels"
   Rarity Rare
+  SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Star
 
 ##################################################
 ########## Late League Late
@@ -299,18 +472,36 @@ Show
   Rarity Normal Rare
   ItemLevel >= 86
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Star
 
 Show
   BaseType == "Convoking Wand"
   Rarity Rare
   ItemLevel >= 86
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Star
 
 Show
   BaseType == "Bone Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield"
   Rarity Rare
   ItemLevel >= 86
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Star
 
 
 ##################################################
@@ -322,6 +513,12 @@ Show
   Rarity Rare
   AreaLevel < 83 # below tier 16
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Star
 
 Show
   BaseType == "Bone Helmet" "Bone Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield"
@@ -329,6 +526,12 @@ Show
   ItemLevel >= 81
   AreaLevel < 81 # below tier 14 (low maps)
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Star
 
 Show
   Class == "Body Armours"
@@ -336,33 +539,65 @@ Show
   SocketGroup >= 5BBBBBR
   AreaLevel < 78 # below tier 11 (white and yellow maps)
   BaseEnergyShield > 1
+  SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 208 32 144
+	PlayAlertSound 3 300
+	PlayEffect Red
+	MinimapIcon 1 Red Star
 
   Show
   Class == "Body Armours"
   Rarity Normal Magic Rare
   SocketGroup >= 5BBBBBR
   AreaLevel < 73 # below tier 6 (white maps)
+  SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 208 32 144
+	PlayAlertSound 3 300
+	PlayEffect Red
+	MinimapIcon 1 Red Star
 
 Show
   Class == "Body Armours" "Boots" "Gloves" "Helmets"
   Rarity Rare
   AreaLevel < 73 # below tier 6 (white maps)
   SocketGroup >= 4BBRR
-	SetFontSize 45
+  SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange Star
 
 Show
   Class == "Body Armours" "Boots" "Gloves" "Helmets"
   Rarity Rare
   AreaLevel <= 56
   SocketGroup >= 4BR
-	SetFontSize 45
+  SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   Class == "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Wands" "Body Armours" "Boots" "Gloves" "Helmets"
   Rarity Rare
   AreaLevel <= 40
   SocketGroup >= 3BR
-	SetFontSize 45
+  SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   BaseType == "Calling Wand" "Convening Wand" "Bone Ring" "Convoking Wand" "Bone Helmet"
@@ -379,24 +614,48 @@ Show
   AreaLevel < 73 # below tier 6 (white maps)
   Rarity Rare
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   Class == "Body Armours" "Gloves" "Helmets"
   Rarity Rare
   AreaLevel <= 20
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   Class == "Shields"
   Rarity Rare
   AreaLevel <= 20
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   BaseType == "Jade Amulet" "Paua Ring"
   AreaLevel < 73 # below tier 6 (white maps)
   Rarity Rare
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 ##################################################
 ########## League Start
@@ -405,18 +664,36 @@ Show
   BaseType == "Stygian Vise"
   Rarity Normal Magic Rare
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   BaseType == "Amethyst Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring"
   AreaLevel < 73 # below tier 6 (white maps)
   Rarity Rare
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   Class == "Boots"
   Rarity Rare
   AreaLevel <= 20
   SetFontSize 45
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 50 230 100
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves" "Body Armours" "Boots" "Gloves" "Helmets" "Amulets" "Belts" "Rings"
@@ -574,13 +851,13 @@ Hide
 ####################################################################################################
 Show 
   Class "Divination Cards"
-	SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 74 230 58
-	PlayAlertSound 2 300
-	PlayEffect Green
-	MinimapIcon 0 Green Kite
+  SetFontSize 45
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 14 186 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Triangle
 
 ####################################################################################################
 ########## Gems
@@ -588,18 +865,24 @@ Show
 Show
 	Class == "Skill Gems" "Support Gems"
 	BaseType "Awakened"
-	SetFontSize 45
-	SetTextColor 20 240 240 255
-	SetBorderColor 240 0 0 255
-	SetBackgroundColor 70 0 20 255
-	PlayAlertSound 1 300
-	PlayEffect Red
-	MinimapIcon 0 Red Triangle
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Triangle
 
 Show
 	Class == "Skill Gems" "Support Gems"
 	BaseType == "Empower Support" "Enhance Support" "Enlighten Support" "Portal"
-	SetFontSize 45
+  SetFontSize 45
+  SetTextColor 30 144 255
+  SetBorderColor 30 144 255
+  SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Triangle
 
 Show
   Class == "Skill Gems" "Support Gems"
@@ -607,6 +890,12 @@ Show
 	Quality >= 20
 	GemLevel >= 20
 	SetFontSize 45
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 30 144 255
+	PlayAlertSound 1 300
+  PlayEffect Blue
+  MinimapIcon 0 Blue Triangle
 
 Show
 	Class == "Skill Gems" "Support Gems"
@@ -624,6 +913,13 @@ Hide
   Show
     AreaLevel < 6
     Class == "Skill Gems" "Support Gems"
+      SetFontSize 45
+      SetTextColor 30 144 255
+      SetBorderColor 30 144 255
+      SetBackgroundColor 255 255 255
+	    PlayAlertSound 6 300
+      PlayEffect Blue
+      MinimapIcon 0 Blue Triangle
 
 ##################################################
 ########## League Start Flasks
@@ -722,7 +1018,6 @@ Show
   MinimapIcon 0 Pink Square
   PlayEffect Pink
   
-
 Show 
   Class "Maps"
   BlightedMap True
@@ -791,7 +1086,7 @@ Show
 
 Show
 	Class == "Maps"
-	MapTier <=13
+	MapTier <= 13
   AreaLevel < 83
 	SetTextColor 255 255 255
 	SetBorderColor 255 255 255
@@ -802,7 +1097,7 @@ Show
 
 Hide
 	Class == "Maps"
-	MapTier <16
+	MapTier < 16
 
 ####################################################################################################
 ########## Misc

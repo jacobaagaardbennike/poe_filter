@@ -28,10 +28,263 @@
 # AreaLevel < 73 # below tier 6 (white maps)
 # AreaLevel < 78 # below tier 11 (white and yellow maps)
 # AreaLevel < 81 # below tier 14 (low maps)
+# area level < 55 stacks
 
+# black: rgb(45, 43, 44) - #2D2B2C - 45 43 44
+# white cream: rgb(243, 240, 237) - #F3F0ED - 243 24 237
+# silver: rgb(193, 200, 209) - #C1C8D1 - 193 200 209
+
+
+# green: rgb(0, 122, 46) - #007A2E - 0 122 46
+
+
+# organge: rgb(210, 95, 19) - #D25F13 - 210 95 19
+# yellow: rgb(255, 207, 74) - #FFCF4A - 255 207 74
+
+# brown: rgb(128, 83, 41) - #805329 - 128, 83, 41
+# gold: rgb(215, 175, 97) - D7AF61 - 215 175 97
+
+
+# plasma blue lorgar: rgb(0, 196, 236) - #00C4EC - 0 196 236
+# blue: rgb(75, 129, 159) - #4B819F - 75 129 159
+
+# red: loarger rgb(138, 26, 58) - #8A1A3A - 138 26 58
+# red / purple: rgb(148, 36, 64) - #942440 - 148 36 64
+
+
+  SetFontSize 45
+	SetTextColor 215 175 97
+	SetBorderColor 215 175 97
+	SetBackgroundColor 45 43 44
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Circle
 ####################################################################################################
 ########## CHANGEME
 ####################################################################################################
+
+####################################################################################################
+########## Currency
+####################################################################################################
+Show
+  BaseType == "Mirror of Kalandra"
+  SetFontSize 45
+  SetTextColor 226 84 82
+  SetBorderColor 226 84 82
+  SetBackgroundColor 255 255 255
+  PlayAlertSound ShMirror 300
+  PlayEffect Red
+  MinimapIcon 0 Red Star
+
+Show
+  BaseType == "Divine Orb"
+  SetFontSize 45
+  SetTextColor 226 84 82
+  SetBorderColor 226 84 82
+  SetBackgroundColor 255 255 255
+  PlayAlertSound ShDivine 300
+  PlayEffect Red
+  MinimapIcon 0 Red Star
+
+Show
+  BaseType == "Exalted Orb"
+  SetFontSize 45
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 226 84 82
+  PlayAlertSound ShExalted 300
+  PlayEffect Red
+  MinimapIcon 0 Red Star
+
+
+##################################################
+########## Currency: Hide + League Start
+##################################################
+Hide
+  BaseType == "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
+  Show
+    StackSize >= 20
+    BaseType == "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+    SetFontSize 35
+	  SetTextColor 215 175 97
+	  SetBorderColor 215 175 97
+	  SetBackgroundColor 45 43 44
+	  DisableDropSound True
+	  PlayEffect Grey
+	  MinimapIcon 2 Grey Circle
+    Continue
+  Show
+    StackSize >= 8
+    BaseType == "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
+    SetFontSize 40
+	  SetTextColor 215 175 97
+	  SetBorderColor 215 175 97
+	  SetBackgroundColor 45 43 44
+	  DisableDropSound True
+	  PlayEffect Grey
+	  MinimapIcon 2 Grey Circle
+    Continue
+  Continue
+    Show
+    AreaLevel < 81
+    BaseType == "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Regal Shard"
+    SetFontSize 45
+	  SetTextColor 215 175 97
+	  SetBorderColor 215 175 97
+	  SetBackgroundColor 45 43 44
+	  PlayAlertSound 2 300
+	  PlayEffect Yellow
+	  MinimapIcon 1 Yellow Circle
+    Continue
+  Show
+    AreaLevel < 81
+    StackSize >= 8
+    BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Engineer's Orb" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
+    SetFontSize 45
+	  SetTextColor 215 175 97
+	  SetBorderColor 215 175 97
+	  SetBackgroundColor 45 43 44
+	  PlayAlertSound 2 300
+	  PlayEffect Grey
+	  MinimapIcon 2 Grey Circle
+    Continue
+  Show
+    AreaLevel < 73
+    StackSize >= 3
+    BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+    SetFontSize 45
+	  SetTextColor 215 175 97
+	  SetBorderColor 215 175 97
+	  SetBackgroundColor 45 43 44
+	  PlayAlertSound 2 300
+	  PlayEffect Grey
+	  MinimapIcon 2 Grey Circle
+    Continue
+  Show
+    BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+    AreaLevel < 55
+    SetFontSize 45
+	  SetTextColor 215 175 97
+	  SetBorderColor 215 175 97
+	  SetBackgroundColor 45 43 44
+	  PlayAlertSound 2 300
+	  PlayEffect Grey
+	  MinimapIcon 2 Grey Circle
+
+##################################################
+########## Currency: Remaining
+##################################################
+Show 
+  Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"
+  SetFontSize 45
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 226 84 82
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 0 Red Circle
+
+
+####################################################################################################
+########## Flasks
+####################################################################################################
+Show
+  Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+  Quality >= 20
+  SetFontSize 45
+
+Show
+  Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+  ItemLevel >= 85
+  SetFontSize 45
+
+Show
+  Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+  Rarity Unique
+  SetFontSize 45
+
+##################################################
+########## Flasks: Selected
+##################################################
+# Show # taunt, crit, smoke cloud, concsecration
+#  Class == "Utility Flasks"
+#  BaseType = "Basalt Flask" "Diamond Flask" "Stibnite Flask" "Sulphur Flask"
+#  AreaLevel < 73
+#  SetFontSize 45
+
+#Show # ele, chaos, fire, cold, light
+#  Class == "Utility Flasks"
+#  BaseType = "Bismuth Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask"
+#  AreaLevel < 73
+#  SetFontSize 45
+
+
+##################################################
+########## Flasks: Hide + League Start
+##################################################
+Hide
+  Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+  Rarity Normal Magic Rare
+  SetFontSize 18
+  DisableDropSound True
+  Continue
+  Show
+    Class == "Life Flasks" "Mana Flasks"
+	  BaseType "Large" "Medium" "Small"
+	  AreaLevel <= 15
+    SetFontSize 45
+    Continue
+  Show
+    Class == "Life Flasks" "Mana Flasks"
+	  BaseType "Grand" "Greater"
+	  AreaLevel <= 30
+    SetFontSize 45
+    Continue
+  Show
+    Class == "Life Flasks"
+	  BaseType "Colossal" "Giant" "Sacred"
+	  AreaLevel <= 48
+    SetFontSize 45
+    Continue
+  Show
+    Class == "Life Flasks"
+	  BaseType "Hallowed" "Sanctified"
+	  AreaLevel <= 60
+    SetFontSize 45
+    Continue
+  Show
+    Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+    Quality > 10
+	  AreaLevel < 73
+    SetFontSize 45
+    Continue
+  Show
+    Class == "Utility Flasks"
+    BaseType = "Quicksilver Flask" "Granite Flask" "Jade Flask" "Silver Flask" "Quartz Flask"
+	  AreaLevel < 81
+    SetFontSize 45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####################################################################################################
 ########## Item Section Start
@@ -326,9 +579,9 @@ Show # anywhere
 ####################################################################################################
 Show
   FracturedItem True
-  SetTextColor 30 144 255
-  SetBorderColor 30 144 255
-  SetBackgroundColor 255 255 255
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 255 156 115
   SetFontSize 45
 	PlayAlertSound 6 300
   MinimapIcon 0 Blue Star
@@ -336,9 +589,9 @@ Show
 
 Show
   SynthesisedItem True
-  SetTextColor 30 144 255
-  SetBorderColor 30 144 255
-  SetBackgroundColor 255 255 255
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 255 156 115
   SetFontSize 45
 	PlayAlertSound 6 300
   MinimapIcon 0 Blue Star
@@ -346,9 +599,9 @@ Show
 
 Show
   HasInfluence Shaper Elder Crusader Hunter Redeemer Warlord
-  SetTextColor 30 144 255
-  SetBorderColor 30 144 255
-  SetBackgroundColor 255 255 255
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 255 156 115
   SetFontSize 45
 	PlayAlertSound 6 300
   MinimapIcon 0 Blue Star
@@ -356,9 +609,9 @@ Show
 
 Show
   AnyEnchantment True
-  SetTextColor 30 144 255
-  SetBorderColor 30 144 255
-  SetBackgroundColor 255 255 255
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 255 156 115
   SetFontSize 45
 	PlayAlertSound 6 300
   MinimapIcon 0 Blue Star
@@ -366,9 +619,9 @@ Show
 
 Show
   HasEaterOfWorldsImplicit >= 1
-  SetTextColor 30 144 255
-  SetBorderColor 30 144 255
-  SetBackgroundColor 255 255 255
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 255 156 115
   SetFontSize 45
 	PlayAlertSound 6 300
   MinimapIcon 0 Blue Star
@@ -376,9 +629,9 @@ Show
 
 Show
   HasSearingExarchImplicit >= 1
-  SetTextColor 30 144 255
-  SetBorderColor 30 144 255
-  SetBackgroundColor 255 255 255
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 255 156 115
   SetFontSize 45
 	PlayAlertSound 6 300
   MinimapIcon 0 Blue Star
@@ -398,13 +651,13 @@ Show
 Show
   Class == "Body Armours" "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
   LinkedSockets == 6
-  SetTextColor 30 144 255
-  SetBorderColor 30 144 255
-  SetBackgroundColor 255 255 255
   SetFontSize 45
+  SetTextColor 226 84 82
+  SetBorderColor 226 84 82
+  SetBackgroundColor 255 255 255
 	PlayAlertSound 6 300
-  MinimapIcon 0 Blue Star
-  PlayEffect Blue
+  PlayEffect Red
+  MinimapIcon 0 Red Diamond
 
 ####################################################################################################
 ########## Unique Items
@@ -420,9 +673,9 @@ Show
 	SetTextColor 255 255 255
 	SetBorderColor 255 255 255
 	SetBackgroundColor 175 96 37
+  PlayAlertSound 1 300
   PlayEffect Brown
   MinimapIcon 0 Brown Star
-  PlayAlertSound 1 300
 
 ##################################################
 ########## League Start Unique Items
@@ -444,24 +697,24 @@ Show
 Show
   BaseType == "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
   Rarity Normal Magic Rare
-  SetTextColor 30 144 255
-  SetBorderColor 30 144 255
-  SetBackgroundColor 255 255 255
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 226 84 82
   SetFontSize 45
 	PlayAlertSound 6 300
-  MinimapIcon 0 Blue Star
-  PlayEffect Blue
+  MinimapIcon 0 Red Star
+  PlayEffect Red
 
 Show
   Class == "Abyss Jewels" "Jewels"
   Rarity Rare
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
-	PlayEffect Orange
-	MinimapIcon 1 Orange Star
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 ##################################################
 ########## Late League Late
@@ -472,10 +725,10 @@ Show
   Rarity Normal Rare
   ItemLevel >= 86
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Orange
 	MinimapIcon 1 Orange Star
 
@@ -484,10 +737,10 @@ Show
   Rarity Rare
   ItemLevel >= 86
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Orange
 	MinimapIcon 1 Orange Star
 
@@ -496,10 +749,10 @@ Show
   Rarity Rare
   ItemLevel >= 86
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Orange
 	MinimapIcon 1 Orange Star
 
@@ -513,25 +766,25 @@ Show
   Rarity Rare
   AreaLevel < 83 # below tier 16
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
-	PlayEffect Orange
-	MinimapIcon 1 Orange Star
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   BaseType == "Bone Helmet" "Bone Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield"
   Rarity Rare
   ItemLevel >= 81
   AreaLevel < 81 # below tier 14 (low maps)
-  SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
-	PlayEffect Orange
-	MinimapIcon 1 Orange Star
+   SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star
 
 Show
   Class == "Body Armours"
@@ -542,10 +795,10 @@ Show
   SetFontSize 45
 	SetTextColor 255 255 255
 	SetBorderColor 255 255 255
-	SetBackgroundColor 208 32 144
+	SetBackgroundColor 148 36 64
 	PlayAlertSound 3 300
 	PlayEffect Red
-	MinimapIcon 1 Red Star
+	MinimapIcon 1 Red Diamond
 
   Show
   Class == "Body Armours"
@@ -555,10 +808,10 @@ Show
   SetFontSize 45
 	SetTextColor 255 255 255
 	SetBorderColor 255 255 255
-	SetBackgroundColor 208 32 144
+	SetBackgroundColor 148 36 64
 	PlayAlertSound 3 300
 	PlayEffect Red
-	MinimapIcon 1 Red Star
+	MinimapIcon 1 Red Diamond
 
 Show
   Class == "Body Armours" "Boots" "Gloves" "Helmets"
@@ -566,12 +819,12 @@ Show
   AreaLevel < 73 # below tier 6 (white maps)
   SocketGroup >= 4BBRR
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Orange
-	MinimapIcon 1 Orange Star
+	MinimapIcon 1 Orange Diamond
 
 Show
   Class == "Body Armours" "Boots" "Gloves" "Helmets"
@@ -579,10 +832,10 @@ Show
   AreaLevel <= 56
   SocketGroup >= 4BR
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Star
 
@@ -592,10 +845,10 @@ Show
   AreaLevel <= 40
   SocketGroup >= 3BR
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Star
 
@@ -614,10 +867,10 @@ Show
   AreaLevel < 73 # below tier 6 (white maps)
   Rarity Rare
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Star
 
@@ -626,10 +879,10 @@ Show
   Rarity Rare
   AreaLevel <= 20
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Star
 
@@ -638,10 +891,10 @@ Show
   Rarity Rare
   AreaLevel <= 20
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Star
 
@@ -650,10 +903,10 @@ Show
   AreaLevel < 73 # below tier 6 (white maps)
   Rarity Rare
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Star
 
@@ -664,9 +917,9 @@ Show
   BaseType == "Stygian Vise"
   Rarity Normal Magic Rare
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
 	PlayAlertSound 3 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Star
@@ -676,10 +929,10 @@ Show
   AreaLevel < 73 # below tier 6 (white maps)
   Rarity Rare
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Star
 
@@ -688,10 +941,10 @@ Show
   Rarity Rare
   AreaLevel <= 20
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Star
 
@@ -708,38 +961,7 @@ Hide
   Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves" "Body Armours" "Boots" "Gloves" "Helmets" "Amulets" "Belts" "Rings" "Abyss Jewels" "Jewels"
   Rarity Normal Magic Rare
 
-####################################################################################################
-########## Currency
-####################################################################################################
-Show
-  BaseType == "Mirror of Kalandra"
-  SetFontSize 45
-  SetTextColor 255 0 0
-  SetBorderColor 255 0 0
-  SetBackgroundColor 255 255 255
-  PlayAlertSound ShMirror 300
-  PlayEffect Red
-  MinimapIcon 0 Red Star
 
-Show
-  BaseType == "Divine Orb"
-  SetFontSize 45
-  SetTextColor 255 0 0
-  SetBorderColor 255 0 0
-  SetBackgroundColor 255 255 255
-  PlayAlertSound ShDivine 300
-  PlayEffect Red
-  MinimapIcon 0 Red Star
-
-Show
-  BaseType == "Exalted Orb"
-  SetFontSize 45
-  SetTextColor 255 0 0
-  SetBorderColor 255 0 0
-  SetBackgroundColor 255 255 255
-  PlayAlertSound ShExalted 300
-  PlayEffect Red
-  MinimapIcon 0 Red Star
 
 ##################################################
 ########## Stacked Currency
@@ -748,10 +970,10 @@ Show
   BaseType == "Orb of Alteration" "Chromatic Orb" "Gemcutter's Prism" "Jeweller's Orb" "Regal Shard"
   StackSize >= 3
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 215 175 97
+	SetBorderColor 215 175 97
+	SetBackgroundColor 45 43 44
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Circle
 
@@ -759,92 +981,13 @@ Show
   BaseType == "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   StackSize >= 10
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
+	SetTextColor 215 175 97
+	SetBorderColor 215 175 97
+	SetBackgroundColor 45 43 44
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Circle
 
-##################################################
-########## League Start Currency
-##################################################
-Show
-  BaseType == "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Chance" "Chaos Shard" "Horizon Shard" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
-  AreaLevel < 75
-  SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow Circle
-
-Show
-  BaseType == "Armourer's Scrap" "Blacksmith's Whetstone" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation"
-  AreaLevel < 78
-  StackSize >= 3
-  SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow Circle
-
-Show
-  BaseType == "Cartographer's Chisel" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Horizons" "Regal Shard"
-  AreaLevel < 81
-  SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow Circle
-
-Show
-  BaseType == "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Chance" "Orb of Transmutation"
-  AreaLevel < 81
-  StackSize >= 3
-  SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow Circle
-
-Show
-  BaseType == "Binding Shard" "Chaos Shard" "Horizon Shard" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
-  AreaLevel < 81
-  StackSize >= 5
-  SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow Circle
-
-Show
-  BaseType == "Armourer's Scrap" "Blacksmith's Whetstone" "Horizon Shard" "Orb of Horizons" "Transmutation Shard"
-  AreaLevel < 81
-  StackSize >= 10
-  SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 3 300
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow Circle
-
-##################################################
-########## Hide Currency
-##################################################
-Hide
-  BaseType == "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
-  AreaLevel >= 60
 
 ####################################################################################################
 ########## Divination Cards
@@ -854,8 +997,8 @@ Show
   SetFontSize 45
   SetTextColor 255 255 255
   SetBorderColor 255 255 255
-  SetBackgroundColor 14 186 255
-	PlayAlertSound 6 300
+  SetBackgroundColor 42 70 99
+	PlayAlertSound 3 300
   PlayEffect Blue
   MinimapIcon 0 Blue Triangle
 
@@ -924,44 +1067,7 @@ Hide
 ##################################################
 ########## League Start Flasks
 ##################################################
-Hide
-  Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-  Rarity Normal Magic Rare
-  SetFontSize 18
-  DisableDropSound True
-  Continue
-  Show
-    Class == "Life Flasks" "Mana Flasks"
-	  BaseType "Large" "Medium" "Small"
-	  AreaLevel <= 15
-    SetFontSize 45
-    Continue
-  Show
-    Class == "Life Flasks" "Mana Flasks"
-	  BaseType "Grand" "Greater"
-	  AreaLevel <= 30
-    SetFontSize 45
-    Continue
-  Show
-    Class == "Life Flasks"
-	  BaseType "Colossal" "Giant" "Sacred"
-	  AreaLevel <= 48
-    SetFontSize 45
-    Continue
-  Show
-    Class == "Life Flasks"
-	  BaseType "Hallowed" "Sanctified"
-	  AreaLevel <= 60
-    SetFontSize 45
-  Show
-    Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-    Quality > 10
-	  AreaLevel < 73
-    SetFontSize 45
-  Show
-    Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-    Quality >= 20
-    SetFontSize 45
+
 
 ####################################################################################################
 ########## Maps
@@ -979,12 +1085,13 @@ Show
 
 Show
   Class == "Contracts"
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 255 200 0
+  SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
 	PlayAlertSound 2 300
-	PlayEffect Orange
-	MinimapIcon 1 Orange Square
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Square
 
 Show 
   Class "Blueprints" "Breachstones" "Expedition Logbooks" "Memories" "Sanctum Research"
@@ -1065,9 +1172,9 @@ Show
 Show
 	Class == "Maps"
 	MapTier >= 16
-  SetTextColor 210 0 220
-  SetBorderColor 210 0 220
-  SetBackgroundColor 255 255 255
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 191 67 85
   SetFontSize 45
 	PlayAlertSound 6 300
   MinimapIcon 0 Pink Square
@@ -1088,9 +1195,10 @@ Show
 	Class == "Maps"
 	MapTier <= 13
   AreaLevel < 83
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 163 141 109
+  SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 222 170 41
 	PlayAlertSound 2 300
 	PlayEffect Orange
 	MinimapIcon 1 Orange Square
@@ -1131,25 +1239,12 @@ Show
 Show 
   Class "Quest Items"
   SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 74 230 58
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 129 172 116
 	PlayAlertSound 2 300
 	PlayEffect Green
 	MinimapIcon 0 Green Kite
-
-##################################################
-########## Remaining Currency Like Items
-##################################################
-Show 
-  Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"
-  SetFontSize 45
-	SetTextColor 255 255 255
-	SetBorderColor 255 255 255
-	SetBackgroundColor 50 230 100
-	PlayAlertSound 2 300
-	PlayEffect Cyan
-	MinimapIcon 0 Cyan Circle
 
 ####################################################################################################
 ########## Rest
@@ -1157,9 +1252,9 @@ Show
 Show 
   Class "Atlas Upgrade Items" "Blueprints" "Breachstones" "Charms" "Contracts" "Embers of the Allflame" "Expedition Logbooks" "Fishing Rods" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Hideout Doodads" "Incubators" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Leaguestones" "Maps" "Memories" "Metamorph Samples" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Pieces" "Quest Items" "Sanctified Relics" "Sanctum Research" "Sentinels" "Tinctures" "Trinkets" "Vault Keys"
 	SetFontSize 45
-	SetTextColor 20 240 240
-	SetBorderColor 240 0 0
-	SetBackgroundColor 70 0 20
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 129 172 116
 	PlayAlertSound 1 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star

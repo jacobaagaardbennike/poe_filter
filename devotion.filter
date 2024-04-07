@@ -471,7 +471,7 @@ Show
   Continue
   Show # gear for ubild
     Class == "Divination Cards"
-    BaseType == "Desperate Crusade" #prism guardian shield
+    BaseType == 
     SetFontSize 45
     Continue
   Hide
@@ -487,11 +487,16 @@ Show
 "The Army of Blood" # Bloodbond chest
 "The Return of the Rat" # Tavukai - coral amulet
 "The Lich" # Midnight Bargain Engraved Wand
+"The Darkest Dream" # severed in sleep sword
+"The Bones" # 21 vaal skeletons
+"Death" # Mon'tregul's Grasp
+"The Summoner" # 20% minion gem
+"Nook's Crown" # Bone Helmet Elder
+
 
 "The Incantation" # the whispering ice
 "The Siren" # whips corrupted
 "The Demoness" # Death's Hand
-"Death" # Mon'tregul's Grasp
 "A Dab of Ink" # Poets pen
 "Cursed Words" # Maw of Mischief (minion)
 "The Beast" # belly of the beast
@@ -500,7 +505,7 @@ Show
 "Poisoned Faith" # corrupt arakalis fang 
 "The Porcupine" #6link short
 "The Avenger" # corrupt møljner
-"The Darkest Dream" # minion severed in sleep
+
 "Emperor of Purity" # 6link holy chainmail
 "Broken Truce" # cold iron point - dagger
 "Pride Before the Fall" # corrupted kaoms heart
@@ -522,10 +527,25 @@ Show
 "Thunderous Skies" # Storm Cloud long bow
 "Vile Power" # doomfletch bow
 "The King's Heart" # kaom's heart
+"The Brittle Emperor" # Voll's Devotion Agate Amulet
+"The Realm" #portal
+"Desperate Crusade" #prism guardian shield
+"Lethean Temptation" # Nebulis Void Sceptre
+"Mawr Blaidd" # Eyes of the Greatwolf Greatwolf Talisman
+"Gift of Asenath" # Asenath's Gentle Touch Silk Gloves
+"Hunter's Reward" # The Taming Prismatic Ring
+"The Astromancer" # The Eternity Shroud Blood Raiment
+"The Last Supper" # Bino's Kitchen Knife
+"The Offering" # shavronne's wrappings
+"The Wedding Gift" # Arakaali's Fang
+"Assassin's Gift" # Divinarius Imperial Skean
 
 # bow
 "A Note in the Wind" # Asenath's Mark - helmet
 "Endless Night" # Maloney's Mechanism Ornate Quiver
+"Imperial Legacy" #6link imperial bow
+"Bowyer's Dream" #6link harbringer
+"The Porcupine" #six link shhort
 
 
 # influence
@@ -539,6 +559,14 @@ Show
 "The Undisputed" # merciless vaal axe - elder
 "The Journalist" # double veiled
 "The Hale Heart" # elder Item
+"Duality" # double influenced body armour
+"Further Invention" # double influenced helmet
+"Keeper's Corruption" # eldricth bone helm - elder but found in breach realm
+"Draped in Dreams" # 6link astral plate influenced
+"The White Knight" # 6link astral plate - crusader
+"The Enforcer" # Spiked Gloves - Warlord (melee)
+
+
 
 
 # map
@@ -549,12 +577,24 @@ Show
 "Treasure Hunter" # Vaults of Atziri
 "The Landing" # The Breachhead
 "The Encroaching Darkness" #uniq map
+"The Dreamland" # Poorjoy's Asylum
+"Azure Rage" # punishing map 16
+"Left to Fate" # corrupted t16 map
+"The Wolf's Legacy" # Vaults of Atziri
 
 
 # leveling
 "Loyalty" # 3x fusing
 "The Catalyst" #1x vaal
 "The Magma Crab" # 21 vaal molten shell
+"The Stormcaller" # angerod staff
+"Humility" #tabula
+"The Chain that Binds" #6link body
+"The Dapper Prodigy" #6link body
+"The Fool" #20 orb of chance
+"Three Faces in the Dark" # 3x chaos orb
+"Vanity" # corrupted tabula
+
 
 
 
@@ -562,7 +602,13 @@ Show
 "The Spoiled Prince"
 "The Twins"
 "The Warden"
-
+"The Fox"
+"Boundless Realms"
+"The Rite of Elements"
+"The Vast"
+"The Bitter Blossom"
+"The Celestial Justicar"
+"The Enthusiasts"
 
 
 "A Chilling Wind"

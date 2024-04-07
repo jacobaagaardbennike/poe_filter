@@ -1,0 +1,126 @@
+# TOP
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 10 300
+	PlayEffect Red
+	MinimapIcon 0 Red CHANGEME
+
+# TOP SPESHUL
+	PlayEffect Pink
+	MinimapIcon 0 Pink Cross
+
+# GOOD
+	SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect Red
+	MinimapIcon 0 Red CHANGEME
+
+# Good SPESHUL
+	PlayEffect Purple
+	MinimapIcon 0 Purple Cross
+
+# DECENT
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange CHANGEME
+
+# RUN BYABLE
+  SetFontSize 40
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow CHANGEME
+
+# UNIQUE
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 11 300
+	PlayEffect Brown
+	MinimapIcon 0 Brown CHANGEME
+
+# UNIQUE MAPS
+	PlayAlertSound CHANGEME 300
+	PlayEffect Brown
+	MinimapIcon 0 Brown Square
+
+# TOP CARDS
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 10 300
+	PlayEffect Red
+	MinimapIcon 0 Red UpsideDownHouse
+
+# CARDS
+	PlayAlertSound 12 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange UpsideDownHouse
+
+# VAAL
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect White
+	MinimapIcon 2 White CHANGEME
+
+# QUEST
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect CHANGEME
+	MinimapIcon 0 CHANGEME Kite
+
+  # MAPS 14, 15 , 16+
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 16 300
+	PlayEffect Red
+	MinimapIcon 0 Red Square
+
+
+# Sounds:
+    # 10 = TOP
+    # 11 = Unique + Gems
+    # 12 = Everything Else
+    # 16 = Good Maps
+
+# White egg shell - rgb(254, 255, 242) - #FEFFF2
+# White "paper" - rgb(252, 247, 228) - #FCF7E4
+# Black: rgb(35, 33, 29) - #23211D
+
+# Yellow "light": rgb(254, 236, 163) - #FEECA3 -
+# Yellow: rgb(249, 213, 102) - #F9D566 -
+# Yellow "Gold" - rgb(245, 200, 74) - #F5C84A
+
+# Purple: rgb(157, 93, 112) - #9D5D70 -
+# Green: rgb(92, 154, 81) - #5C9A51 -
+
+
+# Red "Orange": rgb(242, 79, 58) - #F24F3A
+
+# Red "bright": rgb(254, 54, 41) - #FE3629
+# Red: rgb(217, 56, 45) - #D9382D
+# Red "blood": rgb(173, 25, 19) - #AD1913
+
+
+

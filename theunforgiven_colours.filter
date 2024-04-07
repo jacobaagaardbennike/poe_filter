@@ -1,0 +1,119 @@
+# TOP
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 10 300
+	PlayEffect Red
+	MinimapIcon 0 Red CHANGEME
+
+# TOP SPESHUL
+	PlayEffect Pink
+	MinimapIcon 0 Pink Cross
+
+# GOOD
+	SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect Red
+	MinimapIcon 0 Red CHANGEME
+
+# Good SPESHUL
+	PlayEffect Purple
+	MinimapIcon 0 Purple Cross
+
+# DECENT
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange CHANGEME
+
+# RUN BYABLE
+  SetFontSize 40
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow CHANGEME
+
+# UNIQUE
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 11 300
+	PlayEffect Brown
+	MinimapIcon 0 Brown CHANGEME
+
+# UNIQUE MAPS
+	PlayAlertSound CHANGEME 300
+	PlayEffect Brown
+	MinimapIcon 0 Brown Square
+
+# TOP CARDS
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 10 300
+	PlayEffect Red
+	MinimapIcon 0 Red UpsideDownHouse
+
+# CARDS
+	PlayAlertSound 12 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange UpsideDownHouse
+
+# VAAL
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect White
+	MinimapIcon 2 White CHANGEME
+
+# QUEST
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect CHANGEME
+	MinimapIcon 0 CHANGEME Kite
+
+  # MAPS 14, 15 , 16+
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 16 300
+	PlayEffect Red
+	MinimapIcon 0 Red Square
+
+
+# Sounds:
+    # 10 = TOP
+    # 11 = Unique + Gems
+    # 12 = Everything Else
+    # 16 = Good Maps
+
+
+# 
+# 
+#
+#
+#
+#
+#
+#
+#
+#
+
+

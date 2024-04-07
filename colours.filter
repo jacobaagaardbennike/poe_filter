@@ -1,0 +1,129 @@
+# TOP
+  SetFontSize 45
+	SetTextColor 74 181 82
+	SetBorderColor 223 255 156
+	SetBackgroundColor 254 254 241
+	PlayAlertSound 10 300
+	PlayEffect Green
+	MinimapIcon 0 Green CHANGEME
+
+# TOP SPESHUL
+	PlayEffect Pink
+	MinimapIcon 0 Pink Cross
+
+# GOOD
+	SetFontSize 45
+	SetTextColor 254 254 241
+	SetBorderColor 223 255 156
+	SetBackgroundColor 74 181 82
+	PlayAlertSound 12 300
+	PlayEffect Green
+	MinimapIcon 0 Green CHANGEME
+
+# Good SPESHUL
+	PlayEffect Purple
+	MinimapIcon 0 Purple Cross
+
+# DECENT
+  SetFontSize 45
+	SetTextColor 254 254 241
+	SetBorderColor 223 255 156
+	SetBackgroundColor 26 78 39
+	PlayAlertSound 12 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange CHANGEME
+
+# RUN BYABLE
+  SetFontSize 40
+	SetTextColor 74 181 82
+	SetBorderColor 223 255 156
+	SetBackgroundColor 26 78 39
+	PlayAlertSound 12 300
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow CHANGEME
+
+# UNIQUE
+  SetFontSize 45
+	SetTextColor 254 254 241
+	SetBorderColor 223 255 156
+	SetBackgroundColor 192 96 49
+	PlayAlertSound 11 300
+	PlayEffect Brown
+	MinimapIcon 0 Brown CHANGEME
+
+# UNIQUE MAPS
+	PlayAlertSound CHANGEME 300
+	PlayEffect Brown
+	MinimapIcon 0 Brown Square
+
+# TOP CARDS
+  SetFontSize 45
+	SetTextColor 26 78 39
+	SetBorderColor 223 255 156
+	SetBackgroundColor 210 237 239
+	PlayAlertSound 10 300
+	PlayEffect Green
+	MinimapIcon 0 Green UpsideDownHouse
+
+# CARDS
+	PlayAlertSound 12 300
+	PlayEffect Orange
+	MinimapIcon 1 Orange UpsideDownHouse
+
+# VAAL
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect White
+	MinimapIcon 2 White CHANGEME
+
+# QUEST
+  SetFontSize 45
+	SetTextColor 
+	SetBorderColor 
+	SetBackgroundColor 
+	PlayAlertSound 12 300
+	PlayEffect CHANGEME
+	MinimapIcon 0 CHANGEME Kite
+
+  # MAPS 14, 15 , 16+
+  SetFontSize 45
+	SetTextColor 26 78 39
+	SetBorderColor 223 255 156
+	SetBackgroundColor 232 151 144
+	PlayAlertSound 16 300
+	PlayEffect Red
+	MinimapIcon 0 Red Square
+
+
+# Sounds:
+    # 10 = TOP
+    # 11 = Unique + Gems
+    # 12 = Everything Else
+    # 16 = Good Maps
+
+
+ 
+# Green: rgb(74, 181, 82) - #4AB552 - 74 181 82
+# Very light green: rgb(223, 255, 156) - #DFFF9C - 223 255 156
+# Dark Green: rgb(26, 78, 39) - #1A4E27 - 26 78 39
+
+# Black: rgb(41, 46, 54) - #292E36 - 41 46 54
+# White ish: rgb(254, 254, 241) - #FEFEF1 - 254 254 241
+
+# Orange Brown: rgb(192, 96, 49) - #C06031 - 192 96 49
+# Plasma Blue: rgb(210, 237, 239) - #D2EDEF - 210 237 239
+
+# Redish: rgb(232, 151, 144) - #E89790 - 232 151 144
+# Yellow: rgb(212, 180, 61) - #D4B43D - 212 180 61
+
+
+
+# Red: rgb(239, 37, 32) - #EF2520 - 239 37 32 / old
+# Orange: rgb(246, 160, 29) - #F6A01D - 246 160 29
+
+
+
+

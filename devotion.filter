@@ -482,118 +482,566 @@ Show
 
 
 
-# minion
-"Dark Dreams" # elder bone helmet
-"The Army of Blood" # Bloodbond chest
-"The Return of the Rat" # Tavukai - coral amulet
-"The Lich" # Midnight Bargain Engraved Wand
-"The Darkest Dream" # severed in sleep sword
-"The Bones" # 21 vaal skeletons
-"Death" # Mon'tregul's Grasp
-"The Summoner" # 20% minion gem
+
+
+
+"Beauty Through Death"
+"Brother's Gift"
+"Brother's Stash"
+"Choking Guilt"
+"Darker Half"
+"Deadly Joy"
+"Desecrated Virtue"
+"Divine Beauty"
+"Divine Justice"
+"Fire Of Unknown Origin"
+"House of Mirrors"
+"I See Brothers"
+"Love Through Ice"
+"Luminous Trove"
+"Misery in Darkness"
+"Pride of the First Ones"
+"Seven Years Bad Luck"
+"Succor of the Sinless"
+"The Apothecary"
+"The Cheater"
+"The Chosen"
+"The Demon"
+"The Doctor"
+"The Dragon's Heart"
+"The Endless Darkness"
+"The Enlightened"
+"The Fiend"
+"The Greatest Intentions"
+"The Gulf"
+"The Immortal"
+"The Insane Cat"
+"The Last One Standing"
+"The Nurse"
+"The Price of Devotion"
+"The Price of Loyalty"
+"The Progeny of Lunaris"
+"The Sacrifice"
+"The Samurai's Eye"
+"The Sephirot"
+"The Shieldbearer"
+"The World Eater"
+"Tranquillity"
+"Unrequited Love"
+"Wealth and Power"
+"A Fate Worse Than Death"
+"Alluring Bounty"
+"Anarchy's Price"
+"Broken Promises"
+"Burning Blood"
+"Doryani's Epiphany"
+"Gemcutter's Mercy"
+"Home"
+"Imperfect Memories"
+"Matryoshka"
+"Monochrome"
 "Nook's Crown" # Bone Helmet Elder
-
-
-"The Incantation" # the whispering ice
-"The Siren" # whips corrupted
-"The Demoness" # Death's Hand
+"Silence and Frost"
+"The Artist"
+"The Destination"
+"The Eldritch Decay"
+"The Emptiness"
+"The Eternal War"
+"The Eye of Terror"
+"The Fortunate"
+"The Garish Power"
+"The Hook"
+"The Long Con"
+"The Mad King"
+"The Shortcut"
+"The Soul"
+"A Familiar Call"
+"Abandoned Wealth"
+"Altered Perception"
+"Ambitious Obsession"
+"Arrogance of the Vaal"
+"Assassin's Gift" # Divinarius Imperial Skean
+"Auspicious Ambitions"
+"Azyran's Reward"
+"Boon of the First Ones"
+"Brotherhood in Exile"
+"Brush, Paint and Palette"
+"Chaotic Disposition"
+"Chasing Risk"
+"Council of Cats"
+"Dementophobia"
+"Desperate Crusade" #prism guardian shield
+"Draped in Dreams" # blue 6link astral plate influenced
+"Eternal Bonds"
+"Ever-Changing"
+"Fateful Meeting"
+"Gift of Asenath" # Asenath's Gentle Touch Silk Gloves
+"Guardian's Challenge"
+"Hunter's Reward" # The Taming Prismatic Ring
+"Judging Voices"
+"Justified Ambition"
+"Lachrymal Necrosis"
+"Last Hope"
+"Lethean Temptation" # Nebulis Void Sceptre
+"Lingering Remnants"
+"Magnum Opus"
+"Mawr Blaidd" # Eyes of the Greatwolf Greatwolf Talisman
+"Peaceful Moments"
+"Remembrance"
+"Something Dark"
+"Terrible Secret of Space"
+"The Academic"
+"The Aspirant"
+"The Astromancer" # The Eternity Shroud Blood Raiment
+"The Awakened"
+"The Bitter Blossom"
+"The Celestial Justicar"
+"The Celestial Stone"
+"The Craving"
+"The Damned"
+"The Dreamer"
+"The Enforcer" # blue spiked gloves Warlord
+"The Enthusiasts"
+"The Escape"
+"The Eye of the Dragon"
+"The Fishmonger"
+"The Last Supper" # Bino's Kitchen Knife
+"The Leviathan"
+"The Life Thief"
+"The Offering""The Offering" # shavronne's wrappings
+"The Old Man"
+"The One That Got Away"
+"The Patient"
+"The Polymath"
+"The Professor"
+"The Rabbit's Foot"
+"The Risk"
+"The Saint's Treasure"
+"The Scout"
+"The Shepherd's Sandals"
+"The Spark and the Flame"
+"The Strategist"
+"The Transformation"
+"The Twilight Moon"
+"The Undaunted"
+"The Union"
+"The Valkyrie"
+"The Void"
+"The Wedding Gift" # Arakaali's Fang
+"The White Knight" #blue 6link astral plate - crusader
+"The Wilted Rose"
+"The Wretched"
+"Underground Forest"
+"Void of the Elements" # blue shaper opal ring
+"Who Asked"
+"Winter's Embrace"
+"A Sea of Blue"
+"Acclimatisation"
+"Boon of Justice"
+"Bowyer's Dream" # white 6link harbringer
+"Cameria's Cut" # scarab
+"Checkmate"
+"Coveted Possession"
+"Demigod's Wager"
+"Disdain"
+"Emperor of Purity" # white 6link holy chainmail
+"Emperor's Luck"
+"Harmony of Souls"
+"Humility" #tabula
+"Immortal Resolve"
+"Imperial Legacy" #white 6link imperial bow
+"Lucky Connections"
+"Lucky Deck"
+"Man With Bear"
+"More is Never Enough"
+"No Traces"
+"Rebirth and Renewal"
+"Sambodhi's Vow"
+"Society's Remorse"
+"The Cacophony"
+"The Card Sharp"
+"The Cartographer"
+"The Chains that Bind"
+"The Dapper Prodigy" #6 blue link body
+"The Dark Mage"
+"The Ethereal" # white 6link vaal regalia white
+"The Finishing Touch"
+"The Fool" # 20x chance
+"The Gemcutter"
+"The Heroic Shot"
+"The Hoarder"
+"The Innocent"
+"The Inventor"
+"The Obscured"
+"The Porcupine" #white 6link shortbow
+"The Price of Prescience"
+"The Price of Protection"
+"The Rusted Bard"
+"The Seeker"
+"The Side Quest"
+"The Survivalist"
+"The Tinkerer's Table"
+"The Warlord" # six link 2handed maul
+"The Wrath"
+"Three Faces in the Dark" # 3x chaos orb
+"Three Voices"
+"Vanity" # corrupted tabula
+"Vinia's Token"
+"Buried Treasure" # sulphite scarab
+"Gemcutter's Promise"
+"Her Mask"
+"Loyalty" # 3x fusing
+"Rain of Chaos"
+"The Catalyst" # 1x vaal
+"The Deal" # cartography scarab
+"The Flora's Gift"
+"The Gambler"
+"The Journey"
+"The Master Artisan"
+"The Puzzle"
+"The Scholar"
+"The Tireless Extractor"
+"A Chilling Wind"
 "A Dab of Ink" # Poets pen
-"Cursed Words" # Maw of Mischief (minion)
-"The Beast" # belly of the beast
-"The Enforcer" # spiked gloves Warlord
-"Void of the Elements" # shaper opal ring
-"Poisoned Faith" # corrupt arakalis fang 
-"The Porcupine" #6link short
-"The Avenger" # corrupt møljner
-
-"Emperor of Purity" # 6link holy chainmail
+"A Dusty Memory"
+"A Modest Request"
+"A Note in the Wind" # Asenath's Mark - helmet (bow)
+"A Stone Perfected"
+"Akil's Prophecy"
+"Alone in the Darkness"
+"Assassin's Favour"
+"Astral Protection" # blue shaper shield
+"Atziri's Arsenal"
+"Azure Rage" # blue punishing map 16
+"Baited Expectations"
+"Bijoux"
+"Blind Venture"
+"Boundless Realms"
 "Broken Truce" # cold iron point - dagger
+"Costly Curio"
+"Dark Dreams" # elder bone helmet
+"Dark Temptation"
+"Death" # Mon'tregul's Grasp
+"Deathly Designs"
+"Dialla's Subjugation"
+"Doedre's Madness"
+"Duality" # blue double influenced body armour
+"Dying Anguish"
+"Dying Light" # blue shaper + elder diamond ring
+"Earth Drinker"
+"Eldritch Perfection"
+"Endless Night" # Maloney's Mechanism Ornate Quiver
+"Etched in Blood"
+"Further Invention" # blue double influenced helmet
+"Gift of the Gemling Queen"
+"Glimmer of Hope"
+"Grave Knowledge"
+"Haunting Shadows"
+"Heterochromia"
+"Hope"
+"Hubris"
+"Hunter's Resolve"
+"Jack in the Box"
+"Keeper's Corruption" # eldricth bone helm - elder but found in breach realm
+"Left to Fate" # yellow corrupted t16 map
+"Lost Worlds"
+"Lysah's Respite"
+"Merciless Armament"
+"Mitts"
+"Parasitic Passengers"
+"Perfection" # blue shaper jewellery
+"Poisoned Faith" # corrupt arakalis fang
+"Prejudice"
 "Pride Before the Fall" # corrupted kaoms heart
-"Rats" # rats nest
-"The Coming Storm" # lightning coil chest
-"The Ethereal" # six link vaal regalia white
-"The Fathomless Depths" # Lightpoacher - abyss hat
+"Prometheus' Armoury" # blue double influenced 1hand weap
+"Rebirth"
+"Reckless Ambition"
+"Sambodhi's Wisdom"
+"Scholar of the Seas" # Mao Kun umap
+"Shard of Fate"
+"Soul Quenched" # blue two-handed experimental weapon
+"The Admirer"
+"The Aesthete"
+"The Archmage's Right Hand"
+"The Arena Champion"
+"The Avenger" # corrupt møljner
+"The Battle Born"
+"The Bear Woman" # blue warlod ursine pelt hat
+"The Beast" # belly of the beast
+"The Blessing of Moosh"
+"The Body"
+"The Bones" # 21 vaal skeletons
+"The Brawny Battle Mage"
+"The Breach"
+"The Brittle Emperor" # Voll's Devotion Agate Amulet
+"The Cache"
+"The Calling"
+"The Cataclysm"
+"The Catch"
+"The Darkest Dream" # severed in sleep sword (minion)
+"The Deep Ones"
+"The Doppelganger"
+"The Dragon"
+"The Dreamland" # Poorjoy's Asylum umap
+"The Dungeon Master"
+"The Easy Stroll"
+"The Encroaching Darkness" # umap
+"The Endurance"
+"The Explorer"
+"The Forgotten Treasure"
 "The Formless Sea" # varunastra sword
-"The Master" # Bisco's collar gold amulet
+"The Forward Gaze"
+"The Fox"
+"The Gentleman"
+"The Gladiator"
+"The Hale Heart" # blue elder Item
+"The Hive of Knowledge"
+"The Hunger"
+"The Jeweller's Boon"
+"The King's Heart" # kaom's heart
+"The Landing" # The Breachhead umap
+"The Lion"
+"The Magma Crab" # 21 vaal molten shell
+"The Mercenary"
+"The Messenger"
+"The Mind's Eyes"
+"The Mountain"
 "The Offspring" # Ryslatha's Coil belt
+"The One With All"
+"The Pact"
+"The Penitent"
+"The Primordial"
+"The Prince of Darkness"
+"The Queen"
+"The Realm" #portal
+"The Rite of Elements"
+"The Road to Power"
+"The Skeleton"
+"The Standoff"
+"The Stormcaller" # angerod staff
+"The Summoner" # 20% minion gem
+"The Surveyor"
+"The Thaumaturgist"
+"The Tower"
+"The Traitor"
+"The Trial"
+"The Tumbleweed" # blue diamond ring - redeemer item
+"The Tyrant"
+"The Undisputed" # blue merciless vaal axe - elder
+"The Unexpected Prize"
+"The Vast"
+"The Whiteout" # Cospri's Malice 1h sword foil
+"The Wolf"
+"The Wolf's Legacy" # Vaults of Atziri umap
+"The Wolven King's Bite"
+"The Wolverine"
+"Time-Lost Relic"
+"Triskaidekaphobia"
+"Unchained"
+"Vile Power" # doomfletch bow
+"Volatile Power"
+"A Mother's Parting Gift"
+"Alivia's Grace"
+"Audacity"
+"Call to the First Ones"
+"Cartographer's Delight"
+"Cursed Words" # Maw of Mischief (minion)
+"Destined to Crumble"
+"Echoes of Love"
+"Forbidden Power"
+"From Bone to Ashes"
+"Lantador's Lost Love"
+"Light and Truth"
+"Might is Right"
+"Prosperity"
+"Rain Tempter"
+"Rats" # rats nest
+"Struck by Lightning"
+"The Adventuring Spirit"
+"The Army of Blood" # Bloodbond chest
+"The Betrayal"
+"The Blazing Fire"
+"The Carrion Crow"
+"The Coming Storm" # lightning coil chest
+"The Conduit"
+"The Cursed King"
+"The Deceiver"
+"The Demoness" # Death's Hand
+"The Drunken Aristocrat"
+"The Fathomless Depths" # Lightpoacher - abyss hat
+"The Feast"
+"The Fletcher"
+"The Forsaken"
+"The Fox in the Brambles"
+"The Golden Era"
+"The Harvester"
+"The Hermit"
+"The Incantation" # the whispering ice
+"The Inoculated"
+"The Insatiable"
+"The Jester"
+"The Journalist" # blue double veiled item
+"The King's Blade"
+"The Lich" # Midnight Bargain Engraved Wand
+"The Lord in Black"
+"The Lord of Celebration"
+"The Lover"
+"The Lunaris Priestess"
+"The Master" # Bisco's collar gold amulet
+"The Metalsmith's Gift"
+"The Oath"
+"The Opulent"
 "The Pack Leader" # Alpha's Howl
+"The Poet"
+"The Rabid Rhoa"
+"The Return of the Rat" # Tavukai - coral amulet
+"The Ruthless Ceinture"
+"The Scarred Meadow"
+"The Scavenger"
+"The Sigil"
+"The Siren" # the whispering ice corrupted
+"The Spoiled Prince"
+"The Sun"
+"The Surgeon"
 "The Sword King's Salute" # Daresso's Salute amulet
 "The Throne" # Kaom's Roots boots
+"The Twins"
 "The Visionary" # Lioneye's Vision - chest
-"The Warlord" # six link 2handed maul
+"The Warden"
 "The Watcher" # crown of eyes hat
-"The Whiteout" # Cospri's Malice 1h sword foil
+"The Web"
 "The Wind" # Windripper imperial bow
+"The Witch"
+"The Wolf's Shadow"
+"Thirst for Knowledge"
 "Thunderous Skies" # Storm Cloud long bow
-"Vile Power" # doomfletch bow
-"The King's Heart" # kaom's heart
-"The Brittle Emperor" # Voll's Devotion Agate Amulet
-"The Realm" #portal
-"Desperate Crusade" #prism guardian shield
-"Lethean Temptation" # Nebulis Void Sceptre
-"Mawr Blaidd" # Eyes of the Greatwolf Greatwolf Talisman
-"Gift of Asenath" # Asenath's Gentle Touch Silk Gloves
-"Hunter's Reward" # The Taming Prismatic Ring
-"The Astromancer" # The Eternity Shroud Blood Raiment
-"The Last Supper" # Bino's Kitchen Knife
-"The Offering" # shavronne's wrappings
-"The Wedding Gift" # Arakaali's Fang
-"Assassin's Gift" # Divinarius Imperial Skean
+"Treasure Hunter" # Vaults of Atziri umap
+"Turn the Other Cheek"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# minion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # bow
-"A Note in the Wind" # Asenath's Mark - helmet
-"Endless Night" # Maloney's Mechanism Ornate Quiver
-"Imperial Legacy" #6link imperial bow
-"Bowyer's Dream" #6link harbringer
-"The Porcupine" #six link shhort
+
+
+
+
 
 
 # influence
-"Astral Protection" # shaper shield
-"Dying Light" # shaper + elder diamond ring
-"Perfection" # shaper jewellery
-"Prometheus' Armoury" # double influenced 1hand weap
-"Soul Quenched" # two-handed experimental weapon
-"The Bear Woman" # warlod ursine pelt hat
-"The Tumbleweed" # diamond ring - redeemer item
-"The Undisputed" # merciless vaal axe - elder
-"The Journalist" # double veiled
-"The Hale Heart" # elder Item
-"Duality" # double influenced body armour
-"Further Invention" # double influenced helmet
-"Keeper's Corruption" # eldricth bone helm - elder but found in breach realm
-"Draped in Dreams" # 6link astral plate influenced
-"The White Knight" # 6link astral plate - crusader
-"The Enforcer" # Spiked Gloves - Warlord (melee)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 # map
-"Buried Treasure" # sulphite scarab
-"Cameria's Cut" # scarab
-"The Deal" # cartography scarab
-"Scholar of the Seas" # Mao Kun
-"Treasure Hunter" # Vaults of Atziri
-"The Landing" # The Breachhead
-"The Encroaching Darkness" #uniq map
-"The Dreamland" # Poorjoy's Asylum
-"Azure Rage" # punishing map 16
-"Left to Fate" # corrupted t16 map
-"The Wolf's Legacy" # Vaults of Atziri
+
+
+
+
+
+
+
+
+
+
+
 
 
 # leveling
-"Loyalty" # 3x fusing
-"The Catalyst" #1x vaal
-"The Magma Crab" # 21 vaal molten shell
-"The Stormcaller" # angerod staff
-"Humility" #tabula
+
+
+
+
+
 "The Chain that Binds" #6link body
-"The Dapper Prodigy" #6link body
-"The Fool" #20 orb of chance
-"Three Faces in the Dark" # 3x chaos orb
-"Vanity" # corrupted tabula
+
+
+
+
 
 
 

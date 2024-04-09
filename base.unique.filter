@@ -1,0 +1,72 @@
+####################################################################################################
+########## Important Uniques
+####################################################################################################
+t: "Cabalist Regalia"
+# The Apostate Cabalist Regalia - Uber Venarius (cortex synth map), nochance
+
+t: "Engraved Greatsword"
+# Rakiata's Dance - anywhere, chance
+
+t: "Ezomyte Tower Shield"
+# The Anticipation - Uul-Netol and her Breach monsters, nochance (50-100c)
+# The Surrender -  Uul-Netol in the Flawless Breachstone , nochance (expensive)
+
+t: "Foul Staff"
+# The Winds of Fate - The Second Sacrament is applied to a Sanctum with a level 83 Forbidden Tome, nochance
+
+t: "Ghastly Eye Jewel"
+# Amanamu's Gaze - Stygian Spires or the Abyssal Liches, nochance
+
+t: "Golden Buckler"
+# Atziri's Reflection - uber atziri, nochance
+
+t: "Prismatic Jewel"
+# Emperor's Mastery - reasure chests at the end of the Eternal and Enriched Eternal Labyrinth, nochance (extremely expensive)
+# The Anima Stone - recipes only, nochance
+# Watcher's Eye - elder + uber elder, no chance
+# Sublime Vision - uber shaper uber eldar, nochance
+# The Perandus Pact -  Perandus family corpses in the Necropolis, nochance
+
+t: "Prophecy Wand"
+# Void Battery - anywhere, chance (not expensive)
+# Grace of the Goddess - uber maven, nochance (extremely expensive)
+
+t: "Ring"
+# Kalandra's Touch - anywhere, weirdchance
+
+t: "Riveted Boots"
+# Ralakesh's Impatience - anywhere, chance
+
+t: "Ruby Flask"
+# Dying Sun - the shaper, nochance (extremely expensive)
+# Coruscating Elixir - cheap
+
+t: "Siege Axe"
+# Soul Taker - anywhere, chance
+
+t: "Unset Amulet"
+# Uul-Netol's Vow - any Breachlord in a Flawless Breachstone, nochance
+
+
+##################################################
+########## ok expensive
+##################################################
+
+t: "Devout Chainmail"
+# The Fourth Vow - anywhere, chance
+
+##################################################
+########## collecting
+##################################################
+
+##################################################
+########## build
+##################################################
+
+##################################################
+########## ssf
+##################################################
+
+##################################################
+########## hide
+##################################################

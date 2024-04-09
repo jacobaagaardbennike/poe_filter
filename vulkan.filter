@@ -15,14 +15,6 @@
 # AreaLevel < 78 # below tier 11 (white and yellow maps)
 # AreaLevel < 81 # below tier 14 (low maps)
 
-# Green: rgb(54, 115, 47) - #36732F - 54 115 47
-# Yellow: rgb(253, 211, 84) - #FDD354 - 253 211 84
-# Orange: rgb(246, 160, 29) - #F6A01D - 246 160 29
-# Red: rgb(239, 37, 32) - #EF2520 - 239 37 32
-# Plasma Blue: rgb(210, 237, 239) - #D2EDEF - 210 237 239
-
- # Black: rgb(26, 27, 27) - #1A1B1B - 26 27 27
- # White ish: rgb(254, 254, 241) - #FEFEF1 - 254 254 241
 
 ####################################################################################################
 ########## Important Stuff
@@ -30,12 +22,6 @@
 Show 
   Class "Atlas Upgrade Items" "Fishing Rods" "Hideout Doodads" "Leaguestones" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Vault Keys"
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 ####################################################################################################
 ########## Maps
@@ -44,12 +30,6 @@ Show
 	Class == "Maps"
 	Rarity Unique
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 192 96 49
-	PlayAlertSound 16 300
-	PlayEffect Brown
-	MinimapIcon 0 Brown Square
 
 Show
   Class == "Contracts"
@@ -57,89 +37,41 @@ Show
 Show 
   Class "Blueprints" "Breachstones" "Expedition Logbooks" "Memories" "Sanctum Research"
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 16 300
-	PlayEffect Green
-	MinimapIcon 0 Green Square
 
 Show 
   Class "Maps"
   ShapedMap True
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 16 300
-	PlayEffect Green
-	MinimapIcon 0 Green Square
 
 Show 
   Class "Maps"
   ElderMap True
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 16 300
-	PlayEffect Green
-	MinimapIcon 0 Green Square
   
 Show 
   Class "Maps"
   BlightedMap True
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 16 300
-	PlayEffect Green
-	MinimapIcon 0 Green Square
 
 Show 
   Class "Maps"
   UberBlightedMap True
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 16 300
-	PlayEffect Green
-	MinimapIcon 0 Green Square
 
 Show 
   Class "Maps"
   HasImplicitMod True
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 16 300
-	PlayEffect Green
-	MinimapIcon 0 Green Square
 
 Show 
   Class "Maps"
   AnyEnchantment True
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 16 300
-	PlayEffect Green
-	MinimapIcon 0 Green Square
 
 Show
 	Class == "Maps"
 	MapTier >= 16
   SetFontSize 45
-	SetTextColor 26 78 39
-	SetBorderColor 223 255 156
-	SetBackgroundColor 232 151 144
-	PlayAlertSound 16 300
-	PlayEffect Red
-	MinimapIcon 0 Red Square
 
 ##################################################
 ########## Maps: Hide + League Start
@@ -153,12 +85,6 @@ Hide
 	  MapTier <= 13
     AreaLevel < 83
     SetFontSize 45
-	  SetTextColor 254 254 241
-	  SetBorderColor 223 255 156
-	  SetBackgroundColor 26 78 39
-	  PlayAlertSound 12 300
-	  PlayEffect Orange
-	  MinimapIcon 1 Orange Square
     Continue
   Show
 	  Class == "Maps"
@@ -166,12 +92,6 @@ Hide
     MapTier <= 15
     # AreaLevel < 83
     SetFontSize 45
-	  SetTextColor 26 78 39
-	  SetBorderColor 223 255 156
-	  SetBackgroundColor 232 151 144
-	  PlayAlertSound 16 300
-	  PlayEffect Red
-	  MinimapIcon 0 Red Square
 
 
 ####################################################################################################
@@ -184,12 +104,6 @@ Show # >30 Dex / >50 Life / >30 Any Resist / >10% DoT Multi / >20% Fire Damage
   ItemLevel >= 75 # +1 fire gem craft
   # ItemLevel >= 84 # max resist craft
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 Show # >30 Dex / >40 Life / >30 Any Resist / >50 Life Regen / >20% Fire Damage
@@ -197,12 +111,6 @@ Show # >30 Dex / >40 Life / >30 Any Resist / >50 Life Regen / >20% Fire Damage
   FracturedItem True
   # ItemLevel >= 84 # max resist craft
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 Show # >30 Dex / >60 Life / >30 Any Resist / >15% Life Regen / >20% Chaos Res
@@ -211,12 +119,6 @@ Show # >30 Dex / >60 Life / >30 Any Resist / >15% Life Regen / >20% Chaos Res
   # ItemLevel >= 84 # max resist craft
   # ItemLevel >= 85 # max life regen craft
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 Show # >30 Dex / >60 Life / >30 Any Resist / >15% Life Regen / >20% Chaos Res
@@ -226,12 +128,6 @@ Show # >30 Dex / >60 Life / >30 Any Resist / >15% Life Regen / >20% Chaos Res
   # ItemLevel >= 84 # max resist craft
   # ItemLevel >= 85 # max life regen craft
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 Show # pref Saint's Hauberk
@@ -240,24 +136,12 @@ Show # pref Saint's Hauberk
   BaseArmour >= 1
   BaseEnergyShield >= 1
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 Show # Any Sceptre
   Class == "Sceptres"
   FracturedItem True
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 Show # Best sceptre
@@ -265,12 +149,6 @@ Show # Best sceptre
   FracturedItem True
   ItemLevel >= 84
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 Show # End game Rune dagger
@@ -278,12 +156,6 @@ Show # End game Rune dagger
   FracturedItem True
   ItemLevel >= 75
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 Show
@@ -291,24 +163,12 @@ Show
   HasInfluence Elder
   ItemLevel >= 82
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 Show # Any jewel
   Class == "Jeweles"
   FracturedItem True
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Pink
-	MinimapIcon 0 Pink Cross
 
 
 ##################################################
@@ -316,14 +176,14 @@ Show # Any jewel
 ##################################################
 Show 
   Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
-
+  SetFontSize 45
 
 ##################################################
 ########## Quest Items
 ##################################################
 Show 
   Class "Quest Items"
-
+  SetFontSize 45
 
 
 ##################################################
@@ -332,77 +192,35 @@ Show
 Show
   FracturedItem True
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 74 181 82
-	PlayAlertSound 12 300
-  PlayEffect Purple
-	MinimapIcon 0 Purple Cross
 
 Show
   SynthesisedItem True
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 74 181 82
-	PlayAlertSound 12 300
-  PlayEffect Purple
-	MinimapIcon 0 Purple Cross
 
 Show
   HasInfluence Shaper Elder Crusader Hunter Redeemer Warlord
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 74 181 82
-	PlayAlertSound 12 300
-  PlayEffect Purple
-	MinimapIcon 0 Purple Cross
 
 
 Show
   AnyEnchantment True
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 74 181 82
-	PlayAlertSound 12 300
-  PlayEffect Purple
-	MinimapIcon 0 Purple Cross
 
 
 Show
   HasEaterOfWorldsImplicit >= 1
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 74 181 82
-	PlayAlertSound 12 300
-  PlayEffect Purple
-	MinimapIcon 0 Purple Cross
 
 
 Show
   HasSearingExarchImplicit >= 1
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 74 181 82
-	PlayAlertSound 12 300
-  PlayEffect Purple
-	MinimapIcon 0 Purple Cross
 
 
 Show
   Identified True
   HasExplicitMod "Veil"
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 74 181 82
-	PlayAlertSound 12 300
-  PlayEffect Purple
-	MinimapIcon 0 Purple Cross
 
 ##################################################
 ########## Items: Unique
@@ -411,24 +229,12 @@ Show # collecting
   BaseType == "Sage Wand" "Saint's Hauberk" "Necromancer Silks" "Saintly Chainmail" "Sadist Garb" "Crusader Plate" "Majestic Plate" "Exquisite Leather" "Gladiator Plate" "Onyx Amulet" "Paua Amulet" "Greatwolf Talisman" "Spine Bow" "Assassin Bow" "Ornate Quiver" "Two-Point Arrow Quiver" "Ebony Tower Shield" "Elegant Round Shield" "Jingling Spirit Shield" "Lacquered Buckler" "Titanium Spirit Shield" "Branded Kite Shield" "Champion Kite Shield" "Highborn Staff" "Void Sceptre" "Karui Sceptre" "Karui Maul" "Gavel" "Crystal Sceptre" "Imperial Maul" "Siege Axe" "Void Axe" "Eternal Sword" "Vaal Blade" "Engraved Greatsword" "Jewelled Foil" "Fiend Dagger" "Slaughter Knife" "Imperial Skean" "Demon Dagger" "Vaal Claw" "Terror Claw" "Granite Flask" "Stibnite Flask" "Sapphire Flask" "Grand Mana Flask" "Solaris Circlet" "Prophet Crown" "Mind Cage" "Praetor Crown" "Necromancer Circlet" "Sinner Tricorne" "Goathide Boots" "Sorcerer Boots" "Stealth Boots" "Carnal Boots" "Two-Toned Boots" "Zealot Gloves" "Crusader Gloves" "Murder Mitts" "Hydrascale Gauntlets" "Steelscale Gauntlets" "Cloth Belt" "Moonstone Ring" "Topaz Ring" "Coral Ring" "Paua Ring" "Ring" "Ruby Ring" "Midnight Blade"
   Rarity Unique
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 192 96 49
-	PlayAlertSound 11 300
-	PlayEffect Brown
-	MinimapIcon 0 Brown Star
 
 
 Show
   Class == "Abyss Jewels" "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "Hybrid Flasks" "Jewels" "Life Flasks" "Mana Flasks" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Utility Flasks" "Wands" "Warstaves"
   Rarity Unique
   SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 192 96 49
-	PlayAlertSound 11 300
-	PlayEffect Brown
-	MinimapIcon 0 Brown Star
 
 
 ##################################################
@@ -437,12 +243,6 @@ Show
 Show
   LinkedSockets >= 6
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Green
-	MinimapIcon 0 Green Diamond
 
 
 Show
@@ -450,6 +250,7 @@ Show
   ItemLevel >= 84
   # AreaLevel <= 81
   Rarity Rare
+  SetFontSize 45
 
 Show
   BaseType "Boots" "Gloves" "Helmets" "Shields"
@@ -457,6 +258,7 @@ Show
   ItemLevel >= 84
   # AreaLevel <= 81
   BaseArmour > 1
+  SetFontSize 45
 
 Show
   BaseType "Body Armours"
@@ -465,45 +267,53 @@ Show
   # AreaLevel < 81
   BaseArmour > 1
   BaseEnergyShield > 1
+  SetFontSize 45
 
 Hide
   Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves" "Body Armours" "Boots" "Gloves" "Helmets" "Amulets" "Belts" "Rings"
   Rarity Normal Magic Rare
   AreaLevel > 4
+  SetFontSize 45
   Continue
   Show
     Class == "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Staves" "Thrusting One Hand Swords" "Warstaves"
     Rarity Normal
     AreaLevel <= 6
     Width == 1
+    SetFontSize 45
     Continue
   Show
     Class == "Amulets" "Belts" "Rings"
     Rarity Normal
     AreaLevel <= 12
+    SetFontSize 45
     Continue
   Show
     Class == "Amulets" "Belts" "Boots" "Rings" "Rune Daggers" "Sceptres" "Wands"
     Rarity Magic
     AreaLevel <= 12
+    SetFontSize 45
     Continue
   Show
     Class == "Sceptres" "Wands" "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
     LinkedSockets => 3
     Rarity Normal Magic Rare
     AreaLevel <= 16
+    SetFontSize 45
     Continue
   Show
     Class == "Sceptres" "Wands" "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
     SocketGroup >= 3BBR 3RRB 3BBB
     Rarity Normal Magic Rare
     ItemLevel < 25
+    SetFontSize 45
     Continue
   Show
     Class == "Body Armours" "Boots" "Gloves" "Helmets"
     SocketGroup >= 4BBBR 4GGBR 4BBBB 4GG 4RR
     Rarity Normal Magic Rare
     AreaLevel < 68
+    SetFontSize 45
     Continue
   Show # Chromatic 1
     Class == "Claws" "Daggers" "Rune Daggers" "Shields" "Wands" "Boots" "Gloves" "Helmets"
@@ -511,6 +321,7 @@ Hide
     Rarity Normal Magic Rare
     AreaLevel < 68
     Height <= 2
+    SetFontSize 45
     Continue
   Show # Chromatic 2
     Class == "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Staves" "Thrusting One Hand Swords" "Two Hand Swords" "Warstaves"
@@ -518,21 +329,25 @@ Hide
     Rarity Normal Magic Rare
     AreaLevel < 68
     Width <= 1
+    SetFontSize 45
     Continue
   Show
     Class == "Amulets" "Belts" "Boots" "Rings" "Wands"
     Rarity Rare
     AreaLevel <= 40
+    SetFontSize 45
     Continue
   Show
     Class == "Sceptres"
     Rarity Rare
     AreaLevel < 73
+    SetFontSize 45
     Continue
   Show
     BaseType "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Leather Belt" "Stygian Vise" "Amethyst Ring" "Opal Ring" "Prismatic Ring" "Ruby Ring" "Two-Stone Ring" "Vermillion Ring" "Void Sceptre" "Opal Sceptre"
     Rarity Rare
     AreaLevel < 81
+    SetFontSize 45
     Continue
   Show
     BaseType "Boots" "Gloves" "Helmets" "Shields"
@@ -540,6 +355,7 @@ Hide
     SocketGroup >= 4BBBR 4GGBR 4BBBB 4GG 4RR
     AreaLevel < 81
     BaseArmour > 1
+    SetFontSize 45
     Continue
   Show
     BaseType "Body Armours"
@@ -549,6 +365,7 @@ Hide
     BaseArmour > 1
     BaseEnergyShield > 1
     LinkedSockets >= 4
+    SetFontSize 45
 
 
 ####################################################################################################
@@ -557,52 +374,40 @@ Hide
 Show
   BaseType == "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
   Rarity Normal Magic Rare
-
+  SetFontSize 45
 
 Show
   Class == "Abyss Jewels" "Jewels"
   Rarity Rare
+  SetFontSize 45
 
 Hide
   Class == "Abyss Jewels" "Jewels"
   Rarity Normal Magic
+  SetFontSize 45
   Continue
   Show
     Class == "Abyss Jewels"
     ItemLevel >= 85
+    SetFontSize 45
 
 ####################################################################################################
 ########## Currency
 ####################################################################################################
 Show
   BaseType == "Mirror of Kalandra"
-   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
+  SetFontSize 45
   PlayAlertSound ShMirror 300
-	PlayEffect Green
-	MinimapIcon 0 Green Circle
 
 Show
   BaseType == "Divine Orb"
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
   PlayAlertSound ShDivine 300
-	PlayEffect Green
-	MinimapIcon 0 Green Circle
 
 Show
   BaseType == "Exalted Orb"
 	SetFontSize 45
-	SetTextColor 254 254 241
-	SetBorderColor 223 255 156
-	SetBackgroundColor 74 181 82
   PlayAlertSound ShExalted 300
-	PlayEffect Green
-	MinimapIcon 0 Green Circle
 
 
 ##################################################
@@ -613,30 +418,30 @@ Hide
   Show
     StackSize >= 20
     BaseType == "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
-
+    SetFontSize 45
     Continue
   Show
     StackSize >= 8
     BaseType == "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
-
+    SetFontSize 45
     Continue
   Continue
     Show
     AreaLevel < 81
     BaseType == "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Regal Shard"
-
+    SetFontSize 45
     Continue
   Show
     AreaLevel < 81
     StackSize >= 8
     BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Engineer's Orb" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
-
+    SetFontSize 45
     Continue
   Show
     AreaLevel < 73
     StackSize >= 3
     BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
-
+    SetFontSize 45
     Continue
   Show
     BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
@@ -647,15 +452,717 @@ Hide
 ########## Currency: Remaining
 ##################################################
 Show 
-  Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"
+  Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"'
+  SetFontSize 45
 
 
 
 ####################################################################################################
 ########## Divination Cards
 ####################################################################################################
+Show
+  Class == "Divination Cards"
+  BaseType == "Beauty Through Death" "Brother's Gift" "Choking Guilt" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "Fire Of Unknown Origin" "Gemcutter's Mercy" "Home" "House of Mirrors" "I See Brothers" "Luminous Trove" "Love Through Ice" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Cheater" "The Demon" "The Destination" "The Doctor" "The Dragon's Heart" "The Endless Darkness" "The Enlightened" "The Fiend" "The Fortunate" "The Immortal" "The Insane Cat" "The Nurse" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "The Shieldbearer" "Unrequited Love" "Wealth and Power"
+  SetFontSize 45
+
 Show 
-  Class "Divination Cards"
+  Class == "Divination Cards"
+  SetFontSize 45
+  Continue
+  Show # gear for ubild
+    Class == "Divination Cards"
+    BaseType == 
+    SetFontSize 45
+    Continue
+  Hide
+    Class == "Divination Cards"
+    BaseType == 
+
+
+
+
+
+
+
+
+"Beauty Through Death"
+"Brother's Gift"
+"Brother's Stash"
+"Choking Guilt"
+"Darker Half"
+"Deadly Joy"
+"Desecrated Virtue"
+"Divine Beauty"
+"Divine Justice"
+"Fire Of Unknown Origin"
+"House of Mirrors"
+"I See Brothers"
+"Love Through Ice"
+"Luminous Trove"
+"Misery in Darkness"
+"Pride of the First Ones"
+"Seven Years Bad Luck"
+"Succor of the Sinless"
+"The Apothecary"
+"The Cheater"
+"The Chosen"
+"The Demon"
+"The Doctor"
+"The Dragon's Heart"
+"The Endless Darkness"
+"The Enlightened"
+"The Fiend"
+"The Greatest Intentions"
+"The Gulf"
+"The Immortal"
+"The Insane Cat"
+"The Last One Standing"
+"The Nurse"
+"The Price of Devotion"
+"The Price of Loyalty"
+"The Progeny of Lunaris"
+"The Sacrifice"
+"The Samurai's Eye"
+"The Sephirot"
+"The Shieldbearer"
+"The World Eater"
+"Tranquillity"
+"Unrequited Love"
+"Wealth and Power"
+"A Fate Worse Than Death"
+"Alluring Bounty"
+"Anarchy's Price"
+"Broken Promises"
+"Burning Blood"
+"Doryani's Epiphany"
+"Gemcutter's Mercy"
+"Home"
+"Imperfect Memories"
+"Matryoshka"
+"Monochrome"
+"Nook's Crown" # Bone Helmet Elder
+"Silence and Frost"
+"The Artist"
+"The Destination"
+"The Eldritch Decay"
+"The Emptiness"
+"The Eternal War"
+"The Eye of Terror"
+"The Fortunate"
+"The Garish Power"
+"The Hook"
+"The Long Con"
+"The Mad King"
+"The Shortcut"
+"The Soul"
+"A Familiar Call"
+"Abandoned Wealth"
+"Altered Perception"
+"Ambitious Obsession"
+"Arrogance of the Vaal"
+"Assassin's Gift" # Divinarius Imperial Skean
+"Auspicious Ambitions"
+"Azyran's Reward"
+"Boon of the First Ones"
+"Brotherhood in Exile"
+"Brush, Paint and Palette"
+"Chaotic Disposition"
+"Chasing Risk"
+"Council of Cats"
+"Dementophobia"
+"Desperate Crusade" #prism guardian shield
+"Draped in Dreams" # blue 6link astral plate influenced
+"Eternal Bonds"
+"Ever-Changing"
+"Fateful Meeting"
+"Gift of Asenath" # Asenath's Gentle Touch Silk Gloves
+"Guardian's Challenge"
+"Hunter's Reward" # The Taming Prismatic Ring
+"Judging Voices"
+"Justified Ambition"
+"Lachrymal Necrosis"
+"Last Hope"
+"Lethean Temptation" # Nebulis Void Sceptre
+"Lingering Remnants"
+"Magnum Opus"
+"Mawr Blaidd" # Eyes of the Greatwolf Greatwolf Talisman
+"Peaceful Moments"
+"Remembrance"
+"Something Dark"
+"Terrible Secret of Space"
+"The Academic"
+"The Aspirant"
+"The Astromancer" # The Eternity Shroud Blood Raiment
+"The Awakened"
+"The Bitter Blossom"
+"The Celestial Justicar"
+"The Celestial Stone"
+"The Craving"
+"The Damned"
+"The Dreamer"
+"The Enforcer" # blue spiked gloves Warlord
+"The Enthusiasts"
+"The Escape"
+"The Eye of the Dragon"
+"The Fishmonger"
+"The Last Supper" # Bino's Kitchen Knife
+"The Leviathan"
+"The Life Thief"
+"The Offering""The Offering" # shavronne's wrappings
+"The Old Man"
+"The One That Got Away"
+"The Patient"
+"The Polymath"
+"The Professor"
+"The Rabbit's Foot"
+"The Risk"
+"The Saint's Treasure"
+"The Scout"
+"The Shepherd's Sandals"
+"The Spark and the Flame"
+"The Strategist"
+"The Transformation"
+"The Twilight Moon"
+"The Undaunted"
+"The Union"
+"The Valkyrie"
+"The Void"
+"The Wedding Gift" # Arakaali's Fang
+"The White Knight" #blue 6link astral plate - crusader
+"The Wilted Rose"
+"The Wretched"
+"Underground Forest"
+"Void of the Elements" # blue shaper opal ring
+"Who Asked"
+"Winter's Embrace"
+"A Sea of Blue"
+"Acclimatisation"
+"Boon of Justice"
+"Bowyer's Dream" # white 6link harbringer
+"Cameria's Cut" # scarab
+"Checkmate"
+"Coveted Possession"
+"Demigod's Wager"
+"Disdain"
+"Emperor of Purity" # white 6link holy chainmail
+"Emperor's Luck"
+"Harmony of Souls"
+"Humility" #tabula
+"Immortal Resolve"
+"Imperial Legacy" #white 6link imperial bow
+"Lucky Connections"
+"Lucky Deck"
+"Man With Bear"
+"More is Never Enough"
+"No Traces"
+"Rebirth and Renewal"
+"Sambodhi's Vow"
+"Society's Remorse"
+"The Cacophony"
+"The Card Sharp"
+"The Cartographer"
+"The Chains that Bind"
+"The Dapper Prodigy" #6 blue link body
+"The Dark Mage"
+"The Ethereal" # white 6link vaal regalia white
+"The Finishing Touch"
+"The Fool" # 20x chance
+"The Gemcutter"
+"The Heroic Shot"
+"The Hoarder"
+"The Innocent"
+"The Inventor"
+"The Obscured"
+"The Porcupine" #white 6link shortbow
+"The Price of Prescience"
+"The Price of Protection"
+"The Rusted Bard"
+"The Seeker"
+"The Side Quest"
+"The Survivalist"
+"The Tinkerer's Table"
+"The Warlord" # six link 2handed maul
+"The Wrath"
+"Three Faces in the Dark" # 3x chaos orb
+"Three Voices"
+"Vanity" # corrupted tabula
+"Vinia's Token"
+"Buried Treasure" # sulphite scarab
+"Gemcutter's Promise"
+"Her Mask"
+"Loyalty" # 3x fusing
+"Rain of Chaos"
+"The Catalyst" # 1x vaal
+"The Deal" # cartography scarab
+"The Flora's Gift"
+"The Gambler"
+"The Journey"
+"The Master Artisan"
+"The Puzzle"
+"The Scholar"
+"The Tireless Extractor"
+"A Chilling Wind"
+"A Dab of Ink" # Poets pen
+"A Dusty Memory"
+"A Modest Request"
+"A Note in the Wind" # Asenath's Mark - helmet (bow)
+"A Stone Perfected"
+"Akil's Prophecy"
+"Alone in the Darkness"
+"Assassin's Favour"
+"Astral Protection" # blue shaper shield
+"Atziri's Arsenal"
+"Azure Rage" # blue punishing map 16
+"Baited Expectations"
+"Bijoux"
+"Blind Venture"
+"Boundless Realms"
+"Broken Truce" # cold iron point - dagger
+"Costly Curio"
+"Dark Dreams" # elder bone helmet
+"Dark Temptation"
+"Death" # Mon'tregul's Grasp
+"Deathly Designs"
+"Dialla's Subjugation"
+"Doedre's Madness"
+"Duality" # blue double influenced body armour
+"Dying Anguish"
+"Dying Light" # blue shaper + elder diamond ring
+"Earth Drinker"
+"Eldritch Perfection"
+"Endless Night" # Maloney's Mechanism Ornate Quiver
+"Etched in Blood"
+"Further Invention" # blue double influenced helmet
+"Gift of the Gemling Queen"
+"Glimmer of Hope"
+"Grave Knowledge"
+"Haunting Shadows"
+"Heterochromia"
+"Hope"
+"Hubris"
+"Hunter's Resolve"
+"Jack in the Box"
+"Keeper's Corruption" # eldricth bone helm - elder but found in breach realm
+"Left to Fate" # yellow corrupted t16 map
+"Lost Worlds"
+"Lysah's Respite"
+"Merciless Armament"
+"Mitts"
+"Parasitic Passengers"
+"Perfection" # blue shaper jewellery
+"Poisoned Faith" # corrupt arakalis fang
+"Prejudice"
+"Pride Before the Fall" # corrupted kaoms heart
+"Prometheus' Armoury" # blue double influenced 1hand weap
+"Rebirth"
+"Reckless Ambition"
+"Sambodhi's Wisdom"
+"Scholar of the Seas" # Mao Kun umap
+"Shard of Fate"
+"Soul Quenched" # blue two-handed experimental weapon
+"The Admirer"
+"The Aesthete"
+"The Archmage's Right Hand"
+"The Arena Champion"
+"The Avenger" # corrupt møljner
+"The Battle Born"
+"The Bear Woman" # blue warlod ursine pelt hat
+"The Beast" # belly of the beast
+"The Blessing of Moosh"
+"The Body"
+"The Bones" # 21 vaal skeletons
+"The Brawny Battle Mage"
+"The Breach"
+"The Brittle Emperor" # Voll's Devotion Agate Amulet
+"The Cache"
+"The Calling"
+"The Cataclysm"
+"The Catch"
+"The Darkest Dream" # severed in sleep sword (minion)
+"The Deep Ones"
+"The Doppelganger"
+"The Dragon"
+"The Dreamland" # Poorjoy's Asylum umap
+"The Dungeon Master"
+"The Easy Stroll"
+"The Encroaching Darkness" # umap
+"The Endurance"
+"The Explorer"
+"The Forgotten Treasure"
+"The Formless Sea" # varunastra sword
+"The Forward Gaze"
+"The Fox"
+"The Gentleman"
+"The Gladiator"
+"The Hale Heart" # blue elder Item
+"The Hive of Knowledge"
+"The Hunger"
+"The Jeweller's Boon"
+"The King's Heart" # kaom's heart
+"The Landing" # The Breachhead umap
+"The Lion"
+"The Magma Crab" # 21 vaal molten shell
+"The Mercenary"
+"The Messenger"
+"The Mind's Eyes"
+"The Mountain"
+"The Offspring" # Ryslatha's Coil belt
+"The One With All"
+"The Pact"
+"The Penitent"
+"The Primordial"
+"The Prince of Darkness"
+"The Queen"
+"The Realm" #portal
+"The Rite of Elements"
+"The Road to Power"
+"The Skeleton"
+"The Standoff"
+"The Stormcaller" # angerod staff
+"The Summoner" # 20% minion gem
+"The Surveyor"
+"The Thaumaturgist"
+"The Tower"
+"The Traitor"
+"The Trial"
+"The Tumbleweed" # blue diamond ring - redeemer item
+"The Tyrant"
+"The Undisputed" # blue merciless vaal axe - elder
+"The Unexpected Prize"
+"The Vast"
+"The Whiteout" # Cospri's Malice 1h sword foil
+"The Wolf"
+"The Wolf's Legacy" # Vaults of Atziri umap
+"The Wolven King's Bite"
+"The Wolverine"
+"Time-Lost Relic"
+"Triskaidekaphobia"
+"Unchained"
+"Vile Power" # doomfletch bow
+"Volatile Power"
+"A Mother's Parting Gift"
+"Alivia's Grace"
+"Audacity"
+"Call to the First Ones"
+"Cartographer's Delight"
+"Cursed Words" # Maw of Mischief (minion)
+"Destined to Crumble"
+"Echoes of Love"
+"Forbidden Power"
+"From Bone to Ashes"
+"Lantador's Lost Love"
+"Light and Truth"
+"Might is Right"
+"Prosperity"
+"Rain Tempter"
+"Rats" # rats nest
+"Struck by Lightning"
+"The Adventuring Spirit"
+"The Army of Blood" # Bloodbond chest
+"The Betrayal"
+"The Blazing Fire"
+"The Carrion Crow"
+"The Coming Storm" # lightning coil chest
+"The Conduit"
+"The Cursed King"
+"The Deceiver"
+"The Demoness" # Death's Hand
+"The Drunken Aristocrat"
+"The Fathomless Depths" # Lightpoacher - abyss hat
+"The Feast"
+"The Fletcher"
+"The Forsaken"
+"The Fox in the Brambles"
+"The Golden Era"
+"The Harvester"
+"The Hermit"
+"The Incantation" # the whispering ice
+"The Inoculated"
+"The Insatiable"
+"The Jester"
+"The Journalist" # blue double veiled item
+"The King's Blade"
+"The Lich" # Midnight Bargain Engraved Wand
+"The Lord in Black"
+"The Lord of Celebration"
+"The Lover"
+"The Lunaris Priestess"
+"The Master" # Bisco's collar gold amulet
+"The Metalsmith's Gift"
+"The Oath"
+"The Opulent"
+"The Pack Leader" # Alpha's Howl
+"The Poet"
+"The Rabid Rhoa"
+"The Return of the Rat" # Tavukai - coral amulet
+"The Ruthless Ceinture"
+"The Scarred Meadow"
+"The Scavenger"
+"The Sigil"
+"The Siren" # the whispering ice corrupted
+"The Spoiled Prince"
+"The Sun"
+"The Surgeon"
+"The Sword King's Salute" # Daresso's Salute amulet
+"The Throne" # Kaom's Roots boots
+"The Twins"
+"The Visionary" # Lioneye's Vision - chest
+"The Warden"
+"The Watcher" # crown of eyes hat
+"The Web"
+"The Wind" # Windripper imperial bow
+"The Witch"
+"The Wolf's Shadow"
+"Thirst for Knowledge"
+"Thunderous Skies" # Storm Cloud long bow
+"Treasure Hunter" # Vaults of Atziri umap
+"Turn the Other Cheek"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# minion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# bow
+
+
+
+
+
+
+# influence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# map
+
+
+
+
+
+
+
+
+
+
+
+
+
+# leveling
+
+
+
+
+
+"The Chain that Binds" #6link body
+
+
+
+
+
+
+
+
+# ny
+"The Spoiled Prince"
+"The Twins"
+"The Warden"
+"The Fox"
+"Boundless Realms"
+"The Rite of Elements"
+"The Vast"
+"The Bitter Blossom"
+"The Celestial Justicar"
+"The Enthusiasts"
+
+
+"A Chilling Wind"
+"A Modest Request"
+"A Mother's Parting Gift"
+"Ambitious Obsession"
+"Alivia's Grace"
+"Audacity"
+"Boon of Justice"
+"Call to the First Ones"
+"Cartographer's Delight"
+"Dark Temptation"
+"Dialla's Subjugation"
+"Destined to Crumble"
+"Deathly Designs"
+"Disdain"
+"Echoes of Love"
+"Eldritch Perfection"
+"Etched in Blood"
+"Forbidden Power"
+"From Bone to Ashes"
+"Gemcutter's Promise"
+"Gift of the Gemling Queen"
+"Grave Knowledge"
+"Her Mask"
+"Lantador's Lost Love"
+"Lost Worlds"
+"Merciless Armament"
+"Might is Right"
+"Prosperity"
+"Rain Tempter"
+"Rain of Chaos"
+"Rebirth"
+"Reckless Ambition"
+"Shard of Fate"
+"Struck by Lightning"
+"The Adventuring Spirit"
+"The Archmage's Right Hand"
+"The Arena Champion"
+"The Betrayal"
+"The Blazing Fire"
+"The Brawny Battle Mage"
+"The Carrion Crow"
+"The Cataclysm"
+"The Cartographer"
+"The Conduit"
+"The Cursed King"
+"The Dark Mage"
+"The Deceiver"
+"The Deep Ones"
+"The Doppelganger"
+"The Easy Stroll"
+"The Endurance"
+"The Explorer"
+"The Flora's Gift"
+"The Fletcher"
+"The Forsaken"
+"The Fox in the Brambles"
+"The Gemcutter"
+"The Golden Era"
+"The Harvester"
+"The Hermit"
+"The Hive of Knowledge"
+"The Inoculated"
+"The Insatiable"
+"The Jester"
+"The Jeweller's Boon"
+"The Journey"
+"The King's Blade"
+"The Lord in Black"
+"The Lord of Celebration"
+"The Lover"
+"The Lunaris Priestess"
+"The Master Artisan"
+"The Metalsmith's Gift"
+"The Mountain"
+"The Oath"
+"The Opulent"
+"The Pact"
+"The Poet"
+"The Queen"
+"The Rabid Rhoa"
+"The Road to Power"
+"The Ruthless Ceinture"
+"The Scarred Meadow"
+"The Scavenger"
+"The Scholar"
+"The Skeleton"
+"The Sigil"
+"The Sun"
+"The Surgeon"
+"The Survivalist"
+"The Surveyor"
+"The Trial"
+"The Tyrant"
+"The Web"
+"The Wolven King's Bite"
+"The Wolf's Shadow"
+"Thirst for Knowledge"
+"Triskaidekaphobia"
+"Turn the Other Cheek"
+"Unchained"
+"Volatile Power"
+
+
+
 
 ####################################################################################################
 ########## Gems
@@ -664,24 +1171,21 @@ Show
 	Class == "Skill Gems" "Support Gems"
 	BaseType "Awakened" "Empower Support" "Enhance Support" "Enlighten Support"
   SetFontSize 45
-	SetTextColor 74 181 82
-	SetBorderColor 223 255 156
-	SetBackgroundColor 254 254 241
-	PlayAlertSound 10 300
-	PlayEffect Green
-	MinimapIcon 0 Green Hexagon
 
 Show
 	Class == "Skill Gems" "Support Gems"
 	BaseType ==  "Portal"
+  SetFontSize 45
 
 Show  # +1 fire recipe for crafting mid sceptre
   Quality >= 5
   BaseType == "Added Fire Damage Support" "Alchemist's Mark" "Anger" "Armageddon Brand" "Artillery Ballista" "Blast Rain" "Blazing Salvo" "Bodyswap" "Burning Arrow" "Burning Damage Support" "Cold to Fire Support" "Combustion Support" "Consecrated Path" "Controlled Blaze Support" "Cremation" "Detonate Dead" "Discharge" "Elemental Hit" "Elemental Proliferation Support" "Explosive Arrow" "Explosive Concoction" "Explosive Trap" "Fire Penetration Support" "Fireball" "Firestorm" "Flame Dash" "Flame Link" "Flame Surge" "Flame Wall" "Flameblast" "Flamethrower Trap" "Flamewood Support" "Flammability" "Herald of Ash" "Holy Flame Totem" "Ignite Proliferation Support" "Immolate Support" "Incinerate" "Infernal Blow" "Infernal Cry" "Infernal Legion Support" "Molten Shell" "Molten Strike" "Prismatic Burst Support" "Purifying Flame" "Purity of Fire" "Pyroclast Mine" "Righteous Fire" "Rolling Magma" "Scorching Ray" "Searing Bond" "Summon Flame Golem" "Summon Raging Spirit" "Tectonic Slam" "Vaal Burning Arrow" "Vaal Fireball" "Vaal Firestorm" "Vaal Flameblast" "Vaal Impurity of Fire" "Vaal Molten Shell" "Vaal Molten Strike" "Vaal Righteous Fire" "Vaal Volcanic Fissure" "Volatile Dead" "Volcanic Fissure" "Wave of Conviction" "Wild Strike"
+  SetFontSize 40
 
 Show
 	Class == "Skill Gems" "Support Gems"
 	BaseType "Vaal"
+  SetFontSize 40
 
 
 ##################################################
@@ -693,6 +1197,7 @@ Hide
   Show
     AreaLevel < 6
     Class == "Skill Gems" "Support Gems"
+    SetFontSize 45
     Continue
   Show
     Class == "Skill Gems" "Support Gems"
@@ -705,14 +1210,14 @@ Hide
 	  Corrupted False
 	  Quality >= 20
     # AreaLevel < 83
-
+    SetFontSize 45
     Continue
   Show
     Class == "Skill Gems" "Support Gems"
 	  Corrupted False
 	  GemLevel >= 20
     # AreaLevel < 83
-
+    SetFontSize 45
   
 
 ####################################################################################################
@@ -741,7 +1246,6 @@ Show
 Hide
   Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
   Rarity Normal Magic Rare
-  SetFontSize 18
   DisableDropSound True
   Continue
   Show

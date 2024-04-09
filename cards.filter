@@ -35,7 +35,7 @@
 
 Show
   Class == "Divination Cards"
-  BaseType =="Beauty Through Death" "Brother's Gift" "Choking Guilt" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "Fire Of Unknown Origin" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Cheater" "The Demon" "The Doctor" "The Dragon's Heart" "The Endless Darkness" "The Enlightened" "The Fiend" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "The Shieldbearer" "Unrequited Love" "Wealth and Power" 
+  BaseType == "Beauty Through Death" "Brother's Gift" "Choking Guilt" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "Fire Of Unknown Origin" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Cheater" "The Demon" "The Doctor" "The Dragon's Heart" "The Endless Darkness" "The Enlightened" "The Fiend" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "The Shieldbearer" "Unrequited Love" "Wealth and Power" 
   SetFontSize 45
 
 ####################################################################################################
@@ -44,6 +44,8 @@ Show
 "Akil's Prophecy" # elegant round shield Two-Implicit Corrupted (squire chance)
 "Gemcutter's Mercy" # Exceptional Gem (awakened or normal, empower, enhance, enchant) - Gem chests in the Azurite Mine.
 "Home" # Exceptional Gem q1-20 (awakened or normal, empower, enhance, enchant) - 38+ Alleyways Ancient City, Arcade, Bazaar, Chateau, City Square, Crimson Township, Haunted Mansion, Residence, Siege, Sunken City, Tower
+"Pride of the First Ones" # Farrul's Fur Triumphant Lamellar
+"The Artist" # level 4 enhance Corrupted
 "The Chosen" # Skin of the Lords Simple Robe - Breach encounters such as in Clasped Hand
 "The Last One Standing" # Atziri's Disfavour Vaal Axe - 80+ Arena, Colosseum, Pit, Pit of the Chimera
 "The Nurse" # The Doctor - 30+ Abomination, Carcass, Cells, Core, Scriptorium, Shavronne's Tower, The Harvest, The Rotting Core, Tower
@@ -92,31 +94,57 @@ Show
 "Lingering Remnants" #  vaal temple map Corrupted
 "Sambodhi's Vow" # mortal fragment (uber atziri)
 "Something Dark" # 83 blueprint fully revealed - Drops from Breachlords in Breachstones.
+"The Dreamland" # Poorjoy's Asylum Unique map
 "The Eldritch Decay" # uber elder fragment
+"The Encroaching Darkness" # Unique map
 "The Eye of Terror" # Chayula's Flawless Breachstone
+"The Landing" # The Breachhead Unique map
 "The Obscured" # breachstone
 "The Price of Prescience"  # yellow vaal temple map Corrupted
 "The Price of Protection" # yellow elder guardian map Corrupted
 "The Twilight Moon" # the twilight moon map
+"The Wolf's Legacy" # Vaults of Atziri Unique map
+"Treasure Hunter" # Vaults of Atziri Unique map
 
 ##################################################
 ########## Always: Gamble
 ##################################################
 "Arrogance of the Vaal" # unique item Two-Implicit Corrupted
+"Atziri's Arsenal" #  weapon Corrupted
+"Azyran's Reward" #  Prismatic Jewel Corrupted (can drop watcher)
+"Blind Venture" #  ring Corrupted
+"Boon of the First Ones" #beastiary item
+"Chasing Risk" # Synthesis Item (can drop bottled fith)
+"Costly Curio" # double influenced unique
 "Glimmer of Hope" # gold ring
 "Haunting Shadows" # metamorph item (only drops in unique map)
 "Fateful Meeting" # league specific item Two-Implicit Corrupted
 "Hubris" # ring (can drop kalandras ring)
 "Jack in the Box" # item
 "Lucky Deck" # 10x stacked deck
+"Peaceful Moments" # Timeless Jewel
+"Prejudice" # item - influenced
 "Sambodhi's Wisdom" # q30 armour
+"The Admirer" # atziri item (can drop disvaoir ad others)
+"The Battle Born" # unique axe (can drop soultaker)
+"The Body" # unique body armour
+"The Breach" # unique breach item
 "The Destination" # Watcher's Eye Prismatic Jewel Two-Implicit Corrupted - 81+ Beach Map • Channel Map • Shore Map • Fungal Hollow Map • Tropical Island Map
+"The Dreamer" # chayula item
+"The Dungeon Master" # unique double influence belt (mageblood headhunter)
+"The Eternal War" # timeless jewel
+"The Forgotten Treasure" # unique double influenced leather belt (headhunter)
+"The Forward Gaze" # unique replica item
 "The Gambler" # div card
+"The Mercenary" # unique shield Corrupted (squire chance)
+"The Messenger" # harbringer piece
+"The Prince of Darkness" # Elegant Hubris Timeless Jewel
 "The Tinkerer's Table" # 5x fossil
 "The Undaunted" # nemesis item Corrupted (can drop headhunter)
 "The Wretched" # belt (can drop mageblood and headhunter)
 "The Valkyrie" # nemesis item (can drop headhunter)
 "The Void" # random card
+"Time-Lost Relic" # unique league specific item
 
 ##################################################
 ########## Always: Fishing
@@ -126,62 +154,6 @@ Show
 "The Fishmonger" # albino rhoa feather
 "The Old Man" # yellow fishing rod
 "The One That Got Away" # Replica Bated Breath Chain Belt
-
-####################################################################################################
-########## Build Specific
-####################################################################################################
-"Who Asked" # Dictator's (phys + accuracy) Weapon Item Level: 83 Fractured
-"The Artist" # level 4 enhance Corrupted
-"Desperate Crusade" # prism guardian shield
-"The Finishing Touch" # fertile catalyst (life and mana)
-"Pride of the First Ones" # Farrul's Fur Triumphant Lamellar
-"Silence and Frost" # The Pandemonius Jade Amulet (cold)
-
-"A Familiar Call" # blue jewellery of farrul shaper + hunter item
-
-"Draped in Dreams" # blue 6link astral plate influenced
-
-##################################################
-########## Build Specific: Current Build
-##################################################
-"The Greatest Intentions" # The Saviour Legion Sword Two-Implicit Corrupted
-SSSSSSS
-##################################################
-########## Build Specific: RF
-##################################################
-"Emperor of Purity" # white 6link holy chainmail
-"The Sun" # Rise of the Phoenix Mosaic Kite Shield
-
-##################################################
-########## Build Specific: Minion
-##################################################
-"Cursed Words" # Maw of Mischief (minion)
-"Dark Dreams" # yellow elder influence bone helmet
-"Death" # Mon'tregul's Grasp (minion)
-"The Bones" # 21 vaal skeletons
-"The Craving" # Unending Hunger Cobalt Jewel (minion)
-"The Return of the Rat" # Tavukai Coral Amulet (minion, especially SRS)
-
-##################################################
-########## Build Specific: Melee
-##################################################
-"Mawr Blaidd" # Eyes of the Greatwolf Greatwolf Talisman
-"The Soul" # Soul Taker Siege Axe
-
-##################################################
-########## Build Specific: Bow
-##################################################
-"A Note in the Wind" # Asenath's Mark - helmet (bow)
-"A Stone Perfected" # Jewel Primordial Corrupted (golem)
-"Bowyer's Dream" # white 6link harbringer bow
-"Endless Night" # Maloney's Mechanism Ornate Quiver
-"Imperial Legacy" #white 6link imperial bow
-"The Blazing Fire" # Chin Sol Assassin Bow
-"The Fletcher" # drillneck quiver Corrupted
-"The Porcupine" # white 6link shortbow
-"The Wolven King's Bite" # rigwalds quills quiver
-"Vile Power" # Doomfletch Royal Bow
-
 
 ####################################################################################################
 ########## Not very Late
@@ -196,10 +168,16 @@ SSSSSSS
 "Matryoshka" # rare onyx amulet Item Level: 85 Quality: +20% Influenced Item Four Anointments Incubating Talisman Item Corrupted
 "Misery in Darkness" # Shroud of the Lightless Carnal Armour (abyss)
 "Remembrance" # Precursor's Emblem (ring) Corrupted
+"The Cache" # unique jewellery (good but not top)
 "The Emptiness" # vaal breech gem
+"The Garish Power" # unique jewel (not most expensive, but ok)
+"The Eye of the Dragon" # jewel Corrupted (not most expensive, but ok)
+"The Hunger" # Taste of Hate Sapphire Flask
+"The Journalist" # blue double veiled item
 "The Patient" # the nurse
 "The Risk" # ventors gamble gold ring
 "The Sacrifice" # white 6link Sacrificial garb
+"The Soul" # Soul Taker Siege Axe (expensive)
 
 ##################################################
 ########## Not very Late: Currency
@@ -227,18 +205,100 @@ SSSSSSS
 ########## Not very Late: Map
 ##################################################
 "Ambitious Obsession" # skittering delerium orb
-"Scholar of the Seas" # Mao Kun umap
+"Scholar of the Seas" # Mao Kun Unique map
 "Dementophobia" # 10x delerium orb
 "Last Hope" # mortal hope (Uber Atziri )
 "Disdain" # delerium orb
 "The Professor" # The Putrid Cloister Museum Map
 "The Rabbit's Foot" # 10x incursion vial
 
+
+####################################################################################################
+########## Build Specific
+####################################################################################################
+"The Greatest Intentions" # The Saviour Legion Sword Two-Implicit Corrupted
+SSSSSSS
+
+##################################################
+########## Maybe for current build or alt
+##################################################
+"Mawr Blaidd" # Eyes of the Greatwolf Greatwolf Talisman ##### MELEE CLAW - FROST BLADES
+"A Familiar Call" # blue jewellery of farrul shaper + hunter item
+"Who Asked" # Dictator's (phys + accuracy) Weapon Item Level: 83 Fractured
+"Draped in Dreams" # blue 6link astral plate influenced
+"The White Knight" #blue 6link astral plate - crusader
+"The Beast" # belly of the beast ##### MElEE / BOW
+"Prometheus' Armoury" # yellow double influenced 1hand weap ##### MElEE
+"The Wolf" # rigwald item ##### MElEE (cleave weaps)
+
+##################################################
+########## Build Specific: Probably never
+##################################################
+"A Note in the Wind" # Asenath's Mark - helmet ##### BOW
+"A Stone Perfected" # Jewel Primordial Corrupted (golem) ##### MINION
+"Bowyer's Dream" # white 6link harbringer ##### BOW
+"Broken Promises" # blue 2x synt diamond ring
+"Cursed Words" # Maw of Mischief ##### MINION
+"Dark Dreams" # yellow elder influence bone helmet ##### MINION
+"Death" # Mon'tregul's Grasp ##### MINION
+"Desperate Crusade" # prism guardian shield ##### SHARED
+"Dying Light" # yellow shaper + elder diamond ring ##### CRIT
+"Emperor of Purity" # white 6link holy chainmail ##### RF
+"Endless Night" # Maloney's Mechanism Ornate Quiver
+"Etched in Blood" # rigwalds quills quiver Two-Implicit Corrupted ##### BOW
+"Gift of Asenath" # Asenath's Gentle Touch Silk Gloves Two-Implicit Corrupted ##### ????
+"Imperial Legacy" #white 6link imperial ##### BOW
+"Lethean Temptation" # Nebulis Void Sceptre ##### ?????
+"Nook's Crown" # Bone Helmet Elder ##### MINION
+"Perfection" # yellow shaper jewellery
+"Poisoned Faith" # arakalis fang Corrupted
+"Rats" # rats nest ##### MElEE / BOW
+"Silence and Frost" # The Pandemonius Jade Amulet ##### COLD
+"Soul Quenched" # yellow two-handed experimental weapon ##### MElEE / BOW
+"Terrible Secret of Space" # level 21 trans golem gem Corrupted ##### MINION
+"The Awakened" # yellow double influenced jewelery
+"The Bear Woman" # blue warlod ursine pelt hat ##### MElEE / BOW
+"The Betrayal" # Maligaro's Virtuosity Deerskin Gloves ##### CRIT
+"The Blazing Fire" # Chin Sol Assassin ##### BOW
+"The Bones" # 21 vaal skeletons ##### MINION
+"The Celestial Stone" # opal ring shaper
+"The Coming Storm" # lightning coil chest ##### SHARED
+"The Craving" # Unending Hunger Cobalt Jewel ##### MINION
+"The Darkest Dream" # severed in sleep sword Corrupted ##### MINION
+"The Demoness" # Death's Hand ##### MINION
+"The Enforcer" # blue spiked gloves Warlord ##### MElEE / PHYS BOW
+"The Feast" # Romira's Banquet Diamond Ring Corrupted (power charge)
+"The Finishing Touch" # fertile catalyst (life and mana)
+"The Fletcher" # drillneck quiver Corrupted ##### BOW
+"The Lich" # Midnight Bargain Engraved Wand ##### MINION
+"The Magma Crab" # 21 vaal molten shell ##### SHARED
+"The Porcupine" # white 6link shortbow ##### BOW
+"The Primordial" # primordial jewel (golem) ##### MINION
+"The Tumbleweed" # blue diamond ring - redeemer item ##### CRIT
+"The Undisputed" # blue merciless vaal axe - elder ##### MElEE
+"The Return of the Rat" # Tavukai Coral Amulet ##### MINION especially SRS)
+"The Rite of Elements" # lvl 21 golem gem Corrupted ##### MINION
+"The Sun" # Rise of the Phoenix Mosaic Kite Shield ##### RF
+"The Warlord" # six link 2handed maul ##### MELEEE
+"The Whiteout" # Cospri's Malice 1h sword foil ##### CRIT
+"The Wolven King's Bite" # rigwalds quills quiver ##### BOW
+"Vile Power" # Doomfletch Royal Bow ##### BOW
+"Void of the Elements" # blue shaper opal ring
+
+
+Hide
+  Class == "Divination Cards"
+  BaseType == "A Note in the Wind" "A Stone Perfected" "Bowyer's Dream" "Broken Promises" "Cursed Words" "Dark Dreams" "Death" "Desperate Crusade" "Dying Light" "Emperor of Purity" "Endless Night" "Etched in Blood" "Gift of Asenath" "Imperial Legacy" "Lethean Temptation" "Nook's Crown" "Perfection" "Poisoned Faith" "Rats" "Silence and Frost" "Soul Quenched" "Terrible Secret of Space" "The Awakened" "The Bear Woman" "The Betrayal" "The Blazing Fire" "The Bones" "The Celestial Stone" "The Coming Storm" "The Craving" "The Darkest Dream" "The Demoness" "The Enforcer" "The Feast" "The Finishing Touch" "The Fletcher" "The Lich" "The Magma Crab" "The Porcupine" "The Primordial" "The Tumbleweed" "The Undisputed" "The Return of the Rat" "The Rite of Elements" "The Sun" "The Warlord" "The Whiteout" "The Wolven King's Bite" "Vile Power" "Void of the Elements" 
+
+
+
 ####################################################################################################
 ########## Maybe in the future
 ####################################################################################################
 "A Mother's Parting Gift" # Fertile Mind Cobalt Jewel Corrupted (dex to int)
 "Alone in the Darkness" # unique delve item
+"Assassin's Favour" # dagger
+"Burning Blood" # Xoph's Blood Amber Amulet
 "Doedre's Madness" # Doedre Item
 "Earth Drinker" # granite flask
 "Heterochromia" # two-stone ring
@@ -246,12 +306,31 @@ SSSSSSS
 "Hunter's Resolve" # bow
 "Imperfect Memories" # rare jewellery Three-Implicit Synthesised
 "Judging Voices" # Forbidden Shako Great Crown
+"Light and Truth" # unique crystal sceptre
 "Lysah's Respite" #  agate amulet Corrupted
 "Mitts" # gloves
 "Pride Before the Fall" #  kaoms heart Corrupted
 "The Academic" # Inspired Learning Crimson Jewel
+"The Aesthete" # shavronne item
 "The Brittle Emperor" # Voll's Devotion Agate Amulet Corrupted
+"The Calling" # unique beyond item
 "The Damned" # Soul Ripper Quartz Flask
+"The Dragon" # unique coruscating elixir
+"The Gentleman" # unique sword Corrupted
+"The Gladiator" # unique nightmare bascinet
+"The King's Heart" # kaom's heart
+"The Life Thief" # Zerphi's Heart Paua Amulet
+"The Lion" # lioneye item
+"The Penitent" # unique unset ring
+"The Standoff" # unique rustich sash
+"The Tower" # unique staff
+"The Traitor" # unique wand Corrupted
+"The Unexpected Prize" # Attribute Transforming Jewel Corrupted
+"The Wolverine" # unique claw
+
+Hide
+  Class == "Divination Cards"
+  BaseType == "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Burning Blood" "Doedre's Madness" "Earth Drinker" "Heterochromia" "Hope" "Hunter's Resolve" "Imperfect Memories" "Judging Voices" "Light and Truth" "Lysah's Respite" "Mitts" "Pride Before the Fall" "The Academic" "The Aesthete" "The Brittle Emperor" "The Calling" "The Damned" "The Dragon" "The Gentleman" "The Gladiator" "The King's Heart" "The Life Thief" "The Lion" "The Penitent" "The Standoff" "The Tower" "The Traitor" "The Unexpected Prize" "The Wolverine"
 
 ####################################################################################################
 ########## Only for League Starts + SSF
@@ -260,21 +339,35 @@ SSSSSSS
 "Brush, Paint and Palette" # the artist card
 "Loyalty" # 3x fusing
 "The Catalyst" # 1x vaal
+"The Realm" # portal
+"The Scavenger" # carcass jack
+"The Stormcaller" # angerod staff
 "The Survivalist" # 7x alchemy
 "The Union" # 10x gemcutters prism
 "Winter's Embrace" # Circle of Fear Sapphire Ring
+
+Hide
+  Class == "Divination Cards"
+  BaseType == "A Dusty Memory" "Brush, Paint and Palette" "Loyalty" "The Catalyst" "The Realm" "The Scavenger" "The Stormcaller" "The Survivalist" "The Union" "Winter's Embrace"
 
 ####################################################################################################
 ########## Only SSF
 ####################################################################################################
 "A Dab of Ink" # Poets pen
+"Alivia's Grace" # queen of the forest
 "Assassin's Gift" # Divinarius Imperial Skean Two-Implicit Corrupted
 "Broken Truce" # cold iron point - dagger
 "From Bone to Ashes" # Ngamahu's Flame Abyssal Axe Two-Implicit Corrupted
 "Humility" #tabula
 "Hunter's Reward" # The Taming Prismatic Ring
+"Immortal Resolve" # blue 6link body armour - influenced
 "The Avenger" # møljner Corrupted
+"The Celestial Justicar" # magic 6link astral plate
+"The Chains that Bind" # normal 6link body armour
+"The Dapper Prodigy" #6 blue link body
+"The Dark Mage" # 6link staff
 "The Deceiver" # belt of the deciever Corrupted
+"The Drunken Aristocrat" # Divination Distillate Large Hybrid Flask
 "The Ethereal" # white 6link vaal regalia white
 "The Fathomless Depths" # Lightpoacher - abyss hat
 "The Formless Sea" # varunastra sword
@@ -283,8 +376,11 @@ SSSSSSS
 "The Last Supper" # Bino's Kitchen Knife
 "The Leviathan" # Maven Item Two-Implicit Corrupted - 81+ Maelström of Chaos Atoll Map (rf boots)
 "The Mad King" # vaal aspect
+"The Mind's Eyes" # Astral Projector Topaz Ring
 "The Offering" # shavronne's wrappings
 "The Offspring" # Ryslatha's Coil belt
+"The One With All" # le heup of all Corrupted
+"The Master" # Bisco's collar gold amulet
 "The Pack Leader" # Alpha's Howl
 "The Polymath" # Astramentis Onyx Amulet
 "The Queen" # Atziri's Acuity Vaal Gauntlets
@@ -293,22 +389,32 @@ SSSSSSS
 "The Shortcut" # quicksilver flask of the cheeta
 "The Spark and the Flame" # bereks respite two stone ring
 "The Strategist" # Inspired Learning Crimson Jewel Corrupted
+"The Sword King's Salute" # Daresso's Salute amulet
+"The Thaumaturgist" # Shavronne's Revelation Moonstone Ring Corrupted
+"The Watcher" # crown of eyes hat
 "The Wedding Gift" # Arakaali's Fang
 "Unchained" #  facebreaker Two-Implicit Corrupted
 "Vanity" #tabula Corrupted
 
+
+
+
 ##################################################
 ########## Only SSF: Currency, gem, maps
 ##################################################
+
 "Doryani's Epiphany" # Level 21 Transfigured Gem 20qual Corrupted
 "Dying Anguish" # level 19 trans gem q19
 "Gemcutter's Promise" # 20q gem
 "Gift of the Gemling Queen" # level 20 support gem
+"Grave Knowledge" # q20 srs
 "Lost Worlds" # tier 15 map
 "Rain of Chaos" # 1x chaos
 "The Arena Champion" # tier 12 map
 "The Blessing of Moosh" # lvl 21 trans gem
+"The Easy Stroll" # # tier 15 map 8 modifiers
 "The Explorer" # map Corrupted
+"The Fox" # level 20 gem
 "The Gemcutter" # gemcutters prism
 "The Hook"  # Level 21 Transfigured Gem 23% Quality Corrupted
 "The Journey" # harbringers orb
@@ -319,10 +425,6 @@ SSSSSSS
 "The Wilted Rose" # level 21 aura gem Corrupted
 
 
-
-
-
-
 ####################################################################################################
 ########## UNSORTED
 ####################################################################################################
@@ -331,122 +433,56 @@ SSSSSSS
 # "More is Never Enough"  prolly ded
 # "Rebirth and Renewal" prolly ded
 
-"The Garish Power" # unique jewel (not most expensive, but very good)
-"Perfection" # yellow shaper jewellery
-"The Celestial Stone" # opal ring shaper
-"Void of the Elements" # blue shaper opal ring
-"Assassin's Favour" # dagger
-"Atziri's Arsenal" #  weapon Corrupted
-"Azyran's Reward" #  prismatic ujewel Corrupted
-"Blind Venture" #  ring Corrupted
-"Boon of the First Ones" #beastiary item
-"Chasing Risk" # Synthesis Item
-"Costly Curio" # double influenced unique
-"The Admirer" # atziri item
-"The Aesthete" # shavronne item
-"Peaceful Moments" # Timeless Jewel
-"The Dreamer" # chayula item
-"The Eternal War" # timeless jewel
-"The Eye of the Dragon" # jewel Corrupted
-"The Awakened" # yellow double influenced jewelery
-"Broken Promises" # blue 2x synt diamond ring
-
-"Burning Blood" # Xoph's Blood Amber Amulet
-"The Life Thief" # Zerphi's Heart Paua Amulet
-
-
 ####################################################################################################
 ########## Hide Cards
 ####################################################################################################
 "A Chilling Wind" # 21 vaal cold snap
 "Astral Protection" # blue shaper shield
 "Auspicious Ambitions" # blue experimental 2x influence
-"Dying Light" # yellow shaper + elder diamond ring
-"Etched in Blood" # rigwalds quills quiver Two-Implicit Corrupted
-"Forbidden Power" #  Balefire Opal Sceptre Corrupted (scorcing ray)
-"Gift of Asenath" # Asenath's Gentle Touch Silk Gloves Two-Implicit Corrupted
-"Deathly Designs" # level 21 trap gem 23q Corrupted
-"Immortal Resolve" # blue 6link body armour - influenced
-"Keeper's Corruption" # blue eldricth bone helm - elder but found in breach realm
-"Lethean Temptation" # Nebulis Void Sceptre
-"Magnum Opus" # blue 3x synth item
-"Nook's Crown" # Bone Helmet Elder (minion)
-"Prometheus' Armoury" # yellow double influenced 1hand weap
-"Rats" # rats nest
-"Reckless Ambition" # Omeyocan Carnal Boots
-"Soul Quenched" # yellow two-handed experimental weapon
-"Terrible Secret of Space" # level 21 trans golem gem Corrupted
-"The Astromancer" # The Eternity Shroud Blood Raiment (shaper)
-"The Army of Blood" # Bloodbond chest
-"The Bear Woman" # blue warlod ursine pelt hat
-"The Beast" # belly of the beast
-"The Betrayal" # Maligaro's Virtuosity Deerskin Gloves (crit)
-"The Bitter Blossom" # level 21 chaos gem q23 Corrupted
-"The Cataclysm" # lvl 21 spell gem
-"The Celestial Justicar" # lue 6link astral plate
-"The Chains that Bind" # white 6link body armour
-"The Coming Storm" # lightning coil chest
-"The Dapper Prodigy" #6 blue link body
-"The Dark Mage" # 6link staff
-"The Darkest Dream" # severed in sleep sword Corrupted (minion)
-"The Demoness" # Death's Hand (minion)
-"The Enforcer" # blue spiked gloves Warlord
-"The Feast" # Romira's Banquet Diamond Ring Corrupted (power charge)
-"The Lich" # Midnight Bargain Engraved Wand (minion)
-"The Magma Crab" # 21 vaal molten shell
-"The Primordial" # primordial jewel (golem)
-"The Tumbleweed" # blue diamond ring - redeemer item
-"The Undisputed" # blue merciless vaal axe - elder
-"The Unexpected Prize" # Attribute Transforming Jewel Corrupted
-"The Warlord" # six link 2handed maul
-"The White Knight" #blue 6link astral plate - crusader
-"The Whiteout" # Cospri's Malice 1h sword foil
-
-
-
-
-##################################################
-########## Really bad
-##################################################
-"Alivia's Grace" # queen of the forest
 "Audacity" #  doryanas fist Corrupted
 "Boon of Justice" # offering of the goddess
 "Boundless Realms" # map
 "Call to the First Ones" # yellow corrupt tier 1 talisman
 "Cartographer's Delight" # tier 5 map
 "Dark Temptation" # obliteration wand
+"Deathly Designs" # level 21 trap gem 23q Corrupted
 "Destined to Crumble" # yellow body armour
 "Dialla's Subjugation" # support gem 23q Corrupted
 "Duality" # blue double influenced body armour
 "Echoes of Love" # fidelita's spike Two-Implicit Corrupted
 "Eldritch Perfection" # blue item perfect eldrict mod
+"Forbidden Power" #  Balefire Opal Sceptre Corrupted (scorcing ray)
 "Further Invention" # blue double influenced helmet
-"Grave Knowledge" # q20 srs
 "Her Mask" # saccrifice fragment
+"Keeper's Corruption" # blue eldricth bone helm - elder but found in breach realm
 "Lantador's Lost Love" # yellow two-stone ring
+"Magnum Opus" # blue 3x synth item
 "Merciless Armament" # blue merciless 2h weap
 "Might is Right" # Trypanon Great Mallet
 "Prosperity" # blue perandus gold ring
 "Rain Tempter" # tier 6 map
 "Rebirth" # Charans sword
+"Reckless Ambition" # Omeyocan Carnal Boots
 "Shard of Fate" # blue vivid hewel
 "Struck by Lightning" # blue lightning jewelery
 "The Adventuring Spirit" # Victario's Influence Lacquered Garb
 "The Archmage's Right Hand" # blue glyphic wand
 "The Aspirant" # blue enchanged and influenced item
+"The Astromancer" # The Eternity Shroud Blood Raiment (shaper)
+"The Army of Blood" # Bloodbond chest
+"The Bitter Blossom" # level 21 chaos gem q23 Corrupted
 "The Brawny Battle Mage" # blue tornadi wand
 "The Carrion Crow" # blue armour
+"The Cataclysm" # lvl 21 spell gem
 "The Conduit" # doryana's fist
 "The Cursed King" # Rigwald's Curse Wereclaw Talisman
 "The Deep Ones" # tidebreaker maul
 "The Doppelganger" # 20q mirror arrow
-"The Easy Stroll" # # tier 15 map 8 modifiers
 "The Endurance" # blue crimson gem
 "The Enthusiasts" #  Victario's Influence Lacquered Garb Two-Implicit Corrupted
 "The Escape" # Seven-League Step Rawhide Boots
 "The Forsaken" # Umbilicus Immortalis Leather Belt (heals zombies shit)
 "The Flora's Gift" # white 5link staff
-"The Fox" # level 20 gem
 "The Fox in the Brambles" # bramble jack chest Two-Implicit Corrupted
 "The Golden Era" # blue staff
 "The Hale Heart" # yellow elder Item
@@ -468,12 +504,13 @@ SSSSSSS
 "The Pact" # pledge of hands staff
 "The Poet" # Blood of Corruption Amber Amulet Corrupted
 "The Rabid Rhoa" # blue claw
-"The Rite of Elements" # lvl 21 golem gem Corrupted
 "The Road to Power" # blue runic 1h weap
 "The Ruthless Ceinture" # meginord's girdle Corrupted
 "The Scarred Meadow" # Wake of Destruction Mesh Boots
 "The Scholar" # 40x wiz
 "The Skeleton" # q23 summon skeleton Corrupted
+"The Sigil" # blue amulet
+"The Spoiled Prince" # blue wand
 "The Surgeon" # blue surgeon flask
 "The Throne" # Kaom's Roots boots
 "The Tyrant" # blue merciless item
@@ -492,110 +529,3 @@ SSSSSSS
 "Volatile Power" # q20 vaal gem Corrupted
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OBS "Poisoned Faith" # arakalis fang Corrupted
-"Prejudice" # item - influenced
-
-
-
-
-
-
-
-
-
-"The Battle Born" # axe
-"The Body" # body armour
-"The Breach" # breach item
-
-"The Cache" # jewellery
-"The Calling" # beyond item
-
-"The Dragon" # coruscating elixir
-"The Dreamland" # Poorjoy's Asylum umap
-"The Dungeon Master" # double influence belt
-"The Encroaching Darkness" # umap
-"The Forgotten Treasure" # double influenced leather belt
-"The Forward Gaze" # replica item
-"The Gentleman" # sword Corrupted
-"The Gladiator" # nightmare bascinet
-"The Hunger" # Taste of Hate Sapphire Flask
-"The King's Heart" # kaom's heart
-"The Landing" # The Breachhead umap
-"The Lion" # lioneye item
-"The Mercenary" # shield Corrupted
-"The Messenger" # harbringer piece
-"The Mind's Eyes" #Astral Projector Topaz Ring
-"The One With All" # le heup of all Corrupted
-"The Penitent" # unset ring
-"The Prince of Darkness" # Elegant Hubris Timeless Jewel
-"The Realm" #portal
-"The Standoff" # rustich sash
-"The Stormcaller" # angerod staff
-"The Thaumaturgist" # Shavronne's Revelation Moonstone Ring Corrupted
-"The Tower" # staff
-"The Traitor" # wand Corrupted
-
-"The Wolf" # rigwald item
-"The Wolf's Legacy" # Vaults of Atziri umap
-
-"The Wolverine" # claw
-"Time-Lost Relic" # league specific item
-"Light and Truth" # crystal sceptre
-
-
-
-"The Drunken Aristocrat" # Divination Distillate Large Hybrid Flask
-
-
-
-
-
-"The Master" # Bisco's collar gold amulet
-
-"The Journalist" # blue double veiled item
-
-
-"The Scavenger" # carcass jack
-"The Sigil" # blue amulet
-
-"The Spoiled Prince" # blue wand
-
-
-
-"The Sword King's Salute" # Daresso's Salute amulet
-"The Watcher" # crown of eyes hat
-"Treasure Hunter" # Vaults of Atziri umap

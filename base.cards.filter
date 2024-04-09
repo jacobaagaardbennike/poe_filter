@@ -33,7 +33,7 @@
 "Unrequited Love" # 19x Mirror Shard - 35+ The Temple of Decay Level 1 • Maze Map • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map
 "Wealth and Power" # Level 4 Enlighten Corrupted - Citadel Map (t17map)
 
-Show
+Show # very good cards
   Class == "Divination Cards"
   BaseType == "Beauty Through Death" "Brother's Gift" "Choking Guilt" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "Fire Of Unknown Origin" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Cheater" "The Demon" "The Doctor" "The Dragon's Heart" "The Endless Darkness" "The Enlightened" "The Fiend" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "The Shieldbearer" "Unrequited Love" "Wealth and Power" 
   SetFontSize 45

@@ -20,6 +20,9 @@ t: "Ghastly Eye Jewel"
 t: "Golden Buckler"
 # Atziri's Reflection - uber atziri, nochance
 
+t: "Papyrus Relic"
+# The Original Scripture - Sanctum of area level 81+ (used for original sin ring drop run)
+
 t: "Prismatic Jewel"
 # Emperor's Mastery - reasure chests at the end of the Eternal and Enriched Eternal Labyrinth, nochance (extremely expensive)
 # The Anima Stone - recipes only, nochance
@@ -27,15 +30,15 @@ t: "Prismatic Jewel"
 # Sublime Vision - uber shaper uber eldar, nochance
 # The Perandus Pact -  Perandus family corpses in the Necropolis, nochance
 
-t: "Prophecy Wand"
-# Void Battery - anywhere, chance (not expensive)
-# Grace of the Goddess - uber maven, nochance (extremely expensive)
-
 t: "Ring"
 # Kalandra's Touch - anywhere, weirdchance
 
 t: "Riveted Boots"
 # Ralakesh's Impatience - anywhere, chance
+
+t: "Ruby Flask"
+# Dying Sun - the shaper, nochance (extremely expensive)
+# Coruscating Elixir - cheap (doesn't drop, only from cards)
 
 t: "Siege Axe"
 # Soul Taker - anywhere, chance
@@ -43,16 +46,38 @@ t: "Siege Axe"
 t: "Unset Amulet"
 # Uul-Netol's Vow - any Breachlord in a Flawless Breachstone, nochance
 
-t: "Papyrus Relic"
-# The Original Scripture - Sanctum of area level 81+ (used for original sin ring drop run)
-
 t: "Large Cluster Jewel"
 # Voices - Simulacrum kosis or omniphobia wave, nochance
 
+t: "Timeless Jewel"
+# Brutal Restraint - 100x Timeless Maraketh Splinters also rarely from Aukuna, the Black Sekhema
+# Elegant Hubris - 100x Timeless Eternal Empire Splinter also rarely from General Marceus Lioneye
+# Glorious Vanity - 100x Timeless Vaal Splinters also rarely from Viper Napuatzi
+# Lethal Pride - 100x Timeless Karui Splinters also rarely from Queen Hyrri Ngamaku 
+# Militant Faith - 100x Timeless Templar Splinters also rarely from Cardinal Sanctus Vox
+
+
+
+
+
+
+
+
+##################################################
+########## 50+
+##################################################
+t: "Prophecy Wand"
+# Void Battery - anywhere, chance
+# Grace of the Goddess - uber maven, nochance (CURRENTLY EXTREMELY EXPENSIVE)
 
 ##################################################
 ########## Multibase with shit versions
 ##################################################
+
+
+t: "Elegant Round Shield"
+# The Squire - anywhere, chance
+
 t: "Heavy Belt"
 # Mageblood - anywhere, chance
 
@@ -80,9 +105,7 @@ t: "Bismuth Flask"
 t: "Magistrate Crown"
 # Crown of the Tyrant - Aul, the Crystal King, nochance
 
-t: "Ruby Flask"
-# Dying Sun - the shaper, nochance (extremely expensive)
-# Coruscating Elixir - cheap
+
 
 t: "Lapis Amulet"
 # Choir of the Storm - Esh in the Flawless Breachstone version of encounter, nochance
@@ -170,7 +193,7 @@ t: "Devout Chainmail"
 "Eelskin Boots"
 "Eelskin Gloves"
 "Elder Sword"
-"Elegant Round Shield"
+
 "Embroidered Gloves"
 "Enameled Buckler"
 "Engraved Wand"

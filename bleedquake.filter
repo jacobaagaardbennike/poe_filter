@@ -1,0 +1,64 @@
+##################################################
+########## Items: Insert Builds specific
+##################################################
+
+Show
+  Class == "Body Armours" "Boots" "Gloves" "Helmets"
+  Rarity Normal Magic Rare
+  AreaLevel <= 12
+  SocketGroup >= 3RR
+  BaseEnergyShield < 1
+  SetFontSize 45
+
+Show
+  Class == "Body Armours" "Boots" "Gloves" "Helmets"
+  Rarity Rare
+  AreaLevel < 45
+  SocketGroup >= 3RR
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  SetFontSize 45
+
+Show
+  BaseType "Body Armours" "Boots" "Gloves" "Helmets"
+  Rarity Rare
+  AreaLevel < 81
+  SocketGroup >= 4RRR
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  BaseEvasion < 1
+  LinkedSockets >= 4
+  SetFontSize 45
+
+Show
+  Class == "Two Hand Axes" "Two Hand Maces" "Warstaves"
+  Rarity Normal Magic Rare
+  AreaLevel <= 12
+  SetFontSize 45
+
+Show
+  Class == "Two Hand Axes" "Two Hand Maces" "Warstaves"
+  Rarity Rare
+  AreaLevel <= 25
+  SetFontSize 45
+
+Show
+  Class == "Two Hand Maces" "Warstaves"
+  Rarity Rare
+  AreaLevel <= 25
+  SocketGroup >= 3RR
+  SetFontSize 45
+
+Show
+  BaseType "Agate Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Amethyst Ring" "Coral Ring" "Ruby Ring" "Sapphire Ring" "Steel Ring" "Topaz Ring" "Two-Stone Ring" "Vermillion Ring" "Heavy Belt" "Leather Belt" "Rustic Sash" "Stygian Vise"
+  Rarity Rare
+  AreaLevel < 81
+  SetFontSize 45
+
+Show
+  BaseType  "Agate Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Amethyst Ring" "Coral Ring" "Ruby Ring" "Sapphire Ring" "Steel Ring" "Topaz Ring" "Two-Stone Ring" "Vermillion Ring" "Heavy Belt" "Leather Belt" "Rustic Sash" "Stygian Vise"
+  Rarity Rare
+  # AreaLevel <= 81
+  ItemLevel >= 84
+  SetFontSize 45
+

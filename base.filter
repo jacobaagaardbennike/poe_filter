@@ -241,84 +241,10 @@ Hide
 ########## Items: Selected
 ##################################################
 
-Show # >30 Dex / >50 Life / >30 Any Resist / >10% DoT Multi / >20% Fire Damage
-  BaseType == "Citrine Amulet" "Jade Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet"
-  FracturedItem True
-  ItemLevel >= 75 # +1 fire gem craft
-  # ItemLevel >= 84 # max resist craft
-  SetFontSize 45
-
-
-Show # >30 Dex / >40 Life / >30 Any Resist / >50 Life Regen / >20% Fire Damage
-  BaseType == "Amethyst Ring" "Opal Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring"
-  FracturedItem True
-  # ItemLevel >= 84 # max resist craft
-  SetFontSize 45
-
-
-Show # >30 Dex / >60 Life / >30 Any Resist / >15% Life Regen / >20% Chaos Res
-  BaseType == "Titan Gauntlets" "Vaal Gauntlets"
-  FracturedItem True
-  # ItemLevel >= 84 # max resist craft
-  # ItemLevel >= 85 # max life regen craft
-  SetFontSize 45
-
-
-Show # >30 Dex / >60 Life / >30 Any Resist / >15% Life Regen / >20% Chaos Res
-  Class == "Gloves"
-  FracturedItem True
-  BaseEnergyShield >= 1
-  # ItemLevel >= 84 # max resist craft
-  # ItemLevel >= 85 # max life regen craft
-  SetFontSize 45
-
-
-Show # pref Saint's Hauberk
-  Class == "Body Armours"
-  FracturedItem True
-  BaseArmour >= 1
-  BaseEnergyShield >= 1
-  SetFontSize 45
-
-
-Show # Any Sceptre
-  Class == "Sceptres"
-  FracturedItem True
-  SetFontSize 45
-
-
-Show # Best sceptre
-  BaseType == "Void Sceptre" "Opal Sceptre"
-  FracturedItem True
-  ItemLevel >= 84
-  SetFontSize 45
-
-
-Show # End game Rune dagger
-  BaseType == "Platinium Kris" "Golden Kris" "Copper Kris"
-  FracturedItem True
-  ItemLevel >= 75
-  SetFontSize 45
-
-
-Show
-  Class == "Helmets"
-  HasInfluence Elder
-  ItemLevel >= 82
-  SetFontSize 45
-
-
-Show # Any jewel
-  Class == "Jeweles"
-  FracturedItem True
-  SetFontSize 45
-
 
 ##################################################
 ########## Items: Special
 ##################################################
-
-
 
 Show
   FracturedItem True
@@ -367,86 +293,45 @@ Show
   Rarity Unique
   SetFontSize 45
 
+##################################################
+########## Items: Insert Builds specific
+##################################################
+
 
 ##################################################
-########## Items: Hide + League Start
+########## Items: Normal Magic Rares
 ##################################################
-Show
-  LinkedSockets >= 6
-  SetFontSize 45
-
-
-Show
-  BaseType  "Citrine Amulet" "Jade Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Leather Belt" "Stygian Vise" "Amethyst Ring" "Opal Ring" "Two-Stone Ring" "Vermillion Ring" "Void Sceptre" "Opal Sceptre"
-  ItemLevel >= 84
-  # AreaLevel <= 81
-  Rarity Rare
-  SetFontSize 45
-
-Show
-  BaseType "Boots" "Gloves" "Helmets" "Shields"
-  Rarity Rare
-  ItemLevel >= 84
-  # AreaLevel <= 81
-  BaseArmour > 1
-  SetFontSize 45
-
-Show
-  BaseType "Body Armours"
-  Rarity Rare
-  LinkedSockets == 5
-  # AreaLevel < 81
-  BaseArmour > 1
-  BaseEnergyShield > 1
-  SetFontSize 45
-
 Hide
   Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves" "Body Armours" "Boots" "Gloves" "Helmets" "Amulets" "Belts" "Rings"
-  Rarity Normal Magic Rare
+  Rarity == Normal Magic Rare
   AreaLevel > 4
+  FracturedItem False
+  SynthesisedItem False
+  HasInfluence None
+  AnyEnchantment False
+  HasCruciblePassiveTree False
   SetFontSize 45
   Continue
-  Show
+  Show # early currency shards
     Class == "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Staves" "Thrusting One Hand Swords" "Warstaves"
-    Rarity Normal
+    Rarity Normal Magic Rare
     AreaLevel <= 6
     Width == 1
     SetFontSize 45
-    Continue
-  Show
-    Class == "Amulets" "Belts" "Rings"
-    Rarity Normal
+  Continue
+    Show
+    Class == "Amulets" "Belts" "Rings" "Boots"
+    Rarity Normal Magic
     AreaLevel <= 12
     SetFontSize 45
     Continue
   Show
-    Class == "Amulets" "Belts" "Boots" "Rings" "Rune Daggers" "Sceptres" "Wands"
-    Rarity Magic
-    AreaLevel <= 12
+    Class == "Amulets" "Belts" "Rings" "Boots"
+    Rarity Rare
+    AreaLevel <= 40
     SetFontSize 45
     Continue
-  Show
-    Class == "Sceptres" "Wands" "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
-    LinkedSockets => 3
-    Rarity Normal Magic Rare
-    AreaLevel <= 16
-    SetFontSize 45
-    Continue
-  Show
-    Class == "Sceptres" "Wands" "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
-    SocketGroup >= 3BBR 3RRB 3BBB
-    Rarity Normal Magic Rare
-    ItemLevel < 25
-    SetFontSize 45
-    Continue
-  Show
-    Class == "Body Armours" "Boots" "Gloves" "Helmets"
-    SocketGroup >= 4BBBR 4GGBR 4BBBB 4GG 4RR
-    Rarity Normal Magic Rare
-    AreaLevel < 68
-    SetFontSize 45
-    Continue
-  Show # Chromatic 1
+  Show # Chromatic 2x2
     Class == "Claws" "Daggers" "Rune Daggers" "Shields" "Wands" "Boots" "Gloves" "Helmets"
     SocketGroup >= 3RGB
     Rarity Normal Magic Rare
@@ -454,77 +339,61 @@ Hide
     Height <= 2
     SetFontSize 45
     Continue
-  Show # Chromatic 2
+  Show # Chromatic 1x3
     Class == "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Staves" "Thrusting One Hand Swords" "Two Hand Swords" "Warstaves"
     SocketGroup >= 3RGB
     Rarity Normal Magic Rare
     AreaLevel < 68
     Width <= 1
+    Height <= 3
     SetFontSize 45
     Continue
   Show
-    Class == "Amulets" "Belts" "Boots" "Rings" "Wands"
-    Rarity Rare
-    AreaLevel <= 40
-    SetFontSize 45
-    Continue
-  Show
-    Class == "Sceptres"
-    Rarity Rare
-    AreaLevel < 73
-    SetFontSize 45
-    Continue
-  Show
-    BaseType "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Leather Belt" "Stygian Vise" "Amethyst Ring" "Opal Ring" "Prismatic Ring" "Ruby Ring" "Two-Stone Ring" "Vermillion Ring" "Void Sceptre" "Opal Sceptre"
-    Rarity Rare
-    AreaLevel < 81
-    SetFontSize 45
-    Continue
-  Show
-    BaseType "Boots" "Gloves" "Helmets" "Shields"
-    Rarity Rare
-    SocketGroup >= 4BBBR 4GGBR 4BBBB 4GG 4RR
-    AreaLevel < 81
-    BaseArmour > 1
+    BaseType "Boots" "Gloves" "Helmets"
+    Rarity Normal Magic Rare
+    LinkedSockets == 4
+    AreaLevel <= 68
     SetFontSize 45
     Continue
   Show
     BaseType "Body Armours"
-    Rarity Rare
-    SocketGroup >= 4BBBR 4GGBR 4BBBB 4GG 4RR
-    AreaLevel < 81
-    BaseArmour > 1
-    BaseEnergyShield > 1
-    LinkedSockets >= 4
+    Rarity Normal Magic Rare
+    LinkedSockets == 5
+    AreaLevel < 73
     SetFontSize 45
-
-
+    Continue
+  Show
+    LinkedSockets >= 6
+    Sockets == 6
+    AreaLevel < 81
+    Height <= 3
+    SetFontSize 45
+    Continue
+  Show
+    LinkedSockets >= 6
+    AreaLevel < 83
+    SetFontSize 45
 
 
 ####################################################################################################
 ########## Currency
 ####################################################################################################
-Show
-  BaseType == "Mirror of Kalandra"
+Show 
+  Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"'
   SetFontSize 45
-  PlayAlertSound ShMirror 300
-
-Show
-  BaseType == "Divine Orb"
-  SetFontSize 45
-  PlayAlertSound ShDivine 300
-
-Show
-  BaseType == "Exalted Orb"
-	SetFontSize 45
-  PlayAlertSound ShExalted 300
-
-
-##################################################
-########## Currency: Hide + League Start
-##################################################
-Hide
-  BaseType == "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
+  Continue
+  Show
+    BaseType == "Mirror of Kalandra"
+    SetFontSize 45
+    PlayAlertSound ShMirror 300
+  Show
+    BaseType == "Divine Orb"
+    SetFontSize 45
+    PlayAlertSound ShDivine 300
+  Show
+    BaseType == "Exalted Orb"
+	  SetFontSize 45
+    PlayAlertSound ShExalted 300
   Show
     StackSize >= 20
     BaseType == "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
@@ -556,14 +425,9 @@ Hide
   Show
     BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
     AreaLevel < 55
-
-
-##################################################
-########## Currency: Remaining
-##################################################
-Show 
-  Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"'
-  SetFontSize 45
+    Continue
+  Hide
+    "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
 
 
 

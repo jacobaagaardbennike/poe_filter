@@ -23,6 +23,120 @@ Show
   Class "Atlas Upgrade Items" "Fishing Rods" "Hideout Doodads" "Leaguestones" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Vault Keys"
   SetFontSize 45
 
+##################################################
+########## Important Stuff: League Mechanic + quests
+##################################################
+Show
+  Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
+  SetFontSize 45
+
+Show 
+  Class "Quest Items"
+  SetFontSize 45
+
+####################################################################################################
+########## Currency
+####################################################################################################
+Show
+  BaseType == "Mirror of Kalandra"
+  SetFontSize 45
+  PlayAlertSound ShMirror 300
+
+Show
+  BaseType == "Divine Orb"
+  SetFontSize 45
+  PlayAlertSound ShDivine 300
+
+Show
+  BaseType == "Exalted Orb"
+	SetFontSize 45
+  PlayAlertSound ShExalted 300
+
+
+##################################################
+########## Currency: Hide + League Start
+##################################################
+Hide
+  BaseType == "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
+  Show
+    StackSize >= 20
+    BaseType == "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+    SetFontSize 45
+    Continue
+  Show
+    StackSize >= 8
+    BaseType == "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
+    SetFontSize 45
+    Continue
+  Continue
+    Show
+    AreaLevel < 81
+    BaseType == "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Regal Shard"
+    SetFontSize 45
+    Continue
+  Show
+    AreaLevel < 81
+    StackSize >= 8
+    BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Engineer's Orb" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
+    SetFontSize 45
+    Continue
+  Show
+    AreaLevel < 73
+    StackSize >= 3
+    BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+    SetFontSize 45
+    Continue
+  Show
+    BaseType == "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+    AreaLevel < 55
+
+
+##################################################
+########## Currency: Remaining
+##################################################
+Show 
+  Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"'
+  SetFontSize 45
+
+
+
+####################################################################################################
+########## Divination Cards
+####################################################################################################
+
+Show
+  Class == "Divination Cards" 
+  SetFontSize Continue
+  Show # very good cards
+    Class == "Divination Cards"
+    BaseType == "Beauty Through Death" "Brother's Gift" "Choking Guilt" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "Fire Of Unknown Origin" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Cheater" "The Demon" "The Doctor" "The Dragon's Heart" "The Endless Darkness" "The Enlightened" "The Fiend" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "The Shieldbearer" "Unrequited Love" "Wealth and Power" 
+    SetFontSize 45
+    Continue
+  Hide # inactive build cards
+    Class == "Divination Cards"
+    BaseType == "A Note in the Wind" "A Stone Perfected" "Bowyer's Dream" "Broken Promises" "Cursed Words" "Dark Dreams" "Death" "Desperate Crusade" "Dying Light" "Emperor of Purity" "Endless Night" "Etched in Blood" "Gift of Asenath" "Imperial Legacy" "Lethean Temptation" "Nook's Crown" "Perfection" "Poisoned Faith" "Rats" "Silence and Frost" "Soul Quenched" "Terrible Secret of Space" "The Awakened" "The Bear Woman" "The Betrayal" "The Blazing Fire" "The Bones" "The Celestial Stone" "The Coming Storm" "The Craving" "The Darkest Dream" "The Demoness" "The Enforcer" "The Feast" "The Finishing Touch" "The Fletcher" "The Lich" "The Magma Crab" "The Porcupine" "The Primordial" "The Tumbleweed" "The Undisputed" "The Return of the Rat" "The Rite of Elements" "The Sun" "The Warlord" "The Whiteout" "The Wolven King's Bite" "Vile Power" "Void of the Elements" 
+    Continue
+  Hide # inactive gamble cards (everything they supply is low value)
+    Class == "Divination Cards"
+    BaseType == "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Burning Blood" "Doedre's Madness" "Earth Drinker" "Heterochromia" "Hope" "Hunter's Resolve" "Imperfect Memories" "Judging Voices" "Light and Truth" "Lysah's Respite" "Mitts" "Pride Before the Fall" "The Academic" "The Aesthete" "The Brittle Emperor" "The Calling" "The Damned" "The Dragon" "The Gladiator" "The King's Heart" "The Life Thief" "The Lion" "The Penitent" "The Standoff" "The Tower" "The Traitor" "The Unexpected Prize" "The Wolverine"
+    Continue
+  Hide # inactive outside of absolute League Starts or SSF
+    Class == "Divination Cards"
+    BaseType == "A Dusty Memory" "Brush, Paint and Palette" "Loyalty" "The Catalyst" "The Realm" "The Scavenger" "The Stormcaller" "The Survivalist" "The Union" "Winter's Embrace"
+    Continue
+  Hide # inactive outside of SSF
+    Class == "Divination Cards"
+    BaseType == "A Dab of Ink" "Alivia's Grace" "Assassin's Gift" "Broken Truce" "From Bone to Ashes" "Humility" "Hunter's Reward" "Immortal Resolve" "The Avenger" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Deceiver" "The Drunken Aristocrat" "The Ethereal" "The Fathomless Depths" "The Formless Sea" "The Hermit" "The Incantation" "The Last Supper" "The Leviathan" "The Mad King" "The Mind's Eyes" "The Offering" "The Offspring" "The One With All" "The Master" "The Pack Leader" "The Polymath" "The Queen" "The Siren" "The Shortcut" "The Spark and the Flame" "The Strategist" "The Sword King's Salute" "The Thaumaturgist" "The Watcher" "The Wedding Gift" "Unchained" "Vanity"
+    Continue
+  Hide # inactive outside of SSF (Currency, gem, maps)
+    Class == "Divination Cards"
+    BaseType == "Doryani's Epiphany" "Dying Anguish" "Gemcutter's Promise" "Gift of the Gemling Queen" "Grave Knowledge" "Lost Worlds" "Rain of Chaos" "The Arena Champion" "The Blessing of Moosh" "The Easy Stroll" "The Explorer" "The Fox" "The Gemcutter" "The Hook"  "The Journey" "The Master Artisan" "The Trial" "The Summoner" "The Surveyor" "The Wilted Rose"
+    Continue
+  Hide # inactive terrible cards
+    Class == "Divination Cards"
+    BaseType ==  "A Chilling Wind" "Astral Protection" "Auspicious Ambitions" "Audacity" "Boon of Justice" "Boundless Realms" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Deathly Designs" "Destined to Crumble" "Dialla's Subjugation" "Duality" "Echoes of Love" "Eldritch Perfection" "Forbidden Power" "Further Invention" "Her Mask" "Keeper's Corruption" "Lantador's Lost Love" "Magnum Opus" "Merciless Armament" "Might is Right" "Prosperity" "Rain Tempter" "Rebirth" "Reckless Ambition" "Shard of Fate" "Struck by Lightning" "The Adventuring Spirit" "The Archmage's Right Hand" "The Aspirant" "The Astromancer" "The Army of Blood" "The Bitter Blossom" "The Brawny Battle Mage" "The Carrion Crow" "The Cataclysm" "The Conduit" "The Cursed King" "The Deep Ones" "The Doppelganger" "The Endurance" "The Enthusiasts" "The Escape" "The Forsaken" "The Flora's Gift" "The Fox in the Brambles" "The Golden Era" "The Hale Heart" "The Harvester" "The Hive of Knowledge" "The Inoculated" "The Insatiable" "The Jester" "The Jeweller's Boon" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Pact" "The Poet" "The Rabid Rhoa" "The Road to Power" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Skeleton" "The Sigil" "The Spoiled Prince" "The Surgeon" "The Throne" "The Tyrant" "The Twins" "The Warden" "The Web" "The Wind" "The Witch" "The Wolf's Shadow" "The Vast" "The Visionary" "Thirst for Knowledge" "Thunderous Skies" "Triskaidekaphobia" "Turn the Other Cheek" "Volatile Power"
+
+
 ####################################################################################################
 ########## Maps
 ####################################################################################################
@@ -93,10 +207,39 @@ Hide
     # AreaLevel < 83
     SetFontSize 45
 
+####################################################################################################
+########## Jewels
+####################################################################################################
+Show
+  BaseType == "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
+  Rarity Normal Magic Rare
+  SetFontSize 45
+
+Show
+  Class == "Abyss Jewels" "Jewels"
+  Rarity Rare
+  SetFontSize 45
+
+Hide
+  Class == "Abyss Jewels" "Jewels"
+  Rarity Normal Magic
+  SetFontSize 45
+  Continue
+  Show
+    Class == "Abyss Jewels"
+    ItemLevel >= 85
+    SetFontSize 45
+
 
 ####################################################################################################
 ########## Items
 ####################################################################################################
+
+
+
+##################################################
+########## Items: Selected
+##################################################
 
 Show # >30 Dex / >50 Life / >30 Any Resist / >10% DoT Multi / >20% Fire Damage
   BaseType == "Citrine Amulet" "Jade Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet"
@@ -172,23 +315,11 @@ Show # Any jewel
 
 
 ##################################################
-########## League Items
-##################################################
-Show 
-  Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
-  SetFontSize 45
-
-##################################################
-########## Quest Items
-##################################################
-Show 
-  Class "Quest Items"
-  SetFontSize 45
-
-
-##################################################
 ########## Items: Special
 ##################################################
+
+
+
 Show
   FracturedItem True
   SetFontSize 45
@@ -368,28 +499,7 @@ Hide
     SetFontSize 45
 
 
-####################################################################################################
-########## Jewels
-####################################################################################################
-Show
-  BaseType == "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
-  Rarity Normal Magic Rare
-  SetFontSize 45
 
-Show
-  Class == "Abyss Jewels" "Jewels"
-  Rarity Rare
-  SetFontSize 45
-
-Hide
-  Class == "Abyss Jewels" "Jewels"
-  Rarity Normal Magic
-  SetFontSize 45
-  Continue
-  Show
-    Class == "Abyss Jewels"
-    ItemLevel >= 85
-    SetFontSize 45
 
 ####################################################################################################
 ########## Currency

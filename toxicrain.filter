@@ -1,59 +1,83 @@
 ##################################################
 ########## Items: Late Builds specific
 ##################################################
-Show # The Tempest Rising - uber sirus, nochance
-	BaseType == "Goliath Greaves"
-	Rarity Unique
-
-Show # Marohi Erqi - anywhere, chance
-	BaseType == "Karui Maul"
-	Rarity Unique
-
-Show # Utula's Hunger - anywhere, chance
-	BaseType == "Majestic Plate"
-	Rarity Unique
-
-Show # Soul Ripper - bought, nochance - Soul Catcher is Upgraded via the Altar of Sacrifice found in the Temple of Atzoatl's Apex of Ascension with Vial of the Ghost (from boss)
-	BaseType == "Quartz Flask"
-	Rarity Unique
+Show
+  BaseType == "Broadhead Arrow Quiver"
+  HasInfluence Hunter
+  ItemLevel >= 86
+  SetFontSize 45
 
 Show
-	BaseType == "Large Cluster Jewel"
-	Rarity Normal Magic Rare
-	EnchantmentPassiveNum == 8
-	EnchantmentPassiveNode "Mace and Staff Damage"
-	SetFontSize 45
+  BaseType == "Thicket Bow"
+  HasInfluence Hunter
+  ItemLevel >= 78
+  SetFontSize 45
+
+Show
+  Class == "Turquoise Amulet" "Onyx Amulet"
+  FracturedItem True
+  ItemLevel >= 82
+  SetFontSize 45
+
+Show
+  Class == "Boots" "Gloves"
+  FracturedItem True
+  BaseEnergyShield > 1
+  BaseEvasion > 90
+  SetFontSize 45
+
+Show
+  BaseType = "hubris circlet"
+  FracturedItem True
+  SetFontSize 45
+
+Show
+  BaseType "Amethyst Ring" "Vermillion Ring" "Stygian Vise"
+  Rarity Rare
+  ItemLevel >= 84
+  SetFontSize 45
+
+Show
+  BaseType "Amethyst Ring" "Vermillion Ring" "Stygian Vise"
+  Rarity Normal
+  ItemLevel >= 84
+  SetFontSize 45
 
 Show
 	BaseType == "Medium Cluster Jewel"
 	Rarity Normal Magic Rare
 	EnchantmentPassiveNum <= 5
-	EnchantmentPassiveNode "Physical Damage over Time" "Exerted Attack Damage"
+	EnchantmentPassiveNode "Damage over Time" "Area Damage"
 	SetFontSize 45
+
+
+Show # Taste of Hate - anywhere, chance
+	BaseType == "Sapphire Flask"
+	Rarity Unique
+
+
 
 Show
-	BaseType == "Breakrib Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Writhing Talisman" "Greatwolf Talisman"
-	Rarity Normal Magic Rare
-	SetFontSize 45
+  Class == "Divination Cards"
+  BaseType =="The Porcupine"
+
+"The Bitter Blossom" # level 21 chaos gem q23 Corrupted
+"The Damned" # Soul Ripper Quartz Flask ????
+"The Hunger" # Taste of Hate Sapphire Flask ?????
+"The Coming Storm" # lightning coil chest
 
 
-# expensive
-Show # The Fourth Vow - anywhere, chance
-	BaseType == "Devout Chainmail"
-	Rarity Unique
 
-# cheap alternatives
 
 Show # Venopuncture - anywhere, chance
-	BaseType == "Iron Ring"
+	BaseType == "Iron"
 	Rarity Unique
 
-Show # Ryslatha's Coil - anywhere, chance
-	BaseType == "Studded Belt"
-	Rarity Unique
+  
 
- card
-"The Warlord" # six link 2handed maul ##### MELEEE
+
+
+
 
 
 ##################################################
@@ -113,10 +137,5 @@ Show
   AreaLevel < 81
   SetFontSize 45
 
-Show
-  BaseType  "Agate Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Amethyst Ring" "Coral Ring" "Ruby Ring" "Sapphire Ring" "Steel Ring" "Topaz Ring" "Two-Stone Ring" "Vermillion Ring" "Heavy Belt" "Leather Belt" "Rustic Sash" "Stygian Vise"
-  Rarity Rare
-  # AreaLevel <= 81
-  ItemLevel >= 84
-  SetFontSize 45
+
 

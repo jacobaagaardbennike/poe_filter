@@ -237,10 +237,6 @@ Hide
 
 
 
-##################################################
-########## Items: Selected
-##################################################
-
 
 ##################################################
 ########## Items: Special
@@ -280,6 +276,14 @@ Show
   SetFontSize 45
 
 ##################################################
+########## Items: Late Builds specific
+##################################################
+
+##################################################
+########## Items: Early Builds specific
+##################################################
+
+##################################################
 ########## Items: Unique
 ##################################################
 Show # collecting
@@ -287,15 +291,10 @@ Show # collecting
   Rarity Unique
   SetFontSize 45
 
-
 Show
   Class == "Abyss Jewels" "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "Hybrid Flasks" "Jewels" "Life Flasks" "Mana Flasks" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Utility Flasks" "Wands" "Warstaves"
   Rarity Unique
   SetFontSize 45
-
-##################################################
-########## Items: Insert Builds specific
-##################################################
 
 
 ##################################################

@@ -14,6 +14,8 @@
 "The Greatest Intentions" # The Saviour Legion Sword Two-Implicit Corrupted - Maven's Invitation: The Feared
 "The Shieldbearer" # The Squire Elegant Round Shield - 70+ Citadel Map (t17map)
 
+"Beauty Through Death" "Deadly Joy" "Fire Of Unknown Origin" "Misery in Darkness" "Pride of the First Ones" "The Chosen" "The Demon" "The Doctor" "The Endless Darkness" "The Fiend" "The Greatest Intentions" "The Shieldbearer"
+
 ##################################################
 ########## Important Cards: Personal favorites
 ##################################################
@@ -46,6 +48,7 @@
 "Unrequited Love" # 19x Mirror Shard - 35+ The Temple of Decay Level 1 • Maze Map • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map
 "Wealth and Power" # Level 4 Enlighten Corrupted - Citadel Map (t17map)
 
+"Brother's Gift" "Brother's Stash" "Choking Guilt" "Darker Half" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Card Sharp" "The Cheater" "The Dragon's Heart" "The Enlightened" "The Garish Power" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "Unrequited Love" "Wealth and Power"
 
 
 ####################################################################################################
@@ -58,7 +61,6 @@
 "The Soul" # Soul Taker Siege Axe
 "The World Eater" # Starforge Infernal Sword - 83+ Ghorr, the Grasping Maw
 "Tranquillity" # Voltaxic Rift Spine Bow - 48+ Ashen Wood, Fields, Orchard, Peninsula, The Ashen Fields
-
 
 ##################################################
 ########## Always show: Personal favorites
@@ -93,7 +95,6 @@
 "The Scout" # 7x exalted
 "The Transformation" # tainted mythic orb
 
-
 ##################################################
 ########## Always show: Gamble
 ##################################################
@@ -116,8 +117,6 @@
 "The Risk" # ventors gamble gold ring
 "The Wretched" # belt (can drop mageblood and headhunter)
 "Time-Lost Relic" # unique league specific item
-
-
 
 
 ####################################################################################################
@@ -149,7 +148,6 @@
 "Three Faces in the Dark" # 3x chaos orb
 "Three Voices" # 3x essence
 "Vinia's Token" # 10x regret
-
 
 ##################################################
 ########## Show Unless Rich: Fishing
@@ -190,7 +188,6 @@
 "The Valkyrie" # nemesis item (can drop headhunter)
 "The Void" # random card
 
-
 ##################################################
 ########## Show Unless Rich: misc
 ##################################################
@@ -204,7 +201,6 @@
 "Lachrymal Necrosis" # Corrupted yellow Jewel Implicit Modifier: Corrupted Blood cannot be inflicted on you
 "Lethean Temptation" # Nebulis Void Sceptre
 "Matryoshka" # rare onyx amulet Item Level: 85 Quality: +20% Influenced Item Four Anointments Incubating Talisman Item Corrupted
-"Monochrome" # CURRENTLY DISABLED
 "Nook's Crown" # Bone Helmet Elder
 "Silence and Frost" # The Pandemonius Jade Amulet
 "The Academic" # Inspired Learning Crimson Jewel
@@ -218,6 +214,12 @@
 "The Strategist" # Inspired Learning Crimson Jewel Corrupted
 "The Wedding Gift" # Arakaali's Fang
 "The Twilight Moon" # the twilight moon map
+
+"Monochrome" # CURRENTLY DISABLED
+"More is Never Enough" # CURRENTLY DISABLED
+"Rebirth and Renewal" # CURRENTLY DISABLED
+"Underground Forest" # CURRENTLY DISABLED
+
 
 ####################################################################################################
 ########## Hide Unless they change 
@@ -245,10 +247,12 @@
 "The Unexpected Prize" # Attribute Transforming Jewel Corrupted
 "The Wolverine" # unique claw
 
+"A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Doedre's Madness" "Earth Drinker" "Heterochromia" "Hope" "Light and Truth" "Lysah's Respite" "Mitts" "The Aesthete" "The Brittle Emperor" "The Calling" "The Dragon" "The Gladiator" "The Lion" "The Penitent" "The Standoff" "The Tower" "The Traitor" "The Unexpected Prize" "The Wolverine"
+
+
 ####################################################################################################
 ########## Hide Unless: Reason 
 ####################################################################################################
-
 "A Familiar Call" # blue jewellery of farrul shaper + hunter item
 "A Note in the Wind" # Asenath's Mark - (bow helmet)
 "A Stone Perfected" # Jewel Primordial Corrupted (golem) ##### MINION
@@ -262,7 +266,7 @@
 "Hunter's Resolve" # bow
 "Immortal Resolve" # blue 6link body armour - influenced
 "Imperfect Memories" # rare jewellery Three-Implicit Synthesised
-"Imperial Legacy" #white 6link imperial
+"Imperial Legacy" # white 6link imperial
 "Judging Voices" # Forbidden Shako Great Crown
 "Last Hope" # mortal hope (Uber Atziri )
 "Magnum Opus" # blue 3x synth item
@@ -295,11 +299,11 @@
 "The Tumbleweed" # blue diamond ring - redeemer item
 "The Undisputed" # blue merciless vaal axe - elder
 "The Warlord" # six link 2handed maul ##### MELEEE
-"The White Knight" #blue 6link astral plate - crusader
-"Underground Forest" # CURRENTLY DISABLED
+"The White Knight" # blue 6link astral plate - crusader
 "Void of the Elements" # blue shaper opal ring
 "Who Asked" # Dictator's (phys + accuracy) Weapon Item Level: 83 Fractured
 
+"A Familiar Call" "A Note in the Wind" "A Stone Perfected" "Ambitious Obsession" "Broken Truce" "Brush, Paint and Palette" "Bowyer's Dream" "Dark Dreams" "Death" "Draped in Dreams" "Hunter's Resolve" "Immortal Resolve" "Imperfect Memories" "Imperial Legacy" "Judging Voices" "Last Hope" "Magnum Opus" "Man With Bear" "Mawr Blaidd" "Prometheus' Armoury" "Remembrance" "Sambodhi's Vow" "Soul Quenched" "The Aspirant" "The Avenger" "The Awakened" "The Bear Woman" "The Bones" "The Celestial Stone" "The Coming Storm" "The Craving" "The Damned" "The Darkest Dream" "The Enforcer" "The Feast" "The Finishing Touch" "The Formless Sea" "The Last Supper" "The Life Thief" "The Master" "The Porcupine" "The Primordial" "The Return of the Rat" "The Tumbleweed" "The Undisputed" "The Warlord" "The White Knight" "Void of the Elements" "Who Asked"
 
 ##################################################
 ########## Hide Unless: Poor or SSF
@@ -335,6 +339,7 @@
 "The Surveyor" # tier 14 map
 "Treasure Hunter" # Vaults of Atziri Unique map
 
+"Buried Treasure" "Disdain" "Dying Anguish" "Gemcutter's Promise" "Gift of Asenath" "Gift of the Gemling Queen" "Grave Knowledge" "Lost Worlds" "Perfection" "Poisoned Faith" "Rain of Chaos" "Scholar of the Seas" "Society's Remorse" "Terrible Secret of Space" "The Arena Champion" "The Blessing of Moosh" "The Cartographer" "The Deal" "The Easy Stroll" "The Enthusiasts" "The Explorer" "The Fox" "The Journey" "The Leviathan" "The Master Artisan" "The Tireless Extractor" "The Trial" "The Summoner" "The Surveyor" "Treasure Hunter"
 
 ##################################################
 ########## Hide Unless: SSF
@@ -401,7 +406,7 @@
 "Winter's Embrace" # Circle of Fear Sapphire Ring ( doesn't drop)
 "Vanity" # tabula Corrupted
 
-
+"A Dab of Ink" "A Chilling Wind" "A Dusty Memory" "Azure Rage" "Cursed Words" "Dying Light" "Emperor of Purity" "From Bone to Ashes" "Humility" "Hunter's Reward" "Left to Fate" "Loyalty" "Pride Before the Fall" "Rats" "The Astromancer" "The Beast" "The Bitter Blossom" "The Catalyst" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Deceiver" "The Demoness" "The Drunken Aristocrat" "The Ethereal" "The Fathomless Depths" "The Fool" "The Gemcutter" "The Hook"  "The Incantation" "The Journalist" "The King's Heart" "The Lich" "The Magma Crab" "The Mind's Eyes" "The Offering" "The Offspring" "The One With All" "The Pack Leader" "The Puzzle" "The Queen" "The Realm" "The Rite of Elements" "The Scavenger" "The Siren" "The Spark and the Flame" "The Stormcaller" "The Sun" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Tinkerer's Table" "Unchained" "The Union" "The Watcher" "The Wilted Rose" "The Whiteout" "The Wolf" "Winter's Embrace" "Vanity"
 
 ####################################################################################################
 ########## Hide
@@ -409,54 +414,8 @@
 "Alivia's Grace" # queen of the forest
 "Astral Protection" # blue shaper shield
 "Audacity" #  doryanas fist Corrupted
-
 "Boon of Justice" # offering of the goddess (lab)
 "Boundless Realms" # map
-
-
-
-
-
-
-
-
-"Endless Night" # Maloney's Mechanism Ornate Quiver
-"Etched in Blood" # rigwalds quills quiver Two-Implicit Corrupted
-
-"The Betrayal" # Maligaro's Virtuosity Deerskin Gloves
-"The Blazing Fire" # Chin Sol Assassin
-
-"The Fletcher" # drillneck quiver Corrupted
-
-"The Hermit" # lifesprig wand
-
-"The Vast" # song of the sirens staff
-
-"The Wolven King's Bite" # rigwalds quills quiver
-
-
-"Vile Power" # Doomfletch Royal Bow
-
-
-
-
-
-
-####################################################################################################
-########## UNSORTED
-####################################################################################################
-#  prolly ded
-# 
-# "More is Never Enough"  prolly ded
-# "Rebirth and Renewal" prolly ded
-
-####################################################################################################
-########## Hide Cards
-####################################################################################################
-
-
-
-
 "Call to the First Ones" # yellow corrupt tier 1 talisman
 "Cartographer's Delight" # tier 5 map
 "Dark Temptation" # obliteration wand
@@ -466,6 +425,8 @@
 "Duality" # blue double influenced body armour
 "Echoes of Love" # fidelita's spike Two-Implicit Corrupted
 "Eldritch Perfection" # blue item perfect eldrict mod
+"Endless Night" # Maloney's Mechanism Ornate Quiver
+"Etched in Blood" # rigwalds quills quiver Two-Implicit Corrupted
 "Forbidden Power" #  Balefire Opal Sceptre Corrupted (scorcing ray)
 "Further Invention" # blue double influenced helmet
 "Her Mask" # saccrifice fragment
@@ -481,10 +442,9 @@
 "Struck by Lightning" # blue lightning jewelery
 "The Adventuring Spirit" # Victario's Influence Lacquered Garb
 "The Archmage's Right Hand" # blue glyphic wand
-
-
 "The Army of Blood" # Bloodbond chest
-
+"The Betrayal" # Maligaro's Virtuosity Deerskin Gloves
+"The Blazing Fire" # Chin Sol Assassin
 "The Brawny Battle Mage" # blue tornadi wand
 "The Carrion Crow" # blue armour
 "The Cataclysm" # lvl 21 spell gem
@@ -493,14 +453,14 @@
 "The Deep Ones" # tidebreaker maul
 "The Doppelganger" # 20q mirror arrow
 "The Endurance" # blue crimson gem
-
-
-"The Forsaken" # Umbilicus Immortalis Leather Belt (heals zombies shit)
+"The Fletcher" # drillneck quiver Corrupted
 "The Flora's Gift" # white 5link staff
+"The Forsaken" # Umbilicus Immortalis Leather Belt (heals zombies shit)
 "The Fox in the Brambles" # bramble jack chest Two-Implicit Corrupted
 "The Golden Era" # blue staff
 "The Hale Heart" # yellow elder Item
 "The Harvester" # the harvest sycthe
+"The Hermit" # lifesprig wand
 "The Hive of Knowledge" # mechina mitts Two-Implicit Corrupted
 "The Inoculated" # blue armour
 "The Insatiable" # the harvest sycthe Corrupted
@@ -529,20 +489,19 @@
 "The Throne" # Kaom's Roots boots
 "The Tyrant" # blue merciless item
 "The Twins" # blue claw
+"The Vast" # song of the sirens staff
+"The Visionary" # Lioneye's Vision - chest
 "The Warden" # yellow amulet Corrupted
 "The Web" # blue weap
 "The Wind" # Windripper imperial bow
 "The Witch" # Kiara's Determination Silver Flask
 "The Wolf's Shadow" # Hyaon's Fury Legion Sword
-
-"The Visionary" # Lioneye's Vision - chest
+"The Wolven King's Bite" # rigwalds quills quiver
 "Thirst for Knowledge" # Gluttony Leather Belt
 "Thunderous Skies" # Storm Cloud long bow
 "Triskaidekaphobia" # corrup tier 13 map 8 modifiers
 "Turn the Other Cheek" # Pacifism Viridian Jewel (-1 frenzy charge
+"Vile Power" # Doomfletch Royal Bow
 "Volatile Power" # q20 vaal gem Corrupted
 
-Hide # inactive terrible cards
-  Class == "Divination Cards"
-  BaseType ==  "A Chilling Wind" "Astral Protection" "Auspicious Ambitions" "Audacity" "Boon of Justice" "Boundless Realms" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Deathly Designs" "Destined to Crumble" "Dialla's Subjugation" "Duality" "Echoes of Love" "Eldritch Perfection" "Forbidden Power" "Further Invention" "Her Mask" "Keeper's Corruption" "Lantador's Lost Love" "Magnum Opus" "Merciless Armament" "Might is Right" "Prosperity" "Rain Tempter" "Rebirth" "Reckless Ambition" "Shard of Fate" "Struck by Lightning" "The Adventuring Spirit" "The Archmage's Right Hand" "The Aspirant" "The Astromancer" "The Army of Blood" "The Bitter Blossom" "The Brawny Battle Mage" "The Carrion Crow" "The Cataclysm" "The Conduit" "The Cursed King" "The Deep Ones" "The Doppelganger" "The Endurance" "The Enthusiasts" "The Escape" "The Forsaken" "The Flora's Gift" "The Fox in the Brambles" "The Golden Era" "The Hale Heart" "The Harvester" "The Hive of Knowledge" "The Inoculated" "The Insatiable" "The Jester" "The Jeweller's Boon" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Pact" "The Poet" "The Rabid Rhoa" "The Road to Power" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Skeleton" "The Sigil" "The Spoiled Prince" "The Surgeon" "The Throne" "The Tyrant" "The Twins" "The Warden" "The Web" "The Wind" "The Witch" "The Wolf's Shadow" "The Vast" "The Visionary" "Thirst for Knowledge" "Thunderous Skies" "Triskaidekaphobia" "Turn the Other Cheek" "Volatile Power"
-
+"Alivia's Grace" "Astral Protection" "Audacity" "Boon of Justice" "Boundless Realms" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Deathly Designs" "Destined to Crumble" "Dialla's Subjugation" "Duality" "Echoes of Love" "Eldritch Perfection" "Endless Night" "Etched in Blood" "Forbidden Power" "Further Invention" "Her Mask" "Keeper's Corruption" "Lantador's Lost Love" "Merciless Armament" "Might is Right" "Prosperity" "Rain Tempter" "Rebirth" "Reckless Ambition" "Shard of Fate" "Struck by Lightning" "The Adventuring Spirit" "The Archmage's Right Hand" "The Army of Blood" "The Betrayal" "The Blazing Fire" "The Brawny Battle Mage" "The Carrion Crow" "The Cataclysm" "The Conduit" "The Cursed King" "The Deep Ones" "The Doppelganger" "The Endurance" "The Fletcher" "The Flora's Gift" "The Forsaken" "The Fox in the Brambles" "The Golden Era" "The Hale Heart" "The Harvester" "The Hermit" "The Hive of Knowledge" "The Inoculated" "The Insatiable" "The Jester" "The Jeweller's Boon" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Pact" "The Poet" "The Rabid Rhoa" "The Road to Power" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Skeleton" "The Sigil" "The Spoiled Prince" "The Surgeon" "The Throne" "The Tyrant" "The Twins" "The Vast" "The Visionary" "The Warden" "The Web" "The Wind" "The Witch" "The Wolf's Shadow" "The Wolven King's Bite" "Thirst for Knowledge" "Thunderous Skies" "Triskaidekaphobia" "Turn the Other Cheek" "Vile Power" "Volatile Power"

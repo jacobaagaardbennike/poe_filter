@@ -17,11 +17,25 @@ Show # Soul Ripper - bought, nochance - Soul Catcher is Upgraded via the Altar o
 	BaseType == "Quartz Flask"
 	Rarity Unique
 
+# expensive
+Show # The Fourth Vow - anywhere, chance
+	BaseType == "Devout Chainmail"
+	Rarity Unique
+
+# maybe
+Show # Venopuncture - anywhere, chance
+	BaseType == "Iron Ring"
+	Rarity Unique
+
+Show # Ryslatha's Coil - anywhere, chance
+	BaseType == "Studded Belt"
+	Rarity Unique
+
 Show
 	BaseType == "Large Cluster Jewel"
 	Rarity Normal Magic Rare
 	EnchantmentPassiveNum == 8
-	EnchantmentPassiveNode "Mace and Staff Damage"
+	EnchantmentPassiveNode "Mace and Staff Damage" "Axe and Sword Damage"
 	SetFontSize 45
 
 Show
@@ -36,21 +50,15 @@ Show
 	Rarity Normal Magic Rare
 	SetFontSize 45
 
+Show
+  BaseType "Body Armours" "Gloves" "Helmets"
+  FracturedItem True
+  Rarity Rare
+  ItemLevel > 84
+  BaseArmour > 150
+  BaseEvasion > 150
+  SetFontSize 45
 
-# expensive
-Show # The Fourth Vow - anywhere, chance
-	BaseType == "Devout Chainmail"
-	Rarity Unique
-
-# cheap alternatives
-
-Show # Venopuncture - anywhere, chance
-	BaseType == "Iron Ring"
-	Rarity Unique
-
-Show # Ryslatha's Coil - anywhere, chance
-	BaseType == "Studded Belt"
-	Rarity Unique
 
  card
 "The Warlord" # six link 2handed maul ##### MELEEE
@@ -59,7 +67,6 @@ Show # Ryslatha's Coil - anywhere, chance
 ##################################################
 ########## Items: Insert Builds specific
 ##################################################
-
 Show
   Class == "Body Armours" "Boots" "Gloves" "Helmets"
   Rarity Normal Magic Rare
@@ -83,9 +90,7 @@ Show
   AreaLevel < 81
   SocketGroup >= 4RRR
   BaseArmour > 1
-  BaseEnergyShield < 1
-  BaseEvasion < 1
-  LinkedSockets >= 4
+  BaseEvasion > 1
   SetFontSize 45
 
 Show
@@ -101,7 +106,7 @@ Show
   SetFontSize 45
 
 Show
-  Class == "Two Hand Maces" "Warstaves"
+  Class == "Two Hand Axes" "Two Hand Maces" "Warstaves"
   Rarity Rare
   AreaLevel <= 25
   SocketGroup >= 3RR

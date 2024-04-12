@@ -54,31 +54,13 @@ Show
 Show # Taste of Hate - anywhere, chance
 	BaseType == "Sapphire Flask"
 	Rarity Unique
+  SetFontSize 45
 
 
-
-Show
-  Class == "Divination Cards"
-  BaseType =="The Porcupine"
-
-"The Bitter Blossom" # level 21 chaos gem q23 Corrupted
-"The Damned" # Soul Ripper Quartz Flask ????
-"The Hunger" # Taste of Hate Sapphire Flask ?????
-"The Coming Storm" # lightning coil chest
-
-
-
-
-Show # Venopuncture - anywhere, chance
-	BaseType == "Iron"
-	Rarity Unique
-
-  
-
-
-
-
-
+Show # thicket bow - level 21 chaos gem q23 Corrupted - Soul Ripper Quartz Flask  - Taste of Hate Sapphire Flask - lightning coil chest
+  Class "Divination Cards"
+  BaseType "The Porcupine" "The Bitter Blossom" "The Damned" "The Hunger" "The Coming Storm"
+  SetFontSize 45
 
 ##################################################
 ########## Items: Insert Builds specific
@@ -88,51 +70,49 @@ Show
   Class == "Body Armours" "Boots" "Gloves" "Helmets"
   Rarity Normal Magic Rare
   AreaLevel <= 12
-  SocketGroup >= 3RR
-  BaseEnergyShield < 1
+  SocketGroup >= 3GG
+  BaseEvasion > 1
   SetFontSize 45
 
 Show
   Class == "Body Armours" "Boots" "Gloves" "Helmets"
   Rarity Rare
   AreaLevel < 45
-  SocketGroup >= 3RR
-  BaseArmour > 1
-  BaseEnergyShield < 1
+  SocketGroup >= 3GG
+  BaseEvasion > 1
   SetFontSize 45
 
 Show
   BaseType "Body Armours" "Boots" "Gloves" "Helmets"
   Rarity Rare
   AreaLevel < 81
-  SocketGroup >= 4RRR
-  BaseArmour > 1
-  BaseEnergyShield < 1
-  BaseEvasion < 1
+  SocketGroup >= 4GG
+  BaseEvasion > 1
   LinkedSockets >= 4
   SetFontSize 45
 
 Show
-  Class == "Two Hand Axes" "Two Hand Maces" "Warstaves"
+  Class == "Bows"
   Rarity Normal Magic Rare
   AreaLevel <= 12
   SetFontSize 45
 
 Show
-  Class == "Two Hand Axes" "Two Hand Maces" "Warstaves"
+  Class == "Bows"
   Rarity Rare
   AreaLevel <= 25
   SetFontSize 45
 
 Show
-  Class == "Two Hand Maces" "Warstaves"
+  Class == "Bows"
   Rarity Rare
-  AreaLevel <= 25
-  SocketGroup >= 3RR
+  AreaLevel >= 25
+  AreaLevel < 73
+  SocketGroup >= 3GG
   SetFontSize 45
 
 Show
-  BaseType "Agate Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Amethyst Ring" "Coral Ring" "Ruby Ring" "Sapphire Ring" "Steel Ring" "Topaz Ring" "Two-Stone Ring" "Vermillion Ring" "Heavy Belt" "Leather Belt" "Rustic Sash" "Stygian Vise"
+  BaseType "Agate Amulet" "Amber Amulet" "Citrine Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Amethyst Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Vermillion Ring" "Heavy Belt" "Leather Belt" "Stygian Vise"
   Rarity Rare
   AreaLevel < 81
   SetFontSize 45

@@ -1,0 +1,17 @@
+https://www.poewiki.net/wiki/The_Leviathan
+https://www.poewiki.net/wiki/Arn%27s_Anguish
+https://www.poewiki.net/wiki/Nebuloch
+https://www.poewiki.net/wiki/Loreweave
+https://www.poewiki.net/wiki/Ralakesh%27s_Impatience
+https://www.poewiki.net/wiki/Eternal_Damnation
+
+https://www.poewiki.net/wiki/Militant_Faith
+https://www.poewiki.net/wiki/Sublime_Vision
+
+
+Show
+	BaseType == "Large Cluster Jewel"
+	Rarity Normal Magic Rare
+	EnchantmentPassiveNum == 8
+	EnchantmentPassiveNode "Mace and Staff Damage"
+	SetFontSize 45

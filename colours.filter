@@ -127,3 +127,88 @@
 
 
 
+
+# world eater white: #E9EAE4 - rgb(233, 234, 228) - 233 234 228
+# world eater black: #4C4A4B - rgb(76, 74, 75) - 76, 74, 75
+# brown: #A98A75 - rgb(169, 138, 117) - 169, 138, 117
+# brass: #D4B483 - rgb(212, 180, 131) - 212, 180, 131
+# dark red: #984034 - rgb(152, 64, 52) - 152, 64, 52
+# light red: #C63232 - rgb(198, 50, 50) - 198, 50, 50
+# alt red: #C4403E - rgb(196, 64, 62) - 196, 64, 62
+# stong blue: #006DC6 - rgb(0, 109, 198) - 0, 109, 198
+# light blue: #5DB5DD - rgb(93, 181, 221) - 93, 181, 221
+
+
+
+# world eater white: #E9EAE4 - rgb(233, 234, 228) - 233 234 228
+# light red: #C63232 - rgb(198, 50, 50) - 198, 50, 50
+# stong blue: #006DC6 - rgb(0, 109, 198) - 0, 109, 198
+
+# good
+	SetTextColor 0, 109, 198
+	SetBorderColor 0, 109, 198
+	SetBackgroundColor 233 234 228
+	PlayAlertSound 10 300
+	PlayEffect Red
+	MinimapIcon 0 Red CHANGEME
+
+# special good
+	SetTextColor 198, 50, 50
+	SetBorderColor 198, 50, 50
+	SetBackgroundColor 233 234 228
+	PlayAlertSound 10 300
+	PlayEffect Pink
+	MinimapIcon 0 Pink CHANGEME
+
+# great
+	SetTextColor 233 234 228
+	SetBorderColor 198, 50, 50
+	SetBackgroundColor 0, 109, 198
+	PlayAlertSound 11 300
+	PlayEffect Red
+	MinimapIcon 0 Red CHANGEME
+
+# world eater white: #E9EAE4 - rgb(233, 234, 228) - 233 234 228
+# world eater black: #4C4A4B - rgb(76, 74, 75) - 76, 74, 75
+# light blue: #5DB5DD - rgb(93, 181, 221) - 93, 181, 221
+
+# ignorable
+	SetTextColor 233 234 228
+	SetBorderColor 93, 181, 221
+	SetBackgroundColor 76, 74, 75
+	PlayAlertSound 16 300
+	PlayEffect White
+	MinimapIcon 1 White CHANGEME
+
+# world eater white: #E9EAE4 - rgb(233, 234, 228) - 233 234 228
+# dark red: #984034 - rgb(152, 64, 52) - 152, 64, 52
+# light blue: #5DB5DD - rgb(93, 181, 221) - 93, 181, 221
+	# map and qust
+	SetTextColor 233 234 228
+	SetBorderColor 93, 181, 221
+	SetBackgroundColor 152, 64, 52
+	PlayAlertSound 16 300
+	PlayEffect Red
+	MinimapIcon 1 Red CHANGEME
+
+
+# unique
+# world eater white: #E9EAE4 - rgb(233, 234, 228) - 233 234 228
+# light red: #C63232 - rgb(198, 50, 50) - 198, 50, 50
+# brown: #A98A75 - rgb(169, 138, 117) - 169, 138, 117
+	SetTextColor 233 234 228
+	SetBorderColor 198, 50, 50
+	SetBackgroundColor 169, 138, 117
+	PlayAlertSound 16 300
+	PlayEffect Brown
+	MinimapIcon 1 Brown CHANGEME
+
+# leveling items
+# stong blue: #006DC6 - rgb(0, 109, 198) - 0, 109, 198
+# brass: #D4B483 - rgb(212, 180, 131) - 212, 180, 131
+	SetTextColor 0, 109, 198
+	SetBorderColor 0, 109, 198
+	SetBackgroundColor 212, 180, 131
+	PlayAlertSound 16 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Star

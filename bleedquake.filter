@@ -2,66 +2,139 @@
 ########## Items: Late Builds specific
 ##################################################
 Show # The Tempest Rising - uber sirus, nochance
-	BaseType == "Goliath Greaves"
-	Rarity Unique
+  BaseType == "Goliath Greaves"
+  Rarity Unique
+  SetFontSize 45
+  SetTextColor 169 138 117
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 11 300
+  PlayEffect Brown
+  MinimapIcon 0 Brown Moon
 
 Show # Marohi Erqi - anywhere, chance
-	BaseType == "Karui Maul"
-	Rarity Unique
+  BaseType == "Karui Maul"
+  Rarity Unique
+  SetFontSize 45
+  SetTextColor 169 138 117
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 11 300
+  PlayEffect Brown
+  MinimapIcon 0 Brown Moon
 
 Show # Utula's Hunger - anywhere, chance
-	BaseType == "Majestic Plate"
-	Rarity Unique
+  BaseType == "Majestic Plate"
+  Rarity Unique
+  SetFontSize 45
+  SetTextColor 169 138 117
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 11 300
+  PlayEffect Brown
+  MinimapIcon 0 Brown Moon
 
 Show # Soul Ripper - bought, nochance - Soul Catcher is Upgraded via the Altar of Sacrifice found in the Temple of Atzoatl's Apex of Ascension with Vial of the Ghost (from boss)
-	BaseType == "Quartz Flask"
-	Rarity Unique
+  BaseType == "Quartz Flask"
+  Rarity Unique
+  SetFontSize 45
+  SetTextColor 169 138 117
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 11 300
+  PlayEffect Brown
+  MinimapIcon 0 Brown Moon
 
 # expensive
 Show # The Fourth Vow - anywhere, chance
-	BaseType == "Devout Chainmail"
-	Rarity Unique
+  BaseType == "Devout Chainmail"
+  Rarity Unique
+  SetFontSize 45
+  SetTextColor 169 138 117
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 11 300
+  PlayEffect Brown
+  MinimapIcon 0 Brown Moon
 
 # maybe
 Show # Venopuncture - anywhere, chance
-	BaseType == "Iron Ring"
-	Rarity Unique
+  BaseType == "Iron Ring"
+  Rarity Unique
+  SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
 
 Show # Ryslatha's Coil - anywhere, chance
-	BaseType == "Studded Belt"
-	Rarity Unique
+  BaseType == "Studded Belt"
+  Rarity Unique
+  SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
 
 Show
-	BaseType == "Large Cluster Jewel"
-	Rarity Normal Magic Rare
-	EnchantmentPassiveNum == 8
-	EnchantmentPassiveNode "Mace and Staff Damage" "Axe and Sword Damage"
-	SetFontSize 45
+  BaseType == "Large Cluster Jewel"
+  Rarity Normal Magic Rare
+  EnchantmentPassiveNum == 8
+  EnchantmentPassiveNode "Mace and Staff Damage" "Axe and Sword Damage"
+  SetFontSize 45
+  SetTextColor 198 50 50
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
 
 Show
-	BaseType == "Medium Cluster Jewel"
-	Rarity Normal Magic Rare
-	EnchantmentPassiveNum <= 5
-	EnchantmentPassiveNode "Physical Damage over Time" "Exerted Attack Damage"
-	SetFontSize 45
+  BaseType == "Medium Cluster Jewel"
+  Rarity Normal Magic Rare
+  EnchantmentPassiveNum <= 5
+  EnchantmentPassiveNode "Physical Damage over Time" "Exerted Attack Damage"
+  SetFontSize 45
+  SetTextColor 198 50 50
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
 
 Show
-	BaseType == "Breakrib Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Writhing Talisman" "Greatwolf Talisman"
-	Rarity Normal Magic Rare
-	SetFontSize 45
+  BaseType == "Breakrib Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Writhing Talisman" "Greatwolf Talisman"
+  Rarity Normal Magic Rare
+  SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
 
 Show
-  BaseType "Body Armours" "Gloves" "Helmets"
+  Class "Body Armours" "Gloves" "Helmets"
   FracturedItem True
   Rarity Rare
   ItemLevel > 84
   BaseArmour > 150
   BaseEvasion > 150
   SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
 
 
- card
-"The Warlord" # six link 2handed maul ##### MELEEE
+ #card
+#"The Warlord" # six link 2handed maul ##### MELEEE
 
 
 ##################################################
@@ -74,6 +147,12 @@ Show
   SocketGroup >= 3RR
   BaseEnergyShield < 1
   SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
 
 Show
   Class == "Body Armours" "Boots" "Gloves" "Helmets"
@@ -83,27 +162,51 @@ Show
   BaseArmour > 1
   BaseEnergyShield < 1
   SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
 
 Show
-  BaseType "Body Armours" "Boots" "Gloves" "Helmets"
+  Class "Body Armours" "Boots" "Gloves" "Helmets"
   Rarity Rare
   AreaLevel < 81
   SocketGroup >= 4RRR
   BaseArmour > 1
   BaseEvasion > 1
   SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
 
 Show
   Class == "Two Hand Axes" "Two Hand Maces" "Warstaves"
   Rarity Normal Magic Rare
   AreaLevel <= 12
   SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
 
 Show
   Class == "Two Hand Axes" "Two Hand Maces" "Warstaves"
   Rarity Rare
   AreaLevel <= 25
   SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
 
 Show
   Class == "Two Hand Axes" "Two Hand Maces" "Warstaves"
@@ -111,12 +214,24 @@ Show
   AreaLevel <= 25
   SocketGroup >= 3RR
   SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
 
 Show
   BaseType "Agate Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Amethyst Ring" "Coral Ring" "Ruby Ring" "Sapphire Ring" "Steel Ring" "Topaz Ring" "Two-Stone Ring" "Vermillion Ring" "Heavy Belt" "Leather Belt" "Rustic Sash" "Stygian Vise"
   Rarity Rare
   AreaLevel < 81
   SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
 
 Show
   BaseType  "Agate Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Turquoise Amulet" "Amethyst Ring" "Coral Ring" "Ruby Ring" "Sapphire Ring" "Steel Ring" "Topaz Ring" "Two-Stone Ring" "Vermillion Ring" "Heavy Belt" "Leather Belt" "Rustic Sash" "Stygian Vise"
@@ -124,4 +239,10 @@ Show
   # AreaLevel <= 81
   ItemLevel >= 84
   SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
 

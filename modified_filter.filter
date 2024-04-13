@@ -21,7 +21,13 @@
 ####################################################################################################
 Show 
   Class "Atlas Upgrade Items" "Fishing Rods" "Hideout Doodads" "Leaguestones" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Vault Keys"
-  $special_loot
+  SetFontSize 45
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
+  PlayAlertSound 1 300
+  PlayEffect Pink
+  MinimapIcon Pink Triangle
 
 ##################################################
 ########## Important Stuff: League Mechanic + quests
@@ -38,7 +44,13 @@ Show
 
 Show 
   Class "Quest Items"
-  $quest_items
+  SetFontSize 45
+  SetTextColor 255 0 0
+  SetBorderColor 0 255 0
+  SetBackgroundColor 0 0 255
+  PlayAlertSound 2 500
+  PlayEffect Blue
+  MinimapIcon Blue Circle
 
 ####################################################################################################
 ########## Currency

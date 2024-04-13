@@ -22,6 +22,12 @@
 Show 
   Class "Atlas Upgrade Items" "Fishing Rods" "Hideout Doodads" "Leaguestones" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Vault Keys"
   SetFontSize 45
+  SetTextColor 198 50 50
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 10 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
 
 ##################################################
 ########## Important Stuff: League Mechanic + quests
@@ -29,223 +35,308 @@ Show
 Show
   Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
   SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 152 64 52
+  PlayAlertSound 16 300
+  PlayEffect Red
+  MinimapIcon 1 Red Kite
 
 Show 
   Class "Quest Items"
   SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 152 64 52
+  PlayAlertSound 16 300
+  PlayEffect Red
+  MinimapIcon 1 Red Kite
 
 ####################################################################################################
 ########## Currency
 ####################################################################################################
+Show
+  Class "Currency"
+  BaseType "Mirror of Kalandra"
+  SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 233 234 228
+  PlayAlertSound ShMirror 300
+  PlayEffect Red
+  MinimapIcon 0 Red Star
+Show
+  Class "Currency"
+  BaseType "Divine Orb"
+  SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 233 234 228
+  PlayAlertSound ShDivine 300
+  PlayEffect Red
+  MinimapIcon 0 Red Star
+Show
+  Class "Currency"
+  BaseType "Exalted Orb"
+  SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 10 300
+  PlayAlertSound ShExalted 300
+  MinimapIcon 0 Red Circle
+
+##################################################
+########## Currency: League Start
+##################################################
+Show
+  Class "Currency"
+  BaseType "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+  StackSize >= 20
+  SetFontSize 40
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 76 74 75
+  PlayAlertSound 16 300
+  PlayEffect White
+  MinimapIcon 1 White Circle
+Show
+  Class "Currency"
+  BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
+  StackSize >= 8
+  SetFontSize 35
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 76 74 75
+  PlayAlertSound 16 300
+  PlayEffect White
+  MinimapIcon 1 White Circle
+Show
+  Class "Currency"
+  BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Regal Shard"
+  AreaLevel < 81
+  SetFontSize 40
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 76 74 75
+  PlayAlertSound 16 300
+  PlayEffect White
+  MinimapIcon 1 White Circle
+Show
+  Class "Currency"
+  BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Engineer's Orb" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
+  AreaLevel < 81
+  StackSize >= 8
+  SetFontSize 40
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 76 74 75
+  PlayAlertSound 16 300
+  PlayEffect White
+  MinimapIcon 1 White Circle
+Show
+  Class "Currency"
+  BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+  AreaLevel < 73
+  StackSize >= 3
+  SetFontSize 40
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 76 74 75
+  PlayAlertSound 16 300
+  PlayEffect Grey
+  MinimapIcon 2 Grey Circle
+Show
+  Class "Currency"
+  BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+  AreaLevel < 55
+  SetFontSize 40
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 76 74 75
+  PlayAlertSound 16 300
+  PlayEffect Grey
+  MinimapIcon 2 Grey Circle
+
+Hide
+  Class "Currency"
+  BaseType "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
+  DisableDropSound True
+
+##################################################
+########## Currency: The rest
+##################################################
 Show 
   Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"
   SetFontSize 45
-  Continue
-  Show
-    BaseType "Mirror of Kalandra"
-    SetFontSize 45
-    PlayAlertSound ShMirror 300
-  Show
-    BaseType "Divine Orb"
-    SetFontSize 45
-    PlayAlertSound ShDivine 300
-  Show
-    BaseType "Exalted Orb"
-	  SetFontSize 45
-    PlayAlertSound ShExalted 300
-  Show
-    StackSize >= 20
-    BaseType "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
-    SetFontSize 45
-    Continue
-  Show
-    StackSize >= 8
-    BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
-    SetFontSize 45
-    Continue
-  Continue
-    Show
-    AreaLevel < 81
-    BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Regal Shard"
-    SetFontSize 45
-    Continue
-  Show
-    AreaLevel < 81
-    StackSize >= 8
-    BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Engineer's Orb" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
-    SetFontSize 45
-    Continue
-  Show
-    AreaLevel < 73
-    StackSize >= 3
-    BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
-    SetFontSize 45
-    Continue
-  Show
-    BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
-    AreaLevel < 55
-    Continue
-  Hide
-    BaseType "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
-    DisableDropSound True
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Red
+  MinimapIcon 0 Red Circle
+
 
 ####################################################################################################
 ########## Divination Cards
 ####################################################################################################
+Show # Important Cards
+  Class "Divination Cards"
+  BaseType "Beauty Through Death" "Deadly Joy" "Fire Of Unknown Origin" "Misery in Darkness" "Pride of the First Ones" "The Chosen" "The Demon" "The Doctor" "The Endless Darkness" "The Fiend" "The Greatest Intentions" "The Shieldbearer"
+  SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 10 300
+  PlayEffect Red
+  MinimapIcon 0 Red Triangle
+Show # Important Cards: Personal favorites
+  Class "Divination Cards"
+  BaseType "Brother's Gift" "Brother's Stash" "Choking Guilt" "Darker Half" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Card Sharp" "The Cheater" "The Dragon's Heart" "The Enlightened" "The Garish Power" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "Unrequited Love" "Wealth and Power"
+  SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 10 300
+  PlayEffect Red
+  MinimapIcon 0 Red Triangle
+
+##################################################
+########## Divination Cards: Hide
+##################################################
+Hide # Hide Unless they change 
+  Class "Divination Cards"
+  BaseType "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Doedre's Madness" "Earth Drinker" "Heterochromia" "Hope" "Light and Truth" "Lysah's Respite" "Mitts" "The Aesthete" "The Brittle Emperor" "The Calling" "The Dragon" "The Gladiator" "The Lion" "The Penitent" "The Standoff" "The Tower" "The Traitor" "The Unexpected Prize" "The Wolverine"
+  DisableDropSound True
+Hide # Hide Unless: Reason 
+  Class "Divination Cards"
+  BaseType "A Familiar Call" "A Note in the Wind" "A Stone Perfected" "Ambitious Obsession" "Broken Truce" "Brush, Paint and Palette" "Bowyer's Dream" "Dark Dreams" "Death" "Draped in Dreams" "Hunter's Resolve" "Immortal Resolve" "Imperfect Memories" "Imperial Legacy" "Judging Voices" "Last Hope" "Magnum Opus" "Man With Bear" "Mawr Blaidd" "Prometheus' Armoury" "Remembrance" "Sambodhi's Vow" "Soul Quenched" "The Aspirant" "The Avenger" "The Awakened" "The Bear Woman" "The Bones" "The Celestial Stone" "The Coming Storm" "The Craving" "The Damned" "The Darkest Dream" "The Enforcer" "The Feast" "The Finishing Touch" "The Formless Sea" "The Last Supper" "The Life Thief" "The Master" "The Porcupine" "The Primordial" "The Return of the Rat" "The Tumbleweed" "The Undisputed" "The Warlord" "The White Knight" "Void of the Elements" "Who Asked"
+  DisableDropSound True
+Hide # Hide Unless: Poor or SSF
+  Class "Divination Cards"
+  BaseType "Buried Treasure" "Disdain" "Dying Anguish" "Gemcutter's Promise" "Gift of Asenath" "Gift of the Gemling Queen" "Grave Knowledge" "Lost Worlds" "Perfection" "Poisoned Faith" "Rain of Chaos" "Scholar of the Seas" "Society's Remorse" "Terrible Secret of Space" "The Arena Champion" "The Blessing of Moosh" "The Cartographer" "The Deal" "The Easy Stroll" "The Enthusiasts" "The Explorer" "The Fox" "The Journey" "The Leviathan" "The Master Artisan" "The Tireless Extractor" "The Trial" "The Summoner" "The Surveyor" "Treasure Hunter"
+  DisableDropSound True
+Hide # Hide Unless: SSF
+  Class "Divination Cards"
+  BaseType "A Dab of Ink" "A Chilling Wind" "A Dusty Memory" "Azure Rage" "Cursed Words" "Dying Light" "Emperor of Purity" "From Bone to Ashes" "Humility" "Hunter's Reward" "Left to Fate" "Loyalty" "Pride Before the Fall" "Rats" "The Astromancer" "The Beast" "The Bitter Blossom" "The Catalyst" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Deceiver" "The Demoness" "The Drunken Aristocrat" "The Ethereal" "The Fathomless Depths" "The Fool" "The Gemcutter" "The Hook"  "The Incantation" "The Journalist" "The King's Heart" "The Lich" "The Magma Crab" "The Mind's Eyes" "The Offering" "The Offspring" "The One With All" "The Pack Leader" "The Puzzle" "The Queen" "The Realm" "The Rite of Elements" "The Scavenger" "The Siren" "The Spark and the Flame" "The Stormcaller" "The Sun" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Tinkerer's Table" "Unchained" "The Union" "The Watcher" "The Wilted Rose" "The Whiteout" "The Wolf" "Winter's Embrace" "Vanity"
+  DisableDropSound True
+Hide # Hide
+  Class "Divination Cards"
+  BaseType "Alivia's Grace" "Astral Protection" "Audacity" "Boon of Justice" "Boundless Realms" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Deathly Designs" "Destined to Crumble" "Dialla's Subjugation" "Duality" "Echoes of Love" "Eldritch Perfection" "Endless Night" "Etched in Blood" "Forbidden Power" "Further Invention" "Her Mask" "Keeper's Corruption" "Lantador's Lost Love" "Merciless Armament" "Might is Right" "Prosperity" "Rain Tempter" "Rebirth" "Reckless Ambition" "Shard of Fate" "Struck by Lightning" "The Adventuring Spirit" "The Archmage's Right Hand" "The Army of Blood" "The Betrayal" "The Blazing Fire" "The Brawny Battle Mage" "The Carrion Crow" "The Cataclysm" "The Conduit" "The Cursed King" "The Deep Ones" "The Doppelganger" "The Endurance" "The Fletcher" "The Flora's Gift" "The Forsaken" "The Fox in the Brambles" "The Golden Era" "The Hale Heart" "The Harvester" "The Hermit" "The Hive of Knowledge" "The Inoculated" "The Insatiable" "The Jester" "The Jeweller's Boon" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Pact" "The Poet" "The Rabid Rhoa" "The Road to Power" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Skeleton" "The Sigil" "The Spoiled Prince" "The Surgeon" "The Throne" "The Tyrant" "The Twins" "The Vast" "The Visionary" "The Warden" "The Web" "The Wind" "The Witch" "The Wolf's Shadow" "The Wolven King's Bite" "Thirst for Knowledge" "Thunderous Skies" "Triskaidekaphobia" "Turn the Other Cheek" "Vile Power" "Volatile Power"
+  DisableDropSound True
+
+##################################################
+########## Divination Cards: The rest
+##################################################
 Show
   Class "Divination Cards"
   SetFontSize 45
-  Continue
-  Show # Important Cards
-    Class "Divination Cards"
-    BaseType "Beauty Through Death" "Deadly Joy" "Fire Of Unknown Origin" "Misery in Darkness" "Pride of the First Ones" "The Chosen" "The Demon" "The Doctor" "The Endless Darkness" "The Fiend" "The Greatest Intentions" "The Shieldbearer"
-    SetFontSize 45
-    Continue
-  Show # Important Cards: Personal favorites
-    Class "Divination Cards"
-    BaseType "Brother's Gift" "Brother's Stash" "Choking Guilt" "Darker Half" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Card Sharp" "The Cheater" "The Dragon's Heart" "The Enlightened" "The Garish Power" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "Unrequited Love" "Wealth and Power"
-    SetFontSize 45
-    Continue
-  Hide # Hide Unless they change 
-    Class "Divination Cards"
-    BaseType "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Doedre's Madness" "Earth Drinker" "Heterochromia" "Hope" "Light and Truth" "Lysah's Respite" "Mitts" "The Aesthete" "The Brittle Emperor" "The Calling" "The Dragon" "The Gladiator" "The Lion" "The Penitent" "The Standoff" "The Tower" "The Traitor" "The Unexpected Prize" "The Wolverine"
-    DisableDropSound True
-    Continue
-  Hide # Hide Unless: Reason 
-    Class "Divination Cards"
-    BaseType "A Familiar Call" "A Note in the Wind" "A Stone Perfected" "Ambitious Obsession" "Broken Truce" "Brush, Paint and Palette" "Bowyer's Dream" "Dark Dreams" "Death" "Draped in Dreams" "Hunter's Resolve" "Immortal Resolve" "Imperfect Memories" "Imperial Legacy" "Judging Voices" "Last Hope" "Magnum Opus" "Man With Bear" "Mawr Blaidd" "Prometheus' Armoury" "Remembrance" "Sambodhi's Vow" "Soul Quenched" "The Aspirant" "The Avenger" "The Awakened" "The Bear Woman" "The Bones" "The Celestial Stone" "The Coming Storm" "The Craving" "The Damned" "The Darkest Dream" "The Enforcer" "The Feast" "The Finishing Touch" "The Formless Sea" "The Last Supper" "The Life Thief" "The Master" "The Porcupine" "The Primordial" "The Return of the Rat" "The Tumbleweed" "The Undisputed" "The Warlord" "The White Knight" "Void of the Elements" "Who Asked"
-    DisableDropSound True
-    Continue
-  Hide # Hide Unless: Poor or SSF
-    Class "Divination Cards"
-    BaseType "Buried Treasure" "Disdain" "Dying Anguish" "Gemcutter's Promise" "Gift of Asenath" "Gift of the Gemling Queen" "Grave Knowledge" "Lost Worlds" "Perfection" "Poisoned Faith" "Rain of Chaos" "Scholar of the Seas" "Society's Remorse" "Terrible Secret of Space" "The Arena Champion" "The Blessing of Moosh" "The Cartographer" "The Deal" "The Easy Stroll" "The Enthusiasts" "The Explorer" "The Fox" "The Journey" "The Leviathan" "The Master Artisan" "The Tireless Extractor" "The Trial" "The Summoner" "The Surveyor" "Treasure Hunter"
-    DisableDropSound True
-    Continue
-  Hide # Hide Unless: SSF
-    Class "Divination Cards"
-    BaseType "A Dab of Ink" "A Chilling Wind" "A Dusty Memory" "Azure Rage" "Cursed Words" "Dying Light" "Emperor of Purity" "From Bone to Ashes" "Humility" "Hunter's Reward" "Left to Fate" "Loyalty" "Pride Before the Fall" "Rats" "The Astromancer" "The Beast" "The Bitter Blossom" "The Catalyst" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Deceiver" "The Demoness" "The Drunken Aristocrat" "The Ethereal" "The Fathomless Depths" "The Fool" "The Gemcutter" "The Hook"  "The Incantation" "The Journalist" "The King's Heart" "The Lich" "The Magma Crab" "The Mind's Eyes" "The Offering" "The Offspring" "The One With All" "The Pack Leader" "The Puzzle" "The Queen" "The Realm" "The Rite of Elements" "The Scavenger" "The Siren" "The Spark and the Flame" "The Stormcaller" "The Sun" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Tinkerer's Table" "Unchained" "The Union" "The Watcher" "The Wilted Rose" "The Whiteout" "The Wolf" "Winter's Embrace" "Vanity"
-    DisableDropSound True
-    Continue
-  Hide # Hide
-    Class "Divination Cards"
-    BaseType "Alivia's Grace" "Astral Protection" "Audacity" "Boon of Justice" "Boundless Realms" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Deathly Designs" "Destined to Crumble" "Dialla's Subjugation" "Duality" "Echoes of Love" "Eldritch Perfection" "Endless Night" "Etched in Blood" "Forbidden Power" "Further Invention" "Her Mask" "Keeper's Corruption" "Lantador's Lost Love" "Merciless Armament" "Might is Right" "Prosperity" "Rain Tempter" "Rebirth" "Reckless Ambition" "Shard of Fate" "Struck by Lightning" "The Adventuring Spirit" "The Archmage's Right Hand" "The Army of Blood" "The Betrayal" "The Blazing Fire" "The Brawny Battle Mage" "The Carrion Crow" "The Cataclysm" "The Conduit" "The Cursed King" "The Deep Ones" "The Doppelganger" "The Endurance" "The Fletcher" "The Flora's Gift" "The Forsaken" "The Fox in the Brambles" "The Golden Era" "The Hale Heart" "The Harvester" "The Hermit" "The Hive of Knowledge" "The Inoculated" "The Insatiable" "The Jester" "The Jeweller's Boon" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Pact" "The Poet" "The Rabid Rhoa" "The Road to Power" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Skeleton" "The Sigil" "The Spoiled Prince" "The Surgeon" "The Throne" "The Tyrant" "The Twins" "The Vast" "The Visionary" "The Warden" "The Web" "The Wind" "The Witch" "The Wolf's Shadow" "The Wolven King's Bite" "Thirst for Knowledge" "Thunderous Skies" "Triskaidekaphobia" "Turn the Other Cheek" "Vile Power" "Volatile Power"
-    DisableDropSound True
-
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Red
+  MinimapIcon 0 Red Circle
 
 ####################################################################################################
 ########## Maps
 ####################################################################################################
+Show # early maps
+  Class "Maps"
+  MapTier <= 15
+  AreaLevel < 83
+  SetFontSize 40
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 76 74 75
+  PlayAlertSound 16 300
+  PlayEffect White
+  MinimapIcon 1 White Square
 Show
-	Class "Maps"
-	Rarity Unique
+  Class "Maps"
+  Rarity Unique
   SetFontSize 45
-
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 169 138 117
+  PlayAlertSound 16 300
+  PlayEffect Brown
+  MinimapIcon 0 Brown Square
 Show
   Class "Contracts"
-
+  SetFontSize 40
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 76 74 75
+  PlayAlertSound 16 300
+  PlayEffect White
+  MinimapIcon 1 White Square
 Show 
   Class "Blueprints" "Breachstones" "Expedition Logbooks" "Memories" "Sanctum Research"
   SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Red
+  MinimapIcon 0 Red Square
 
-Show 
+Show # regular t16
   Class "Maps"
-  ShapedMap True
+  ShapedMap False
+  ElderMap False
+  BlightedMap False
+  UberBlightedMap False
+  HasImplicitMod False
+  AnyEnchantment False
+  MapTier 16
   SetFontSize 45
-
-Show 
-  Class "Maps"
-  ElderMap True
-  SetFontSize 45
-  
-Show 
-  Class "Maps"
-  BlightedMap True
-  SetFontSize 45
-
-Show 
-  Class "Maps"
-  UberBlightedMap True
-  SetFontSize 45
-
-Show 
-  Class "Maps"
-  HasImplicitMod True
-  SetFontSize 45
-
-Show 
-  Class "Maps"
-  AnyEnchantment True
-  SetFontSize 45
-
-Show
-	Class "Maps"
-	MapTier >= 16
-  SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 93 181 221
+  SetBackgroundColor 152 64 52
+  PlayAlertSound 16 300
+  PlayEffect Red
+  MinimapIcon 1 Red Square
 
 ##################################################
-########## Maps: Hide + League Start
+########## Maps: Hide
 ##################################################
 Hide
-	Class "Maps"
-	MapTier < 16
-  Continue
-  Show
-	  Class "Maps"
-	  MapTier <= 13
-    AreaLevel < 83
-    SetFontSize 45
-    Continue
-  Show
-	  Class "Maps"
-	  MapTier >= 14
-    MapTier <= 15
-    # AreaLevel < 83
-    SetFontSize 45
+  Class "Maps"
+  ShapedMap False
+  ElderMap False
+  BlightedMap False
+  UberBlightedMap False
+  HasImplicitMod False
+  AnyEnchantment False
+  MapTier < 16
 
+##################################################
+########## Maps: The rest
+##################################################
+Show
+  Class "Maps"
+  SetFontSize 45
+  SetTextColor 198 50 50
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Square
 
 ####################################################################################################
 ########## Items
 ####################################################################################################
-
-
-
-
-##################################################
-########## Items: Special
-##################################################
-
-Show
-  FracturedItem True
-  SetFontSize 45
-
-Show
-  SynthesisedItem True
-  SetFontSize 45
-
-Show
-  HasInfluence Shaper Elder Crusader Hunter Redeemer Warlord
-  SetFontSize 45
-
-
-Show
-  AnyEnchantment True
-  SetFontSize 45
-
-
-Show
-  HasEaterOfWorldsImplicit >= 1
-  SetFontSize 45
-
-
-Show
-  HasSearingExarchImplicit >= 1
-  SetFontSize 45
-
-
 Show
   Identified True
   HasExplicitMod "Veil"
   SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
 
 ##################################################
 ########## Items: Late Builds specific
@@ -255,6 +346,51 @@ Show
 ########## Items: Early Builds specific
 ##################################################
 
+
+
+##################################################
+########## Items: Special
+##################################################
+Show
+  FracturedItem True
+  SetFontSize 45
+  SetTextColor 198 50 50
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 10 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
+
+Show
+  SynthesisedItem True
+  SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
+
+Show
+  HasInfluence Shaper Elder Crusader Hunter Redeemer Warlord
+  SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
+
+Show
+  AnyEnchantment True
+  SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
+
 ##################################################
 ########## Items: Unique
 ##################################################
@@ -262,11 +398,23 @@ Show # collecting
   BaseType "Sage Wand" "Saint's Hauberk" "Necromancer Silks" "Saintly Chainmail" "Sadist Garb" "Crusader Plate" "Majestic Plate" "Exquisite Leather" "Gladiator Plate" "Onyx Amulet" "Paua Amulet" "Greatwolf Talisman" "Spine Bow" "Assassin Bow" "Ornate Quiver" "Two-Point Arrow Quiver" "Ebony Tower Shield" "Elegant Round Shield" "Jingling Spirit Shield" "Lacquered Buckler" "Titanium Spirit Shield" "Branded Kite Shield" "Champion Kite Shield" "Highborn Staff" "Void Sceptre" "Karui Sceptre" "Karui Maul" "Gavel" "Crystal Sceptre" "Imperial Maul" "Siege Axe" "Void Axe" "Eternal Sword" "Vaal Blade" "Engraved Greatsword" "Jewelled Foil" "Fiend Dagger" "Slaughter Knife" "Imperial Skean" "Demon Dagger" "Vaal Claw" "Terror Claw" "Granite Flask" "Stibnite Flask" "Sapphire Flask" "Grand Mana Flask" "Solaris Circlet" "Prophet Crown" "Mind Cage" "Praetor Crown" "Necromancer Circlet" "Sinner Tricorne" "Goathide Boots" "Sorcerer Boots" "Stealth Boots" "Carnal Boots" "Two-Toned Boots" "Zealot Gloves" "Crusader Gloves" "Murder Mitts" "Hydrascale Gauntlets" "Steelscale Gauntlets" "Cloth Belt" "Moonstone Ring" "Topaz Ring" "Coral Ring" "Paua Ring" "Ring" "Ruby Ring" "Midnight Blade"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 169 138 117
+  PlayAlertSound 16 300
+  PlayEffect Brown
+  MinimapIcon 0 Brown Star
 
 Show
   Class "Abyss Jewels" "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "Hybrid Flasks" "Jewels" "Life Flasks" "Mana Flasks" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Utility Flasks" "Wands" "Warstaves"
   Rarity Unique
   SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 169 138 117
+  PlayAlertSound 16 300
+  PlayEffect Brown
+  MinimapIcon 0 Brown Star
 
 ##################################################
 ########## Items: Jeweles
@@ -276,26 +424,103 @@ Class "Abyss Jewels" "Jewels"
   BaseType "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
   Rarity Normal Magic Rare
   SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
 
 Show
   Class "Abyss Jewels" "Jewels"
   Rarity Rare
+  SetFontSize 45
+  SetTextColor 0 109 198
+  SetBorderColor 0 109 198
+  SetBackgroundColor 212 180 131
+  PlayAlertSound 16 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Star
+
+Show
+  Class "Abyss Jewels"
+  Rarity Normal Magic
+  ItemLevel >= 85
   SetFontSize 45
 
 Hide
   Class "Abyss Jewels" "Jewels"
   Rarity Normal Magic
   SetFontSize 45
-  Continue
-  Show
-    Class "Abyss Jewels"
-    Rarity Normal Magic
-    ItemLevel >= 85
-    SetFontSize 45
-
 
 ##################################################
 ########## Items: Normal Magic Rares
+##################################################
+Show
+  LinkedSockets >= 6
+  AreaLevel < 83
+  SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
+
+##################################################
+########## Items: League Start
+##################################################
+Show # early currency shards
+  Class "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Staves" "Thrusting One Hand Swords" "Warstaves"
+  Rarity Normal Magic Rare
+  AreaLevel <= 6
+  Width == 1
+  SetFontSize 45
+Show
+  Class "Amulets" "Belts" "Rings" "Boots"
+  Rarity Normal Magic
+  AreaLevel <= 12
+  SetFontSize 45
+Show
+  Class "Amulets" "Belts" "Rings" "Boots"
+  Rarity Rare
+  AreaLevel <= 40
+  SetFontSize 45
+Show # Chromatic 2x2
+  Class "Claws" "Daggers" "Rune Daggers" "Shields" "Wands" "Boots" "Gloves" "Helmets"
+  SocketGroup >= 3RGB
+  Rarity Normal Magic Rare
+  AreaLevel < 68
+  Height <= 2
+  SetFontSize 45
+Show # Chromatic 1x3
+  Class "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Staves" "Thrusting One Hand Swords" "Two Hand Swords" "Warstaves"
+  SocketGroup >= 3RGB
+  Rarity Normal Magic Rare
+  AreaLevel < 68
+  Width <= 1
+  Height <= 3
+  SetFontSize 45
+Show
+  Class "Boots" "Gloves" "Helmets"
+  Rarity Normal Magic Rare
+  LinkedSockets == 4
+  AreaLevel <= 68
+  SetFontSize 45
+Show
+  Class "Body Armours"
+  Rarity Normal Magic Rare
+  LinkedSockets == 5
+  AreaLevel < 73
+  SetFontSize 45
+Show # jewellers
+  Sockets == 6
+  AreaLevel < 81
+  Height <= 3
+  SetFontSize 45
+
+##################################################
+########## Items: Hide
 ##################################################
 Hide
   Class "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves" "Body Armours" "Boots" "Gloves" "Helmets" "Amulets" "Belts" "Rings"
@@ -306,128 +531,65 @@ Hide
   HasInfluence None
   AnyEnchantment False
   HasCruciblePassiveTree False
-  SetFontSize 45
-  Continue
-  Show # early currency shards
-    Class "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Staves" "Thrusting One Hand Swords" "Warstaves"
-    Rarity Normal Magic Rare
-    AreaLevel <= 6
-    Width == 1
-    SetFontSize 45
-  Continue
-    Show
-    Class "Amulets" "Belts" "Rings" "Boots"
-    Rarity Normal Magic
-    AreaLevel <= 12
-    SetFontSize 45
-    Continue
-  Show
-    Class "Amulets" "Belts" "Rings" "Boots"
-    Rarity Rare
-    AreaLevel <= 40
-    SetFontSize 45
-    Continue
-  Show # Chromatic 2x2
-    Class "Claws" "Daggers" "Rune Daggers" "Shields" "Wands" "Boots" "Gloves" "Helmets"
-    SocketGroup >= 3RGB
-    Rarity Normal Magic Rare
-    AreaLevel < 68
-    Height <= 2
-    SetFontSize 45
-    Continue
-  Show # Chromatic 1x3
-    Class "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Staves" "Thrusting One Hand Swords" "Two Hand Swords" "Warstaves"
-    SocketGroup >= 3RGB
-    Rarity Normal Magic Rare
-    AreaLevel < 68
-    Width <= 1
-    Height <= 3
-    SetFontSize 45
-    Continue
-  Show
-    Class "Boots" "Gloves" "Helmets"
-    Rarity Normal Magic Rare
-    LinkedSockets == 4
-    AreaLevel <= 68
-    SetFontSize 45
-    Continue
-  Show
-    Class "Body Armours"
-    Rarity Normal Magic Rare
-    LinkedSockets == 5
-    AreaLevel < 73
-    SetFontSize 45
-    Continue
-  Show
-    LinkedSockets >= 6
-    Sockets == 6
-    AreaLevel < 81
-    Height <= 3
-    SetFontSize 45
-    Continue
-  Show
-    LinkedSockets >= 6
-    AreaLevel < 83
-    SetFontSize 45
-
-
-
-
-
-
 
 
 ####################################################################################################
 ########## Gems
 ####################################################################################################
 Show
-	Class "Skill Gems" "Support Gems"
-	BaseType "Awakened" "Empower Support" "Enhance Support" "Enlighten Support"
+  Class "Skill Gems" "Support Gems"
+  BaseType "Awakened" "Empower Support" "Enhance Support" "Enlighten Support"
   SetFontSize 45
+  SetTextColor 198 50 50
+  SetBorderColor 198 50 50
+  SetBackgroundColor 233 234 228
+  PlayAlertSound 10 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Triangle
 
 Show
-	Class "Skill Gems" "Support Gems"
-	BaseType "Portal"
+  Class "Skill Gems" "Support Gems"
+  BaseType "Portal"
   SetFontSize 45
+  SetTextColor 233 234 228
+  SetBorderColor 198 50 50
+  SetBackgroundColor 0 109 198
+  PlayAlertSound 11 300
+  PlayEffect Pink
+  MinimapIcon 0 Pink Star
 
 Show
-	Class "Skill Gems" "Support Gems"
-	BaseType "Vaal"
+  Class "Skill Gems" "Support Gems"
+  BaseType "Vaal"
   SetFontSize 40
-
 
 ##################################################
 ########## Gems: Hide + League Start
 ##################################################
+Show
+  AreaLevel < 6
+  Class "Skill Gems" "Support Gems"
+  SetFontSize 45
+Show
+  Class "Skill Gems" "Support Gems"
+  Quality >= 1
+  AreaLevel < 81
+  SetFontSize 45
+Show
+  Class "Skill Gems" "Support Gems"
+  Corrupted False
+  Quality >= 20
+  # AreaLevel < 83
+  SetFontSize 45
+Show
+  Class "Skill Gems" "Support Gems"
+  Corrupted False
+  GemLevel >= 20
+  # AreaLevel < 83
+  SetFontSize 45
 Hide
   Class "Skill Gems" "Support Gems"
-  Continue
-  Show
-    AreaLevel < 6
-    Class "Skill Gems" "Support Gems"
-    SetFontSize 45
-    Continue
-  Show
-    Class "Skill Gems" "Support Gems"
-	  Quality >= 1
-    AreaLevel < 81
-	  SetFontSize 45
-    Continue
-  Show
-    Class "Skill Gems" "Support Gems"
-	  Corrupted False
-	  Quality >= 20
-    # AreaLevel < 83
-    SetFontSize 45
-    Continue
-  Show
-    Class "Skill Gems" "Support Gems"
-	  Corrupted False
-	  GemLevel >= 20
-    # AreaLevel < 83
-    SetFontSize 45
   
-
 ####################################################################################################
 ########## Flasks
 ####################################################################################################
@@ -446,48 +608,42 @@ Show
 ##################################################
 ########## Flasks: Hide + League Start
 ##################################################
+Show
+  Class "Life Flasks" "Mana Flasks"
+  BaseType "Large" "Medium" "Small"
+  AreaLevel <= 15
+  SetFontSize 45
+Show
+  Class "Life Flasks" "Mana Flasks"
+  BaseType "Grand" "Greater"
+  AreaLevel <= 30
+  SetFontSize 45
+Show
+  Class "Life Flasks"
+  BaseType "Colossal" "Giant" "Sacred"
+  AreaLevel <= 48
+  SetFontSize 45
+Show
+  Class "Life Flasks"
+  BaseType "Hallowed" "Sanctified"
+  AreaLevel <= 60
+  SetFontSize 45
+Show
+  Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+  Quality > 10
+  AreaLevel < 73
+  SetFontSize 45
+Show
+  Class "Utility Flasks"
+  BaseType = "Amethyst Flask"  "Quicksilver Flask" "Granite Flask" "Ruby Flask" "Silver Flask" "Quartz Flask"
+  AreaLevel < 81
+  SetFontSize 45
+Show
+  Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+  Quality >= 10
+  AreaLevel < 81
+  SetFontSize 45
 Hide
   Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
   Rarity Normal Magic Rare
   DisableDropSound True
-  Continue
-  Show
-    Class "Life Flasks" "Mana Flasks"
-	  BaseType "Large" "Medium" "Small"
-	  AreaLevel <= 15
-    SetFontSize 45
-    Continue
-  Show
-    Class "Life Flasks" "Mana Flasks"
-	  BaseType "Grand" "Greater"
-	  AreaLevel <= 30
-    SetFontSize 45
-    Continue
-  Show
-    Class "Life Flasks"
-	  BaseType "Colossal" "Giant" "Sacred"
-	  AreaLevel <= 48
-    SetFontSize 45
-    Continue
-  Show
-    Class "Life Flasks"
-	  BaseType "Hallowed" "Sanctified"
-	  AreaLevel <= 60
-    SetFontSize 45
-    Continue
-  Show
-    Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-    Quality > 10
-	  AreaLevel < 73
-    SetFontSize 45
-    Continue
-  Show
-    Class "Utility Flasks"
-    BaseType = "Amethyst Flask"  "Quicksilver Flask" "Granite Flask" "Ruby Flask" "Silver Flask" "Quartz Flask"
-	  AreaLevel < 81
-    SetFontSize 45
-  Show
-    Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-    Quality >= 10
-    AreaLevel < 81
-    SetFontSize 45

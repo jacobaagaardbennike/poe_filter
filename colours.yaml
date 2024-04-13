@@ -1,0 +1,22 @@
+# Define reusable RGB color codes as anchors
+color_codes:
+  text: &text_color [210, 158, 9] # Text color (RGB)
+  border: &border_color [210, 158, 9] # Border color (RGB)
+  background: &background_color [255, 255, 255] # Background color (RGB)
+
+sets:
+  - name: special_loot
+    color_text: *text_color # Reference the text color anchor
+    color_border: *border_color # Reference the border color anchor
+    color_background: *background_color # Reference the background color anchor
+    alert_sound: [1, 300] # Alert sound (ID, Volume)
+    effect: "Pink" # Effect
+    minimap_icon: ["Pink", "Triangle"] # Minimap icon (Color, Shape)
+
+  - name: quest_items
+    color_text: [255, 0, 0] # Red color for text
+    color_border: [0, 255, 0] # Green color for border
+    color_background: [0, 0, 255] # Blue color for background
+    alert_sound: [2, 500] # Alert sound (ID, Volume)
+    effect: "Blue" # Effect
+    minimap_icon: ["Blue", "Circle"] # Minimap icon (Color, Shape)

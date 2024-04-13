@@ -1,31 +1,113 @@
-# Define reusable RGB color codes as anchors
 color_codes:
-  diarrhea_yellow: &diarrhea_yellow [210, 158, 9] # diarrhea yellow: #D29E09
-  white: &white [255, 255, 255] # Background color (RGB)
-  abens_farve: &abens_farve [255, 255, 255] # Background color (RGB)
-
-assigned_colours:
-  special_loot_text: &special_loot_text *diarrhea_yellow
-  special_loot_border: &special_loot_border *diarrhea_yellow
-  special_loot_background: &special_loot_background *white
-
-  league_mechanics_and_quest_items_text: &league_mechanics_and_quest_items_text *abens_farve
-  league_mechanics_and_quest_items_border: &league_mechanics_and_quest_items_border *abens_farve
-  league_mechanics_and_quest_items_background: &league_mechanics_and_quest_items_background *white
+  diarrhea_yellow: &diarrhea_yellow [210, 158, 9]
+  white: &white [255, 255, 255]
 
 sets:
   - name: special_loot
-    color_text: *special_loot_text # Reference the text color anchor
-    color_border: *special_loot_border # Reference the border color anchor
-    color_background: *special_loot_background # Reference the background color anchor
-    alert_sound: [1, 300] # Alert sound (ID, Volume)
-    effect: "Pink" # Effect
-    minimap_icon: ["Pink", "Triangle"] # Minimap icon (Color, Shape)
+    colors:
+      color_text: *diarrhea_yellow # Reuse diarrhea_yellow color
+      color_border: *diarrhea_yellow # Reuse diarrhea_yellow color
+      color_background: *white # Reuse white color
+    alert_sound: [1, 300]
+    effect: "Pink"
+    minimap_icon: ["Pink", "Triangle"]
 
   - name: league_mechanics_and_quest_items
-    color_text: *league_mechanics_and_quest_items_text # Reference the text color anchor
-    color_border: *league_mechanics_and_quest_items_border # Reference the border color anchor
-    color_background: *league_mechanics_and_quest_items_background # Reference the background color anchor
-    alert_sound: [2, 500] # Alert sound (ID, Volume)
-    effect: "Blue" # Effect
-    minimap_icon: ["Blue", "Circle"] # Minimap icon (Color, Shape)
+    colors:
+      color_text: *white # Reuse white color
+      color_border: *white # Reuse white color
+      color_background: *white # Reuse white color
+    alert_sound: [2, 500]
+    effect: "Blue"
+    minimap_icon: ["Blue", "Circle"]
+# sets:
+#   - name: special_loot
+#     colors:
+#       color_text: 210, 158, 9
+#         r: 210
+#         g: 158
+#         b: 9
+#       color_border:
+#         r: 210
+#         g: 158
+#         b: 9
+#       color_background:
+#         r: 255
+#         g: 255
+#         b: 255
+#     alert_sound: [1, 300]
+#     effect: "Pink"
+#     minimap_icon: ["Pink", "Triangle"]
+
+#   - name: league_mechanics_and_quest_items
+#     colors:
+#       color_text:
+#         r: 255
+#         g: 255
+#         b: 255
+#       color_border:
+#         r: 255
+#         g: 255
+#         b: 255
+#       color_background:
+#         r: 255
+#         g: 255
+#         b: 255
+#     alert_sound: [2, 500]
+#     effect: "Blue"
+#     minimap_icon: ["Blue", "Circle"]
+
+# # Define reusable RGB color codes as anchors
+# color_codes:
+#   diarrhea_yellow: &diarrhea_yellow [210, 158, 9] # diarrhea yellow: #D29E09
+#   white: &white [255, 255, 255] # Background color (RGB)
+#   abens_farve: &abens_farve [255, 255, 255] # Background color (RGB)
+
+# assigned_colours:
+#   special_loot_text: &special_loot_text *diarrhea_yellow
+#   special_loot_border: &special_loot_border *diarrhea_yellow
+#   special_loot_background: &special_loot_background *white
+
+#   league_mechanics_and_quest_items_text: &league_mechanics_and_quest_items_text *abens_farve
+#   league_mechanics_and_quest_items_border: &league_mechanics_and_quest_items_border *abens_farve
+#   league_mechanics_and_quest_items_background: &league_mechanics_and_quest_items_background *white
+
+# sets:
+#   - name: special_loot
+#     color_text: *special_loot_text # Reference the text color anchor
+#     color_border: *special_loot_border # Reference the border color anchor
+#     color_background: *special_loot_background # Reference the background color anchor
+#     alert_sound: [1, 300] # Alert sound (ID, Volume)
+#     effect: "Pink" # Effect
+#     minimap_icon: ["Pink", "Triangle"] # Minimap icon (Color, Shape)
+
+#   - name: league_mechanics_and_quest_items
+#     color_text: *league_mechanics_and_quest_items_text # Reference the text color anchor
+#     color_border: *league_mechanics_and_quest_items_border # Reference the border color anchor
+#     color_background: *league_mechanics_and_quest_items_background # Reference the background color anchor
+#     alert_sound: [2, 500] # Alert sound (ID, Volume)
+#     effect: "Blue" # Effect
+#     minimap_icon: ["Blue", "Circle"] # Minimap icon (Color, Shape)
+
+# color_codes:
+#   diarrhea_yellow: [210, 158, 9]
+#   white: [255, 255, 255]
+
+# sets:
+#   - name: special_loot
+#     colors:
+#       color_text: diarrhea_yellow
+#       color_border: diarrhea_yellow
+#       color_background: white
+#     alert_sound: [1, 300]
+#     effect: "Pink"
+#     minimap_icon: ["Pink", "Triangle"]
+
+#   - name: league_mechanics_and_quest_items
+#     colors:
+#       color_text: white
+#       color_border: white
+#       color_background: white
+#     alert_sound: [2, 500]
+#     effect: "Blue"
+#     minimap_icon: ["Blue", "Circle"]

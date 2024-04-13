@@ -29,30 +29,18 @@ Show
   PlayEffect Pink
   MinimapIcon Pink Triangle
 
-
 ##################################################
 ########## Important Stuff: League Mechanic + quests
 ##################################################
 Show
-  Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
+  Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Quest Items" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
   SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 152 64 52
-  PlayAlertSound 16 300
-  PlayEffect Red
-  MinimapIcon 1 Red Kite
-
-Show 
-  Class "Quest Items"
-  SetFontSize 45
-  SetTextColor 255 0 0
-  SetBorderColor 0 255 0
-  SetBackgroundColor 0 0 255
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetBackgroundColor 255 255 255
   PlayAlertSound 2 500
   PlayEffect Blue
   MinimapIcon Blue Circle
-
 
 ####################################################################################################
 ########## Currency

@@ -1,22 +1,31 @@
 # Define reusable RGB color codes as anchors
 color_codes:
-  text: &text_color [210, 158, 9] # Text color (RGB)
-  border: &border_color [210, 158, 9] # Border color (RGB)
-  background: &background_color [255, 255, 255] # Background color (RGB)
+  diarrhea_yellow: &diarrhea_yellow [210, 158, 9] # diarrhea yellow: #D29E09
+  white: &white [255, 255, 255] # Background color (RGB)
+  abens_farve: &abens_farve [255, 255, 255] # Background color (RGB)
+
+assigned_colours:
+  special_loot_text: &special_loot_text *diarrhea_yellow
+  special_loot_border: &special_loot_border *diarrhea_yellow
+  special_loot_background: &special_loot_background *white
+
+  league_mechanics_and_quest_items_text: &league_mechanics_and_quest_items_text *abens_farve
+  league_mechanics_and_quest_items_border: &league_mechanics_and_quest_items_border *abens_farve
+  league_mechanics_and_quest_items_background: &league_mechanics_and_quest_items_background *white
 
 sets:
   - name: special_loot
-    color_text: *text_color # Reference the text color anchor
-    color_border: *border_color # Reference the border color anchor
-    color_background: *background_color # Reference the background color anchor
+    color_text: *special_loot_text # Reference the text color anchor
+    color_border: *special_loot_border # Reference the border color anchor
+    color_background: *special_loot_background # Reference the background color anchor
     alert_sound: [1, 300] # Alert sound (ID, Volume)
     effect: "Pink" # Effect
     minimap_icon: ["Pink", "Triangle"] # Minimap icon (Color, Shape)
 
-  - name: quest_items
-    color_text: [255, 0, 0] # Red color for text
-    color_border: [0, 255, 0] # Green color for border
-    color_background: [0, 0, 255] # Blue color for background
+  - name: league_mechanics_and_quest_items
+    color_text: *league_mechanics_and_quest_items_text # Reference the text color anchor
+    color_border: *league_mechanics_and_quest_items_border # Reference the border color anchor
+    color_background: *league_mechanics_and_quest_items_background # Reference the background color anchor
     alert_sound: [2, 500] # Alert sound (ID, Volume)
     effect: "Blue" # Effect
     minimap_icon: ["Blue", "Circle"] # Minimap icon (Color, Shape)

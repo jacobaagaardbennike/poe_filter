@@ -29,6 +29,7 @@ Show
   PlayEffect Pink
   MinimapIcon Pink Triangle
 
+
 ##################################################
 ########## Important Stuff: League Mechanic + quests
 ##################################################
@@ -51,6 +52,7 @@ Show
   PlayAlertSound 2 500
   PlayEffect Blue
   MinimapIcon Blue Circle
+
 
 ####################################################################################################
 ########## Currency

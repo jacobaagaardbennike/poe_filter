@@ -27,18 +27,8 @@ Show
 ########## Important Stuff: League Mechanic + quests
 ##################################################
 Show
-  Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 152 64 52
-  PlayAlertSound 16 300
-  PlayEffect Red
-  MinimapIcon 1 Red Kite
-
-Show 
-  Class "Quest Items"
-  $quest_items
+  Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Quest Items" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
+  $league_mechanics_and_quest_items
 
 ####################################################################################################
 ########## Currency

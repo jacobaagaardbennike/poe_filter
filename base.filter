@@ -17,142 +17,79 @@
 
 
 ####################################################################################################
-########## Important Stuff
+########## Important
 ####################################################################################################
 Show 
   Class "Atlas Upgrade Items" "Fishing Rods" "Hideout Doodads" "Leaguestones" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Vault Keys"
-  $special_loot
+  $important Triangle
 
-##################################################
-########## Important Stuff: League Mechanic + quests
-##################################################
 Show
+  Class "Currency"
+  BaseType "Mirror of Kalandra"
+  $currency_mirror_of_malandra Triangle
+
+Show
+  Class "Currency"
+  BaseType "Divine Orb"
+  $important_divine_orb Triangle
+
+Show # League Mechanics and Quests
   Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Quest Items" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
-  $league_mechanics_and_quest_items
+  $important_league_mechanics_quest Kite
 
 ####################################################################################################
 ########## Currency
 ####################################################################################################
 Show
   Class "Currency"
-  BaseType "Mirror of Kalandra"
-  SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 233 234 228
-  PlayAlertSound ShMirror 300
-  PlayEffect Red
-  MinimapIcon 0 Red Star
-Show
-  Class "Currency"
-  BaseType "Divine Orb"
-  SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 233 234 228
-  PlayAlertSound ShDivine 300
-  PlayEffect Red
-  MinimapIcon 0 Red Star
-Show
-  Class "Currency"
   BaseType "Exalted Orb"
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 10 300
-  PlayAlertSound ShExalted 300
-  MinimapIcon 0 Red Circle
-
-##################################################
-########## Currency: League Start
-##################################################
-Show
+  $great_loot_exalted_orb Circle
+Show # good enough stacked high
   Class "Currency"
   BaseType "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   StackSize >= 20
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Circle
+  $skippable_loot Circle
+
+Show #good enough high
+  Class "Currency"
+  BaseType "Cartographer's Chisel" "Jeweller's Orb" "Regal Shard"
+  StackSize >= 8
+  $good_loot Circle
 Show
   Class "Currency"
-  BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
+  BaseType "Alteration Shard" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
   StackSize >= 8
-  SetFontSize 35
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Circle
-Show
+  $skippable_loot Circle
+Show # until endgame
   Class "Currency"
   BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Regal Shard"
   AreaLevel < 81
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Circle
+  $good_loot Circle
 Show
   Class "Currency"
   BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Engineer's Orb" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
   AreaLevel < 81
   StackSize >= 8
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Circle
-Show
+  $good_loot Circle
+Show # stacked low level
   Class "Currency"
   BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   AreaLevel < 73
   StackSize >= 3
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect Grey
-  MinimapIcon 2 Grey Circle
-Show
+  $skippable_loot Circle
+Show # single low level
   Class "Currency"
   BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   AreaLevel < 55
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect Grey
-  MinimapIcon 2 Grey Circle
-
-Hide
+  $skippable_loot Circle
+Hide # Never show
   Class "Currency"
   BaseType "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
   DisableDropSound True
 
-##################################################
-########## Currency: The rest
-##################################################
-Show 
+Show # Currency: The rest
   Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
-  PlayEffect Red
-  MinimapIcon 0 Red Circle
+  $great_loot Circle
 
 
 ####################################################################################################
@@ -161,23 +98,11 @@ Show
 Show # Important Cards
   Class "Divination Cards"
   BaseType "Beauty Through Death" "Deadly Joy" "Fire Of Unknown Origin" "Misery in Darkness" "Pride of the First Ones" "The Chosen" "The Demon" "The Doctor" "The Endless Darkness" "The Fiend" "The Greatest Intentions" "The Shieldbearer"
-  SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 233 234 228
-  PlayAlertSound 10 300
-  PlayEffect Red
-  MinimapIcon 0 Red Triangle
+  $important UpsideDownHouse
 Show # Important Cards: Personal favorites
   Class "Divination Cards"
   BaseType "Brother's Gift" "Brother's Stash" "Choking Guilt" "Darker Half" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Card Sharp" "The Cheater" "The Dragon's Heart" "The Enlightened" "The Garish Power" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "Unrequited Love" "Wealth and Power"
-  SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 233 234 228
-  PlayAlertSound 10 300
-  PlayEffect Red
-  MinimapIcon 0 Red Triangle
+  $important UpsideDownHouse
 
 ##################################################
 ########## Divination Cards: Hide
@@ -208,13 +133,7 @@ Hide # Hide
 ##################################################
 Show
   Class "Divination Cards"
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
-  PlayEffect Red
-  MinimapIcon 0 Red Circle
+  $great_loot UpsideDownHouse
 
 ####################################################################################################
 ########## Maps
@@ -223,13 +142,7 @@ Show # early maps
   Class "Maps"
   MapTier <= 15
   AreaLevel < 83
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Square
+  $good_loot Square
 Show
   Class "Maps"
   Rarity Unique
@@ -242,22 +155,10 @@ Show
   MinimapIcon 0 Brown Square
 Show
   Class "Contracts"
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Square
+  $skippable_loot Square
 Show 
   Class "Blueprints" "Breachstones" "Expedition Logbooks" "Memories" "Sanctum Research"
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
-  PlayEffect Red
-  MinimapIcon 0 Red Square
+  $great_loot Square
 
 Show # regular t16
   Class "Maps"
@@ -268,13 +169,7 @@ Show # regular t16
   HasImplicitMod False
   AnyEnchantment False
   MapTier 16
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 152 64 52
-  PlayAlertSound 16 300
-  PlayEffect Red
-  MinimapIcon 1 Red Square
+  $great_loot Square
 
 ##################################################
 ########## Maps: Hide
@@ -294,13 +189,7 @@ Hide
 ##################################################
 Show
   Class "Maps"
-  SetFontSize 45
-  SetTextColor 198 50 50
-  SetBorderColor 198 50 50
-  SetBackgroundColor 233 234 228
-  PlayAlertSound 11 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Square
+  $important Square
 
 ####################################################################################################
 ########## Items
@@ -308,13 +197,7 @@ Show
 Show
   Identified True
   HasExplicitMod "Veil"
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Star
+  $good_loot Star
 
 ##################################################
 ########## Items: Late Builds specific
@@ -331,43 +214,19 @@ Show
 ##################################################
 Show
   FracturedItem True
-  SetFontSize 45
-  SetTextColor 198 50 50
-  SetBorderColor 198 50 50
-  SetBackgroundColor 233 234 228
-  PlayAlertSound 10 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Star
+  $great_loot Cross
 
 Show
   SynthesisedItem True
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Star
+  $great_loot Cross
 
 Show
   HasInfluence Shaper Elder Crusader Hunter Redeemer Warlord
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Star
+  $great_loot Cross
 
 Show
   AnyEnchantment True
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Star
+  $great_loot Cross
 
 ##################################################
 ########## Items: Unique
@@ -401,35 +260,22 @@ Show
 Class "Abyss Jewels" "Jewels"
   BaseType "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
   Rarity Normal Magic Rare
-  SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 212 180 131
-  PlayAlertSound 16 300
-  PlayEffect Yellow
-  MinimapIcon 1 Yellow Star
+  $great_loot Diamond
 
 Show
   Class "Abyss Jewels" "Jewels"
   Rarity Rare
-  SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 212 180 131
-  PlayAlertSound 16 300
-  PlayEffect Yellow
-  MinimapIcon 1 Yellow Star
+  $good_loot Diamond
 
 Show
   Class "Abyss Jewels"
   Rarity Normal Magic
   ItemLevel >= 85
-  SetFontSize 45
+  $good_loot Square Diamond
 
 Hide
   Class "Abyss Jewels" "Jewels"
   Rarity Normal Magic
-  SetFontSize 45
 
 ##################################################
 ########## Items: Normal Magic Rares
@@ -437,13 +283,7 @@ Hide
 Show
   LinkedSockets >= 6
   AreaLevel < 83
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Star
+  $great_loot Diamond
 
 ##################################################
 ########## Items: League Start
@@ -463,7 +303,7 @@ Show
   Class "Amulets" "Belts" "Rings" "Boots"
   Rarity Rare
   AreaLevel <= 40
-  SetFontSize 45
+  $good_loot Star
 Show # Chromatic 2x2
   Class "Claws" "Daggers" "Rune Daggers" "Shields" "Wands" "Boots" "Gloves" "Helmets"
   SocketGroup >= 3RGB
@@ -490,12 +330,12 @@ Show
   Rarity Normal Magic Rare
   LinkedSockets == 5
   AreaLevel < 73
-  SetFontSize 45
+  $good_loot Diamond
 Show # jewellers
   Sockets == 6
   AreaLevel < 81
   Height <= 3
-  SetFontSize 45
+  $good_loot Diamond
 
 ##################################################
 ########## Items: Hide
@@ -517,29 +357,17 @@ Hide
 Show
   Class "Skill Gems" "Support Gems"
   BaseType "Awakened" "Empower Support" "Enhance Support" "Enlighten Support"
-  SetFontSize 45
-  SetTextColor 198 50 50
-  SetBorderColor 198 50 50
-  SetBackgroundColor 233 234 228
-  PlayAlertSound 10 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Triangle
+  $important Triangle
 
 Show
   Class "Skill Gems" "Support Gems"
   BaseType "Portal"
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Star
+  $good_loot Hexagon
 
 Show
   Class "Skill Gems" "Support Gems"
   BaseType "Vaal"
-  SetFontSize 40
+  $skippable_loot Hexagon
 
 ##################################################
 ########## Gems: Hide + League Start
@@ -547,24 +375,24 @@ Show
 Show
   AreaLevel < 6
   Class "Skill Gems" "Support Gems"
-  SetFontSize 45
+  $good_loot Hexagon
 Show
   Class "Skill Gems" "Support Gems"
   Quality >= 1
   AreaLevel < 81
-  SetFontSize 45
+  $skippable_loot Hexagon
 Show
   Class "Skill Gems" "Support Gems"
   Corrupted False
   Quality >= 20
   # AreaLevel < 83
-  SetFontSize 45
+  $skippable_loot Hexagon
 Show
   Class "Skill Gems" "Support Gems"
   Corrupted False
   GemLevel >= 20
   # AreaLevel < 83
-  SetFontSize 45
+  $skippable_loot Hexagon
 Hide
   Class "Skill Gems" "Support Gems"
   
@@ -575,13 +403,14 @@ Show
   Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
   ItemLevel >= 85
   # AreaLevel < 81
-  SetFontSize 45
+  $good_loot Raindrop
 
 Show
   Class "Flasks"
   BaseType "Amethyst Flask" "Quicksilver Flask" "Granite Flask" "Ruby Flask" "Silver Flask" "Quartz Flask"
   ItemLevel >= 85
   # AreaLevel < 81
+  $good_loot Raindrop
 
 ##################################################
 ########## Flasks: Hide + League Start
@@ -610,17 +439,13 @@ Show
   Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
   Quality > 10
   AreaLevel < 73
-  SetFontSize 45
+  $skippable_loot Raindrop
 Show
   Class "Utility Flasks"
   BaseType = "Amethyst Flask"  "Quicksilver Flask" "Granite Flask" "Ruby Flask" "Silver Flask" "Quartz Flask"
   AreaLevel < 81
   SetFontSize 45
-Show
-  Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-  Quality >= 10
-  AreaLevel < 81
-  SetFontSize 45
+  $skippable_loot Raindrop
 Hide
   Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
   Rarity Normal Magic Rare

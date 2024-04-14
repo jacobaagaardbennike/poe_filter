@@ -2,17 +2,25 @@ use std::{collections::HashMap, error::Error};
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Deserialize, Serialize)]
+#[serde(untagged)]
+enum AlertSound {
+    Sound([u16; 2]),
+    Word(String),
+}
+
+#[derive(Debug, Deserialize, Serialize)]
 struct Settings {
     name: String,
-    colors: HashMap<String, Vec<u8>>, // Changed to use Vec<u8> for color values
-    alert_sound: [u16; 2],
+    font_size: u8,
+    colors: HashMap<String, Vec<u8>>,
+    alert_sound: AlertSound,
     effect: String,
-    minimap_icon: [String; 2],
+    minimap_icon: (u8, String),
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 struct Config {
-    color_codes: HashMap<String, Vec<u8>>, // Changed to use Vec<u8> for color codes
+    color_codes: HashMap<String, Vec<u8>>,
     sets: Vec<Settings>,
 }
 
@@ -21,15 +29,17 @@ fn replace_colours(config: &Config, mut filter_text: String) -> Result<String, B
     for settings in config.sets.iter() {
         let placeholder = format!("${}", settings.name);
         let replacement_text = format!(
-            "SetFontSize 45\n  SetTextColor {} {} {}\n  SetBorderColor {} {} {}\n  SetBackgroundColor {} {} {}\n  PlayAlertSound {} {}\n  PlayEffect {}\n  MinimapIcon {} {}",
+            "SetFontSize {}\n  SetTextColor {} {} {}\n  SetBorderColor {} {} {}\n  SetBackgroundColor {} {} {}\n  PlayAlertSound {}\n  PlayEffect {}\n  MinimapIcon {} {}",
+            settings.font_size,
             settings.colors["color_text"][0], settings.colors["color_text"][1], settings.colors["color_text"][2], // Text color
             settings.colors["color_border"][0], settings.colors["color_border"][1], settings.colors["color_border"][2], // Border color
             settings.colors["color_background"][0], settings.colors["color_background"][1], settings.colors["color_background"][2], // Background color
-            settings.alert_sound[0],
-            settings.alert_sound[1],
+            match &settings.alert_sound {
+                AlertSound::Sound(sound) => format!("[{}, {}]", sound[0], sound[1]),
+                AlertSound::Word(word) => word.clone(), // Clone the string
+            },
             settings.effect,
-            settings.minimap_icon[0],
-            settings.minimap_icon[1],
+            settings.minimap_icon.0, settings.minimap_icon.1,
         );
 
         // Replace the placeholder in the base filter file with the replacement text

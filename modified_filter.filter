@@ -17,7 +17,7 @@
 
 
 ####################################################################################################
-########## Important Stuff
+########## Important
 ####################################################################################################
 Show 
   Class "Atlas Upgrade Items" "Fishing Rods" "Hideout Doodads" "Leaguestones" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Vault Keys"
@@ -25,22 +25,22 @@ Show
   SetTextColor 210 158 9
   SetBorderColor 210 158 9
   SetBackgroundColor 255 255 255
-  PlayAlertSound 1 300
-  PlayEffect Pink
-  MinimapIcon Pink Triangle
+  PlayAlertSound [1, 300]
+  PlayEffect Red
+  MinimapIcon 0 Red
 
 ##################################################
-########## Important Stuff: League Mechanic + quests
+########## Important: League Mechanic Quests
 ##################################################
 Show
   Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Quest Items" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
   SetFontSize 45
-  SetTextColor 255 255 255
-  SetBorderColor 255 255 255
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
   SetBackgroundColor 255 255 255
-  PlayAlertSound 2 500
-  PlayEffect Blue
-  MinimapIcon Blue Circle
+  PlayAlertSound [1, 300]
+  PlayEffect Red
+  MinimapIcon 0 Red_league_mechanics_quest
 
 ####################################################################################################
 ########## Currency
@@ -49,32 +49,34 @@ Show
   Class "Currency"
   BaseType "Mirror of Kalandra"
   SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 233 234 228
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
   PlayAlertSound ShMirror 300
   PlayEffect Red
-  MinimapIcon 0 Red Star
+  MinimapIcon 0 Red
+
 Show
   Class "Currency"
   BaseType "Divine Orb"
   SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 233 234 228
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
   PlayAlertSound ShDivine 300
   PlayEffect Red
-  MinimapIcon 0 Red Star
+  MinimapIcon 0 Red
+
 Show
   Class "Currency"
   BaseType "Exalted Orb"
   SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 10 300
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
   PlayAlertSound ShExalted 300
-  MinimapIcon 0 Red Circle
+  PlayEffect Red
+  MinimapIcon 0 Red
 
 ##################################################
 ########## Currency: League Start
@@ -83,70 +85,84 @@ Show
   Class "Currency"
   BaseType "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   StackSize >= 20
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Circle
+  SetFontSize 35
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
+  PlayAlertSound [16, 250]
+  PlayEffect Grey
+  MinimapIcon 2 Grey
+
 Show
   Class "Currency"
-  BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
+  BaseType "Cartographer's Chisel" "Jeweller's Orb" "Regal Shard"
+  StackSize >= 8
+  SetFontSize 40
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
+  PlayAlertSound [16, 300]
+  PlayEffect Yellow
+  MinimapIcon 2 Yellow
+
+Show
+  Class "Currency"
+  BaseType "Alteration Shard" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
   StackSize >= 8
   SetFontSize 35
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Circle
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
+  PlayAlertSound [16, 250]
+  PlayEffect Grey
+  MinimapIcon 2 Grey
+
 Show
   Class "Currency"
   BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Regal Shard"
   AreaLevel < 81
   SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Circle
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
+  PlayAlertSound [16, 300]
+  PlayEffect Yellow
+  MinimapIcon 2 Yellow
 Show
   Class "Currency"
   BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Engineer's Orb" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
   AreaLevel < 81
   StackSize >= 8
   SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
-  PlayEffect White
-  MinimapIcon 1 White Circle
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
+  PlayAlertSound [16, 300]
+  PlayEffect Yellow
+  MinimapIcon 2 Yellow
 Show
   Class "Currency"
   BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   AreaLevel < 73
   StackSize >= 3
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
+  SetFontSize 35
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
+  PlayAlertSound [16, 250]
   PlayEffect Grey
-  MinimapIcon 2 Grey Circle
+  MinimapIcon 2 Grey
 Show
   Class "Currency"
   BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   AreaLevel < 55
-  SetFontSize 40
-  SetTextColor 233 234 228
-  SetBorderColor 93 181 221
-  SetBackgroundColor 76 74 75
-  PlayAlertSound 16 300
+  SetFontSize 35
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
+  PlayAlertSound [16, 250]
   PlayEffect Grey
-  MinimapIcon 2 Grey Circle
+  MinimapIcon 2 Grey
 
 Hide
   Class "Currency"
@@ -159,12 +175,12 @@ Hide
 Show 
   Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"
   SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 0 109 198
-  PlayAlertSound 11 300
+  SetTextColor 210 158 9
+  SetBorderColor 210 158 9
+  SetBackgroundColor 255 255 255
+  PlayAlertSound [10, 300]
   PlayEffect Red
-  MinimapIcon 0 Red Circle
+  MinimapIcon 0 Red
 
 
 ####################################################################################################
@@ -173,23 +189,11 @@ Show
 Show # Important Cards
   Class "Divination Cards"
   BaseType "Beauty Through Death" "Deadly Joy" "Fire Of Unknown Origin" "Misery in Darkness" "Pride of the First Ones" "The Chosen" "The Demon" "The Doctor" "The Endless Darkness" "The Fiend" "The Greatest Intentions" "The Shieldbearer"
-  SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 233 234 228
-  PlayAlertSound 10 300
-  PlayEffect Red
-  MinimapIcon 0 Red Triangle
+  $must_loot
 Show # Important Cards: Personal favorites
   Class "Divination Cards"
   BaseType "Brother's Gift" "Brother's Stash" "Choking Guilt" "Darker Half" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Card Sharp" "The Cheater" "The Dragon's Heart" "The Enlightened" "The Garish Power" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "Unrequited Love" "Wealth and Power"
-  SetFontSize 45
-  SetTextColor 0 109 198
-  SetBorderColor 0 109 198
-  SetBackgroundColor 233 234 228
-  PlayAlertSound 10 300
-  PlayEffect Red
-  MinimapIcon 0 Red Triangle
+  $must_loot
 
 ##################################################
 ########## Divination Cards: Hide
@@ -306,13 +310,7 @@ Hide
 ##################################################
 Show
   Class "Maps"
-  SetFontSize 45
-  SetTextColor 198 50 50
-  SetBorderColor 198 50 50
-  SetBackgroundColor 233 234 228
-  PlayAlertSound 11 300
-  PlayEffect Pink
-  MinimapIcon 0 Pink Square
+  $must_loot
 
 ####################################################################################################
 ########## Items

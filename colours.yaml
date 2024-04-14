@@ -1,113 +1,164 @@
+####################################################################################################
+########## Info
+####################################################################################################
+# Sounds:
+# 1 = uber
+# 1 = epic
+# 12 = league_mechanics_quest
+# great = 10
+# Good = 3
+# Maps = 11
+# Skippable = 16
+
+black_rich: &abekat [35, 35, 45] #23232D
+black_blue: &abekat [56, 71, 93] #38475D
+
+red_light: &abekat [235, 77, 79] #EB4D4F
+
+red_mid: &abekat [167, 49, 76] #A7314C
+
+red_dark: &abekat [125, 23, 37] #7D1725
+red_darker: &abekat [107, 6, 20] #6B0614
+red_darkest: &abekat [92, 3, 20] #5C0314
+
+
+red_brown: &abekat [152, 63, 61] #983F3D
+
+silver_light: &abekat [235, 240, 248] #EBF0F8
+gold_light: &abekat [235, 212, 169] #EBD4A9
+brown_parchment: &abekat [208, 192, 173] #D0C0AD
+
+blue_demon: &abekat [29, 193, 192] #1DC1C0
+green_eye: &abekat [15, 115, 33] #0F7321
+
+orange: &abekat [232, 118, 55] #E87637
+yellow: &abekat [238, 195, 17] #EEC311
+
 color_codes:
-  diarrhea_yellow: &diarrhea_yellow [210, 158, 9]
-  white: &white [255, 255, 255]
+  white_royal: &white_royal [255, 255, 250] #FFFFFA
+
 
 sets:
-  - name: special_loot
+  - name: uber_settings
+    font_size: 45
     colors:
-      color_text: *diarrhea_yellow # Reuse diarrhea_yellow color
-      color_border: *diarrhea_yellow # Reuse diarrhea_yellow color
-      color_background: *white # Reuse white color
+      color_text: *pink_emperors_children
+      color_border: *pink_emperors_children
+      color_background: *white_royal
     alert_sound: [1, 300]
     effect: "Pink"
-    minimap_icon: ["Pink", "Triangle"]
+    minimap_icon: [0, "Pink"]
 
-  - name: league_mechanics_and_quest_items
+  - name: epic_settings
+    font_size: 45
     colors:
-      color_text: *white # Reuse white color
-      color_border: *white # Reuse white color
-      color_background: *white # Reuse white color
-    alert_sound: [2, 500]
-    effect: "Blue"
-    minimap_icon: ["Blue", "Circle"]
-# sets:
-#   - name: special_loot
-#     colors:
-#       color_text: 210, 158, 9
-#         r: 210
-#         g: 158
-#         b: 9
-#       color_border:
-#         r: 210
-#         g: 158
-#         b: 9
-#       color_background:
-#         r: 255
-#         g: 255
-#         b: 255
-#     alert_sound: [1, 300]
-#     effect: "Pink"
-#     minimap_icon: ["Pink", "Triangle"]
+      color_text: *purple_phoenician
+      color_border: *purple_phoenician
+      color_background: *white_royal
+    alert_sound: [1, 300]
+    effect: "Purple"
+    minimap_icon: [0, "Purple"]
 
-#   - name: league_mechanics_and_quest_items
-#     colors:
-#       color_text:
-#         r: 255
-#         g: 255
-#         b: 255
-#       color_border:
-#         r: 255
-#         g: 255
-#         b: 255
-#       color_background:
-#         r: 255
-#         g: 255
-#         b: 255
-#     alert_sound: [2, 500]
-#     effect: "Blue"
-#     minimap_icon: ["Blue", "Circle"]
+  - name: league_mechanics_quest
+    font_size: 45
+    colors:
+      color_text: *white_royal
+      color_border: *white_royal
+      color_background: *green_royal
+    alert_sound: [12, 300]
+    effect: "Green"
+    minimap_icon: [1, "Green"]
 
-# # Define reusable RGB color codes as anchors
-# color_codes:
-#   diarrhea_yellow: &diarrhea_yellow [210, 158, 9] # diarrhea yellow: #D29E09
-#   white: &white [255, 255, 255] # Background color (RGB)
-#   abens_farve: &abens_farve [255, 255, 255] # Background color (RGB)
+  - name: great_settings
+    font_size: 45
+    colors:
+      color_text: *white_royal
+      color_border: *white_royal
+      color_background: *green_royal
+    alert_sound: [12, 300]
+    effect: "Green"
+    minimap_icon: [1, "Green"]
 
-# assigned_colours:
-#   special_loot_text: &special_loot_text *diarrhea_yellow
-#   special_loot_border: &special_loot_border *diarrhea_yellow
-#   special_loot_background: &special_loot_background *white
 
-#   league_mechanics_and_quest_items_text: &league_mechanics_and_quest_items_text *abens_farve
-#   league_mechanics_and_quest_items_border: &league_mechanics_and_quest_items_border *abens_farve
-#   league_mechanics_and_quest_items_background: &league_mechanics_and_quest_items_background *white
 
-# sets:
-#   - name: special_loot
-#     color_text: *special_loot_text # Reference the text color anchor
-#     color_border: *special_loot_border # Reference the border color anchor
-#     color_background: *special_loot_background # Reference the background color anchor
-#     alert_sound: [1, 300] # Alert sound (ID, Volume)
-#     effect: "Pink" # Effect
-#     minimap_icon: ["Pink", "Triangle"] # Minimap icon (Color, Shape)
 
-#   - name: league_mechanics_and_quest_items
-#     color_text: *league_mechanics_and_quest_items_text # Reference the text color anchor
-#     color_border: *league_mechanics_and_quest_items_border # Reference the border color anchor
-#     color_background: *league_mechanics_and_quest_items_background # Reference the background color anchor
-#     alert_sound: [2, 500] # Alert sound (ID, Volume)
-#     effect: "Blue" # Effect
-#     minimap_icon: ["Blue", "Circle"] # Minimap icon (Color, Shape)
 
-# color_codes:
-#   diarrhea_yellow: [210, 158, 9]
-#   white: [255, 255, 255]
 
-# sets:
-#   - name: special_loot
-#     colors:
-#       color_text: diarrhea_yellow
-#       color_border: diarrhea_yellow
-#       color_background: white
-#     alert_sound: [1, 300]
-#     effect: "Pink"
-#     minimap_icon: ["Pink", "Triangle"]
+  - name: epic_mirror_of_malandra
+    font_size: 45
+    colors:
+      color_text: *purple_phoenician
+      color_border: *purple_phoenician
+      color_background: *white_royal
+    alert_sound: "ShMirror 300"
+    effect: "Red"
+    minimap_icon: [0, "Red"]
 
-#   - name: league_mechanics_and_quest_items
-#     colors:
-#       color_text: white
-#       color_border: white
-#       color_background: white
-#     alert_sound: [2, 500]
-#     effect: "Blue"
-#     minimap_icon: ["Blue", "Circle"]
+  - name: epic_divine_orb
+    font_size: 45
+    colors:
+      color_text: *purple_phoenician
+      color_border: *purple_phoenician
+      color_background: *white_royal
+    alert_sound: "ShDivine 300"
+    effect: "Red"
+    minimap_icon: [0, "Red"]
+
+  - name: important_league_mechanics_quest
+    font_size: 45
+    colors:
+      color_text: *pure_white
+      color_border: *pure_white
+      color_background: *pure_white
+    alert_sound: [3, 300]
+    effect: "Orange"
+    minimap_icon: [1, "Orange"]
+
+  - name: great_loot
+    font_size: 45
+    colors:
+      color_text: *iron_black
+      color_border: *iron_black
+      color_background: *strong_yellow
+    alert_sound: [10, 300]
+    effect: "Red"
+    minimap_icon: [0, "Red"]
+
+  - name: great_loot_exalted_orb
+    font_size: 45
+    colors:
+      color_text: *iron_black
+      color_border: *iron_black
+      color_background: *strong_yellow
+    alert_sound: "ShExalted 300"
+    effect: "Red"
+    minimap_icon: [0, "Red"]
+
+  - name: good_loot
+    font_size: 40
+    colors:
+      color_text: *diarrhea_yellow
+      color_border: *diarrhea_yellow
+      color_background: *pure_white
+    alert_sound: [16, 300]
+    effect: "Yellow"
+    minimap_icon: [2, "Yellow"]
+
+  - name: skippable_loot
+    font_size: 35
+    colors:
+      color_text: *diarrhea_yellow
+      color_border: *diarrhea_yellow
+      color_background: *pure_white
+    alert_sound: [16, 250]
+    effect: "Grey"
+    minimap_icon: [2, "Grey"]
+
+  # - name: important_maps
+  #   colors:
+  #     color_text: *diarrhea_yellow
+  #     color_border: *diarrhea_yellow
+  #     color_background: *pure_white
+  #   alert_sound: [1, 300]
+  #   effect: "Red"
+  #   minimap_icon: [0, "Red", "Square"]

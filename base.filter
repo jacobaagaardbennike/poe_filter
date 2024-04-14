@@ -17,25 +17,25 @@
 
 
 ####################################################################################################
-########## Important
+########## Epic
 ####################################################################################################
 Show 
   Class "Atlas Upgrade Items" "Fishing Rods" "Hideout Doodads" "Leaguestones" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Vault Keys"
-  $important Triangle
+  $epic_purple_settings Triangle
 
 Show
   Class "Currency"
   BaseType "Mirror of Kalandra"
-  $currency_mirror_of_malandra Triangle
+  $epic_mirror_of_malandra Triangle
 
 Show
   Class "Currency"
   BaseType "Divine Orb"
-  $important_divine_orb Triangle
+  $epic_divine_orb Triangle
 
 Show # League Mechanics and Quests
   Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Quest Items" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
-  $important_league_mechanics_quest Kite
+  $league_mechanics_quest Kite
 
 ####################################################################################################
 ########## Currency
@@ -43,45 +43,46 @@ Show # League Mechanics and Quests
 Show
   Class "Currency"
   BaseType "Exalted Orb"
-  $great_loot_exalted_orb Circle
+  $great_exalted_orb Circle
+
 Show # good enough stacked high
   Class "Currency"
   BaseType "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   StackSize >= 20
-  $skippable_loot Circle
+  $skippable_settings Circle
 
 Show #good enough high
   Class "Currency"
   BaseType "Cartographer's Chisel" "Jeweller's Orb" "Regal Shard"
   StackSize >= 8
-  $good_loot Circle
+  $good_settings Circle
 Show
   Class "Currency"
   BaseType "Alteration Shard" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
   StackSize >= 8
-  $skippable_loot Circle
+  $skippable_settings Circle
 Show # until endgame
   Class "Currency"
   BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Regal Shard"
   AreaLevel < 81
-  $good_loot Circle
+  $good_settings Circle
 Show
   Class "Currency"
   BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Engineer's Orb" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
   AreaLevel < 81
   StackSize >= 8
-  $good_loot Circle
+  $good_settings Circle
 Show # stacked low level
   Class "Currency"
   BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   AreaLevel < 73
   StackSize >= 3
-  $skippable_loot Circle
+  $skippable_settings Circle
 Show # single low level
   Class "Currency"
   BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
   AreaLevel < 55
-  $skippable_loot Circle
+  $skippable_settings Circle
 Hide # Never show
   Class "Currency"
   BaseType "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
@@ -89,20 +90,20 @@ Hide # Never show
 
 Show # Currency: The rest
   Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"
-  $great_loot Circle
+  $great_settings Circle
 
 
 ####################################################################################################
 ########## Divination Cards
 ####################################################################################################
-Show # Important Cards
+Show # Epic Cards
   Class "Divination Cards"
   BaseType "Beauty Through Death" "Deadly Joy" "Fire Of Unknown Origin" "Misery in Darkness" "Pride of the First Ones" "The Chosen" "The Demon" "The Doctor" "The Endless Darkness" "The Fiend" "The Greatest Intentions" "The Shieldbearer"
-  $important UpsideDownHouse
-Show # Important Cards: Personal favorites
+  $epic_red_settings UpsideDownHouse
+Show # Epic Cards: Personal favorites
   Class "Divination Cards"
   BaseType "Brother's Gift" "Brother's Stash" "Choking Guilt" "Darker Half" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Card Sharp" "The Cheater" "The Dragon's Heart" "The Enlightened" "The Garish Power" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "Unrequited Love" "Wealth and Power"
-  $important UpsideDownHouse
+  $epic_red_settings UpsideDownHouse
 
 ##################################################
 ########## Divination Cards: Hide
@@ -133,7 +134,7 @@ Hide # Hide
 ##################################################
 Show
   Class "Divination Cards"
-  $great_loot UpsideDownHouse
+  $great_settings UpsideDownHouse
 
 ####################################################################################################
 ########## Maps
@@ -142,23 +143,17 @@ Show # early maps
   Class "Maps"
   MapTier <= 15
   AreaLevel < 83
-  $good_loot Square
+  $good_settings Square
 Show
   Class "Maps"
   Rarity Unique
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 169 138 117
-  PlayAlertSound 16 300
-  PlayEffect Brown
-  MinimapIcon 0 Brown Square
+  $unique_settings Square
 Show
   Class "Contracts"
-  $skippable_loot Square
+  $skippable_settings Square
 Show 
   Class "Blueprints" "Breachstones" "Expedition Logbooks" "Memories" "Sanctum Research"
-  $great_loot Square
+  $great_settings Square
 
 Show # regular t16
   Class "Maps"
@@ -169,7 +164,7 @@ Show # regular t16
   HasImplicitMod False
   AnyEnchantment False
   MapTier 16
-  $great_loot Square
+  $great_settings Square
 
 ##################################################
 ########## Maps: Hide
@@ -189,7 +184,7 @@ Hide
 ##################################################
 Show
   Class "Maps"
-  $important Square
+  $epic_red_settings Square
 
 ####################################################################################################
 ########## Items
@@ -197,7 +192,7 @@ Show
 Show
   Identified True
   HasExplicitMod "Veil"
-  $good_loot Star
+  $good_settings Star
 
 ##################################################
 ########## Items: Late Builds specific
@@ -214,19 +209,19 @@ Show
 ##################################################
 Show
   FracturedItem True
-  $great_loot Cross
+  $great_settings Cross
 
 Show
   SynthesisedItem True
-  $great_loot Cross
+  $great_settings Cross
 
 Show
   HasInfluence Shaper Elder Crusader Hunter Redeemer Warlord
-  $great_loot Cross
+  $great_settings Cross
 
 Show
   AnyEnchantment True
-  $great_loot Cross
+  $great_settings Cross
 
 ##################################################
 ########## Items: Unique
@@ -234,24 +229,12 @@ Show
 Show # collecting
   BaseType "Sage Wand" "Saint's Hauberk" "Necromancer Silks" "Saintly Chainmail" "Sadist Garb" "Crusader Plate" "Majestic Plate" "Exquisite Leather" "Gladiator Plate" "Onyx Amulet" "Paua Amulet" "Greatwolf Talisman" "Spine Bow" "Assassin Bow" "Ornate Quiver" "Two-Point Arrow Quiver" "Ebony Tower Shield" "Elegant Round Shield" "Jingling Spirit Shield" "Lacquered Buckler" "Titanium Spirit Shield" "Branded Kite Shield" "Champion Kite Shield" "Highborn Staff" "Void Sceptre" "Karui Sceptre" "Karui Maul" "Gavel" "Crystal Sceptre" "Imperial Maul" "Siege Axe" "Void Axe" "Eternal Sword" "Vaal Blade" "Engraved Greatsword" "Jewelled Foil" "Fiend Dagger" "Slaughter Knife" "Imperial Skean" "Demon Dagger" "Vaal Claw" "Terror Claw" "Granite Flask" "Stibnite Flask" "Sapphire Flask" "Grand Mana Flask" "Solaris Circlet" "Prophet Crown" "Mind Cage" "Praetor Crown" "Necromancer Circlet" "Sinner Tricorne" "Goathide Boots" "Sorcerer Boots" "Stealth Boots" "Carnal Boots" "Two-Toned Boots" "Zealot Gloves" "Crusader Gloves" "Murder Mitts" "Hydrascale Gauntlets" "Steelscale Gauntlets" "Cloth Belt" "Moonstone Ring" "Topaz Ring" "Coral Ring" "Paua Ring" "Ring" "Ruby Ring" "Midnight Blade"
   Rarity Unique
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 169 138 117
-  PlayAlertSound 16 300
-  PlayEffect Brown
-  MinimapIcon 0 Brown Star
+  $unique_settings Star
 
 Show
   Class "Abyss Jewels" "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "Hybrid Flasks" "Jewels" "Life Flasks" "Mana Flasks" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Utility Flasks" "Wands" "Warstaves"
   Rarity Unique
-  SetFontSize 45
-  SetTextColor 233 234 228
-  SetBorderColor 198 50 50
-  SetBackgroundColor 169 138 117
-  PlayAlertSound 16 300
-  PlayEffect Brown
-  MinimapIcon 0 Brown Star
+  $unique_settings Star
 
 ##################################################
 ########## Items: Jeweles
@@ -260,18 +243,18 @@ Show
 Class "Abyss Jewels" "Jewels"
   BaseType "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
   Rarity Normal Magic Rare
-  $great_loot Diamond
+  $great_settings Diamond
 
 Show
   Class "Abyss Jewels" "Jewels"
   Rarity Rare
-  $good_loot Diamond
+  $good_settings Diamond
 
 Show
   Class "Abyss Jewels"
   Rarity Normal Magic
   ItemLevel >= 85
-  $good_loot Square Diamond
+  $good_settings Square Diamond
 
 Hide
   Class "Abyss Jewels" "Jewels"
@@ -283,7 +266,7 @@ Hide
 Show
   LinkedSockets >= 6
   AreaLevel < 83
-  $great_loot Diamond
+  $great_settings Diamond
 
 ##################################################
 ########## Items: League Start
@@ -303,7 +286,7 @@ Show
   Class "Amulets" "Belts" "Rings" "Boots"
   Rarity Rare
   AreaLevel <= 40
-  $good_loot Star
+  $rare_loot_settings Star
 Show # Chromatic 2x2
   Class "Claws" "Daggers" "Rune Daggers" "Shields" "Wands" "Boots" "Gloves" "Helmets"
   SocketGroup >= 3RGB
@@ -330,12 +313,12 @@ Show
   Rarity Normal Magic Rare
   LinkedSockets == 5
   AreaLevel < 73
-  $good_loot Diamond
+  $good_settings Diamond
 Show # jewellers
   Sockets == 6
   AreaLevel < 81
   Height <= 3
-  $good_loot Diamond
+  $good_settings Diamond
 
 ##################################################
 ########## Items: Hide
@@ -357,17 +340,17 @@ Hide
 Show
   Class "Skill Gems" "Support Gems"
   BaseType "Awakened" "Empower Support" "Enhance Support" "Enlighten Support"
-  $important Triangle
+  $epic_red_settings Triangle
 
 Show
   Class "Skill Gems" "Support Gems"
   BaseType "Portal"
-  $good_loot Hexagon
+  $good_settings Hexagon
 
 Show
   Class "Skill Gems" "Support Gems"
   BaseType "Vaal"
-  $skippable_loot Hexagon
+  $skippable_settings Hexagon
 
 ##################################################
 ########## Gems: Hide + League Start
@@ -375,24 +358,24 @@ Show
 Show
   AreaLevel < 6
   Class "Skill Gems" "Support Gems"
-  $good_loot Hexagon
+  $good_settings Hexagon
 Show
   Class "Skill Gems" "Support Gems"
   Quality >= 1
   AreaLevel < 81
-  $skippable_loot Hexagon
+  $skippable_settings Hexagon
 Show
   Class "Skill Gems" "Support Gems"
   Corrupted False
   Quality >= 20
   # AreaLevel < 83
-  $skippable_loot Hexagon
+  $skippable_settings Hexagon
 Show
   Class "Skill Gems" "Support Gems"
   Corrupted False
   GemLevel >= 20
   # AreaLevel < 83
-  $skippable_loot Hexagon
+  $skippable_settings Hexagon
 Hide
   Class "Skill Gems" "Support Gems"
   
@@ -403,14 +386,14 @@ Show
   Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
   ItemLevel >= 85
   # AreaLevel < 81
-  $good_loot Raindrop
+  $good_settings Raindrop
 
 Show
   Class "Flasks"
   BaseType "Amethyst Flask" "Quicksilver Flask" "Granite Flask" "Ruby Flask" "Silver Flask" "Quartz Flask"
   ItemLevel >= 85
   # AreaLevel < 81
-  $good_loot Raindrop
+  $good_settings Raindrop
 
 ##################################################
 ########## Flasks: Hide + League Start
@@ -439,13 +422,13 @@ Show
   Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
   Quality > 10
   AreaLevel < 73
-  $skippable_loot Raindrop
+  $skippable_settings Raindrop
 Show
   Class "Utility Flasks"
   BaseType = "Amethyst Flask"  "Quicksilver Flask" "Granite Flask" "Ruby Flask" "Silver Flask" "Quartz Flask"
   AreaLevel < 81
   SetFontSize 45
-  $skippable_loot Raindrop
+  $skippable_settings Raindrop
 Hide
   Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
   Rarity Normal Magic Rare

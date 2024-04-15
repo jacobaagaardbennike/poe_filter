@@ -11,7 +11,7 @@ icon = "abe"
 
 [[sets]]
 name = "epic_purple_settings"
-setting_type = "ColourSettings"
+setting_type = "SETTINGTYPE"
 
 [sets.colour_options]
 font_size = 45

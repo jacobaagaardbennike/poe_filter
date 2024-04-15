@@ -1,0 +1,9 @@
+[epic_settings]
+background_colour = "rgb(235, 240, 248)"
+border_colour = "rgb(146, 29, 41)"
+text_colour = "rgb(146, 29, 41)"
+
+[great_settings]
+background_colour = "rgb(146, 29, 41)"
+border_colour = "rgb(235, 240, 248)"
+text_colour = "rgb(235, 240, 248)"

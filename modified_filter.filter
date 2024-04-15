@@ -27,7 +27,7 @@ Show
   SetBackgroundColor 235 240 248
   PlayAlertSound [1, 300]
   PlayEffect Purple
-  MinimapIcon 0 Purple abe
+  MinimapIcon 0 Purple star
 
 Show
   Class "Currency"

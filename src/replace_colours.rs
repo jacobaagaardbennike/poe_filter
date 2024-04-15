@@ -16,11 +16,8 @@ pub struct MinimapIcon {
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Colour {
-    //#[serde(rename = "0")]
     pub r: u8,
-    //#[serde(rename = "1")]
     pub g: u8,
-    //#[serde(rename = "2")]
     pub b: u8,
 }
 

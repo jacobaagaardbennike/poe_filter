@@ -1,154 +1,52 @@
-####################################################################################################
-########## Info
-####################################################################################################
-# general settings:
-# uber_loot, sound = 1,
-# epic_loot, sound = 1,
-# Sounds:
-# 1 = uber_loot
-# 10 = great
-# good = 3
-# skippable = 16
-# 12 = league_mechanics_quest
+anchors:
+  colors:
+    light_silver: &light_silver
+      r: 235
+      g: 240
+      b: 248
+      hex: "#EBF0F8"
 
-# black_blue: &abekat [56, 71, 93] #38475D
-# gold_light: &abekat [235, 212, 169] #EBD4A9
-# brown_parchment: &abekat [208, 192, 173] #D0C0AD
-# green_eye: &green_eye [15, 115, 33] #0F7321
+    red_bright_demon: &red_bright_demon
+      r: 235
+      g: 77
+      b: 79
+      hex: "#EB4D4F"
 
-color_codes:
-  light_silver: &light_silver { r: 235, g: 240, b: 248, hex: "#EBF0F8" }
-  red_bright_demon: &red_bright_demon { r: 235, g: 77, b: 79, hex: "#EB4D4F" }
-  red_rich: &red_rich { r: 146, g: 29, b: 41, hex: "#921D29" }
-  red_dark: &red_dark { r: 107, g: 6, b: 20, hex: "#6B0614" }
-  black_rich: &black_rich { r: 35, g: 35, b: 45, hex: "#23232D" }
-  blue_demon: &blue_demon { r: 29, g: 193, b: 192, hex: "#1DC1C0" }
-  brown_red: &brown_red { r: 90, g: 68, b: 67, hex: "#5A4443" }
-  yellow_rare_loot: &yellow_rare_loot { r: 238, g: 195, 17, hex: "#EEC311" }
-  icon: &icon "abe"
+    red_rich: &red_rich
+      r: 146
+      g: 29
+      b: 41
+      hex: "#921D29"
 
-sets:
-  - name: epic_purple_settings
-    setting_type: ColourSettings
-    colour_options:
-      font_size: 45
-      text_colour: *red_rich
-      border_colour: *red_rich
-      background_colour: *light_silver
-      alert_sound: [1, 300]
-      effect: "Purple"
-      minimap_icon:
-        size: 0
-        colour: "Purple"
-        shape: *icon
+    red_dark: &red_dark
+      r: 107
+      g: 6
+      b: 20
+      hex: "#6B0614"
 
-  # - name: epic_red_settings
-  #   font_size: 45
-  #   colors:
-  #     color_text: *red_rich
-  #     color_border: *red_rich
-  #     color_background: *light_silver
-  #   alert_sound: [1, 300]
-  #   effect: "Red"
-  #   minimap_icon: [0, "Red"]
+    black_rich: &black_rich
+      r: 35
+      g: 35
+      b: 45
+      hex: "#23232D"
 
-  # - name: great_settings
-  #   font_size: 45
-  #   colors:
-  #     color_text: *light_silver
-  #     color_border: *light_silver
-  #     color_background: *red_rich
-  #   alert_sound: [10, 300]
-  #   effect: "Red"
-  #   minimap_icon: [0, "Red"]
+    blue_demon: &blue_demon
+      r: 29
+      g: 193
+      b: 192
+      hex: "#1DC1C0"
 
-  # - name: good_settings
-  #   font_size: 45
-  #   colors:
-  #     color_text: *light_silver
-  #     color_border: *light_silver
-  #     color_background: *red_dark
-  #   alert_sound: [3, 300]
-  #   effect: "White"
-  #   minimap_icon: [1, "White"]
+    brown_red: &brown_red
+      r: 90
+      g: 68
+      b: 67
+      hex: "#5A4443"
 
-  # - name: skippable_settings
-  #   font_size: 40
-  #   colors:
-  #     color_text: *light_silver
-  #     color_border: *red_rich
-  #     color_background: *black_rich
-  #   alert_sound: [16, 300]
-  #   effect: "Grey"
-  #   minimap_icon: [2, "Grey"]
+    yellow_rare_loot: &yellow_rare_loot
+      r: 238
+      g: 195
+      b: 17
+      hex: "#EEC311"
 
-  # - name: unique_settings
-  #   font_size: 45
-  #   colors:
-  #     color_text: *black_rich
-  #     color_border: *light_silver
-  #     color_background: *brown_red
-  #   alert_sound: [3, 300]
-  #   effect: "Brown"
-  #   minimap_icon: [1, "Brown"]
-
-  # - name: league_mechanics_quest
-  #   font_size: 45
-  #   colors:
-  #     color_text: *light_silver
-  #     color_border: *red_rich
-  #     color_background: *blue_demon
-  #   alert_sound: [12, 300]
-  #   effect: "Cyan"
-  #   minimap_icon: [1, "Cyan"]
-
-  # - name: rare_loot_settings
-  #   font_size: 45
-  #   colors:
-  #     color_text: *yellow_rare_loot
-  #     color_border: *yellow_rare_loot
-  #     color_background: *black_rich
-  #   alert_sound: [3, 300]
-  #   effect: "White"
-  #   minimap_icon: [2, "White"]
-
-  # # specials
-  # - name: build_loot_settings
-  #   font_size: 45
-  #   colors:
-  #     color_text: *yellow_rare_loot
-  #     color_border: *yellow_rare_loot
-  #     color_background: *black_rich
-  #   alert_sound: [10, 300]
-  #   effect: "Pink"
-  #   minimap_icon: 01, "Pink"]
-
-  # - name: epic_mirror_of_malandra
-  #   font_size: 45
-  #   colors:
-  #     color_text: *red_rich
-  #     color_border: *red_rich
-  #     color_background: *light_silver
-  #   alert_sound: "ShMirror 300"
-  #   effect: "Red"
-  #   minimap_icon: [0, "Red"]
-
-  # - name: epic_divine_orb
-  #   font_size: 45
-  #   colors:
-  #     color_text: *red_rich
-  #     color_border: *red_rich
-  #     color_background: *light_silver
-  #   alert_sound: "ShDivine 300"
-  #   effect: "Red"
-  #   minimap_icon: [0, "Red"]
-
-  # - name: great_exalted_orb
-  #   font_size: 45
-  #   colors:
-  #     color_text: *red_rich
-  #     color_border: *red_rich
-  #     color_background: *light_silver
-  #   alert_sound: "ShExalted 300"
-  #   effect: "Red"
-  #   minimap_icon: [0, "Red"]
+  icons:
+    star: &icon "star"

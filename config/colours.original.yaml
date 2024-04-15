@@ -1,0 +1,126 @@
+
+sets:
+  - name: epic_purple_settings
+    setting_type: ColourSettings
+    colour_options:
+      font_size: 45
+      text_colour: *red_rich
+      border_colour: *red_rich
+      background_colour: *light_silver
+      alert_sound: [1, 300]
+      effect: "Purple"
+      minimap_icon:
+        size: 0
+        colour: "Purple"
+        shape: *icon
+
+  # - name: epic_red_settings
+  #   font_size: 45
+  #   colors:
+  #     color_text: *red_rich
+  #     color_border: *red_rich
+  #     color_background: *light_silver
+  #   alert_sound: [1, 300]
+  #   effect: "Red"
+  #   minimap_icon: [0, "Red"]
+
+  # - name: great_settings
+  #   font_size: 45
+  #   colors:
+  #     color_text: *light_silver
+  #     color_border: *light_silver
+  #     color_background: *red_rich
+  #   alert_sound: [10, 300]
+  #   effect: "Red"
+  #   minimap_icon: [0, "Red"]
+
+  # - name: good_settings
+  #   font_size: 45
+  #   colors:
+  #     color_text: *light_silver
+  #     color_border: *light_silver
+  #     color_background: *red_dark
+  #   alert_sound: [3, 300]
+  #   effect: "White"
+  #   minimap_icon: [1, "White"]
+
+  # - name: skippable_settings
+  #   font_size: 40
+  #   colors:
+  #     color_text: *light_silver
+  #     color_border: *red_rich
+  #     color_background: *black_rich
+  #   alert_sound: [16, 300]
+  #   effect: "Grey"
+  #   minimap_icon: [2, "Grey"]
+
+  # - name: unique_settings
+  #   font_size: 45
+  #   colors:
+  #     color_text: *black_rich
+  #     color_border: *light_silver
+  #     color_background: *brown_red
+  #   alert_sound: [3, 300]
+  #   effect: "Brown"
+  #   minimap_icon: [1, "Brown"]
+
+  # - name: league_mechanics_quest
+  #   font_size: 45
+  #   colors:
+  #     color_text: *light_silver
+  #     color_border: *red_rich
+  #     color_background: *blue_demon
+  #   alert_sound: [12, 300]
+  #   effect: "Cyan"
+  #   minimap_icon: [1, "Cyan"]
+
+  # - name: rare_loot_settings
+  #   font_size: 45
+  #   colors:
+  #     color_text: *yellow_rare_loot
+  #     color_border: *yellow_rare_loot
+  #     color_background: *black_rich
+  #   alert_sound: [3, 300]
+  #   effect: "White"
+  #   minimap_icon: [2, "White"]
+
+  # # specials
+  # - name: build_loot_settings
+  #   font_size: 45
+  #   colors:
+  #     color_text: *yellow_rare_loot
+  #     color_border: *yellow_rare_loot
+  #     color_background: *black_rich
+  #   alert_sound: [10, 300]
+  #   effect: "Pink"
+  #   minimap_icon: 01, "Pink"]
+
+  # - name: epic_mirror_of_malandra
+  #   font_size: 45
+  #   colors:
+  #     color_text: *red_rich
+  #     color_border: *red_rich
+  #     color_background: *light_silver
+  #   alert_sound: "ShMirror 300"
+  #   effect: "Red"
+  #   minimap_icon: [0, "Red"]
+
+  # - name: epic_divine_orb
+  #   font_size: 45
+  #   colors:
+  #     color_text: *red_rich
+  #     color_border: *red_rich
+  #     color_background: *light_silver
+  #   alert_sound: "ShDivine 300"
+  #   effect: "Red"
+  #   minimap_icon: [0, "Red"]
+
+  # - name: great_exalted_orb
+  #   font_size: 45
+  #   colors:
+  #     color_text: *red_rich
+  #     color_border: *red_rich
+  #     color_background: *light_silver
+  #   alert_sound: "ShExalted 300"
+  #   effect: "Red"
+  #   minimap_icon: [0, "Red"]

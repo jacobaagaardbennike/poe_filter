@@ -26,20 +26,36 @@ fn replace_filter_variables(config: &Config, mut filter_text: String) -> Result<
   Ok(filter_text)
 
 }
-/// Loads YAML files and parses them into a `Config` struct.
+// /// Loads YAML files and parses them into a `Config` struct.
+// fn load_yaml_files(paths: &[&str]) -> Result<Config, Box<dyn std::error::Error>> {
+//   let mut sets = Vec::new();
+//   for path in paths {
+//       let yaml_content = fs::read_to_string(path)?;
+//       let config: Config = serde_yaml::from_str(&yaml_content)?;
+//       sets.extend(config.sets);
+//   }
+//   Ok(Config { sets })
+// }
+
 fn load_yaml_files(paths: &[&str]) -> Result<Config, Box<dyn std::error::Error>> {
-  let mut sets = Vec::new();
+  let mut combined_yaml = String::new();
+
+  // Read all YAML files and combine their contents
   for path in paths {
       let yaml_content = fs::read_to_string(path)?;
-      let config: Config = serde_yaml::from_str(&yaml_content)?;
-      sets.extend(config.sets);
+      combined_yaml.push_str(&yaml_content);
+      combined_yaml.push('\n'); // Add newline between YAML files
   }
-  Ok(Config { sets })
+
+  // Deserialize the combined YAML into a Config struct
+  let config: Config = serde_yaml::from_str(&combined_yaml)?;
+
+  Ok(config)
 }
 
 /// Main entry point of the program.
 fn main() -> Result<(), Box<dyn Error>> {
-  let yaml_paths = vec!["./config/colours.yaml"];//, "./config/loot.yaml"];
+  let yaml_paths = vec!["./config/colours.yaml", "./config/colours.original.yaml"];//, "./config/loot.yaml"];
   let config: Config = load_yaml_files(&yaml_paths)?;
   dbg!(&config);
 

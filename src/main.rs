@@ -1,55 +1,65 @@
-use crate::settings::{Config, SettingType};
-use crate::replace_colours::{format_colours, ColourSettings};
-use std::{fs, error::Error};
+use serde::Deserialize;
+use std::collections::HashMap;
+use std::error::Error;
+use std::fs::read_to_string;
+use toml::{from_str, Value};
 
-mod settings;
-mod replace_colours;
-
-fn replace_filter_variables(config: &Config, mut filter_text: String) -> Result<String, Box<dyn Error>> {
-  // Iterate over each settings set and replace placeholders in the base filter text
-  for settings in config.sets.iter() {
-    let placeholder = format!("${}", settings.name);
-    let replacement_text = match settings.setting_type {
-      SettingType::ColourSettings => {
-        if let Some(colour_options) = &settings.colour_options {
-          format_colours(colour_options)
-        } else {
-          "".to_string() // handle None case
-        }
-      }
-      // Handle other setting types if needed
-    };
-
-    // Replace the placeholder in the base filter file with the replacement text
-    filter_text = filter_text.replace(&placeholder, &replacement_text);
-  }
-  Ok(filter_text)
-
+#[derive(Debug, Deserialize)]
+struct Config {
+    colours: HashMap<String, [u8; 3]>,
+    font_sizes: HashMap<String, u8>,
 }
 
-fn load_yaml_files(paths: &[&str]) -> Result<Config, Box<dyn std::error::Error>> {
-  let mut combined_yaml = String::new();
-  // Read all YAML files and combine their contents
-  for path in paths {
-      let yaml_content = fs::read_to_string(path)?;
-      combined_yaml.push_str(&yaml_content);
-      combined_yaml.push('\n'); // Add newline between YAML files
-  }
-  // Deserialize the combined YAML into a Config struct
-  let config: Config = serde_yaml::from_str(&combined_yaml)?;
-  Ok(config)
+struct Epic {
+    font_size: String,
+    text_colour: String,
+    border_colour: String,
+    background_colour: String,
 }
 
-/// Main entry point of the program.
+struct Filter {
+    epic: Epic,
+}
+
+fn load_config(config_file_path: &str) -> Result<Config, Box<dyn Error>> {
+    let config_content = read_to_string(config_file_path)?;
+    let config: Config = from_str(&config_content)?;
+    Ok(config)
+}
+
+fn load_filters_as_string(paths: &[&str]) -> Result<String, Box<dyn Error>> {
+    let combined_contents: String = paths
+        .iter()
+        .map(|&path| read_to_string(path))
+        .collect::<Result<Vec<String>, _>>()?
+        .join("\n");
+    Ok(combined_contents)
+}
+
+fn load_filters(paths: &[&str]) -> Result<String, Box<dyn Error>> {
+    let combined_contents: String = paths
+        .iter()
+        .map(|&path| read_to_string(path))
+        .collect::<Result<Vec<String>, _>>()?
+        .join("\n");
+    Ok(combined_contents)
+}
+
+fn replace_variables(
+    _config_file_path: &str,
+    _filter_content_raw: &str,
+) -> Result<String, Box<dyn Error>> {
+    let tmp = "tmp".to_string();
+    Ok(tmp)
+}
+
 fn main() -> Result<(), Box<dyn Error>> {
-  let yaml_paths = vec!["./config/config.yaml", "./config/filter.yaml"];//, "./config/loot.yaml"];
-  let config: Config = load_yaml_files(&yaml_paths)?;
-  dbg!(&config);
-
-    let filter_text = std::fs::read_to_string("./filter/base.filter")?;
-    let modified_filter_text = replace_filter_variables(&config, filter_text)?;
-
-    std::fs::write("./modified_filter.filter", modified_filter_text)?;
-
-  Ok(())
+    let config_file_path = "./config/config.toml";
+    let config = load_config(config_file_path)?;
+    dbg!(&config);
+    let filter_file_paths = vec!["./config/filter.toml"]; //, "./config/loot.yaml"];
+    let filter_content_raw: String = load_filters(&filter_file_paths)?;
+    let filter_content = replace_variables(config_file_path, &filter_content_raw)?;
+    dbg!(&filter_content);
+    Ok(())
 }

@@ -2,9 +2,9 @@
 sets:
   - name: epic_purple_settings
     setting_type: ColourSettings
+    font_size: 45
+    text_colour: *red_rich
     colour_options:
-      font_size: 45
-      text_colour: *red_rich
       border_colour: *red_rich
       background_colour: *light_silver
       alert_sound: [1, 300]

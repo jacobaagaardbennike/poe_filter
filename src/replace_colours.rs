@@ -1,4 +1,5 @@
 use serde::{Deserialize, Serialize};
+use crate::settings::{Settings};
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(untagged)]
@@ -23,7 +24,6 @@ pub struct Colour {
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct ColourSettings {
-    pub font_size: u8,
     pub text_colour: Colour,
     pub border_colour: Colour,
     pub background_colour: Colour,
@@ -32,10 +32,11 @@ pub struct ColourSettings {
     pub minimap_icon: MinimapIcon,
 }
 
-pub fn format_colours(colour_options: &ColourSettings) -> String {
+pub fn format_colours(settings: &Settings) -> String {
+    let colour_options = settings.colour_options.as_ref().expect("No colour options provided");
     format!(
         "SetFontSize {}\n  SetTextColor {} {} {}\n  SetBorderColor {} {} {}\n  SetBackgroundColor {} {} {}\n  PlayAlertSound {}\n  PlayEffect {}\n  MinimapIcon {} {} {}",
-        colour_options.font_size,
+        settings.font_size,
         colour_options.text_colour.r,
         colour_options.text_colour.g,
         colour_options.text_colour.b,

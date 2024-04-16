@@ -11,7 +11,8 @@ pub enum SettingType {
 pub struct Settings {
     pub name: String,
     pub setting_type: SettingType,
-    pub colour_options: Option<ColourSettings>
+    pub font_size: u8,
+    pub colour_options: Option<ColourSettings>,
 }
 
 

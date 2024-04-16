@@ -1,5 +1,5 @@
 [epic]
-font_size = "large"
-text_colour = "red_rich"
-border_colour = "red_rich"
-background_colour = "light_silver"
+font_size = "_large"
+text_colour = "_red_rich"
+border_colour = "_red_rich"
+background_colour = "_light_silver"

@@ -1,8 +1,8 @@
 [colours]
-_light_silver = [235, 240, 248]
-_red_rich = [146, 29, 41]
+light_silver = [235, 240, 248]
+red_rich = [146, 29, 41]
 
 [font_sizes]
-_large = 45
-_medium = 40
-_small = 35
+large = 45
+medium = 40
+small = 35

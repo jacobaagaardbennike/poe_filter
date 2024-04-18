@@ -5,9 +5,15 @@ use std::fs::read_to_string;
 use toml::from_str;
 
 #[derive(Debug, Deserialize)]
+#[serde(untagged)]
+enum Variable {
+    Colour([u8; 3]),
+    FontSize(u8),
+}
+
+#[derive(Debug, Deserialize)]
 struct Config {
-    colours: HashMap<String, [u8; 3]>,
-    font_sizes: HashMap<String, u8>,
+    variables: HashMap<String, Variable>,
 }
 
 #[derive(Debug, Deserialize)]
@@ -25,6 +31,7 @@ struct Filter {
 
 fn load_config(config_file_path: &str) -> Result<Config, Box<dyn Error>> {
     let config_content = read_to_string(config_file_path)?;
+    dbg!(&config_content);
     let config: Config = from_str(&config_content)?;
     Ok(config)
 }
@@ -40,13 +47,21 @@ fn load_filters(paths: &[&str]) -> Result<String, Box<dyn Error>> {
 
 fn replace_variables(config: &Config, filter_content_raw: &str) -> Result<Filter, Box<dyn Error>> {
     let mut modified_filter_content = filter_content_raw.to_string();
-    for colour in config.colours.iter() {
-        let placeholder = format!("&{}", colour.0);
-        modified_filter_content =
-            modified_filter_content.replace(&placeholder, &format!("{:?}", colour.1));
-        dbg!(&placeholder);
-        dbg!(&modified_filter_content);
+
+    // Iterate over variables and replace placeholders in the filter content
+    for (key, var) in config.variables.iter() {
+        let placeholder = format!("\"&{}\"", key);
+        let value_str = match var {
+            Variable::Colour(rgb) => format!("{:?}", rgb),
+            Variable::FontSize(size) => size.to_string(),
+        };
+        // dbg!(&value_str);
+        // Replace placeholder with the value directly
+        modified_filter_content = modified_filter_content.replace(&placeholder, &value_str);
     }
+
+    dbg!(&modified_filter_content);
+    // Deserialize the modified filter content into the Filter struct
     let filter: Filter = from_str(&modified_filter_content)?;
     Ok(filter)
 }

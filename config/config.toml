@@ -1,8 +1,6 @@
-[colours]
+[variables]
 light_silver = [235, 240, 248]
 red_rich = [146, 29, 41]
-
-[font_sizes]
 large = 45
 medium = 40
 small = 35

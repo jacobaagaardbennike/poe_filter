@@ -1,0 +1,459 @@
+####################################################################################################
+########## Info
+####################################################################################################
+# Item classes full -> "Abyss Jewels" "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "Hybrid Flasks" "Jewels" "Life Flasks" "Mana Flasks" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Utility Flasks" "Wands" "Warstaves"
+# Weapons -> "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+# Armours -> "Body Armours" "Boots" "Gloves" "Helmets"
+# Jewlery -> "Amulets" "Belts" "Rings"
+# Jewels -> "Abyss Jewels" "Jewels"
+# Flasks -> "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+# Remaining Item Classes -> "Atlas Upgrade Items" "Blueprints" "Breachstones" "Charms" "Contracts" "Embers of the Allflame" "Expedition Logbooks" "Fishing Rods" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Hideout Doodads" "Incubators" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Leaguestones" "Maps" "Memories" "Metamorph Samples" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Pieces" "Quest Items" "Sanctified Relics" "Sanctum Research" "Sentinels" "Skill Gems" "Support Gems" "Tinctures" "Trinkets" "Vault Keys"
+
+# AreaLevel < 55 stacks
+# AreaLevel < 68 # campaign
+# AreaLevel < 73 # below tier 6 (white maps)
+# AreaLevel < 78 # below tier 11 (white and yellow maps)
+# AreaLevel < 81 # below tier 14 (low maps)
+
+
+
+
+Show
+  Class "Currency"
+  BaseType "Mirror of Kalandra"
+  SetFontSize 45
+  SetTextColor 146 29 41
+  SetBorderColor 146 29 41
+  SetBackgroundColor 255 255 255
+  PlayAlertSound 1 300
+  PlayEffect Purple
+  MinimapIcon 0 Purple Circle
+
+Show
+  Class "Currency"
+  BaseType "Divine Orb"
+  SetFontSize 45
+  SetTextColor 146 29 41
+  SetBorderColor 146 29 41
+  SetBackgroundColor 255 255 255
+  PlayAlertSound 1 300
+  PlayEffect Purple
+  MinimapIcon 0 Purple Star
+
+####################################################################################################
+########## Epic
+####################################################################################################
+Show 
+  Class "Atlas Upgrade Items" "Fishing Rods" "Hideout Doodads" "Leaguestones" "Microtransactions" "Misc Map Items" "Pantheon Souls" "Vault Keys"
+  $epic_purple_settings
+
+Show
+  Class "Currency"
+  BaseType "Mirror of Kalandra"
+  $epic_mirror_of_malandra
+
+Show
+  Class "Currency"
+  BaseType "Divine Orb"
+  $epic_divine_orb
+
+Show # League Mechanics and Quests
+  Class "Charms" "Corpses" "Embers of the Allflame" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Targets" "Heist Tools" "Incursion Items" "Labyrinth Items" "Labyrinth Trinkets" "Metamorph Samples" "Quest Items" "Sanctified Relics" "Sentinels" "Tinctures" "Trinkets"
+  $league_mechanics_quest
+
+####################################################################################################
+########## Currency
+####################################################################################################
+Show
+  Class "Currency"
+  BaseType "Exalted Orb"
+  $great_exalted_orb Circle
+
+Show # good enough stacked high
+  Class "Currency"
+  BaseType "Alchemy Shard" "Binding Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+  StackSize >= 20
+  $skippable_settings Circle
+
+Show #good enough high
+  Class "Currency"
+  BaseType "Cartographer's Chisel" "Jeweller's Orb" "Regal Shard"
+  StackSize >= 8
+  $good_settings Circle
+Show
+  Class "Currency"
+  BaseType "Alteration Shard" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Regal Shard"
+  StackSize >= 8
+  $skippable_settings Circle
+Show # until endgame
+  Class "Currency"
+  BaseType "Alteration Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Regal Shard"
+  AreaLevel < 81
+  $good_settings Circle
+Show
+  Class "Currency"
+  BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Engineer's Orb" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard"
+  AreaLevel < 81
+  StackSize >= 8
+  $good_settings Circle
+Show # stacked low level
+  Class "Currency"
+  BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+  AreaLevel < 73
+  StackSize >= 3
+  $skippable_settings Circle
+Show # single low level
+  Class "Currency"
+  BaseType "Alchemy Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
+  AreaLevel < 55
+  $skippable_settings Circle
+Hide # Never show
+  Class "Currency"
+  BaseType "Alchemy Shard" "Alteration Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Binding Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Engineer's Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Augmentation" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Transmutation" "Portal Scroll" "Regal Shard" "Scroll of Wisdom" "Transmutation Shard"
+  DisableDropSound True
+
+Show # Currency: The rest
+  Class "Currency" "Incubators" "Delve Stackable" "Map Fragments" "Socketable Currency" "Pieces"
+  $great_settings Circle
+
+
+####################################################################################################
+########## Divination Cards
+####################################################################################################
+Show # Epic Cards
+  Class "Divination Cards"
+  BaseType "Beauty Through Death" "Deadly Joy" "Fire Of Unknown Origin" "Misery in Darkness" "Pride of the First Ones" "The Chosen" "The Demon" "The Doctor" "The Endless Darkness" "The Fiend" "The Greatest Intentions" "The Shieldbearer"
+  $epic_red_settings UpsideDownHouse
+Show # Epic Cards: Personal favorites
+  Class "Divination Cards"
+  BaseType "Brother's Gift" "Brother's Stash" "Choking Guilt" "Darker Half" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "House of Mirrors" "I See Brothers" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Card Sharp" "The Cheater" "The Dragon's Heart" "The Enlightened" "The Garish Power" "The Gulf" "The Immortal" "The Insane Cat" "The Price of Devotion" "The Progeny of Lunaris" "The Samurai's Eye" "The Sephirot" "Unrequited Love" "Wealth and Power"
+  $epic_red_settings UpsideDownHouse
+
+##################################################
+########## Divination Cards: Hide
+##################################################
+Hide # Hide Unless they change 
+  Class "Divination Cards"
+  BaseType "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Doedre's Madness" "Earth Drinker" "Heterochromia" "Hope" "Light and Truth" "Lysah's Respite" "Mitts" "The Aesthete" "The Brittle Emperor" "The Calling" "The Dragon" "The Gladiator" "The Lion" "The Penitent" "The Standoff" "The Tower" "The Traitor" "The Unexpected Prize" "The Wolverine"
+  DisableDropSound True
+Hide # Hide Unless: Reason 
+  Class "Divination Cards"
+  BaseType "A Familiar Call" "A Note in the Wind" "A Stone Perfected" "Ambitious Obsession" "Broken Truce" "Brush, Paint and Palette" "Bowyer's Dream" "Dark Dreams" "Death" "Draped in Dreams" "Hunter's Resolve" "Immortal Resolve" "Imperfect Memories" "Imperial Legacy" "Judging Voices" "Last Hope" "Magnum Opus" "Man With Bear" "Mawr Blaidd" "Prometheus' Armoury" "Remembrance" "Sambodhi's Vow" "Soul Quenched" "The Aspirant" "The Avenger" "The Awakened" "The Bear Woman" "The Bones" "The Celestial Stone" "The Coming Storm" "The Craving" "The Damned" "The Darkest Dream" "The Enforcer" "The Feast" "The Finishing Touch" "The Formless Sea" "The Last Supper" "The Life Thief" "The Master" "The Porcupine" "The Primordial" "The Return of the Rat" "The Tumbleweed" "The Undisputed" "The Warlord" "The White Knight" "Void of the Elements" "Who Asked"
+  DisableDropSound True
+Hide # Hide Unless: Poor or SSF
+  Class "Divination Cards"
+  BaseType "Buried Treasure" "Disdain" "Dying Anguish" "Gemcutter's Promise" "Gift of Asenath" "Gift of the Gemling Queen" "Grave Knowledge" "Lost Worlds" "Perfection" "Poisoned Faith" "Rain of Chaos" "Scholar of the Seas" "Society's Remorse" "Terrible Secret of Space" "The Arena Champion" "The Blessing of Moosh" "The Cartographer" "The Deal" "The Easy Stroll" "The Enthusiasts" "The Explorer" "The Fox" "The Journey" "The Leviathan" "The Master Artisan" "The Tireless Extractor" "The Trial" "The Summoner" "The Surveyor" "Treasure Hunter"
+  DisableDropSound True
+Hide # Hide Unless: SSF
+  Class "Divination Cards"
+  BaseType "A Dab of Ink" "A Chilling Wind" "A Dusty Memory" "Azure Rage" "Cursed Words" "Dying Light" "Emperor of Purity" "From Bone to Ashes" "Humility" "Hunter's Reward" "Left to Fate" "Loyalty" "Pride Before the Fall" "Rats" "The Astromancer" "The Beast" "The Bitter Blossom" "The Catalyst" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Deceiver" "The Demoness" "The Drunken Aristocrat" "The Ethereal" "The Fathomless Depths" "The Fool" "The Gemcutter" "The Hook"  "The Incantation" "The Journalist" "The King's Heart" "The Lich" "The Magma Crab" "The Mind's Eyes" "The Offering" "The Offspring" "The One With All" "The Pack Leader" "The Puzzle" "The Queen" "The Realm" "The Rite of Elements" "The Scavenger" "The Siren" "The Spark and the Flame" "The Stormcaller" "The Sun" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Tinkerer's Table" "Unchained" "The Union" "The Watcher" "The Wilted Rose" "The Whiteout" "The Wolf" "Winter's Embrace" "Vanity"
+  DisableDropSound True
+Hide # Hide
+  Class "Divination Cards"
+  BaseType "Alivia's Grace" "Astral Protection" "Audacity" "Boon of Justice" "Boundless Realms" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Deathly Designs" "Destined to Crumble" "Dialla's Subjugation" "Duality" "Echoes of Love" "Eldritch Perfection" "Endless Night" "Etched in Blood" "Forbidden Power" "Further Invention" "Her Mask" "Keeper's Corruption" "Lantador's Lost Love" "Merciless Armament" "Might is Right" "Prosperity" "Rain Tempter" "Rebirth" "Reckless Ambition" "Shard of Fate" "Struck by Lightning" "The Adventuring Spirit" "The Archmage's Right Hand" "The Army of Blood" "The Betrayal" "The Blazing Fire" "The Brawny Battle Mage" "The Carrion Crow" "The Cataclysm" "The Conduit" "The Cursed King" "The Deep Ones" "The Doppelganger" "The Endurance" "The Fletcher" "The Flora's Gift" "The Forsaken" "The Fox in the Brambles" "The Golden Era" "The Hale Heart" "The Harvester" "The Hermit" "The Hive of Knowledge" "The Inoculated" "The Insatiable" "The Jester" "The Jeweller's Boon" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Pact" "The Poet" "The Rabid Rhoa" "The Road to Power" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Skeleton" "The Sigil" "The Spoiled Prince" "The Surgeon" "The Throne" "The Tyrant" "The Twins" "The Vast" "The Visionary" "The Warden" "The Web" "The Wind" "The Witch" "The Wolf's Shadow" "The Wolven King's Bite" "Thirst for Knowledge" "Thunderous Skies" "Triskaidekaphobia" "Turn the Other Cheek" "Vile Power" "Volatile Power"
+  DisableDropSound True
+
+##################################################
+########## Divination Cards: The rest
+##################################################
+Show
+  Class "Divination Cards"
+  $great_settings UpsideDownHouse
+
+####################################################################################################
+########## Maps
+####################################################################################################
+Show # early maps
+  Class "Maps"
+  MapTier <= 15
+  AreaLevel < 83
+  $good_settings Square
+Show
+  Class "Maps"
+  Rarity Unique
+  $unique_settings Square
+Show
+  Class "Contracts"
+  $skippable_settings Square
+Show 
+  Class "Blueprints" "Breachstones" "Expedition Logbooks" "Memories" "Sanctum Research"
+  $great_settings Square
+
+Show # regular t16
+  Class "Maps"
+  ShapedMap False
+  ElderMap False
+  BlightedMap False
+  UberBlightedMap False
+  HasImplicitMod False
+  AnyEnchantment False
+  MapTier 16
+  $great_settings Square
+
+##################################################
+########## Maps: Hide
+##################################################
+Hide
+  Class "Maps"
+  ShapedMap False
+  ElderMap False
+  BlightedMap False
+  UberBlightedMap False
+  HasImplicitMod False
+  AnyEnchantment False
+  MapTier < 16
+
+##################################################
+########## Maps: The rest
+##################################################
+Show
+  Class "Maps"
+  $epic_red_settings Square
+
+####################################################################################################
+########## Items
+####################################################################################################
+Show
+  Identified True
+  HasExplicitMod "Veil"
+  $good_settings Star
+
+##################################################
+########## Items: Late Builds specific
+##################################################
+
+##################################################
+########## Items: Early Builds specific
+##################################################
+
+
+
+##################################################
+########## Items: Special
+##################################################
+Show
+  FracturedItem True
+  $great_settings Cross
+
+Show
+  SynthesisedItem True
+  $great_settings Cross
+
+Show
+  HasInfluence Shaper Elder Crusader Hunter Redeemer Warlord
+  $great_settings Cross
+
+Show
+  AnyEnchantment True
+  $great_settings Cross
+
+##################################################
+########## Items: Unique
+##################################################
+Show # collecting
+  BaseType "Sage Wand" "Saint's Hauberk" "Necromancer Silks" "Saintly Chainmail" "Sadist Garb" "Crusader Plate" "Majestic Plate" "Exquisite Leather" "Gladiator Plate" "Onyx Amulet" "Paua Amulet" "Greatwolf Talisman" "Spine Bow" "Assassin Bow" "Ornate Quiver" "Two-Point Arrow Quiver" "Ebony Tower Shield" "Elegant Round Shield" "Jingling Spirit Shield" "Lacquered Buckler" "Titanium Spirit Shield" "Branded Shield" "Champion Shield" "Highborn Staff" "Void Sceptre" "Karui Sceptre" "Karui Maul" "Gavel" "Crystal Sceptre" "Imperial Maul" "Siege Axe" "Void Axe" "Eternal Sword" "Vaal Blade" "Engraved Greatsword" "Jewelled Foil" "Fiend Dagger" "Slaughter Knife" "Imperial Skean" "Demon Dagger" "Vaal Claw" "Terror Claw" "Granite Flask" "Stibnite Flask" "Sapphire Flask" "Grand Mana Flask" "Solaris Circlet" "Prophet Crown" "Mind Cage" "Praetor Crown" "Necromancer Circlet" "Sinner Tricorne" "Goathide Boots" "Sorcerer Boots" "Stealth Boots" "Carnal Boots" "Two-Toned Boots" "Zealot Gloves" "Crusader Gloves" "Murder Mitts" "Hydrascale Gauntlets" "Steelscale Gauntlets" "Cloth Belt" "Moonstone Ring" "Topaz Ring" "Coral Ring" "Paua Ring" "Ring" "Ruby Ring" "Midnight Blade"
+  Rarity Unique
+  $unique_settings Star
+
+Show
+  Class "Abyss Jewels" "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "Hybrid Flasks" "Jewels" "Life Flasks" "Mana Flasks" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Utility Flasks" "Wands" "Warstaves"
+  Rarity Unique
+  $unique_settings Star
+
+##################################################
+########## Items: Jeweles
+##################################################
+Show
+Class "Abyss Jewels" "Jewels"
+  BaseType "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
+  Rarity Normal Magic Rare
+  $great_settings Diamond
+
+Show
+  Class "Abyss Jewels" "Jewels"
+  Rarity Rare
+  $good_settings Diamond
+
+Show
+  Class "Abyss Jewels"
+  Rarity Normal Magic
+  ItemLevel >= 85
+  $good_settings Square Diamond
+
+Hide
+  Class "Abyss Jewels" "Jewels"
+  Rarity Normal Magic
+
+##################################################
+########## Items: Normal Magic Rares
+##################################################
+Show
+  LinkedSockets >= 6
+  AreaLevel < 83
+  $great_settings Diamond
+
+##################################################
+########## Items: League Start
+##################################################
+Show # early currency shards
+  Class "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Staves" "Thrusting One Hand Swords" "Warstaves"
+  Rarity Normal Magic Rare
+  AreaLevel <= 6
+  Width == 1
+  SetFontSize 45
+Show
+  Class "Amulets" "Belts" "Rings" "Boots"
+  Rarity Normal Magic
+  AreaLevel <= 12
+  SetFontSize 45
+Show
+  Class "Amulets" "Belts" "Rings" "Boots"
+  Rarity Rare
+  AreaLevel <= 40
+  $rare_loot_settings Star
+Show # Chromatic 2x2
+  Class "Claws" "Daggers" "Rune Daggers" "Shields" "Wands" "Boots" "Gloves" "Helmets"
+  SocketGroup >= 3RGB
+  Rarity Normal Magic Rare
+  AreaLevel < 68
+  Height <= 2
+  SetFontSize 45
+Show # Chromatic 1x3
+  Class "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Staves" "Thrusting One Hand Swords" "Two Hand Swords" "Warstaves"
+  SocketGroup >= 3RGB
+  Rarity Normal Magic Rare
+  AreaLevel < 68
+  Width <= 1
+  Height <= 3
+  SetFontSize 45
+Show
+  Class "Boots" "Gloves" "Helmets"
+  Rarity Normal Magic Rare
+  LinkedSockets == 4
+  AreaLevel <= 68
+  SetFontSize 45
+Show
+  Class "Body Armours"
+  Rarity Normal Magic Rare
+  LinkedSockets == 5
+  AreaLevel < 73
+  $good_settings Diamond
+Show # jewellers
+  Sockets == 6
+  AreaLevel < 81
+  Height <= 3
+  $good_settings Diamond
+
+##################################################
+########## Items: Hide
+##################################################
+Hide
+  Class "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves" "Body Armours" "Boots" "Gloves" "Helmets" "Amulets" "Belts" "Rings"
+  Rarity Normal Magic Rare
+  AreaLevel > 4
+  FracturedItem False
+  SynthesisedItem False
+  HasInfluence None
+  AnyEnchantment False
+  HasCruciblePassiveTree False
+
+
+####################################################################################################
+########## Gems
+####################################################################################################
+Show
+  Class "Skill Gems" "Support Gems"
+  BaseType "Awakened" "Empower Support" "Enhance Support" "Enlighten Support"
+  $epic_red_settings
+
+Show
+  Class "Skill Gems" "Support Gems"
+  BaseType "Portal"
+  $good_settings Hexagon
+
+Show
+  Class "Skill Gems" "Support Gems"
+  BaseType "Vaal"
+  $skippable_settings Hexagon
+
+##################################################
+########## Gems: Hide + League Start
+##################################################
+Show
+  AreaLevel < 6
+  Class "Skill Gems" "Support Gems"
+  $good_settings Hexagon
+Show
+  Class "Skill Gems" "Support Gems"
+  Quality >= 1
+  AreaLevel < 81
+  $skippable_settings Hexagon
+Show
+  Class "Skill Gems" "Support Gems"
+  Corrupted False
+  Quality >= 20
+  # AreaLevel < 83
+  $skippable_settings Hexagon
+Show
+  Class "Skill Gems" "Support Gems"
+  Corrupted False
+  GemLevel >= 20
+  # AreaLevel < 83
+  $skippable_settings Hexagon
+Hide
+  Class "Skill Gems" "Support Gems"
+  
+####################################################################################################
+########## Flasks
+####################################################################################################
+Show
+  Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+  ItemLevel >= 85
+  # AreaLevel < 81
+  $good_settings Raindrop
+
+Show
+  Class "Flasks"
+  BaseType "Amethyst Flask" "Quicksilver Flask" "Granite Flask" "Ruby Flask" "Silver Flask" "Quartz Flask"
+  ItemLevel >= 85
+  # AreaLevel < 81
+  $good_settings Raindrop
+
+##################################################
+########## Flasks: Hide + League Start
+##################################################
+Show
+  Class "Life Flasks" "Mana Flasks"
+  BaseType "Large" "Medium" "Small"
+  AreaLevel <= 15
+  SetFontSize 45
+Show
+  Class "Life Flasks" "Mana Flasks"
+  BaseType "Grand" "Greater"
+  AreaLevel <= 30
+  SetFontSize 45
+Show
+  Class "Life Flasks"
+  BaseType "Colossal" "Giant" "Sacred"
+  AreaLevel <= 48
+  SetFontSize 45
+Show
+  Class "Life Flasks"
+  BaseType "Hallowed" "Sanctified"
+  AreaLevel <= 60
+  SetFontSize 45
+Show
+  Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+  Quality > 10
+  AreaLevel < 73
+  $skippable_settings Raindrop
+Show
+  Class "Utility Flasks"
+  BaseType = "Amethyst Flask"  "Quicksilver Flask" "Granite Flask" "Ruby Flask" "Silver Flask" "Quartz Flask"
+  AreaLevel < 81
+  SetFontSize 45
+  $skippable_settings Raindrop
+Hide
+  Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+  Rarity Normal Magic Rare
+  DisableDropSound True

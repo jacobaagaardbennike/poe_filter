@@ -1,5 +1,27 @@
-[epic]
+[[loots]]
+name = "loot1"
 font_size = 45
 text_colour = [146, 29, 41]
 border_colour = [146, 29, 41]
-background_colour = [235, 240, 248]
+background_colour = [255, 255, 255]
+alert_sound = [1, 300]
+effect = "Purple"
+
+[loots.minimap_icon]
+size = 0
+colour = "Purple"
+shape = "Circle"
+
+[[loots]]
+name = "loot2"
+font_size = 45
+text_colour = [146, 29, 41]
+border_colour = [146, 29, 41]
+background_colour = [255, 255, 255]
+alert_sound = [1, 300]
+effect = "Purple"
+
+[loots.minimap_icon]
+size = 0
+colour = "Purple"
+shape = "Star"

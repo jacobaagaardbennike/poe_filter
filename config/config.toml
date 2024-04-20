@@ -4,12 +4,30 @@ colour_red = [146, 29, 41]
 txt_large = 45
 txt_medium = 40
 txt_small = 35
+icon_circle = "Circle"
 
-[epic]
+[[loots]]
+name = "loot1"
 font_size = "&txt_large"
 text_colour = "&colour_red"
 border_colour = "&colour_red"
 background_colour = "&colour_white"
 alert_sound = [1, 300]
 effect = "Purple"
-minimap_icon = [0, "Purple", "Star"]
+[loots.minimap_icon]
+size = 0
+colour = "Purple"
+shape = "&icon_circle"
+
+[[loots]]
+name = "loot2"
+font_size = "&txt_large"
+text_colour = "&colour_red"
+border_colour = "&colour_red"
+background_colour = "&colour_white"
+alert_sound = [1, 300]
+effect = "Purple"
+[loots.minimap_icon]
+size = 0
+colour = "Purple"
+shape = "Star"

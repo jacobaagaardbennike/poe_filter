@@ -9,6 +9,7 @@ use toml::{from_str, to_string};
 enum SetupVariableType {
     Colour([u8; 3]),
     FontSize(u8),
+    Icon(String),
 }
 
 #[derive(Debug, Deserialize)]
@@ -17,16 +18,27 @@ struct Setup {
 }
 
 #[derive(Debug, Deserialize, Serialize)]
-struct Epic {
+struct MinimapIcon {
+    size: u8,
+    colour: String,
+    shape: String,
+}
+
+#[derive(Debug, Deserialize, Serialize)]
+struct Loot {
+    name: String,
     font_size: u8,
     text_colour: [u8; 3],
     border_colour: [u8; 3],
     background_colour: [u8; 3],
+    alert_sound: [u16; 2],
+    effect: String,
+    minimap_icon: MinimapIcon,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 struct Config {
-    epic: Epic,
+    loots: Vec<Loot>,
 }
 
 fn replace_variables(setup: &Setup, config_raw: &str) -> Result<Config, Box<dyn Error>> {
@@ -38,15 +50,18 @@ fn replace_variables(setup: &Setup, config_raw: &str) -> Result<Config, Box<dyn 
         let value_str = match var {
             SetupVariableType::Colour(rgb) => format!("{:?}", rgb),
             SetupVariableType::FontSize(size) => size.to_string(),
+            SetupVariableType::Icon(icon) => format!("\"{}\"", icon),
         };
         // Replace placeholder with the value directly
         modified_config_content = modified_config_content.replace(&placeholder, &value_str);
     }
+    //dbg!(&modified_config_content);
     let config: Config = from_str(&modified_config_content)?;
     Ok(config)
 }
 
 fn get_config(config_raw: String) -> Result<Config, Box<dyn Error>> {
+    //    dbg!(&config_raw);
     let setup: Setup = from_str(&config_raw)?;
     let config = replace_variables(&setup, &config_raw)?;
     Ok(config)

@@ -1,6 +1,12 @@
-[variables]
+[config]
 light_silver = [235, 240, 248]
 red_rich = [146, 29, 41]
 large = 45
 medium = 40
 small = 35
+
+[epic]
+font_size = "&large"
+text_colour = "&red_rich"
+border_colour = "&red_rich"
+background_colour = "&light_silver"

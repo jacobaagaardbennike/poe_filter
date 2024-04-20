@@ -1,22 +1,22 @@
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 use std::error::Error;
-use std::fs::read_to_string;
-use toml::from_str;
+use std::fs::{read_to_string, write};
+use toml::{from_str, to_string};
 
 #[derive(Debug, Deserialize)]
 #[serde(untagged)]
-enum Variable {
+enum ConfigVariable {
     Colour([u8; 3]),
     FontSize(u8),
 }
 
 #[derive(Debug, Deserialize)]
-struct Config {
-    variables: HashMap<String, Variable>,
+struct ConfigVariables {
+    config: HashMap<String, ConfigVariable>,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 struct Epic {
     font_size: u8,
     text_colour: [u8; 3],
@@ -24,54 +24,48 @@ struct Epic {
     background_colour: [u8; 3],
 }
 
-#[derive(Debug, Deserialize)]
-struct Filter {
+#[derive(Debug, Deserialize, Serialize)]
+struct Config {
     epic: Epic,
 }
 
-fn load_config(config_file_path: &str) -> Result<Config, Box<dyn Error>> {
-    let config_content = read_to_string(config_file_path)?;
-    dbg!(&config_content);
-    let config: Config = from_str(&config_content)?;
+fn replace_variables(
+    config_variables: &ConfigVariables,
+    config_raw: &str,
+) -> Result<Config, Box<dyn Error>> {
+    let mut modified_config_content = config_raw.to_string();
+
+    // Iterate over variables and replace placeholders in the filter content
+    for (key, var) in config_variables.config.iter() {
+        let placeholder = format!("\"&{}\"", key);
+        let value_str = match var {
+            ConfigVariable::Colour(rgb) => format!("{:?}", rgb),
+            ConfigVariable::FontSize(size) => size.to_string(),
+        };
+        // Replace placeholder with the value directly
+        modified_config_content = modified_config_content.replace(&placeholder, &value_str);
+    }
+    let config: Config = from_str(&modified_config_content)?;
     Ok(config)
 }
 
-fn load_filters(paths: &[&str]) -> Result<String, Box<dyn Error>> {
-    let combined_contents: String = paths
-        .iter()
-        .map(|&path| read_to_string(path))
-        .collect::<Result<Vec<String>, _>>()?
-        .join("\n");
-    Ok(combined_contents)
+fn get_config(config_file_path: &str) -> Result<Config, Box<dyn Error>> {
+    let config_as_string = read_to_string(config_file_path)?;
+    let config_variables: ConfigVariables = from_str(&config_as_string)?;
+    let config = replace_variables(&config_variables, &config_as_string)?;
+    Ok(config)
 }
 
-fn replace_variables(config: &Config, filter_content_raw: &str) -> Result<Filter, Box<dyn Error>> {
-    let mut modified_filter_content = filter_content_raw.to_string();
-
-    // Iterate over variables and replace placeholders in the filter content
-    for (key, var) in config.variables.iter() {
-        let placeholder = format!("\"&{}\"", key);
-        let value_str = match var {
-            Variable::Colour(rgb) => format!("{:?}", rgb),
-            Variable::FontSize(size) => size.to_string(),
-        };
-        // dbg!(&value_str);
-        // Replace placeholder with the value directly
-        modified_filter_content = modified_filter_content.replace(&placeholder, &value_str);
-    }
-
-    dbg!(&modified_filter_content);
-    // Deserialize the modified filter content into the Filter struct
-    let filter: Filter = from_str(&modified_filter_content)?;
-    Ok(filter)
+fn save_config(config: &Config, output_file_path: &str) -> Result<(), Box<dyn Error>> {
+    let toml_string = to_string(&config)?;
+    write(output_file_path, toml_string)?;
+    Ok(())
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
     let config_file_path = "./config/config.toml";
-    let config = load_config(config_file_path)?;
-    let filter_file_paths = vec!["./config/filter.toml"]; //, "./config/loot.yaml"];
-    let filter_content_raw: String = load_filters(&filter_file_paths)?;
-    let filter_content = replace_variables(&config, &filter_content_raw)?;
-    dbg!(&filter_content);
+    let output_file_path = "./config/new_config.toml";
+    let config = get_config(config_file_path)?;
+    save_config(&config, output_file_path)?;
     Ok(())
 }

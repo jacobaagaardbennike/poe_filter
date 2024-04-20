@@ -1,12 +1,15 @@
-[config]
-light_silver = [235, 240, 248]
-red_rich = [146, 29, 41]
-large = 45
-medium = 40
-small = 35
+[variables]
+colour_white = [255, 255, 255]
+colour_red = [146, 29, 41]
+txt_large = 45
+txt_medium = 40
+txt_small = 35
 
 [epic]
-font_size = "&large"
-text_colour = "&red_rich"
-border_colour = "&red_rich"
-background_colour = "&light_silver"
+font_size = "&txt_large"
+text_colour = "&colour_red"
+border_colour = "&colour_red"
+background_colour = "&colour_white"
+alert_sound = [1, 300]
+effect = "Purple"
+minimap_icon = [0, "Purple", "Star"]

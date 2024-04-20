@@ -6,14 +6,14 @@ use toml::{from_str, to_string};
 
 #[derive(Debug, Deserialize)]
 #[serde(untagged)]
-enum ConfigVariable {
+enum SetupVariableType {
     Colour([u8; 3]),
     FontSize(u8),
 }
 
 #[derive(Debug, Deserialize)]
-struct ConfigVariables {
-    config: HashMap<String, ConfigVariable>,
+struct Setup {
+    variables: HashMap<String, SetupVariableType>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -29,18 +29,15 @@ struct Config {
     epic: Epic,
 }
 
-fn replace_variables(
-    config_variables: &ConfigVariables,
-    config_raw: &str,
-) -> Result<Config, Box<dyn Error>> {
+fn replace_variables(setup: &Setup, config_raw: &str) -> Result<Config, Box<dyn Error>> {
     let mut modified_config_content = config_raw.to_string();
 
     // Iterate over variables and replace placeholders in the filter content
-    for (key, var) in config_variables.config.iter() {
+    for (key, var) in setup.variables.iter() {
         let placeholder = format!("\"&{}\"", key);
         let value_str = match var {
-            ConfigVariable::Colour(rgb) => format!("{:?}", rgb),
-            ConfigVariable::FontSize(size) => size.to_string(),
+            SetupVariableType::Colour(rgb) => format!("{:?}", rgb),
+            SetupVariableType::FontSize(size) => size.to_string(),
         };
         // Replace placeholder with the value directly
         modified_config_content = modified_config_content.replace(&placeholder, &value_str);
@@ -49,10 +46,9 @@ fn replace_variables(
     Ok(config)
 }
 
-fn get_config(config_file_path: &str) -> Result<Config, Box<dyn Error>> {
-    let config_as_string = read_to_string(config_file_path)?;
-    let config_variables: ConfigVariables = from_str(&config_as_string)?;
-    let config = replace_variables(&config_variables, &config_as_string)?;
+fn get_config(config_raw: String) -> Result<Config, Box<dyn Error>> {
+    let setup: Setup = from_str(&config_raw)?;
+    let config = replace_variables(&setup, &config_raw)?;
     Ok(config)
 }
 
@@ -62,10 +58,18 @@ fn save_config(config: &Config, output_file_path: &str) -> Result<(), Box<dyn Er
     Ok(())
 }
 
+fn load_config(config_file_path: &str) -> Result<String, Box<dyn Error>> {
+    let config_as_string = read_to_string(config_file_path)?;
+    Ok(config_as_string)
+}
+
 fn main() -> Result<(), Box<dyn Error>> {
     let config_file_path = "./config/config.toml";
     let output_file_path = "./config/new_config.toml";
-    let config = get_config(config_file_path)?;
+
+    let config_raw = load_config(config_file_path)?;
+    let config = get_config(config_raw)?;
+
     save_config(&config, output_file_path)?;
     Ok(())
 }

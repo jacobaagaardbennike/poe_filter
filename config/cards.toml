@@ -1,5 +1,38 @@
 [cards]
 favorites = [
+####################################################################################################
+########## Handpicked cards I always want to loot (I'm mostly SSF)
+####################################################################################################
+[
+  "A Fate Worse Than Death",
+  "Cortex Synthesised Map Corrupted",
+  78,
+  "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Sirus, Awakener of Worlds Veritania, The Redeemer",
+],
+[
+  "Abandoned Wealth",
+  "3x exalted",
+  68,
+  "Mao Kun map",
+],
+[
+  "Alluring Bounty",
+  "10x exalted",
+  68,
+  "The Apex of Sacrifice • The Alluring Abyss",
+],
+[
+  "Altered Perception",
+  "simulacrum (can drop Megalomaniac mcluster, Split Personality Crimson Jewel, Voices (Cluster)",
+  68,
+  "Uhtred, Covetous Traitor",
+],
+[
+  "Azyran's Reward",
+  "Prismatic Jewel Corrupted (can drop watcher)",
+  68,
+  "Laboratory Map • Relic Chambers Map • Stagnation Map",
+],
 [
   "Beauty Through Death",
   "Atziri's Reflection Golden Buckler",
@@ -19,6 +52,24 @@ favorites = [
   "Cemetery Map • Grave Trough Map • Graveyard Map",
 ],
 [
+  "Brotherhood in Exile",
+  "One With Nothing Small Cluster Jewel",
+  68,
+  "Chateau Map • Conservatory Map • Orchard Map • Plaza Map",
+],
+[
+  "Cameria's Cut",
+  "Scarab",
+  68,
+  "Cameria the Coldblooded",
+],
+[
+  "Chasing Risk",
+  "Synthesis Item (can drop bottled faith)",
+  81,
+  "Drops from the Vaal Omnitect in areas of level 79 or greater.",
+],
+[
   "Choking Guilt",
   "Stranglegasp Onyx Amulet",
   80,
@@ -29,6 +80,18 @@ favorites = [
   "5x eldricht Exalted",
   81,
   "Drops when receiving Currency rewards from Delirium layers in maps (from Delirium Mirror or Delirium Orbs) and in Simulacrum.",
+],
+[
+  "Demigod's Wager",
+  "Orb of Annulment",
+  35,
+  "The Cleansing Light",
+],
+[
+  "Dementophobia",
+  "10x Delerium Orb",
+  68,
+  "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Venarius Veritania, The Redeemer",
 ],
 [
   "Desecrated Virtue",
@@ -49,10 +112,40 @@ favorites = [
   "Armourer's Strongbox",
 ],
 [
+  "Fateful Meeting",
+  "League-Specific Item Double-Influenced Item Item Level: 97 Two-Implicit Corrupted",
+  80,
+  "Drops from Vaal Flesh Merchant, a monster which appears in Alva's temporal incursions if you have the atlas passive skill Vaal Oligarchs allocated.",
+],
+[
   "Fire Of Unknown Origin",
   "Nimis Topaz Ring",
   81,
   "Academy, Residence",
+],
+[
+  "Gemcutter's Mercy",
+  "Exceptional Gem (awakened or normal, empower, enhance, enchant)",
+  38,
+  "Gem chests in the Azurite Mine.",
+],
+[
+  "Harmony of Souls",
+  "9x shrieking essence",
+  68,
+  "Abomination Map Can drop from versions of Doedre, Maligaro, and Shavronne in Sepulchre Map, Overgrown Shrine Map, and Cells Map respectively, as well as Abomination Map",
+],
+[
+  "Haunting Shadows",
+  "Metamorph Item",
+  68,
+  "The Twilight Temple Unique Map",
+],
+[
+  "Home",
+  "Exceptional Gem q1-20 (awakened or normal, empower, enhance, enchant)",
+  38,
+  "Alleyways Ancient City, Arcade, Bazaar, Chateau, City Square, Crimson Township, Haunted Mansion, Residence, Siege, Sunken City, Tower",
 ],
 [
   "House of Mirrors",
@@ -67,6 +160,18 @@ favorites = [
   "various map bosses",
 ],
 [
+  "Justified Ambition",
+  "Synthesis Map",
+  81,
+  "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Veritania, The Redeemer",
+],
+[
+  "Lingering Remnants",
+  "vaal temple map Corrupted",
+  78,
+  "map",
+],
+[
   "Love Through Ice",
   "Unnatural Instinct Two-Implicit Corrupted",
   54,
@@ -79,10 +184,28 @@ favorites = [
   "Aul, the Crystal King",
 ],
 [
+  "Peaceful Moments",
+  "Timeless Jewel",
+  68,
+  "Courtyard Map • Gardens Map • Orchard Map • Terrace Map",
+],
+[
+  "Pride of the First Ones",
+  "Farrul's Fur Triumphant Lamellar",
+  80,
+  "Barrows Map • Grotto Map • Lair Map • Caer Blaidd, Wolfpack's Den"
+],
+[
   "Seven Years Bad Luck",
   "1x Mirror shard",
   35,
   "Crimson Temple Map • Defiled Cathedral Map",
+],
+[
+  "Something Dark",
+  "83 blueprint fully revealed",
+  75,
+  "Drops from Breachlords in Breachstones.",
 ],
 [
   "Succor of the Sinless",
@@ -97,296 +220,6 @@ favorites = [
   "Crimson Temple Map • Crimson Township Map • Defiled Cathedral Map • Haunted Mansion Map",
 ],
 [
-  "The Cheater",
-  "Level 6 Awakened Support Gem Quality: +20% Corrupted",
-  72,
-  "Fortress (t17map)",
-],
-[
-  "The Demon",
-  "Headhunter Leather Belt Two-Implicit Corrupted",
-  68,
-  "Lord of the Grey (Belfry Map), Megaera (Crater Map), The Destroyer's Heart (Lava Lake Map)",
-],
-[
-  "The Doctor",
-  "Headhunter Leather Belt",
-  68,
-  "Abomination Map • Burial Chambers Map • The Putrid Cloister • Phantasmagoria Map • Sepulchre Map • Spider Forest Map • Waste Pool Map",
-],
-[
-  "The Fiend",
-  "Headhunter Leather Belt Corrupted",
-  68,
-  "Foundry Map • Laboratory Map • Shrine Map • Poorjoy's Asylum",
-],
-[
-  "The Dragon's Heart",
-  "Level 4 Empower Corrupted",
-  78,
-  "Fortress (t17map)",
-],
-[
-  "The Enlightened",
-  "Level 3 Enlighten",
-  60,
-  "Basilica Map • Belfry Map • Crimson Temple Map • Defiled Cathedral Map • Ivory Temple Map • Lookout Map • Moon Temple Map • The Twilight Temple • Sanctuary Map • Temple Map",
-],
-
-]
-
-[
-  "The Card Sharp",
-  "divination scarab",
-  68,
-  "alva missions + Alva's Memory of Reverse Incursion.",
-],
-[
-  "The Garish Power",
-  "unique jewel",
-  23,
-  "The Chamber of Sins Level 1 (Act 7) • The Chamber of Sins Level 2 (Act 7) • Overgrown Ruin Map • Overgrown Shrine Map",
-],
-
-####################################################################################################
-########## Important Cards
-####################################################################################################
-
-[
-  "Deadly Joy",
-  "The Torrent's Reclamation Cloth Belt",
-  68,
-  "Poorjoy's Asylum",
-],
-[
-  "Misery in Darkness",
-  "Shroud of the Lightless Carnal Armour (abyss)",
-  68,
-  "Kurgal, the Blackblooded",
-],
-[
-  "Pride of the First Ones",
-  "Farrul's Fur Triumphant Lamellar",
-  80,
-  "Barrows Map • Grotto Map • Lair Map • Caer Blaidd, Wolfpack's Den"
-],
-[
-  "The Chosen",
-  "Skin of the Lords Simple Robe",
-  80,
-  "Breach encounters such as in Clasped Hand",
-],
-[
-  "The Endless Darkness",
-  "Voidforge Infernal Sword",
-  81,
-  "The Beachhead, Beachhead (unique harbringer maps), Delve. Harbinger Portals in Kirac's Memory of Phaaryl.",
-],
-[
-  "The Greatest Intentions",
-  "The Saviour Legion Sword Two-Implicit Corrupted",
-  81,
-  "Maven's Invitation: The Feared",
-],
-[
-  "The Shieldbearer",
-  "The Squire Elegant Round Shield",
-  70,
-  "Citadel Map (t17map)",
-],
-
-
-##################################################
-########## Important Cards: Personal favorites
-##################################################
-
-
-[
-  "The Gulf",
-  "Thread of Hope crimson Jewel Two-Implicit Corrupted",
-  86,
-  "Uber Elder only",
-],
-[
-  "The Immortal",
-  "house of mirrors",
-  35,
-  "Hall of Grandmasters",
-],
-[
-  "The Insane Cat",
-  "Mageblood Heavy Belt corrupted",
-  68,
-  "Drops from Omniphobia and Kosis in map areas affected by Delirium.",
-],
-[
-  "The Price of Devotion",
-  "Mageblood Heavy Belt Quality +20% Two-Implicit Corrupted",
-  75,
-  "Uber Atziri.",
-],
-[
-  "The Progeny of Lunaris",
-  "Dying Sun Ruby Flask",
-  81,
-  "Helial, the Day Unending (The Twilight Temple Moon Temple Map), Khor, Sister of Shadows (Cold River Map), Sebbert, Crescent's Point (Moon Temple Map), Selenia, the Endless Night (The Twilight Temple Moon Temple Map)",
-],
-[
-  "The Samurai's Eye",
-  "Watcher's Eye Prismatic Jewel",
-  81,
-  "Ziggurat Map (t17map)",
-],
-[
-  "The Sephirot",
-  "10x div",
-  35,
-  "Dominus, Ascendant Excellis Aurafix The Hallowed Husk The Hallowed Husk The High Templar",
-],
-[
-  "Unrequited Love",
-  "19x Mirror Shard",
-  35,
-  "The Temple of Decay Level 1 • Maze Map • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map",
-],
-[
-  "Wealth and Power",
-  "Level 4 Enlighten Corrupted",
-  68,
-  "Citadel Map (t17map)",
-],
-
-
-
-####################################################################################################
-########## Always show these Cards (no filter needed)
-####################################################################################################
-[
-  "Anarchy's Price",
-  "Voltaxic Rift Spine Bow Corrupted",
-  48,
-  "This item can drop from Rogue Exiles.",
-],
-[
-  "The Last One Standing",
-  "Atziri's Disfavour Vaal Axe",
-  80,
-  "Arena, Colosseum, Pit, Pit of the Chimera",
-],
-[
-  "The Nurse",
-  "The Doctor",
-  30,
-  "Abomination, Carcass, Cells, Core, Scriptorium, Shavronne's Tower, The Harvest, The Rotting Core, Tower",
-],
-[
-  "The Price of Loyalty",
-  "Skin of the Loyal Simple Robe (Two-Implicit Corrupted)",
-  79,
-  "Zilquapa, Architect of the Breach",
-],
-[
-  "The Soul",
-  "Soul Taker Siege Axe",
-  68,
-  "Cells Map • Core Map • Museum Map • Overgrown Shrine Map • Phantasmagoria Map • Sepulchre Map • Tower Map • Waste Pool Map",
-],
-[
-  "The World Eater",
-  "Starforge Infernal Sword",
-  83,
-  "Ghorr, the Grasping Maw",
-],
-[
-  "Tranquillity",
-  "Voltaxic Rift Spine Bow",
-  48,
-  "Ashen Wood, Fields, Orchard, Peninsula, The Ashen Fields",
-]
-
-
-##################################################
-########## Always show: Personal favorites
-##################################################
-[
-  "A Fate Worse Than Death",
-  "Cortex Synthesised Map Corrupted",
-  78,
-  "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Sirus, Awakener of Worlds Veritania, The Redeemer",
-],
-[
-  "Abandoned Wealth",
-  "3x exalted",
-  68,
-  "Mao Kun map",
-],
-[
-  "Altered Perception",
-  "simulacrum (Megalomaniac mcluster, Split Personality Crimson Jewel, Voices (Cluster)",
-  68,
-  "Uhtred, Covetous Traitor",
-],
-[
-  "Alluring Bounty",
-  "10x exalted",
-  68,
-  "The Apex of Sacrifice • The Alluring Abyss",
-],
-[
-  "Demigod's Wager",
-  "Orb of Annulment",
-  35,
-  "The Cleansing Light",
-],
-[
-  "Eternal Bonds",
-  "Replica Cortex Synthesised Map",
-  78,
-  "Drops from Map Reward Chests in Heist Contracts and Blueprints",
-],
-[
-  "Ever-Changing",
-  "10x Orb of Unmaking",
-  68,
-  "Drops in maps opened via Kirac missions.",
-],
-[
-  "Gemcutter's Mercy",
-  "Exceptional Gem (awakened or normal, empower, enhance, enchant)",
-  38,
-  "Gem chests in the Azurite Mine.",
-],
-[
-  "Guardian's Challenge",
-  "Shaper Guardian Map",
-  91,
-  "Sold by Kirac for 3x Cartographer's Chisel",
-],
-[
-  "Harmony of Souls",
-  "9x shrieking essence",
-  68,
-  "Abomination Map Can drop from versions of Doedre, Maligaro, and Shavronne in Sepulchre Map, Overgrown Shrine Map, and Cells Map respectively, as well as Abomination Map",
-],
-[
-  "Home",
-  "Exceptional Gem q1-20 (awakened or normal, empower, enhance, enchant)",
-  38,
-  "Alleyways Ancient City, Arcade, Bazaar, Chateau, City Square, Crimson Township, Haunted Mansion, Residence, Siege, Sunken City, Tower",
-],
-[
-  "Lingering Remnants",
-  "vaal temple map Corrupted",
-  78,
-  "map",
-],
-[
-  "Something Dark",
-  "83 blueprint fully revealed",
-  75,
-  "Drops from Breachlords in Breachstones.",
-],
-[
   "The Artist",
   "level 4 enhance Corrupted",
   68,
@@ -399,165 +232,52 @@ favorites = [
   "Drops from Merveil, the Returned in both Underground Sea Map and Maelström of Chaos",
 ],
 [
+  "The Card Sharp",
+  "divination scarab",
+  68,
+  "alva missions + Alva's Memory of Reverse Incursion.",
+],
+[
+  "The Cheater",
+  "Level 6 Awakened Support Gem Quality: +20% Corrupted",
+  72,
+  "Fortress (t17map)",
+],
+[
+  "The Chosen",
+  "Skin of the Lords Simple Robe",
+  80,
+  "Breach encounters such as in Clasped Hand",
+],
+[
+  "The Last One Standing",
+  "Atziri's Disfavour Vaal Axe",
+  80,
+  "Arena, Colosseum, Pit, Pit of the Chimera",
+],
+[
+  "The Demon",
+  "Headhunter Leather Belt Two-Implicit Corrupted",
+  68,
+  "Lord of the Grey (Belfry Map), Megaera (Crater Map), The Destroyer's Heart (Lava Lake Map)",
+],
+[
   "The Destination",
   "Watcher's Eye Prismatic Jewel Two-Implicit Corrupted",
   81,
   "Beach Map • Channel Map • Shore Map • Fungal Hollow Map • Tropical Island Map",
 ],
 [
-  "The Eldritch Decay",
-  "uber elder fragment",
-  81,
-  "The Constrictor The Enslaver The Eradicator The Purifier",
-]
-
-[
-  "The Eye of Terror",
-  "Chayula's Flawless Breachstone",
+  "The Doctor",
+  "Headhunter Leather Belt",
   68,
-  "It That Fled",
+  "Abomination Map • Burial Chambers Map • The Putrid Cloister • Phantasmagoria Map • Sepulchre Map • Spider Forest Map • Waste Pool Map",
 ],
 [
-  "The Fortunate",
-  "2x div",
-  68,
-  "Ancient City Map • Arid Lake Map • Atoll Map • Beach Map • Burial Chambers Map • Caldera Map • Canyon Map • Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map • Estuary Map • Fields Map • Jungle Valley Map • Leyline Map • Marshes Map • Mesa Map • Mineral Pools Map • Orchard Map • Peninsula Map • Plateau Map • Shore Map • Sulphur Vents Map • Terrace Map • Crater Map • Tropical Island Map",
-],
-[
-  "The Hoarder",
-  "Exalted Orb",
-  68,
-  "Maelström of Chaos • Mineral Pools Map • Underground Sea Map • Vaults of Atziri • Vault Map",
-],
-[
-  "The Hunger",
-  "Taste of Hate Sapphire Flask",
-  38,
-  "The Belly of the Beast Level 1 • The Belly of the Beast Level 2 • The Harvest (area) • The Belly of the Beast (Act 9) • The Rotting Core • Abomination Map • Carcass Map • Core Map • Malformation Map • Phantasmagoria Map",
-],
-[
-  "The Long Con",
-  "Elderslayer's Exalted Orb",
-  80,
-  "This card drops from Izaro's Treasure chests in the Eternal Labyrinth (Uber Lab) and Enriched Eternal Labyrinth.",
-],
-[
-  "The Professor",
-  "The Putrid Cloister Unique Museum Map",
-  68,
-  "Academy Map • Laboratory Map • Museum Map • Scriptorium Map",
-],
-[
-  "The Rabbit's Foot",
-  "10x Incursion Vial",
-  50,
-  "one Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Ziggurat Map",
-],
-[
-  "The Rusted Bard",
-  "4x Tainted Mythic Orb",
-  68,
-  "The Vinktar Square",
-],
-[
-  "The Saint's Treasure",
-  "2x Exalted Orb",
-  68,
-  "Alleyways Map • Arcade Map • Bazaar Map • Ghetto Map • Port Map • Precinct Map",
-],
-[
-  "The Seeker",
-  "3x Orb of Annulment",
-  35,
-  "The Temple of Atzoatl",
-],
-[
-  "The Scout",
-  "7x Exalted Orb",
-  68,
-  "Ashen Wood Map • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map • Jungle Valley Map • Lair Map • Ramparts Map • Spider Forest Map • Stagnation Map • Thicket Map • Tropical Island Map",
-],
-[
-  "The Transformation",
-  "Tainted Mythic Orb",
-  68,
-  "Drops from bosses with the 'transform_boss' monster tag.",
-]
-
-##################################################
-########## Always show: Gamble
-##################################################
-[
-  "Arrogance of the Vaal",
-  "unique item Two-Implicit Corrupted",
-  54,
-  "Ancient City Map • Sunken City Map • Vaal Pyramid Map",
-],
-[
-  "Auspicious Ambitions",
-  "Experimented Item Level: 100 Double-Influenced",
-  73,
-  "Drops from the regular and uber versions of Maven, Exarch, Eater, and Uber Elder.",
-],
-[
-  "Azyran's Reward",
-  "Prismatic Jewel Corrupted (can drop watcher)",
-  68,
-  "Laboratory Map • Relic Chambers Map • Stagnation Map",
-],
-[
-  "Boon of the First Ones",
-  "Bestiary Item",
-  72,
-  "Pit of the Chimera Map",
-],
-[
-  "Brotherhood in Exile",
-  "One With Nothing Small Cluster Jewel",
-  68,
-  "Chateau Map • Conservatory Map • Orchard Map • Plaza Map",
-],
-[
-  "Chasing Risk",
-  "Synthesis Item (can drop bottled fith)",
-  81,
-  "Drops from the Vaal Omnitect in areas of level 79 or greater.",
-],
-[
-  "Council of Cats",
-  "farrul item (often expensive)",
-  80,
-  "Al-Hezmin, The Hunter",
-],
-[
-  "Fateful Meeting",
-  "League-Specific Item Double-Influenced Item Item Level: 97 Two-Implicit Corrupted",
-  80,
-  "Drops from Vaal Flesh Merchant, a monster which appears in Alva's temporal incursions if you have the atlas passive skill Vaal Oligarchs allocated.",
-],
-[
-  "Haunting Shadows",
-  "Metamorph Item",
-  68,
-  "The Twilight Temple Unique Map",
-],
-[
-  "Hubris",
-  "Ring (can drop kalandras ring)",
-  23,
-  "Can drop from Jeweller's Strongboxes.",
-],
-[
-  "Lucky Deck",
-  "10x stacked deck",
-  74,
-  "Ziggurat Map",
-],
-[
-  "Peaceful Moments",
-  "Timeless Jewel",
-  68,
-  "Courtyard Map • Gardens Map • Orchard Map • Terrace Map",
+  "The Dragon's Heart",
+  "Level 4 Empower Corrupted",
+  78,
+  "Fortress (t17map)",
 ],
 [
   "The Dreamer",
@@ -572,9 +292,123 @@ favorites = [
   "Cage Map • Cells Map • Dungeon Map • Pen Map",
 ],
 [
+  "The Eldritch Decay",
+  "uber elder fragment",
+  81,
+  "The Constrictor The Enslaver The Eradicator The Purifier",
+],
+[
+  "The Endless Darkness",
+  "Voidforge Infernal Sword",
+  81,
+  "The Beachhead, Beachhead (unique harbringer maps), Delve. Harbinger Portals in Kirac's Memory of Phaaryl.",
+],
+[
+  "The Enlightened",
+  "Level 3 Enlighten",
+  60,
+  "Basilica Map • Belfry Map • Crimson Temple Map • Defiled Cathedral Map • Ivory Temple Map • Lookout Map • Moon Temple Map • The Twilight Temple • Sanctuary Map • Temple Map",
+],
+[
   "The Eternal War",
   "Timeless Jewel Two-Implicit Corrupted",
   68,
+  "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Veritania, The Redeemer",
+],
+[
+  "The Eye of Terror",
+  "Chayula's Flawless Breachstone",
+  68,
+  "It That Fled",
+],
+[
+  "The Fiend",
+  "Headhunter Leather Belt Corrupted",
+  68,
+  "Foundry Map • Laboratory Map • Shrine Map • Poorjoy's Asylum",
+],
+[
+  "The Fortunate",
+  "2x div",
+  68,
+  "Ancient City Map • Arid Lake Map • Atoll Map • Beach Map • Burial Chambers Map • Caldera Map • Canyon Map • Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map • Estuary Map • Fields Map • Jungle Valley Map • Leyline Map • Marshes Map • Mesa Map • Mineral Pools Map • Orchard Map • Peninsula Map • Plateau Map • Shore Map • Sulphur Vents Map • Terrace Map • Crater Map • Tropical Island Map",
+],
+[
+  "The Garish Power",
+  "unique jewel",
+  23,
+  "The Chamber of Sins Level 1 (Act 7) • The Chamber of Sins Level 2 (Act 7) • Overgrown Ruin Map • Overgrown Shrine Map",
+],
+[
+  "The Gulf",
+  "Thread of Hope crimson Jewel Two-Implicit Corrupted",
+  86,
+  "Uber Elder only",
+],
+[
+  "The Hunger",
+  "Taste of Hate Sapphire Flask",
+  38,
+  "The Belly of the Beast Level 1 • The Belly of the Beast Level 2 • The Harvest (area) • The Belly of the Beast (Act 9) • The Rotting Core • Abomination Map • Carcass Map • Core Map • Malformation Map • Phantasmagoria Map",
+],
+[
+  "The Immortal",
+  "house of mirrors",
+  35,
+  "Hall of Grandmasters",
+],
+[
+  "The Insane Cat",
+  "Mageblood Heavy Belt corrupted",
+  68,
+  "Drops from Omniphobia and Kosis in map areas affected by Delirium.",
+],
+[
+  "The Long Con",
+  "Elderslayer's Exalted Orb",
+  80,
+  "This card drops from Izaro's Treasure chests in the Eternal Labyrinth (Uber Lab) and Enriched Eternal Labyrinth.",
+],
+[
+  "The Messenger",
+  "harbringer piece",
+  68,
+  "Crystal Ore Map • Port Map",
+],
+[
+  "The Nurse",
+  "The Doctor",
+  30,
+  "Abomination, Carcass, Cells, Core, Scriptorium, Shavronne's Tower, The Harvest, The Rotting Core, Tower",
+],
+[
+  "The Obscured",
+  "Breachstone",
+  68,
+  "The Obscured can drop from Abyss monsters, including from Abyss nodes in Delve.",
+],
+[
+  "The Patient",
+  "the nurse",
+  68,
+  "Armoury Map • Arsenal Map • Colonnade Map • Promenade Map",
+],
+[
+  "The Price of Devotion",
+  "Mageblood Heavy Belt Quality +20% Two-Implicit Corrupted",
+  75,
+  "Uber Atziri.",
+],
+[
+  "The Price of Loyalty",
+  "Skin of the Loyal Simple Robe (Two-Implicit Corrupted)",
+  79,
+  "Zilquapa, Architect of the Breach",
+],
+[
+  "The Price of Prescience",
+  "Vaal Temple Map T16 Delirium: 100% Corrupted",
+  78,
   "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Veritania, The Redeemer",
 ],
 [
@@ -584,10 +418,70 @@ favorites = [
   "Eater of Souls Nightmare's Omen",
 ],
 [
+  "The Progeny of Lunaris",
+  "Dying Sun Ruby Flask",
+  81,
+  "Helial, the Day Unending (The Twilight Temple Moon Temple Map), Khor, Sister of Shadows (Cold River Map), Sebbert, Crescent's Point (Moon Temple Map), Selenia, the Endless Night (The Twilight Temple Moon Temple Map)",
+],
+[
   "The Risk",
   "Ventor's Gamble gold ring",
   49,
   "The Risk can drop from the following loot containers: Diviner's Strongbox Izaro's Treasure in the Endgame Labyrinth",
+],
+[
+  "The Rusted Bard",
+  "4x Tainted Mythic Orb",
+  68,
+  "The Vinktar Square",
+],
+[
+  "The Samurai's Eye",
+  "Watcher's Eye Prismatic Jewel",
+  81,
+  "Ziggurat Map (t17map)",
+],
+[
+  "The Seeker",
+  "3x Orb of Annulment",
+  35,
+  "The Temple of Atzoatl",
+],
+[
+  "The Sephirot",
+  "10x div",
+  35,
+  "Dominus, Ascendant Excellis Aurafix The Hallowed Husk The Hallowed Husk The High Templar",
+],
+[
+  "The Side Quest",
+  "20x Scouting Report",
+  69,
+  "Alleyways Map • Arachnid Tomb Map • Armoury Map • Castle Ruins Map • Forking River Map • Iceberg Map • Infested Valley Map • Mineral Pools Map • Siege Map • Primordial Blocks Map",
+],
+[
+  "The Shieldbearer",
+  "The Squire Elegant Round Shield",
+  70,
+  "Citadel Map (t17map)",
+],
+[
+  "The Soul",
+  "Soul Taker Siege Axe",
+  68,
+  "Cells Map • Core Map • Museum Map • Overgrown Shrine Map • Phantasmagoria Map • Sepulchre Map • Tower Map • Waste Pool Map",
+],
+[
+  "The Transformation",
+  "Tainted Mythic Orb",
+  68,
+  "Drops from bosses with the 'transform_boss' monster tag.",
+],
+[
+  "The World Eater",
+  "Starforge Infernal Sword",
+  83,
+  "Ghorr, the Grasping Maw",
 ],
 [
   "The Wretched",
@@ -597,16 +491,40 @@ favorites = [
 ],
 [
   "Time-Lost Relic",
-  "unique league specific item",
+  "unique league specific item (Can drop headhunter)",
   68,
   "Battleground Graves • Bluffs • Cemetery • Desert Ruins • Dried Riverbed • Forest Ruins • Karui Wargraves • Mountainside • Rotting Temple • Sarn Slums • Scrublands • Shipwreck Reef • Utzaal Outskirts • Vaal Temple • Volcanic Island • Crystal Ore Map • Dig Map • Excavation Map • Flooded Mine Map • Geode Map • Grotto Map",
 ],
+[
+  "Unrequited Love",
+  "19x Mirror Shard",
+  35,
+  "The Temple of Decay Level 1 • Maze Map • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map",
+],
+[
+  "Wealth and Power",
+  "Level 4 Enlighten Corrupted",
+  68,
+  "Citadel Map (t17map)",
+],
+]
 
-
-
+good = [
 ####################################################################################################
-########## Show Unless Rich (no filter needed)
+########## Early - mid league cards
 ####################################################################################################
+[
+  "A Dab of Ink",
+  "Poets pen",
+  23,
+  "The Library • Academy Map • Museum Map • Scriptorium Map",
+],
+[
+  "A Modest Request",
+  "Megalomaniac Medium Cluster Jewel Corrupted",
+  68,
+  "Eater of Souls Nightmare's Omen The Hallowed Husk The High Templar",
+],
 [
   "A Sea of Blue",
   "13x Orb of Alteration",
@@ -620,10 +538,58 @@ favorites = [
   "Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map",
 ],
 [
-  "Cameria's Cut",
-  "Scarab",
-  68,
-  "Cameria the Coldblooded",
+  "Akil's Prophecy",
+  "elegant round shield Two-Implicit Corrupted (squire chance)",
+  70,
+  "Alva's",
+],
+[
+  "Anarchy's Price",
+  "Voltaxic Rift Spine Bow Corrupted",
+  48,
+  "This item can drop from Rogue Exiles.",
+],
+[
+  "Arrogance of the Vaal",
+  "unique item Two-Implicit Corrupted",
+  54,
+  "Ancient City Map • Sunken City Map • Vaal Pyramid Map",
+],
+[
+  "Atziri's Arsenal",
+  "weapon Corrupted",
+  23,
+  "Vaults of Atziri",
+],
+[
+  "Auspicious Ambitions",
+  "Experimented Item Level: 100 Double-Influenced",
+  73,
+  "Drops from the regular and uber versions of Maven, Exarch, Eater, and Uber Elder.",
+],
+[
+  "Baited Expectations",
+  "fishing item unique",
+  23,
+  "Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map",
+],
+[
+  "Blind Venture",
+  "ring Corrupted",
+  23,
+  "The Reliquary (Act 5) • The Reliquary (Act 10) • Museum Map • Relic Chambers Map • Sanctuary Map",
+],
+[
+  "Boon of the First Ones",
+  "Bestiary Item",
+  72,
+  "Pit of the Chimera Map",
+],
+[
+  "Broken Truce",
+  "Cold Iron Point Ezomyte Dagger",
+  62,
+  "Thane Jorgin",
 ],
 [
   "Chaotic Disposition",
@@ -638,28 +604,112 @@ favorites = [
   "Academy Map • Museum Map • Scriptorium Map",
 ],
 [
+  "Council of Cats",
+  "farrul item (often expensive)",
+  80,
+  "Al-Hezmin, The Hunter",
+],
+[
+  "Costly Curio",
+  "double influenced unique",
+  80,
+  "Museum Map • Relic Chambers Map • Sanctuary Map",
+],
+[
   "Coveted Possession",
   "5x Regal Orb",
   23,
   "The Catacombs • The Ossuary (Act 5) • The Ossuary (Act 10) • Bone Crypt Map • Sanctuary Map • Ziggurat Map",
 ],
 [
-  "Dementophobia",
-  "10x Delerium Orb",
+  "Deadly Joy",
+  "The Torrent's Reclamation Cloth Belt",
   68,
-  "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Venarius Veritania, The Redeemer",
+  "Poorjoy's Asylum",
 ],
 [
-  "Justified Ambition",
-  "Synthesis Map",
-  81,
-  "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Veritania, The Redeemer",
+  "Deathly Designs",
+  "level 21 trap gem 23q Corrupted",
+  72,
+  "Ash Lessard",
+],
+[
+  "Desperate Crusade",
+  "Prism Guardian Archon Kite Shield",
+  68,
+  "Basilica Map • Residence Map",
+],
+[
+  "Emperor's Luck",
+  "5x currency",
+  23,
+  "The Imperial Gardens • The High Gardens • Courtyard Map • Gardens Map • Orchard Map • Terrace Map",
+],
+[
+  "Eternal Bonds",
+  "Replica Cortex Synthesised Map",
+  78,
+  "Drops from Map Reward Chests in Heist Contracts and Blueprints",
+],
+[
+  "Ever-Changing",
+  "10x Orb of Unmaking",
+  68,
+  "Drops in maps opened via Kirac missions.",
+],
+[
+  "Gift of the Gemling Queen",
+  "level 20 support gem",
+  68,
+  "Crystal Ore Map • Dig Map • Excavation Map • Flooded Mine Map • Geode Map • Grotto Map",
+],
+[
+  "Glimmer of Hope",
+  "gold ring",
+  38,
+  "The Cavern of Anger (Act 6) • Flooded Mine Map • Mineral Pools Map • Underground Sea Map",
+],
+[
+  "Guardian's Challenge",
+  "Shaper Guardian Map",
+  91,
+  "Sold by Kirac for 3x Cartographer's Chisel",
+],
+[
+  "Hubris",
+  "Ring (can drop kalandras ring)",
+  23,
+  "Can drop from Jeweller's Strongboxes.",
+],
+[
+  "Jack in the Box",
+  "item",
+  23,
+  "The City of Sarn • The Ebony Barracks • The Slums • The Marketplace • The Battlefront • The Docks • The Sarn Ramparts • The Solaris Concourse • The Harbour Bridge • The Grand Promenade • The Lunaris Concourse • The Quay • The Grain Gate • Arsenal Map • Colonnade Map • Ghetto Map • Port Map • Precinct Map • Promenade Map",
 ],
 [
   "Lucky Connections",
   "20x Orb of Fusing",
   23,
   "The Docks • The Quay • Pier Map • Port Map • Shipyard Map • Wharf Map",
+],
+[
+  "Lucky Deck",
+  "10x stacked deck",
+  74,
+  "Ziggurat Map",
+],
+[
+  "Matryoshka",
+  "rare onyx amulet Item Level: 85 Quality: +20% Influenced Item Four Anointments Incubating Talisman Item Corrupted",
+  68,
+  "Unravelling Horror",
+],
+[
+  "Misery in Darkness",
+  "Shroud of the Lightless Carnal Armour (abyss)",
+  68,
+  "Kurgal, the Blackblooded",
 ],
 [
   "No Traces",
@@ -674,178 +724,6 @@ favorites = [
   "Arachnid Tomb Map • Channel Map • Infested Valley Map",
 ],
 [
-  "The Dreamland",
-  "Poorjoy's Asylum Unique map",
-  68,
-  "Drops from Cartographer's Strongboxes.",
-],
-[
-  "The Encroaching Darkness",
-  "Map Corrupted",
-  73,
-  "lotta maps",
-],
-[
-  "The Heroic Shot",
-  "17x chromatic",
-  23,
-  "Can drop from Arcanist's Strongboxes",
-],
-[
-  "The Innocent",
-  "40x Orb of Regret",
-  23,
-  "The Chamber of Innocence • Basilica Map • Defiled Cathedral Map • Sanctuary Map",
-],
-[
-  "The Inventor",
-  "10x Vaal Orb",
-  23,
-  "The Ancient Pyramid • The Temple of Decay Level 1 • The Temple of Decay Level 2 • Maze Map • Doryani's Machinarium • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map",
-],
-[
-  "The Landing",
-  "The Breachhead Unique map",
-  73,
-  "Shore Map • Mao Kun • Strand Map • Whakawairua Tuahu",
-],
-[
-  "The Obscured",
-  "Breachstone",
-  68,
-  "The Obscured can drop from Abyss monsters, including from Abyss nodes in Delve.",
-],
-[
-  "The Price of Prescience",
-  "Vaal Temple Map T16 Delirium: 100% Corrupted",
-  78,
-  "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Veritania, The Redeemer",
-],
-[
-  "The Price of Protection",
-  "Elder Guardian Occupied Map T: 14 to 16 Modifiers: 8 Corrupted",
-  81,
-  "Drops from Invasion bosses or Vaal side area bosses.",
-],
-[
-  "The Side Quest",
-  "20x Scouting Report",
-  69,
-  "Alleyways Map • Arachnid Tomb Map • Armoury Map • Castle Ruins Map • Forking River Map • Iceberg Map • Infested Valley Map • Mineral Pools Map • Siege Map • Primordial Blocks Map",
-],
-[
-  "The Wolf's Legacy",
-  "Vaults of Atziri Unique map",
-  68,
-  "This card drops from Izaro's Treasure chests, Labyrinth Troves, or Silver Key caches in the Eternal Labyrinth or Enriched Eternal Labyrinth. Still requires verification if it can drop in Merciless Labyrinth.",
-],
-[
-  "The Wrath",
-  "10x Chaos Orb",
-  23,
-  "The Cathedral Rooftop (Act 5) • The Feeding Trough • Belfry Map • Lava Lake Map",
-],
-[
-  "Three Faces in the Dark",
-  "3x Chaos Orb",
-  23,
-  "The Grain Gate • The Refinery • Arsenal Map • Factory Map • Port Map",
-],
-[
-  "Three Voices",
-  "3x Essence",
-  23,
-  "Arena Map • City Square Map • Courthouse Map • Courtyard Map • Crystal Ore Map • Forbidden Woods Map • Graveyard Map • Racecourse Map • Vaal Pyramid Map • Vaal Temple Map",
-],
-[
-  "Vinia's Token",
-  "10x Orb of Regret",
-  68,
-  "Core Map • Malformation Map • Shrine Map",
-],
-
-
-##################################################
-########## Show Unless Rich: Fishing
-##################################################
-[
-  "Baited Expectations",
-  "fishing item unique",
-  23,
-  "Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map",
-],
-[
-  "The Catch",
-  "fish rod",
-  68,
-  "Atoll Map • Maelström of Chaos • Beach Map • Coves Map • Peninsula Map • Plateau Map • Reef Map • Shipyard Map • Shore Map • Strand Map • Tropical Island Map",
-],
-[
-  "The Fishmonger",
-  "albino rhoa feather",
-  23,
-  "Drought-Maddened Rhoa Skullbeak",
-],
-[
-  "The Old Man",
-  "yellow fishing rod",
-  54,
-  "Atoll Map • Lighthouse Map • Peninsula Map • Pier Map • Shore Map • Strand Map • Tropical Island Map • Wharf Map",
-],
-[
-  "The One That Got Away",
-  "Replica Bated Breath Chain Belt",
-  78,
-  "Strand Map",
-],
-
-
-##################################################
-########## Show Unless Rich: Gamble
-##################################################
-[
-  "Akil's Prophecy",
-  "elegant round shield Two-Implicit Corrupted (squire chance)",
-  70,
-  "Alva's",
-],
-[
-  "Atziri's Arsenal",
-  "weapon Corrupted",
-  23,
-  "Vaults of Atziri",
-],
-[
-  "Blind Venture",
-  "ring Corrupted",
-  23,
-  "The Reliquary (Act 5) • The Reliquary (Act 10) • Museum Map • Relic Chambers Map • Sanctuary Map",
-],
-[
-  "Costly Curio",
-  "double influenced unique",
-  80,
-  "Museum Map • Relic Chambers Map • Sanctuary Map",
-],
-[
-  "Emperor's Luck",
-  "5x currency",
-  23,
-  "The Imperial Gardens • The High Gardens • Courtyard Map • Gardens Map • Orchard Map • Terrace Map",
-],
-[
-  "Glimmer of Hope",
-  "gold ring",
-  38,
-  "The Cavern of Anger (Act 6) • Flooded Mine Map • Mineral Pools Map • Underground Sea Map",
-],
-[
-  "Jack in the Box",
-  "item",
-  23,
-  "The City of Sarn • The Ebony Barracks • The Slums • The Marketplace • The Battlefront • The Docks • The Sarn Ramparts • The Solaris Concourse • The Harbour Bridge • The Grand Promenade • The Lunaris Concourse • The Quay • The Grain Gate • Arsenal Map • Colonnade Map • Ghetto Map • Port Map • Precinct Map • Promenade Map",
-],
-[
   "Prejudice",
   "item - influenced",
   80,
@@ -856,6 +734,12 @@ favorites = [
   "q30 armour",
   58,
   "Dunes Map",
+],
+[
+  "Scholar of the Seas",
+  "Mao Kun Unique map",
+  68,
+  "The Brine King's Reef • Coves Map • Reef Map • Strand Map • Whakawairua Tuahu",
 ],
 [
   "The Admirer",
@@ -888,10 +772,46 @@ favorites = [
   "Maelström of Chaos • Mineral Pools Map • Underground Sea Map • Vaults of Atziri • Vault Map",
 ],
 [
+  "The Catch",
+  "fish rod",
+  68,
+  "Atoll Map • Maelström of Chaos • Beach Map • Coves Map • Peninsula Map • Plateau Map • Reef Map • Shipyard Map • Shore Map • Strand Map • Tropical Island Map",
+],
+[
+  "The Cartographer",
+  "10x cartographers chisel",
+  39,
+  "Drops from Cartographer's Strongboxes.",
+],
+[
+  "The Coming Storm",
+  "Lightning Coil Desert Brigandine",
+  45,
+  "Cemetery Map • Colonnade Map • Graveyard Map • Infested Valley Map • Leyline Map • Promenade Map • Shipyard Map • Stagnation Map • Villa Map • Wharf Map",
+],
+[
+  "The Dreamland",
+  "Poorjoy's Asylum Unique map",
+  68,
+  "Drops from Cartographer's Strongboxes.",
+],
+[
+  "The Encroaching Darkness",
+  "Map Corrupted",
+  73,
+  "lotta maps",
+],
+[
   "The Eye of the Dragon",
   "jewel Corrupted (not most expensive, but ok)",
   23,
   "The Boiling Lake • Forge of the Phoenix Map • Sulphur Vents Map",
+],
+[
+  "The Fishmonger",
+  "albino rhoa feather",
+  23,
+  "Drought-Maddened Rhoa Skullbeak",
 ],
 [
   "The Forgotten Treasure",
@@ -918,16 +838,118 @@ favorites = [
   "The Slums • The Sarn Ramparts • The Grain Gate • Ghetto Map • Precinct Map",
 ],
 [
+  "The Greatest Intentions",
+  "The Saviour Legion Sword Two-Implicit Corrupted",
+  81,
+  "Maven's Invitation: The Feared",
+],
+[
+  "The Heroic Shot",
+  "17x chromatic",
+  23,
+  "Can drop from Arcanist's Strongboxes",
+],
+[
+  "The Hoarder",
+  "Exalted Orb",
+  68,
+  "Maelström of Chaos • Mineral Pools Map • Underground Sea Map • Vaults of Atziri • Vault Map",
+],
+[
+  "The Innocent",
+  "40x Orb of Regret",
+  23,
+  "The Chamber of Innocence • Basilica Map • Defiled Cathedral Map • Sanctuary Map",
+],
+[
+  "The Inventor",
+  "10x Vaal Orb",
+  23,
+  "The Ancient Pyramid • The Temple of Decay Level 1 • The Temple of Decay Level 2 • Maze Map • Doryani's Machinarium • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map",
+],
+[
+  "The Landing",
+  "The Breachhead Unique map",
+  73,
+  "Shore Map • Mao Kun • Strand Map • Whakawairua Tuahu",
+],
+[
+  "The Last Supper",
+  "Bino's Kitchen Knife Slaughter Knife",
+  58,
+  "Poorjoy's Asylum",
+],
+[
   "The Mercenary",
   "unique shield Corrupted (squire chance)",
   23,
   "The Broken Bridge (Act 7) • Castle Ruins Map",
 ],
 [
-  "The Messenger",
-  "harbringer piece",
+  "The Oath",
+  "Death's Oath Astral Plate",
+  47,
+  "The Belly of the Beast (Act 9) • The Rotting Core • Abomination Map • Carcass Map • Core Map • Malformation Map • Phantasmagoria Map",
+],
+[
+  "The Offering",
+  "Shavronne's Wrappings Occultist's Vestment",
+  47,
+  "Bazur Gisale, Thought Thief Prodigy of Darkness Reassembled Brutus Shavronne the Sickening Shavronne, Unbound",
+],
+[
+  "The Old Man",
+  "yellow fishing rod",
+  54,
+  "Atoll Map • Lighthouse Map • Peninsula Map • Pier Map • Shore Map • Strand Map • Tropical Island Map • Wharf Map",
+],
+[
+  "The One That Got Away",
+  "Replica Bated Breath Chain Belt",
+  78,
+  "Strand Map",
+],
+[
+  "The Pack Leader",
+  "Alpha's Howl Sinner Tricorne",
+  48,
+  "Ashen Wood Map • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map • Jungle Valley Map • Lair Map • Ramparts Map • Spider Forest Map • Stagnation Map • Thicket Map • Tropical Island Map",
+],
+[
+  "The Price of Protection",
+  "Elder Guardian Occupied Map T: 14 to 16 Modifiers: 8 Corrupted",
+  81,
+  "Drops from Invasion bosses or Vaal side area bosses.",
+],
+[
+  "The Polymath",
+  "Astramentis Onyx Amulet",
+  23,
+  "The Reliquary (Act 5) • The Reliquary (Act 10) • Museum Map • Relic Chambers Map • Sanctuary Map",
+],
+[
+  "The Professor",
+  "The Putrid Cloister Unique Museum Map",
   68,
-  "Crystal Ore Map • Port Map",
+  "Academy Map • Laboratory Map • Museum Map • Scriptorium Map",
+],
+[
+  "The Rabbit's Foot",
+  "10x Incursion Vial",
+  50,
+  "Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Ziggurat Map",
+],
+[
+  "The Saint's Treasure",
+  "2x Exalted Orb",
+  68,
+  "Alleyways Map • Arcade Map • Bazaar Map • Ghetto Map • Port Map • Precinct Map",
+],
+[
+  "The Scout",
+  "7x Exalted Orb",
+  68,
+  "Ashen Wood Map • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map • Jungle Valley Map • Lair Map • Ramparts Map • Spider Forest Map • Stagnation Map • Thicket Map • Tropical Island Map",
 ],
 [
   "The Shepherd's Sandals",
@@ -936,10 +958,28 @@ favorites = [
   "Barrows Map • Grotto Map • Lair Map • Caer Blaidd, Wolfpack's Den",
 ],
 [
+  "The Tinkerer's Table",
+  "5x fossil",
+  23,
+  "lots of maps",
+],
+[
+  "The Tireless Extractor",
+  "10x oil",
+  68,
+  "Factory Map • Fortress Map • Port Map • Silo Map",
+],
+[
   "The Undaunted",
   "nemesis item Corrupted (can drop headhunter)",
   23,
   "Courthouse Map • Precinct Map • Whakawairua Tuahu",
+],
+[
+  "The Union",
+  "10x gemcutters prism",
+  23,
+  "The Fellshrine Ruins (Act 7) • Cemetery Map • Grave Trough Map • Graveyard Map",
 ],
 [
   "The Valkyrie",
@@ -953,289 +993,266 @@ favorites = [
   23,
   "Abomination Map • Citadel Map • Fortress Map • Sanctuary Map • Ziggurat Map",
 ],
-
-##################################################
-########## Show Unless Rich: misc
-##################################################
-"A Modest Request", # Megalomaniac Medium Cluster Jewel Corrupted - 68+ Eater of Souls Nightmare's Omen The Hallowed Husk The High Templar
-"Assassin's Gift", # Divinarius Imperial Skean Two-Implicit Corrupted
-"Bijoux", # yellow cluster jewel
-"Broken Promises", # blue 2x synt diamond ring
-"Burning Blood", # Xoph's Blood Amber Amulet
-"Desperate Crusade", # prism guardian shield
-"Doryani's Epiphany", # Level 21 Transfigured Gem 20qual Corrupted
-"Lachrymal Necrosis", # Corrupted yellow Jewel Implicit Modifier: Corrupted Blood cannot be inflicted on you
-"Lethean Temptation", # Nebulis Void Sceptre
-"Matryoshka", # rare onyx amulet Item Level: 85 Quality: +20% Influenced Item Four Anointments Incubating Talisman Item Corrupted
-"Nook's Crown", # Bone Helmet Elder
-"Silence and Frost", # The Pandemonius Jade Amulet
-"The Academic", # Inspired Learning Crimson Jewel
-"The Emptiness", # vaal breech gem
-"The Escape", # Seven-League Step Rawhide Boots
-"The Mad King", # vaal aspect
-"The Patient", # the nurse - 68+ Armoury Map • Arsenal Map • Colonnade Map • Promenade Map
-"The Polymath", # Astramentis Onyx Amulet
-"The Sacrifice", # white 6link Sacrificial garb - 80+ The Temple of Atzoatl
-"The Shortcut", # quicksilver flask of the cheeta
-"The Strategist", # Inspired Learning Crimson Jewel Corrupted
-"The Wedding Gift", # Arakaali's Fang
-"The Twilight Moon", # the twilight moon map
-
-"Monochrome", # CURRENTLY DISABLED
-"More is Never Enough", # CURRENTLY DISABLED
-"Rebirth and Renewal", # CURRENTLY DISABLED
-"Underground Forest", # CURRENTLY DISABLED
-
-
-####################################################################################################
-########## Hide Unless they change 
-####################################################################################################
-"A Mother's Parting Gift", # Fertile Mind Cobalt Jewel Corrupted (dex to int)
-"Alone in the Darkness", # unique delve item
-"Assassin's Favour", # dagger
-"Doedre's Madness", # Doedre Item
-"Earth Drinker", # granite flask
-"Heterochromia", # two-stone ring
-"Hope", #  prismatic ring Corrupted
-"Light and Truth", # unique crystal sceptre
-"Lysah's Respite", #  agate amulet Corrupted
-"Mitts", # gloves
-"The Aesthete", # shavronne item
-"The Brittle Emperor", # Voll's Devotion Agate Amulet Corrupted
-"The Calling", # unique beyond item
-"The Dragon", # unique coruscating elixir
-"The Gladiator", # unique nightmare bascinet
-"The Lion", # lioneye item
-"The Penitent", # unique unset ring
-"The Standoff", # unique rustich sash
-"The Tower", # unique staff
-"The Traitor", # unique wand Corrupted
-"The Unexpected Prize", # Attribute Transforming Jewel Corrupted
-"The Wolverine", # unique claw
-
+[
+  "The Wolf's Legacy",
+  "Vaults of Atziri Unique map",
+  68,
+  "This card drops from Izaro's Treasure chests, Labyrinth Troves, or Silver Key caches in the Eternal Labyrinth or Enriched Eternal Labyrinth. Still requires verification if it can drop in Merciless Labyrinth.",
+],
+[
+  "The Wrath",
+  "10x Chaos Orb",
+  23,
+  "The Cathedral Rooftop (Act 5) • The Feeding Trough • Belfry Map • Lava Lake Map",
+],
+[
+  "Three Faces in the Dark",
+  "3x Chaos Orb",
+  23,
+  "The Grain Gate • The Refinery • Arsenal Map • Factory Map • Port Map",
+],
+[
+  "Three Voices",
+  "3x Essence",
+  23,
+  "Arena Map • City Square Map • Courthouse Map • Courtyard Map • Crystal Ore Map • Forbidden Woods Map • Graveyard Map • Racecourse Map • Vaal Pyramid Map • Vaal Temple Map",
+],
+[
+  "Tranquillity",
+  "Voltaxic Rift Spine Bow",
+  48,
+  "Ashen Wood, Fields, Orchard, Peninsula, The Ashen Fields",
+],
+[
+  "Treasure Hunter",
+  "Vaults of Atziri Unique map",
+  68,
+  "Crystal Ore Map • Excavation Map • Flooded Mine Map • Grotto Map • Lair Map • Maze of the Minotaur Map • Fungal Hollow Map • Underground River Map • Caer Blaidd, Wolfpack's Den • Underground Sea Map",
+],
+[
+  "The Twilight Moon",
+  "the twilight moon map",
+  68,
+  "Cold River Map • Moon Temple Map • Temple Map",
+],
+[
+  "Vinia's Token",
+  "10x Orb of Regret",
+  68,
+  "Core Map • Malformation Map • Shrine Map",
+],
+]
 
 ####################################################################################################
-########## Hide Unless: Reason 
+########## # CURRENTLY DISABLED
 ####################################################################################################
+# "Monochrome", # CURRENTLY DISABLED
+# "More is Never Enough", # CURRENTLY DISABLED
+# "Rebirth and Renewal", # CURRENTLY DISABLED
+# "Underground Forest", # CURRENTLY DISABLED
+
+hide = [
+####################################################################################################
+########## Hide
+####################################################################################################
+"A Chilling Wind", # 21 vaal cold snap
+"A Dusty Memory", # yellow item fractured
 "A Familiar Call", # blue jewellery of farrul shaper + hunter item
+"A Mother's Parting Gift", # Fertile Mind Cobalt Jewel Corrupted (dex to int)
 "A Note in the Wind", # Asenath's Mark - (bow helmet)
 "A Stone Perfected", # Jewel Primordial Corrupted (golem), ##### MINION
+"Alivia's Grace", # queen of the forest
+"Alone in the Darkness", # unique delve item
 "Ambitious Obsession", # skittering delerium orb
-"Broken Truce", # cold iron point - dagger
+"Assassin's Favour", # dagger
+"Assassin's Gift", # Divinarius Imperial Skean Two-Implicit Corrupted
+"Astral Protection", # blue shaper shield
+"Audacity", #  doryanas fist Corrupted
+"Azure Rage", # blue punishing map 16
+"Bijoux", # yellow cluster jewel
+"Boon of Justice", # offering of the goddess (lab)
+"Boundless Realms", # map
+"Bowyer's Dream", # white 6link harbringer bow
+"Broken Promises", # blue 2x synt diamond ring
 "Brush, Paint and Palette", # the artist card (enhance)
-"Bowyer's Dream", # white 6link harbringer
+"Buried Treasure", # sulphite scarab
+"Burning Blood", # Xoph's Blood Amber Amulet
+"Call to the First Ones", # yellow corrupt tier 1 talisman
+"Cartographer's Delight", # tier 5 map
+"Cursed Words", # Maw of Mischief (minion)
 "Dark Dreams", # yellow elder influence bone helmet
+"Dark Temptation", # obliteration wand
 "Death", # Mon'tregul's Grasp (minion)
+"Destined to Crumble", # yellow body armour
+"Dialla's Subjugation", # support gem 23q Corrupted
+"Disdain", # delerium orb
+"Doedre's Madness", # Doedre Item
+"Doryani's Epiphany", # Level 21 Transfigured Gem 20qual Corrupted
 "Draped in Dreams", # blue 6link astral plate influenced
+"Duality", # blue double influenced body armour
+"Dying Anguish", # level 19 trans gem q19
+"Dying Light", # yellow shaper + elder diamond ring
+"Earth Drinker", # granite flask
+"Echoes of Love", # fidelita's spike Two-Implicit Corrupted
+"Eldritch Perfection", # blue item perfect eldrict mod
+"Emperor of Purity", # white 6link holy chainmail, ##### RF
+"Endless Night", # Maloney's Mechanism Ornate Quiver
+"Etched in Blood", # rigwalds quills quiver Two-Implicit Corrupted
+"Forbidden Power", #  Balefire Opal Sceptre Corrupted (scorcing ray)
+"From Bone to Ashes", # Ngamahu's Flame Abyssal Axe Two-Implicit Corrupted
+"Further Invention", # blue double influenced helmet
+"Gemcutter's Promise", # 20q gem
+"Gift of Asenath", # Asenath's Gentle Touch Silk Gloves Two-Implicit Corrupted
+"Grave Knowledge", # q20 srs
+"Her Mask", # saccrifice fragment
+"Heterochromia", # two-stone ring
+"Hope", #  prismatic ring Corrupted
+"Humility", # tabula
 "Hunter's Resolve", # bow
+"Hunter's Reward", # The Taming Prismatic Ring
 "Immortal Resolve", # blue 6link body armour - influenced
 "Imperfect Memories", # rare jewellery Three-Implicit Synthesised
 "Imperial Legacy", # white 6link imperial
 "Judging Voices", # Forbidden Shako Great Crown
+"Keeper's Corruption", # blue eldricth bone helm - elder but found in breach realm
+"Lachrymal Necrosis", # Corrupted yellow Jewel Implicit Modifier: Corrupted Blood cannot be inflicted on you
 "Last Hope", # mortal hope (Uber Atziri )
-"Magnum Opus", # blue 3x synth item
+"Lantador's Lost Love", # yellow two-stone ring
+"Lethean Temptation", # Nebulis Void Sceptre
+"Left to Fate", # yellow corrupted t16 map Corrupted
+"Light and Truth", # unique crystal sceptre
+"Lost Worlds", # tier 15 map
+"Loyalty", # 3x fusing
+"Lysah's Respite", #  agate amulet Corrupted
 "Man With Bear", # bestiary scarab
+"Magnum Opus", # blue 3x synth item
 "Mawr Blaidd", # Eyes of the Greatwolf Greatwolf Talisman
+"Merciless Armament", # blue merciless 2h weap
+"Might is Right", # Trypanon Great Mallet
+"Mitts", # gloves
+"Nook's Crown", # Bone Helmet Elder
+"Perfection", # yellow shaper jewellery
+"Poisoned Faith", # arakalis fang Corrupted
+"Pride Before the Fall", #  kaoms heart Corrupted
 "Prometheus' Armoury", # yellow double influenced 1hand weap
+"Prosperity", # blue perandus gold ring
+"Rats", # rats nest
+"Rain of Chaos", # 1x chaos
+"Rain Tempter", # tier 6 map
+"Rebirth", # Charans sword
+"Reckless Ambition", # Omeyocan Carnal Boots
 "Remembrance", # Precursor's Emblem (ring) Corrupted
 "Sambodhi's Vow", # mortal fragment (uber atziri)
+"Shard of Fate", # blue vivid hewel
+"Silence and Frost", # The Pandemonius Jade Amulet
+"Society's Remorse", # 10x alt
 "Soul Quenched", # yellow two-handed experimental weapon
+"Struck by Lightning", # blue lightning jewelery
+"Terrible Secret of Space", # level 21 trans golem gem Corrupted
+"The Academic", # Inspired Learning Crimson Jewel - 38+ Academy Map • Museum Map • Scriptorium Map
+"The Adventuring Spirit", # Victario's Influence Lacquered Garb
+"The Aesthete", # shavronne item
+"The Archmage's Right Hand", # blue glyphic wand
+"The Army of Blood", # Bloodbond chest
+"The Arena Champion", # tier 12 map
+"The Astromancer", # The Eternity Shroud Blood Raiment (shaper)
 "The Aspirant", # blue enchanged and influenced item
 "The Avenger", # møljner Corrupted
 "The Awakened", # yellow double influenced jewelery
 "The Bear Woman", # blue warlod ursine pelt hat
-"The Bones", # 21 vaal skeletons (minion)
-"The Celestial Stone", # opal ring shaper
-"The Coming Storm", # lightning coil chest
-"The Craving", # Unending Hunger Cobalt Jewel (minion)
-"The Damned", # Soul Ripper Quartz Flask
-"The Darkest Dream", # severed in sleep sword Corrupted (minion)
-"The Enforcer", # blue spiked gloves Warlord (physical)
-"The Feast", # Romira's Banquet Diamond Ring Corrupted (power charge)
-"The Finishing Touch", # fertile catalyst (life and mana)
-"The Formless Sea", # varunastra sword
-"The Last Supper", # Bino's Kitchen Knife
-"The Life Thief", # Zerphi's Heart Paua Amulet
-"The Master", # Bisco's collar gold amulet
-"The Porcupine", # white 6link shortbow
-"The Primordial", # primordial jewel (golem) (golem)
-"The Return of the Rat", # Tavukai Coral Amulet (minion srs)
-"The Tumbleweed", # blue diamond ring - redeemer item
-"The Undisputed", # blue merciless vaal axe - elder
-"The Warlord", # six link 2handed maul, ##### MELEEE
-"The White Knight", # blue 6link astral plate - crusader
-"Void of the Elements", # blue shaper opal ring
-"Who Asked", # Dictator's (phys + accuracy) Weapon Item Level: 83 Fractured
-
-##################################################
-########## Hide Unless: Poor or SSF
-##################################################
-"Buried Treasure", # sulphite scarab
-"Disdain", # delerium orb
-"Dying Anguish", # level 19 trans gem q19
-"Gemcutter's Promise", # 20q gem
-"Gift of Asenath", # Asenath's Gentle Touch Silk Gloves Two-Implicit Corrupted
-"Gift of the Gemling Queen", # level 20 support gem
-"Grave Knowledge", # q20 srs
-"Lost Worlds", # tier 15 map
-"Perfection", # yellow shaper jewellery
-"Poisoned Faith", # arakalis fang Corrupted
-"Rain of Chaos", # 1x chaos
-"Scholar of the Seas", # Mao Kun Unique map
-"Society's Remorse", # 10x alt
-"Terrible Secret of Space", # level 21 trans golem gem Corrupted
-"The Arena Champion", # tier 12 map
-"The Blessing of Moosh", # lvl 21 trans gem
-"The Cartographer", # 10x cartographers chisel
-"The Deal", # cartography scarab
-"The Easy Stroll", #, # tier 15 map 8 modifiers
-"The Enthusiasts", #  Victario's Influence Lacquered Garb Two-Implicit Corrupted
-"The Explorer", # map Corrupted
-"The Fox", # level 20 gem
-"The Journey", # harbringers orb
-"The Leviathan", # Maven Item Two-Implicit Corrupted - 81+ Maelström of Chaos Atoll Map (rf boots)
-"The Master Artisan", # 20x q currency
-"The Tireless Extractor", # 10x oil
-"The Trial", # tier 15 map Corrupted
-"The Summoner", # 20% minion gem
-"The Surveyor", # tier 14 map
-"Treasure Hunter", # Vaults of Atziri Unique map
-
-##################################################
-########## Hide Unless: SSF
-##################################################
-"A Dab of Ink", # Poets pen
-"A Chilling Wind", # 21 vaal cold snap
-"A Dusty Memory", # yellow item fractured
-"Azure Rage", # blue punishing map 16
-"Cursed Words", # Maw of Mischief (minion)
-"Dying Light", # yellow shaper + elder diamond ring
-"Emperor of Purity", # white 6link holy chainmail, ##### RF
-"From Bone to Ashes", # Ngamahu's Flame Abyssal Axe Two-Implicit Corrupted
-"Humility", # tabula
-"Hunter's Reward", # The Taming Prismatic Ring
-"Left to Fate", # yellow corrupted t16 map Corrupted
-"Loyalty", # 3x fusing
-"Pride Before the Fall", #  kaoms heart Corrupted
-"Rats", # rats nest
-"The Astromancer", # The Eternity Shroud Blood Raiment (shaper)
 "The Beast", # belly of the beast
+"The Betrayal", # Maligaro's Virtuosity Deerskin Gloves
 "The Bitter Blossom", # level 21 chaos gem q23 Corrupted
+"The Blazing Fire", # Chin Sol Assassin
+"The Blessing of Moosh", # lvl 21 trans gem
+"The Bones", # 21 vaal skeletons (minion)
+"The Brawny Battle Mage", # blue tornadi wand
+"The Brittle Emperor", # Voll's Devotion Agate Amulet Corrupted
+"The Calling", # unique beyond item
+"The Carrion Crow", # blue armour
+"The Cataclysm", # lvl 21 spell gem
 "The Catalyst", # 1x vaal
 "The Celestial Justicar", # magic 6link astral plate
 "The Chains that Bind", # normal 6link body armour
-"The Dapper Prodigy", # 6 blue link body
-"The Dark Mage", # 6link staff
-"The Deceiver", # belt of the deciever Corrupted
-"The Demoness", # Death's Hand (minion)
-"The Drunken Aristocrat", # Divination Distillate Large Hybrid Flask
-"The Ethereal", # white 6link vaal regalia white
-"The Fathomless Depths", # Lightpoacher - abyss hat
-"The Fool", # 20x chance
-"The Gemcutter", # gemcutters prism
-"The Hook" , # Level 21 Transfigured Gem 23% Quality Corrupted
-"The Incantation", # the whispering ice
-"The Journalist", # blue double veiled item
-"The King's Heart", # kaom's heart
-"The Lich", # Midnight Bargain Engraved Wand (minion)
-"The Magma Crab", # 21 vaal molten shell
-"The Mind's Eyes", # Astral Projector Topaz Ring
-"The Offering", # shavronne's wrappings
-"The Offspring", # Ryslatha's Coil bel
-"The One With All", # le heup of all Corruptedt
-"The Pack Leader", # Alpha's Howl
-"The Puzzle", # 5x breech stone splinter
-"The Queen", # Atziri's Acuity Vaal Gauntlets
-"The Realm", # portal
-"The Rite of Elements", # lvl 21 golem gem Corrupted (golem)
-"The Scavenger", # carcass jack
-"The Siren", # the whispering ice Corrupted
-"The Spark and the Flame", # bereks respite two stone ring
-"The Stormcaller", # angerod staff
-"The Sun", # Rise of the Phoenix Mosaic Kite Shield
-"The Survivalist", # 7x alchemy
-"The Sword King's Salute", # Daresso's Salute amulet
-"The Thaumaturgist", # Shavronne's Revelation Moonstone Ring Corrupted
-"The Tinkerer's Table", # 5x fossil
-"Unchained", # facebreaker Two-Implicit Corrupted
-"The Union", # 10x gemcutters prism
-"The Watcher", # crown of eyes hat
-"The Wilted Rose", # level 21 aura gem Corrupted
-"The Whiteout", # Cospri's Malice 1h sword foil
-"The Wolf", # rigwald item (cleave weaps)
-"Winter's Embrace", # Circle of Fear Sapphire Ring ( doesn't drop)
-"Vanity", # tabula Corrupted
-
-####################################################################################################
-########## Hide
-####################################################################################################
-"Alivia's Grace", # queen of the forest
-"Astral Protection", # blue shaper shield
-"Audacity", #  doryanas fist Corrupted
-"Boon of Justice", # offering of the goddess (lab)
-"Boundless Realms", # map
-"Call to the First Ones", # yellow corrupt tier 1 talisman
-"Cartographer's Delight", # tier 5 map
-"Dark Temptation", # obliteration wand
-"Deathly Designs", # level 21 trap gem 23q Corrupted
-"Destined to Crumble", # yellow body armour
-"Dialla's Subjugation", # support gem 23q Corrupted
-"Duality", # blue double influenced body armour
-"Echoes of Love", # fidelita's spike Two-Implicit Corrupted
-"Eldritch Perfection", # blue item perfect eldrict mod
-"Endless Night", # Maloney's Mechanism Ornate Quiver
-"Etched in Blood", # rigwalds quills quiver Two-Implicit Corrupted
-"Forbidden Power", #  Balefire Opal Sceptre Corrupted (scorcing ray)
-"Further Invention", # blue double influenced helmet
-"Her Mask", # saccrifice fragment
-"Keeper's Corruption", # blue eldricth bone helm - elder but found in breach realm
-"Lantador's Lost Love", # yellow two-stone ring
-"Merciless Armament", # blue merciless 2h weap
-"Might is Right", # Trypanon Great Mallet
-"Prosperity", # blue perandus gold ring
-"Rain Tempter", # tier 6 map
-"Rebirth", # Charans sword
-"Reckless Ambition", # Omeyocan Carnal Boots
-"Shard of Fate", # blue vivid hewel
-"Struck by Lightning", # blue lightning jewelery
-"The Adventuring Spirit", # Victario's Influence Lacquered Garb
-"The Archmage's Right Hand", # blue glyphic wand
-"The Army of Blood", # Bloodbond chest
-"The Betrayal", # Maligaro's Virtuosity Deerskin Gloves
-"The Blazing Fire", # Chin Sol Assassin
-"The Brawny Battle Mage", # blue tornadi wand
-"The Carrion Crow", # blue armour
-"The Cataclysm", # lvl 21 spell gem
 "The Conduit", # doryana's fist
 "The Cursed King", # Rigwald's Curse Wereclaw Talisman
+"The Celestial Stone", # opal ring shaper
+"The Craving", # Unending Hunger Cobalt Jewel (minion)
+"The Damned", # Soul Ripper Quartz Flask
+"The Dapper Prodigy", # 6 blue link body
+"The Dark Mage", # 6link staff
+"The Darkest Dream", # severed in sleep sword Corrupted (minion)
+"The Dragon", # unique coruscating elixir
+"The Drunken Aristocrat", # Divination Distillate Large Hybrid Flask
+"The Deal", # cartography scarab
+"The Deceiver", # belt of the deciever Corrupted
 "The Deep Ones", # tidebreaker maul
+"The Demoness", # Death's Hand (minion)
 "The Doppelganger", # 20q mirror arrow
+"The Easy Stroll", #, # tier 15 map 8 modifiers
+"The Emptiness", # vaal breech gem
 "The Endurance", # blue crimson gem
+"The Enforcer", # blue spiked gloves Warlord (physical)
+"The Enthusiasts", #  Victario's Influence Lacquered Garb Two-Implicit Corrupted
+"The Escape", # Seven-League Step Rawhide Boots
+"The Ethereal", # white 6link vaal regalia white
+"The Explorer", # map Corrupted
+"The Fathomless Depths", # Lightpoacher - abyss hat
+"The Feast", # Romira's Banquet Diamond Ring Corrupted (power charge)
+"The Finishing Touch", # fertile catalyst (life and mana)
 "The Fletcher", # drillneck quiver Corrupted
 "The Flora's Gift", # white 5link staff
+"The Fool", # 20x chance
+"The Formless Sea", # varunastra sword
 "The Forsaken", # Umbilicus Immortalis Leather Belt (heals zombies shit)
+"The Fox", # level 20 gem
 "The Fox in the Brambles", # bramble jack chest Two-Implicit Corrupted
+"The Gemcutter", # gemcutters prism
+"The Gladiator", # unique nightmare bascinet
 "The Golden Era", # blue staff
 "The Hale Heart", # yellow elder Item
 "The Harvester", # the harvest sycthe
 "The Hermit", # lifesprig wand
 "The Hive of Knowledge", # mechina mitts Two-Implicit Corrupted
+"The Hook" , # Level 21 Transfigured Gem 23% Quality Corrupted
+"The Incantation", # the whispering ice
 "The Inoculated", # blue armour
 "The Insatiable", # the harvest sycthe Corrupted
 "The Jester", # blue merc 1h weap
 "The Jeweller's Boon", #  5link body influence
+"The Journalist", # blue double veiled item
+"The Journey", # harbringers orb
 "The King's Blade", # blue bloodthirsty eternal sword
+"The King's Heart", # kaom's heart
+"The Leviathan", # Maven Item Two-Implicit Corrupted - 81+ Maelström of Chaos Atoll Map (rf boots)
+"The Life Thief", # Zerphi's Heart Paua Amulet
+"The Lich", # Midnight Bargain Engraved Wand (minion)
+"The Lion", # lioneye item
 "The Lord in Black", # blue ring
 "The Lord of Celebration", # blue shaper sceptre of shit
 "The Lover", # yellow jewelery
 "The Lunaris Priestess", # sire of shards staff
+"The Mad King", # vaal aspect
+"The Magma Crab", # 21 vaal molten shell
+"The Master", # Bisco's collar gold amulet
+"The Master Artisan", # 20x q currency
 "The Metalsmith's Gift", # white prismatic ring
+"The Mind's Eyes", # Astral Projector Topaz Ring
 "The Mountain", # blue jewel of potency
-"The Oath", # Death's Oath Astral Plate
+"The Offspring", # Ryslatha's Coil bel
+"The One With All", # le heup of all Corruptedt
 "The Opulent", # yellow ring
 "The Pact", # pledge of hands staff
+"The Penitent", # unique unset ring
 "The Poet", # Blood of Corruption Amber Amulet Corrupted
+"The Porcupine", # white 6link shortbow
+"The Primordial", # primordial jewel (golem) (golem)
+"The Puzzle", # 5x breech stone splinter
+"The Queen", # Atziri's Acuity Vaal Gauntlets
 "The Rabid Rhoa", # blue claw
+"The Realm", # portal
+"The Return of the Rat", # Tavukai Coral Amulet (minion srs)
+"The Rite of Elements", # lvl 21 golem gem Corrupted (golem)
 "The Road to Power", # blue runic 1h weap
 "The Ruthless Ceinture", # meginord's girdle Corrupted
 "The Scarred Meadow", # Wake of Destruction Mesh Boots
@@ -1244,20 +1261,54 @@ favorites = [
 "The Sigil", # blue amulet
 "The Spoiled Prince", # blue wand
 "The Surgeon", # blue surgeon flask
+"The Summoner", # 20% minion gem
+"The Surveyor", # tier 14 map
+"The Standoff", # unique rustich sash
+"The Sacrifice", # white 6link Sacrificial garb - 80+ The Temple of Atzoatl
+"The Shortcut", # quicksilver flask of the cheeta
+"The Strategist", # Inspired Learning Crimson Jewel Corrupted
+"The Scavenger", # carcass jack
+"The Siren", # the whispering ice Corrupted
+"The Spark and the Flame", # bereks respite two stone ring
+"The Stormcaller", # angerod staff
+"The Sun", # Rise of the Phoenix Mosaic Kite Shield
+"The Survivalist", # 7x alchemy
+"The Sword King's Salute", # Daresso's Salute amulet
+"The Thaumaturgist", # Shavronne's Revelation Moonstone Ring Corrupted
 "The Throne", # Kaom's Roots boots
-"The Tyrant", # blue merciless item
+"The Tower", # unique staff
+"The Traitor", # unique wand Corrupted
+"The Trial", # tier 15 map Corrupted
+"The Tumbleweed", # blue diamond ring - redeemer item
 "The Twins", # blue claw
+"The Tyrant", # blue merciless item
+"The Undisputed", # blue merciless vaal axe - elder
+"The Unexpected Prize", # Attribute Transforming Jewel Corrupted
 "The Vast", # song of the sirens staff
 "The Visionary", # Lioneye's Vision - chest
 "The Warden", # yellow amulet Corrupted
+"The Warlord", # six link 2handed maul, ##### MELEEE
+"The Watcher", # crown of eyes hat
 "The Web", # blue weap
+"The Wedding Gift", # Arakaali's Fang
+"The White Knight", # blue 6link astral plate - crusader
+"The Whiteout", # Cospri's Malice 1h sword foil
+"The Wilted Rose", # level 21 aura gem Corrupted
 "The Wind", # Windripper imperial bow
 "The Witch", # Kiara's Determination Silver Flask
+"The Wolf", # rigwald item (cleave weaps)
 "The Wolf's Shadow", # Hyaon's Fury Legion Sword
 "The Wolven King's Bite", # rigwalds quills quiver
+"The Wolverine", # unique claw
 "Thirst for Knowledge", # Gluttony Leather Belt
 "Thunderous Skies", # Storm Cloud long bow
 "Triskaidekaphobia", # corrup tier 13 map 8 modifiers
 "Turn the Other Cheek", # Pacifism Viridian Jewel (-1 frenzy charge
+"Vanity", # tabula Corrupted
 "Vile Power", # Doomfletch Royal Bow
 "Volatile Power", # q20 vaal gem Corrupted
+"Void of the Elements", # blue shaper opal ring
+"Who Asked", # Dictator's (phys + accuracy) Weapon Item Level: 83 Fractured
+"Winter's Embrace", # Circle of Fear Sapphire Ring ( doesn't drop)
+"Unchained", # facebreaker Two-Implicit Corrupted
+]

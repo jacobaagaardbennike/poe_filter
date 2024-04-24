@@ -1,5 +1,37 @@
 [cards]
-favorites = [
+  [[cards.favorite]]
+    name = "A Fate Worse Than Death"
+    reward = "Cortex Synthesised Map Corrupted"
+    drop_level = 78
+    info = "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Sirus, Awakener of Worlds Veritania, The Redeemer"
+
+  [[cards.favorite]]
+    name = "Abandoned Wealth"
+    reward = "3x exalted"
+    drop_level = 68
+    info = "Mao Kun map"
+  
+  [[cards.favorite]]
+    name = "Abandoned Wealth"
+    reward = "3x exalted"
+    drop_level = 68
+    info = "Mao Kun map"
+
+  [[cards.favorite]]
+    name = "Alluring Bounty"
+    reward = "10x exalted"
+    drop_level = 68
+    info = "The Apex of Sacrifice • The Alluring Abyss"
+
+  [[cards.favorite]]
+    name = "Altered Perception"
+    reward = "simulacrum (can drop Megalomaniac mcluster, Split Personality Crimson Jewel, Voices (Cluster)"
+    drop_level = 68
+    info = "Uhtred, Covetous Traitor"
+
+
+
+cards_favorites = [
 ####################################################################################################
 ########## Handpicked cards I always want to loot (I'm mostly SSF)
 ####################################################################################################
@@ -509,7 +541,7 @@ favorites = [
 ],
 ]
 
-good = [
+cards_good = [
 ####################################################################################################
 ########## Early - mid league cards
 ####################################################################################################
@@ -1051,264 +1083,1544 @@ good = [
 # "Rebirth and Renewal", # CURRENTLY DISABLED
 # "Underground Forest", # CURRENTLY DISABLED
 
-hide = [
+cards_hide = [
 ####################################################################################################
 ########## Hide
 ####################################################################################################
-"A Chilling Wind", # 21 vaal cold snap
-"A Dusty Memory", # yellow item fractured
-"A Familiar Call", # blue jewellery of farrul shaper + hunter item
-"A Mother's Parting Gift", # Fertile Mind Cobalt Jewel Corrupted (dex to int)
-"A Note in the Wind", # Asenath's Mark - (bow helmet)
-"A Stone Perfected", # Jewel Primordial Corrupted (golem), ##### MINION
-"Alivia's Grace", # queen of the forest
-"Alone in the Darkness", # unique delve item
-"Ambitious Obsession", # skittering delerium orb
-"Assassin's Favour", # dagger
-"Assassin's Gift", # Divinarius Imperial Skean Two-Implicit Corrupted
-"Astral Protection", # blue shaper shield
-"Audacity", #  doryanas fist Corrupted
-"Azure Rage", # blue punishing map 16
-"Bijoux", # yellow cluster jewel
-"Boon of Justice", # offering of the goddess (lab)
-"Boundless Realms", # map
-"Bowyer's Dream", # white 6link harbringer bow
-"Broken Promises", # blue 2x synt diamond ring
-"Brush, Paint and Palette", # the artist card (enhance)
-"Buried Treasure", # sulphite scarab
-"Burning Blood", # Xoph's Blood Amber Amulet
-"Call to the First Ones", # yellow corrupt tier 1 talisman
-"Cartographer's Delight", # tier 5 map
-"Cursed Words", # Maw of Mischief (minion)
-"Dark Dreams", # yellow elder influence bone helmet
-"Dark Temptation", # obliteration wand
-"Death", # Mon'tregul's Grasp (minion)
-"Destined to Crumble", # yellow body armour
-"Dialla's Subjugation", # support gem 23q Corrupted
-"Disdain", # delerium orb
-"Doedre's Madness", # Doedre Item
-"Doryani's Epiphany", # Level 21 Transfigured Gem 20qual Corrupted
-"Draped in Dreams", # blue 6link astral plate influenced
-"Duality", # blue double influenced body armour
-"Dying Anguish", # level 19 trans gem q19
-"Dying Light", # yellow shaper + elder diamond ring
-"Earth Drinker", # granite flask
-"Echoes of Love", # fidelita's spike Two-Implicit Corrupted
-"Eldritch Perfection", # blue item perfect eldrict mod
-"Emperor of Purity", # white 6link holy chainmail, ##### RF
-"Endless Night", # Maloney's Mechanism Ornate Quiver
-"Etched in Blood", # rigwalds quills quiver Two-Implicit Corrupted
-"Forbidden Power", #  Balefire Opal Sceptre Corrupted (scorcing ray)
-"From Bone to Ashes", # Ngamahu's Flame Abyssal Axe Two-Implicit Corrupted
-"Further Invention", # blue double influenced helmet
-"Gemcutter's Promise", # 20q gem
-"Gift of Asenath", # Asenath's Gentle Touch Silk Gloves Two-Implicit Corrupted
-"Grave Knowledge", # q20 srs
-"Her Mask", # saccrifice fragment
-"Heterochromia", # two-stone ring
-"Hope", #  prismatic ring Corrupted
-"Humility", # tabula
-"Hunter's Resolve", # bow
-"Hunter's Reward", # The Taming Prismatic Ring
-"Immortal Resolve", # blue 6link body armour - influenced
-"Imperfect Memories", # rare jewellery Three-Implicit Synthesised
-"Imperial Legacy", # white 6link imperial
-"Judging Voices", # Forbidden Shako Great Crown
-"Keeper's Corruption", # blue eldricth bone helm - elder but found in breach realm
-"Lachrymal Necrosis", # Corrupted yellow Jewel Implicit Modifier: Corrupted Blood cannot be inflicted on you
-"Last Hope", # mortal hope (Uber Atziri )
-"Lantador's Lost Love", # yellow two-stone ring
-"Lethean Temptation", # Nebulis Void Sceptre
-"Left to Fate", # yellow corrupted t16 map Corrupted
-"Light and Truth", # unique crystal sceptre
-"Lost Worlds", # tier 15 map
-"Loyalty", # 3x fusing
-"Lysah's Respite", #  agate amulet Corrupted
-"Man With Bear", # bestiary scarab
-"Magnum Opus", # blue 3x synth item
-"Mawr Blaidd", # Eyes of the Greatwolf Greatwolf Talisman
-"Merciless Armament", # blue merciless 2h weap
-"Might is Right", # Trypanon Great Mallet
-"Mitts", # gloves
-"Nook's Crown", # Bone Helmet Elder
-"Perfection", # yellow shaper jewellery
-"Poisoned Faith", # arakalis fang Corrupted
-"Pride Before the Fall", #  kaoms heart Corrupted
-"Prometheus' Armoury", # yellow double influenced 1hand weap
-"Prosperity", # blue perandus gold ring
-"Rats", # rats nest
-"Rain of Chaos", # 1x chaos
-"Rain Tempter", # tier 6 map
-"Rebirth", # Charans sword
-"Reckless Ambition", # Omeyocan Carnal Boots
-"Remembrance", # Precursor's Emblem (ring) Corrupted
-"Sambodhi's Vow", # mortal fragment (uber atziri)
-"Shard of Fate", # blue vivid hewel
-"Silence and Frost", # The Pandemonius Jade Amulet
-"Society's Remorse", # 10x alt
-"Soul Quenched", # yellow two-handed experimental weapon
-"Struck by Lightning", # blue lightning jewelery
-"Terrible Secret of Space", # level 21 trans golem gem Corrupted
-"The Academic", # Inspired Learning Crimson Jewel - 38+ Academy Map • Museum Map • Scriptorium Map
-"The Adventuring Spirit", # Victario's Influence Lacquered Garb
-"The Aesthete", # shavronne item
-"The Archmage's Right Hand", # blue glyphic wand
-"The Army of Blood", # Bloodbond chest
-"The Arena Champion", # tier 12 map
-"The Astromancer", # The Eternity Shroud Blood Raiment (shaper)
-"The Aspirant", # blue enchanged and influenced item
-"The Avenger", # møljner Corrupted
-"The Awakened", # yellow double influenced jewelery
-"The Bear Woman", # blue warlod ursine pelt hat
-"The Beast", # belly of the beast
-"The Betrayal", # Maligaro's Virtuosity Deerskin Gloves
-"The Bitter Blossom", # level 21 chaos gem q23 Corrupted
-"The Blazing Fire", # Chin Sol Assassin
-"The Blessing of Moosh", # lvl 21 trans gem
-"The Bones", # 21 vaal skeletons (minion)
-"The Brawny Battle Mage", # blue tornadi wand
-"The Brittle Emperor", # Voll's Devotion Agate Amulet Corrupted
-"The Calling", # unique beyond item
-"The Carrion Crow", # blue armour
-"The Cataclysm", # lvl 21 spell gem
-"The Catalyst", # 1x vaal
-"The Celestial Justicar", # magic 6link astral plate
-"The Chains that Bind", # normal 6link body armour
-"The Conduit", # doryana's fist
-"The Cursed King", # Rigwald's Curse Wereclaw Talisman
-"The Celestial Stone", # opal ring shaper
-"The Craving", # Unending Hunger Cobalt Jewel (minion)
-"The Damned", # Soul Ripper Quartz Flask
-"The Dapper Prodigy", # 6 blue link body
-"The Dark Mage", # 6link staff
-"The Darkest Dream", # severed in sleep sword Corrupted (minion)
-"The Dragon", # unique coruscating elixir
-"The Drunken Aristocrat", # Divination Distillate Large Hybrid Flask
-"The Deal", # cartography scarab
-"The Deceiver", # belt of the deciever Corrupted
-"The Deep Ones", # tidebreaker maul
-"The Demoness", # Death's Hand (minion)
-"The Doppelganger", # 20q mirror arrow
-"The Easy Stroll", #, # tier 15 map 8 modifiers
-"The Emptiness", # vaal breech gem
-"The Endurance", # blue crimson gem
-"The Enforcer", # blue spiked gloves Warlord (physical)
-"The Enthusiasts", #  Victario's Influence Lacquered Garb Two-Implicit Corrupted
-"The Escape", # Seven-League Step Rawhide Boots
-"The Ethereal", # white 6link vaal regalia white
-"The Explorer", # map Corrupted
-"The Fathomless Depths", # Lightpoacher - abyss hat
-"The Feast", # Romira's Banquet Diamond Ring Corrupted (power charge)
-"The Finishing Touch", # fertile catalyst (life and mana)
-"The Fletcher", # drillneck quiver Corrupted
-"The Flora's Gift", # white 5link staff
-"The Fool", # 20x chance
-"The Formless Sea", # varunastra sword
-"The Forsaken", # Umbilicus Immortalis Leather Belt (heals zombies shit)
-"The Fox", # level 20 gem
-"The Fox in the Brambles", # bramble jack chest Two-Implicit Corrupted
-"The Gemcutter", # gemcutters prism
-"The Gladiator", # unique nightmare bascinet
-"The Golden Era", # blue staff
-"The Hale Heart", # yellow elder Item
-"The Harvester", # the harvest sycthe
-"The Hermit", # lifesprig wand
-"The Hive of Knowledge", # mechina mitts Two-Implicit Corrupted
-"The Hook" , # Level 21 Transfigured Gem 23% Quality Corrupted
-"The Incantation", # the whispering ice
-"The Inoculated", # blue armour
-"The Insatiable", # the harvest sycthe Corrupted
-"The Jester", # blue merc 1h weap
-"The Jeweller's Boon", #  5link body influence
-"The Journalist", # blue double veiled item
-"The Journey", # harbringers orb
-"The King's Blade", # blue bloodthirsty eternal sword
-"The King's Heart", # kaom's heart
-"The Leviathan", # Maven Item Two-Implicit Corrupted - 81+ Maelström of Chaos Atoll Map (rf boots)
-"The Life Thief", # Zerphi's Heart Paua Amulet
-"The Lich", # Midnight Bargain Engraved Wand (minion)
-"The Lion", # lioneye item
-"The Lord in Black", # blue ring
-"The Lord of Celebration", # blue shaper sceptre of shit
-"The Lover", # yellow jewelery
-"The Lunaris Priestess", # sire of shards staff
-"The Mad King", # vaal aspect
-"The Magma Crab", # 21 vaal molten shell
-"The Master", # Bisco's collar gold amulet
-"The Master Artisan", # 20x q currency
-"The Metalsmith's Gift", # white prismatic ring
-"The Mind's Eyes", # Astral Projector Topaz Ring
-"The Mountain", # blue jewel of potency
-"The Offspring", # Ryslatha's Coil bel
-"The One With All", # le heup of all Corruptedt
-"The Opulent", # yellow ring
-"The Pact", # pledge of hands staff
-"The Penitent", # unique unset ring
-"The Poet", # Blood of Corruption Amber Amulet Corrupted
-"The Porcupine", # white 6link shortbow
-"The Primordial", # primordial jewel (golem) (golem)
-"The Puzzle", # 5x breech stone splinter
-"The Queen", # Atziri's Acuity Vaal Gauntlets
-"The Rabid Rhoa", # blue claw
-"The Realm", # portal
-"The Return of the Rat", # Tavukai Coral Amulet (minion srs)
-"The Rite of Elements", # lvl 21 golem gem Corrupted (golem)
-"The Road to Power", # blue runic 1h weap
-"The Ruthless Ceinture", # meginord's girdle Corrupted
-"The Scarred Meadow", # Wake of Destruction Mesh Boots
-"The Scholar", # 40x wiz
-"The Skeleton", # q23 summon skeleton Corrupted
-"The Sigil", # blue amulet
-"The Spoiled Prince", # blue wand
-"The Surgeon", # blue surgeon flask
-"The Summoner", # 20% minion gem
-"The Surveyor", # tier 14 map
-"The Standoff", # unique rustich sash
-"The Sacrifice", # white 6link Sacrificial garb - 80+ The Temple of Atzoatl
-"The Shortcut", # quicksilver flask of the cheeta
-"The Strategist", # Inspired Learning Crimson Jewel Corrupted
-"The Scavenger", # carcass jack
-"The Siren", # the whispering ice Corrupted
-"The Spark and the Flame", # bereks respite two stone ring
-"The Stormcaller", # angerod staff
-"The Sun", # Rise of the Phoenix Mosaic Kite Shield
-"The Survivalist", # 7x alchemy
-"The Sword King's Salute", # Daresso's Salute amulet
-"The Thaumaturgist", # Shavronne's Revelation Moonstone Ring Corrupted
-"The Throne", # Kaom's Roots boots
-"The Tower", # unique staff
-"The Traitor", # unique wand Corrupted
-"The Trial", # tier 15 map Corrupted
-"The Tumbleweed", # blue diamond ring - redeemer item
-"The Twins", # blue claw
-"The Tyrant", # blue merciless item
-"The Undisputed", # blue merciless vaal axe - elder
-"The Unexpected Prize", # Attribute Transforming Jewel Corrupted
-"The Vast", # song of the sirens staff
-"The Visionary", # Lioneye's Vision - chest
-"The Warden", # yellow amulet Corrupted
-"The Warlord", # six link 2handed maul, ##### MELEEE
-"The Watcher", # crown of eyes hat
-"The Web", # blue weap
-"The Wedding Gift", # Arakaali's Fang
-"The White Knight", # blue 6link astral plate - crusader
-"The Whiteout", # Cospri's Malice 1h sword foil
-"The Wilted Rose", # level 21 aura gem Corrupted
-"The Wind", # Windripper imperial bow
-"The Witch", # Kiara's Determination Silver Flask
-"The Wolf", # rigwald item (cleave weaps)
-"The Wolf's Shadow", # Hyaon's Fury Legion Sword
-"The Wolven King's Bite", # rigwalds quills quiver
-"The Wolverine", # unique claw
-"Thirst for Knowledge", # Gluttony Leather Belt
-"Thunderous Skies", # Storm Cloud long bow
-"Triskaidekaphobia", # corrup tier 13 map 8 modifiers
-"Turn the Other Cheek", # Pacifism Viridian Jewel (-1 frenzy charge
-"Vanity", # tabula Corrupted
-"Vile Power", # Doomfletch Royal Bow
-"Volatile Power", # q20 vaal gem Corrupted
-"Void of the Elements", # blue shaper opal ring
-"Who Asked", # Dictator's (phys + accuracy) Weapon Item Level: 83 Fractured
-"Winter's Embrace", # Circle of Fear Sapphire Ring ( doesn't drop)
-"Unchained", # facebreaker Two-Implicit Corrupted
+[
+  "A Chilling Wind",
+  "21 vaal cold snap",
+  0,
+  "todo",
+],
+[
+  "A Dusty Memory",
+  "yellow item fractured",
+  0,
+  "todo",
+],
+[
+  "A Familiar Call",
+  "blue jewellery of farrul shaper + hunter item",
+  0,
+  "todo",
+],
+[
+  "A Mother's Parting Gift",
+  "Fertile Mind Cobalt Jewel Corrupted (dex to int)",
+  0,
+  "todo",
+],
+[
+  "A Note in the Wind",
+  "Asenath's Mark - (bow helmet)",
+  0,
+  "todo",
+],
+[
+  "A Stone Perfected",
+  "Jewel Primordial Corrupted (golem), ##### MINION",
+  0,
+  "todo",
+],
+[
+  "Alivia's Grace",
+  "queen of the forest",
+  0,
+  "todo",
+],
+[
+  "Alone in the Darkness",
+  "unique delve item",
+  0,
+  "todo",
+],
+[
+  "Ambitious Obsession",
+  "skittering delerium orb",
+  0,
+  "todo",
+],
+[
+  "Assassin's Favour",
+  "dagger",
+  0,
+  "todo",
+],
+[
+  "Assassin's Gift",
+  "Divinarius Imperial Skean Two-Implicit Corrupted",
+  0,
+  "todo",
+],
+[
+  "Astral Protection",
+  "blue shaper shield",
+  0,
+  "todo",
+],
+[
+  "Audacity",
+  " doryanas fist Corrupted",
+  0,
+  "todo",
+],
+[
+  "Azure Rage",
+  "blue punishing map 16",
+  0,
+  "todo",
+],
+[
+  "Bijoux",
+  "yellow cluster jewel",
+  0,
+  "todo",
+],
+[
+  "Boon of Justice",
+  "offering of the goddess (lab)",
+  0,
+  "todo",
+],
+[
+  "Boundless Realms",
+  "map",
+  0,
+  "todo",
+],
+[
+  "Bowyer's Dream",
+  "white 6link harbringer bow",
+  0,
+  "todo",
+],
+[
+  "Broken Promises",
+  "blue 2x synt diamond ring",
+  0,
+  "todo",
+],
+[
+  "Brush, Paint and Palette",
+  "the artist card (enhance)",
+  0,
+  "todo",
+],
+[
+  "Buried Treasure",
+  "sulphite scarab",
+  0,
+  "todo",
+],
+[
+  "Burning Blood",
+  "Xoph's Blood Amber Amulet",
+  0,
+  "todo",
+],
+[
+  "Call to the First Ones",
+  "yellow corrupt tier 1 talisman",
+  0,
+  "todo",
+],
+[
+  "Cartographer's Delight",
+  "tier 5 map",
+  0,
+  "todo",
+],
+[
+  "Cursed Words",
+  "Maw of Mischief (minion)",
+  0,
+  "todo",
+],
+[
+  "Dark Dreams",
+  "yellow elder influence bone helmet",
+  0,
+  "todo",
+],
+[
+  "Dark Temptation",
+  "obliteration wand",
+  0,
+  "todo",
+],
+[
+  "Death",
+  "Mon'tregul's Grasp (minion)",
+  0,
+  "todo",
+],
+[
+  "Destined to Crumble",
+  "yellow body armour",
+  0,
+  "todo",
+],
+[
+  "Dialla's Subjugation",
+  "support gem 23q Corrupted",
+  0,
+  "todo",
+],
+[
+  "Disdain",
+  "delerium orb",
+  0,
+  "todo",
+],
+[
+  "Doedre's Madness",
+  "Doedre Item",
+  0,
+  "todo",
+],
+[
+  "Doryani's Epiphany",
+  "Level 21 Transfigured Gem 20qual Corrupted",
+  0,
+  "todo",
+],
+[
+  "Draped in Dreams",
+  "blue 6link astral plate influenced",
+  0,
+  "todo",
+],
+[
+  "Duality",
+  "blue double influenced body armour",
+  0,
+  "todo",
+],
+[
+  "Dying Anguish",
+  "level 19 trans gem q19",
+  0,
+  "todo",
+],
+[
+  "Dying Light",
+  "yellow shaper + elder diamond ring",
+  0,
+  "todo",
+],
+[
+  "Earth Drinker",
+  "granite flask",
+  0,
+  "todo",
+],
+[
+  "Echoes of Love",
+  "fidelita's spike Two-Implicit Corrupted",
+  0,
+  "todo",
+],
+[
+  "Eldritch Perfection",
+  "blue item perfect eldrict mod",
+  0,
+  "todo",
+],
+[
+  "Emperor of Purity",
+  "white 6link holy chainmail, ##### RF",
+  0,
+  "todo",
+],
+[
+  "Endless Night",
+  "Maloney's Mechanism Ornate Quiver",
+  0,
+  "todo",
+],
+[
+  "Etched in Blood",
+  "rigwalds quills quiver Two-Implicit Corrupted",
+  0,
+  "todo",
+],
+[
+  "Forbidden Power",
+  " Balefire Opal Sceptre Corrupted (scorcing ray)",
+  0,
+  "todo",
+],
+[
+  "From Bone to Ashes",
+  "Ngamahu's Flame Abyssal Axe Two-Implicit Corrupted",
+  0,
+  "todo",
+],
+[
+  "Further Invention",
+  "blue double influenced helmet",
+  0,
+  "todo",
+],
+[
+  "Gemcutter's Promise",
+  "20q gem",
+  0,
+  "todo",
+],
+[
+  "Gift of Asenath",
+  "Asenath's Gentle Touch Silk Gloves Two-Implicit Corrupted",
+  0,
+  "todo",
+],
+[
+  "Grave Knowledge",
+  "q20 srs",
+  0,
+  "todo",
+],
+[
+  "Her Mask",
+  "saccrifice fragment",
+  0,
+  "todo",
+],
+[
+  "Heterochromia",
+  "two-stone ring",
+  0,
+  "todo",
+],
+[
+  "Hope",
+  "prismatic ring Corrupted",
+  0,
+  "todo",
+],
+[
+  "Humility",
+  "tabula",
+  0,
+  "todo",
+],
+[
+  "Hunter's Resolve",
+  "bow",
+  0,
+  "todo",
+],
+[
+  "Hunter's Reward",
+  "The Taming Prismatic Ring",
+  0,
+  "todo",
+],
+[
+  "Immortal Resolve",
+  "blue 6link body armour - influenced",
+  0,
+  "todo",
+],
+[
+  "Imperfect Memories",
+  "rare jewellery Three-Implicit Synthesised",
+  0,
+  "todo",
+],
+[
+  "Imperial Legacy",
+  "white 6link imperial",
+  0,
+  "todo",
+],
+[
+  "Judging Voices",
+  "Forbidden Shako Great Crown",
+  0,
+  "todo",
+],
+[
+  "Keeper's Corruption",
+  "blue eldricth bone helm - elder but found in breach realm",
+  0,
+  "todo",
+],
+[
+  "Lachrymal Necrosis",
+  "Corrupted yellow Jewel Implicit Modifier: Corrupted Blood cannot be inflicted on you",
+  0,
+  "todo",
+],
+[
+  "Last Hope",
+  "mortal hope (Uber Atziri )",
+  0,
+  "todo",
+],
+[
+  "Lantador's Lost Love",
+  "yellow two-stone ring",
+  0,
+  "todo",
+],
+[
+  "Lethean Temptation",
+  "Nebulis Void Sceptre",
+  0,
+  "todo",
+],
+[
+  "Left to Fate",
+  "yellow corrupted t16 map Corrupted",
+  0,
+  "todo",
+],
+[
+  "Light and Truth",
+  "unique crystal sceptre",
+  0,
+  "todo",
+],
+[
+  "Lost Worlds",
+  "tier 15 map",
+  0,
+  "todo",
+],
+[
+  "Loyalty",
+  "3x fusing",
+  0,
+  "todo",
+],
+[
+  "Lysah's Respite",
+  "agate amulet Corrupted",
+  0,
+  "todo",
+],
+[
+  "Man With Bear",
+  "bestiary scarab",
+  0,
+  "todo",
+],
+[
+  "Magnum Opus",
+  "blue 3x synth item",
+  0,
+  "todo",
+],
+[
+  "Mawr Blaidd",
+  "Eyes of the Greatwolf Greatwolf Talisman",
+  0,
+  "todo",
+],
+[
+  "Merciless Armament",
+  "blue merciless 2h weap",
+  0,
+  "todo",
+],
+[
+  "Might is Right",
+  "Trypanon Great Mallet",
+  0,
+  "todo",
+],
+[
+  "Mitts",
+  "gloves",
+  0,
+  "todo",
+],
+[
+  "Nook's Crown",
+  "Bone Helmet Elder",
+  0,
+  "todo",
+],
+[
+  "Perfection",
+  "yellow shaper jewellery",
+  0,
+  "todo",
+],
+[
+  "Poisoned Faith",
+  "arakalis fang Corrupted",
+  0,
+  "todo",
+],
+[
+  "Pride Before the Fall",
+  "kaoms heart Corrupted",
+  0,
+  "todo",
+],
+[
+  "Prometheus' Armoury",
+  "yellow double influenced 1hand weap",
+  0,
+  "todo",
+],
+[
+  "Prosperity",
+  "blue perandus gold ring",
+  0,
+  "todo",
+],
+[
+  "Rats",
+  "rats nest",
+  0,
+  "todo",
+],
+[
+  "Rain of Chaos",
+  "1x chaos",
+  0,
+  "todo",
+],
+[
+  "Rain Tempter",
+  "tier 6 map",
+  0,
+  "todo",
+],
+[
+  "Rebirth",
+  "Charans sword",
+  0,
+  "todo",
+],
+[
+  "Reckless Ambition",
+  "Omeyocan Carnal Boots",
+  0,
+  "todo",
+],
+[
+  "Remembrance",
+  "Precursor's Emblem (ring) Corrupted",
+  0,
+  "todo",
+],
+[
+  "Sambodhi's Vow",
+  "mortal fragment (uber atziri)",
+  0,
+  "todo",
+],
+[
+  "Shard of Fate",
+  "blue vivid hewel",
+  0,
+  "todo",
+],
+[
+  "Silence and Frost",
+  "The Pandemonius Jade Amulet",
+  0,
+  "todo",
+],
+[
+  "Society's Remorse",
+  "10x alt",
+  0,
+  "todo",
+],
+[
+  "Soul Quenched",
+  "yellow two-handed experimental weapon",
+  0,
+  "todo",
+],
+[
+  "Struck by Lightning",
+  "blue lightning jewelery",
+  0,
+  "todo",
+],
+[
+  "Terrible Secret of Space",
+  "level 21 trans golem gem Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Academic",
+  "Inspired Learning Crimson Jewel - 38+ Academy Map • Museum Map • Scriptorium Map",
+  0,
+  "todo",
+],
+[
+  "The Adventuring Spirit",
+  "Victario's Influence Lacquered Garb",
+  0,
+  "todo",
+],
+[
+  "The Aesthete",
+  "shavronne item",
+  0,
+  "todo",
+],
+[
+  "The Archmage's Right Hand",
+  "blue glyphic wand",
+  0,
+  "todo",
+],
+[
+  "The Army of Blood",
+  "Bloodbond chest",
+  0,
+  "todo",
+],
+[
+  "The Arena Champion",
+  "tier 12 map",
+  0,
+  "todo",
+],
+[
+  "The Astromancer",
+  "The Eternity Shroud Blood Raiment (shaper)",
+  0,
+  "todo",
+],
+[
+  "The Aspirant",
+  "blue enchanged and influenced item",
+  0,
+  "todo",
+],
+[
+  "The Avenger",
+  "møljner Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Awakened",
+  "yellow double influenced jewelery",
+  0,
+  "todo",
+],
+[
+  "The Bear Woman",
+  "blue warlod ursine pelt hat",
+  0,
+  "todo",
+],
+[
+  "The Beast",
+  "belly of the beast",
+  0,
+  "todo",
+],
+[
+  "The Betrayal",
+  "Maligaro's Virtuosity Deerskin Gloves",
+  0,
+  "todo",
+],
+[
+  "The Bitter Blossom",
+  "level 21 chaos gem q23 Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Blazing Fire",
+  "Chin Sol Assassin",
+  0,
+  "todo",
+],
+[
+  "The Blessing of Moosh",
+  "lvl 21 trans gem",
+  0,
+  "todo",
+],
+[
+  "The Bones",
+  "21 vaal skeletons (minion)",
+  0,
+  "todo",
+],
+[
+  "The Brawny Battle Mage",
+  "blue tornadi wand",
+  0,
+  "todo",
+],
+[
+  "The Brittle Emperor",
+  "Voll's Devotion Agate Amulet Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Calling",
+  "unique beyond item",
+  0,
+  "todo",
+],
+[
+  "The Carrion Crow",
+  "blue armour",
+  0,
+  "todo",
+],
+[
+  "The Cataclysm",
+  "lvl 21 spell gem",
+  0,
+  "todo",
+],
+[
+  "The Catalyst",
+  "1x vaal",
+  0,
+  "todo",
+],
+[
+  "The Celestial Justicar",
+  "magic 6link astral plate",
+  0,
+  "todo",
+],
+[
+  "The Chains that Bind",
+  "normal 6link body armour",
+  0,
+  "todo",
+],
+[
+  "The Conduit",
+  "doryana's fist",
+  0,
+  "todo",
+],
+[
+  "The Cursed King",
+  "Rigwald's Curse Wereclaw Talisman",
+  0,
+  "todo",
+],
+[
+  "The Celestial Stone",
+  "opal ring shaper",
+  0,
+  "todo",
+],
+[
+  "The Craving",
+  "Unending Hunger Cobalt Jewel (minion)",
+  0,
+  "todo",
+],
+[
+  "The Damned",
+  "Soul Ripper Quartz Flask",
+  0,
+  "todo",
+],
+[
+  "The Dapper Prodigy",
+  "6 blue link body",
+  0,
+  "todo",
+],
+[
+  "The Dark Mage",
+  "6link staff",
+  0,
+  "todo",
+],
+[
+  "The Darkest Dream",
+  "severed in sleep sword Corrupted (minion)",
+  0,
+  "todo",
+],
+[
+  "The Dragon",
+  "unique coruscating elixir",
+  0,
+  "todo",
+],
+[
+  "The Drunken Aristocrat",
+  "Divination Distillate Large Hybrid Flask",
+  0,
+  "todo",
+],
+[
+  "The Deal",
+  "cartography scarab",
+  0,
+  "todo",
+],
+[
+  "The Deceiver",
+  "belt of the deciever Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Deep Ones",
+  "tidebreaker maul",
+  0,
+  "todo",
+],
+[
+  "The Demoness",
+  "Death's Hand (minion)",
+  0,
+  "todo",
+],
+[
+  "The Doppelganger",
+  "20q mirror arrow",
+  0,
+  "todo",
+],
+[
+  "The Easy Stroll", #,
+  "tier 15 map 8 modifiers",
+  0,
+  "todo",
+],
+[
+  "The Emptiness",
+  "vaal breech gem",
+  0,
+  "todo",
+],
+[
+  "The Endurance",
+  "blue crimson gem",
+  0,
+  "todo",
+],
+[
+  "The Enforcer",
+  "blue spiked gloves Warlord (physical)",
+  0,
+  "todo",
+],
+[
+  "The Enthusiasts",
+  "Victario's Influence Lacquered Garb Two-Implicit Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Escape",
+  "Seven-League Step Rawhide Boots",
+  0,
+  "todo",
+],
+[
+  "The Ethereal",
+  "white 6link vaal regalia white",
+  0,
+  "todo",
+],
+[
+  "The Explorer",
+  "map Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Fathomless Depths",
+  "Lightpoacher - abyss hat",
+  0,
+  "todo",
+],
+[
+  "The Feast",
+  "Romira's Banquet Diamond Ring Corrupted (power charge)",
+  0,
+  "todo",
+],
+[
+  "The Finishing Touch",
+  "fertile catalyst (life and mana)",
+  0,
+  "todo",
+],
+[
+  "The Fletcher",
+  "drillneck quiver Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Flora's Gift",
+  "white 5link staff",
+  0,
+  "todo",
+],
+[
+  "The Fool",
+  "20x chance",
+  0,
+  "todo",
+],
+[
+  "The Formless Sea",
+  "varunastra sword",
+  0,
+  "todo",
+],
+[
+  "The Forsaken",
+  "Umbilicus Immortalis Leather Belt (heals zombies shit)",
+  0,
+  "todo",
+],
+[
+  "The Fox",
+  "level 20 gem",
+  0,
+  "todo",
+],
+[
+  "The Fox in the Brambles",
+  "bramble jack chest Two-Implicit Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Gemcutter",
+  "gemcutters prism",
+  0,
+  "todo",
+],
+[
+  "The Gladiator",
+  "unique nightmare bascinet",
+  0,
+  "todo",
+],
+[
+  "The Golden Era",
+  "blue staff",
+  0,
+  "todo",
+],
+[
+  "The Hale Heart",
+  "yellow elder Item",
+  0,
+  "todo",
+],
+[
+  "The Harvester",
+  "the harvest sycthe",
+  0,
+  "todo",
+],
+[
+  "The Hermit",
+  "lifesprig wand",
+  0,
+  "todo",
+],
+[
+  "The Hive of Knowledge",
+  "mechina mitts Two-Implicit Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Hook",
+  "Level 21 Transfigured Gem 23% Quality Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Incantation",
+  "the whispering ice",
+  0,
+  "todo",
+],
+[
+  "The Inoculated",
+  "blue armour",
+  0,
+  "todo",
+],
+[
+  "The Insatiable",
+  "the harvest sycthe Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Jester",
+  "blue merc 1h weap",
+  0,
+  "todo",
+],
+[
+  "The Jeweller's Boon",
+  " 5link body influence",
+  0,
+  "todo",
+],
+[
+  "The Journalist",
+  "blue double veiled item",
+  0,
+  "todo",
+],
+[
+  "The Journey",
+  "harbringers orb",
+  0,
+  "todo",
+],
+[
+  "The King's Blade",
+  "blue bloodthirsty eternal sword",
+  0,
+  "todo",
+],
+[
+  "The King's Heart",
+  "kaom's heart",
+  0,
+  "todo",
+],
+[
+  "The Leviathan",
+  "Maven Item Two-Implicit Corrupted - 81+ Maelström of Chaos Atoll Map (rf boots)",
+  0,
+  "todo",
+],
+[
+  "The Life Thief",
+  "Zerphi's Heart Paua Amulet",
+  0,
+  "todo",
+],
+[
+  "The Lich",
+  "Midnight Bargain Engraved Wand (minion)",
+  0,
+  "todo",
+],
+[
+  "The Lion",
+  "lioneye item",
+  0,
+  "todo",
+],
+[
+  "The Lord in Black",
+  "blue ring",
+  0,
+  "todo",
+],
+[
+  "The Lord of Celebration",
+  "blue shaper sceptre of shit",
+  0,
+  "todo",
+],
+[
+  "The Lover",
+  "yellow jewelery",
+  0,
+  "todo",
+],
+[
+  "The Lunaris Priestess",
+  "sire of shards staff",
+  0,
+  "todo",
+],
+[
+  "The Mad King",
+  "vaal aspect",
+  0,
+  "todo",
+],
+[
+  "The Magma Crab",
+  "21 vaal molten shell",
+  0,
+  "todo",
+],
+[
+  "The Master",
+  "Bisco's collar gold amulet",
+  0,
+  "todo",
+],
+[
+  "The Master Artisan",
+  "20x q currency",
+  0,
+  "todo",
+],
+[
+  "The Metalsmith's Gift",
+  "white prismatic ring",
+  0,
+  "todo",
+],
+[
+  "The Mind's Eyes",
+  "Astral Projector Topaz Ring",
+  0,
+  "todo",
+],
+[
+  "The Mountain",
+  "blue jewel of potency",
+  0,
+  "todo",
+],
+[
+  "The Offspring",
+  "Ryslatha's Coil bel",
+  0,
+  "todo",
+],
+[
+  "The One With All",
+  "le heup of all Corruptedt",
+  0,
+  "todo",
+],
+[
+  "The Opulent",
+  "yellow ring",
+  0,
+  "todo",
+],
+[
+  "The Pact",
+  "pledge of hands staff",
+  0,
+  "todo",
+],
+[
+  "The Penitent",
+  "unique unset ring",
+  0,
+  "todo",
+],
+[
+  "The Poet",
+  "Blood of Corruption Amber Amulet Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Porcupine",
+  "white 6link shortbow",
+  0,
+  "todo",
+],
+[
+  "The Primordial",
+  "primordial jewel (golem) (golem)",
+  0,
+  "todo",
+],
+[
+  "The Puzzle",
+  "5x breech stone splinter",
+  0,
+  "todo",
+],
+[
+  "The Queen",
+  "Atziri's Acuity Vaal Gauntlets",
+  0,
+  "todo",
+],
+[
+  "The Rabid Rhoa",
+  "blue claw",
+  0,
+  "todo",
+],
+[
+  "The Realm",
+  "portal",
+  0,
+  "todo",
+],
+[
+  "The Return of the Rat",
+  "Tavukai Coral Amulet (minion srs)",
+  0,
+  "todo",
+],
+[
+  "The Rite of Elements",
+  "lvl 21 golem gem Corrupted (golem)",
+  0,
+  "todo",
+],
+[
+  "The Road to Power",
+  "blue runic 1h weap",
+  0,
+  "todo",
+],
+[
+  "The Ruthless Ceinture",
+  "meginord's girdle Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Scarred Meadow",
+  "Wake of Destruction Mesh Boots",
+  0,
+  "todo",
+],
+[
+  "The Scholar",
+  "40x wiz",
+  0,
+  "todo",
+],
+[
+  "The Skeleton",
+  "q23 summon skeleton Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Sigil",
+  "blue amulet",
+  0,
+  "todo",
+],
+[
+  "The Spoiled Prince",
+  "blue wand",
+  0,
+  "todo",
+],
+[
+  "The Surgeon",
+  "blue surgeon flask",
+  0,
+  "todo",
+],
+[
+  "The Summoner",
+  "20% minion gem",
+  0,
+  "todo",
+],
+[
+  "The Surveyor",
+  "tier 14 map",
+  0,
+  "todo",
+],
+[
+  "The Standoff",
+  "unique rustich sash",
+  0,
+  "todo",
+],
+[
+  "The Sacrifice",
+  "white 6link Sacrificial garb - 80+ The Temple of Atzoatl",
+  0,
+  "todo",
+],
+[
+  "The Shortcut",
+  "quicksilver flask of the cheeta",
+  0,
+  "todo",
+],
+[
+  "The Strategist",
+  "Inspired Learning Crimson Jewel Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Scavenger",
+  "carcass jack",
+  0,
+  "todo",
+],
+[
+  "The Siren",
+  "the whispering ice Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Spark and the Flame",
+  "bereks respite two stone ring",
+  0,
+  "todo",
+],
+[
+  "The Stormcaller",
+  "angerod staff",
+  0,
+  "todo",
+],
+[
+  "The Sun",
+  "Rise of the Phoenix Mosaic Kite Shield",
+  0,
+  "todo",
+],
+[
+  "The Survivalist",
+  "7x alchemy",
+  0,
+  "todo",
+],
+[
+  "The Sword King's Salute",
+  "Daresso's Salute amulet",
+  0,
+  "todo",
+],
+[
+  "The Thaumaturgist",
+  "Shavronne's Revelation Moonstone Ring Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Throne",
+  "Kaom's Roots boots",
+  0,
+  "todo",
+],
+[
+  "The Tower",
+  "unique staff",
+  0,
+  "todo",
+],
+[
+  "The Traitor",
+  "unique wand Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Trial",
+  "tier 15 map Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Tumbleweed",
+  "blue diamond ring - redeemer item",
+  0,
+  "todo",
+],
+[
+  "The Twins",
+  "blue claw",
+  0,
+  "todo",
+],
+[
+  "The Tyrant",
+  "blue merciless item",
+  0,
+  "todo",
+],
+[
+  "The Undisputed",
+  "blue merciless vaal axe - elder",
+  0,
+  "todo",
+],
+[
+  "The Unexpected Prize",
+  "Attribute Transforming Jewel Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Vast",
+  "song of the sirens staff",
+  0,
+  "todo",
+],
+[
+  "The Visionary",
+  "Lioneye's Vision - chest",
+  0,
+  "todo",
+],
+[
+  "The Warden",
+  "yellow amulet Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Warlord",
+  "six link 2handed maul, ##### MELEEE",
+  0,
+  "todo",
+],
+[
+  "The Watcher",
+  "crown of eyes hat",
+  0,
+  "todo",
+],
+[
+  "The Web",
+  "blue weap",
+  0,
+  "todo",
+],
+[
+  "The Wedding Gift",
+  "Arakaali's Fang",
+  0,
+  "todo",
+],
+[
+  "The White Knight",
+  "blue 6link astral plate - crusader",
+  0,
+  "todo",
+],
+[
+  "The Whiteout",
+  "Cospri's Malice 1h sword foil",
+  0,
+  "todo",
+],
+[
+  "The Wilted Rose",
+  "level 21 aura gem Corrupted",
+  0,
+  "todo",
+],
+[
+  "The Wind",
+  "Windripper imperial bow",
+  0,
+  "todo",
+],
+[
+  "The Witch",
+  "Kiara's Determination Silver Flask",
+  0,
+  "todo",
+],
+[
+  "The Wolf",
+  "rigwald item (cleave weaps)",
+  0,
+  "todo",
+],
+[
+  "The Wolf's Shadow",
+  "Hyaon's Fury Legion Sword",
+  0,
+  "todo",
+],
+[
+  "The Wolven King's Bite",
+  "rigwalds quills quiver",
+  0,
+  "todo",
+],
+[
+  "The Wolverine",
+  "unique claw",
+  0,
+  "todo",
+],
+[
+  "Thirst for Knowledge",
+  "Gluttony Leather Belt",
+  0,
+  "todo",
+],
+[
+  "Thunderous Skies",
+  "Storm Cloud long bow",
+  0,
+  "todo",
+],
+[
+  "Triskaidekaphobia",
+  "corrup tier 13 map 8 modifiers",
+  0,
+  "todo",
+],
+[
+  "Turn the Other Cheek",
+  "Pacifism Viridian Jewel (-1 frenzy charge",
+  0,
+  "todo",
+],
+[
+  "Vanity",
+  "tabula Corrupted",
+  0,
+  "todo",
+],
+[
+  "Vile Power",
+  "Doomfletch Royal Bow",
+  0,
+  "todo",
+],
+[
+  "Volatile Power",
+  "q20 vaal gem Corrupted",
+  0,
+  "todo",
+],
+[
+  "Void of the Elements",
+  "blue shaper opal ring",
+  0,
+  "todo",
+],
+[
+  "Who Asked",
+  "Dictator's (phys + accuracy) Weapon Item Level: 83 Fractured",
+  0,
+  "todo",
+],
+[
+  "Winter's Embrace",
+  "Circle of Fear Sapphire Ring ( doesn't drop)",
+  0,
+  "todo",
+],
+[
+  "Unchained",
+  "facebreaker Two-Implicit Corrupted",
+  0,
+  "todo",
+],
 ]

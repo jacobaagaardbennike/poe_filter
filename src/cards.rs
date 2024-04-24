@@ -12,13 +12,14 @@ struct Card {
 
 #[derive(Debug, Deserialize)]
 struct Cards {
-    cards_favorites: Vec<Card>,
-    cards_good: Vec<Card>,
-    cards_hide: Vec<Card>,
+    favorite: Vec<Card>,
+    //cards_good: Vec<Card>,
+    //cards_hide: Vec<Card>,
 }
 
 pub fn get_cards_filter(config_raw_string: &str) -> Result<(), Box<dyn Error>> {
+    println!("Raw config string: {:?}", config_raw_string);
     let cards: Cards = from_str(&config_raw_string)?;
-    dbg!(cards.cards_favorites.get(2));
+    dbg!(cards.favorite.get(1));
     Ok(())
 }

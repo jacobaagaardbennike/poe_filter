@@ -1,0 +1,74 @@
+####################################################################################################
+########## Hidden Minion Cards
+####################################################################################################
+[[hide]]
+name = "Dark Dreams"
+reward = "Elder influenced Bone Helmet"
+drop_level = 80
+info = "Minara Anemina"
+
+[[hide]]
+name = "Death"
+reward = "Mon'tregul's Grasp Void Sceptre"
+drop_level = 51
+info = "Abomination Map • Bog Map • Marshes Map • Mud Geyser Map"
+
+[[hide]]
+name = "Grave Knowledge"
+reward = "+20% quality Summon Raging Spirit"
+drop_level = 23
+info = "The Catacombs • The Ossuary (Act 5) • The Ossuary (Act 10) • The Crypt (Act 7) • Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Necropolis Map • Sanctuary Map • Ziggurat Map"
+
+[[hide]]
+name = "The Bones"
+reward = "Corrupted Level 21 Vaal Summon Skeletons"
+drop_level = 72
+info = "Minara Anemina"
+
+[[hide]]
+name = "The Craving"
+reward = "Unending Hunger Cobalt Jewel"
+drop_level = 23
+info = "Infector of Dreams, Rose, The Bone Sculptor, Thorn, Xixic High Necromancer"
+
+[[hide]]
+name = "The Darkest Dream"
+reward = "corrupted Severed in Sleep Cutlass"
+drop_level = 80
+info = "Whakawairua Tuahu"
+
+[[hide]]
+name = "The Lich"
+reward = "Midnight Bargain Engraved Wand (minion)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Return of the Rat"
+reward = "Tavukai Coral Amulet (minion srs)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Rite of Elements"
+reward = "lvl 21 golem gem Corrupted (golem)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Skeleton"
+reward = "q23 summon skeleton Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Summoner"
+reward = "20% minion gem"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Wilted Rose"
+reward = "level 21 aura gem Corrupted"
+drop_level = 72
+info = "Acton's Nightmare"

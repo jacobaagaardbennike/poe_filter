@@ -63,6 +63,12 @@ drop_level = 75
 info = "Crimson Temple Map • Crimson Township Map • Defiled Cathedral Map • Haunted Mansion Map"
 
 [[favorite]]
+name = "The Cacophony"
+reward = "3x defening essence"
+drop_level = 68
+info = "Drops from Merveil, the Returned in both Underground Sea Map and Maelström of Chaos"
+
+[[favorite]]
 name = "The Cheater"
 reward = "Level 6 Awakened Support Gem Quality: +20% Corrupted"
 drop_level = 72
@@ -138,20 +144,59 @@ info = "Citadel Map (t17map)"
 ####################################################################################################
 ########## High Value Cards
 ####################################################################################################
+
+[[favorite]]
+name = "Beauty Through Death"
+reward = "Atziri's Reflection Golden Buckler"
+drop_level = 56
+info = "K'aj A'alai, K'aj Q'ura, K'aj Y'ara'az (corrupt vaal temple)"
+
+[[favorite]]
+name = "Choking Guilt"
+reward = "Stranglegasp Onyx Amulet"
+drop_level = 80
+info = "The Infinite Hunger"
+
+[[favorite]]
+name = "Divine Justice"
+reward = "Grand Spectrum jewel Corrupted"
+drop_level = 56
+info = "Armourer's Strongbox"
+
+[[favorite]]
+name = "Fire Of Unknown Origin"
+reward = "Nimis Topaz Ring"
+drop_level = 81
+info = "Academy, Residence"
+
 [[favorite]]
 name = "Love Through Ice"
-reward = "Two-Implicit Corrupted Unnatural Instinct Viridian Jewel - (Allocated Small Passive Skills in Radius grant nothing
-Grants all bonuses of Unallocated Small Passive Skills in Radius) can be excellent with the parandus pact"
+reward = "Two-Implicit Corrupted Unnatural Instinct Viridian Jewel - (Allocated Small Passive Skills in Radius grant nothing Grants all bonuses of Unallocated Small Passive Skills in Radius) can be excellent with the parandus pact"
 drop_level = 54
 info = "Veritania, The Redeemer (conquerer)"
 
+[[favorite]]
+name = "Luminous Trove"
+reward = "Voices Large Cluster Jewel Corrupted"
+drop_level = 68
+info = "Aul, the Crystal King"
 
+[[favorite]]
+name = "The Demon"
+reward = "Headhunter Leather Belt Two-Implicit Corrupted"
+drop_level = 68
+info = "Lord of the Grey (Belfry Map), Megaera (Crater Map), The Destroyer's Heart (Lava Lake Map)"
 
+[[favorite]]
+name = "The Endless Darkness"
+reward = "Voidforge Infernal Sword"
+drop_level = 81
+info = "The Beachhead, Beachhead (unique harbringer maps), Delve. Harbinger Portals in Kirac's Memory of Phaaryl."
 
+[[favorite]]
+name = "The Progeny of Lunaris"
+reward = "Dying Sun Ruby Flask"
+drop_level = 81
+info = "Helial, the Day Unending (The Twilight Temple Moon Temple Map), Khor, Sister of Shadows (Cold River Map), Sebbert, Crescent's Point (Moon Temple Map), Selenia, the Endless Night (The Twilight Temple Moon Temple Map)"
 
-
-
-####################################################################################################
-########## Favorite cards I always want to loot (I'm mostly SSF)
-####################################################################################################
 

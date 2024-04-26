@@ -1,0 +1,193 @@
+####################################################################################################
+########## Favorite cards I always want to loot (I'm mostly SSF)
+####################################################################################################
+[[favorite]]
+name = "A Fate Worse Than Death"
+reward = "Cortex Synthesised Map Corrupted"
+drop_level = 78
+info = "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Sirus, Awakener of Worlds Veritania, The Redeemer"
+
+[[favorite]]
+name = "Alluring Bounty"
+reward = "10x exalted"
+drop_level = 68
+info = "The Apex of Sacrifice • The Alluring Abyss"
+
+[[favorite]]
+name = "Brother's Gift"
+reward = "5x div"
+drop_level = 68
+info = "Cemetery Map • Grave Trough Map • Graveyard Map"
+
+[[favorite]]
+name = "Brother's Stash"
+reward = "5x exalted"
+drop_level = 68
+info = "Cemetery Map • Grave Trough Map • Graveyard Map"
+
+[[favorite]]
+name = "Darker Half"
+reward = "5x eldricht Exalted"
+drop_level = 81
+info = "Drops when receiving Currency rewards from Delirium layers in maps (from Delirium Mirror or Delirium Orbs) and in Simulacrum."
+
+[[favorite]]
+name = "Desecrated Virtue"
+reward = "Level 6 Awakened Support Gem Quality: +23% Corrupted"
+drop_level = 0
+info = "Aul, the Crystal King"
+
+[[favorite]]
+name = "Divine Beauty"
+reward = "7x div"
+drop_level = 68
+info = "Drops from Merveil in both Underground Sea Map and Maelström of Chaos"
+
+[[favorite]]
+name = "Gemcutter's Mercy"
+reward = "Exceptional Gem (awakened or normal, empower, enhance, enchant)"
+drop_level = 38
+info = "Gem chests in the Azurite Mine."
+
+[[favorite]]
+name = "Home"
+reward = "Exceptional Gem q1-20 (awakened or normal, empower, enhance, enchant)"
+drop_level = 38
+info = "Alleyways Ancient City, Arcade, Bazaar, Chateau, City Square, Crimson Township, Haunted Mansion, Residence, Siege, Sunken City, Tower"
+
+[[favorite]]
+name = "House of Mirrors"
+reward = "1x Mirror of Kalandra"
+drop_level = 78
+info = "The Alluring Abyss (uber atziri)"
+
+[[favorite]]
+name = "I See Brothers"
+reward = "2x fracturing orb"
+drop_level = 68
+info = "various map bosses"
+
+[[favorite]]
+name = "Seven Years Bad Luck"
+reward = "1x Mirror shard"
+drop_level = 35
+info = "Crimson Temple Map • Defiled Cathedral Map"
+
+[[favorite]]
+name = "The Apothecary"
+reward = "Mageblood Heavy Belt"
+drop_level = 75
+info = "Crimson Temple Map • Crimson Township Map • Defiled Cathedral Map • Haunted Mansion Map"
+
+[[favorite]]
+name = "The Cheater"
+reward = "Level 6 Awakened Support Gem Quality: +20% Corrupted"
+drop_level = 72
+info = "Fortress (t17map)"
+
+[[favorite]]
+name = "The Dragon's Heart"
+reward = "Level 4 Empower Corrupted"
+drop_level = 78
+info = "Fortress (t17map)"
+
+[[favorite]]
+name = "The Destination"
+reward = "Watcher's Eye Prismatic Jewel Two-Implicit Corrupted"
+drop_level = 81
+info = "Beach Map • Channel Map • Shore Map • Fungal Hollow Map • Tropical Island Map"
+
+[[favorite]]
+name = "The Eldritch Decay"
+reward = "uber elder fragment"
+drop_level = 81
+info = "The Constrictor The Enslaver The Eradicator The Purifier"
+
+[[favorite]]
+name = "The Enlightened"
+reward = "Level 3 Enlighten"
+drop_level = 60
+info = "Basilica Map • Belfry Map • Crimson Temple Map • Defiled Cathedral Map • Ivory Temple Map • Lookout Map • Moon Temple Map • The Twilight Temple • Sanctuary Map • Temple Map"
+
+[[favorite]]
+name = "The Eternal War"
+reward = "Timeless Jewel Two-Implicit Corrupted"
+drop_level = 68
+info = "Al-Hezmin, The Hunter Baran, The Crusader Drox, The Warlord Veritania, The Redeemer"
+
+[[favorite]]
+name = "The Eye of Terror"
+reward = "Chayula's Flawless Breachstone"
+drop_level = 68
+info = "It That Fled"
+
+[[favorite]]
+name = "The Fortunate"
+reward = "2x div"
+drop_level = 68
+info = "Ancient City Map • Arid Lake Map • Atoll Map • Beach Map • Burial Chambers Map • Caldera Map • Canyon Map • Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map • Estuary Map • Fields Map • Jungle Valley Map • Leyline Map • Marshes Map • Mesa Map • Mineral Pools Map • Orchard Map • Peninsula Map • Plateau Map • Shore Map • Sulphur Vents Map • Terrace Map • Crater Map • Tropical Island Map"
+
+[[favorite]]
+name = "The Gulf"
+reward = "Thread of Hope crimson Jewel Two-Implicit Corrupted"
+drop_level = 86
+info = "Uber Elder only (Passives in Radius can be Allocated without being connected to your tree)"
+
+[[favorite]]
+name = "The Immortal"
+reward = "house of mirrors"
+drop_level = 35
+info = "Hall of Grandmasters"
+
+[[favorite]]
+name = "The Insane Cat"
+reward = "Mageblood Heavy Belt corrupted"
+drop_level = 68
+info = "Drops from Omniphobia and Kosis in map areas affected by Delirium."
+
+[[favorite]]
+name = "The Long Con"
+reward = "Elderslayer's Exalted Orb"
+drop_level = 80
+info = "This card drops from Izaro's Treasure chests in the Eternal Labyrinth (Uber Lab) and Enriched Eternal Labyrinth."
+
+[[favorite]]
+name = "The Price of Devotion"
+reward = "Mageblood Heavy Belt Quality +20% Two-Implicit Corrupted"
+drop_level = 75
+info = "Uber Atziri."
+
+[[favorite]]
+name = "The Sephirot"
+reward = "10x div"
+drop_level = 35
+info = "Dominus, Ascendant Excellis Aurafix The Hallowed Husk The Hallowed Husk The High Templar"
+
+[[favorite]]
+name = "The Samurai's Eye"
+reward = "Watcher's Eye Prismatic Jewel"
+drop_level = 81
+info = "Ziggurat Map (t17map)"
+
+[[favorite]]
+name = "Unrequited Love"
+reward = "19x Mirror Shard"
+drop_level = 35
+info = "The Temple of Decay Level 1 • Maze Map • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map"
+
+[[favorite]]
+name = "Wealth and Power"
+reward = "Level 4 Enlighten Corrupted"
+drop_level = 68
+info = "Citadel Map (t17map)"
+
+
+
+
+
+
+[[favorite]]
+name = "Love Through Ice"
+reward = "Unnatural Instinct Two-Implicit Corrupted"
+drop_level = 54
+info = "Veritania, The Redeemer (conquerer) - unallocated passives give bonus / good with the parandus pact"

@@ -1,0 +1,225 @@
+####################################################################################################
+########## Typically >100C in trade
+####################################################################################################
+[[favorite]]
+name = "Beauty Through Death"
+reward = "Atziri's Reflection Golden Buckler"
+drop_level = 56
+info = "K'aj A'alai, K'aj Q'ura, K'aj Y'ara'az (corrupt vaal temple)"
+
+[[favorite]]
+name = "Choking Guilt"
+reward = "Stranglegasp Onyx Amulet"
+drop_level = 80
+info = "The Infinite Hunger"
+
+[[favorite]]
+name = "Divine Justice"
+reward = "Grand Spectrum jewel Corrupted"
+drop_level = 56
+info = "Armourer's Strongbox"
+
+[[favorite]]
+name = "Fire Of Unknown Origin"
+reward = "Nimis Topaz Ring"
+drop_level = 81
+info = "Academy, Residence"
+
+[[favorite]]
+name = "Monochromen"
+reward = "Sextants, which don't crop after 234"
+drop_level = 0
+info = "CURRENTLY DISABLED"
+
+[[favorite]]
+name = "Succor of the Sinless"
+reward = "Bottled Faith Sulphur Flask"
+drop_level = 79
+info = "Sanctuary (t17map)"
+
+[[favorite]]
+name = "The Endless Darkness"
+reward = "Voidforge Infernal Sword"
+drop_level = 81
+info = "The Beachhead, Beachhead (unique harbringer maps), Delve. Harbinger Portals in Kirac's Memory of Phaaryl."
+
+[[favorite]]
+name = "The Demon"
+reward = "Headhunter Leather Belt Two-Implicit Corrupted"
+drop_level = 68
+info = "Lord of the Grey (Belfry Map), Megaera (Crater Map), The Destroyer's Heart (Lava Lake Map)"
+
+[[favorite]]
+name = "The Fiend"
+reward = "Headhunter Leather Belt Corrupted"
+drop_level = 68
+info = "Foundry Map • Laboratory Map • Shrine Map • Poorjoy's Asylum"
+
+[[favorite]]
+name = "The Doctor"
+reward = "Headhunter Leather Belt"
+drop_level = 68
+info = "Abomination Map • Burial Chambers Map • The Putrid Cloister • Phantasmagoria Map • Sepulchre Map • Spider Forest Map • Waste Pool Map"
+
+[[favorite]]
+name = "The Progeny of Lunaris"
+reward = "Dying Sun Ruby Flask"
+drop_level = 81
+info = "Helial, the Day Unending (The Twilight Temple Moon Temple Map), Khor, Sister of Shadows (Cold River Map), Sebbert, Crescent's Point (Moon Temple Map), Selenia, the Endless Night (The Twilight Temple Moon Temple Map)"
+
+
+####################################################################################################
+########## Typically 50-100ish in trade or valuable item or has few drop places
+####################################################################################################
+[[good]]
+name = "Auspicious Ambitions"
+reward = "Experimented Item Level: 100 Double-Influenced"
+drop_level = 73
+info = "Drops from the regular and uber versions of Maven, Exarch, Eater, and Uber Elder."
+
+[[favorite]]
+name = "The Artist"
+reward = "level 4 enhance Corrupted"
+drop_level = 68
+info = "Abomination (tier17 map)"
+
+[[favorite]]
+name = "The Chosen"
+reward = "Skin of the Lords Simple Robe"
+drop_level = 80
+info = "Breach encounters such as in Clasped Hand"
+
+[[good]]
+name = "The Greatest Intentions"
+reward = "The Saviour Legion Sword Two-Implicit Corrupted"
+drop_level = 81
+info = "Maven's Invitation: The Feared"
+
+[[favorite]]
+name = "The Price of Loyalty"
+reward = "Skin of the Loyal Simple Robe (Two-Implicit Corrupted)"
+drop_level = 79
+info = "Zilquapa, Architect of the Breach"
+
+[[favorite]]
+name = "The Sacrifice"
+reward = "white 6link Sacrificial garb"
+drop_level = 80
+info = "The Temple of Atzoatl"
+
+[[favorite]]
+name = "The Shieldbearer"
+reward = "The Squire Elegant Round Shield"
+drop_level = 70
+info = "Citadel Map (t17map)"
+
+[[favorite]]
+name = "The World Eater"
+reward = "Starforge Infernal Sword"
+drop_level = 83
+info = "Ghorr, the Grasping Maw"
+
+
+[[favorite]]
+name = "Underground Forest"
+reward = "Sextants, which don't crop after 234"
+drop_level = 0
+info = "CURRENTLY DISABLED"
+
+
+####################################################################################################
+########## Typically 10-50ish in trade
+####################################################################################################
+[[hide]]
+name = "Assassin's Gift"
+reward = "Divinarius Imperial Skean Two-Implicit Corrupted"
+drop_level = 68
+info = "doesn't drop, only from gamble cards"
+
+[[hide]]
+name = "Broken Promises"
+reward = "Two-implicit synthesised item level 87 Diamond Ring"
+drop_level = 80
+info = "Eater of Souls, Tolman, the Exhumer"
+
+[[good]]
+name = "Deadly Joy"
+reward = "The Torrent's Reclamation Cloth Belt"
+drop_level = 68
+info = "Poorjoy's Asylum"
+
+[[favorite]]
+name = "Doryani's Epiphany"
+reward = "Random corrupted level 21 transfigured gem with 20% quality"
+drop_level = 68
+info = "Doryani's Machinarium (new lab gems)"
+
+[[good]]
+name = "Matryoshka"
+reward = "rare onyx amulet Item Level: 85 Quality: +20% Influenced Item Four Anointments Incubating Talisman Item Corrupted"
+drop_level = 68
+info = "Unravelling Horror"
+
+[[good]]
+name = "Misery in Darkness"
+reward = "Shroud of the Lightless Carnal Armour (abyss)"
+drop_level = 68
+info = "Kurgal, the Blackblooded"
+
+[[favorite]]
+name = "Pride of the First Ones"
+reward = "Farrul's Fur Triumphant Lamellar"
+drop_level = 80
+info = "Barrows Map • Grotto Map • Lair Map • Caer Blaidd, Wolfpack's Den"
+
+[[favorite]]
+name = "The Dreamer"
+reward = "Chayula Item"
+drop_level = 68
+info = "Agent of the Void"
+
+[[good]]
+name = "The Eye of the Dragon"
+reward = "jewel Corrupted (not most expensive, but ok)"
+drop_level = 23
+info = "The Boiling Lake • Forge of the Phoenix Map • Sulphur Vents Map"
+
+[[favorite]]
+name = "The Garish Power"
+reward = "unique jewel"
+drop_level = 23
+info = "The Chamber of Sins Level 1 (Act 7) • The Chamber of Sins Level 2 (Act 7) • Overgrown Ruin Map • Overgrown Shrine Map"
+
+[[favorite]]
+name = "The Last One Standing"
+reward = "Atziri's Disfavour Vaal Axe"
+drop_level = 80
+info = "Arena, Colosseum, Pit, Pit of the Chimera"
+
+[[favorite]]
+name = "The Nurse"
+reward = "The Doctor"
+drop_level = 30
+info = "Abomination, Carcass, Cells, Core, Scriptorium, Shavronne's Tower, The Harvest, The Rotting Core, Tower"
+
+[[favorite]]
+name = "The Patient"
+reward = "the nurse"
+drop_level = 68
+info = "Armoury Map • Arsenal Map • Colonnade Map • Promenade Map"
+
+[[favorite]]
+name = "The Soul"
+reward = "Soul Taker Siege Axe"
+drop_level = 68
+info = "Cells Map • Core Map • Museum Map • Overgrown Shrine Map • Phantasmagoria Map • Sepulchre Map • Tower Map • Waste Pool Map"
+
+
+[
+  
+  
+  0,
+  "todo",
+],
+
+

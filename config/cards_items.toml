@@ -1,22 +1,184 @@
 
 ####################################################################################################
-########## Top Cards
+########## Items: Top
+####################################################################################################
+[[good]]
+name = "Auspicious Ambitions"
+reward = "Experimented Item Level: 100 Double-Influenced"
+drop_level = 73
+info = "Drops from the regular and uber versions of Maven, Exarch, Eater, and Uber Elder."
+
+
+
+####################################################################################################
+########## Items: All Season
+####################################################################################################
+
+[[hide]]
+name = "A Familiar Call"
+reward = "blue jewellery of farrul shaper + hunter item"
+drop_level = 0
+info = "todo"
+
+[[good]]
+name = "Matryoshka"
+reward = "rare onyx amulet Item Level: 85 Quality: +20% Influenced Item Four Anointments Incubating Talisman Item Corrupted"
+drop_level = 68
+info = "Unravelling Horror"
+
+[[good]]
+name = "The Sacrifice"
+reward = "white 6link Sacrificial garb"
+drop_level = 80
+info = "The Temple of Atzoatl"
+
+[[hide]]
+name = "Who Asked"
+reward = "Dictator's Weapon Item Level: 83 Fractured - (% physical damage and accuracy rating)"
+drop_level = 80
+info = "Fortress Map • Foundry Map • Forge of the Phoenix Map • Silo Map May drop from other Forge_Area tag maps"
+
+####################################################################################################
+########## Items: Mix
+####################################################################################################
+
+[[hide]]
+name = "Draped in Dreams"
+reward = "blue 6link astral plate influenced"
+drop_level = 0
+info = "TODO"
+
+
+[[hide]]
+name = "The Aspirant"
+reward = "blue enchanged and influenced item"
+drop_level = 0
+info = "Harvest boss"
+
+[[hide]]
+name = "The Awakened"
+reward = "yellow double influenced jewelery"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Celestial Stone"
+reward = "opal ring shaper"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Items: Gamble
 ####################################################################################################
 
 
 ####################################################################################################
-########## Favorite Cards
+########## Items: Hidden Unless Build
 ####################################################################################################
 
-####################################################################################################
-########## Useful Cards
-####################################################################################################
+[[hide]]
+name = "Emperor of Purity"
+reward = "white 6link holy chainmail (good for righteous fire)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Enforcer"
+reward = "blue spiked gloves Warlord (physical)"
+drop_level = 0
+info = "TODO"
 
 ####################################################################################################
-########## Silly Gamble Cards
+########## Unique: Hidden Unless SSF
 ####################################################################################################
+
+[[hide]]
+name = "Immortal Resolve"
+reward = "blue 6link body armour - influenced"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Celestial Justicar"
+reward = "magic 6link astral plate"
+drop_level = 0
+info = "TODO"
 
 
 ####################################################################################################
-########## Hidden Cards
+########## Items: Fishing related cards which are mostly hidden by default
 ####################################################################################################
+[[hide]]
+name = "Baited Expectations"
+reward = "fishing item unique"
+drop_level = 23
+info = "Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map"
+
+[[hide]]
+name = "The Catch"
+reward = "fish rod"
+drop_level = 68
+info = "Atoll Map • Maelström of Chaos • Beach Map • Coves Map • Peninsula Map • Plateau Map • Reef Map • Shipyard Map • Shore Map • Strand Map • Tropical Island Map"
+
+[[good]]
+name = "The Fishmonger"
+reward = "albino rhoa feather"
+drop_level = 23
+info = "Drought-Maddened Rhoa Skullbeak"
+
+[[hide]]
+name = "The Vast"
+reward = "Song of the Sirens Fishing Rod"
+drop_level = 23
+info = "Coral Ruins Map • Coves Map • Reef Map"
+
+[[hide]]
+name = "The Old Man"
+reward = "yellow fishing rod"
+drop_level = 54
+info = "Atoll Map • Lighthouse Map • Peninsula Map • Pier Map • Shore Map • Strand Map • Tropical Island Map • Wharf Map"
+
+####################################################################################################
+########## Items: Hidden
+####################################################################################################
+[[hide]]
+name = "The Chains that Bind"
+reward = "normal 6link body armour"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Dapper Prodigy"
+reward = "6 blue link body"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Dark Mage"
+reward = "6link staff"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Ethereal"
+reward = "white 6link vaal regalia white"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Flora's Gift"
+reward = "white 5link staff"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Warlord"
+reward = "six link 2handed maul"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The White Knight"
+reward = "Normal Six-Link Astral Plate Item Level: 100 Crusader Item"
+drop_level = 0
+info = "Trial of Stinging Doubt"

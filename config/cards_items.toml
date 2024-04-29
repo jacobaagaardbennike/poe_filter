@@ -13,12 +13,35 @@ info = "Drops from the regular and uber versions of Maven, Exarch, Eater, and Ub
 ####################################################################################################
 ########## Items: All Season
 ####################################################################################################
-
 [[hide]]
 name = "A Familiar Call"
 reward = "blue jewellery of farrul shaper + hunter item"
 drop_level = 0
 info = "todo"
+
+[[hide]]
+name = "Broken Promises"
+reward = "Two-implicit synthesised item level 87 Normal Diamond Ring"
+drop_level = 80
+info = "Eater of Souls, Tolman the Exhumer"
+
+[[hide]]
+name = "Imperfect Memories"
+reward = "Random three-implicit synthesised item level 100 rare jewellery"
+drop_level = 80
+info = "Venarius (Synth Cortex Map)"
+
+[[good]]
+name = "Magnum Opus"
+reward = "Three-Implicit Synthesised Normal level 100 Item"
+drop_level = 80
+info = "Altered Distant Memory • Augmented Distant Memory • Twisted Distant Memory • Rewritten Distant Memory"
+
+[[hide]]
+name = "More is Never Enough"
+reward = "?"
+drop_level = 0
+info = "CURRENTLY DISABLED"
 
 [[good]]
 name = "Matryoshka"
@@ -26,11 +49,47 @@ reward = "rare onyx amulet Item Level: 85 Quality: +20% Influenced Item Four Ano
 drop_level = 68
 info = "Unravelling Horror"
 
+[[favorite]]
+name = "Monochrome"
+reward = "Sextants, which don't crop after 234"
+drop_level = 0
+info = "CURRENTLY DISABLED"
+
+[[hide]]
+name = "Prometheus' Armoury"
+reward = "yellow double influenced 1hand weap"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Rebirth and Renewal"
+reward = "?"
+drop_level = 0
+info = "CURRENTLY DISABLED"
+
 [[good]]
 name = "The Sacrifice"
 reward = "white 6link Sacrificial garb"
 drop_level = 80
 info = "The Temple of Atzoatl"
+
+[[good]]
+name = "The Shortcut"
+reward = "Quicksilver Flask of the Cheetah Item Level: 100 (12-14% movement)"
+drop_level = 80
+info = "Trial of Stinging Doubt • Trial of Burning Rage • Trial of Lingering Pain • Trial of Crippling Grief • Trial of Piercing Truth • Trial of Swirling Fear. Drops in Vaal side areas and Labyrinth Trial areas of area level 80+."
+
+[[favorite]]
+name = "Underground Forest"
+reward = "Sextants, which don't crop after 234"
+drop_level = 0
+info = "CURRENTLY DISABLED"
+
+[[hide]]
+name = "Void of the Elements"
+reward = "blue shaper opal ring"
+drop_level = 0
+info = "TODO"
 
 [[hide]]
 name = "Who Asked"
@@ -48,6 +107,29 @@ reward = "blue 6link astral plate influenced"
 drop_level = 0
 info = "TODO"
 
+[[hide]]
+name = "Duality"
+reward = "blue double influenced body armour"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Dying Light"
+reward = "yellow shaper + elder diamond ring"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Further Invention"
+reward = "blue double influenced helmet"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Nook's Crown"
+reward = "Elder influenced item level 100 Rare Bone Helmet"
+drop_level = 0
+info = "Catarina Master of Undeath (Investigation boss)"
 
 [[hide]]
 name = "The Aspirant"
@@ -70,6 +152,30 @@ info = "TODO"
 ####################################################################################################
 ########## Items: Gamble
 ####################################################################################################
+
+[[hide]]
+name = "A Dusty Memory"
+reward = "yellow item fractured"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Bijoux"
+reward = "yellow cluster jewel"
+drop_level = 0
+info = "TODO"
+
+[[good]]
+name = "The Void"
+reward = "random card"
+drop_level = 23
+info = "Abomination Map • Citadel Map • Fortress Map • Sanctuary Map • Ziggurat Map"
+
+[[hide]]
+name = "The Gambler"
+reward = "divination card"
+drop_level = 0
+info = "todo"
 
 
 ####################################################################################################
@@ -104,6 +210,11 @@ reward = "magic 6link astral plate"
 drop_level = 0
 info = "TODO"
 
+[[hide]]
+name = "The Undisputed"
+reward = "blue merciless vaal axe - elder"
+drop_level = 0
+info = "TODO"
 
 ####################################################################################################
 ########## Items: Fishing related cards which are mostly hidden by default
@@ -138,9 +249,112 @@ reward = "yellow fishing rod"
 drop_level = 54
 info = "Atoll Map • Lighthouse Map • Peninsula Map • Pier Map • Shore Map • Strand Map • Tropical Island Map • Wharf Map"
 
+[[good]]
+name = "The One That Got Away"
+reward = "Replica Bated Breath Chain Belt"
+drop_level = 78
+info = "Strand Map"
+
 ####################################################################################################
 ########## Items: Hidden
 ####################################################################################################
+
+[[hide]]
+name = "Astral Protection"
+reward = "blue shaper shield"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Call to the First Ones"
+reward = "yellow corrupt tier 1 talisman"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Destined to Crumble"
+reward = "yellow body armour"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Eldritch Perfection"
+reward = "blue item perfect eldrict mod"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Lantador's Lost Love"
+reward = "yellow two-stone ring"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Lachrymal Necrosis"
+reward = "Corrupted yellow Jewel Implicit Modifier: Corrupted Blood cannot be inflicted on you"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Merciless Armament"
+reward = "blue merciless 2h weap"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Perfection"
+reward = "yellow shaper jewellery"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Prosperity"
+reward = "blue perandus gold ring"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Shard of Fate"
+reward = "blue vivid hewel"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Soul Quenched"
+reward = "yellow two-handed experimental weapon"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Struck by Lightning"
+reward = "blue lightning jewelery"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Archmage's Right Hand"
+reward = "blue glyphic wand"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Bear Woman"
+reward = "blue warlod ursine pelt hat"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Brawny Battle Mage"
+reward = "blue tornado wand"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Carrion Crow"
+reward = "blue armour"
+drop_level = 0
+info = "TODO"
+
 [[hide]]
 name = "The Chains that Bind"
 reward = "normal 6link body armour"
@@ -160,6 +374,12 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
+name = "The Endurance"
+reward = "blue crimson gem"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
 name = "The Ethereal"
 reward = "white 6link vaal regalia white"
 drop_level = 0
@@ -172,8 +392,146 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
+name = "The Golden Era"
+reward = "blue staff"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Hale Heart"
+reward = "yellow elder Item"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Inoculated"
+reward = "blue armour"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Jester"
+reward = "blue merc 1h weap"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Jeweller's Boon"
+reward = " 5link body influence"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Journalist"
+reward = "blue double veiled item"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The King's Blade"
+reward = "blue bloodthirsty eternal sword"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Lord in Black"
+reward = "blue ring"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Lord of Celebration"
+reward = "blue shaper sceptre of shit"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Lover"
+reward = "yellow jewelery"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Metalsmith's Gift"
+reward = "white prismatic ring"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Mountain"
+reward = "blue jewel of potency"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Opulent"
+reward = "yellow ring"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Rabid Rhoa"
+reward = "blue claw"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Road to Power"
+reward = "blue runic 1h weap"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Sigil"
+reward = "blue amulet"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Spoiled Prince"
+reward = "blue wand"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Surgeon"
+reward = "blue surgeon flask"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Tumbleweed"
+reward = "blue diamond ring - redeemer item"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Twins"
+reward = "blue claw"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Tyrant"
+reward = "blue merciless item"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Warden"
+reward = "yellow amulet Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
 name = "The Warlord"
 reward = "six link 2handed maul"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Web"
+reward = "blue weap"
 drop_level = 0
 info = "TODO"
 

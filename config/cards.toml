@@ -1,179 +1,246 @@
-"A Dusty Memory"
-"Astral Protection"
-"Bijoux"
-"Duality"
-"Dying Light"
-"Eldritch Perfection"
-"Further Invention"
-"Keeper's Corruption"
-"Lachrymal Necrosis"
-"Merciless Armament"
-"Perfection"
-"Prometheus' Armoury"
-"Shard of Fate"
-"Soul Quenched"
-"The Archmage's Right Hand"
-"The Bear Woman"
-"The Brawny Battle Mage"
+####################################################################################################
+########## Unique: Top
+####################################################################################################
+[[valuable]]
+name = "Beauty Through Death"
+reward = "Atziri's Reflection Golden Buckler"
+drop_level = 56
+info = "K'aj A'alai, K'aj Q'ura, K'aj Y'ara'az (corrupt vaal temple)"
 
-###
-"A Modest Request"
-"Alone in the Darkness"
-"Assassin's Favour"
-"Atziri's Arsenal"
-"Blind Venture"
-"Costly Curio"
-"Doedre's Madness"
-"Earth Drinker"
-"Glimmer of Hope"
-"Heterochromia"
-"Hope"
-"Prejudice"
-"Pride Before the Fall"
-"Sambodhi's Wisdom"
-"The Admirer"
-"The Aesthete"
-"The Battle Born"
-"The Body"
-"The Breach"
-"The Cache"
-"The Calling"
-"The Dragon"
-"The Dungeon Master"
-"The Easy Stroll"
-"The Encroaching Darkness"
-"The Endurance"
-"The Explorer"
-"The Forgotten Treasure"
-"The Formless Sea"
-"The Forward Gaze"
-"The Gentleman"
-"The Gladiator"
-"The Hale Heart"
-"The Hive of Knowledge"
-"The Jeweller's Boon"
-"The Lion"
-"The Magma Crab"
-"The Mercenary"
-"The Messenger"
-"The Mind's Eyes"
-"The Mountain"
-"The One That Got Away"
-"The Penitent"
-"The Prince of Darkness"
-"The Road to Power"
-"The Shepherd's Sandals"
-"The Standoff"
-"The Thaumaturgist"
-"The Tower"
-"The Traitor"
-"The Tumbleweed"
-"The Tyrant"
-"The Undisputed"
-"The Unexpected Prize"
-"The Wolf"
-"The Wolverine"
-"Time-Lost Relic"
-"Void of the Elements"
-"Call to the First Ones"
-"Destined to Crumble"
-"Echoes of Love"
-"Forbidden Power"
-"From Bone to Ashes"
-"Lantador's Lost Love"
-"Light and Truth"
-"Might is Right"
-"Prosperity"
-"Struck by Lightning"
-"The Adventuring Spirit"
-"The Army of Blood"
-"The Beast"
-"The Betrayal"
-"The Blazing Fire"
-"The Carrion Crow"
-"The Coming Storm"
-"The Conduit"
-"The Cursed King"
-"The Drunken Aristocrat"
-"The Fathomless Depths"
-"The Feast"
-"The Fletcher"
-"The Forsaken"
-"The Fox in the Brambles"
-"The Golden Era"
-"The Harvester"
-"The Hermit"
-"The Incantation"
-"The Inoculated"
-"The Insatiable"
-"The Jester"
-"The Journalist"
-"The King's Blade"
-"The Lord in Black"
-"The Lord of Celebration"
-"The Lover"
-"The Metalsmith's Gift"
-"The Oath"
-"The Opulent"
-"The Pack Leader"
-"The Rabid Rhoa"
-"The Scavenger"
-"The Sigil"
-"The Spoiled Prince"
-"The Surgeon"
-"The Twins"
-"The Warden"
-"The Web"
-"The Witch"
+[[valuable]]
+name = "Choking Guilt"
+reward = "Stranglegasp Onyx Amulet"
+drop_level = 80
+info = "The Infinite Hunger"
+
+[[valuable]]
+name = "Divine Justice"
+reward = "Grand Spectrum jewel Corrupted"
+drop_level = 56
+info = "Armourer's Strongbox"
+
+[[valuable]]
+name = "Fire Of Unknown Origin"
+reward = "Nimis Topaz Ring"
+drop_level = 81
+info = "Academy, Residence"
+
+[[valuable]]
+name = "Love Through Ice"
+reward = "Two-Implicit Corrupted Unnatural Instinct Viridian Jewel - (Allocated Small Passive Skills in Radius grant nothing Grants all bonuses of Unallocated Small Passive Skills in Radius) can be excellent with the parandus pact"
+drop_level = 54
+info = "Veritania, The Redeemer (conquerer)"
+
+[[valuable]]
+name = "Luminous Trove"
+reward = "Voices Large Cluster Jewel Corrupted"
+drop_level = 68
+info = "Aul, the Crystal King"
+
+[[valuable]]
+name = "Succor of the Sinless"
+reward = "Bottled Faith Sulphur Flask"
+drop_level = 79
+info = "Sanctuary (t17map)"
+
+[[valuable]]
+name = "The Apothecary"
+reward = "Mageblood Heavy Belt"
+drop_level = 75
+info = "Crimson Temple Map • Crimson Township Map • Defiled Cathedral Map • Haunted Mansion Map"
+
+[[valuable]]
+name = "The Demon"
+reward = "Headhunter Leather Belt Two-Implicit Corrupted"
+drop_level = 68
+info = "Lord of the Grey (Belfry Map), Megaera (Crater Map), The Destroyer's Heart (Lava Lake Map)"
+
+[[valuable]]
+name = "The Dragon's Heart"
+reward = "Level 4 Empower Corrupted"
+drop_level = 78
+info = "Fortress (t17map)"
+
+[[valuable]]
+name = "The Doctor"
+reward = "Headhunter Leather Belt"
+drop_level = 68
+info = "Abomination Map • Burial Chambers Map • The Putrid Cloister • Phantasmagoria Map • Sepulchre Map • Spider Forest Map • Waste Pool Map"
+
+[[valuable]]
+name = "The Endless Darkness"
+reward = "Voidforge Infernal Sword"
+drop_level = 81
+info = "The Beachhead, Beachhead (unique harbringer maps), Delve. Harbinger Portals in Kirac's Memory of Phaaryl."
+
+[[valuable]]
+name = "The Gulf"
+reward = "Thread of Hope crimson Jewel Two-Implicit Corrupted"
+drop_level = 86
+info = "Uber Elder only (Passives in Radius can be Allocated without being connected to your tree)"
+
+[[valuable]]
+name = "The Insane Cat"
+reward = "Mageblood Heavy Belt corrupted"
+drop_level = 68
+info = "Drops from Omniphobia and Kosis in map areas affected by Delirium."
+
+[[valuable]]
+name = "The Price of Devotion"
+reward = "Mageblood Heavy Belt Quality +20% Two-Implicit Corrupted"
+drop_level = 75
+info = "Uber Atziri."
+
+[[valuable]]
+name = "The Progeny of Lunaris"
+reward = "Dying Sun Ruby Flask"
+drop_level = 81
+info = "Helial, the Day Unending (The Twilight Temple Moon Temple Map), Khor, Sister of Shadows (Cold River Map), Sebbert, Crescent's Point (Moon Temple Map), Selenia, the Endless Night (The Twilight Temple Moon Temple Map)"
+
+[[valuable]]
+name = "The Samurai's Eye"
+reward = "Watcher's Eye Prismatic Jewel"
+drop_level = 81
+info = "Ziggurat Map (t17map)"
 
 ####################################################################################################
-########## Missing
+########## Unique: All Season
 ####################################################################################################
+[[all_season]]
+name = "Azyran's Reward"
+reward = "Prismatic Jewel Corrupted (can drop watcher)"
+drop_level = 68
+info = "Laboratory Map • Relic Chambers Map • Stagnation Map"
 
-"The Shortcut"
-"The Twilight Moon"
+[[all_season]]
+name = "Chasing Risk"
+reward = "Synthesis Item (can drop bottled faith)"
+drop_level = 81
+info = "Drops from the Vaal Omnitect in areas of level 79 or greater."
 
+[[all_season]]
+name = "Deadly Joy"
+reward = "two-implicit corrupted The Torrent's Reclamation Cloth Belt"
+drop_level = 68
+info = "Poorjoy's Asylum"
+
+[[all_season]]
+name = "Judging Voices"
+reward = "Forbidden Shako Great Crown"
+drop_level = 0
+info = "TODO"
+
+[[all_season]]
+name = "Remembrance"
+reward = "Precursor's Emblem (ring) Corrupted"
+drop_level = 0
+info = "TODO"
 
 [[hide]]
-name = "Monochrome"
-reward = "corrupted item"
-drop_level = 0
-info = "DISABLED BUT ---"
+name = "The Astromancer"
+reward = "two-implicit corrupted The Eternity Shroud Blood Raiment"
+drop_level = 81
+info = "Corpse Stitcher (heist lab thing)"
 
+[[all_season]]
+name = "The Chosen"
+reward = "Skin of the Lords Simple Robe"
+drop_level = 80
+info = "Breach encounters such as in Clasped Hand"
 
-
-[cards]
-####################################################################################################
-########## Favorite cards I always want to loot (I'm mostly SSF)
-####################################################################################################
-
+[[all_season]]
+name = "The Destination"
+reward = "Watcher's Eye Prismatic Jewel Two-Implicit Corrupted"
+drop_level = 81
+info = "Beach Map • Channel Map • Shore Map • Fungal Hollow Map • Tropical Island Map"
 
 [[favorite]]
-name = "The Dungeon Master"
-reward = "BeltDouble-Influenced Item (can bemageblood headhunter)"
+name = "The Eternal War"
+reward = "Timeless Jewel Two-Implicit Corrupted"
 drop_level = 68
-info = "Cage Map • Cells Map • Dungeon Map • Pen Map"
+info = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer"
 
-[[favorite]]
-name = "The Messenger"
-reward = "harbringer piece"
+[[all_season]]
+name = "The Fiend"
+reward = "Headhunter Leather Belt Corrupted"
 drop_level = 68
-info = "Crystal Ore Map • Port Map"
+info = "Foundry Map • Laboratory Map • Shrine Map • Poorjoy's Asylum"
+
+[[all_season]]
+name = "The Greatest Intentions"
+reward = "The Saviour Legion Sword Two-Implicit Corrupted"
+drop_level = 81
+info = "Maven's Invitation: The Feared (shaper)"
 
 [[favorite]]
+name = "The Hunger"
+reward = "Taste of Hate Sapphire Flask"
+drop_level = 38
+info = "The Belly of the Beast Level 1 • The Belly of the Beast Level 2 • The Harvest (area) • The Belly of the Beast (Act 9) • The Rotting Core • Abomination Map • Carcass Map • Core Map • Malformation Map • Phantasmagoria Map"
+
+[[all_season]]
+name = "The Last One Standing"
+reward = "Atziri's Disfavour Vaal Axe"
+drop_level = 80
+info = "Arena, Colosseum, Pit, Pit of the Chimera"
+
+[[all_season]]
+name = "The Mad King"
+reward = "Vaal Aspect (drops from vaal bosses, can be combined to The Adorned Crimson Jewel - (50-150)% increased Effect of Jewel Socket Passive Skills containing Corrupted Magic Jewels"
+drop_level = 68
+info = "Caldera Map • Colosseum Map • Dark Forest Map • Reef Map"
+
+[[all_season]]
+name = "The Nurse"
+reward = "The Doctor"
+drop_level = 30
+info = "Abomination, Carcass, Cells, Core, Scriptorium, Shavronne's Tower, The Harvest, The Rotting Core, Tower"
+
+[[favorite]]
+name = "The Patient"
+reward = "the nurse"
+drop_level = 68
+info = "Armoury Map • Arsenal Map • Colonnade Map • Promenade Map"
+
+[[all_season]]
+name = "The Price of Loyalty"
+reward = "Skin of the Loyal Simple Robe (Two-Implicit Corrupted)"
+drop_level = 79
+info = "Zilquapa, Architect of the Breach"
+
+[[all_season]]
 name = "The Prince of Darkness"
 reward = "Elegant Hubris Timeless Jewel"
 drop_level = 68
 info = "Eater of Souls Nightmare's Omen"
 
-[[favorite]]
-name = "Time-Lost Relic"
-reward = "unique league specific item (Can drop headhunter)"
+[[all_season]]
+name = "The Shieldbearer"
+reward = "The Squire Elegant Round Shield"
+drop_level = 70
+info = "Citadel Map (t17map)"
+
+[[all_season]]
+name = "The Soul"
+reward = "Soul Taker Siege Axe"
 drop_level = 68
-info = "Battleground Graves • Bluffs • Cemetery • Desert Ruins • Dried Riverbed • Forest Ruins • Karui Wargraves • Mountainside • Rotting Temple • Sarn Slums • Scrublands • Shipwreck Reef • Utzaal Outskirts • Vaal Temple • Volcanic Island • Crystal Ore Map • Dig Map • Excavation Map • Flooded Mine Map • Geode Map • Grotto Map"
+info = "Cells Map • Core Map • Museum Map • Overgrown Shrine Map • Phantasmagoria Map • Sepulchre Map • Tower Map • Waste Pool Map"
+
+[[all_season]]
+name = "The World Eater"
+reward = "Starforge Infernal Sword"
+drop_level = 83
+info = "Ghorr, the Grasping Maw"
+
+[[hide]]
+name = "Winter's Embrace"
+reward = "Three-implicit synthesised Circle of Fear Sapphire Ring"
+drop_level = 68
+info = "doesn't drop, only from gamble cards"
+
 
 ####################################################################################################
-########## Early - mid league cards
+########## Unique: Mix
 ####################################################################################################
 
 [[good]]
@@ -182,6 +249,87 @@ reward = "Megalomaniac Medium Cluster Jewel Corrupted"
 drop_level = 68
 info = "Eater of Souls Nightmare's Omen The Hallowed Husk The High Templar"
 
+[[good]]
+name = "Assassin's Gift"
+reward = "Divinarius Imperial Skean Two-Implicit Corrupted"
+drop_level = 68
+info = "doesn't drop, only from gamble cards"
+
+[[good]]
+name = "Brotherhood in Exile"
+reward = "One With Nothing Small Cluster Jewel (Adds Hollow Palm Technique)"
+drop_level = 68
+info = "Chateau Map • Conservatory Map • Orchard Map • Plaza Map"
+
+[[hide]]
+name = "Mawr Blaidd"
+reward = "Eyes of the Greatwolf Greatwolf Talisman"
+drop_level = 68
+info = "Bramble Valley Map • Dark Forest Map • Forbidden Woods Map"
+
+[[good]]
+name = "Misery in Darkness"
+reward = "Shroud of the Lightless Carnal Armour (abyss)"
+drop_level = 68
+info = "Kurgal, the Blackblooded (delve boss)"
+
+[[good]]
+name = "Pride of the First Ones"
+reward = "Farrul's Fur Triumphant Lamellar"
+drop_level = 80
+info = "Barrows Map • Grotto Map • Lair Map • Caer Blaidd, Wolfpack's Den"
+
+[[good]]
+name = "The Coming Storm"
+reward = "Lightning Coil Desert Brigandine"
+drop_level = 45
+info = "Cemetery Map • Colonnade Map • Graveyard Map • Infested Valley Map • Leyline Map • Promenade Map • Shipyard Map • Stagnation Map • Villa Map • Wharf Map"
+
+[[hide]]
+name = "The Damned"
+reward = "Soul Ripper Quartz Flask"
+drop_level = 0
+info = "TODO"
+
+[[good]]
+name = "The Escape"
+reward = "Seven-League Step Rawhide Boots"
+drop_level = 56
+info = "Drops from Breachlords in Breachstones."
+
+[[hide]]
+name = "The Leviathan"
+reward = "Maven Item Two-Implicit Corrupted - 81+ Maelström of Chaos Atoll Map (rf boots)"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Unique: Gamble
+####################################################################################################
+
+[[gamble]]
+name = "Akil's Prophecy"
+reward = "elegant round shield Two-Implicit Corrupted (squire chance)"
+drop_level = 70
+info = "Alva's"
+
+[[hide]]
+name = "Alone in the Darkness"
+reward = "unique delve item"
+drop_level = 0
+info = "TODO"
+
+[[gamble]]
+name = "Arrogance of the Vaal"
+reward = "unique item Two-Implicit Corrupted"
+drop_level = 54
+info = "Ancient City Map • Sunken City Map • Vaal Pyramid Map"
+
+[[hide]]
+name = "Assassin's Favour"
+reward = "dagger"
+drop_level = 0
+info = "TODO"
 
 [[good]]
 name = "Atziri's Arsenal"
@@ -189,12 +337,17 @@ reward = "weapon Corrupted"
 drop_level = 23
 info = "Vaults of Atziri"
 
-
 [[good]]
 name = "Blind Venture"
 reward = "ring Corrupted"
 drop_level = 23
 info = "The Reliquary (Act 5) • The Reliquary (Act 10) • Museum Map • Relic Chambers Map • Sanctuary Map"
+
+[[gamble]]
+name = "Boon of the First Ones"
+reward = "Bestiary Item"
+drop_level = 72
+info = "Pit of the Chimera Map"
 
 [[good]]
 name = "Costly Curio"
@@ -202,11 +355,89 @@ reward = "double influenced unique"
 drop_level = 80
 info = "Museum Map • Relic Chambers Map • Sanctuary Map"
 
+[[gamble]]
+name = "Council of Cats"
+reward = "farrul item (often expensive)"
+drop_level = 80
+info = "Al-Hezmin The Hunter"
+
+[[hide]]
+name = "Doedre's Madness"
+reward = "Doedre Item"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Earth Drinker"
+reward = "granite flask"
+drop_level = 0
+info = "TODO"
+
+[[gamble]]
+name = "Fateful Meeting"
+reward = "League-Specific Item Double-Influenced Item Item Level: 97 Two-Implicit Corrupted"
+drop_level = 80
+info = "Drops from Vaal Flesh Merchant, a monster which appears in Alva's temporal incursions if you have the atlas passive skill Vaal Oligarchs allocated."
+
 [[good]]
 name = "Glimmer of Hope"
 reward = "gold ring"
 drop_level = 38
 info = "The Cavern of Anger (Act 6) • Flooded Mine Map • Mineral Pools Map • Underground Sea Map"
+
+[[favorite]]
+name = "Haunting Shadows"
+reward = "Metamorph Item"
+drop_level = 68
+info = "The Twilight Temple Unique Map"
+
+[[hide]]
+name = "Heterochromia"
+reward = "two-stone ring"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Hope"
+reward = "prismatic ring Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[gamble]]
+name = "Hubris"
+reward = "Ring (can drop kalandras ring)"
+drop_level = 23
+info = "Can drop from Jeweller's Strongboxes."
+
+[[gamble]]
+name = "Jack in the Box"
+reward = "item"
+drop_level = 23
+info = "The City of Sarn • The Ebony Barracks • The Slums • The Marketplace • The Battlefront • The Docks • The Sarn Ramparts • The Solaris Concourse • The Harbour Bridge • The Grand Promenade • The Lunaris Concourse • The Quay • The Grain Gate • Arsenal Map • Colonnade Map • Ghetto Map • Port Map • Precinct Map • Promenade Map"
+
+[[hide]]
+name = "Light and Truth"
+reward = "unique crystal sceptre"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Lysah's Respite"
+reward = "agate amulet Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Mitts"
+reward = "gloves"
+drop_level = 0
+info = "TODO"
+
+[[gamble]]
+name = "Peaceful Moments"
+reward = "Timeless Jewel"
+drop_level = 68
+info = "Courtyard Map • Gardens Map • Orchard Map • Terrace Map"
 
 [[good]]
 name = "Prejudice"
@@ -219,6 +450,12 @@ name = "Sambodhi's Wisdom"
 reward = "q30 armour"
 drop_level = 58
 info = "Dunes Map"
+
+[[hide]]
+name = "The Aesthete"
+reward = "shavronne item"
+drop_level = 0
+info = "TODO"
 
 [[good]]
 name = "The Admirer"
@@ -250,18 +487,41 @@ reward = "unique jewellery (good but not top)"
 drop_level = 23
 info = "Maelström of Chaos • Mineral Pools Map • Underground Sea Map • Vaults of Atziri • Vault Map"
 
+[[hide]]
+name = "The Calling"
+reward = "unique beyond item"
+drop_level = 0
+info = "TODO"
 
-[[good]]
-name = "The Coming Storm"
-reward = "Lightning Coil Desert Brigandine"
-drop_level = 45
-info = "Cemetery Map • Colonnade Map • Graveyard Map • Infested Valley Map • Leyline Map • Promenade Map • Shipyard Map • Stagnation Map • Villa Map • Wharf Map"
+[[hide]]
+name = "The Dragon"
+reward = "unique coruscating elixir"
+drop_level = 0
+info = "TODO"
 
-[[good]]
-name = "The Encroaching Darkness"
-reward = "Map Corrupted"
-drop_level = 73
-info = "lotta maps"
+[[favorite]]
+name = "The Dreamer"
+reward = "Chayula Item"
+drop_level = 68
+info = "Agent of the Void"
+
+[[hide]]
+name = "The Drunken Aristocrat"
+reward = "Divination Distillate Large Hybrid Flask"
+drop_level = 0
+info = "TODO"
+
+[[gamble]]
+name = "The Dungeon Master"
+reward = "BeltDouble-Influenced Item (can bemageblood headhunter)"
+drop_level = 68
+info = "Cage Map • Cells Map • Dungeon Map • Pen Map"
+
+[[gamble]]
+name = "The Eye of the Dragon"
+reward = "jewel Corrupted (not most expensive, but ok)"
+drop_level = 23
+info = "The Boiling Lake • Forge of the Phoenix Map • Sulphur Vents Map"
 
 [[good]]
 name = "The Forgotten Treasure"
@@ -281,29 +541,59 @@ reward = "unique sword Corrupted (Rakiata's Dance)"
 drop_level = 23
 info = "The Slums • The Sarn Ramparts • The Grain Gate • Ghetto Map • Precinct Map"
 
+[[hide]]
+name = "The Gladiator"
+reward = "unique nightmare bascinet"
+drop_level = 0
+info = "TODO"
+
+[[gamble]]
+name = "The Garish Power"
+reward = "unique jewel"
+drop_level = 23
+info = "The Chamber of Sins Level 1 (Act 7) • The Chamber of Sins Level 2 (Act 7) • Overgrown Ruin Map • Overgrown Shrine Map"
+
+[[hide]]
+name = "The Life Thief"
+reward = "Zerphi's Heart Paua Amulet"
+drop_level = 68
+info = "Alleyways Map • City Square Map • Crimson Temple Map • Defiled Cathedral Map • Haunted Mansion Map • Lookout Map • Silo Map"
+
+[[hide]]
+name = "The Lion"
+reward = "lioneye item"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Master"
+reward = "Bisco's collar gold amulet"
+drop_level = 0
+info = "TODO"
+
 [[good]]
 name = "The Mercenary"
 reward = "unique shield Corrupted (squire chance)"
 drop_level = 23
 info = "The Broken Bridge (Act 7) • Castle Ruins Map"
 
-[[good]]
-name = "The Oath"
-reward = "Death's Oath Astral Plate"
-drop_level = 47
-info = "The Belly of the Beast (Act 9) • The Rotting Core • Abomination Map • Carcass Map • Core Map • Malformation Map • Phantasmagoria Map"
+[[favorite]]
+name = "The Messenger"
+reward = "harbringer piece"
+drop_level = 68
+info = "Crystal Ore Map • Port Map"
 
-[[good]]
-name = "The One That Got Away"
-reward = "Replica Bated Breath Chain Belt"
-drop_level = 78
-info = "Strand Map"
+[[hide]]
+name = "The Penitent"
+reward = "unique unset ring"
+drop_level = 0
+info = "TODO"
 
-[[good]]
-name = "The Pack Leader"
-reward = "Alpha's Howl Sinner Tricorne"
-drop_level = 48
-info = "Ashen Wood Map • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map • Jungle Valley Map • Lair Map • Ramparts Map • Spider Forest Map • Stagnation Map • Thicket Map • Tropical Island Map"
+[[favorite]]
+name = "The Risk"
+reward = "Ventor's Gamble gold ring"
+drop_level = 49
+info = "The Risk can drop from the following loot containers: Diviner's Strongbox Izaro's Treasure in the Endgame Labyrinth"
 
 [[good]]
 name = "The Shepherd's Sandals"
@@ -311,591 +601,794 @@ reward = "unique boots Two-Implicit Corrupted (can be Ralakesh's)"
 drop_level = 80
 info = "Barrows Map • Grotto Map • Lair Map • Caer Blaidd, Wolfpack's Den"
 
-[[good]]
-name = "Wind and Thunder"
-reward = "Windripper Imperial Bow"
-drop_level = 81
-info = "This item drops from Gisale, Thought Thief and can drop from The Elder in any map."
-
-
-####################################################################################################
-########## Hide
-####################################################################################################
-
-
 [[hide]]
-name = "Call to the First Ones"
-reward = "yellow corrupt tier 1 talisman"
+name = "The Standoff"
+reward = "unique rustich sash"
 drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "Destined to Crumble"
-reward = "yellow body armour"
-drop_level = 0
-info = "todo"
+info = "TODO"
 
 [[hide]]
-name = "Doedre's Madness"
-reward = "Doedre Item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Dying Cry"
-reward = "merciless (labyrinth) item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Echoes of Witchcraft"
-reward = "cast on crit assassin's mark"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "End of the Light"
-reward = "divine orb"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Erasmus' Gift"
-reward = "10x mirrors shard"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Forbidden Power"
-reward = "blue shaped amulet"
-drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "Gift of Asenath"
-reward = "Asenath Item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Greed's Embrace"
-reward = "white (labyrinth) body armour"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Hunter's Reward"
-reward = "blue 5link bow"
-drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "Lantador's Lost Love"
-reward = "yellow six-link body armour"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Light and Truth"
-reward = "blue herald body armour"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Lust"
-reward = "Voll's Vision Praetor Crown"
-drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "Merciless Fury"
-reward = "yellow weapon"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Merciless Labyrinth"
-reward = "labrynth item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Mysterious Gift"
-reward = "random unique item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Nemesis of Greed"
-reward = "voidwalker 22/23+ corruption"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Pride Before the Fall"
-reward = "exalted orb"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Prosperity"
-reward = "exalted orb"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Rain Temptation"
-reward = "blue 3x breach orb"
-drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "Rain Temptation"
-reward = "blue 3x breach orb"
-drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "Rebirth of the Phoenix"
-reward = "rise of the phoenix"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Reflection of Terror"
-reward = "shaped item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Rising Tempest"
-reward = "white storm cloud longbow"
-drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "Shard of Fate"
-reward = "prismatic ring (tier 3) Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Sire of Shards"
-reward = "staff (tier 2) Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Soul of Steel"
-reward = "blacksmith whetstone"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Aesthete"
-reward = "raider item (tier 3) Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Archmage's Right Hand"
-reward = "blue glove"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Bargain"
-reward = "divine orb"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Beast"
-reward = "fiend card set"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Blazing Fire"
-reward = "wand Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Body"
-reward = "body armour Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Carrion Crow"
-reward = "life armour Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Cursed King"
-reward = "unique item"
-drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "The Drunken Aristocrat"
-reward = "divine orb"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Encroaching Darkness"
-reward = "map tier 11"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Endurance"
-reward = "Vanguard Belt"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Explorer"
-reward = "map Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Fathomless Depths"
-reward = "resonator (harbinger)"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Feast"
-reward = "divine orb"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Fletcher"
-reward = "Quiver Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Formless Flame"
-reward = "jewel Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Forsaken"
-reward = "unided chayula unique item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Gladiator"
-reward = "arena map"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Hale Heart"
-reward = "item (life) Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Harvester"
-reward = "cartographer's chisel"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Hermit"
-reward = "Corrupted prophecies"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Incantation"
-reward = "Paua Ring Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Inoculated"
-reward = "seraphin armour"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Insatiable"
-reward = "jewellery Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Iron Bard"
+name = "The Tower"
 reward = "unique staff"
 drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The King's Blade"
-reward = "sword Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Lady"
-reward = "sextant"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Lion"
-reward = "lioneye item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Lover"
-reward = "dagger Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Mayor"
-reward = "map"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Metalsmith's Gift"
-reward = "runic item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Opulent"
-reward = "ring Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Rabid Rhoa"
-reward = "white mana flask"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Road to Power"
-reward = "ruby ring Corrupted"
-drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "The Spoiled Prince"
-reward = "prismatic ring Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Surgeon"
-reward = "bubonic trail"
-drop_level = 0
-info = "todo"
-
-
-[[hide]]
-name = "The Thaumaturgist"
-reward = "corrupted unique jewellery"
-drop_level = 0
-info = "todo"
+info = "TODO"
 
 [[hide]]
 name = "The Traitor"
-reward = "divine orb"
+reward = "unique wand Corrupted"
 drop_level = 0
-info = "todo"
+info = "TODO"
 
 [[hide]]
-name = "The Twins"
-reward = "gemini claw"
+name = "The Unexpected Prize"
+reward = "Attribute Transforming Jewel Corrupted"
 drop_level = 0
-info = "todo"
+info = "TODO"
 
-[[hide]]
-name = "The Tyrant"
-reward = "belly of the beast"
-drop_level = 0
-info = "todo"
+[[good]]
+name = "The Undaunted"
+reward = "nemesis item Corrupted (can drop headhunter)"
+drop_level = 23
+info = "Courthouse Map • Precinct Map • Whakawairua Tuahu"
 
+[[good]]
+name = "The Valkyrie"
+reward = "nemesis item (can drop headhunter)"
+drop_level = 23
+info = "Drops from female Rogue Exiles."
 
-[[hide]]
-name = "The Warden"
-reward = "Amber Amulet"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Web"
-reward = "cobalt jewel Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Wolf"
-reward = "belt Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Wolverine"
-reward = "claw Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Thunderous Skies"
-reward = "5 link bow"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Time-Lost Relic"
-reward = "Corrupted Item"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Underground Forest"
-reward = "map tier 70"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "Void of the Elements"
-reward = "Breath of the Council"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Warden"
-reward = "yellow amulet Corrupted"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Web"
-reward = "blue weap"
-drop_level = 0
-info = "todo"
-
-[[hide]]
-name = "The Witch"
-reward = "Kiara's Determination Silver Flask"
-drop_level = 0
-info = "todo"
+[[favorite]]
+name = "The Wretched"
+reward = "belt (can drop mageblood and headhunter)"
+drop_level = 68
+info = "Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Necropolis Map • Acton's Nightmare • Ziggurat Map"
 
 [[hide]]
 name = "The Wolf"
 reward = "rigwald item (cleave weaps)"
 drop_level = 0
-info = "todo"
+info = "TODO"
 
 [[hide]]
 name = "The Wolverine"
 reward = "unique claw"
 drop_level = 0
+info = "TODO"
+
+[[gamble]]
+name = "Time-Lost Relic"
+reward = "unique league specific item (Can drop headhunter)"
+drop_level = 68
+info = "Battleground Graves • Bluffs • Cemetery • Desert Ruins • Dried Riverbed • Forest Ruins • Karui Wargraves • Mountainside • Rotting Temple • Sarn Slums • Scrublands • Shipwreck Reef • Utzaal Outskirts • Vaal Temple • Volcanic Island • Crystal Ore Map • Dig Map • Excavation Map • Flooded Mine Map • Geode Map • Grotto Map"
+
+
+
+
+
+
+
+
+####################################################################################################
+########## Unique: Hidden Unless Build
+####################################################################################################
+[[hide]]
+name = "A Dab of Ink"
+reward = "Poets pen"
+drop_level = 23
+info = "The Library • Academy Map • Museum Map • Scriptorium Map"
+
+[[hide]]
+name = "Alivia's Grace"
+reward = "queen of the forest"
+drop_level = 0
 info = "todo"
+
+[[hide]]
+name = "Broken Truce"
+reward = "Cold Iron Point Ezomyte Dagger"
+drop_level = 62
+info = "Thane Jorgin"
+
+[[hide]]
+name = "Desperate Crusade"
+reward = "Prism Guardian Archon Kite Shield"
+drop_level = 68
+info = "Basilica Map • Residence Map"
+
+[[hide]]
+name = "Gift of Asenath"
+reward = "two-implicit corrupted Asenath's Gentle Touch Silk Gloves"
+drop_level = 68
+info = "Crystal Ore Map • Dig Map • Excavation Map • Flooded Mine Map • Geode Map • Grotto Map"
+
+[[hide]]
+name = "Hunter's Reward"
+reward = "The Taming Prismatic Ring"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Silence and Frost"
+reward = "The Pandemonius Jade Amulet"
+drop_level = 70
+info = "Farrul, First of the Plains"
+
+[[hide]]
+name = "The Avenger"
+reward = "møljner Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Beast"
+reward = "belly of the beast"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Incantation"
+reward = "The whispering ice"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Insatiable"
+reward = "The harvest sycthe Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[good]]
+name = "The Last Supper"
+reward = "Bino's Kitchen Knife Slaughter Knife"
+drop_level = 58
+info = "Poorjoy's Asylum"
+
+[[hide]]
+name = "The Mind's Eyes"
+reward = "Astral Projector Topaz Ring"
+drop_level = 0
+info = "TODO"
+
+[[good]]
+name = "The Offering"
+reward = "Shavronne's Wrappings Occultist's Vestment"
+drop_level = 47
+info = "Bazur Gisale, Thought Thief Prodigy of Darkness Reassembled Brutus Shavronne the Sickening Shavronne, Unbound"
+
+[[good]]
+name = "The Pack Leader"
+reward = "Alpha's Howl Sinner Tricorne"
+drop_level = 48
+info = "Ashen Wood Map • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map • Jungle Valley Map • Lair Map • Ramparts Map • Spider Forest Map • Stagnation Map • Thicket Map • Tropical Island Map"
+
+[[hide]]
+name = "The Polymath"
+reward = "Astramentis Onyx Amulet"
+drop_level = 23
+info = "The Reliquary (Act 5) • The Reliquary (Act 10) • Museum Map • Relic Chambers Map • Sanctuary Map"
+
+[[hide]]
+name = "The Scavenger"
+reward = "carcass jack"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Siren"
+reward = "The whispering ice Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Spark and the Flame"
+reward = "bereks respite two stone ring"
+drop_level = 23
+info = "Atoll Map • Plateau Map • Siege Map"
+
+[[hide]]
+name = "The Sun"
+reward = "Rise of the Phoenix Mosaic Kite Shield"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Unique: Hidden Unless SSF
+####################################################################################################
+
+[[hide]]
+name = "Humility"
+reward = "Tabula Rasa"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Stormcaller"
+reward = "angerod staff"
+drop_level = 0
+info = "TODO"
 
 [[hide]]
 name = "Vanity"
 reward = "tabula Corrupted"
 drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Unique: Hidden
+####################################################################################################
+[[hide]]
+name = "A Mother's Parting Gift"
+reward = "Fertile Mind Cobalt Jewel Corrupted (dex to int)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Audacity"
+reward = " doryanas fist Corrupted"
+drop_level = 0
 info = "todo"
+
+[[hide]]
+name = "Burning Blood"
+reward = "corrupted Xoph's Blood Amber Amulet"
+drop_level = 70
+info = "Forge of the Phoenix Lava Chamber"
+
+[[hide]]
+name = "Cursed Words"
+reward = "Maw of Mischief (Bex minion)"
+drop_level = 0
+info = "todo"
+
+[[hide]]
+name = "Dark Temptation"
+reward = "Obliteration Imbued Wand"
+drop_level = 0
+info = "todo"
+
+[[hide]]
+name = "Echoes of Love"
+reward = "fidelita's spike Two-Implicit Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Forbidden Power"
+reward = " Balefire Opal Sceptre Corrupted (scorcing ray)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "From Bone to Ashes"
+reward = "Ngamahu's Flame Abyssal Axe Two-Implicit Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Lethean Temptation"
+reward = "Nebulis Void Sceptre"
+drop_level = 0
+info = "Only from gamble cards"
+
+[[hide]]
+name = "Might is Right"
+reward = "Trypanon Great Mallet"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Pride Before the Fall"
+reward = "kaoms heart Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Poisoned Faith"
+reward = "arakalis fang Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Rats"
+reward = "rats nest"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Rebirth"
+reward = "Charans sword"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Reckless Ambition"
+reward = "Omeyocan Carnal Boots"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Adventuring Spirit"
+reward = "Victario's Influence Lacquered Garb"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Academic"
+reward = "Inspired Learning Crimson Jewel - (With 4 Notables Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds)"
+drop_level = 38
+info = "Academy Map • Museum Map • Scriptorium Map"
+
+[[hide]]
+name = "The Betrayal"
+reward = "Maligaro's Virtuosity Deerskin Gloves"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Blazing Fire"
+reward = "Chin Sol Assassin"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Brittle Emperor"
+reward = "Voll's Devotion Agate Amulet Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Conduit"
+reward = "doryana's fist"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Cursed King"
+reward = "Rigwald's Curse Wereclaw Talisman"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Deceiver"
+reward = "belt of the deciever Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Deep Ones"
+reward = "tidebreaker maul"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Demoness"
+reward = "Death's Hand - Karui Sceptre"
+drop_level = 74
+info = "The Northern Forest (Act 7) • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map"
+
+[[hide]]
+name = "The Enthusiasts"
+reward = "Victario's Influence Lacquered Garb Two-Implicit Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Fathomless Depths"
+reward = "Lightpoacher - abyss hat"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Feast"
+reward = "Romira's Banquet Diamond Ring Corrupted (power charge)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Formless Sea"
+reward = "varunastra sword"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Fox in the Brambles"
+reward = "bramble jack chest Two-Implicit Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Harvester"
+reward = "The harvest sycthe"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Hermit"
+reward = "lifesprig wand"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Hive of Knowledge"
+reward = "mechina mitts Two-Implicit Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The King's Heart"
+reward = "kaom's heart"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Lunaris Priestess"
+reward = "sire of shards staff"
+drop_level = 0
+info = "TODO"
+
+[[good]]
+name = "The Oath"
+reward = "Death's Oath Astral Plate"
+drop_level = 47
+info = "The Belly of the Beast (Act 9) • The Rotting Core • Abomination Map • Carcass Map • Core Map • Malformation Map • Phantasmagoria Map"
+
+[[hide]]
+name = "The Offspring"
+reward = "Ryslatha's Coil belt"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The One With All"
+reward = "le heup of all Corruptedt"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Pact"
+reward = "pledge of hands staff"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Poet"
+reward = "Blood of Corruption Amber Amulet Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Queen"
+reward = "Atziri's Acuity Vaal Gauntlets"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Ruthless Ceinture"
+reward = "meginord's girdle Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Scarred Meadow"
+reward = "Wake of Destruction Mesh Boots"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Strategist"
+reward = "Corrupted Inspired Learning Crimson Jewel - (With 4 Notables Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds)"
+drop_level = 0
+info = "Drox The Warlord"
+
+[[hide]]
+name = "The Sword King's Salute"
+reward = "Daresso's Salute amulet"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Thaumaturgist"
+reward = "Shavronne's Revelation Moonstone Ring Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Throne"
+reward = "Kaom's Roots boots"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Visionary"
+reward = "Lioneye's Vision - chest"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Watcher"
+reward = "crown of eyes hat"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Wedding Gift"
+reward = "Arakaali's Fang Fiend Dagger"
+drop_level = 52
+info = "Overgrown Ruin Map • Sunken City Map"
+
+[[hide]]
+name = "The Whiteout"
+reward = "Cospri's Malice 1h sword foil"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Witch"
+reward = "Kiara's Determination Silver Flask"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Wolf's Shadow"
+reward = "Hyaon's Fury Legion Sword"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Thirst for Knowledge"
+reward = "Gluttony Leather Belt"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Turn the Other Cheek"
+reward = "Pacifism Viridian Jewel (-1 frenzy charge"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Wolven King's Bite"
+reward = "rigwalds quills quiver"
+drop_level = 0
+info = "todo"
+
+[[hide]]
+name = "Unchained"
+reward = "facebreaker Two-Implicit Corrupted"
+drop_level = 0
+info = "TODO"
+
+
+####################################################################################################
+########## Minion: Top
+####################################################################################################
+
+
+####################################################################################################
+########## Minion: All Season
+####################################################################################################
+[[all_season]]
+name = "Terrible Secret of Space"
+reward = "level 21 trans golem gem Corrupted"
+drop_level = 72
+info = "Avatar of Undoing, Calderus, Fragment of Winter, Guardian of the Vault, Pirate Treasure, Stone of the Currents, Telvar, the Inebriated, The Eroding One, Titan of the Grove, Void Anomaly"
+
+####################################################################################################
+########## Minion: Mix
+####################################################################################################
+
+####################################################################################################
+########## Minion: Gamble
+####################################################################################################
+[[hide]]
+name = "A Stone Perfected"
+reward = "Jewel Primordial Corrupted (golem)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Primordial"
+reward = "primordial jewel (golem) (golem)"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Minion: Hidden Unless SSF
+####################################################################################################
+[[hide]]
+name = "Dark Dreams"
+reward = "Elder influenced Bone Helmet"
+drop_level = 80
+info = "Minara Anemina"
+
+[[hide]]
+name = "Death"
+reward = "Mon'tregul's Grasp Void Sceptre"
+drop_level = 51
+info = "Abomination Map • Bog Map • Marshes Map • Mud Geyser Map"
+
+[[hide]]
+name = "The Craving"
+reward = "Unending Hunger Cobalt Jewel"
+drop_level = 23
+info = "Infector of Dreams, Rose, The Bone Sculptor, Thorn, Xixic High Necromancer"
+
+[[hide]]
+name = "The Darkest Dream"
+reward = "corrupted Severed in Sleep Cutlass"
+drop_level = 80
+info = "Whakawairua Tuahu"
+
+[[hide]]
+name = "The Lich"
+reward = "Midnight Bargain Engraved Wand (minion)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Return of the Rat"
+reward = "Tavukai Coral Amulet (minion srs)"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Minion: Hidden
+####################################################################################################
+[[hide]]
+name = "Grave Knowledge"
+reward = "+20% quality Summon Raging Spirit"
+drop_level = 23
+info = "The Catacombs • The Ossuary (Act 5) • The Ossuary (Act 10) • The Crypt (Act 7) • Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Necropolis Map • Sanctuary Map • Ziggurat Map"
+
+[[hide]]
+name = "Keeper's Corruption"
+reward = "blue eldricth bone helm - elder but found in breach realm"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Army of Blood"
+reward = "Bloodbond chest"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Bones"
+reward = "Corrupted Level 21 Vaal Summon Skeletons"
+drop_level = 72
+info = "Minara Anemina"
+
+[[hide]]
+name = "The Forsaken"
+reward = "Umbilicus Immortalis Leather Belt (heals zombies shit)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Rite of Elements"
+reward = "lvl 21 golem gem Corrupted (golem)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Skeleton"
+reward = "q23 summon skeleton Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Summoner"
+reward = "20% minion gem"
+drop_level = 0
+info = "TODO"
+
+
+
+####################################################################################################
+########## Items: Top
+####################################################################################################
+[[good]]
+name = "Auspicious Ambitions"
+reward = "Experimented Item Level: 100 Double-Influenced"
+drop_level = 73
+info = "Drops from the regular and uber versions of Maven, Exarch, Eater, and Uber Elder."
+
+
+
+####################################################################################################
+########## Items: All Season
+####################################################################################################
+[[hide]]
+name = "A Familiar Call"
+reward = "blue jewellery of farrul shaper + hunter item"
+drop_level = 0
+info = "todo"
+
+[[hide]]
+name = "Broken Promises"
+reward = "Two-implicit synthesised item level 87 Normal Diamond Ring"
+drop_level = 80
+info = "Eater of Souls, Tolman the Exhumer"
+
+[[hide]]
+name = "Imperfect Memories"
+reward = "Random three-implicit synthesised item level 100 rare jewellery"
+drop_level = 80
+info = "Venarius (Synth Cortex Map)"
+
+[[good]]
+name = "Magnum Opus"
+reward = "Three-Implicit Synthesised Normal level 100 Item"
+drop_level = 80
+info = "Altered Distant Memory • Augmented Distant Memory • Twisted Distant Memory • Rewritten Distant Memory"
+
+[[hide]]
+name = "More is Never Enough"
+reward = "?"
+drop_level = 0
+info = "CURRENTLY DISABLED"
+
+[[good]]
+name = "Matryoshka"
+reward = "rare onyx amulet Item Level: 85 Quality: +20% Influenced Item Four Anointments Incubating Talisman Item Corrupted"
+drop_level = 68
+info = "Unravelling Horror"
+
+[[favorite]]
+name = "Monochrome"
+reward = "Sextants, which don't crop after 234"
+drop_level = 0
+info = "CURRENTLY DISABLED"
+
+[[hide]]
+name = "Prometheus' Armoury"
+reward = "yellow double influenced 1hand weap"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Rebirth and Renewal"
+reward = "?"
+drop_level = 0
+info = "CURRENTLY DISABLED"
+
+[[good]]
+name = "The Sacrifice"
+reward = "white 6link Sacrificial garb"
+drop_level = 80
+info = "The Temple of Atzoatl"
+
+[[good]]
+name = "The Shortcut"
+reward = "Quicksilver Flask of the Cheetah Item Level: 100 (12-14% movement)"
+drop_level = 80
+info = "Trial of Stinging Doubt • Trial of Burning Rage • Trial of Lingering Pain • Trial of Crippling Grief • Trial of Piercing Truth • Trial of Swirling Fear. Drops in Vaal side areas and Labyrinth Trial areas of area level 80+."
+
+[[favorite]]
+name = "Underground Forest"
+reward = "Sextants, which don't crop after 234"
+drop_level = 0
+info = "CURRENTLY DISABLED"
 
 [[hide]]
 name = "Void of the Elements"
 reward = "blue shaper opal ring"
 drop_level = 0
-info = "todo"
+info = "TODO"
 
-[[favorite]]
-name = "Monochromen"
-reward = "Sextants, which don't crop after 234"
-drop_level = 0
-info = "CURRENTLY DISABLED"
+[[hide]]
+name = "Who Asked"
+reward = "Dictator's Weapon Item Level: 83 Fractured - (% physical damage and accuracy rating)"
+drop_level = 80
+info = "Fortress Map • Foundry Map • Forge of the Phoenix Map • Silo Map May drop from other Forge_Area tag maps"
 
 ####################################################################################################
-########## Hide
+########## Items: Mix
 ####################################################################################################
 
 [[hide]]
-name = "A Dusty Memory"
-reward = "yellow item fractured"
-drop_level = 0
-info = "TODO"
-
-
-[[hide]]
-name = "Alone in the Darkness"
-reward = "unique delve item"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "Assassin's Favour"
-reward = "dagger"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "Astral Protection"
-reward = "blue shaper shield"
-drop_level = 0
-info = "TODO"
-
-
-[[hide]]
-name = "Bijoux"
-reward = "yellow cluster jewel"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "Brush Paint and Palette"
-reward = "The artist card (enhance)"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "Call to the First Ones"
-reward = "yellow corrupt tier 1 talisman"
-drop_level = 0
-info = "TODO"
-
-
-[[hide]]
-name = "Destined to Crumble"
-reward = "yellow body armour"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "Doedre's Madness"
-reward = "Doedre Item"
+name = "Draped in Dreams"
+reward = "blue 6link astral plate influenced"
 drop_level = 0
 info = "TODO"
 
@@ -912,63 +1405,166 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "Earth Drinker"
-reward = "granite flask"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "Echoes of Love"
-reward = "fidelita's spike Two-Implicit Corrupted"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "Eldritch Perfection"
-reward = "blue item perfect eldrict mod"
-drop_level = 0
-info = "TODO"
-
-
-[[hide]]
-name = "Forbidden Power"
-reward = " Balefire Opal Sceptre Corrupted (scorcing ray)"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "From Bone to Ashes"
-reward = "Ngamahu's Flame Abyssal Axe Two-Implicit Corrupted"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
 name = "Further Invention"
 reward = "blue double influenced helmet"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "Heterochromia"
-reward = "two-stone ring"
+name = "Nook's Crown"
+reward = "Elder influenced item level 100 Rare Bone Helmet"
+drop_level = 0
+info = "Catarina Master of Undeath (Investigation boss)"
+
+[[hide]]
+name = "The Aspirant"
+reward = "blue enchanged and influenced item"
+drop_level = 0
+info = "Harvest boss"
+
+[[hide]]
+name = "The Awakened"
+reward = "yellow double influenced jewelery"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "Hope"
-reward = "prismatic ring Corrupted"
+name = "The Celestial Stone"
+reward = "opal ring shaper"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Items: Gamble
+####################################################################################################
+
+[[hide]]
+name = "A Dusty Memory"
+reward = "yellow item fractured"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "Keeper's Corruption"
-reward = "blue eldricth bone helm - elder but found in breach realm"
+name = "Bijoux"
+reward = "yellow cluster jewel"
+drop_level = 0
+info = "TODO"
+
+[[good]]
+name = "The Void"
+reward = "random card"
+drop_level = 23
+info = "Abomination Map • Citadel Map • Fortress Map • Sanctuary Map • Ziggurat Map"
+
+[[hide]]
+name = "The Gambler"
+reward = "divination card"
+drop_level = 0
+info = "todo"
+
+
+####################################################################################################
+########## Items: Hidden Unless Build
+####################################################################################################
+
+[[hide]]
+name = "Emperor of Purity"
+reward = "white 6link holy chainmail (good for righteous fire)"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "Lachrymal Necrosis"
-reward = "Corrupted yellow Jewel Implicit Modifier: Corrupted Blood cannot be inflicted on you"
+name = "The Enforcer"
+reward = "blue spiked gloves Warlord (physical)"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Unique: Hidden Unless SSF
+####################################################################################################
+
+[[hide]]
+name = "Immortal Resolve"
+reward = "blue 6link body armour - influenced"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Celestial Justicar"
+reward = "magic 6link astral plate"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Undisputed"
+reward = "blue merciless vaal axe - elder"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Items: Fishing related cards which are mostly hidden by default
+####################################################################################################
+[[hide]]
+name = "Baited Expectations"
+reward = "fishing item unique"
+drop_level = 23
+info = "Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map"
+
+[[hide]]
+name = "The Catch"
+reward = "fish rod"
+drop_level = 68
+info = "Atoll Map • Maelström of Chaos • Beach Map • Coves Map • Peninsula Map • Plateau Map • Reef Map • Shipyard Map • Shore Map • Strand Map • Tropical Island Map"
+
+[[good]]
+name = "The Fishmonger"
+reward = "albino rhoa feather"
+drop_level = 23
+info = "Drought-Maddened Rhoa Skullbeak"
+
+[[hide]]
+name = "The Vast"
+reward = "Song of the Sirens Fishing Rod"
+drop_level = 23
+info = "Coral Ruins Map • Coves Map • Reef Map"
+
+[[hide]]
+name = "The Old Man"
+reward = "yellow fishing rod"
+drop_level = 54
+info = "Atoll Map • Lighthouse Map • Peninsula Map • Pier Map • Shore Map • Strand Map • Tropical Island Map • Wharf Map"
+
+[[good]]
+name = "The One That Got Away"
+reward = "Replica Bated Breath Chain Belt"
+drop_level = 78
+info = "Strand Map"
+
+####################################################################################################
+########## Items: Hidden
+####################################################################################################
+
+[[hide]]
+name = "Astral Protection"
+reward = "blue shaper shield"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Call to the First Ones"
+reward = "yellow corrupt tier 1 talisman"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Destined to Crumble"
+reward = "yellow body armour"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Eldritch Perfection"
+reward = "blue item perfect eldrict mod"
 drop_level = 0
 info = "TODO"
 
@@ -979,8 +1575,8 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "Light and Truth"
-reward = "unique crystal sceptre"
+name = "Lachrymal Necrosis"
+reward = "Corrupted yellow Jewel Implicit Modifier: Corrupted Blood cannot be inflicted on you"
 drop_level = 0
 info = "TODO"
 
@@ -991,26 +1587,8 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "Might is Right"
-reward = "Trypanon Great Mallet"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
 name = "Perfection"
 reward = "yellow shaper jewellery"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "Pride Before the Fall"
-reward = "kaoms heart Corrupted"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "Prometheus' Armoury"
-reward = "yellow double influenced 1hand weap"
 drop_level = 0
 info = "TODO"
 
@@ -1039,26 +1617,8 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Adventuring Spirit"
-reward = "Victario's Influence Lacquered Garb"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Aesthete"
-reward = "shavronne item"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
 name = "The Archmage's Right Hand"
 reward = "blue glyphic wand"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Army of Blood"
-reward = "Bloodbond chest"
 drop_level = 0
 info = "TODO"
 
@@ -1069,32 +1629,8 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Beast"
-reward = "belly of the beast"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Betrayal"
-reward = "Maligaro's Virtuosity Deerskin Gloves"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Blazing Fire"
-reward = "Chin Sol Assassin"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
 name = "The Brawny Battle Mage"
-reward = "blue tornadi wand"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Calling"
-reward = "unique beyond item"
+reward = "blue tornado wand"
 drop_level = 0
 info = "TODO"
 
@@ -1105,32 +1641,20 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Conduit"
-reward = "doryana's fist"
+name = "The Chains that Bind"
+reward = "normal 6link body armour"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Cursed King"
-reward = "Rigwald's Curse Wereclaw Talisman"
+name = "The Dapper Prodigy"
+reward = "6 blue link body"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Dragon"
-reward = "unique coruscating elixir"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Drunken Aristocrat"
-reward = "Divination Distillate Large Hybrid Flask"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Easy Stroll"
-reward = "tier 15 map 8 modifiers"
+name = "The Dark Mage"
+reward = "6link staff"
 drop_level = 0
 info = "TODO"
 
@@ -1141,50 +1665,14 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Explorer"
-reward = "map Corrupted"
+name = "The Ethereal"
+reward = "white 6link vaal regalia white"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Fathomless Depths"
-reward = "Lightpoacher - abyss hat"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Feast"
-reward = "Romira's Banquet Diamond Ring Corrupted (power charge)"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Fletcher"
-reward = "drillneck quiver Corrupted"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Formless Sea"
-reward = "varunastra sword"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Forsaken"
-reward = "Umbilicus Immortalis Leather Belt (heals zombies shit)"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Fox in the Brambles"
-reward = "bramble jack chest Two-Implicit Corrupted"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Gladiator"
-reward = "unique nightmare bascinet"
+name = "The Flora's Gift"
+reward = "white 5link staff"
 drop_level = 0
 info = "TODO"
 
@@ -1201,38 +1689,8 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Harvester"
-reward = "The harvest sycthe"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Hermit"
-reward = "lifesprig wand"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Hive of Knowledge"
-reward = "mechina mitts Two-Implicit Corrupted"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Incantation"
-reward = "The whispering ice"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
 name = "The Inoculated"
 reward = "blue armour"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Insatiable"
-reward = "The harvest sycthe Corrupted"
 drop_level = 0
 info = "TODO"
 
@@ -1261,12 +1719,6 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Lion"
-reward = "lioneye item"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
 name = "The Lord in Black"
 reward = "blue ring"
 drop_level = 0
@@ -1285,20 +1737,8 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Magma Crab"
-reward = "21 vaal molten shell"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
 name = "The Metalsmith's Gift"
 reward = "white prismatic ring"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Mind's Eyes"
-reward = "Astral Projector Topaz Ring"
 drop_level = 0
 info = "TODO"
 
@@ -1311,12 +1751,6 @@ info = "TODO"
 [[hide]]
 name = "The Opulent"
 reward = "yellow ring"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Penitent"
-reward = "unique unset ring"
 drop_level = 0
 info = "TODO"
 
@@ -1351,30 +1785,6 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Standoff"
-reward = "unique rustich sash"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Thaumaturgist"
-reward = "Shavronne's Revelation Moonstone Ring Corrupted"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Tower"
-reward = "unique staff"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Traitor"
-reward = "unique wand Corrupted"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
 name = "The Tumbleweed"
 reward = "blue diamond ring - redeemer item"
 drop_level = 0
@@ -1393,20 +1803,14 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Undisputed"
-reward = "blue merciless vaal axe - elder"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
-name = "The Unexpected Prize"
-reward = "Attribute Transforming Jewel Corrupted"
-drop_level = 0
-info = "TODO"
-
-[[hide]]
 name = "The Warden"
 reward = "yellow amulet Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Warlord"
+reward = "six link 2handed maul"
 drop_level = 0
 info = "TODO"
 
@@ -1417,27 +1821,838 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Witch"
-reward = "Kiara's Determination Silver Flask"
+name = "The White Knight"
+reward = "Normal Six-Link Astral Plate Item Level: 100 Crusader Item"
+drop_level = 0
+info = "Trial of Stinging Doubt"
+
+
+####################################################################################################
+########## Gem: Top
+####################################################################################################
+[[valuable]]
+name = "Desecrated Virtue"
+reward = "Level 6 Awakened Support Gem Quality: +23% Corrupted"
+drop_level = 0
+info = "Aul, the Crystal King"
+
+[[valuable]]
+name = "The Cheater"
+reward = "Level 6 Awakened Support Gem Quality: +20% Corrupted"
+drop_level = 72
+info = "Fortress (t17map)"
+
+[[valuable]]
+name = "Wealth and Power"
+reward = "Level 4 Enlighten Corrupted"
+drop_level = 68
+info = "Citadel Map (t17map)"
+
+####################################################################################################
+########## Gem: All Season
+####################################################################################################
+[[all_season]]
+name = "Doryani's Epiphany"
+reward = "Random corrupted level 21 transfigured gem with 20% quality"
+drop_level = 68
+info = "Doryani's Machinarium Unique Map"
+
+[[all_season]]
+name = "Gemcutter's Mercy"
+reward = "Exceptional Gem - (awakened or normal, empower, enhance, enchant)"
+drop_level = 38
+info = "Gem chests in the Azurite Mine."
+
+[[all_season]]
+name = "Home"
+reward = "Exceptional Gem q1-20"
+drop_level = 38
+info = "Alleyways Ancient City, Arcade, Bazaar, Chateau, City Square, Crimson Township, Haunted Mansion, Residence, Siege, Sunken City, Tower. (awakened or normal, empower, enhance, enchant)"
+
+[[all_season]]
+name = "The Artist"
+reward = "level 4 enhance Corrupted"
+drop_level = 68
+info = "Abomination (tier17 map)"
+
+[[all_season]]
+name = "The Enlightened"
+reward = "Level 3 Enlighten"
+drop_level = 60
+info = "Basilica Map • Belfry Map • Crimson Temple Map • Defiled Cathedral Map • Ivory Temple Map • Lookout Map • Moon Temple Map • The Twilight Temple • Sanctuary Map • Temple Map"
+
+
+####################################################################################################
+########## Gem: Mix
+####################################################################################################
+[[good]]
+name = "The Emptiness"
+reward = "vaal breech gem"
+drop_level = 80
+info = "Appears to drop in maps (unique maps?) with the Mysterious Barrels sextant modifier."
+
+[[good]]
+name = "Brush Paint and Palette"
+reward = "The artist card (enhance)"
+drop_level = 0
+info = "TODO"
+
+[[good]]
+name = "The Blessing of Moosh"
+reward = "lvl 21 trans gem"
+drop_level = 0
+info = "TODO"
+
+[[good]]
+name = "The Bitter Blossom"
+reward = "level 21 chaos gem q23 Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[good]]
+name = "The Hook"
+reward = "Level 21 Transfigured Gem 23% Quality Corrupted"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Gem: Gamble
+####################################################################################################
+[[gamble]]
+name = "The Fox"
+reward = "level 20 gem"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Gem: Hidden Unless SSF
+####################################################################################################
+[[hide]]
+name = "A Chilling Wind"
+reward = "21 vaal cold snap"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Wolf"
-reward = "rigwald item (cleave weaps)"
+name = "Deathly Designs"
+reward = "level 21 trap gem 23q Corrupted"
+drop_level = 72
+info = "Ash Lessard"
+
+[[hide]]
+name = "The Magma Crab"
+reward = "21 vaal molten shell"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "The Wolverine"
-reward = "unique claw"
+name = "The Realm"
+reward = "portal"
+drop_level = 0
+info = "TODO"
+
+####################################################################################################
+########## Gem: Hidden
+####################################################################################################
+[[hide]]
+name = "Dialla's Subjugation"
+reward = "support gem 23q Corrupted"
+drop_level = 0
+info = "todo"
+
+[[hide]]
+name = "Dying Anguish"
+reward = "level 19 trans gem q19"
 drop_level = 0
 info = "TODO"
 
 [[hide]]
-name = "Void of the Elements"
-reward = "blue shaper opal ring"
+name = "Gemcutter's Promise"
+reward = "20q gem"
 drop_level = 0
 info = "TODO"
 
+[[hide]]
+name = "Gift of the Gemling Queen"
+reward = "level 20 support gem"
+drop_level = 68
+info = "Crystal Ore Map • Dig Map • Excavation Map • Flooded Mine Map • Geode Map • Grotto Map"
 
+[[hide]]
+name = "The Cataclysm"
+reward = "lvl 21 spell gem"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Doppelganger"
+reward = "20q mirror arrow"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Volatile Power"
+reward = "q20 vaal gem Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Wilted Rose"
+reward = "level 21 aura gem Corrupted"
+drop_level = 72
+info = "Acton's Nightmare"
+
+####################################################################################################
+########## Currency: Top
+####################################################################################################
+[[valuable]]
+name = "Brother's Gift"
+reward = "5x div"
+drop_level = 68
+info = "Cemetery Map • Grave Trough Map • Graveyard Map"
+
+[[valuable]]
+name = "House of Mirrors"
+reward = "1x Mirror of Kalandra"
+drop_level = 78
+info = "The Alluring Abyss (uber atziri)"
+
+[[valuable]]
+name = "I See Brothers"
+reward = "2x fracturing orb"
+drop_level = 68
+info = "various map bosses"
+
+[[valuable]]
+name = "Seven Years Bad Luck"
+reward = "1x Mirror shard"
+drop_level = 35
+info = "Crimson Temple Map • Defiled Cathedral Map"
+
+[[valuable]]
+name = "The Immortal"
+reward = "House of Mirrors Card"
+drop_level = 35
+info = "The Hall of Grandmasters"
+
+[[valuable]]
+name = "Unrequited Love"
+reward = "19x Mirror Shard"
+drop_level = 35
+info = "The Temple of Decay Level 1 • Maze Map • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map"
+
+[[valuable]]
+name = "The Sephirot"
+reward = "10x div"
+drop_level = 35
+info = "Dominus, Ascendant Excellis Aurafix The Hallowed Husk The Hallowed Husk The High Templar"
+
+####################################################################################################
+########## Currency: All Season
+####################################################################################################
+[[all_season]]
+name = "Abandoned Wealth"
+reward = "3x exalted"
+drop_level = 68
+info = "Mao Kun map"
+
+[[all_season]]
+name = "Alluring Bounty"
+reward = "10x exalted"
+drop_level = 68
+info = "The Apex of Sacrifice • The Alluring Abyss"
+
+[[all_season]]
+name = "Brother's Stash"
+reward = "5x exalted"
+drop_level = 68
+info = "Cemetery Map • Grave Trough Map • Graveyard Map"
+
+[[all_season]]
+name = "Darker Half"
+reward = "5x eldricht Exalted"
+drop_level = 81
+info = "Drops when receiving Currency rewards from Delirium layers in maps (from Delirium Mirror or Delirium Orbs) and in Simulacrum."
+
+[[all_season]]
+name = "Demigod's Wager"
+reward = "Orb of Annulment"
+drop_level = 35
+info = "The Cleansing Light"
+
+[[all_season]]
+name = "Divine Beauty"
+reward = "7x div"
+drop_level = 68
+info = "Drops from Merveil in both Underground Sea Map and Maelström of Chaos"
+
+[[all_season]]
+name = "Ever-Changing"
+reward = "10x Orb of Unmaking"
+drop_level = 68
+info = "Drops in maps opened via Kirac missions."
+
+[[all_season]]
+name = "The Long Con"
+reward = "Elderslayer's Exalted Orb"
+drop_level = 80
+info = "This card drops from Izaro's Treasure chests in the Eternal Labyrinth (Uber Lab) and Enriched Eternal Labyrinth."
+
+[[all_season]]
+name = "The Fortunate"
+reward = "2x div"
+drop_level = 68
+info = "Ancient City Map • Arid Lake Map • Atoll Map • Beach Map • Burial Chambers Map • Caldera Map • Canyon Map • Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map • Estuary Map • Fields Map • Jungle Valley Map • Leyline Map • Marshes Map • Mesa Map • Mineral Pools Map • Orchard Map • Peninsula Map • Plateau Map • Shore Map • Sulphur Vents Map • Terrace Map • Crater Map • Tropical Island Map"
+
+[[all_season]]
+name = "The Rusted Bard"
+reward = "4x Tainted Mythic Orb"
+drop_level = 68
+info = "The Vinktar Square"
+
+[[all_season]]
+name = "The Seeker"
+reward = "3x Orb of Annulment"
+drop_level = 35
+info = "The Temple of Atzoatl"
+
+[[all_season]]
+name = "The Side Quest"
+reward = "20x Scouting Report"
+drop_level = 69
+info = "Alleyways Map • Arachnid Tomb Map • Armoury Map • Castle Ruins Map • Forking River Map • Iceberg Map • Infested Valley Map • Mineral Pools Map • Siege Map • Primordial Blocks Map"
+
+####################################################################################################
+########## Currency: Mix
+####################################################################################################
+[[good]]
+name = "Ambitious Obsession"
+reward = "Skittering Delirium Orb"
+drop_level = 68
+info = "Ara Sister of Light, Armala, the Widow, Drek Apex Hunter, Erebix Light's Bane, Gorulis Will-Thief, Khor Sister of Shadows, Mephod the Earth Scorcher, Nassar Lion of the Seas, Stalker of the Endless Dunes, Tahsin Warmaker, Terror of the Infinite Drifts, Varhesh Shimmering Aberration"
+
+[[good]]
+name = "Chaotic Disposition"
+reward = "5x Chaos Orb"
+drop_level = 23
+info = "Poorjoy's Asylum"
+
+[[good]]
+name = "Coveted Possession"
+reward = "5x Regal Orb"
+drop_level = 23
+info = "The Catacombs • The Ossuary (Act 5) • The Ossuary (Act 10) • Bone Crypt Map • Sanctuary Map • Ziggurat Map"
+
+[[good]]
+name = "Dementophobia"
+reward = "10x Delerium Orb"
+drop_level = 68
+info = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer, Venarius"
+
+[[good]]
+name = "Harmony of Souls"
+reward = "9x shrieking essence"
+drop_level = 68
+info = "Abomination Map Can drop from versions of Doedre, Maligaro, and Shavronne in Sepulchre Map, Overgrown Shrine Map, and Cells Map respectively, as well as Abomination Map"
+
+[[good]]
+name = "The Cacophony"
+reward = "3x defening essence"
+drop_level = 68
+info = "Drops from Merveil, the Returned in both Underground Sea Map and Maelström of Chaos"
+
+[[good]]
+name = "The Cartographer"
+reward = "10x cartographers chisel"
+drop_level = 39
+info = "Drops from Cartographer's Strongboxes."
+
+[[good]]
+name = "The Heroic Shot"
+reward = "17x chromatic"
+drop_level = 23
+info = "Can drop from Arcanist's Strongboxes"
+
+[[good]]
+name = "The Hoarder"
+reward = "Exalted Orb"
+drop_level = 68
+info = "Maelström of Chaos • Mineral Pools Map • Underground Sea Map • Vaults of Atziri • Vault Map"
+
+[[good]]
+name = "The Innocent"
+reward = "40x Orb of Regret"
+drop_level = 23
+info = "The Chamber of Innocence • Basilica Map • Defiled Cathedral Map • Sanctuary Map"
+
+[[good]]
+name = "The Saint's Treasure"
+reward = "2x Exalted Orb"
+drop_level = 68
+info = "Alleyways Map • Arcade Map • Bazaar Map • Ghetto Map • Port Map • Precinct Map"
+
+[[good]]
+name = "The Scout"
+reward = "7x Exalted Orb"
+drop_level = 68
+info = "Ashen Wood Map • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map • Jungle Valley Map • Lair Map • Ramparts Map • Spider Forest Map • Stagnation Map • Thicket Map • Tropical Island Map"
+
+[[good]]
+name = "The Transformation"
+reward = "Tainted Mythic Orb"
+drop_level = 68
+info = "Drops from bosses with the 'transform_boss' monster tag."
+
+[[good]]
+name = "The Wrath"
+reward = "10x Chaos Orb"
+drop_level = 23
+info = "The Cathedral Rooftop (Act 5) • The Feeding Trough • Belfry Map • Lava Lake Map"
+
+[[good]]
+name = "Three Faces in the Dark"
+reward = "3x Chaos Orb"
+drop_level = 23
+info = "The Grain Gate • The Refinery • Arsenal Map • Factory Map • Port Map"
+
+[[good]]
+name = "Vinia's Token"
+reward = "10x orb of regret"
+drop_level = 68
+info = "Core Map • Malformation Map • Shrine Map"
+
+####################################################################################################
+########## Currency: Gamble
+####################################################################################################
+[[gamble]]
+name = "Emperor's Luck"
+reward = "5x currency"
+drop_level = 23
+info = "The Imperial Gardens • The High Gardens • Courtyard Map • Gardens Map • Orchard Map • Terrace Map"
+
+[[gamble]]
+name = "Lucky Deck"
+reward = "10x stacked deck"
+drop_level = 74
+info = "Ziggurat Map"
+
+[[gamble]]
+name = "Parasitic Passengers"
+reward = "10x Incubator"
+drop_level = 68
+info = "Arachnid Tomb Map • Channel Map • Infested Valley Map"
+
+[[gamble]]
+name = "The Tireless Extractor"
+reward = "10x oil"
+drop_level = 68
+info = "Factory Map • Fortress Map • Port Map • Silo Map"
+
+[[gamble]]
+name = "Three Voices"
+reward = "3x Essence"
+drop_level = 23
+info = "Arena Map • City Square Map • Courthouse Map • Courtyard Map • Crystal Ore Map • Forbidden Woods Map • Graveyard Map • Racecourse Map • Vaal Pyramid Map • Vaal Temple Map"
+
+####################################################################################################
+########## Currency: Hidden Unless SSF
+####################################################################################################
+[[hide]]
+name = "Disdain"
+reward = "Delerium Orb"
+drop_level = 44
+info = "Can drop after completing any Maven's Invitation, including Quest ones."
+
+[[hide]]
+name = "Lucky Connections"
+reward = "20x Orb of Fusing"
+drop_level = 23
+info = "The Docks • The Quay • Pier Map • Port Map • Shipyard Map • Wharf Map"
+
+[[hide]]
+name = "The Finishing Touch"
+reward = "fertile catalyst (life and mana)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Inventor"
+reward = "10x Vaal Orb"
+drop_level = 23
+info = "The Ancient Pyramid • The Temple of Decay Level 1 • The Temple of Decay Level 2 • Maze Map • Doryani's Machinarium • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map"
+
+[[hide]]
+name = "The Journey"
+reward = "harbringers orb"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Union"
+reward = "10x gemcutters prism"
+drop_level = 23
+info = "The Fellshrine Ruins (Act 7) • Cemetery Map • Grave Trough Map • Graveyard Map"
+
+####################################################################################################
+########## Currency: Hidden
+####################################################################################################
+
+[[hide]]
+name = "A Sea of Blue"
+reward = "13x Orb of Alteration"
+drop_level = 68
+info = "Citadel Map • Crystal Ore Map • Grotto Map • Mineral Pools Map • Primordial Blocks Map • Ziggurat Map"
+
+[[hide]]
+name = "Acclimatisation"
+reward = "20x Orb of Alteration"
+drop_level = 23
+info = "Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map"
+
+[[hide]]
+name = "Loyalty"
+reward = "3x fusing"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "No Traces"
+reward = "10x Orb of Scouring"
+drop_level = 23
+info = "The Ossuary (Act 5) • The Reliquary (Act 10) • The Ossuary (Act 10) • Mausoleum Map • Relic Chambers Map • Sepulchre Map • Ziggurat Map"
+
+[[hide]]
+name = "Rain of Chaos"
+reward = "1x chaos"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Society's Remorse"
+reward = "10x alt"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Catalyst"
+reward = "1x vaal"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Fool"
+reward = "20x chance"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Gemcutter"
+reward = "Gemcutter's Prism"
+drop_level = 0
+info = "todo"
+
+[[hide]]
+name = "The Master Artisan"
+reward = "20x q currency"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Scholar"
+reward = "40x wiz"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Survivalist"
+reward = "7x alchemy"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Tinkerer's Table"
+reward = "5x fossil"
+drop_level = 23
+info = "lots of maps"
+
+####################################################################################################
+########## Content: All Season
+####################################################################################################
+[[all_season]]
+name = "A Fate Worse Than Death"
+reward = "Cortex Synthesised Map Corrupted"
+drop_level = 78
+info = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer, Sirus Awakener of Worlds"
+
+[[all_season]]
+name = "Altered Perception"
+reward = "simulacrum (can drop Megalomaniac mcluster, Split Personality Crimson Jewel, Voices (Cluster)"
+drop_level = 68
+info = "Uhtred Covetous Traitor"
+
+[[all_season]]
+name = "Eternal Bonds"
+reward = "Replica Cortex Synthesised Map"
+drop_level = 78
+info = "Drops from Map Reward Chests in Heist Contracts and Blueprints"
+
+[[hide]]
+name = "Sambodhi's Vow"
+reward = "mortal fragment (uber atziri)"
+drop_level = 70
+info = "Can drop from members of the Immortal Syndicate."
+
+[[all_season]]
+name = "Something Dark"
+reward = "83 blueprint fully revealed"
+drop_level = 75
+info = "Drops from Breachlords in Breachstones."
+
+[[all_season]]
+name = "The Eldritch Decay"
+reward = "uber elder fragment"
+drop_level = 81
+info = "The Constrictor The Enslaver The Eradicator The Purifier"
+
+[[all_season]]
+name = "The Eye of Terror"
+reward = "Chayula's Flawless Breachstone"
+drop_level = 68
+info = "It That Fled"
+
+####################################################################################################
+########## Content: Mix
+####################################################################################################
+[[good]]
+name = "Checkmate"
+reward = "76x simulacrum splinter"
+drop_level = 68
+info = "Academy Map • Museum Map • Scriptorium Map"
+
+[[good]]
+name = "Guardian's Challenge"
+reward = "Shaper Guardian Map"
+drop_level = 81
+info = "Sold by Kirac for 3x Cartographer's Chisel"
+
+[[good]]
+name = "Last Hope"
+reward = "Mortal Hope (opens vaal areas and buffs map quality)"
+drop_level = 68
+info = "Atziri, Queen of the Vaal"
+
+[[good]]
+name = "Lingering Remnants"
+reward = "vaal temple map Corrupted"
+drop_level = 78
+info = "Drops in a lot of maps"
+
+[[good]]
+name = "The Obscured"
+reward = "Breachstone"
+drop_level = 68
+info = "The Obscured can drop from Abyss monsters, including from Abyss nodes in Delve."
+
+[[good]]
+name = "The Price of Prescience"
+reward = "Vaal Temple Map T16 Delirium: 100% Corrupted"
+drop_level = 78
+info = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer"
+
+[[good]]
+name = "The Price of Protection"
+reward = "Elder Guardian Occupied Map T: 14 to 16 Modifiers: 8 Corrupted"
+drop_level = 81
+info = "Drops from Invasion bosses or Vaal side area bosses."
+
+####################################################################################################
+########## Content: Hideable Unique maps
+####################################################################################################
+[[good]]
+name = "Justified Ambition"
+reward = "Synthesis Map"
+drop_level = 81
+info = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer"
+
+[[good]]
+name = "Scholar of the Seas"
+reward = "Mao Kun Unique map"
+drop_level = 68
+info = "The Brine King's Reef • Coves Map • Reef Map • Strand Map • Whakawairua Tuahu"
+
+[[good]]
+name = "The Dreamland"
+reward = "Poorjoy's Asylum Unique map"
+drop_level = 68
+info = "Drops from Cartographer's Strongboxes."
+
+[[good]]
+name = "The Landing"
+reward = "The Breachhead Unique map"
+drop_level = 73
+info = "Shore Map • Mao Kun • Strand Map • Whakawairua Tuahu"
+
+[[good]]
+name = "The Professor"
+reward = "The Putrid Cloister Unique Museum Map"
+drop_level = 68
+info = "Academy Map • Laboratory Map • Museum Map • Scriptorium Map"
+
+[[good]]
+name = "The Rabbit's Foot"
+reward = "10x Incursion Vial"
+drop_level = 50
+info = "Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Ziggurat Map"
+
+[[good]]
+name = "The Twilight Moon"
+reward = "The Twilight Temple Map"
+drop_level = 68
+info = "Cold River Map • Moon Temple Map • Temple Map"
+
+[[good]]
+name = "The Wolf's Legacy"
+reward = "Vaults of Atziri Unique map"
+drop_level = 68
+info = "This card drops from Izaro's Treasure chests, Labyrinth Troves, or Silver Key caches in the Eternal Labyrinth or Enriched Eternal Labyrinth. Still requires verification if it can drop in Merciless Labyrinth."
+
+[[good]]
+name = "Treasure Hunter"
+reward = "Vaults of Atziri Unique map"
+drop_level = 68
+info = "Museum Map • Relic Chambers Map • Vaults of Atziri • Vault Map"
+
+####################################################################################################
+########## Content: Gamble
+####################################################################################################
+[[gamble]]
+name = "Buried Treasure"
+reward = "sulphite scarab"
+drop_level = 0
+info = "TODO"
+
+[[gamble]]
+name = "Cameria's Cut"
+reward = "Scarab"
+drop_level = 68
+info = "Cameria the Coldblooded"
+
+[[gamble]]
+name = "Man With Bear"
+reward = "bestiary scarab"
+drop_level = 68
+info = "Barrows Map • Cemetery Map"
+
+[[gamble]]
+name = "The Card Sharp"
+reward = "divination scarab"
+drop_level = 68
+info = "alva missions + Alva's Memory of Reverse Incursion."
+
+[[gamble]]
+name = "The Deal"
+reward = "cartography scarab"
+drop_level = 68
+info = "Cameria the Coldblooded"
+
+[[good]]
+name = "The Encroaching Darkness"
+reward = "Map Corrupted"
+drop_level = 73
+info = "lotta maps"
+
+####################################################################################################
+########## Content: Hidden Unless SSF
+####################################################################################################
+[[hide]]
+name = "Azure Rage"
+reward = "Random Punishing Magic tier 16 map (phsyical reflect)"
+drop_level = 81
+info = "Factory Map • Port Map"
+
+[[hide]]
+name = "Left to Fate"
+reward = "Random unidentified corrupted tier 16 Rare map"
+drop_level = 73
+info = "Forking River Map • Ramparts Map"
+
+[[hide]]
+name = "The Puzzle"
+reward = "5x breech stone splinter"
+drop_level = 68
+info = "The Puzzle can drop from Beyond demons."
+
+####################################################################################################
+########## Content: Hidden
+####################################################################################################
+[[hide]]
+name = "Boon of Justice"
+reward = "Offering to the Goddess"
+drop_level = 73
+info = "Chateau Map • Conservatory Map • Orchard Map • Plaza Map"
+
+[[hide]]
+name = "Boundless Realms"
+reward = "map"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Cartographer's Delight"
+reward = "tier 5 map"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Her Mask"
+reward = "saccrifice fragment"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Lost Worlds"
+reward = "tier 15 map"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Rain Tempter"
+reward = "tier 6 map"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Arena Champion"
+reward = "tier 12 map"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Easy Stroll"
+reward = "tier 15 map 8 modifiers"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Explorer"
+reward = "map Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Surveyor"
+reward = "tier 14 map"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Trial"
+reward = "tier 15 map Corrupted"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "Triskaidekaphobia"
+reward = "corrup tier 13 map 8 modifiers"
+drop_level = 0
+info = "TODO"

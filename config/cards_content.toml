@@ -122,6 +122,12 @@ drop_level = 68
 info = "Academy Map • Laboratory Map • Museum Map • Scriptorium Map"
 
 [[good]]
+name = "The Rabbit's Foot"
+reward = "10x Incursion Vial"
+drop_level = 50
+info = "Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Ziggurat Map"
+
+[[good]]
 name = "The Twilight Moon"
 reward = "The Twilight Temple Map"
 drop_level = 68
@@ -209,6 +215,12 @@ drop_level = 73
 info = "Chateau Map • Conservatory Map • Orchard Map • Plaza Map"
 
 [[hide]]
+name = "Boundless Realms"
+reward = "map"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
 name = "Cartographer's Delight"
 reward = "tier 5 map"
 drop_level = 0
@@ -221,6 +233,12 @@ drop_level = 0
 info = "TODO"
 
 [[hide]]
+name = "Lost Worlds"
+reward = "tier 15 map"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
 name = "Rain Tempter"
 reward = "tier 6 map"
 drop_level = 0
@@ -229,6 +247,18 @@ info = "TODO"
 [[hide]]
 name = "The Arena Champion"
 reward = "tier 12 map"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Easy Stroll"
+reward = "tier 15 map 8 modifiers"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Explorer"
+reward = "map Corrupted"
 drop_level = 0
 info = "TODO"
 

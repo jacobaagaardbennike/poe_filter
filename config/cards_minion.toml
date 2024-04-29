@@ -16,10 +16,59 @@ info = "Avatar of Undoing, Calderus, Fragment of Winter, Guardian of the Vault, 
 ########## Minion: Mix
 ####################################################################################################
 
+####################################################################################################
+########## Minion: Gamble
+####################################################################################################
+[[hide]]
+name = "A Stone Perfected"
+reward = "Jewel Primordial Corrupted (golem)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Primordial"
+reward = "primordial jewel (golem) (golem)"
+drop_level = 0
+info = "TODO"
 
 ####################################################################################################
 ########## Minion: Hidden Unless SSF
 ####################################################################################################
+[[hide]]
+name = "Dark Dreams"
+reward = "Elder influenced Bone Helmet"
+drop_level = 80
+info = "Minara Anemina"
+
+[[hide]]
+name = "Death"
+reward = "Mon'tregul's Grasp Void Sceptre"
+drop_level = 51
+info = "Abomination Map • Bog Map • Marshes Map • Mud Geyser Map"
+
+[[hide]]
+name = "The Craving"
+reward = "Unending Hunger Cobalt Jewel"
+drop_level = 23
+info = "Infector of Dreams, Rose, The Bone Sculptor, Thorn, Xixic High Necromancer"
+
+[[hide]]
+name = "The Darkest Dream"
+reward = "corrupted Severed in Sleep Cutlass"
+drop_level = 80
+info = "Whakawairua Tuahu"
+
+[[hide]]
+name = "The Lich"
+reward = "Midnight Bargain Engraved Wand (minion)"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Return of the Rat"
+reward = "Tavukai Coral Amulet (minion srs)"
+drop_level = 0
+info = "TODO"
 
 ####################################################################################################
 ########## Minion: Hidden
@@ -31,10 +80,28 @@ drop_level = 23
 info = "The Catacombs • The Ossuary (Act 5) • The Ossuary (Act 10) • The Crypt (Act 7) • Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Necropolis Map • Sanctuary Map • Ziggurat Map"
 
 [[hide]]
+name = "Keeper's Corruption"
+reward = "blue eldricth bone helm - elder but found in breach realm"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
+name = "The Army of Blood"
+reward = "Bloodbond chest"
+drop_level = 0
+info = "TODO"
+
+[[hide]]
 name = "The Bones"
 reward = "Corrupted Level 21 Vaal Summon Skeletons"
 drop_level = 72
 info = "Minara Anemina"
+
+[[hide]]
+name = "The Forsaken"
+reward = "Umbilicus Immortalis Leather Belt (heals zombies shit)"
+drop_level = 0
+info = "TODO"
 
 [[hide]]
 name = "The Rite of Elements"

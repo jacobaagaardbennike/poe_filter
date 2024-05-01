@@ -1,0 +1,9265 @@
+####################################################################################################
+########## Amulets
+####################################################################################################
+# Drop disabled
+# can you turn this cvs:	
+# Greatwolf Talisman;1;two random:Projectiles Pierce 2 additional Targets or +1 to maximum number of Raised Zombies(6-10)% or increased Attack and Cast Speed(20-30)% or increased Attack Damage or (4-6)% chance to Freeze, Shock and Ignite or 50% of Cold Damage from Hits taken as Fire Damage or 50% of Cold Damage from Hits taken as Lightning Damage or Gain (6-12)% of Physical Damage as Extra Damage of a random Element or 10% chance to gain an Endurance Charge on Kill or 50% of Fire Damage from Hits taken as Cold Damage or 50% of Fire Damage from Hits taken as Lightning Damage or (30-40)% increased Fish Bite Sensitivity or 10% chance to gain a Frenzy Charge on Kill or (15-25)% increased Global Defences or (12-16)% increased Attributes or (5-8)% increased Area of Effect or (19-31)% increased Chaos Damage or (20-30)% increased Cold Damage or (40-50)% increased Global Critical Strike Chance or +(24-36)% to Global Critical Strike Multiplier or (25-35)% increased Damage or (20-30)% increased Fire Damage or (6-10)% increased Quantity of Items found or (8-12)% increased maximum Life or (20-30)% increased Lightning Damage or (20-30)% increased maximum Mana or (20-30)% increased Global Physical Damage or 50% of Lightning Damage from Hits taken as Cold Damage or 50% of Lightning Damage from Hits taken as Fire Damage or Regenerate 2% of Life per second or 10% chance to gain a Power Charge on Kill or (4-6)% additional Physical Damage Reduction or (20-30)% increased Spell Damage
+# Corrupted
+# Jet Amulet;12;+(8-12)% to all Elemental Resistances
+# Ruby Amulet;1;+(20-30)% to Fire Resistance
+
+# into toml
+# [[CHANGE]]
+# ...
+	
+# and give it to me in a code block?
+[amulets]
+[[amulet]]
+item_type = "Coral Amulet"
+lvl_required = 1
+implicit_mod = "Regenerate (2-4) Life per second"
+
+[[amulet]]
+item_type = "Paua Amulet"
+lvl_required = 1
+implicit_mod = "(20-30)% increased Mana Regeneration Rate"
+
+[[amulet]]
+item_type = "Amber Amulet"
+lvl_required = 5
+implicit_mod = "+(20-30) to Strength"
+
+[[amulet]]
+item_type = "Jade Amulet"
+lvl_required = 5
+implicit_mod = "+(20-30) to Dexterity"
+
+[[amulet]]
+item_type = "Lapis Amulet"
+lvl_required = 5
+implicit_mod = "+(20-30) to Intelligence"
+
+[[amulet]]
+item_type = "Unset Amulet"
+lvl_required = 5
+implicit_mod = "Has 1 Socket"
+
+[[amulet]]
+item_type = "Gold Amulet"
+lvl_required = 8
+implicit_mod = "(12-20)% increased Rarity of Items found"
+
+[[amulet]]
+item_type = "Agate Amulet"
+lvl_required = 16
+implicit_mod = "+(16-24) to Strength and Intelligence"
+
+[[amulet]]
+item_type = "Citrine Amulet"
+lvl_required = 16
+implicit_mod = "+(16-24) to Strength and Dexterity"
+
+[[amulet]]
+item_type = "Turquoise Amulet"
+lvl_required = 16
+implicit_mod = "+(16-24) to Dexterity and Intelligence"
+
+[[amulet]]
+item_type = "Onyx Amulet"
+lvl_required = 20
+implicit_mod = "+(10-16) to all Attributes"
+
+[[amulet]]
+item_type = "Focused Amulet"
+lvl_required = 24
+implicit_mod = "-1 Prefix Modifier allowed & -2 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed & 100% increased Explicit Modifier magnitudes"
+
+[[amulet]]
+item_type = "Simplex Amulet"
+lvl_required = 24
+implicit_mod = "-2 Prefix Modifiers allowed & -1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 100% increased Explicit Modifier magnitudes"
+
+[[amulet]]
+item_type = "Astrolabe Amulet"
+lvl_required = 69
+implicit_mod = "Has Elder, Shaper and all Conqueror Influences & Implicit Modifiers Cannot Be Changed"
+
+[[amulet]]
+item_type = "Marble Amulet"
+lvl_required = 74
+implicit_mod = "Regenerate (1.2-1.6)% of Life per second"
+
+[[amulet]]
+item_type = "Seaglass Amulet"
+lvl_required = 74
+implicit_mod = "(10-15)% faster start of Energy Shield Recharge"
+
+[[amulet]]
+item_type = "Blue Pearl Amulet"
+lvl_required = 77
+implicit_mod = "(48-56)% increased Mana Regeneration Rate"
+
+[[talisman]]
+item_type = "Ashscale Talisman"
+lvl_required = 1
+implicit_mod = "(20-30)% increased Fire Damage"
+
+[[talisman]]
+item_type = "Avian Twins Talisman"
+lvl_required = 1
+implicit_mod = "50% of Cold Damage from Hits taken as Fire Damage"
+
+[[talisman]]
+item_type = "Avian Twins Talisman"
+lvl_required = 1
+implicit_mod = "50% of Cold Damage from Hits taken as Lightning Damage"
+
+[[talisman]]
+item_type = "Avian Twins Talisman"
+lvl_required = 1
+implicit_mod = "50% of Fire Damage from Hits taken as Cold Damage"
+
+[[talisman]]
+item_type = "Avian Twins Talisman"
+lvl_required = 1
+implicit_mod = "50% of Fire Damage from Hits taken as Lightning Damage"
+
+[[talisman]]
+item_type = "Avian Twins Talisman"
+lvl_required = 1
+implicit_mod = "50% of Lightning Damage from Hits taken as Cold Damage"
+
+[[talisman]]
+item_type = "Avian Twins Talisman"
+lvl_required = 1
+implicit_mod = "50% of Lightning Damage from Hits taken as Fire Damage"
+
+[[talisman]]
+item_type = "Black Maw Talisman"
+lvl_required = 1
+implicit_mod = "Has 1 Socket"
+
+[[talisman]]
+item_type = "Bonespire Talisman"
+lvl_required = 1
+implicit_mod = "(20-30)% increased maximum Mana"
+
+[[talisman]]
+item_type = "Breakrib Talisman"
+lvl_required = 1
+implicit_mod = "(20-30)% increased Global Physical Damage"
+
+[[talisman]]
+item_type = "Chrysalis Talisman"
+lvl_required = 1
+implicit_mod = "(20-30)% increased Spell Damage"
+
+[[talisman]]
+item_type = "Clutching Talisman"
+lvl_required = 1
+implicit_mod = "(15-25)% increased Global Defences"
+
+[[talisman]]
+item_type = "Deadhand Talisman"
+lvl_required = 1
+implicit_mod = "(19-31)% increased Chaos Damage"
+
+[[talisman]]
+item_type = "Deep One Talisman"
+lvl_required = 1
+implicit_mod = "(20-30)% increased Cold Damage"
+
+[[talisman]]
+item_type = "Fangjaw Talisman"
+lvl_required = 1
+implicit_mod = "(8-12)% increased maximum Life"
+
+[[talisman]]
+item_type = "Hexclaw Talisman"
+lvl_required = 1
+implicit_mod = "(40-50)% increased Global Critical Strike Chance"
+
+[[talisman]]
+item_type = "Horned Talisman"
+lvl_required = 1
+implicit_mod = "Projectiles Pierce 2 additional Targets"
+
+[[talisman]]
+item_type = "Lone Antler Talisman"
+lvl_required = 1
+implicit_mod = "(20-30)% increased Lightning Damage"
+
+[[talisman]]
+item_type = "Longtooth Talisman"
+lvl_required = 1
+implicit_mod = "(4-6)% additional Physical Damage Reduction"
+
+[[talisman]]
+item_type = "Mandible Talisman"
+lvl_required = 1
+implicit_mod = "(6-10)% increased Attack and Cast Speed"
+
+[[talisman]]
+item_type = "Monkey Paw Talisman"
+lvl_required = 1
+implicit_mod = "10% chance to gain an Endurance Charge on Kill"
+
+[[talisman]]
+item_type = "Monkey Paw Talisman"
+lvl_required = 1
+implicit_mod = "10% chance to gain a Frenzy Charge on Kill"
+
+[[talisman]]
+item_type = "Monkey Paw Talisman"
+lvl_required = 1
+implicit_mod = "10% chance to gain a Power Charge on Kill"
+
+[[talisman]]
+item_type = "Monkey Twins Talisman"
+lvl_required = 1
+implicit_mod = "(5-8)% increased Area of Effect"
+
+[[talisman]]
+item_type = "Primal Skull Talisman"
+lvl_required = 1
+implicit_mod = "Regenerate 2% of Life per second"
+
+[[talisman]]
+item_type = "Rot Head Talisman"
+lvl_required = 1
+implicit_mod = "(30-40)% increased Fish Bite Sensitivity"
+
+[[talisman]]
+item_type = "Rotfeather Talisman"
+lvl_required = 1
+implicit_mod = "(25-35)% increased Damage"
+
+[[talisman]]
+item_type = "Spinefuse Talisman"
+lvl_required = 1
+implicit_mod = "(6-10)% increased Quantity of Items found"
+
+[[talisman]]
+item_type = "Splitnewt Talisman"
+lvl_required = 1
+implicit_mod = "(4-6)% chance to Freeze, Shock and Ignite"
+
+[[talisman]]
+item_type = "Three Hands Talisman"
+lvl_required = 1
+implicit_mod = "Gain (6-12)% of Physical Damage as Extra Damage of a random Element"
+
+[[talisman]]
+item_type = "Three Rat Talisman"
+lvl_required = 1
+implicit_mod = "(12-16)% increased Attributes"
+
+[[talisman]]
+item_type = "Undying Flesh Talisman"
+lvl_required = 1
+implicit_mod = "+1 to maximum number of Raised Zombies"
+
+[[talisman]]
+item_type = "Wereclaw Talisman"
+lvl_required = 1
+implicit_mod = "+(24-36)% to Global Critical Strike Multiplier"
+
+[[talisman]]
+item_type = "Writhing Talisman"
+lvl_required = 1
+implicit_mod = "(20-30)% increased Attack Damage"
+
+
+
+####################################################################################################
+########## Axes
+####################################################################################################
+[axes]
+[[one_hand_axe]]
+item_type = "Rusted Hatchet"
+lvl_required = 1
+str_required = 12
+dex_required = 6
+damage = "6-11"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 12.7
+implicit_mod = "+10 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Jade Hatchet"
+lvl_required = 6
+str_required = 21
+dex_required = 10
+damage = "10-15"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 18.1
+implicit_mod = "+10 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Boarding Axe"
+lvl_required = 11
+str_required = 28
+dex_required = 19
+damage = "11-21"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 24.0
+implicit_mod = "+10 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Cleaver"
+lvl_required = 16
+str_required = 48
+dex_required = 14
+damage = "12-35"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 30.6
+implicit_mod = "+10 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Broad Axe"
+lvl_required = 21
+str_required = 54
+dex_required = 25
+damage = "19-34"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 35.8
+implicit_mod = "+10 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Arming Axe"
+lvl_required = 25
+str_required = 58
+dex_required = 33
+damage = "14-42"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 39.2
+implicit_mod = "+10 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Decorative Axe"
+lvl_required = 29
+str_required = 80
+dex_required = 23
+damage = "27-50"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 46.2
+implicit_mod = "+10 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Maltreatment Axe"
+lvl_required = 30
+str_required = 78
+dex_required = 34
+damage = "19-39"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 37.7
+implicit_mod = "+10 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Spectral Axe"
+lvl_required = 33
+str_required = 85
+dex_required = 37
+damage = "29-48"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 50.1
+implicit_mod = "8% increased Global Physical Damage"
+
+[[one_hand_axe]]
+item_type = "Etched Hatchet"
+lvl_required = 35
+str_required = 93
+dex_required = 43
+damage = "26-46"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 48.6
+implicit_mod = "8% increased Global Physical Damage"
+
+[[one_hand_axe]]
+item_type = "Jasper Axe"
+lvl_required = 36
+str_required = 86
+dex_required = 40
+damage = "32-50"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 53.3
+implicit_mod = "+15 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Tomahawk"
+lvl_required = 39
+str_required = 81
+dex_required = 56
+damage = "25-46"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 53.2
+implicit_mod = "+15 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Wrist Chopper"
+lvl_required = 42
+str_required = 112
+dex_required = 32
+damage = "26-79"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 63.0
+implicit_mod = "+15 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "War Axe"
+lvl_required = 45
+str_required = 106
+dex_required = 49
+damage = "35-65"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 65.0
+implicit_mod = "+15 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Chest Splitter"
+lvl_required = 48
+str_required = 105
+dex_required = 60
+damage = "24-71"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 66.5
+implicit_mod = "+15 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Disapprobation Axe"
+lvl_required = 50
+str_required = 124
+dex_required = 54
+damage = "29-60"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 57.9
+implicit_mod = "+15 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Ceremonial Axe"
+lvl_required = 51
+str_required = 134
+dex_required = 39
+damage = "45-83"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 76.8
+implicit_mod = "8% increased Global Physical Damage"
+
+[[one_hand_axe]]
+item_type = "Wraith Axe"
+lvl_required = 54
+str_required = 134
+dex_required = 59
+damage = "45-75"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 78.0
+implicit_mod = "8% increased Global Physical Damage"
+
+[[one_hand_axe]]
+item_type = "Engraved Hatchet"
+lvl_required = 56
+str_required = 143
+dex_required = 66
+damage = "40-71"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 74.9
+implicit_mod = "8% increased Global Physical Damage"
+
+[[one_hand_axe]]
+item_type = "Karui Axe"
+lvl_required = 57
+str_required = 132
+dex_required = 62
+damage = "49-77"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 81.9
+implicit_mod = "+20 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Siege Axe"
+lvl_required = 59
+str_required = 119
+dex_required = 82
+damage = "38-70"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 81.0
+implicit_mod = "+20 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Reaver Axe"
+lvl_required = 61
+str_required = 167
+dex_required = 57
+damage = "38-114"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 91.2
+implicit_mod = "+20 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Butcher Axe"
+lvl_required = 63
+str_required = 149
+dex_required = 76
+damage = "47-87"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 87.1
+implicit_mod = "+20 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Vaal Hatchet"
+lvl_required = 65
+str_required = 140
+dex_required = 86
+damage = "30-90"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 84.0
+implicit_mod = "+20 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Royal Axe"
+lvl_required = 67
+str_required = 167
+dex_required = 57
+damage = "54-100"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 92.4
+implicit_mod = "+20 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Infernal Axe"
+lvl_required = 69
+str_required = 158
+dex_required = 76
+damage = "51-85"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 88.4
+implicit_mod = "+20 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Psychotic Axe"
+lvl_required = 70
+str_required = 163
+dex_required = 84
+damage = "34-71"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 68.3
+implicit_mod = "+20 to Maximum Rage"
+
+[[one_hand_axe]]
+item_type = "Runic Hatchet"
+lvl_required = 71
+str_required = 163
+dex_required = 82
+damage = "44-79"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 83.0
+implicit_mod = "12% increased Global Physical Damage"
+
+[[two_hand_axe]]
+item_type = "Stone Axe"
+lvl_required = 1
+str_required = 17
+dex_required = 8
+damage = "12-20"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 20.8
+implicit_mod = "+20% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Jade Chopper"
+lvl_required = 9
+str_required = 31
+dex_required = 9
+damage = "19-30"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 30.6
+implicit_mod = "+20% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Woodsplitter"
+lvl_required = 13
+str_required = 36
+dex_required = 17
+damage = "19-39"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 37.7
+implicit_mod = "+20% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Poleaxe"
+lvl_required = 18
+str_required = 44
+dex_required = 25
+damage = "29-43"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 46.8
+implicit_mod = "+20% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Double Axe"
+lvl_required = 23
+str_required = 62
+dex_required = 27
+damage = "36-60"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 60.0
+implicit_mod = "+20% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Gilded Axe"
+lvl_required = 28
+str_required = 64
+dex_required = 37
+damage = "43-58"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 65.7
+implicit_mod = "+20% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Prime Cleaver"
+lvl_required = 30
+damage = "39-61"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 67.5
+implicit_mod = "+20% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Shadow Axe"
+lvl_required = 33
+str_required = 80
+dex_required = 37
+damage = "49-73"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 76.2
+implicit_mod = "50% increased Critical Strike Chance"
+
+[[two_hand_axe]]
+item_type = "Dagger Axe"
+lvl_required = 36
+str_required = 89
+dex_required = 43
+damage = "53-83"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 81.6
+implicit_mod = "50% increased Critical Strike Chance"
+
+[[two_hand_axe]]
+item_type = "Jasper Chopper"
+lvl_required = 37
+str_required = 100
+dex_required = 29
+damage = "58-91"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 85.6
+implicit_mod = "+30% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Timber Axe"
+lvl_required = 41
+str_required = 97
+dex_required = 45
+damage = "48-99"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 91.9
+implicit_mod = "+30% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Headsman Axe"
+lvl_required = 45
+str_required = 99
+dex_required = 57
+damage = "61-92"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 99.5
+implicit_mod = "+30% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Labrys"
+lvl_required = 49
+str_required = 122
+dex_required = 53
+damage = "74-123"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 118.2
+implicit_mod = "+30% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Honed Cleaver"
+lvl_required = 50
+damage = "60-95"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 104.6
+implicit_mod = "+30% to Maximum Quality"
+
+[[two_hand_axe]]
+item_type = "Noble Axe"
+lvl_required = 52
+str_required = 113
+dex_required = 65
+damage = "76-103"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 116.4
+implicit_mod = "50% increased Critical Strike Chance"
+
+[[two_hand_axe]]
+item_type = "Abyssal Axe"
+lvl_required = 55
+str_required = 128
+dex_required = 60
+damage = "81-121"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 126.2
+implicit_mod = "50% increased Critical Strike Chance"
+
+[[two_hand_axe]]
+item_type = "Karui Chopper"
+lvl_required = 58
+str_required = 151
+dex_required = 43
+damage = "121-189"
+critical_chance = "5.00%"
+aps = 1.05
+dps = 162.8
+implicit_mod = "50% increased Critical Strike Chance"
+
+[[two_hand_axe]]
+item_type = "Talon Axe"
+lvl_required = 59
+str_required = 140
+dex_required = 67
+damage = "88-138"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 135.7
+implicit_mod = "50% increased Critical Strike Chance"
+
+[[two_hand_axe]]
+item_type = "Sundering Axe"
+lvl_required = 60
+str_required = 149
+dex_required = 76
+damage = "74-155"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 148.9
+implicit_mod = "+20% to Damage over Time Multiplier for Bleeding"
+
+[[two_hand_axe]]
+item_type = "Ezomyte Axe"
+lvl_required = 62
+str_required = 140
+dex_required = 86
+damage = "87-131"
+critical_chance = "5.70%"
+aps = 1.35
+dps = 147.1
+implicit_mod = "25% chance to Maim on Hit"
+
+[[two_hand_axe]]
+item_type = "Vaal Axe"
+lvl_required = 64
+str_required = 158
+dex_required = 76
+damage = "104-174"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 159.8
+implicit_mod = "25% chance to Maim on Hit"
+
+[[two_hand_axe]]
+item_type = "Despot Axe"
+lvl_required = 66
+str_required = 140
+dex_required = 86
+damage = "90-122"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 148.5
+implicit_mod = "50% increased Critical Strike Chance"
+
+[[two_hand_axe]]
+item_type = "Void Axe"
+lvl_required = 68
+str_required = 149
+dex_required = 76
+damage = "96-144"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 150.0
+implicit_mod = "50% increased Critical Strike Chance"
+
+[[two_hand_axe]]
+item_type = "Fleshripper"
+lvl_required = 70
+str_required = 156
+dex_required = 84
+damage = "97-152"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 149.5
+implicit_mod = "50% increased Critical Strike Chance"
+
+[[two_hand_axe]]
+item_type = "Apex Cleaver"
+lvl_required = 70
+damage = "71-111"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 122.8
+implicit_mod = "+40% to Maximum Quality"
+
+
+
+####################################################################################################
+########## Belts
+####################################################################################################
+[belts]
+[[belt]]
+item_type = "Chain Belt"
+lvl_required = 1
+implicit_mod = "+(9-20) to maximum Energy Shield"
+
+[[belt]]
+item_type = "Rustic Sash"
+lvl_required = 1
+implicit_mod = "(12-24)% increased Global Physical Damage"
+
+[[belt]]
+item_type = "Stygian Vise"
+lvl_required = 1
+implicit_mod = "Has 1 Abyssal Socket"
+
+[[belt]]
+item_type = "Heavy Belt"
+lvl_required = 8
+implicit_mod = "+(25-35) to Strength"
+
+[[belt]]
+item_type = "Leather Belt"
+lvl_required = 8
+implicit_mod = "+(25-40) to maximum Life"
+
+[[belt]]
+item_type = "Cloth Belt"
+lvl_required = 16
+implicit_mod = "(15-25)% increased Stun and Block Recovery"
+
+[[belt]]
+item_type = "Studded Belt"
+lvl_required = 16
+implicit_mod = "(20-30)% increased Stun Duration on Enemies"
+
+[[belt]]
+item_type = "Micro-Distillery Belt"
+lvl_required = 24
+implicit_mod = "Can't use Flask in Fifth Slot & Flasks applied to you have 30% increased Effect"
+
+[[belt]]
+item_type = "Mechanical Belt"
+lvl_required = 56
+implicit_mod = "Has 1 Socket"
+
+[[belt]]
+item_type = "Vanguard Belt"
+lvl_required = 78
+implicit_mod = "+(260-320) to Armour and Evasion Rating"
+
+[[belt]]
+item_type = "Crystal Belt"
+lvl_required = 79
+implicit_mod = "+(60-80) to maximum Energy Shield"
+
+
+####################################################################################################
+########## Body Armours
+####################################################################################################
+[body_armours]
+[[body_armour]]
+item_type = "Plate Vest"
+lvl_required = 1
+str_required = 12
+dex_required = "-"
+int_required = "-"
+armour = "19-27"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Shabby Jerkin"
+lvl_required = 1
+str_required = "-"
+dex_required = 14
+int_required = "-"
+armour = "29-41"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Simple Robe"
+lvl_required = 1
+str_required = "-"
+dex_required = "-"
+int_required = 17
+armour = "-"
+evasion_rating = "14-20"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Scale Vest"
+lvl_required = 1
+str_required = 10
+dex_required = 10
+int_required = "-"
+armour = "27-38"
+evasion_rating = "27-38"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Chainmail Vest"
+lvl_required = 1
+str_required = 10
+dex_required = "-"
+int_required = 10
+armour = "27-38"
+evasion_rating = "-"
+energy_shield = "9-13"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Padded Vest"
+lvl_required = 1
+str_required = "-"
+dex_required = 10
+int_required = 10
+armour = "-"
+evasion_rating = "27-38"
+energy_shield = "9-13"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Chestplate"
+lvl_required = 6
+str_required = 25
+dex_required = "-"
+int_required = "-"
+armour = "68-89"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Light Brigandine"
+lvl_required = 8
+str_required = 16
+dex_required = 16
+int_required = "-"
+armour = "48-63"
+evasion_rating = "48-63"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Chainmail Tunic"
+lvl_required = 8
+str_required = 16
+dex_required = "-"
+int_required = 16
+armour = "48-63"
+evasion_rating = "-"
+energy_shield = "13-17"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Strapped Leather"
+lvl_required = 9
+str_required = "-"
+dex_required = 32
+int_required = "-"
+armour = "-"
+evasion_rating = "98-127"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Oiled Vest"
+lvl_required = 9
+str_required = "-"
+dex_required = 17
+int_required = 17
+armour = "-"
+evasion_rating = "54-70"
+energy_shield = "14-18"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Silken Vest"
+lvl_required = 11
+str_required = "-"
+dex_required = "-"
+int_required = 37
+armour = "-"
+evasion_rating = "-"
+energy_shield = "30-38"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Copper Plate"
+lvl_required = 17
+str_required = 53
+dex_required = "-"
+int_required = "-"
+armour = "176-221"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Buckskin Tunic"
+lvl_required = 17
+str_required = "-"
+dex_required = 53
+int_required = "-"
+armour = "176-221"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Scale Doublet"
+lvl_required = 17
+str_required = 28
+dex_required = 28
+int_required = "-"
+armour = "97-121"
+evasion_rating = "97-121"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Ringmail Coat"
+lvl_required = 17
+str_required = 28
+dex_required = "-"
+int_required = 28
+armour = "97-121"
+evasion_rating = "-"
+energy_shield = "22-28"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Scholar's Robe"
+lvl_required = 18
+str_required = "-"
+dex_required = "-"
+int_required = 55
+armour = "-"
+evasion_rating = "-"
+energy_shield = "43-53"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Padded Jacket"
+lvl_required = 18
+str_required = "-"
+dex_required = 30
+int_required = 30
+armour = "-"
+evasion_rating = "102-128"
+energy_shield = "24-29"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Golden Mantle"
+lvl_required = 20
+str_required = 8
+dex_required = 8
+int_required = 8
+armour = "75-86"
+evasion_rating = "75-86"
+energy_shield = "17-19"
+ward = "-"
+implicit_mod = "(15-25)% to all Elemental Resistances"
+
+[[body_armour]]
+item_type = "War Plate"
+lvl_required = 21
+str_required = 63
+dex_required = "-"
+int_required = "-"
+armour = "216-248"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Infantry Brigandine"
+lvl_required = 21
+str_required = 34
+dex_required = 34
+int_required = "-"
+armour = "119-142"
+evasion_rating = "119-142"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Chainmail Doublet"
+lvl_required = 21
+str_required = 34
+dex_required = "-"
+int_required = 34
+armour = "119-140"
+evasion_rating = "-"
+energy_shield = "27-31"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Oiled Coat"
+lvl_required = 22
+str_required = "-"
+dex_required = 35
+int_required = 35
+armour = "-"
+evasion_rating = "124-146"
+energy_shield = "28-33"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Wild Leather"
+lvl_required = 25
+str_required = "-"
+dex_required = 73
+int_required = "-"
+armour = "-"
+evasion_rating = "255-306"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Silken Garb"
+lvl_required = 25
+str_required = "-"
+dex_required = "-"
+int_required = 73
+armour = "-"
+evasion_rating = "-"
+energy_shield = "56-64"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Full Plate"
+lvl_required = 28
+str_required = 81
+dex_required = "-"
+int_required = "-"
+armour = "284-319"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Full Leather"
+lvl_required = 28
+str_required = "-"
+dex_required = 81
+int_required = "-"
+armour = "284-327"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Mage's Vestment"
+lvl_required = 28
+str_required = "-"
+dex_required = "-"
+int_required = 81
+armour = "-"
+evasion_rating = "-"
+energy_shield = "62-69"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Full Scale Armour"
+lvl_required = 28
+str_required = 43
+dex_required = 43
+int_required = "-"
+armour = "156-180"
+evasion_rating = "156-180"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Full Ringmail"
+lvl_required = 28
+str_required = 43
+dex_required = "-"
+int_required = 43
+armour = "156-180"
+evasion_rating = "-"
+energy_shield = "34-39"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Scarlet Raiment"
+lvl_required = 28
+str_required = "-"
+dex_required = 43
+int_required = 43
+armour = "156-180"
+evasion_rating = "34-39"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Arena Plate"
+lvl_required = 32
+str_required = 91
+dex_required = "-"
+int_required = "-"
+armour = "324-389"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Sun Leather"
+lvl_required = 32
+str_required = "-"
+dex_required = 91
+int_required = "-"
+armour = "324-382"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Silk Robe"
+lvl_required = 32
+str_required = "-"
+dex_required = "-"
+int_required = 91
+armour = "-"
+evasion_rating = "-"
+energy_shield = "69-80"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Soldier's Brigandine"
+lvl_required = 32
+str_required = 48
+dex_required = 48
+int_required = "-"
+armour = "178-210"
+evasion_rating = "178-210"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Full Chainmail"
+lvl_required = 32
+str_required = 48
+dex_required = "-"
+int_required = 48
+armour = "178-199"
+evasion_rating = "-"
+energy_shield = "38-43"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Waxed Garb"
+lvl_required = 32
+str_required = "-"
+dex_required = 48
+int_required = 48
+armour = "-"
+evasion_rating = "178-205"
+energy_shield = "38-44"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Lordly Plate"
+lvl_required = 35
+str_required = 99
+dex_required = "-"
+int_required = "-"
+armour = "353-417"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Thief's Garb"
+lvl_required = 35
+str_required = "-"
+dex_required = 99
+int_required = "-"
+armour = "353-396"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Cabalist Regalia"
+lvl_required = 35
+str_required = "-"
+dex_required = "-"
+int_required = 99
+armour = "-"
+evasion_rating = "-"
+energy_shield = "75-88"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Field Lamellar"
+lvl_required = 35
+str_required = 53
+dex_required = 53
+int_required = "-"
+armour = "194-223"
+evasion_rating = "194-223"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Holy Chainmail"
+lvl_required = 35
+str_required = 53
+dex_required = "-"
+int_required = 53
+armour = "194-233"
+evasion_rating = "-"
+energy_shield = "41-49"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Bone Armour"
+lvl_required = 35
+str_required = "-"
+dex_required = 53
+int_required = 53
+armour = "194-233"
+evasion_rating = "41-49"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Bronze Plate"
+lvl_required = 37
+str_required = 104
+dex_required = "-"
+int_required = "-"
+armour = "373-429"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Eelskin Tunic"
+lvl_required = 37
+str_required = "-"
+dex_required = 104
+int_required = "-"
+armour = "373-429"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Sage's Robe"
+lvl_required = 37
+str_required = "-"
+dex_required = "-"
+int_required = 104
+armour = "-"
+evasion_rating = "-"
+energy_shield = "79-90"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Wyrmscale Doublet"
+lvl_required = 38
+str_required = 57
+dex_required = 57
+int_required = "-"
+armour = "210-236"
+evasion_rating = "210-236"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Latticed Ringmail"
+lvl_required = 39
+str_required = 59
+dex_required = "-"
+int_required = 59
+armour = "216-248"
+evasion_rating = "-"
+energy_shield = "45-52"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Quilted Jacket"
+lvl_required = 40
+str_required = "-"
+dex_required = 60
+int_required = 60
+armour = "-"
+evasion_rating = "221-248"
+energy_shield = "46-52"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Battle Plate"
+lvl_required = 41
+str_required = 114
+dex_required = "-"
+int_required = "-"
+armour = "412-474"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Frontier Leather"
+lvl_required = 41
+str_required = "-"
+dex_required = 114
+int_required = "-"
+armour = "412-495"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Silken Wrap"
+lvl_required = 41
+str_required = "-"
+dex_required = "-"
+int_required = 114
+armour = "-"
+evasion_rating = "-"
+energy_shield = "86-104"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Hussar Brigandine"
+lvl_required = 42
+str_required = 62
+dex_required = 62
+int_required = "-"
+armour = "232-278"
+evasion_rating = "232-278"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Crusader Chainmail"
+lvl_required = 43
+str_required = 64
+dex_required = "-"
+int_required = 64
+armour = "237-266"
+evasion_rating = "-"
+energy_shield = "50-55"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Sleek Coat"
+lvl_required = 44
+str_required = "-"
+dex_required = 65
+int_required = 65
+armour = "-"
+evasion_rating = "243-287"
+energy_shield = "51-60"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Sun Plate"
+lvl_required = 45
+str_required = 124
+dex_required = "-"
+int_required = "-"
+armour = "451-506"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Glorious Leather"
+lvl_required = 45
+str_required = "-"
+dex_required = 124
+int_required = "-"
+armour = "451-519"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Conjurer's Vestment"
+lvl_required = 45
+str_required = "-"
+dex_required = "-"
+int_required = 124
+armour = "-"
+evasion_rating = "-"
+energy_shield = "94-105"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Full Wyrmscale"
+lvl_required = 46
+str_required = 68
+dex_required = 68
+int_required = "-"
+armour = "254-292"
+evasion_rating = "254-292"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Ornate Ringmail"
+lvl_required = 47
+str_required = 69
+dex_required = "-"
+int_required = 69
+armour = "259-298"
+evasion_rating = "-"
+energy_shield = "54-62"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Crimson Raiment"
+lvl_required = 48
+str_required = "-"
+dex_required = 71
+int_required = 71
+armour = "264-304"
+evasion_rating = "55-63"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Colosseum Plate"
+lvl_required = 49
+str_required = 134
+dex_required = "-"
+int_required = "-"
+armour = "491-589"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Coronal Leather"
+lvl_required = 49
+str_required = "-"
+dex_required = 134
+int_required = "-"
+armour = "491-579"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Spidersilk Robe"
+lvl_required = 49
+str_required = "-"
+dex_required = "-"
+int_required = 134
+armour = "-"
+evasion_rating = "-"
+energy_shield = "101-117"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Commander's Brigandine"
+lvl_required = 50
+str_required = 73
+dex_required = 73
+int_required = "-"
+armour = "275-325"
+evasion_rating = "275-325"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Chain Hauberk"
+lvl_required = 51
+str_required = 75
+dex_required = "-"
+int_required = 75
+armour = "281-314"
+evasion_rating = "-"
+energy_shield = "58-65"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Lacquered Garb"
+lvl_required = 52
+str_required = "-"
+dex_required = 76
+int_required = 76
+armour = "-"
+evasion_rating = "286-329"
+energy_shield = "59-68"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Majestic Plate"
+lvl_required = 53
+str_required = 145
+dex_required = "-"
+int_required = "-"
+armour = "530-625"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Cutthroat's Garb"
+lvl_required = 53
+str_required = "-"
+dex_required = 145
+int_required = "-"
+armour = "530-594"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Destroyer Regalia"
+lvl_required = 53
+str_required = "-"
+dex_required = "-"
+int_required = 145
+armour = "-"
+evasion_rating = "-"
+energy_shield = "109-129"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Battle Lamellar"
+lvl_required = 54
+str_required = 79
+dex_required = 79
+int_required = "-"
+armour = "297-341"
+evasion_rating = "297-341"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Devout Chainmail"
+lvl_required = 55
+str_required = 80
+dex_required = "-"
+int_required = 80
+armour = "302-363"
+evasion_rating = "-"
+energy_shield = "62-74"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Golden Plate"
+lvl_required = 56
+str_required = 152
+dex_required = "-"
+int_required = "-"
+armour = "559-643"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Sharkskin Tunic"
+lvl_required = 56
+str_required = "-"
+dex_required = 152
+int_required = "-"
+armour = "559-643"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Savant's Robe"
+lvl_required = 56
+str_required = "-"
+dex_required = "-"
+int_required = 152
+armour = "-"
+evasion_rating = "-"
+energy_shield = "115-132"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Crypt Armour"
+lvl_required = 56
+str_required = "-"
+dex_required = 82
+int_required = 82
+armour = "-"
+evasion_rating = "308-369"
+energy_shield = "63-76"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Dragonscale Doublet"
+lvl_required = 57
+str_required = 83
+dex_required = 83
+int_required = "-"
+armour = "313-351"
+evasion_rating = "313-351"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Loricated Ringmail"
+lvl_required = 58
+str_required = 84
+dex_required = "-"
+int_required = 84
+armour = "325-374"
+evasion_rating = "-"
+energy_shield = "66-76"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Crusader Plate"
+lvl_required = 59
+str_required = 160
+dex_required = "-"
+int_required = "-"
+armour = "601-691"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Destiny Leather"
+lvl_required = 59
+str_required = "-"
+dex_required = 160
+int_required = "-"
+armour = "601-721"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Necromancer Silks"
+lvl_required = 59
+str_required = "-"
+dex_required = "-"
+int_required = 160
+armour = "-"
+evasion_rating = "-"
+energy_shield = "123-147"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Sentinel Jacket"
+lvl_required = 59
+str_required = "-"
+dex_required = 86
+int_required = 86
+armour = "-"
+evasion_rating = "330-370"
+energy_shield = "67-76"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Desert Brigandine"
+lvl_required = 60
+str_required = 96
+dex_required = 96
+int_required = "-"
+armour = "376-451"
+evasion_rating = "376-451"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Conquest Chainmail"
+lvl_required = 61
+str_required = 96
+dex_required = "-"
+int_required = 96
+armour = "387-445"
+evasion_rating = "-"
+energy_shield = "79-91"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Astral Plate"
+lvl_required = 62
+str_required = 180
+dex_required = "-"
+int_required = "-"
+armour = "711-782"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(8-12)% to all Elemental Resistances"
+
+[[body_armour]]
+item_type = "Exquisite Leather"
+lvl_required = 62
+str_required = "-"
+dex_required = 170
+int_required = "-"
+armour = "704-810"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Occultist's Vestment"
+lvl_required = 62
+str_required = "-"
+dex_required = "-"
+int_required = 180
+armour = "-"
+evasion_rating = "-"
+energy_shield = "137-151"
+ward = "-"
+implicit_mod = "(3-10)% increased Spell Damage"
+
+[[body_armour]]
+item_type = "Varnished Coat"
+lvl_required = 62
+str_required = "-"
+dex_required = 96
+int_required = 96
+armour = "-"
+evasion_rating = "387-434"
+energy_shield = "79-89"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Full Dragonscale"
+lvl_required = 63
+str_required = 115
+dex_required = 94
+int_required = "-"
+armour = "470-541"
+evasion_rating = "373-429"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Elegant Ringmail"
+lvl_required = 64
+str_required = 90
+dex_required = "-"
+int_required = 105
+armour = "377-433"
+evasion_rating = "-"
+energy_shield = "92-105"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Gladiator Plate"
+lvl_required = 65
+str_required = 177
+dex_required = "-"
+int_required = "-"
+armour = "738-848"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Zodiac Leather"
+lvl_required = 65
+str_required = "-"
+dex_required = 197
+int_required = "-"
+armour = "-"
+evasion_rating = "854-982"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Widowsilk Robe"
+lvl_required = 65
+str_required = "-"
+dex_required = "-"
+int_required = 187
+armour = "-"
+evasion_rating = "-"
+energy_shield = "157-181"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Blood Raiment"
+lvl_required = 65
+str_required = "-"
+dex_required = 107
+int_required = 90
+armour = "-"
+evasion_rating = "436-501"
+energy_shield = "73-84"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "General's Brigandine"
+lvl_required = 66
+str_required = 103
+dex_required = 103
+int_required = "-"
+armour = "415-465"
+evasion_rating = "415-465"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Saint's Hauberk"
+lvl_required = 67
+str_required = 109
+dex_required = "-"
+int_required = 94
+armour = "443-496"
+evasion_rating = "-"
+energy_shield = "76-85"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Glorious Plate"
+lvl_required = 68
+str_required = 191
+dex_required = "-"
+int_required = "-"
+armour = "776-892"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Assassin's Garb"
+lvl_required = 68
+str_required = "-"
+dex_required = 183
+int_required = "-"
+armour = "-"
+evasion_rating = "737-811"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[[body_armour]]
+item_type = "Vaal Regalia"
+lvl_required = 68
+str_required = "-"
+dex_required = "-"
+int_required = 194
+armour = "-"
+evasion_rating = "-"
+energy_shield = "171-197"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Sadist Garb"
+lvl_required = 68
+str_required = "-"
+dex_required = 103
+int_required = 109
+armour = "-"
+evasion_rating = "427-491"
+energy_shield = "93-107"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Triumphant Lamellar"
+lvl_required = 69
+str_required = 95
+dex_required = 116
+int_required = "-"
+armour = "380-437"
+evasion_rating = "477-549"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Saintly Chainmail"
+lvl_required = 70
+str_required = 99
+dex_required = "-"
+int_required = 115
+armour = "401-461"
+evasion_rating = "-"
+energy_shield = "96-110"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Grasping Mail"
+lvl_required = 70
+str_required = 60
+dex_required = 60
+int_required = 60
+armour = "217-250"
+evasion_rating = "217-250"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[body_armour]]
+item_type = "Carnal Armour"
+lvl_required = 71
+str_required = "-"
+dex_required = 88
+int_required = 122
+armour = "-"
+evasion_rating = "353-388"
+energy_shield = "103-113"
+ward = "-"
+implicit_mod = "(20-25) to maximum Mana"
+
+[[body_armour]]
+item_type = "Sacrificial Garb"
+lvl_required = 72
+str_required = 66
+dex_required = 66
+int_required = 66
+armour = "-"
+evasion_rating = "329-378"
+energy_shield = "329-378"
+ward = "-"
+implicit_mod = "+1 to Level of all Vaal Skill Gems"
+
+
+
+####################################################################################################
+########## Boots
+####################################################################################################
+[boots]
+[[boot]]
+item_type = "Iron Greaves"
+lvl_required = 1
+str_required = 8
+dex_required = "-"
+int_required = "-"
+armour = "6-9"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Rawhide Boots"
+lvl_required = 1
+str_required = "-"
+dex_required = 11
+int_required = "-"
+armour = "-"
+evasion_rating = "13-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Wool Shoes"
+lvl_required = 1
+str_required = "-"
+dex_required = "-"
+int_required = 11
+armour = "-"
+evasion_rating = "-"
+energy_shield = "5-7"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Chain Boots"
+lvl_required = 5
+str_required = 8
+dex_required = "-"
+int_required = 8
+armour = "11-15"
+evasion_rating = "-"
+energy_shield = "3-5"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Leatherscale Boots"
+lvl_required = 6
+str_required = 9
+dex_required = 9
+int_required = "-"
+armour = "12-17"
+evasion_rating = "12-17"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Wrapped Boots"
+lvl_required = 6
+str_required = "-"
+dex_required = 9
+int_required = 9
+armour = "12-17"
+evasion_rating = "4-5"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Steel Greaves"
+lvl_required = 9
+str_required = 21
+dex_required = "-"
+int_required = "-"
+armour = "32-42"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Velvet Slippers"
+lvl_required = 9
+str_required = "-"
+dex_required = "-"
+int_required = 21
+armour = "-"
+evasion_rating = "-"
+energy_shield = "8-11"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Goathide Boots"
+lvl_required = 12
+str_required = "-"
+dex_required = 26
+int_required = "-"
+armour = "-"
+evasion_rating = "42-54"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Golden Caligae"
+lvl_required = 12
+str_required = "-"
+dex_required = "-"
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(8-16)% to all Elemental Resistances"
+
+[[boot]]
+item_type = "Ringmail Boots"
+lvl_required = 13
+str_required = 15
+dex_required = "-"
+int_required = 15
+armour = "25-32"
+evasion_rating = "6-8"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Strapped Boots"
+lvl_required = 16
+str_required = "-"
+dex_required = 18
+int_required = 18
+armour = "30-39"
+evasion_rating = "7-9"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Ironscale Boots"
+lvl_required = 18
+str_required = 19
+dex_required = 19
+int_required = "-"
+armour = "34-44"
+evasion_rating = "34-44"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Basemetal Treads"
+lvl_required = 20
+str_required = 39
+dex_required = "-"
+int_required = "-"
+armour = "68-78"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(4-5)% Chance to Block Attack Damage & You take 20% of Damage from Blocked Hits"
+
+[[boot]]
+item_type = "Cloudwhisper Boots"
+lvl_required = 20
+str_required = "-"
+dex_required = 39
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating & 25% less Accuracy Rating"
+
+[[boot]]
+item_type = "Duskwalk Slippers"
+lvl_required = 20
+str_required = "-"
+dex_required = "-"
+int_required = 39
+armour = "-"
+evasion_rating = "-"
+energy_shield = "15-18"
+ward = "-"
+implicit_mod = "10% reduced Movement Speed & (30-40)% increased Cooldown Recovery Rate of Movement Skills"
+
+[[boot]]
+item_type = "Deerskin Boots"
+lvl_required = 22
+str_required = "-"
+dex_required = 42
+int_required = "-"
+armour = "-"
+evasion_rating = "74-92"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Silk Slippers"
+lvl_required = 22
+str_required = "-"
+dex_required = "-"
+int_required = 42
+armour = "-"
+evasion_rating = "-"
+energy_shield = "17-21"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Plated Greaves"
+lvl_required = 23
+str_required = 44
+dex_required = "-"
+int_required = "-"
+armour = "77-96"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Runic Greaves"
+lvl_required = 24
+str_required = 20
+dex_required = 20
+int_required = 20
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "24-28"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Clasped Boots"
+lvl_required = 27
+str_required = "-"
+dex_required = 27
+int_required = 27
+armour = "50-57"
+evasion_rating = "11-12"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Mesh Boots"
+lvl_required = 28
+str_required = 28
+dex_required = "-"
+int_required = 28
+armour = "51-64"
+evasion_rating = "-"
+energy_shield = "11-14"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Bronzescale Boots"
+lvl_required = 30
+str_required = 30
+dex_required = 30
+int_required = "-"
+armour = "55-63"
+evasion_rating = "55-63"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Scholar Boots"
+lvl_required = 32
+str_required = "-"
+dex_required = "-"
+int_required = 59
+armour = "-"
+evasion_rating = "-"
+energy_shield = "23-25"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Reinforced Greaves"
+lvl_required = 33
+str_required = 61
+dex_required = "-"
+int_required = "-"
+armour = "109-120"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Nubuck Boots"
+lvl_required = 34
+str_required = "-"
+dex_required = 62
+int_required = "-"
+armour = "-"
+evasion_rating = "113-126"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Shackled Boots"
+lvl_required = 34
+str_required = "-"
+dex_required = 34
+int_required = 34
+armour = "-"
+evasion_rating = "62-71"
+energy_shield = "13-15"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Steelscale Boots"
+lvl_required = 36
+str_required = 35
+dex_required = 35
+int_required = "-"
+armour = "65-75"
+evasion_rating = "65-75"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Riveted Boots"
+lvl_required = 36
+str_required = 35
+dex_required = "-"
+int_required = 35
+armour = "65-71"
+evasion_rating = "-"
+energy_shield = "14-15"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Antique Greaves"
+lvl_required = 37
+str_required = 67
+dex_required = "-"
+int_required = "-"
+armour = "122-144"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Satin Slippers"
+lvl_required = 38
+str_required = "-"
+dex_required = "-"
+int_required = 69
+armour = "-"
+evasion_rating = "-"
+energy_shield = "26-30"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Eelskin Boots"
+lvl_required = 39
+str_required = "-"
+dex_required = 70
+int_required = "-"
+armour = "-"
+evasion_rating = "129-148"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Zealot Boots"
+lvl_required = 40
+str_required = 39
+dex_required = "-"
+int_required = 39
+armour = "73-87"
+evasion_rating = "-"
+energy_shield = "15-18"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Trapper Boots"
+lvl_required = 41
+str_required = "-"
+dex_required = 40
+int_required = 40
+armour = "74-85"
+evasion_rating = "16-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Serpentscale Boots"
+lvl_required = 42
+str_required = 40
+dex_required = 40
+int_required = "-"
+armour = "76-90"
+evasion_rating = "76-90"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Sharkskin Boots"
+lvl_required = 44
+str_required = "-"
+dex_required = 79
+int_required = "-"
+armour = "-"
+evasion_rating = "145-171"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Samite Slippers"
+lvl_required = 44
+str_required = "-"
+dex_required = "-"
+int_required = 79
+armour = "-"
+evasion_rating = "-"
+energy_shield = "30-35"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Ancient Greaves"
+lvl_required = 46
+str_required = 82
+dex_required = "-"
+int_required = "-"
+armour = "151-174"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Ambush Boots"
+lvl_required = 47
+str_required = "-"
+dex_required = 45
+int_required = 45
+armour = "-"
+evasion_rating = "85-95"
+energy_shield = "18-20"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Runic Sollerets"
+lvl_required = 48
+str_required = 37
+dex_required = 37
+int_required = 37
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "62-71"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Soldier Boots"
+lvl_required = 49
+str_required = 47
+dex_required = "-"
+int_required = 47
+armour = "88-99"
+evasion_rating = "-"
+energy_shield = "18-20"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Darksteel Treads"
+lvl_required = 50
+str_required = 89
+dex_required = "-"
+int_required = "-"
+armour = "164-189"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(4-5)% Chance to Block Attack Damage & You take 20% of Damage from Blocked Hits"
+
+[[boot]]
+item_type = "Windbreak Boots"
+lvl_required = 50
+str_required = "-"
+dex_required = 89
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating & 25% less Accuracy Rating"
+
+[[boot]]
+item_type = "Nightwind Slippers"
+lvl_required = 50
+str_required = "-"
+dex_required = "-"
+int_required = 89
+armour = "-"
+evasion_rating = "-"
+energy_shield = "34-39"
+ward = "-"
+implicit_mod = "10% reduced Movement Speed & (30-40)% increased Cooldown Recovery Rate of Movement Skills"
+
+[[boot]]
+item_type = "Wyrmscale Boots"
+lvl_required = 51
+str_required = 48
+dex_required = 48
+int_required = "-"
+armour = "92-103"
+evasion_rating = "92-103"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Conjurer Boots"
+lvl_required = 53
+str_required = "-"
+dex_required = "-"
+int_required = 94
+armour = "-"
+evasion_rating = "-"
+energy_shield = "36-42"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Goliath Greaves"
+lvl_required = 54
+str_required = 95
+dex_required = "-"
+int_required = "-"
+armour = "177-209"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Shagreen Boots"
+lvl_required = 55
+str_required = "-"
+dex_required = 97
+int_required = "-"
+armour = "-"
+evasion_rating = "180-216"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Carnal Boots"
+lvl_required = 55
+str_required = "-"
+dex_required = 52
+int_required = 52
+armour = "-"
+evasion_rating = "99-117"
+energy_shield = "20-24"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Legion Boots"
+lvl_required = 58
+str_required = 54
+dex_required = "-"
+int_required = 54
+armour = "104-120"
+evasion_rating = "-"
+energy_shield = "21-25"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Hydrascale Boots"
+lvl_required = 59
+str_required = 56
+dex_required = 56
+int_required = "-"
+armour = "106-122"
+evasion_rating = "106-122"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Arcanist Slippers"
+lvl_required = 61
+str_required = "-"
+dex_required = "-"
+int_required = 119
+armour = "-"
+evasion_rating = "-"
+energy_shield = "47-55"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Vaal Greaves"
+lvl_required = 62
+str_required = 117
+dex_required = "-"
+int_required = "-"
+armour = "220-253"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Stealth Boots"
+lvl_required = 62
+str_required = "-"
+dex_required = 117
+int_required = "-"
+armour = "220-253"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Assassin's Boots"
+lvl_required = 63
+str_required = "-"
+dex_required = 62
+int_required = 62
+armour = "-"
+evasion_rating = "121-139"
+energy_shield = "25-28"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Crusader Boots"
+lvl_required = 64
+str_required = 62
+dex_required = "-"
+int_required = 62
+armour = "121-139"
+evasion_rating = "-"
+energy_shield = "25-28"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Dragonscale Boots"
+lvl_required = 65
+str_required = 62
+dex_required = 62
+int_required = "-"
+armour = "121-139"
+evasion_rating = "121-139"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Sorcerer Boots"
+lvl_required = 67
+str_required = "-"
+dex_required = "-"
+int_required = 123
+armour = "-"
+evasion_rating = "-"
+energy_shield = "51-59"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Titan Greaves"
+lvl_required = 68
+str_required = 120
+dex_required = "-"
+int_required = "-"
+armour = "241-278"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Slink Boots"
+lvl_required = 69
+str_required = "-"
+dex_required = 120
+int_required = "-"
+armour = "246-283"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Murder Boots"
+lvl_required = 69
+str_required = "-"
+dex_required = 82
+int_required = 42
+armour = "-"
+evasion_rating = "185-213"
+energy_shield = "18-21"
+ward = "-"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Runic Sabatons"
+lvl_required = 69
+str_required = 46
+dex_required = 46
+int_required = 46
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "102-117"
+implicit_mod = "-"
+
+[[boot]]
+item_type = "Two-Toned Boots"
+lvl_required = 70
+str_required = "-"
+dex_required = 62
+int_required = 62
+armour = "-"
+evasion_rating = "126-145"
+energy_shield = "26-30"
+ward = "-"
+implicit_mod = "(8-12)% to Cold and Lightning Resistances"
+
+[[boot]]
+item_type = "Fugitive Boots"
+lvl_required = 70
+str_required = "-"
+dex_required = 56
+int_required = 76
+armour = "-"
+evasion_rating = "112-129"
+energy_shield = "32-37"
+ward = "-"
+implicit_mod = "(13-17)% to Chaos Resistance"
+
+[[boot]]
+item_type = "Brimstone Treads"
+lvl_required = 80
+str_required = 124
+dex_required = "-"
+int_required = "-"
+armour = "236-271"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(4-5)% Chance to Block Attack Damage & You take 20% of Damage from Blocked Hits"
+
+[[boot]]
+item_type = "Stormrider Boots"
+lvl_required = 80
+str_required = "-"
+dex_required = 124
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating & 25% less Accuracy Rating"
+
+[[boot]]
+item_type = "Dreamquest Slippers"
+lvl_required = 80
+str_required = "-"
+dex_required = "-"
+int_required = 124
+armour = "-"
+evasion_rating = "-"
+energy_shield = "50-57"
+ward = "-"
+implicit_mod = "10% reduced Movement Speed & (30-40)% increased Cooldown Recovery Rate of Movement Skills"
+
+
+####################################################################################################
+########## Bows
+####################################################################################################
+[bows]
+[[item]]
+Name = "Crude Bow"
+Level = 1
+Dex = 14
+Damage = "5-13"
+Critical_Chance = "5.00%"
+APS = 1.4
+DPS = 12.6
+implicit = "(15-25)% to Global Critical Strike Multiplier"
+
+[[item]]
+Name = "Short Bow"
+Level = 5
+Dex = 26
+Damage = "6-16"
+Critical_Chance = "5.00%"
+APS = 1.5
+DPS = 16.5
+implicit = "(15-25)% to Global Critical Strike Multiplier"
+
+[[item]]
+Name = "Long Bow"
+Level = 9
+Dex = 38
+Damage = "8-33"
+Critical_Chance = "6.00%"
+APS = 1.3
+DPS = 26.7
+implicit = "(15-25)% to Global Critical Strike Multiplier"
+
+[[item]]
+Name = "Composite Bow"
+Level = 14
+Dex = 53
+Damage = "16-34"
+Critical_Chance = "6.00%"
+APS = 1.3
+DPS = 32.5
+implicit = "(15-25)% to Global Critical Strike Multiplier"
+
+[[item]]
+Name = "Recurve Bow"
+Level = 18
+Dex = 65
+Damage = "15-45"
+Critical_Chance = "6.70%"
+APS = 1.25
+DPS = 37.5
+implicit = "(15-25)% to Global Critical Strike Multiplier"
+
+
+[[item]]
+Name = "Bone Bow"
+Level = 23
+Dex = 80
+Damage = "15-45"
+Critical_Chance = "6.50%"
+APS = 1.4
+DPS = 42.0
+implicit = "(20-24)% increased Elemental Damage with Attack Skills"
+
+[[item]]
+Name = "Royal Bow"
+Level = 28
+Dex = 95
+Damage = "14-56"
+Critical_Chance = "5.00%"
+APS = 1.45
+DPS = 50.7
+implicit = "(20-24)% increased Elemental Damage with Attack Skills"
+
+[[item]]
+Name = "Hedron Bow"
+Level = 30
+Dex = 101
+Damage = "9-13"
+Critical_Chance = "5.50%"
+APS = 1.3
+DPS = 14.3
+implicit = "Adds (46-55) to (69-83) Fire Damage"
+
+[[item]]
+Name = "Death Bow"
+Level = 32
+Dex = 107
+Damage = "28-73"
+Critical_Chance = "5.00%"
+APS = 1.2
+DPS = 60.6
+implicit = "(30-50)% increased Critical Strike Chance"
+
+[[item]]
+Name = "Grove Bow"
+Level = 35
+Dex = 116
+Damage = "20-61"
+Critical_Chance = "5.00%"
+APS = 1.5
+DPS = 60.7
+implicit = "6% increased Movement Speed"
+
+[[item]]
+Name = "Reflex Bow"
+Level = 36
+Dex = 124
+Damage = "37-56"
+Critical_Chance = "5.50%"
+APS = 1.4
+DPS = 65.1
+implicit = "6% increased Movement Speed"
+
+[[item]]
+Name = "Decurve Bow"
+Level = 38
+Dex = 125
+Damage = "24-96"
+Critical_Chance = "6.00%"
+APS = 1.25
+DPS = 75.0
+implicit = "(15-25)% to Global Critical Strike Multiplier"
+
+[[item]]
+Name = "Compound Bow"
+Level = 41
+Dex = 134
+Damage = "37-76"
+Critical_Chance = "6.00%"
+APS = 1.3
+DPS = 73.5
+implicit = "(15-25)% to Global Critical Strike Multiplier"
+
+[[item]]
+Name = "Sniper Bow"
+Level = 44
+Dex = 143
+Damage = "32-96"
+Critical_Chance = "6.70%"
+APS = 1.25
+DPS = 80.0
+implicit = "(15-25)% to Global Critical Strike Multiplier"
+
+[[item]]
+Name = "Ivory Bow"
+Level = 47
+Dex = 152
+Damage = "29-86"
+Critical_Chance = "6.50%"
+APS = 1.4
+DPS = 80.5
+implicit = "(20-24)% increased Elemental Damage with Attack Skills"
+
+[[item]]
+Name = "Highborn Bow"
+Level = 50
+Dex = 161
+Damage = "24-94"
+Critical_Chance = "5.00%"
+APS = 1.45
+DPS = 85.5
+implicit = "(20-24)% increased Elemental Damage with Attack Skills"
+
+[[item]]
+Name = "Foundry Bow"
+Level = 50
+Dex = 161
+Damage = "13-20"
+Critical_Chance = "5.50%"
+APS = 1.3
+DPS = 21.5
+implicit = "Adds (80-97) to (126-144) Fire Damage"
+
+[[item]]
+Name = "Decimation Bow"
+Level = 53
+Dex = 170
+Damage = "44-116"
+Critical_Chance = "5.00%"
+APS = 1.2
+DPS = 96.0
+implicit = "(30-50)% increased Critical Strike Chance"
+
+[[item]]
+Name = "Thicket Bow"
+Level = 56
+Dex = 179
+Damage = "32-96"
+Critical_Chance = "5.00%"
+APS = 1.5
+DPS = 96.0
+implicit = "6% increased Movement Speed"
+
+[[item]]
+Name = "Steelwood Bow"
+Level = 57
+Dex = 190
+Damage = "58-86"
+Critical_Chance = "5.50%"
+APS = 1.4
+DPS = 100.8
+implicit = "6% increased Movement Speed"
+
+[[bow]]
+item_type = "Citadel Bow"
+lvl_required = 58
+dex_required = 185
+damage = "36-144"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 112.5
+implicit_mod = "(15-25)% to Global Critical Strike Multiplier"
+
+[[bow]]
+item_type = "Ranger Bow"
+lvl_required = 60
+dex_required = 212
+damage = "56-117"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 112.5
+implicit_mod = "(15-25)% to Global Critical Strike Multiplier"
+
+[[bow]]
+item_type = "Assassin Bow"
+lvl_required = 62
+dex_required = 212
+damage = "43-130"
+critical_chance = "6.70%"
+aps = 1.25
+dps = 108.1
+implicit_mod = "(15-25)% to Global Critical Strike Multiplier"
+
+[[bow]]
+item_type = "Spine Bow"
+lvl_required = 64
+dex_required = 212
+damage = "38-115"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 107.1
+implicit_mod = "(20-24)% increased Elemental Damage with Attack Skills"
+
+[[bow]]
+item_type = "Imperial Bow"
+lvl_required = 66
+dex_required = 212
+damage = "29-117"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 105.8
+implicit_mod = "(20-24)% increased Elemental Damage with Attack Skills"
+
+[[bow]]
+item_type = "Harbinger Bow"
+lvl_required = 68
+dex_required = 212
+damage = "50-133"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 109.8
+implicit_mod = "(30-50)% increased Critical Strike Chance"
+
+[[bow]]
+item_type = "Solarine Bow"
+lvl_required = 70
+dex_required = 212
+damage = "16-24"
+critical_chance = "5.50%"
+aps = 1.3
+dps = 26.0
+implicit_mod = "Adds (121-133) to (184-197) Fire Damage"
+
+[[bow]]
+item_type = "Maraketh Bow"
+lvl_required = 71
+dex_required = 222
+damage = "61-92"
+critical_chance = "5.50%"
+aps = 1.4
+dps = 107.1
+implicit_mod = "10% increased Movement Speed"
+
+
+
+####################################################################################################
+########## Claws
+####################################################################################################
+[claws]
+[[claw]]
+item_type = "Nailed Fist"
+lvl_required = 1
+dex_required = 11
+Int = 11
+damage = "4-11"
+critical_chance = "6.20%"
+aps = 1.6
+dps = 12.0
+implicit_mod = "Grants 3 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Sharktooth Claw"
+lvl_required = 7
+dex_required = 14
+Int = 20
+damage = "6-17"
+critical_chance = "6.50%"
+aps = 1.5
+dps = 17.2
+implicit_mod = "Grants 6 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Awl"
+lvl_required = 12
+dex_required = 25
+Int = 25
+damage = "7-23"
+critical_chance = "6.30%"
+aps = 1.55
+dps = 23.3
+implicit_mod = "Grants 7 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Cat's Paw"
+lvl_required = 17
+dex_required = 39
+Int = 27
+damage = "12-22"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 27.2
+implicit_mod = "Grants 8 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Blinder"
+lvl_required = 22
+dex_required = 41
+Int = 41
+damage = "12-31"
+critical_chance = "6.30%"
+aps = 1.55
+dps = 33.3
+implicit_mod = "Grants 12 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Timeworn Claw"
+lvl_required = 26
+dex_required = 39
+Int = 56
+damage = "16-43"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 38.4
+implicit_mod = "Grants 19 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Sparkling Claw"
+lvl_required = 30
+dex_required = 64
+Int = 44
+damage = "14-38"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 41.6
+implicit_mod = "Grants 15 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Shadow Fangs"
+lvl_required = 30
+dex_required = 54
+Int = 54
+damage = "13-24"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 29.6
+implicit_mod = "Adds (26-38) to (52-70) Chaos Damage"
+
+[[claw]]
+item_type = "Fright Claw"
+lvl_required = 34
+dex_required = 61
+Int = 61
+damage = "12-46"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 43.5
+implicit_mod = "Grants 20 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Double Claw"
+lvl_required = 36
+dex_required = 67
+Int = 67
+damage = "15-44"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 44.2
+implicit_mod = "Grants 15 Life & 6 Mana per Enemy Hit"
+
+[[claw]]
+item_type = "Thresher Claw"
+lvl_required = 37
+dex_required = 53
+Int = 77
+damage = "20-53"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 47.5
+implicit_mod = "Grants 25 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Gouger"
+lvl_required = 40
+dex_required = 70
+Int = 70
+damage = "15-51"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 49.5
+implicit_mod = "Grants 24 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Tiger's Paw"
+lvl_required = 43
+dex_required = 88
+Int = 61
+damage = "23-43"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 52.8
+implicit_mod = "1.6% of Physical Attack Damage Leeched as Life"
+
+[[claw]]
+item_type = "Gut Ripper"
+lvl_required = 46
+dex_required = 80
+Int = 80
+damage = "20-53"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 54.7
+implicit_mod = "Grants 44 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Prehistoric Claw"
+lvl_required = 49
+dex_required = 69
+Int = 100
+damage = "26-68"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 61.1
+implicit_mod = "2% of Physical Attack Damage Leeched as Life"
+
+[[claw]]
+item_type = "Malign Fangs"
+lvl_required = 50
+dex_required = 86
+Int = 86
+damage = "20-37"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 45.6
+implicit_mod = "Adds (43-55) to (81-104) Chaos Damage"
+
+[[claw]]
+item_type = "Noble Claw"
+lvl_required = 52
+dex_required = 105
+Int = 73
+damage = "21-56"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 61.6
+implicit_mod = "Grants 40 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Eagle Claw"
+lvl_required = 55
+dex_required = 94
+Int = 94
+damage = "17-69"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 64.5
+implicit_mod = "2% of Physical Attack Damage Leeched as Life"
+
+[[claw]]
+item_type = "Twin Claw"
+lvl_required = 57
+dex_required = 103
+Int = 103
+damage = "21-64"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 63.7
+implicit_mod = "Grants 28 Life & 10 Mana per Enemy Hit"
+
+[[claw]]
+item_type = "Great White Claw"
+lvl_required = 58
+dex_required = 81
+Int = 117
+damage = "30-78"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 70.2
+implicit_mod = "Grants 46 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Throat Stabber"
+lvl_required = 60
+dex_required = 113
+Int = 113
+damage = "21-73"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 70.5
+implicit_mod = "Grants 40 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Hellion's Paw"
+lvl_required = 62
+dex_required = 131
+Int = 95
+damage = "29-55"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 67.2
+implicit_mod = "1.6% of Physical Attack Damage Leeched as Life"
+
+[[claw]]
+item_type = "Eye Gouger"
+lvl_required = 64
+dex_required = 113
+Int = 113
+damage = "26-68"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 70.5
+implicit_mod = "Grants 50 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Vaal Claw"
+lvl_required = 66
+dex_required = 95
+Int = 131
+damage = "29-76"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 68.3
+implicit_mod = "2% of Physical Attack Damage Leeched as Life"
+
+[[claw]]
+item_type = "Imperial Claw"
+lvl_required = 68
+dex_required = 131
+Int = 95
+damage = "25-65"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 72.0
+implicit_mod = "Grants 46 Life per Enemy Hit"
+
+[[claw]]
+item_type = "Terror Claw"
+lvl_required = 70
+dex_required = 113
+Int = 113
+damage = "18-71"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 66.7
+implicit_mod = "2% of Physical Attack Damage Leeched as Life"
+
+[[claw]]
+item_type = "Void Fangs"
+lvl_required = 70
+dex_required = 113
+Int = 113
+damage = "22-41"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 50.4
+implicit_mod = "Adds (46-63) to (92-113) Chaos Damage"
+
+[[claw]]
+item_type = "Gemini Claw"
+lvl_required = 72
+dex_required = 121
+Int = 121
+damage = "23-68"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 68.2
+implicit_mod = "Grants 38 Life & 14 Mana per Enemy Hit"
+
+
+
+####################################################################################################
+########## Daggers
+####################################################################################################
+[daggers]
+[[dagger]]
+item_type = "Glass Shank"
+lvl_required = 1
+dex_required = 9
+int_required = 6
+damage = "6-10"
+critical_chance = "6.00%"
+aps = 1.5
+dps = 12.0
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[dagger]]
+item_type = "Skinning Knife"
+lvl_required = 5
+dex_required = 16
+int_required = 11
+damage = "4-17"
+critical_chance = "6.00%"
+aps = 1.45
+dps = 15.2
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[dagger]]
+item_type = "Stiletto"
+lvl_required = 15
+dex_required = 30
+int_required = 30
+damage = "7-27"
+critical_chance = "6.10%"
+aps = 1.5
+dps = 25.5
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[dagger]]
+item_type = "Flaying Knife"
+lvl_required = 30
+dex_required = 64
+int_required = 44
+damage = "11-45"
+critical_chance = "6.00%"
+aps = 1.4
+dps = 39.2
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[dagger]]
+item_type = "Hollowpoint Dagger"
+lvl_required = 30
+dex_required = 54
+int_required = 54
+damage = "12-46"
+critical_chance = "6.30%"
+aps = 1.4
+dps = 40.6
+implicit_mod = "All Damage from Hits with This Weapon can Poison"
+
+[[dagger]]
+item_type = "Prong Dagger"
+lvl_required = 36
+dex_required = 55
+int_required = 77
+damage = "14-54"
+critical_chance = "6.20%"
+aps = 1.35
+dps = 45.9
+implicit_mod = "4% Chance to Block Attack Damage"
+
+[[dagger]]
+item_type = "Poignard"
+lvl_required = 41
+dex_required = 72
+int_required = 72
+damage = "13-52"
+critical_chance = "6.10%"
+aps = 1.5
+dps = 48.7
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[dagger]]
+item_type = "Pressurised Dagger"
+lvl_required = 50
+dex_required = 86
+int_required = 86
+damage = "18-71"
+critical_chance = "6.30%"
+aps = 1.4
+dps = 62.3
+implicit_mod = "All Damage from Hits with This Weapon can Poison"
+
+[[dagger]]
+item_type = "Trisula"
+lvl_required = 51
+dex_required = 83
+int_required = 99
+damage = "19-74"
+critical_chance = "6.50%"
+aps = 1.35
+dps = 62.8
+implicit_mod = "4% Chance to Block Attack Damage"
+
+[[dagger]]
+item_type = "Gutting Knife"
+lvl_required = 56
+dex_required = 113
+int_required = 78
+damage = "19-76"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 66.5
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[dagger]]
+item_type = "Ambusher"
+lvl_required = 60
+dex_required = 113
+int_required = 113
+damage = "19-74"
+critical_chance = "6.10%"
+aps = 1.5
+dps = 69.7
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[dagger]]
+item_type = "Sai"
+lvl_required = 70
+dex_required = 121
+int_required = 121
+damage = "22-88"
+critical_chance = "6.20%"
+aps = 1.35
+dps = 74.2
+implicit_mod = "6% Chance to Block Attack Damage"
+
+[[dagger]]
+item_type = "Pneumatic Dagger"
+lvl_required = 70
+dex_required = 121
+int_required = 121
+damage = "20-79"
+critical_chance = "6.30%"
+aps = 1.4
+dps = 69.3
+implicit_mod = "All Damage from Hits with This Weapon can Poison"
+
+[[rune_dagger]]
+item_type = "Carving Knife"
+lvl_required = 10
+dex_required = 18
+int_required = 26
+damage = "3-26"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 21.0
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Boot Knife"
+lvl_required = 20
+dex_required = 31
+int_required = 45
+damage = "8-34"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 30.4
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Copper Kris"
+lvl_required = 24
+dex_required = 28
+int_required = 60
+damage = "10-41"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 33.2
+implicit_mod = "50% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Skean"
+lvl_required = 28
+dex_required = 42
+int_required = 60
+damage = "11-43"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 39.1
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Flickerflame Blade"
+lvl_required = 30
+dex_required = 54
+int_required = 54
+damage = "12-47"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 42.8
+implicit_mod = "Trigger lvl_required 10 Flame Dash when you use a Socketed Skill"
+
+[[rune_dagger]]
+item_type = "Imp Dagger"
+lvl_required = 32
+dex_required = 36
+int_required = 78
+damage = "15-59"
+critical_chance = "6.50%"
+aps = 1.2
+dps = 44.4
+implicit_mod = "40% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Butcher Knife"
+lvl_required = 38
+dex_required = 55
+int_required = 79
+damage = "7-62"
+critical_chance = "6.30%"
+aps = 1.4
+dps = 48.3
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Boot Blade"
+lvl_required = 44
+dex_required = 63
+int_required = 90
+damage = "15-59"
+critical_chance = "6.30%"
+aps = 1.4
+dps = 51.8
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Golden Kris"
+lvl_required = 47
+dex_required = 51
+int_required = 110
+damage = "19-75"
+critical_chance = "6.50%"
+aps = 1.2
+dps = 56.4
+implicit_mod = "50% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Royal Skean"
+lvl_required = 50
+dex_required = 71
+int_required = 102
+damage = "16-64"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 58.0
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Flashfire Blade"
+lvl_required = 50
+dex_required = 86
+int_required = 86
+damage = "18-73"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 65.9
+implicit_mod = "Trigger lvl_required 20 Flame Dash when you use a Socketed Skill & 20% increased Cooldown Recovery Rate of Travel Skills"
+
+[[rune_dagger]]
+item_type = "Fiend Dagger"
+lvl_required = 53
+dex_required = 58
+int_required = 123
+damage = "22-87"
+critical_chance = "6.50%"
+aps = 1.2
+dps = 65.4
+implicit_mod = "40% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Slaughter Knife"
+lvl_required = 58
+dex_required = 81
+int_required = 117
+damage = "10-86"
+critical_chance = "6.30%"
+aps = 1.4
+dps = 67.2
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Ezomyte Dagger"
+lvl_required = 62
+dex_required = 95
+int_required = 131
+damage = "20-79"
+critical_chance = "6.30%"
+aps = 1.4
+dps = 69.3
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Platinum Kris"
+lvl_required = 64
+dex_required = 76
+int_required = 149
+damage = "24-95"
+critical_chance = "6.50%"
+aps = 1.2
+dps = 71.4
+implicit_mod = "50% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Imperial Skean"
+lvl_required = 66
+dex_required = 95
+int_required = 131
+damage = "18-73"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 68.2
+implicit_mod = "30% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Demon Dagger"
+lvl_required = 68
+dex_required = 76
+int_required = 149
+damage = "24-97"
+critical_chance = "6.50%"
+aps = 1.2
+dps = 72.6
+implicit_mod = "40% increased Global Critical Strike Chance"
+
+[[rune_dagger]]
+item_type = "Infernal Blade"
+lvl_required = 70
+dex_required = 121
+int_required = 121
+damage = "21-85"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 76.8
+implicit_mod = "Trigger lvl_required 30 Flame Dash when you use a Socketed Skill & 40% increased Cooldown Recovery Rate of Travel Skills"
+
+
+
+####################################################################################################
+########## Flasks
+####################################################################################################
+[flasks]
+[[life_flask]]
+item_type = "Small Life Flask"
+lvl_required = 1
+life = 70
+duration = 3.00
+charges = 7
+quality = 21
+
+[[life_flask]]
+item_type = "Medium Life Flask"
+lvl_required = 3
+life = 150
+duration = 3.50
+charges = 8
+quality = 28
+
+[[life_flask]]
+item_type = "Large Life Flask"
+lvl_required = 6
+life = 250
+duration = 3.50
+charges = 9
+quality = 30
+
+[[life_flask]]
+item_type = "Greater Life Flask"
+lvl_required = 12
+life = 360
+duration = 3.50
+charges = 10
+quality = 32
+
+[[life_flask]]
+item_type = "Grand Life Flask"
+lvl_required = 18
+life = 640
+duration = 3.00
+charges = 10
+quality = 25
+
+[[life_flask]]
+item_type = "Giant Life Flask"
+lvl_required = 24
+life = 830
+duration = 4.00
+charges = 10
+quality = 30
+
+[[life_flask]]
+item_type = "Colossal Life Flask"
+lvl_required = 30
+life = 1000
+duration = 3.50
+charges = 10
+quality = 32
+
+[[life_flask]]
+item_type = "Sacred Life Flask"
+lvl_required = 36
+life = 1200
+duration = 3.00
+charges = 10
+quality = 25
+
+[[life_flask]]
+item_type = "Hallowed Life Flask"
+lvl_required = 42
+life = 1990
+duration = 4.00
+charges = 10
+quality = 30
+
+[[life_flask]]
+item_type = "Sanctified Life Flask"
+lvl_required = 50
+life = 1460
+duration = 1.50
+charges = 15
+quality = 30
+
+[[life_flask]]
+item_type = "Divine Life Flask"
+lvl_required = 60
+life = 2400
+duration = 3.50
+charges = 15
+quality = 45
+
+[[life_flask]]
+item_type = "Eternal Life Flask"
+lvl_required = 65
+life = 2080
+duration = 2.00
+charges = 15
+quality = 45
+
+[[mana_flask]]
+item_type = "Small Mana Flask"
+lvl_required = 1
+mana = 50
+duration = 3.00
+charges = 6
+quality = 24
+
+[[mana_flask]]
+item_type = "Medium Mana Flask"
+lvl_required = 3
+mana = 70
+duration = 3.50
+charges = 7
+quality = 30
+
+[[mana_flask]]
+item_type = "Large Mana Flask"
+lvl_required = 6
+mana = 90
+duration = 4.00
+charges = 8
+quality = 35
+
+[[mana_flask]]
+item_type = "Greater Mana Flask"
+lvl_required = 12
+mana = 120
+duration = 4.00
+charges = 9
+quality = 36
+
+[[mana_flask]]
+item_type = "Grand Mana Flask"
+lvl_required = 18
+mana = 170
+duration = 4.50
+charges = 7
+quality = 30
+
+[[mana_flask]]
+item_type = "Giant Mana Flask"
+lvl_required = 24
+mana = 250
+duration = 5.00
+charges = 8
+quality = 36
+
+[[mana_flask]]
+item_type = "Colossal Mana Flask"
+lvl_required = 30
+mana = 350
+duration = 5.00
+charges = 8
+quality = 38
+
+[[mana_flask]]
+item_type = "Sacred Mana Flask"
+lvl_required = 36
+mana = 480
+duration = 5.50
+charges = 7
+quality = 35
+
+[[mana_flask]]
+item_type = "Hallowed Mana Flask"
+lvl_required = 42
+mana = 700
+duration = 6.00
+charges = 6
+quality = 30
+
+[[mana_flask]]
+item_type = "Sanctified Mana Flask"
+lvl_required = 50
+mana = 1100
+duration = 6.50
+charges = 7
+quality = 35
+
+[[mana_flask]]
+item_type = "Divine Mana Flask"
+lvl_required = 60
+mana = 1400
+duration = 5.00
+charges = 8
+quality = 42
+
+[[mana_flask]]
+item_type = "Eternal Mana Flask"
+lvl_required = 65
+mana = 1800
+duration = 7.00
+charges = 8
+quality = 42
+
+[[hybrid_flask]]
+item_type = "Small Hybrid Flask"
+lvl_required = 10
+life = 100
+mana = 70
+duration = 5.00
+charges = 20
+quality = 40
+
+[[hybrid_flask]]
+item_type = "Medium Hybrid Flask"
+lvl_required = 20
+life = 230
+mana = 100
+duration = 5.00
+charges = 20
+quality = 40
+
+[[hybrid_flask]]
+item_type = "Large Hybrid Flask"
+lvl_required = 30
+life = 510
+mana = 140
+duration = 5.00
+charges = 20
+quality = 40
+
+[[hybrid_flask]]
+item_type = "Colossal Hybrid Flask"
+lvl_required = 40
+life = 690
+mana = 200
+duration = 5.00
+charges = 20
+quality = 40
+
+[[hybrid_flask]]
+item_type = "Sacred Hybrid Flask"
+lvl_required = 50
+life = 1440
+mana = 400
+duration = 5.00
+charges = 20
+quality = 40
+
+[[hybrid_flask]]
+item_type = "Hallowed Hybrid Flask"
+lvl_required = 60
+life = 1740
+mana = 480
+duration = 5.00
+charges = 20
+quality = 40
+
+[[utility_flask]]
+item_type = "Quicksilver Flask"
+lvl_required = 4
+duration = 6.00
+charges = 30
+quality = 60
+effects = "40% increased Movement Speed"
+
+[[utility_flask]]
+item_type = "Bismuth Flask"
+lvl_required = 8
+duration = 8.50
+charges = 15
+quality = 40
+effects = "+35% to all Elemental Resistances"
+
+[[utility_flask]]
+item_type = "Amethyst Flask"
+lvl_required = 18
+duration = 6.50
+charges = 35
+quality = 65
+effects = "+35% to Chaos Resistance"
+
+[[utility_flask]]
+item_type = "Ruby Flask"
+lvl_required = 18
+duration = 8.00
+charges = 20
+quality = 50
+effects = "+40% to Fire Resistance & +5% to maximum Fire Resistance"
+
+[[utility_flask]]
+item_type = "Sapphire Flask"
+lvl_required = 18
+duration = 8.00
+charges = 20
+quality = 50
+effects = "+40% to Cold Resistance & +5% to maximum Cold Resistance"
+
+[[utility_flask]]
+item_type = "Topaz Flask"
+lvl_required = 18
+duration = 8.00
+charges = 20
+quality = 50
+effects = "+40% to Lightning Resistance & +5% to maximum Lightning Resistance"
+
+[[utility_flask]]
+item_type = "Aquamarine Flask"
+lvl_required = 27
+duration = 8.00
+charges = 20
+quality = 50
+effects = "60% reduced Effect of Freeze on you & Creates Chilled Ground on Use"
+
+[[utility_flask]]
+item_type = "Basalt Flask"
+lvl_required = 27
+duration = 8.00
+charges = 40
+quality = 60
+effects = "20% more Armour & Taunts nearby Enemies on use"
+
+[[utility_flask]]
+item_type = "Corundum Flask"
+lvl_required = 27
+duration = 7.50
+charges = 20
+quality = 50
+effects = "30% increased Stun Threshold & Cannot be Stunned if you've been Stunned during Effect"
+
+[[utility_flask]]
+item_type = "Diamond Flask"
+lvl_required = 27
+duration = 6.00
+charges = 20
+quality = 40
+effects = "100% increased Global Critical Strike Chance"
+
+[[utility_flask]]
+item_type = "Gold Flask"
+lvl_required = 27
+duration = 5.00
+charges = 60
+quality = 80
+effects = "30% increased Rarity of Items found"
+
+[[utility_flask]]
+item_type = "Granite Flask"
+lvl_required = 27
+duration = 6.00
+charges = 30
+quality = 60
+effects = "+1500 to Armour"
+
+[[utility_flask]]
+item_type = "Iron Flask"
+lvl_required = 27
+duration = 5.00
+charges = 40
+quality = 60
+effects = "+200 to Ward & Restores Ward on use"
+
+[[utility_flask]]
+item_type = "Jade Flask"
+lvl_required = 27
+duration = 6.00
+charges = 30
+quality = 60
+effects = "+1500 to Evasion Rating"
+
+[[utility_flask]]
+item_type = "Quartz Flask"
+lvl_required = 27
+duration = 6.00
+charges = 30
+quality = 60
+effects = "Phasing & +10% chance to Suppress Spell Damage"
+
+[[utility_flask]]
+item_type = "Silver Flask"
+lvl_required = 27
+duration = 6.00
+charges = 40
+quality = 60
+effects = "Onslaught"
+
+[[utility_flask]]
+item_type = "Stibnite Flask"
+lvl_required = 27
+duration = 8.00
+charges = 40
+quality = 60
+effects = "20% more Evasion Rating & Creates a Smoke Cloud on Use"
+
+[[utility_flask]]
+item_type = "Sulphur Flask"
+lvl_required = 27
+duration = 8.00
+charges = 40
+quality = 60
+effects = "40% increased Damage & Creates Consecrated Ground on Use"
+
+
+
+
+####################################################################################################
+########## Gloves
+####################################################################################################
+[gloves]
+[[glove]]
+item_type = "Iron Gauntlets"
+lvl_required = 1
+str_required = 6
+dex_required = "-"
+int_required = "-"
+armour = "6-9"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Rawhide Gloves"
+lvl_required = 1
+str_required = "-"
+dex_required = 9
+int_required = "-"
+armour = "-"
+evasion_rating = "13-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Wool Gloves"
+lvl_required = 1
+str_required = "-"
+dex_required = "-"
+int_required = 9
+armour = "-"
+evasion_rating = "-"
+energy_shield = "5-7"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Fishscale Gauntlets"
+lvl_required = 1
+str_required = 5
+dex_required = 5
+int_required = "-"
+armour = "9-12"
+evasion_rating = "9-12"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Wrapped Mitts"
+lvl_required = 5
+str_required = "-"
+dex_required = 6
+int_required = 6
+armour = "-"
+evasion_rating = "11-15"
+energy_shield = "3-5"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Chain Gloves"
+lvl_required = 7
+str_required = 8
+dex_required = "-"
+int_required = 8
+armour = "14-20"
+evasion_rating = "-"
+energy_shield = "4-6"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Goathide Gloves"
+lvl_required = 9
+str_required = "-"
+dex_required = 17
+int_required = "-"
+armour = "-"
+evasion_rating = "32-42"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Taxing Gauntlets"
+lvl_required = 10
+str_required = 18
+dex_required = "-"
+int_required = "-"
+armour = "35-41"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Exerted Attacks deal (25-30)% increased Damage & Warcry Skills have +2 seconds to Cooldown"
+
+[[glove]]
+item_type = "Gauche Gloves"
+lvl_required = 10
+str_required = "-"
+dex_required = 18
+int_required = "-"
+armour = "-"
+evasion_rating = "35-41"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "25% reduced Attack Damage with Main Hand & (40-50)% increased Attack Damage with Off Hand"
+
+[[glove]]
+item_type = "Leyline Gloves"
+lvl_required = 10
+str_required = "-"
+dex_required = "-"
+int_required = 18
+armour = "-"
+evasion_rating = "-"
+energy_shield = "9-10"
+ward = "-"
+implicit_mod = "30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"
+
+[[glove]]
+item_type = "Plated Gauntlets"
+lvl_required = 11
+str_required = 20
+dex_required = "-"
+int_required = "-"
+armour = "39-50"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Velvet Gloves"
+lvl_required = 12
+str_required = "-"
+dex_required = "-"
+int_required = 21
+armour = "-"
+evasion_rating = "-"
+energy_shield = "10-13"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Golden Bracers"
+lvl_required = 12
+str_required = "-"
+dex_required = "-"
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(20-30) to maximum Life"
+
+[[glove]]
+item_type = "Ironscale Gauntlets"
+lvl_required = 15
+str_required = 14
+dex_required = 14
+int_required = "-"
+armour = "28-37"
+evasion_rating = "28-37"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Strapped Mitts"
+lvl_required = 16
+str_required = "-"
+dex_required = 14
+int_required = 14
+armour = "-"
+evasion_rating = "30-39"
+energy_shield = "7-9"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Ringmail Gloves"
+lvl_required = 19
+str_required = 16
+dex_required = "-"
+int_required = 16
+armour = "35-46"
+evasion_rating = "-"
+energy_shield = "8-10"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Deerskin Gloves"
+lvl_required = 21
+str_required = "-"
+dex_required = 33
+int_required = "-"
+armour = "-"
+evasion_rating = "71-88"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Bronze Gauntlets"
+lvl_required = 23
+str_required = 36
+dex_required = "-"
+int_required = "-"
+armour = "77-96"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Runic Gloves"
+lvl_required = 24
+str_required = 16
+dex_required = 16
+int_required = 16
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "24-28"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Silk Gloves"
+lvl_required = 25
+str_required = "-"
+dex_required = "-"
+int_required = 39
+armour = "-"
+evasion_rating = "-"
+energy_shield = "18-23"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Bronzescale Gauntlets"
+lvl_required = 27
+str_required = 22
+dex_required = 22
+int_required = "-"
+armour = "50-62"
+evasion_rating = "50-62"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Clasped Mitts"
+lvl_required = 31
+str_required = "-"
+dex_required = 25
+int_required = 25
+armour = "-"
+evasion_rating = "57-65"
+energy_shield = "12-14"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Mesh Gloves"
+lvl_required = 32
+str_required = 26
+dex_required = "-"
+int_required = 26
+armour = "58-67"
+evasion_rating = "-"
+energy_shield = "12-14"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Nubuck Gloves"
+lvl_required = 33
+str_required = "-"
+dex_required = 50
+int_required = "-"
+armour = "-"
+evasion_rating = "109-122"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Steel Gauntlets"
+lvl_required = 35
+str_required = 52
+dex_required = "-"
+int_required = "-"
+armour = "116-127"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Embroidered Gloves"
+lvl_required = 36
+str_required = "-"
+dex_required = "-"
+int_required = 54
+armour = "-"
+evasion_rating = "-"
+energy_shield = "25-28"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Steelscale Gauntlets"
+lvl_required = 36
+str_required = 29
+dex_required = 29
+int_required = "-"
+armour = "65-75"
+evasion_rating = "65-75"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Trapper Mitts"
+lvl_required = 36
+str_required = "-"
+dex_required = 29
+int_required = 29
+armour = "-"
+evasion_rating = "65-77"
+energy_shield = "14-16"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Riveted Gloves"
+lvl_required = 37
+str_required = 29
+dex_required = "-"
+int_required = 29
+armour = "67-77"
+evasion_rating = "-"
+energy_shield = "14-16"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Eelskin Gloves"
+lvl_required = 38
+str_required = "-"
+dex_required = 56
+int_required = "-"
+armour = "-"
+evasion_rating = "125-148"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Antique Gauntlets"
+lvl_required = 39
+str_required = 58
+dex_required = "-"
+int_required = "-"
+armour = "129-154"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Gruelling Gauntlets"
+lvl_required = 40
+str_required = 59
+dex_required = "-"
+int_required = "-"
+armour = "132-152"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Exerted Attacks deal (30-40)% increased Damage & Warcry Skills have +2 seconds to Cooldown"
+
+[[glove]]
+item_type = "Southswing Gloves"
+lvl_required = 40
+str_required = "-"
+dex_required = 59
+int_required = "-"
+armour = "132-152"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "25% reduced Attack Damage with Main Hand & (40-50)% increased Attack Damage with Off Hand"
+
+[[glove]]
+item_type = "Aetherwind Gloves"
+lvl_required = 40
+str_required = "-"
+dex_required = "-"
+int_required = 59
+armour = "-"
+evasion_rating = "-"
+energy_shield = "28-32"
+ward = "-"
+implicit_mod = "30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"
+
+[[glove]]
+item_type = "Satin Gloves"
+lvl_required = 41
+str_required = "-"
+dex_required = "-"
+int_required = 60
+armour = "-"
+evasion_rating = "-"
+energy_shield = "28-33"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Serpentscale Gauntlets"
+lvl_required = 43
+str_required = 34
+dex_required = 34
+int_required = "-"
+armour = "78-87"
+evasion_rating = "78-87"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Zealot Gloves"
+lvl_required = 43
+str_required = 34
+dex_required = "-"
+int_required = 34
+armour = "78-92"
+evasion_rating = "-"
+energy_shield = "16-19"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Sharkskin Gloves"
+lvl_required = 45
+str_required = "-"
+dex_required = 66
+int_required = "-"
+armour = "-"
+evasion_rating = "148-163"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Ambush Mitts"
+lvl_required = 45
+str_required = "-"
+dex_required = 35
+int_required = 35
+armour = "-"
+evasion_rating = "81-91"
+energy_shield = "17-19"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Ancient Gauntlets"
+lvl_required = 47
+str_required = 68
+dex_required = "-"
+int_required = "-"
+armour = "154-173"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Samite Gloves"
+lvl_required = 47
+str_required = "-"
+dex_required = "-"
+int_required = 68
+armour = "-"
+evasion_rating = "-"
+energy_shield = "32-37"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Runic Gages"
+lvl_required = 48
+str_required = 31
+dex_required = 31
+int_required = 31
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "62-71"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Wyrmscale Gauntlets"
+lvl_required = 49
+str_required = 38
+dex_required = 38
+int_required = "-"
+armour = "88-104"
+evasion_rating = "88-104"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Carnal Mitts"
+lvl_required = 50
+str_required = "-"
+dex_required = 39
+int_required = 39
+armour = "-"
+evasion_rating = "90-101"
+energy_shield = "19-21"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Soldier Gloves"
+lvl_required = 51
+str_required = 40
+dex_required = "-"
+int_required = 40
+armour = "92-103"
+evasion_rating = "-"
+energy_shield = "19-21"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Goliath Gauntlets"
+lvl_required = 53
+str_required = 77
+dex_required = "-"
+int_required = "-"
+armour = "174-200"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Shagreen Gloves"
+lvl_required = 54
+str_required = "-"
+dex_required = 78
+int_required = "-"
+armour = "-"
+evasion_rating = "177-212"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Conjurer Gloves"
+lvl_required = 55
+str_required = "-"
+dex_required = "-"
+int_required = 79
+armour = "-"
+evasion_rating = "-"
+energy_shield = "37-44"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Legion Gloves"
+lvl_required = 57
+str_required = 44
+dex_required = "-"
+int_required = 44
+armour = "103-121"
+evasion_rating = "-"
+energy_shield = "21-25"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Assassin's Mitts"
+lvl_required = 58
+str_required = "-"
+dex_required = 45
+int_required = "-"
+armour = "104-123"
+evasion_rating = "21-25"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Hydrascale Gauntlets"
+lvl_required = 59
+str_required = 45
+dex_required = 45
+int_required = "-"
+armour = "106-122"
+evasion_rating = "106-122"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Arcanist Gloves"
+lvl_required = 60
+str_required = "-"
+dex_required = "-"
+int_required = 95
+armour = "-"
+evasion_rating = "-"
+energy_shield = "45-52"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Stealth Gloves"
+lvl_required = 62
+str_required = "-"
+dex_required = 97
+int_required = "-"
+armour = "231-265"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Vaal Gauntlets"
+lvl_required = 63
+str_required = 100
+dex_required = "-"
+int_required = "-"
+armour = "232-266"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Crusader Gloves"
+lvl_required = 66
+str_required = 51
+dex_required = "-"
+int_required = 51
+armour = "121-139"
+evasion_rating = "-"
+energy_shield = "25-28"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Dragonscale Gauntlets"
+lvl_required = 67
+str_required = 51
+dex_required = 51
+int_required = "-"
+armour = "121-139"
+evasion_rating = "121-139"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Murder Mitts"
+lvl_required = 67
+str_required = "-"
+dex_required = 51
+int_required = 51
+armour = "121-139"
+evasion_rating = "25-28"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Titan Gauntlets"
+lvl_required = 69
+str_required = 98
+dex_required = "-"
+int_required = "-"
+armour = "242-278"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Sorcerer Gloves"
+lvl_required = 69
+str_required = "-"
+dex_required = "-"
+int_required = 97
+armour = "-"
+evasion_rating = "-"
+energy_shield = "49-57"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Runic Gauntlets"
+lvl_required = 69
+str_required = 38
+dex_required = 38
+int_required = 38
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "102-117"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Debilitation Gauntlets"
+lvl_required = 70
+str_required = 101
+dex_required = "-"
+int_required = "-"
+armour = "236-271"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Exerted Attacks deal (40-50)% increased Damage & Warcry Skills have +2 seconds to Cooldown"
+
+[[glove]]
+item_type = "Slink Gloves"
+lvl_required = 70
+str_required = "-"
+dex_required = 95
+int_required = "-"
+armour = "242-278"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[glove]]
+item_type = "Sinistral Gloves"
+lvl_required = 70
+str_required = "-"
+dex_required = 101
+int_required = "-"
+armour = "236-271"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "25% reduced Attack Damage with Main Hand & (40-50)% increased Attack Damage with Off Hand"
+
+[[glove]]
+item_type = "Nexus Gloves"
+lvl_required = 70
+str_required = "-"
+dex_required = "-"
+int_required = 101
+armour = "-"
+evasion_rating = "-"
+energy_shield = "47-54"
+ward = "-"
+implicit_mod = "30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"
+
+[[glove]]
+item_type = "Spiked Gloves"
+lvl_required = 70
+str_required = 95
+dex_required = "-"
+int_required = "-"
+armour = "220-253"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(16-20)% increased Melee Damage"
+
+[[glove]]
+item_type = "Gripped Gloves"
+lvl_required = 70
+str_required = "-"
+dex_required = 95
+int_required = "-"
+armour = "220-253"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(14-18)% increased Projectile Attack Damage"
+
+[[glove]]
+item_type = "Fingerless Silk Gloves"
+lvl_required = 70
+str_required = "-"
+dex_required = "-"
+int_required = 95
+armour = "-"
+evasion_rating = "-"
+energy_shield = "45-52"
+ward = "-"
+implicit_mod = "(12-16)% increased Spell Damage"
+
+[[glove]]
+item_type = "Apothecary's Gloves"
+lvl_required = 70
+str_required = 46
+dex_required = "-"
+int_required = 59
+armour = "108-124"
+evasion_rating = "-"
+energy_shield = "29-33"
+ward = "-"
+implicit_mod = "(14-18)% increased Damage over Time"
+
+
+
+####################################################################################################
+########## Helmets
+####################################################################################################
+[helmets]
+[[helmet]]
+item_type = "Iron Hat"
+lvl_required = 1
+str_required = 9
+dex_required = "-"
+int_required = "-"
+armour = "9-13"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Leather Cap"
+lvl_required = 1
+str_required = "-"
+dex_required = 13
+int_required = "-"
+armour = "-"
+evasion_rating = "19-27"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Vine Circlet"
+lvl_required = 1
+str_required = "-"
+dex_required = "-"
+int_required = 13
+armour = "-"
+evasion_rating = "-"
+energy_shield = "7-10"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Battered Helm"
+lvl_required = 1
+str_required = 8
+dex_required = 8
+int_required = "-"
+armour = "13-18"
+evasion_rating = "13-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Scare Mask"
+lvl_required = 1
+str_required = "-"
+dex_required = 8
+int_required = 8
+armour = "13-18"
+evasion_rating = "4-6"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Rusted Coif"
+lvl_required = 5
+str_required = 9
+dex_required = "-"
+int_required = 9
+armour = "16-22"
+evasion_rating = "-"
+energy_shield = "5-7"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Cone Helmet"
+lvl_required = 7
+str_required = 21
+dex_required = "-"
+int_required = "-"
+armour = "38-50"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Iron Circlet"
+lvl_required = 8
+str_required = "-"
+dex_required = "-"
+int_required = 23
+armour = "-"
+evasion_rating = "-"
+energy_shield = "12-15"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Tricorne"
+lvl_required = 10
+str_required = "-"
+dex_required = 27
+int_required = "-"
+armour = "-"
+evasion_rating = "53-69"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Plague Mask"
+lvl_required = 10
+str_required = "-"
+dex_required = 14
+int_required = 14
+armour = "29-38"
+evasion_rating = "7-10"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Soldier Helmet"
+lvl_required = 12
+str_required = 16
+dex_required = "-"
+int_required = 16
+armour = "34-45"
+evasion_rating = "-"
+energy_shield = "8-11"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Golden Wreath"
+lvl_required = 12
+str_required = "-"
+dex_required = "-"
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(16-24) to all Attributes"
+
+[[helmet]]
+item_type = "Golden Visage"
+lvl_required = 12
+str_required = "-"
+dex_required = "-"
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(8-16)% to all Elemental Resistances"
+
+[[helmet]]
+item_type = "Sallet"
+lvl_required = 13
+str_required = 18
+dex_required = 18
+int_required = "-"
+armour = "37-48"
+evasion_rating = "37-48"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Sorrow Mask"
+lvl_required = 15
+str_required = 20
+dex_required = 20
+int_required = "-"
+armour = "42-49"
+evasion_rating = "42-49"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "You are Crushed & (2-3) to maximum Fortification"
+
+[[helmet]]
+item_type = "Imp Crown"
+lvl_required = 15
+str_required = 20
+dex_required = "-"
+int_required = 20
+armour = "42-49"
+evasion_rating = "-"
+energy_shield = "10-12"
+ward = "-"
+implicit_mod = "Socketed Skills apply Fire, Cold and Lightning Exposure on Hit & -10% to all Elemental Resistances"
+
+[[helmet]]
+item_type = "Gale Crown"
+lvl_required = 15
+str_required = "-"
+dex_required = 20
+int_required = 20
+armour = "42-49"
+evasion_rating = "10-12"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Adds (3-4) to (5-6) Cold Damage & Your Hits treat Cold Resistance as 10% higher than actual value"
+
+[[helmet]]
+item_type = "Torture Cage"
+lvl_required = 17
+str_required = "-"
+dex_required = "-"
+int_required = 40
+armour = "-"
+evasion_rating = "-"
+energy_shield = "20-25"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Iron Mask"
+lvl_required = 17
+str_required = "-"
+dex_required = 21
+int_required = 21
+armour = "48-60"
+evasion_rating = "11-14"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Barbute Helmet"
+lvl_required = 18
+str_required = 42
+dex_required = "-"
+int_required = "-"
+armour = "92-115"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Leather Hood"
+lvl_required = 20
+str_required = "-"
+dex_required = 46
+int_required = "-"
+armour = "-"
+evasion_rating = "101-127"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Great Helmet"
+lvl_required = 22
+str_required = 27
+dex_required = "-"
+int_required = 27
+armour = "61-76"
+evasion_rating = "-"
+energy_shield = "14-17"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Visored Sallet"
+lvl_required = 23
+str_required = 28
+dex_required = 28
+int_required = "-"
+armour = "64-80"
+evasion_rating = "64-80"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Runic Helm"
+lvl_required = 25
+str_required = 30
+dex_required = 30
+int_required = 30
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "41-47"
+
+[[helmet]]
+item_type = "Close Helmet"
+lvl_required = 26
+str_required = 58
+dex_required = "-"
+int_required = "-"
+armour = "130-150"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Tribal Circlet"
+lvl_required = 26
+str_required = "-"
+dex_required = "-"
+int_required = 58
+armour = "-"
+evasion_rating = "-"
+energy_shield = "28-33"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Festival Mask"
+lvl_required = 28
+str_required = "-"
+dex_required = 33
+int_required = 33
+armour = "77-88"
+evasion_rating = "17-19"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Wolf Pelt"
+lvl_required = 30
+str_required = "-"
+dex_required = 66
+int_required = "-"
+armour = "-"
+evasion_rating = "150-172"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Crusader Helmet"
+lvl_required = 31
+str_required = 36
+dex_required = "-"
+int_required = 36
+armour = "85-95"
+evasion_rating = "-"
+energy_shield = "18-20"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Gilded Sallet"
+lvl_required = 33
+str_required = 38
+dex_required = 38
+int_required = "-"
+armour = "90-97"
+evasion_rating = "90-97"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Bone Circlet"
+lvl_required = 34
+str_required = "-"
+dex_required = "-"
+int_required = 73
+armour = "-"
+evasion_rating = "-"
+energy_shield = "36-40"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Gladiator Helmet"
+lvl_required = 35
+str_required = 75
+dex_required = "-"
+int_required = "-"
+armour = "174-195"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Golden Mask"
+lvl_required = 35
+str_required = "-"
+dex_required = 40
+int_required = 40
+armour = "96-103"
+evasion_rating = "20-22"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Secutor Helm"
+lvl_required = 36
+str_required = 42
+dex_required = 42
+int_required = "-"
+armour = "98-116"
+evasion_rating = "98-116"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Aventail Helmet"
+lvl_required = 37
+str_required = 42
+dex_required = "-"
+int_required = 42
+armour = "101-119"
+evasion_rating = "-"
+energy_shield = "21-25"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Raven Mask"
+lvl_required = 38
+str_required = "-"
+dex_required = 44
+int_required = 44
+armour = "104-119"
+evasion_rating = "22-25"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Lunaris Circlet"
+lvl_required = 39
+str_required = "-"
+dex_required = "-"
+int_required = 83
+armour = "-"
+evasion_rating = "-"
+energy_shield = "41-48"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Reaver Helmet"
+lvl_required = 40
+str_required = 85
+dex_required = "-"
+int_required = "-"
+armour = "198-233"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Hunter Hood"
+lvl_required = 41
+str_required = "-"
+dex_required = 87
+int_required = "-"
+armour = "-"
+evasion_rating = "203-227"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Fencer Helm"
+lvl_required = 43
+str_required = 49
+dex_required = 49
+int_required = "-"
+armour = "117-134"
+evasion_rating = "117-134"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Zealot Helmet"
+lvl_required = 44
+str_required = 50
+dex_required = "-"
+int_required = 50
+armour = "119-137"
+evasion_rating = "-"
+energy_shield = "25-29"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Atonement Mask"
+lvl_required = 45
+str_required = 51
+dex_required = 51
+int_required = "-"
+armour = "122-140"
+evasion_rating = "122-140"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "You are Crushed & (2-3) to maximum Fortification"
+
+[[helmet]]
+item_type = "Demon Crown"
+lvl_required = 45
+str_required = 51
+dex_required = "-"
+int_required = 51
+armour = "122-140"
+evasion_rating = "-"
+energy_shield = "25-29"
+ward = "-"
+implicit_mod = "Socketed Skills apply Fire, Cold and Lightning Exposure on Hit & -10% to all Elemental Resistances"
+
+[[helmet]]
+item_type = "Callous Mask"
+lvl_required = 45
+str_required = "-"
+dex_required = 51
+int_required = 51
+armour = "122-137"
+evasion_rating = "25-28"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Winter Crown"
+lvl_required = 45
+str_required = "-"
+dex_required = 51
+int_required = 51
+armour = "122-140"
+evasion_rating = "25-29"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Adds (15-20) to (28-35) Cold Damage & Your Hits treat Cold Resistance as 10% higher than actual value"
+
+[[helmet]]
+item_type = "Noble Tricorne"
+lvl_required = 47
+str_required = "-"
+dex_required = 99
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Siege Helmet"
+lvl_required = 48
+str_required = 101
+dex_required = "-"
+int_required = "-"
+armour = "237-272"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Steel Circlet"
+lvl_required = 48
+str_required = "-"
+dex_required = "-"
+int_required = 101
+armour = "-"
+evasion_rating = "-"
+energy_shield = "49-55"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Runic Crest"
+lvl_required = 49
+str_required = 55
+dex_required = 55
+int_required = 55
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "97-112"
+
+[[helmet]]
+item_type = "Lacquered Helmet"
+lvl_required = 51
+str_required = 57
+dex_required = 57
+int_required = "-"
+armour = "138-155"
+evasion_rating = "138-155"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Regicide Mask"
+lvl_required = 52
+str_required = "-"
+dex_required = 58
+int_required = 58
+armour = "141-158"
+evasion_rating = "29-32"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Great Crown"
+lvl_required = 53
+str_required = 59
+dex_required = "-"
+int_required = 59
+armour = "143-161"
+evasion_rating = "-"
+energy_shield = "29-33"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Necromancer Circlet"
+lvl_required = 54
+str_required = "-"
+dex_required = "-"
+int_required = 112
+armour = "-"
+evasion_rating = "-"
+energy_shield = "55-64"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Samnite Helmet"
+lvl_required = 55
+str_required = 114
+dex_required = "-"
+int_required = "-"
+armour = "276-325"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Ursine Pelt"
+lvl_required = 55
+str_required = "-"
+dex_required = 114
+int_required = "-"
+armour = "276-325"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Harlequin Mask"
+lvl_required = 57
+str_required = "-"
+dex_required = 64
+int_required = 64
+armour = "157-185"
+evasion_rating = "32-38"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Fluted Bascinet"
+lvl_required = 58
+str_required = 64
+dex_required = 64
+int_required = "-"
+armour = "160-189"
+evasion_rating = "160-189"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Magistrate Crown"
+lvl_required = 58
+str_required = 64
+dex_required = "-"
+int_required = 64
+armour = "160-189"
+evasion_rating = "-"
+energy_shield = "33-39"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Solaris Circlet"
+lvl_required = 59
+str_required = "-"
+dex_required = "-"
+int_required = 122
+armour = "-"
+evasion_rating = "-"
+energy_shield = "60-68"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Ezomyte Burgonet"
+lvl_required = 60
+str_required = 138
+dex_required = "-"
+int_required = "-"
+armour = "346-381"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Silken Hood"
+lvl_required = 60
+str_required = "-"
+dex_required = 138
+int_required = "-"
+armour = "346-381"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Vaal Mask"
+lvl_required = 62
+str_required = "-"
+dex_required = 79
+int_required = 72
+armour = "207-239"
+evasion_rating = "37-43"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Pig-Faced Bascinet"
+lvl_required = 63
+str_required = 85
+dex_required = 62
+int_required = "-"
+armour = "229-263"
+evasion_rating = "159-183"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Prophet Crown"
+lvl_required = 63
+str_required = 85
+dex_required = "-"
+int_required = 62
+armour = "224-258"
+evasion_rating = "-"
+energy_shield = "32-37"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Sinner Tricorne"
+lvl_required = 64
+str_required = "-"
+dex_required = 138
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Royal Burgonet"
+lvl_required = 65
+str_required = 148
+dex_required = "-"
+int_required = "-"
+armour = "377-434"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Mind Cage"
+lvl_required = 65
+str_required = "-"
+dex_required = "-"
+int_required = 138
+armour = "-"
+evasion_rating = "-"
+energy_shield = "73-84"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Nightmare Bascinet"
+lvl_required = 67
+str_required = 62
+dex_required = 85
+int_required = "-"
+armour = "162-187"
+evasion_rating = "233-268"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Deicide Mask"
+lvl_required = 67
+str_required = "-"
+dex_required = 73
+int_required = 88
+armour = "190-219"
+evasion_rating = "47-54"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Praetor Crown"
+lvl_required = 68
+str_required = 62
+dex_required = "-"
+int_required = 91
+armour = "161-185"
+evasion_rating = "-"
+energy_shield = "51-58"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Runic Crown"
+lvl_required = 68
+str_required = 66
+dex_required = 66
+int_required = 66
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "164-189"
+
+[[helmet]]
+item_type = "Eternal Burgonet"
+lvl_required = 69
+str_required = 138
+dex_required = "-"
+int_required = "-"
+armour = "373-429"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Hubris Circlet"
+lvl_required = 69
+str_required = "-"
+dex_required = "-"
+int_required = 154
+armour = "-"
+evasion_rating = "-"
+energy_shield = "80-92"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Lion Pelt"
+lvl_required = 70
+str_required = "-"
+dex_required = 150
+int_required = "-"
+armour = "-"
+evasion_rating = "380-437"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[helmet]]
+item_type = "Bone Helmet"
+lvl_required = 73
+str_required = 76
+dex_required = "-"
+int_required = 76
+armour = "197-227"
+evasion_rating = "-"
+energy_shield = "40-46"
+ward = "-"
+implicit_mod = "Minions deal (15-20)% increased Damage"
+
+[[helmet]]
+item_type = "Penitent Mask"
+lvl_required = 75
+str_required = 79
+dex_required = 79
+int_required = "-"
+armour = "185-212"
+evasion_rating = "185-212"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "You are Crushed & (2-3) to maximum Fortification"
+
+[[helmet]]
+item_type = "Archdemon Crown"
+lvl_required = 75
+str_required = 79
+dex_required = "-"
+int_required = 79
+armour = "185-212"
+evasion_rating = "-"
+energy_shield = "38-43"
+ward = "-"
+implicit_mod = "Socketed Skills apply Fire, Cold and Lightning Exposure on Hit & -10% to all Elemental Resistances"
+
+[[helmet]]
+item_type = "Blizzard Crown"
+lvl_required = 75
+str_required = "-"
+dex_required = 79
+int_required = 79
+armour = "185-212"
+evasion_rating = "38-43"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Adds (75-85) to (115-128) Cold Damage & Your Hits treat Cold Resistance as 10% higher than actual value"
+
+
+####################################################################################################
+########## Maces
+####################################################################################################
+[maces]
+[[one_hand_mace]]
+item_type = "Driftwood Club"
+lvl_required = 1
+str_required = 14
+damage = "6-8"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 10.1
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Tribal Club"
+lvl_required = 5
+str_required = 26
+damage = "8-13"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 14.7
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Spiked Club"
+lvl_required = 10
+str_required = 41
+damage = "13-16"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 21.0
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Stone Hammer"
+lvl_required = 15
+str_required = 56
+damage = "15-27"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 27.3
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "War Hammer"
+lvl_required = 20
+str_required = 71
+damage = "13-31"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 31.9
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Bladed Mace"
+lvl_required = 24
+str_required = 83
+damage = "19-32"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 35.7
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Ceremonial Mace"
+lvl_required = 28
+str_required = 95
+damage = "32-40"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 43.2
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Flare Mace"
+lvl_required = 30
+str_required = 101
+damage = "20-41"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 39.7
+implicit_mod = "Trigger lvl_required 10 Fiery Impact on Melee Hit with this Weapon"
+
+[[one_hand_mace]]
+item_type = "Dream Mace"
+lvl_required = 32
+str_required = 107
+damage = "21-43"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 44.8
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Wyrm Mace"
+lvl_required = 34
+str_required = 118
+damage = "28-42"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 47.2
+implicit_mod = "4% increased Attack Speed"
+
+[[one_hand_mace]]
+item_type = "Petrified Club"
+lvl_required = 35
+str_required = 116
+damage = "31-51"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 51.2
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Barbed Club"
+lvl_required = 38
+str_required = 125
+damage = "33-42"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 52.5
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Rock Breaker"
+lvl_required = 41
+str_required = 134
+damage = "37-69"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 60.9
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Battle Hammer"
+lvl_required = 44
+str_required = 143
+damage = "25-59"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 58.8
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Flanged Mace"
+lvl_required = 47
+str_required = 152
+damage = "38-63"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 65.7
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Ornate Mace"
+lvl_required = 50
+str_required = 161
+damage = "53-67"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 72.0
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Crack Mace"
+lvl_required = 50
+str_required = 161
+damage = "31-64"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 61.8
+implicit_mod = "Trigger lvl_required 15 Fiery Impact on Melee Hit with this Weapon"
+
+[[one_hand_mace]]
+item_type = "Phantom Mace"
+lvl_required = 53
+str_required = 170
+damage = "33-69"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 71.4
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Dragon Mace"
+lvl_required = 55
+str_required = 184
+damage = "44-66"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 74.2
+implicit_mod = "4% increased Attack Speed"
+
+[[one_hand_mace]]
+item_type = "Ancestral Club"
+lvl_required = 56
+str_required = 179
+damage = "48-80"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 80.0
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Tenderizer"
+lvl_required = 58
+str_required = 185
+damage = "49-62"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 77.7
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Gavel"
+lvl_required = 60
+str_required = 212
+damage = "54-101"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 89.1
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Legion Hammer"
+lvl_required = 62
+str_required = 212
+damage = "35-81"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 81.2
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Pernach"
+lvl_required = 64
+str_required = 212
+damage = "49-82"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 85.2
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Auric Mace"
+lvl_required = 66
+str_required = 212
+damage = "65-82"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 88.2
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Nightmare Mace"
+lvl_required = 68
+str_required = 212
+damage = "38-80"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 82.6
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[[one_hand_mace]]
+item_type = "Behemoth Mace"
+lvl_required = 70
+str_required = 220
+damage = "49-74"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 83.0
+implicit_mod = "6% increased Attack Speed"
+
+[[one_hand_mace]]
+item_type = "Boom Mace"
+lvl_required = 70
+str_required = 218
+damage = "39-81"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 78.0
+implicit_mod = "Trigger lvl_required 20 Fiery Impact on Melee Hit with this Weapon"
+
+[[two_hand_mace]]
+item_type = "Driftwood Maul"
+lvl_required = 1
+str_required = 20
+damage = "10-16"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 16.9
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Tribal Maul"
+lvl_required = 8
+str_required = 35
+damage = "17-25"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 26.2
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Mallet"
+lvl_required = 12
+str_required = 47
+damage = "16-33"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 31.9
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Sledgehammer"
+lvl_required = 17
+str_required = 62
+damage = "25-38"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 41.0
+implicit_mod = "45% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Jagged Maul"
+lvl_required = 22
+str_required = 77
+damage = "27-49"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 49.4
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Brass Maul"
+lvl_required = 27
+str_required = 92
+damage = "40-60"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 60.0
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Blunt Force Condenser"
+lvl_required = 30
+str_required = 101
+damage = "39-64"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 59.2
+implicit_mod = "Warcries Exert 1 additional Attack"
+
+[[two_hand_mace]]
+item_type = "Fright Maul"
+lvl_required = 32
+str_required = 107
+damage = "46-62"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 67.5
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Morning Star"
+lvl_required = 34
+str_required = 118
+damage = "45-68"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 70.6
+implicit_mod = "15% increased Area of Effect"
+
+[[two_hand_mace]]
+item_type = "Totemic Maul"
+lvl_required = 36
+str_required = 119
+damage = "57-85"
+critical_chance = "5.00%"
+aps = 1.1
+dps = 78.1
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Great Mallet"
+lvl_required = 40
+str_required = 131
+damage = "43-88"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 81.9
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Steelhead"
+lvl_required = 44
+str_required = 143
+damage = "54-81"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 87.8
+implicit_mod = "45% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Spiny Maul"
+lvl_required = 48
+str_required = 155
+damage = "55-103"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 98.8
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Crushing Force Magnifier"
+lvl_required = 50
+str_required = 161
+damage = "62-103"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 94.8
+implicit_mod = "Warcries Exert 1 additional Attack"
+
+[[two_hand_mace]]
+item_type = "Plated Maul"
+lvl_required = 51
+str_required = 164
+damage = "72-108"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 108.0
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Dread Maul"
+lvl_required = 54
+str_required = 173
+damage = "77-104"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 113.1
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Solar Maul"
+lvl_required = 56
+str_required = 187
+damage = "75-113"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 117.5
+implicit_mod = "15% increased Area of Effect"
+
+[[two_hand_mace]]
+item_type = "Karui Maul"
+lvl_required = 57
+str_required = 182
+damage = "112-168"
+critical_chance = "5.00%"
+aps = 1.0
+dps = 140.0
+implicit_mod = "45% increased Stun Duration on Enemies"
+
+[[two_hand_mace]]
+item_type = "Colossus Mallet"
+lvl_required = 59
+str_required = 188
+damage = "65-135"
+critical_chance = "5.50%"
+aps = 1.3
+dps = 130.0
+implicit_mod = "30% increased Area Damage"
+
+[[two_hand_mace]]
+item_type = "Piledriver"
+lvl_required = 61
+str_required = 212
+damage = "77-115"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 129.6
+implicit_mod = "20% reduced Enemy Stun Threshold"
+
+[[two_hand_mace]]
+item_type = "Meatgrinder"
+lvl_required = 63
+str_required = 212
+damage = "74-138"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 132.5
+implicit_mod = "5% chance to deal Double Damage"
+
+[[two_hand_mace]]
+item_type = "Imperial Maul"
+lvl_required = 65
+str_required = 212
+damage = "102-153"
+critical_chance = "5.00%"
+aps = 1.1
+dps = 140.3
+implicit_mod = "10% increased Strength"
+
+[[two_hand_mace]]
+item_type = "Terror Maul"
+lvl_required = 67
+str_required = 212
+damage = "101-137"
+critical_chance = "6.00%"
+aps = 1.15
+dps = 136.8
+implicit_mod = "25% chance to double Stun Duration"
+
+[[two_hand_mace]]
+item_type = "Coronal Maul"
+lvl_required = 69
+str_required = 220
+damage = "91-136"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 136.3
+implicit_mod = "20% increased Area of Effect"
+
+[[two_hand_mace]]
+item_type = "Impact Force Propagator"
+lvl_required = 70
+str_required = 220
+damage = "81-135"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 124.1
+implicit_mod = "Warcries Exert 2 additional Attacks"
+
+[[sceptre]]
+item_type = "Driftwood Sceptre"
+lvl_required = 1
+str_required = 8
+int_required = 8
+damage = "8-11"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 11.4
+implicit_mod = "10% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Darkwood Sceptre"
+lvl_required = 5
+str_required = 14
+int_required = 14
+damage = "11-17"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 16.8
+implicit_mod = "12% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Bronze Sceptre"
+lvl_required = 10
+str_required = 22
+int_required = 22
+damage = "15-29"
+critical_chance = "6.00%"
+aps = 1.1
+dps = 24.2
+implicit_mod = "12% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Quartz Sceptre"
+lvl_required = 15
+str_required = 25
+int_required = 35
+damage = "21-32"
+critical_chance = "6.50%"
+aps = 1.1
+dps = 29.2
+implicit_mod = "20% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Iron Sceptre"
+lvl_required = 20
+str_required = 38
+int_required = 38
+damage = "27-40"
+critical_chance = "6.00%"
+aps = 1.1
+dps = 36.9
+implicit_mod = "14% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Ochre Sceptre"
+lvl_required = 24
+str_required = 44
+int_required = 44
+damage = "24-45"
+critical_chance = "6.00%"
+aps = 1.15
+dps = 39.7
+implicit_mod = "16% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Ritual Sceptre"
+lvl_required = 28
+str_required = 51
+int_required = 51
+damage = "21-50"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 42.6
+implicit_mod = "16% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Oscillating Sceptre"
+lvl_required = 30
+str_required = 44
+int_required = 64
+damage = "23-34"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 41.3
+implicit_mod = "Elemental Overload"
+
+[[sceptre]]
+item_type = "Shadow Sceptre"
+lvl_required = 32
+str_required = 52
+int_required = 62
+damage = "29-44"
+critical_chance = "6.20%"
+aps = 1.25
+dps = 45.6
+implicit_mod = "22% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Grinning Fetish"
+lvl_required = 35
+str_required = 62
+int_required = 62
+damage = "24-36"
+critical_chance = "6.00%"
+aps = 1.5
+dps = 45.0
+implicit_mod = "18% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Horned Sceptre"
+lvl_required = 36
+str_required = 66
+int_required = 66
+damage = "27-50"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 50.1
+implicit_mod = "Damage Penetrates 4% Elemental Resistances"
+
+[[sceptre]]
+item_type = "Sekhem"
+lvl_required = 38
+str_required = 67
+int_required = 67
+damage = "30-55"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 53.1
+implicit_mod = "18% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Crystal Sceptre"
+lvl_required = 41
+str_required = 59
+int_required = 85
+damage = "35-52"
+critical_chance = "6.50%"
+aps = 1.25
+dps = 54.4
+implicit_mod = "30% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Lead Sceptre"
+lvl_required = 44
+str_required = 77
+int_required = 77
+damage = "38-57"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 59.4
+implicit_mod = "22% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Blood Sceptre"
+lvl_required = 47
+str_required = 81
+int_required = 81
+damage = "30-55"
+critical_chance = "6.00%"
+aps = 1.4
+dps = 59.5
+implicit_mod = "24% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Royal Sceptre"
+lvl_required = 50
+str_required = 86
+int_required = 86
+damage = "34-80"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 68.4
+implicit_mod = "24% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Stabilising Sceptre"
+lvl_required = 50
+str_required = 71
+int_required = 102
+damage = "35-52"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 63.0
+implicit_mod = "Elemental Equilibrium"
+
+[[sceptre]]
+item_type = "Abyssal Sceptre"
+lvl_required = 53
+str_required = 83
+int_required = 99
+damage = "45-67"
+critical_chance = "6.20%"
+aps = 1.25
+dps = 70.0
+implicit_mod = "30% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Stag Sceptre"
+lvl_required = 55
+str_required = 98
+int_required = 98
+damage = "39-72"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 72.2
+implicit_mod = "Damage Penetrates 4% Elemental Resistances"
+
+[[sceptre]]
+item_type = "Karui Sceptre"
+lvl_required = 56
+str_required = 96
+int_required = 96
+damage = "37-55"
+critical_chance = "6.00%"
+aps = 1.5
+dps = 69.0
+implicit_mod = "26% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Tyrant's Sekhem"
+lvl_required = 58
+str_required = 99
+int_required = 99
+damage = "43-80"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 76.9
+implicit_mod = "26% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Opal Sceptre"
+lvl_required = 60
+str_required = 95
+int_required = 131
+damage = "49-73"
+critical_chance = "6.50%"
+aps = 1.25
+dps = 76.2
+implicit_mod = "40% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Platinum Sceptre"
+lvl_required = 62
+str_required = 113
+int_required = 113
+damage = "51-76"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 79.4
+implicit_mod = "30% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Vaal Sceptre"
+lvl_required = 64
+str_required = 113
+int_required = 113
+damage = "37-70"
+critical_chance = "6.00%"
+aps = 1.4
+dps = 74.9
+implicit_mod = "32% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Carnal Sceptre"
+lvl_required = 66
+str_required = 113
+int_required = 113
+damage = "41-95"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 81.6
+implicit_mod = "32% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Void Sceptre"
+lvl_required = 68
+str_required = 104
+int_required = 122
+damage = "50-76"
+critical_chance = "6.20%"
+aps = 1.25
+dps = 78.8
+implicit_mod = "40% increased Elemental Damage"
+
+[[sceptre]]
+item_type = "Sambar Sceptre"
+lvl_required = 70
+str_required = 121
+int_required = 113
+damage = "42-78"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 78.0
+implicit_mod = "Damage Penetrates 6% Elemental Resistances"
+
+[[sceptre]]
+item_type = "Alternating Sceptre"
+lvl_required = 70
+str_required = 95
+int_required = 131
+damage = "41-61"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 73.9
+implicit_mod = "Secrets of Suffering"
+
+
+
+####################################################################################################
+########## Rings
+####################################################################################################
+[rings]
+[[ring]]
+item_type = "Breach Ring"
+lvl_required = 1
+implicit_mod = "Properties are doubled while in a BreachCorrupted"
+
+[[ring]]
+item_type = "Coral Ring"
+lvl_required = 1
+implicit_mod = "+(20-30) to maximum Life"
+
+[[ring]]
+item_type = "Iron Ring"
+lvl_required = 1
+implicit_mod = "Adds 1 to 4 Physical Damage to Attacks"
+
+[[ring]]
+item_type = "Paua Ring"
+lvl_required = 1
+implicit_mod = "+(20-30) to maximum Mana"
+
+[[ring]]
+item_type = "Unset Ring"
+lvl_required = 5
+implicit_mod = "Has 1 Socket"
+
+[[ring]]
+item_type = "Sapphire Ring"
+lvl_required = 8
+implicit_mod = "+(20-30)% to Cold Resistance"
+
+[[ring]]
+item_type = "Topaz Ring"
+lvl_required = 12
+implicit_mod = "+(20-30)% to Lightning Resistance"
+
+[[ring]]
+item_type = "Ruby Ring"
+lvl_required = 16
+implicit_mod = "+(20-30)% to Fire Resistance"
+
+[[ring]]
+item_type = "Diamond Ring"
+lvl_required = 20
+implicit_mod = "(20-30)% increased Global Critical Strike Chance"
+
+[[ring]]
+item_type = "Gold Ring"
+lvl_required = 20
+implicit_mod = "(6-15)% increased Rarity of Items found"
+
+[[ring]]
+item_type = "Moonstone Ring"
+lvl_required = 20
+implicit_mod = "+(15-25) to maximum Energy Shield"
+
+[[ring]]
+item_type = "Two-Stone Ring"
+lvl_required = 20
+implicit_mod = "+(12-16)% to Fire and Cold Resistances"
+
+[[ring]]
+item_type = "Two-Stone Ring"
+lvl_required = 20
+implicit_mod = "+(12-16)% to Fire and Lightning Resistances"
+
+[[ring]]
+item_type = "Two-Stone Ring"
+lvl_required = 20
+implicit_mod = "+(12-16)% to Cold and Lightning Resistances"
+
+[[ring]]
+item_type = "Cogwork Ring"
+lvl_required = 24
+implicit_mod = "-1 Prefix Modifier allowed & +1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & & 25% increased Suffix Modifier magnitudes"
+
+[[ring]]
+item_type = "Composite Ring"
+lvl_required = 24
+implicit_mod = "+3 Prefix Modifiers allowed & -3 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed"
+
+[[ring]]
+item_type = "Geodesic Ring"
+lvl_required = 24
+implicit_mod = "+1 Prefix Modifier allowed & -1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 25% increased Prefix Modifier magnitudes"
+
+[[ring]]
+item_type = "Helical Ring"
+lvl_required = 24
+implicit_mod = "-2 Prefix Modifiers allowed & +1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 50% & increased Suffix Modifier magnitudes"
+
+[[ring]]
+item_type = "Manifold Ring"
+lvl_required = 24
+implicit_mod = "+1 Prefix Modifier allowed & -2 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed & 50% increased Prefix Modifier magnitudes"
+
+[[ring]]
+item_type = "Ratcheting Ring"
+lvl_required = 24
+implicit_mod = "-3 Prefix Modifiers allowed & +3 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed"
+
+[[ring]]
+item_type = "Bone Ring"
+lvl_required = 25
+implicit_mod = "Minions have +(10-15)% to all Elemental Resistances"
+
+[[ring]]
+item_type = "Amethyst Ring"
+lvl_required = 30
+implicit_mod = "+(17-23)% to Chaos Resistance"
+
+[[ring]]
+item_type = "Prismatic Ring"
+lvl_required = 30
+implicit_mod = "+(8-10)% to all Elemental Resistances"
+
+[[ring]]
+item_type = "Cerulean Ring"
+lvl_required = 80
+implicit_mod = "(8-10)% increased maximum Mana"
+
+[[ring]]
+item_type = "Iolite Ring"
+lvl_required = 80
+implicit_mod = "(17-23)% increased Chaos Damage"
+
+[[ring]]
+item_type = "Opal Ring"
+lvl_required = 80
+implicit_mod = "(15-25)% increased Elemental Damage"
+
+[[ring]]
+item_type = "Steel Ring"
+lvl_required = 80
+implicit_mod = "Adds (3-4) to (10-14) Physical Damage to Attacks"
+
+[[ring]]
+item_type = "Vermillion Ring"
+lvl_required = 80
+implicit_mod = "(5-7)% increased maximum Life"
+
+
+####################################################################################################
+########## Shields
+####################################################################################################
+[shields]
+[[shield]]
+item_type = "Splintered Tower Shield"
+lvl_required = 1
+str_required = 11
+dex_required = "-"
+int_required = "-"
+armour = "9-12"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[shield]]
+item_type = "Goathide Buckler"
+lvl_required = 1
+str_required = "-"
+dex_required = 13
+int_required = "-"
+armour = "-"
+evasion_rating = "14-20"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[[shield]]
+item_type = "Twig Spirit Shield"
+lvl_required = 1
+str_required = "-"
+dex_required = "-"
+int_required = 15
+armour = "-"
+evasion_rating = "-"
+energy_shield = "6-8"
+ward = "-"
+implicit_mod = "(10-15)% increased Spell Damage"
+
+[[shield]]
+item_type = "Corroded Tower Shield"
+lvl_required = 5
+str_required = 20
+dex_required = "-"
+int_required = "-"
+armour = "36-47"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(10-20) to maximum Life"
+
+[[shield]]
+item_type = "Rotted Round Shield"
+lvl_required = 5
+str_required = 11
+dex_required = 11
+int_required = "-"
+armour = "13-18"
+evasion_rating = "13-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "60% increased Block Recovery"
+
+[[shield]]
+item_type = "Spiked Bundle"
+lvl_required = 5
+str_required = "-"
+dex_required = 11
+int_required = 11
+armour = "-"
+evasion_rating = "13-18"
+energy_shield = "4-6"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[[shield]]
+item_type = "Plank Kite Shield"
+lvl_required = 7
+str_required = 13
+dex_required = "-"
+int_required = 13
+armour = "18-25"
+evasion_rating = "-"
+energy_shield = "5-7"
+ward = "-"
+implicit_mod = "+4% to all Elemental Resistances"
+
+[[shield]]
+item_type = "Pine Buckler"
+lvl_required = 8
+str_required = "-"
+dex_required = 26
+int_required = "-"
+armour = "-"
+evasion_rating = "51-66"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[[shield]]
+item_type = "Yew Spirit Shield"
+lvl_required = 9
+str_required = "-"
+dex_required = "-"
+int_required = 29
+armour = "-"
+evasion_rating = "-"
+energy_shield = "11-14"
+ward = "-"
+implicit_mod = "(5-10)% increased Spell Damage"
+
+[[shield]]
+item_type = "Rawhide Tower Shield"
+lvl_required = 11
+str_required = 33
+dex_required = "-"
+int_required = "-"
+armour = "53-66"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(10-20) to maximum Life"
+
+[[shield]]
+item_type = "Fir Round Shield"
+lvl_required = 12
+str_required = 19
+dex_required = 19
+int_required = "-"
+armour = "29-37"
+evasion_rating = "29-37"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "180% increased Block Recovery"
+
+[[shield]]
+item_type = "Driftwood Spiked Shield"
+lvl_required = 12
+str_required = "-"
+dex_required = 19
+int_required = 19
+armour = "-"
+evasion_rating = "46-60"
+energy_shield = "11-15"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[[shield]]
+item_type = "Linden Kite Shield"
+lvl_required = 13
+str_required = 20
+dex_required = "-"
+int_required = 20
+armour = "43-56"
+evasion_rating = "-"
+energy_shield = "11-14"
+ward = "-"
+implicit_mod = "+4% to all Elemental Resistances"
+
+[[shield]]
+item_type = "Bone Spirit Shield"
+lvl_required = 15
+str_required = "-"
+dex_required = "-"
+int_required = 42
+armour = "-"
+evasion_rating = "-"
+energy_shield = "15-19"
+ward = "-"
+implicit_mod = "Minions deal (5-10)% increased Damage"
+
+[[shield]]
+item_type = "Golden Flame"
+lvl_required = 15
+str_required = "-"
+dex_required = "-"
+int_required = "-"
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(11-19)% to Chaos Resistance"
+
+[[shield]]
+item_type = "Painted Buckler"
+lvl_required = 16
+str_required = "-"
+dex_required = 44
+int_required = "-"
+armour = "-"
+evasion_rating = "123-154"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "6% increased Movement Speed"
+
+[[shield]]
+item_type = "Cedar Tower Shield"
+lvl_required = 17
+str_required = 47
+dex_required = "-"
+int_required = "-"
+armour = "94-113"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(20-30) to maximum Life"
+
+[[shield]]
+item_type = "Studded Round Shield"
+lvl_required = 20
+str_required = 29
+dex_required = 29
+int_required = "-"
+armour = "46-58"
+evasion_rating = "46-58"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "60% increased Block Recovery"
+
+[[shield]]
+item_type = "Reinforced Kite Shield"
+lvl_required = 20
+str_required = 29
+dex_required = "-"
+int_required = 29
+armour = "65-81"
+evasion_rating = "-"
+energy_shield = "15-18"
+ward = "-"
+implicit_mod = "-"
+
+[[shield]]
+item_type = "Alloyed Spiked Shield"
+lvl_required = 20
+str_required = "-"
+dex_required = 29
+int_required = 29
+armour = "-"
+evasion_rating = "56-70"
+energy_shield = "13-16"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[[shield]]
+item_type = "Hammered Buckler"
+lvl_required = 23
+str_required = "-"
+dex_required = 60
+int_required = "-"
+armour = "-"
+evasion_rating = "116-139"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[[shield]]
+item_type = "Tarnished Spirit Shield"
+lvl_required = 23
+str_required = "-"
+dex_required = "-"
+int_required = 60
+armour = "-"
+evasion_rating = "-"
+energy_shield = "21-25"
+ward = "-"
+implicit_mod = "(5-10)% increased Spell Damage"
+
+[[shield]]
+item_type = "Copper Tower Shield"
+lvl_required = 24
+str_required = 62
+dex_required = "-"
+int_required = "-"
+armour = "151-173"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(30-40) to maximum Life"
+
+[[shield]]
+item_type = "Scarlet Round Shield"
+lvl_required = 27
+str_required = 37
+dex_required = 37
+int_required = "-"
+armour = "87-100"
+evasion_rating = "87-100"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[shield]]
+item_type = "Layered Kite Shield"
+lvl_required = 27
+str_required = 37
+dex_required = "-"
+int_required = 37
+armour = "62-73"
+evasion_rating = "-"
+energy_shield = "13-16"
+ward = "-"
+implicit_mod = "+8% to all Elemental Resistances"
+
+[[shield]]
+item_type = "Burnished Spiked Shield"
+lvl_required = 27
+str_required = "-"
+dex_required = 37
+int_required = 37
+armour = "-"
+evasion_rating = "62-73"
+energy_shield = "13-16"
+ward = "-"
+implicit_mod = "+5% chance to Suppress Spell Damage"
+
+[[shield]]
+item_type = "Jingling Spirit Shield"
+lvl_required = 28
+str_required = "-"
+dex_required = "-"
+int_required = 71
+armour = "-"
+evasion_rating = "-"
+energy_shield = "25-29"
+ward = "-"
+implicit_mod = "(10-15)% increased Spell Damage"
+
+[[shield]]
+item_type = "War Buckler"
+lvl_required = 29
+str_required = "-"
+dex_required = 74
+int_required = "-"
+armour = "-"
+evasion_rating = "169-194"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "9% increased Movement Speed"
+
+[[shield]]
+item_type = "Reinforced Tower Shield"
+lvl_required = 30
+str_required = 76
+dex_required = "-"
+int_required = "-"
+armour = "237-260"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(10-20) to maximum Life"
+
+[[shield]]
+item_type = "Exothermic Tower Shield"
+lvl_required = 30
+str_required = 76
+dex_required = "-"
+int_required = "-"
+armour = "87-100"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Scorch Enemies when you Block their Damage"
+
+[[shield]]
+item_type = "Endothermic Buckler"
+lvl_required = 30
+str_required = "-"
+dex_required = 76
+int_required = "-"
+armour = "-"
+evasion_rating = "75-86"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Inflict Brittle on Enemies when you Block their Damage"
+
+[[shield]]
+item_type = "Exhausting Spirit Shield"
+lvl_required = 30
+str_required = "-"
+dex_required = "-"
+int_required = 76
+armour = "-"
+evasion_rating = "-"
+energy_shield = "16-19"
+ward = "-"
+implicit_mod = "Sap Enemies when you Block their Damage"
+
+[[shield]]
+item_type = "Brass Spirit Shield"
+lvl_required = 33
+str_required = "-"
+dex_required = "-"
+int_required = 83
+armour = "-"
+evasion_rating = "-"
+energy_shield = "35-40"
+ward = "-"
+implicit_mod = "-"
+
+[[shield]]
+item_type = "Splendid Round Shield"
+lvl_required = 33
+str_required = 44
+dex_required = 44
+int_required = "-"
+armour = "75-86"
+evasion_rating = "75-86"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "120% increased Block Recovery"
+
+[[shield]]
+item_type = "Ornate Spiked Shield"
+lvl_required = 33
+str_required = "-"
+dex_required = 44
+int_required = 44
+armour = "-"
+evasion_rating = "120-135"
+energy_shield = "26-29"
+ward = "-"
+implicit_mod = "+5% chance to Suppress Spell Damage"
+
+[[shield]]
+item_type = "Gilded Buckler"
+lvl_required = 34
+str_required = "-"
+dex_required = 85
+int_required = "-"
+armour = "-"
+evasion_rating = "225-259"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "6% increased Movement Speed"
+
+[[shield]]
+item_type = "Ceremonial Kite Shield"
+lvl_required = 34
+str_required = 46
+dex_required = "-"
+int_required = 46
+armour = "77-89"
+evasion_rating = "-"
+energy_shield = "16-19"
+ward = "-"
+implicit_mod = "+12% to all Elemental Resistances"
+
+[[shield]]
+item_type = "Painted Tower Shield"
+lvl_required = 35
+str_required = 87
+dex_required = "-"
+int_required = "-"
+armour = "188-216"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(20-30) to maximum Life"
+
+[[shield]]
+item_type = "Walnut Spirit Shield"
+lvl_required = 37
+str_required = "-"
+dex_required = "-"
+int_required = 92
+armour = "-"
+evasion_rating = "-"
+energy_shield = "32-38"
+ward = "-"
+implicit_mod = "(5-10)% increased Spell Damage"
+
+[[shield]]
+item_type = "Oak Buckler"
+lvl_required = 38
+str_required = "-"
+dex_required = 94
+int_required = "-"
+armour = "-"
+evasion_rating = "220-259"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[[shield]]
+item_type = "Buckskin Tower Shield"
+lvl_required = 39
+str_required = 96
+dex_required = "-"
+int_required = "-"
+armour = "177-209"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(10-20) to maximum Life"
+
+[[shield]]
+item_type = "Maple Round Shield"
+lvl_required = 39
+str_required = 52
+dex_required = 52
+int_required = "-"
+armour = "88-99"
+evasion_rating = "88-99"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "180% increased Block Recovery"
+
+[[shield]]
+item_type = "Redwood Spiked Shield"
+lvl_required = 39
+str_required = "-"
+dex_required = 52
+int_required = 52
+armour = "-"
+evasion_rating = "142-163"
+energy_shield = "30-34"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[[shield]]
+item_type = "Etched Kite Shield"
+lvl_required = 40
+str_required = 53
+dex_required = "-"
+int_required = 53
+armour = "127-142"
+evasion_rating = "-"
+energy_shield = "27-30"
+ward = "-"
+implicit_mod = "+4% to all Elemental Resistances"
+
+[[shield]]
+item_type = "Ivory Spirit Shield"
+lvl_required = 41
+str_required = "-"
+dex_required = "-"
+int_required = 101
+armour = "-"
+evasion_rating = "-"
+energy_shield = "35-40"
+ward = "-"
+implicit_mod = "Minions deal (5-10)% increased Damage"
+
+[[shield]]
+item_type = "Enameled Buckler"
+lvl_required = 42
+str_required = "-"
+dex_required = 103
+int_required = "-"
+armour = "-"
+evasion_rating = "311-349"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "6% increased Movement Speed"
+
+[[shield]]
+item_type = "Mahogany Tower Shield"
+lvl_required = 43
+str_required = 105
+dex_required = "-"
+int_required = "-"
+armour = "230-265"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(20-30) to maximum Life"
+
+[[shield]]
+item_type = "Ancient Spirit Shield"
+lvl_required = 45
+str_required = "-"
+dex_required = "-"
+int_required = 110
+armour = "-"
+evasion_rating = "-"
+energy_shield = "38-45"
+ward = "-"
+implicit_mod = "(5-10)% increased Spell Damage"
+
+[[shield]]
+item_type = "Spiked Round Shield"
+lvl_required = 45
+str_required = 59
+dex_required = 59
+int_required = "-"
+armour = "102-120"
+evasion_rating = "102-120"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "60% increased Block Recovery"
+
+[[shield]]
+item_type = "Compound Spiked Shield"
+lvl_required = 45
+str_required = "-"
+dex_required = 59
+int_required = 59
+armour = "-"
+evasion_rating = "122-144"
+energy_shield = "25-30"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[[shield]]
+item_type = "Corrugated Buckler"
+lvl_required = 46
+str_required = "-"
+dex_required = 112
+int_required = "-"
+armour = "-"
+evasion_rating = "227-272"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[[shield]]
+item_type = "Steel Kite Shield"
+lvl_required = 46
+str_required = 60
+dex_required = "-"
+int_required = 60
+armour = "146-167"
+evasion_rating = "-"
+energy_shield = "30-35"
+ward = "-"
+implicit_mod = "-"
+
+[[shield]]
+item_type = "Bronze Tower Shield"
+lvl_required = 47
+str_required = 114
+dex_required = "-"
+int_required = "-"
+armour = "290-324"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(30-40) to maximum Life"
+
+[[shield]]
+item_type = "Chiming Spirit Shield"
+lvl_required = 49
+str_required = "-"
+dex_required = "-"
+int_required = 119
+armour = "-"
+evasion_rating = "-"
+energy_shield = "42-48"
+ward = "-"
+implicit_mod = "(10-15)% increased Spell Damage"
+
+[[shield]]
+item_type = "Crimson Round Shield"
+lvl_required = 49
+str_required = 64
+dex_required = 64
+int_required = "-"
+armour = "155-178"
+evasion_rating = "155-178"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[[shield]]
+item_type = "Polished Spiked Shield"
+lvl_required = 49
+str_required = "-"
+dex_required = 64
+int_required = 64
+armour = "-"
+evasion_rating = "111-131"
+energy_shield = "23-27"
+ward = "-"
+implicit_mod = "+5% chance to Suppress Spell Damage"
+
+[[shield]]
+item_type = "Magmatic Tower Shield"
+lvl_required = 50
+str_required = 121
+dex_required = "-"
+int_required = "-"
+armour = "144-165"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Scorch Enemies when you Block their Damage"
+
+[[shield]]
+item_type = "Battle Buckler"
+lvl_required = 50
+str_required = "-"
+dex_required = 121
+int_required = "-"
+armour = "-"
+evasion_rating = "287-330"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "9% increased Movement Speed"
+
+[[shield]]
+item_type = "Polar Buckler"
+lvl_required = 50
+str_required = "-"
+dex_required = 121
+int_required = "-"
+armour = "-"
+evasion_rating = "123-142"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Inflict Brittle on Enemies when you Block their Damage"
+
+[[shield]]
+item_type = "Transfer-attuned Spirit Shield"
+lvl_required = 70
+str_required = "-"
+dex_required = "-"
+int_required = 159
+armour = "-"
+evasion_rating = "-"
+energy_shield = "39-45"
+ward = "-"
+implicit_mod = "Sap Enemies when you Block their Damage"
+
+[[shield]]
+item_type = "Elegant Round Shield"
+lvl_required = 70
+str_required = 85
+dex_required = 85
+int_required = "-"
+armour = "148-170"
+evasion_rating = "148-170"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "120% increased Block Recovery"
+
+[[shield]]
+item_type = "Supreme Spiked Shield"
+lvl_required = 70
+str_required = "-"
+dex_required = 85
+int_required = 85
+armour = "-"
+evasion_rating = "242-278"
+energy_shield = "49-57"
+ward = "-"
+implicit_mod = "+5% chance to Suppress Spell Damage"
+
+
+####################################################################################################
+########## Staffs
+####################################################################################################
+[staffs]
+[[staff]]
+item_type = "Gnarled Branch"
+lvl_required = 1
+str_required = 12
+int_required = 12
+damage = "9-19"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 18.2
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Primitive Staff"
+lvl_required = 9
+str_required = 20
+int_required = 20
+damage = "10-31"
+critical_chance = "6.20%"
+aps = 1.3
+dps = 26.7
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Long Staff"
+lvl_required = 18
+str_required = 35
+int_required = 35
+damage = "24-41"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 42.3
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Royal Staff"
+lvl_required = 28
+str_required = 51
+int_required = 51
+damage = "27-81"
+critical_chance = "6.50%"
+aps = 1.15
+dps = 62.1
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Transformer Staff"
+lvl_required = 30
+str_required = 54
+int_required = 54
+damage = "36-66"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 63.8
+implicit_mod = "Spend Energy Shield before Mana for Costs of Socketed Skills & (66-80) to maximum Energy Shield"
+
+[[staff]]
+item_type = "Crescent Staff"
+lvl_required = 36
+str_required = 66
+int_required = 66
+damage = "41-85"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 75.6
+implicit_mod = "80% increased Global Critical Strike Chance"
+
+[[staff]]
+item_type = "Woodful Staff"
+lvl_required = 37
+str_required = 65
+int_required = 65
+damage = "34-102"
+critical_chance = "6.20%"
+aps = 1.15
+dps = 78.2
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Quarterstaff"
+lvl_required = 45
+str_required = 78
+int_required = 78
+damage = "51-86"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 89.1
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Reciprocation Staff"
+lvl_required = 50
+str_required = 86
+int_required = 86
+damage = "55-102"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 98.1
+implicit_mod = "Spend Energy Shield before Mana for Costs of Socketed Skills & (100-120) to maximum Energy Shield"
+
+[[staff]]
+item_type = "Highborn Staff"
+lvl_required = 52
+str_required = 89
+int_required = 89
+damage = "48-145"
+critical_chance = "6.50%"
+aps = 1.15
+dps = 110.9
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Moon Staff"
+lvl_required = 57
+str_required = 101
+int_required = 101
+damage = "66-138"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 122.4
+implicit_mod = "80% increased Global Critical Strike Chance"
+
+[[staff]]
+item_type = "Primordial Staff"
+lvl_required = 58
+str_required = 99
+int_required = 99
+damage = "55-165"
+critical_chance = "6.20%"
+aps = 1.15
+dps = 126.4
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Lathi"
+lvl_required = 62
+str_required = 113
+int_required = 113
+damage = "72-120"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 124.8
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Imperial Staff"
+lvl_required = 66
+str_required = 113
+int_required = 113
+damage = "57-171"
+critical_chance = "7.00%"
+aps = 1.15
+dps = 131.0
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[staff]]
+item_type = "Eclipse Staff"
+lvl_required = 70
+str_required = 117
+int_required = 117
+damage = "70-145"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 129.1
+implicit_mod = "100% increased Global Critical Strike Chance"
+
+[[staff]]
+item_type = "Battery Staff"
+lvl_required = 70
+str_required = 117
+int_required = 117
+damage = "65-120"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 115.6
+implicit_mod = "Spend Energy Shield before Mana for Costs of Socketed Skills & (140-165) to maximum Energy Shield"
+
+[[warstaff]]
+item_type = "Iron Staff"
+lvl_required = 13
+str_required = 27
+int_required = 27
+damage = "14-42"
+critical_chance = "6.40%"
+aps = 1.3
+dps = 36.4
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[warstaff]]
+item_type = "Coiled Staff"
+lvl_required = 23
+str_required = 43
+int_required = 43
+damage = "27-57"
+critical_chance = "6.20%"
+aps = 1.3
+dps = 54.6
+implicit_mod = "+20% Chance to Block Attack Damage while wielding a Staff"
+
+[[warstaff]]
+item_type = "Capacity Rod"
+lvl_required = 30
+str_required = 54
+int_required = 54
+damage = "39-73"
+critical_chance = "7.00%"
+aps = 1.25
+dps = 70.0
+implicit_mod = "+1 to Maximum Power Charges and Maximum Endurance Charges"
+
+[[warstaff]]
+item_type = "Vile Staff"
+lvl_required = 33
+str_required = 59
+int_required = 59
+damage = "41-76"
+critical_chance = "6.10%"
+aps = 1.3
+dps = 76.1
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[warstaff]]
+item_type = "Military Staff"
+lvl_required = 41
+str_required = 72
+int_required = 72
+damage = "38-114"
+critical_chance = "6.60%"
+aps = 1.25
+dps = 95.0
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[warstaff]]
+item_type = "Serpentine Staff"
+lvl_required = 49
+str_required = 85
+int_required = 85
+damage = "56-117"
+critical_chance = "6.30%"
+aps = 1.25
+dps = 108.1
+implicit_mod = "+20% Chance to Block Attack Damage while wielding a Staff"
+
+[[warstaff]]
+item_type = "Potentiality Rod"
+lvl_required = 50
+str_required = 86
+int_required = 86
+damage = "61-113"
+critical_chance = "7.00%"
+aps = 1.25
+dps = 108.8
+implicit_mod = "+1 to Maximum Power Charges and Maximum Endurance Charges"
+
+[[warstaff]]
+item_type = "Foul Staff"
+lvl_required = 55
+str_required = 94
+int_required = 94
+damage = "65-121"
+critical_chance = "6.10%"
+aps = 1.3
+dps = 120.9
+implicit_mod = "+18% Chance to Block Attack Damage while wielding a Staff"
+
+[[warstaff]]
+item_type = "Ezomyte Staff"
+lvl_required = 60
+str_required = 113
+int_required = 113
+damage = "53-160"
+critical_chance = "7.30%"
+aps = 1.25
+dps = 133.1
+implicit_mod = "+20% Chance to Block Attack Damage while wielding a Staff"
+
+[[warstaff]]
+item_type = "Maelström Staff"
+lvl_required = 64
+str_required = 113
+int_required = 113
+damage = "71-147"
+critical_chance = "6.80%"
+aps = 1.25
+dps = 136.2
+implicit_mod = "+25% Chance to Block Attack Damage while wielding a Staff"
+
+[[warstaff]]
+item_type = "Judgement Staff"
+lvl_required = 68
+str_required = 113
+int_required = 113
+damage = "73-136"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 135.9
+implicit_mod = "+20% Chance to Block Spell Damage while wielding a Staff"
+
+[[warstaff]]
+item_type = "Eventuality Rod"
+lvl_required = 70
+str_required = 117
+int_required = 117
+damage = "78-144"
+critical_chance = "7.00%"
+aps = 1.25
+dps = 138.8
+implicit_mod = "+1 to Maximum Power Charges and Maximum Endurance Charges"
+
+
+
+####################################################################################################
+########## Swords
+####################################################################################################
+[swords]
+[[one_hand_sword]]
+item_type = "Golden Blade"
+lvl_required = 1
+str_required = 8
+dex_required = 8
+damage = "3-23"
+critical_chance = "5.00%"
+aps = 1.1
+dps = 14.3
+implicit_mod = "(16-24) to all Attributes"
+
+[[one_hand_sword]]
+item_type = "Rusted Sword"
+lvl_required = 1
+str_required = 8
+dex_required = 8
+damage = "4-9"
+critical_chance = "5.00%"
+aps = 1.55
+dps = 10.1
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Charan's Sword"
+lvl_required = 1
+str_required = 9
+dex_required = 9
+damage = "5-11"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 11.6
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Copper Sword"
+lvl_required = 5
+str_required = 14
+dex_required = 14
+damage = "6-14"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 15.0
+implicit_mod = "+45 to Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Sabre"
+lvl_required = 10
+str_required = 18
+dex_required = 26
+damage = "5-22"
+critical_chance = "5.00%"
+aps = 1.55
+dps = 20.9
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Broad Sword"
+lvl_required = 15
+str_required = 30
+dex_required = 30
+damage = "15-21"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 26.1
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "War Sword"
+lvl_required = 20
+str_required = 41
+dex_required = 35
+damage = "16-30"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 32.2
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Ancient Sword"
+lvl_required = 24
+str_required = 44
+dex_required = 44
+damage = "18-33"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 37.0
+implicit_mod = "+165 to Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Elegant Sword"
+lvl_required = 28
+str_required = 46
+dex_required = 55
+damage = "20-33"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 39.7
+implicit_mod = "+190 to Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Fickle Spiritblade"
+lvl_required = 30
+str_required = 54
+dex_required = 54
+damage = "18-33"
+critical_chance = "6.50%"
+aps = 1.6
+dps = 40.8
+implicit_mod = "100% of Physical Damage from Hits with this Weapon is Converted to a random Element"
+
+[[one_hand_sword]]
+item_type = "Dusk Blade"
+lvl_required = 32
+str_required = 57
+dex_required = 57
+damage = "19-54"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 47.5
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Hook Sword"
+lvl_required = 34
+str_required = 64
+dex_required = 64
+damage = "28-60"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 50.6
+implicit_mod = "15% chance to Maim on Hit"
+
+[[one_hand_sword]]
+item_type = "Variscite Blade"
+lvl_required = 35
+str_required = 62
+dex_required = 62
+damage = "25-53"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 50.7
+implicit_mod = "+240 to Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Cutlass"
+lvl_required = 38
+str_required = 55
+dex_required = 79
+damage = "13-53"
+critical_chance = "5.00%"
+aps = 1.55
+dps = 51.2
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Baselard"
+lvl_required = 41
+str_required = 72
+dex_required = 72
+damage = "37-53"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 58.5
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Battle Sword"
+lvl_required = 44
+str_required = 83
+dex_required = 70
+damage = "38-70"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 64.8
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Elder Sword"
+lvl_required = 47
+str_required = 81
+dex_required = 81
+damage = "36-66"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 66.3
+implicit_mod = "+330 to Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Graceful Sword"
+lvl_required = 50
+str_required = 78
+dex_required = 94
+damage = "34-55"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 66.7
+implicit_mod = "+350 to Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Capricious Spiritblade"
+lvl_required = 50
+str_required = 94
+dex_required = 94
+damage = "27-51"
+critical_chance = "6.50%"
+aps = 1.6
+dps = 62.4
+implicit_mod = "100% of Physical Damage from Hits with this Weapon is Converted to a random Element"
+
+[[one_hand_sword]]
+item_type = "Twilight Blade"
+lvl_required = 53
+str_required = 91
+dex_required = 91
+damage = "30-86"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 75.4
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Grappler"
+lvl_required = 55
+str_required = 99
+dex_required = 99
+damage = "44-94"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 79.3
+implicit_mod = "15% chance to Maim on Hit"
+
+[[one_hand_sword]]
+item_type = "Gemstone Sword"
+lvl_required = 56
+str_required = 96
+dex_required = 96
+damage = "39-83"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 79.3
+implicit_mod = "+400 to Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Corsair Sword"
+lvl_required = 58
+str_required = 81
+dex_required = 117
+damage = "20-80"
+critical_chance = "5.00%"
+aps = 1.55
+dps = 77.5
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Gladius"
+lvl_required = 60
+str_required = 113
+dex_required = 113
+damage = "54-78"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 85.8
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Legion Sword"
+lvl_required = 62
+str_required = 122
+dex_required = 104
+damage = "53-98"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 90.6
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Vaal Blade"
+lvl_required = 64
+str_required = 113
+dex_required = 113
+damage = "46-86"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 85.8
+implicit_mod = "+460 to Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Eternal Sword"
+lvl_required = 66
+str_required = 104
+dex_required = 122
+damage = "41-68"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 81.7
+implicit_mod = "+475 to Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Midnight Blade"
+lvl_required = 68
+str_required = 113
+dex_required = 113
+damage = "35-99"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 87.1
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[one_hand_sword]]
+item_type = "Tiger Hook"
+lvl_required = 70
+str_required = 119
+dex_required = 119
+damage = "37-80"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 81.9
+implicit_mod = "20% chance to Maim on Hit"
+
+[[one_hand_sword]]
+item_type = "Anarchic Spiritblade"
+lvl_required = 70
+str_required = 121
+dex_required = 121
+damage = "34-63"
+critical_chance = "6.50%"
+aps = 1.6
+dps = 77.6
+implicit_mod = "100% of Physical Damage from Hits with this Weapon is Converted to a random Element"
+
+[[thrusting_one_hand_sword]]
+item_type = "Rusted Spike"
+lvl_required = 1
+dex_required = 20
+damage = "5-11"
+critical_chance = "5.50%"
+aps = 1.55
+dps = 12.4
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Whalebone Rapier"
+lvl_required = 7
+dex_required = 32
+damage = "4-17"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 16.8
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Battered Foil"
+lvl_required = 12
+dex_required = 47
+damage = "11-20"
+critical_chance = "6.00%"
+aps = 1.5
+dps = 23.2
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Basket Rapier"
+lvl_required = 17
+dex_required = 62
+damage = "11-25"
+critical_chance = "5.50%"
+aps = 1.55
+dps = 27.9
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Jagged Foil"
+lvl_required = 22
+dex_required = 77
+damage = "12-29"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 32.8
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Antique Rapier"
+lvl_required = 26
+dex_required = 89
+damage = "12-46"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 37.7
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Elegant Foil"
+lvl_required = 30
+dex_required = 101
+damage = "18-33"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 40.8
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Thorn Rapier"
+lvl_required = 34
+dex_required = 113
+damage = "19-44"
+critical_chance = "5.70%"
+aps = 1.4
+dps = 44.1
+implicit_mod = "+35% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Smallsword"
+lvl_required = 36
+dex_required = 124
+damage = "19-40"
+critical_chance = "6.00%"
+aps = 1.55
+dps = 45.7
+implicit_mod = "15% chance to cause Bleeding on Hit"
+
+[[thrusting_one_hand_sword]]
+item_type = "Wyrmbone Rapier"
+lvl_required = 37
+dex_required = 122
+damage = "13-51"
+critical_chance = "5.50%"
+aps = 1.5
+dps = 48.0
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Burnished Foil"
+lvl_required = 40
+dex_required = 131
+damage = "25-46"
+critical_chance = "6.00%"
+aps = 1.4
+dps = 49.7
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Estoc"
+lvl_required = 43
+dex_required = 140
+damage = "21-50"
+critical_chance = "5.50%"
+aps = 1.5
+dps = 53.2
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Serrated Foil"
+lvl_required = 46
+dex_required = 149
+damage = "21-49"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 56.0
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Primeval Rapier"
+lvl_required = 49
+dex_required = 158
+damage = "18-73"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 59.2
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Fancy Foil"
+lvl_required = 52
+dex_required = 167
+damage = "28-51"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 63.2
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Apex Rapier"
+lvl_required = 55
+dex_required = 176
+damage = "29-67"
+critical_chance = "5.70%"
+aps = 1.4
+dps = 67.2
+implicit_mod = "+35% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Courtesan Sword"
+lvl_required = 57
+dex_required = 190
+damage = "29-60"
+critical_chance = "6.00%"
+aps = 1.55
+dps = 69.0
+implicit_mod = "15% chance to cause Bleeding on Hit"
+
+[[thrusting_one_hand_sword]]
+item_type = "Dragonbone Rapier"
+lvl_required = 58
+dex_required = 185
+damage = "19-75"
+critical_chance = "5.50%"
+aps = 1.5
+dps = 70.5
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Tempered Foil"
+lvl_required = 60
+dex_required = 212
+damage = "35-65"
+critical_chance = "6.00%"
+aps = 1.4
+dps = 70.0
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Pecoraro"
+lvl_required = 62
+dex_required = 212
+damage = "29-69"
+critical_chance = "5.50%"
+aps = 1.5
+dps = 73.5
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Spiraled Foil"
+lvl_required = 64
+dex_required = 212
+damage = "27-64"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 72.8
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Vaal Rapier"
+lvl_required = 66
+dex_required = 212
+damage = "22-87"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 70.9
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Jewelled Foil"
+lvl_required = 68
+dex_required = 212
+damage = "32-60"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 73.6
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Harpy Rapier"
+lvl_required = 70
+dex_required = 212
+damage = "31-72"
+critical_chance = "5.70%"
+aps = 1.4
+dps = 72.1
+implicit_mod = "+35% to Global Critical Strike Multiplier"
+
+[[thrusting_one_hand_sword]]
+item_type = "Dragoon Sword"
+lvl_required = 72
+dex_required = 220
+damage = "32-66"
+critical_chance = "6.00%"
+aps = 1.5
+dps = 73.5
+implicit_mod = "20% chance to cause Bleeding on Hit"
+
+[[two_hand_sword]]
+item_type = "Corroded Blade"
+lvl_required = 1
+str_required = 11
+dex_required = 11
+damage = "8-16"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 17.4
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Longsword"
+lvl_required = 8
+str_required = 20
+dex_required = 17
+damage = "11-26"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 25.9
+implicit_mod = "+60 to Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Bastard Sword"
+lvl_required = 12
+str_required = 21
+dex_required = 30
+damage = "17-29"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 33.3
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Two-Handed Sword"
+lvl_required = 17
+str_required = 33
+dex_required = 33
+damage = "20-38"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 40.6
+implicit_mod = "+120 to Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Etched Greatsword"
+lvl_required = 22
+str_required = 45
+dex_required = 38
+damage = "23-48"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 49.7
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Ornate Sword"
+lvl_required = 27
+str_required = 45
+dex_required = 54
+damage = "30-50"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 56.0
+implicit_mod = "+185 to Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Rebuking Blade"
+lvl_required = 30
+str_required = 54
+dex_required = 54
+damage = "30-56"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 60.2
+implicit_mod = "Attack Critical Strikes ignore Enemy Monster Elemental Resistances"
+
+[[two_hand_sword]]
+item_type = "Spectral Sword"
+lvl_required = 32
+str_required = 57
+dex_required = 57
+damage = "31-65"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 64.8
+implicit_mod = "45% increased Global Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Curved Blade"
+lvl_required = 35
+str_required = 62
+dex_required = 73
+damage = "41-68"
+critical_chance = "6.00%"
+aps = 1.35
+dps = 73.5
+implicit_mod = "+40% to Global Critical Strike Multiplier"
+
+[[two_hand_sword]]
+item_type = "Butcher Sword"
+lvl_required = 36
+str_required = 69
+dex_required = 58
+damage = "34-79"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 73.5
+implicit_mod = "+250 to Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Footman Sword"
+lvl_required = 40
+str_required = 57
+dex_required = 83
+damage = "39-65"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 75.4
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Highland Blade"
+lvl_required = 44
+str_required = 77
+dex_required = 77
+damage = "45-84"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 87.0
+implicit_mod = "+305 to Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Engraved Greatsword"
+lvl_required = 48
+str_required = 91
+dex_required = 76
+damage = "49-102"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 98.2
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Blasting Blade"
+lvl_required = 50
+str_required = 86
+dex_required = 86
+damage = "47-87"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 93.8
+implicit_mod = "Attack Critical Strikes ignore Enemy Monster Elemental Resistances"
+
+[[two_hand_sword]]
+item_type = "Tiger Sword"
+lvl_required = 51
+str_required = 80
+dex_required = 96
+damage = "54-89"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 100.1
+implicit_mod = "+360 to Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Wraith Sword"
+lvl_required = 54
+str_required = 93
+dex_required = 93
+damage = "52-109"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 108.6
+implicit_mod = "45% increased Global Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Lithe Blade"
+lvl_required = 56
+str_required = 96
+dex_required = 113
+damage = "63-104"
+critical_chance = "6.00%"
+aps = 1.35
+dps = 112.7
+implicit_mod = "+40% to Global Critical Strike Multiplier"
+
+[[two_hand_sword]]
+item_type = "Headman's Sword"
+lvl_required = 57
+str_required = 106
+dex_required = 89
+damage = "55-128"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 119.0
+implicit_mod = "+400 to Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Reaver Sword"
+lvl_required = 59
+str_required = 82
+dex_required = 119
+damage = "62-104"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 124.4
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Ezomyte Blade"
+lvl_required = 61
+str_required = 113
+dex_required = 113
+damage = "62-115"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 123.9
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[[two_hand_sword]]
+item_type = "Vaal Greatsword"
+lvl_required = 63
+str_required = 122
+dex_required = 104
+damage = "68-142"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 136.5
+implicit_mod = "+470 to Accuracy Rating"
+
+[[two_hand_sword]]
+item_type = "Lion Sword"
+lvl_required = 65
+str_required = 104
+dex_required = 122
+damage = "69-115"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 133.3
+implicit_mod = "+50 to Strength and Dexterity"
+
+[[two_hand_sword]]
+item_type = "Infernal Sword"
+lvl_required = 67
+str_required = 113
+dex_required = 113
+damage = "62-129"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 128.9
+implicit_mod = "30% increased Elemental Damage with Attack Skills"
+
+[[two_hand_sword]]
+item_type = "Exquisite Blade"
+lvl_required = 70
+str_required = 119
+dex_required = 131
+damage = "67-112"
+critical_chance = "5.70%"
+aps = 1.35
+dps = 120.8
+implicit_mod = "+50% to Global Critical Strike Multiplier"
+
+[[two_hand_sword]]
+item_type = "Banishing Blade"
+lvl_required = 70
+str_required = 130
+dex_required = 130
+damage = "55-102"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 109.9
+implicit_mod = "Attack Critical Strikes ignore Enemy Monster Elemental Resistances"
+
+
+
+####################################################################################################
+########## Wands
+####################################################################################################
+[wands]
+[[wand]]
+item_type = "Driftwood Wand"
+lvl_required = 1
+int_required = 14
+damage = "5-9"
+critical_chance = "7.00%"
+aps = 1.4
+dps = 9.8
+implicit_mod = "(8-12)% increased Spell Damage"
+
+[[wand]]
+item_type = "Goat's Horn"
+lvl_required = 6
+int_required = 29
+damage = "9-16"
+critical_chance = "7.00%"
+aps = 1.2
+dps = 15.0
+implicit_mod = "Adds (1-2) to (3-4) Fire Damage to Spells and Attacks"
+
+[[wand]]
+item_type = "Carved Wand"
+lvl_required = 12
+int_required = 47
+damage = "9-17"
+critical_chance = "7.00%"
+aps = 1.5
+dps = 19.5
+implicit_mod = "(11-15)% increased Spell Damage"
+
+[[wand]]
+item_type = "Quartz Wand"
+lvl_required = 18
+int_required = 65
+damage = "14-27"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 26.7
+implicit_mod = "Adds (2-3) to (4-7) Cold Damage to Spells and Attacks"
+
+[[wand]]
+item_type = "Calling Wand"
+lvl_required = 20
+int_required = 81
+damage = "13-25"
+critical_chance = "7.00%"
+aps = 1.4
+dps = 26.6
+implicit_mod = "Minions deal (12-16)% increased Damage"
+
+[[wand]]
+item_type = "Spiraled Wand"
+lvl_required = 24
+int_required = 83
+damage = "12-37"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 31.9
+implicit_mod = "Adds (1-2) to (9-11) Lightning Damage to Spells and Attacks"
+
+[[wand]]
+item_type = "Sage Wand"
+lvl_required = 30
+int_required = 119
+damage = "23-42"
+critical_chance = "8.00%"
+aps = 1.2
+dps = 39.0
+implicit_mod = "(17-21)% increased Spell Damage"
+
+[[wand]]
+item_type = "Assembler Wand"
+lvl_required = 30
+int_required = 101
+damage = "16-30"
+critical_chance = "7.50%"
+aps = 1.4
+dps = 32.2
+implicit_mod = "Gain an Endurance, Frenzy or Power Charge every 6 seconds"
+
+[[wand]]
+item_type = "Pagan Wand"
+lvl_required = 34
+int_required = 118
+damage = "22-40"
+critical_chance = "7.00%"
+aps = 1.35
+dps = 41.8
+implicit_mod = "10% increased Cast Speed"
+
+[[wand]]
+item_type = "Faun's Horn"
+lvl_required = 35
+int_required = 116
+damage = "26-48"
+critical_chance = "7.00%"
+aps = 1.2
+dps = 44.4
+implicit_mod = "Adds (5-10) to (11-13) Fire Damage to Spells and Attacks"
+
+[[wand]]
+item_type = "Engraved Wand"
+lvl_required = 40
+int_required = 131
+damage = "21-38"
+critical_chance = "7.00%"
+aps = 1.5
+dps = 44.2
+implicit_mod = "(22-26)% increased Spell Damage"
+
+[[wand]]
+item_type = "Crystal Wand"
+lvl_required = 45
+int_required = 146
+damage = "28-52"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 52.0
+implicit_mod = "Adds (4-8) to (10-12) Cold Damage to Spells and Attacks"
+
+[[wand]]
+item_type = "Coiled Wand"
+lvl_required = 49
+int_required = 158
+damage = "21-64"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 55.3
+implicit_mod = "Adds (1-2) to (22-24) Lightning Damage to Spells and Attacks"
+
+[[wand]]
+item_type = "Congregator Wand"
+lvl_required = 50
+int_required = 168
+damage = "25-46"
+critical_chance = "7.50%"
+aps = 1.4
+dps = 49.7
+implicit_mod = "Gain an Endurance, Frenzy or Power Charge every 6 seconds"
+
+[[wand]]
+item_type = "Convening Wand"
+lvl_required = 50
+int_required = 183
+damage = "27-50"
+critical_chance = "7.00%"
+aps = 1.4
+dps = 53.9
+implicit_mod = "Minions deal (20-24)% increased Damage"
+
+[[wand]]
+item_type = "Omen Wand"
+lvl_required = 53
+int_required = 200
+damage = "33-61"
+critical_chance = "8.00%"
+aps = 1.2
+dps = 56.4
+implicit_mod = "(27-31)% increased Spell Damage"
+
+[[wand]]
+item_type = "Heathen Wand"
+lvl_required = 55
+int_required = 184
+damage = "31-57"
+critical_chance = "7.00%"
+aps = 1.35
+dps = 59.4
+implicit_mod = "10% increased Cast Speed"
+
+[[wand]]
+item_type = "Demon's Horn"
+lvl_required = 56
+int_required = 179
+damage = "38-71"
+critical_chance = "7.00%"
+aps = 1.2
+dps = 65.4
+implicit_mod = "Adds (18-36) to (53-59) Fire Damage to Spells and Attacks"
+
+[[wand]]
+item_type = "Imbued Wand"
+lvl_required = 59
+int_required = 188
+damage = "29-53"
+critical_chance = "7.00%"
+aps = 1.5
+dps = 61.5
+implicit_mod = "(33-37)% increased Spell Damage"
+
+[[wand]]
+item_type = "Opal Wand"
+lvl_required = 62
+int_required = 212
+damage = "35-65"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 65.0
+implicit_mod = "Adds (14-29) to (42-47) Cold Damage to Spells and Attacks"
+
+[[wand]]
+item_type = "Tornado Wand"
+lvl_required = 65
+int_required = 212
+damage = "25-75"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 65.0
+implicit_mod = "Adds (3-5) to (70-82) Lightning Damage to Spells and Attacks"
+
+[[wand]]
+item_type = "Prophecy Wand"
+lvl_required = 68
+int_required = 245
+damage = "35-64"
+critical_chance = "8.00%"
+aps = 1.2
+dps = 59.4
+implicit_mod = "(36-40)% increased Spell Damage"
+
+[[wand]]
+item_type = "Profane Wand"
+lvl_required = 70
+int_required = 237
+damage = "33-61"
+critical_chance = "7.00%"
+aps = 1.35
+dps = 63.4
+implicit_mod = "14% increased Cast Speed"
+
+[[wand]]
+item_type = "Accumulator Wand"
+lvl_required = 70
+int_required = 237
+damage = "29-54"
+critical_chance = "7.50%"
+aps = 1.4
+dps = 58.1
+implicit_mod = "Gain 2 Endurance, Frenzy or Power Charges every 6 seconds"
+
+[[wand]]
+item_type = "Convoking Wand"
+lvl_required = 72
+int_required = 242
+damage = "30-55"
+critical_chance = "7.00%"
+aps = 1.4
+dps = 59.5
+implicit_mod = "Minions deal (26-30)% increased Damage"

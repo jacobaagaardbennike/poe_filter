@@ -13,569 +13,335 @@
 # base_type = "STRING"
 # lvl_required = INTEGER
 # implicit_mod = "STRING"
-# drops_anywhere = BOOL
-# drop_info = ""
-# notes = ""
 # class = "Amulets"
-# grand_heist = false
-talisman = false
-# has_has_top_unique = BOOL
-is_top_boss_only = BOOL
-# has_worthwhile_world_drop = BOOL
-#
-# is_collectable = BOOL
+# notes = "STRING"
+# has_top_unique = BOOL
+# boss_only = BOOL
+
 
 # [[amulets.uniques]]
 # name = "STRING"
-# drops_anywhere = BOOL
-# drop_info = ""
-# notes = ""
-is_top_unique = BOOL
-is_boss_only = BOOL
-is_worthwhile_world_drop = BOOL
-is_collectable = BOOL
-# has_worthwhile_world_drop = BOOL
-# has_top_unique = BOOL
-is_top_boss_only = BOOL
+# restricted_drop = BOOL
+# notes = "STRING"
+# aprox_value = INTEGER
+# is_collectable = BOOL
 
 # [[amulets.uniques.cards]]
+# name = "STRING"
+# reward = "STRING"
+# drop_level = INTEGER
+# notes = "STRING"
+# hide_card = BOOL
+# top_card = BOOL
 
-
-
+####################################################################################################
 [[amulets]]
-base_type = "Coral Amulet"
-lvl_required = 1
-implicit_mod = "Regenerate (2-4) Life per second"
+base_type = "Agate Amulet"
+lvl_required = 16
+implicit_mod = "+(16-24) to Strength and Intelligence"
 class = "Amulets"
-grand_heist = false
-talisman = false
-
-[[amulets.uniques]]
-name = "Araku Tiki"
-drops_anywhere = true
-drop_info = ""
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+has_top_unique = true
+boss_only = true
+
+
+[[amulets.uniques]]
+name = "Eternal Damnation"
+restricted_drop = true
+notes = "Lycia, Herald of the Scourge - Sanctum"
+aprox_value = 250
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Ikiaho's Promise"
-drops_anywhere = true
-drop_info = ""
+name = "Extractor Mentis"
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Ngamahu Tiki"
-drops_anywhere = false
-drop_info = "Drop Disabled"
+name = "Shaper's Seed"
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Tainted Pact"
-drops_anywhere = true
-drop_info = ""
+name = "The Aylardex"
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Tavukai"
-drops_anywhere = true
-drop_info = ""
-notes = "belongs to league-specific items"
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
+name = "Voll's Devotion"
+restricted_drop = false
+drop_info = "League-specific item"
+aprox_value = 5
+is_collectable = true
 
 [[amulets.uniques.cards]]
-name = "The Return of the Rat"
-reward = "Tavukai Coral Amulet (minion srs)"
-drops_anywhere = false
+name = "The Brittle Emperor"
+reward = "Voll's Devotion Agate Amulet Corrupted"
 drop_level = 0
-drop_info = "TODO"
-notes = ""
+notes = "TODO"
 hide_card = true
 top_card = false
 
-
-[[amulets.uniques]]
-name = "The Primordial Chain"
-drops_anywhere = true
-drop_info = ""
-notes = "belongs to league-specific items,"
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-
-
-[[amulets]]
-base_type = "Paua Amulet"
-lvl_required = 1
-implicit_mod = "(20-30)% increased Mana Regeneration Rate"
-class = "Amulets"
-grand_heist = false
-talisman = false
-
-[[amulets.uniques]]
-name = "Atziri's Foible"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = true
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Replica Atziri's Foible"
-drops_anywhere = false
-drop_info = "Grand Heist Curio Display"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Defiance of Destiny"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-is_top_unique = true
-is_boss_only = false
-is_worthwhile_world_drop = true
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Sacrificial Heart"
-drops_anywhere = false
-drop_info = "The Vaal Omnitect (alva temple)"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = true
-is_worthwhile_world_drop = false
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Sidhebreath"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Zerphi's Heart"
-drops_anywhere = false
-drop_info = ""
-notes = "can be crafted from alva stuff"
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = true
-is_worthwhile_world_drop = false
-is_collectable = true
-
-
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Amber Amulet"
 lvl_required = 5
 implicit_mod = "+(20-30) to Strength"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = true
+
 
 [[amulets.uniques]]
 name = "Blood of Corruption"
-drops_anywhere = false
-drop_info = "from card or Tear of Purity + vaal orb"
+restricted_drop = true
+notes = "from card or Tear of Purity + vaal orb"
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 [[amulets.uniques.cards]]
 name = "The Poet"
 reward = "Blood of Corruption Amber Amulet Corrupted"
-drops_anywhere = false
 drop_level = 0
-drop_info = "TODO"
-notes = ""
+notes = "TODO"
 hide_card = true
 top_card = false
 
 
 [[amulets.uniques]]
 name = "Bloodsoaked Medallion"
-drops_anywhere = true
-drop_info = ""
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "The Anvil"
-drops_anywhere = true
-drop_info = ""
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "Xoph's Blood"
-drops_anywhere = false
-drop_info = "Xoph in the Flawless Breachstone"
-notes = "can be craLfted"
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = true
-is_worthwhile_world_drop = true
+restricted_drop = true
+notes = "Xoph in the Flawless Breachstone - can be crafted"
+aprox_value = 50
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "Xoph's Heart"
-drops_anywhere = false
-drop_info = "Xoph and his Breach monsters"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = true
-is_worthwhile_world_drop = true
+restricted_drop = true
+notes = "Xoph and his Breach monsters"
+aprox_value = 10
 is_collectable = true
 
-
-
+####################################################################################################
 
 [[amulets]]
-base_type = "Jade Amulet"
-lvl_required = 5
-implicit_mod = "+(20-30) to Dexterity"
+base_type = "Astrolabe Amulet"
+lvl_required = 69
+implicit_mod = "Has Elder, Shaper and all Conqueror Influences & Implicit Modifiers Cannot Be Changed"
 class = "Amulets"
-grand_heist = false
-talisman = false
+restricted_drop = true
+notes = "Grand Geist Curio Display"
+has_top_unique = false
+boss_only = false
 
-[[amulets.uniques]]
-name = "Hyrri's Truth"
-drops_anywhere = true
-drop_info = ""
-notes = "belongs to league-specific items"
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = true
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Replica Hyrri's Truth"
-drops_anywhere = false
-drop_info = "Grand Heist Curio Display"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = true
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Karui Charge"
-drops_anywhere = false
-drop_info = "drop disabled"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Karui Ward"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = true
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Replica Karui Ward"
-drops_anywhere = false
-drop_info = "Grand Heist Curio Display"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = true
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Rashkaldor's Patience"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "The Halcyon"
-drops_anywhere = false
-drop_info = "Tul and her Breach monsters"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = true
-is_worthwhile_world_drop = true
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "The Pandemonius"
-drops_anywhere = false
-drop_info = "Tul in the Flawless Breachstone"
-notes = "can be crafted"
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = true
-is_collectable = true
-
-[[amulets.uniques]]
-name = "Willowgift"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-
+####################################################################################################
 
 [[amulets]]
-base_type = "Lapis Amulet"
-lvl_required = 5
-implicit_mod = "+(20-30) to Intelligence"
+base_type = "Blue Pearl Amulet"
+lvl_required = 77
+implicit_mod = "(48-56)% increased Mana Regeneration Rate"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
 [[amulets.uniques]]
-name = "Choir of the Storm"
-drops_anywhere = false
-drop_info = "Esh in the Flawless Breachstone version of encounter"
+name = "Gloomfang"
+restricted_drop = false
 notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
-
-[[amulets.uniques]]
-name = "Doedre's Tongue"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Marylene's Fallacy"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Stone of Lazhwar"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Tear of Purity"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "The Ephemeral Bond"
-drops_anywhere = true
-drop_info = "belongs to league-specific items,"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Voice of the Storm"
-drops_anywhere = false
-drop_info = " Esh and her Breach monsters"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
+####################################################################################################
 
 [[amulets]]
-base_type = "Unset Amulet"
-lvl_required = 5
-implicit_mod = "Has 1 Socket"
+base_type = "Citrine Amulet"
+lvl_required = 16
+implicit_mod = "+(16-24) to Strength and Dexterity"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+hide_uniques = false
 
 [[amulets.uniques]]
-name = "Uul-Netol's Vow"
-drops_anywhere = false
-drop_info = "Can drop from any Breachlord in a Flawless Breachstone"
+name = "Daresso's Salute"
+restricted_drop = false
+notes = "League-specific item"
+aprox_value = 0
+is_collectable = false
+
+[[amulets.uniques.cards]]
+name = "The Sword King's Salute"
+reward = "Daresso's Salute amulet"
+drop_level = 0
+notes = "TODO"
+hide_card = true
+top_card = false
+
+
+[[amulets.uniques]]
+name = "Eye of Innocence"
+restricted_drop = false
 notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = false
-is_collectable = true
+aprox_value = 0
+is_collectable = false
 
 
+[[amulets.uniques]]
+name = "Retaliation Charm"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
 
+
+[[amulets.uniques]]
+name = "The Felbog Fang"
+restricted_drop = true
+drop_info = "Namharim, Born of Night - T4 Harvest Seed bosses"
+notes = ""
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "The Jinxed Juju"
+restricted_drop = false
+notes = "Minion Related"
+aprox_value = 0
+is_collectable = false
+
+
+####################################################################################################
+
+[[amulets]]
+base_type = "Coral Amulet"
+lvl_required = 1
+implicit_mod = "Regenerate (2-4) Life per second"
+class = "Amulets"
+notes = ""
+has_top_unique = false
+hide_uniques = false
+
+[[amulets.uniques]]
+name = "Araku Tiki"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Ikiaho's Promise"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Ngamahu Tiki"
+restricted_drop = true
+notes = "Drop Disabled"
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Tainted Pact"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Tavukai"
+restricted_drop = false
+notes = "League-specific item - useful for SRS"
+aprox_value = 0
+is_collectable = false
+
+[[amulets.uniques.cards]]
+name = "The Return of the Rat"
+reward = "Tavukai Coral Amulet (minion srs)"
+drop_level = 0
+notes = "TODO"
+hide_card = true
+top_card = false
+
+
+[[amulets.uniques]]
+name = "The Primordial Chain"
+restricted_drop = false
+notes = "League-specific item - useful for Golems"
+aprox_value = 0
+is_collectable = false
+
+####################################################################################################
+
+[[amulets]]
+base_type = "Focused Amulet"
+lvl_required = 24
+implicit_mod = "-1 Prefix Modifier allowed & -2 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed & 100% increased Explicit Modifier magnitudes"
+class = "Amulets"
+restricted_drop = true
+notes = "Grand Heis Curio Display"
+has_top_unique = false
+boss_only = false
+
+####################################################################################################
 
 [[amulets]]
 base_type = "Gold Amulet"
 lvl_required = 8
 implicit_mod = "(12-20)% increased Rarity of Items found"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
 [[amulets.uniques]]
 name = "Bisco's Collar"
-drops_anywhere = true
-drop_info = ""
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 [[amulets.cards]]
 name = "The Master"
 reward = "Bisco's collar gold amulet"
-drops_anywhere = false
+restricted_drop = true
 drop_level = 0
 drop_info = "TODO"
 notes = ""
@@ -585,1126 +351,1066 @@ top_card = false
 
 [[amulets.uniques]]
 name = "Demigod's Presence"
-drops_anywhere = false
-drop_info = "drop disabled"
-notes = "Closed beta prize"
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+restricted_drop = true
+notes = "drop disabled - Closed beta prize"
+aprox_value = 0
 is_collectable = false
 
 [[amulets.uniques]]
 name = "Perquil's Toe"
-drops_anywhere = true
-drop_info = ""
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "The Ascetic"
-drops_anywhere = true
-drop_info = ""
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "The Effigon"
-drops_anywhere = false
-drop_info = "drop disabled"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+restricted_drop = true
+notes = "drop disabled"
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "The Ignomon"
-drops_anywhere = true
-drop_info = ""
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "The Untouched Soul"
-drops_anywhere = true
-drop_info = ""
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = true
+aprox_value = 10
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "The Utmost"
-drops_anywhere = false
-drop_info = "4x fragments one from Uber Exarch, Elder, Eater, Maven"
-notes = "It can be obtained by placing each of the four Primordial Fragments in the proper arrangement."
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+restricted_drop = true
+notes = "4x fragments one from Uber Exarch, Elder, Eater, Maven - It can be obtained by placing each of the four Primordial Fragments in the proper arrangement."
+aprox_value = 500
 is_collectable = false
 
 [[amulets.uniques]]
 name = "Winterheart"
-drops_anywhere = true
-drop_info = ""
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "Replica Winterheart"
-drops_anywhere = false
-drop_info = "Grand Heist Curio Display"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+restricted_drop = true
+notes = "Grand Heist Curio Display"
+aprox_value = 0
 is_collectable = false
 
-
+####################################################################################################
 
 [[amulets]]
-base_type = "Agate Amulet"
-lvl_required = 16
-implicit_mod = "+(16-24) to Strength and Intelligence"
+base_type = "Jade Amulet"
+lvl_required = 5
+implicit_mod = "+(20-30) to Dexterity"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = true
+boss_only = true
+
 
 [[amulets.uniques]]
-name = "Eternal Damnation"
-drops_anywhere = false
-drop_info = "Lycia, Herald of the Scourge - Sanctum"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = false
+name = "Hyrri's Truth"
+restricted_drop = false
+notes = "League-specific items"
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Extractor Mentis"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+name = "Replica Hyrri's Truth"
+restricted_drop = true
+notes = "Grand Heist Curio Display"
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Shaper's Seed"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+name = "Karui Charge"
+restricted_drop = true
+notes = "drop disabled"
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "The Aylardex"
-drops_anywhere = true
-drop_info = ""
+name = "Karui Ward"
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Voll's Devotion"
-drops_anywhere = true
-drop_info = "belongs to league-specific items"
+name = "Replica Karui Ward"
+restricted_drop = true
+notes = "Grand Heist Curio Display"
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Rashkaldor's Patience"
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "The Halcyon"
+restricted_drop = true
+notes = "Tul and her Breach monsters"
+aprox_value = 10
 is_collectable = true
 
-[[amulets.uniques.cards]]
-name = "The Brittle Emperor"
-reward = "Voll's Devotion Agate Amulet Corrupted"
-drops_anywhere = false
-drop_level = 0
-drop_info = "TODO"
+
+[[amulets.uniques]]
+name = "The Pandemonius"
+restricted_drop = true
+notes = "Tul in the Flawless Breachstone - can be crafted"
+aprox_value = 100
+is_collectable = true
+
+[[amulets.uniques]]
+name = "Willowgift"
+restricted_drop = false
 notes = ""
-hide_card = true
-top_card = false
+aprox_value = 0
+is_collectable = false
 
-
-
+####################################################################################################
 
 [[amulets]]
-base_type = "Citrine Amulet"
-lvl_required = 16
-implicit_mod = "+(16-24) to Strength and Dexterity"
+base_type = "Lapis Amulet"
+lvl_required = 5
+implicit_mod = "+(20-30) to Intelligence"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = true
+boss_only = true
 
 [[amulets.uniques]]
-name = "Daresso's Salute"
-drops_anywhere = true
-drop_info = ""
-notes = "belongs to league-specific items"
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-[[amulets.uniques.cards]]
-name = "The Sword King's Salute"
-reward = "Daresso's Salute amulet"
-drops_anywhere = false
-drop_level = 0
-drop_info = "TODO"
-notes = ""
-hide_card = true
-top_card = false
-
-[[amulets.uniques]]
-name = "Eye of Innocence"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+name = "Choir of the Storm"
+restricted_drop = true
+notes = "Esh in the Flawless Breachstone version of encounter"
+aprox_value = 150
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Retaliation Charm"
-drops_anywhere = true
-drop_info = ""
+name = "Doedre's Tongue"
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "The Felbog Fang"
-drops_anywhere = false
-drop_info = "Namharim, Born of Night - T4 Harvest Seed bosses"
+name = "Marylene's Fallacy"
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "The Jinxed Juju"
-drops_anywhere = true
-drop_info = ""
+name = "Stone of Lazhwar"
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-
-
-[[amulets]]
-base_type = "Turquoise Amulet"
-lvl_required = 16
-implicit_mod = "+(16-24) to Dexterity and Intelligence"
-class = "Amulets"
-grand_heist = false
-talisman = false
-
-[[amulets.uniques]]
-name = "Badge of the Brotherhood"
-drops_anywhere = true
-drop_info = "belongs to league-specific items"
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = true
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Replica Badge of the Brotherhood"
-drops_anywhere = false
-drop_info = "Grand Heist Curio Display"
+name = "Tear of Purity"
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Fury Valve"
-drops_anywhere = true
-drop_info = ""
-notes = "Metamorph item"
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+name = "The Ephemeral Bond"
+restricted_drop = false
+notes = "League-specific items"
+aprox_value = 0
 is_collectable = false
 
 
 [[amulets.uniques]]
-name = "Maligaro's Cruelty"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+name = "Voice of the Storm"
+restricted_drop = true
+notes = " Esh and her Breach monsters"
+aprox_value = 700
 is_collectable = false
 
-
-[[amulets.uniques]]
-name = "Ungil's Harmony"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Victario's Acuity"
-drops_anywhere = true
-drop_info = ""
-notes = "belongs to league-specific items"
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-[[amulets.uniques]]
-name = "Warped Timepiece"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-
-
-[[amulets]]
-base_type = "Onyx Amulet"
-lvl_required = 20
-implicit_mod = "+(10-16) to all Attributes"
-class = "Amulets"
-grand_heist = false
-talisman = false
-
-[[amulets.uniques]]
-name = "Ashes of the Stars"
-drops_anywhere = false
-drop_info = "Uber Eater of Worlds"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Astramentis"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = true
-is_collectable = true
-
-[[amulets.uniques.cards]]
-name = "The Polymath"
-reward = "Astramentis Onyx Amulet"
-drops_anywhere = false
-drop_level = 23
-drop_info = "The Reliquary (Act 5) • The Reliquary (Act 10) • Museum Map • Relic Chambers Map • Sanctuary Map"
-notes = ""
-hide_card = false
-top_card = false
-
-
-[[amulets.uniques]]
-name = "Aul's Uprising (All Attributes)"
-drops_anywhere = false
-drop_info = "Aul, the Crystal King"
-notes = "Envy has no Reservation"
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Aul's Uprising (Dexterity)"
-drops_anywhere = false
-drop_info = "Aul, the Crystal King"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Aul's Uprising (Intelligence)"
-drops_anywhere = false
-drop_info = "Aul, the Crystal King"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Aul's Uprising (Strength)"
-drops_anywhere = false
-drop_info = "Aul, the Crystal King"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Carnage Heart"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Crystallised Omniscience"
-drops_anywhere = false
-drop_info = "Uber Searing Exarch"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Eye of Chayula"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Hinekora's Sight"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Replica Hinekora's Sight"
-drops_anywhere = false
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Impresence (Chaos)"
-drops_anywhere = false
-drop_info = "The Elder & Uber Eldar"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Impresence (Cold)"
-drops_anywhere = false
-drop_info = "The Elder & Uber Eldar"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Impresence (Fire)"
-drops_anywhere = false
-drop_info = "The Elde & Uber Eldarr"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Impresence (Lightning)"
-drops_anywhere = false
-drop_info = "The Elder & Uber Eldar"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Impresence (Physical)"
-drops_anywhere = false
-drop_info = "The Elder & Uber Eldar"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Leadership's Price"
-drops_anywhere = false
-drop_info = "Drops from the twin bosses of Contract: The Twins unique contract"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Presence of Chayula"
-drops_anywhere = false
-drop_info = "Chayula Who Dreamt from Chayula's Breachstone"
-notes = "Can also be created"
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Replica Dragonfang's Flight"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-is_top_unique = true
-is_boss_only = false
-is_worthwhile_world_drop = "heh"
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Solstice Vigil"
-drops_anywhere = false
-drop_info = "The Shaper"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques]]
-name = "Stranglegasp"
-drops_anywhere = false
-drop_info = "Can drop after completing a Blight encounter in a Blight-ravaged map"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = true
-
-
-[[amulets.uniques.cards]]
-name = "Choking Guilt"
-reward = "Stranglegasp Onyx Amulet"
-drops_anywhere = false
-drop_level = 80
-drop_info = "The Infinite Hunger (mini eater)"
-notes = ""
-hide_card = true
-top_card = true
-
-
-[[amulets.uniques]]
-name = "The Eternal Struggle"
-drops_anywhere = false
-drop_info = "The Black Star (mini exarch) or The Infinite Hunger (mini eater)"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = false
-
-
-[[amulets.uniques]]
-name = "Yoke of Suffering"
-drops_anywhere = false
-drop_info = "Nightmare of the Unbreakable - Fortress T17 map"
-notes = ""
-is_top_unique = true
-is_boss_only = true
-is_worthwhile_world_drop = "heh"
-is_collectable = false
-
-
-
-[[amulets]]
-base_type = "Focused Amulet"
-lvl_required = 24
-implicit_mod = "-1 Prefix Modifier allowed & -2 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed & 100% increased Explicit Modifier magnitudes"
-class = "Amulets"
-grand_heist = false
-talisman = false
-
-
-
-[[amulets]]
-base_type = "Simplex Amulet"
-lvl_required = 24
-implicit_mod = "-2 Prefix Modifiers allowed & -1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 100% increased Explicit Modifier magnitudes"
-class = "Amulets"
-grand_heist = true
-talisman = false
-
-
-
-
-[[amulets]]
-base_type = "Astrolabe Amulet"
-lvl_required = 69
-implicit_mod = "Has Elder, Shaper and all Conqueror Influences & Implicit Modifiers Cannot Be Changed"
-class = "Amulets"
-grand_heist = true
-talisman = false
-
-
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Marble Amulet"
 lvl_required = 74
 implicit_mod = "Regenerate (1.2-1.6)% of Life per second"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
 [[amulets.uniques]]
 name = "Bloodgrip"
-drops_anywhere = true
-drop_info = ""
+restricted_drop = false
 notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+aprox_value = 0
+is_collectable = false
+
+####################################################################################################
+
+[[amulets]]
+base_type = "Onyx Amulet"
+lvl_required = 20
+implicit_mod = "+(10-16) to all Attributes"
+class = "Amulets"
+notes = ""
+has_top_unique = true
+boss_only = true
+
+[[amulets.uniques]]
+name = "Ashes of the Stars"
+restricted_drop = true
+notes = "Uber Eater of Worlds"
+aprox_value = 50
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Astramentis"
+restricted_drop = false
+notes = ""
+aprox_value = 15
+is_collectable = true
+
+[[amulets.uniques.cards]]
+name = "The Polymath"
+reward = "Astramentis Onyx Amulet"
+drop_level = 23
+notes = "The Reliquary (Act 5) • The Reliquary (Act 10) • Museum Map • Relic Chambers Map • Sanctuary Map"
+hide_card = false
+top_card = false
+
+
+[[amulets.uniques]]
+name = "Aul's Uprising (All Attributes)"
+restricted_drop = true
+drop_info = "Aul, the Crystal King"
+notes = "Envy has no Reservation"
+aprox_value = 20
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Aul's Uprising (Dexterity)"
+restricted_drop = true
+drop_info = "Aul, the Crystal King"
+notes = ""
+aprox_value = 20
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Aul's Uprising (Intelligence)"
+restricted_drop = true
+drop_info = "Aul, the Crystal King"
+notes = ""
+aprox_value = 20
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Aul's Uprising (Strength)"
+restricted_drop = true
+drop_info = "Aul, the Crystal King"
+notes = ""
+aprox_value = 20
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Carnage Heart"
+restricted_drop = false
+notes = ""
+aprox_value = 0
 is_collectable = false
 
 
+[[amulets.uniques]]
+name = "Crystallised Omniscience"
+restricted_drop = true
+drop_info = "Uber Searing Exarch"
+notes = ""
+aprox_value = 3000
+is_collectable = true
 
+
+[[amulets.uniques]]
+name = "Eye of Chayula"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Hinekora's Sight"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Replica Hinekora's Sight"
+restricted_drop = true
+notes = ""
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Impresence (Chaos)"
+restricted_drop = true
+drop_info = "The Elder & Uber Eldar"
+notes = ""
+aprox_value = 100
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Impresence (Cold)"
+restricted_drop = true
+drop_info = "The Elder & Uber Eldar"
+notes = ""
+aprox_value = 10
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Impresence (Fire)"
+restricted_drop = true
+drop_info = "The Elde & Uber Eldarr"
+notes = ""
+aprox_value = 10
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Impresence (Lightning)"
+restricted_drop = true
+drop_info = "The Elder & Uber Eldar"
+notes = ""
+aprox_value = 10
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Impresence (Physical)"
+restricted_drop = true
+drop_info = "The Elder & Uber Eldar"
+notes = ""
+aprox_value = 10
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Leadership's Price"
+restricted_drop = true
+drop_info = "Drops from the twin bosses of Contract: The Twins unique contract"
+notes = ""
+aprox_value = 10
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Presence of Chayula"
+restricted_drop = true
+drop_info = "Chayula Who Dreamt from Chayula's Breachstone"
+notes = "Can also be created"
+aprox_value = 200
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Replica Dragonfang's Flight"
+restricted_drop = false
+notes = ""
+aprox_value = 100
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Solstice Vigil"
+restricted_drop = true
+drop_info = "The Shaper"
+notes = ""
+aprox_value = 100
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Stranglegasp"
+restricted_drop = true
+drop_info = "Can drop after completing a Blight encounter in a Blight-ravaged map"
+notes = ""
+aprox_value = 5000
+is_collectable = true
+
+
+[[amulets.uniques.cards]]
+name = "Choking Guilt"
+reward = "Stranglegasp Onyx Amulet"
+drop_level = 80
+notes = "The Infinite Hunger (mini eater)"
+hide_card = true
+top_card = true
+
+
+[[amulets.uniques]]
+name = "The Eternal Struggle"
+restricted_drop = true
+drop_info = "The Black Star (mini exarch) or The Infinite Hunger (mini eater)"
+notes = ""
+aprox_value = 15
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Yoke of Suffering"
+restricted_drop = true
+drop_info = "Nightmare of the Unbreakable - Fortress T17 map"
+notes = ""
+aprox_value = 50
+is_collectable = false
+
+####################################################################################################
+
+[[amulets]]
+base_type = "Paua Amulet"
+lvl_required = 1
+implicit_mod = "(20-30)% increased Mana Regeneration Rate"
+class = "Amulets"
+notes = ""
+has_top_unique = true
+boss_only = false
+
+
+[[amulets.uniques]]
+name = "Atziri's Foible"
+restricted_drop = false
+notes = "Might be useful for Mana builds"
+aprox_value = 20
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Replica Atziri's Foible"
+restricted_drop = true
+notes = "Grand Heist Curio Display"
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Defiance of Destiny"
+restricted_drop = false
+notes = "Valuable"
+aprox_value = 350
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Sacrificial Heart"
+restricted_drop = true
+notes = "The Vaal Omnitect (alva temple)"
+aprox_value = 5
+is_collectable = true
+
+
+[[amulets.uniques]]
+name = "Sidhebreath"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
+
+
+[[amulets.uniques]]
+name = "Zerphi's Heart"
+restricted_drop = true
+notes = "can be crafted from alva stuff"
+aprox_value = 10
+is_collectable = true
+
+####################################################################################################
 
 [[amulets]]
 base_type = "Seaglass Amulet"
 lvl_required = 74
 implicit_mod = "(10-15)% faster start of Energy Shield Recharge"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
-
+####################################################################################################
 
 [[amulets]]
-base_type = "Blue Pearl Amulet"
-lvl_required = 77
-implicit_mod = "(48-56)% increased Mana Regeneration Rate"
+base_type = "Simplex Amulet"
+lvl_required = 24
+implicit_mod = "-2 Prefix Modifiers allowed & -1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 100% increased Explicit Modifier magnitudes"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = "Grand Geist Curio Display"
+has_top_unique = false
+boss_only = false
+
+####################################################################################################
+
+[[amulets]]
+base_type = "Turquoise Amulet"
+lvl_required = 16
+implicit_mod = "+(16-24) to Dexterity and Intelligence"
+class = "Amulets"
+notes = ""
+has_top_unique = false
+boss_only = false
+
 
 [[amulets.uniques]]
-name = "Gloomfang"
-drops_anywhere = true
-drop_info = ""
-notes = ""
-grand_heist = false
-talisman = false
-is_top_unique = false
-is_boss_only = false
-is_worthwhile_world_drop = false
+name = "Badge of the Brotherhood"
+restricted_drop = false
+notes = "League-specific item"
+aprox_value = 70
 is_collectable = false
 
 
+[[amulets.uniques]]
+name = "Replica Badge of the Brotherhood"
+restricted_drop = true
+notes = "Grand Heist Curio Display"
+aprox_value = 0
+is_collectable = false
 
 
+[[amulets.uniques]]
+name = "Fury Valve"
+restricted_drop = false
+notes = "Metamorph item"
+aprox_value = 0
+is_collectable = false
 
 
+[[amulets.uniques]]
+name = "Maligaro's Cruelty"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
 
 
+[[amulets.uniques]]
+name = "Ungil's Harmony"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
 
 
+[[amulets.uniques]]
+name = "Victario's Acuity"
+restricted_drop = false
+notes = "League-specific item"
+aprox_value = 0
+is_collectable = false
 
+[[amulets.uniques]]
+name = "Warped Timepiece"
+restricted_drop = false
+notes = ""
+aprox_value = 0
+is_collectable = false
+
+####################################################################################################
+
+[[amulets]]
+base_type = "Unset Amulet"
+lvl_required = 5
+implicit_mod = "Has 1 Socket"
+class = "Amulets"
+notes = ""
+has_top_unique = true
+boss_only = true
+
+[[amulets.uniques]]
+name = "Uul-Netol's Vow"
+restricted_drop = true
+notes = "Can drop from any Breachlord in a Flawless Breachstone"
+aprox_value = 6000
+is_collectable = true
+
+####################################################################################################
+
+
+####################################################################################################
 
 [[amulets]]
 base_type = "Ashscale Talisman"
 lvl_required = 1
 implicit_mod = "(20-30)% increased Fire Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Avian Twins Talisman"
 lvl_required = 1
 implicit_mod = "50% of Cold Damage from Hits taken as Fire Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Avian Twins Talisman"
 lvl_required = 1
 implicit_mod = "50% of Cold Damage from Hits taken as Lightning Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Avian Twins Talisman"
 lvl_required = 1
 implicit_mod = "50% of Fire Damage from Hits taken as Cold Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Avian Twins Talisman"
 lvl_required = 1
 implicit_mod = "50% of Fire Damage from Hits taken as Lightning Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Avian Twins Talisman"
 lvl_required = 1
 implicit_mod = "50% of Lightning Damage from Hits taken as Cold Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Avian Twins Talisman"
 lvl_required = 1
 implicit_mod = "50% of Lightning Damage from Hits taken as Fire Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Black Maw Talisman"
 lvl_required = 1
 implicit_mod = "Has 1 Socket"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+[[amulets.uniques]]
+name = "Night's Hold"
+restricted_drop = false
+notes = "League-specific item"
+aprox_value = 0
+is_collectable = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Bonespire Talisman"
 lvl_required = 1
 implicit_mod = "(20-30)% increased maximum Mana"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Breakrib Talisman"
 lvl_required = 1
 implicit_mod = "(20-30)% increased Global Physical Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Chrysalis Talisman"
 lvl_required = 1
 implicit_mod = "(20-30)% increased Spell Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Clutching Talisman"
 lvl_required = 1
 implicit_mod = "(15-25)% increased Global Defences"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+[[amulets.uniques]]
+name = "Blightwell"
+restricted_drop = false
+notes = "League-specific item"
+aprox_value = 0
+is_collectable = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Deadhand Talisman"
 lvl_required = 1
 implicit_mod = "(19-31)% increased Chaos Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Deep One Talisman"
 lvl_required = 1
 implicit_mod = "(20-30)% increased Cold Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Fangjaw Talisman"
 lvl_required = 1
 implicit_mod = "(8-12)% increased maximum Life"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Greatwolf Talisman"
 lvl_required = 1
 implicit_mod = "2x random"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
 [[amulets.uniques]]
 name = "Eyes of the Greatwolf"
-drops_anywhere = true
-drop_info = "it's not chance able since the base doesn't drop"
-notes = "belongs to
-is_top_unique = BOOL
-is_boss_only = BOOL
-is_worthwhile_world_drop = BOOL
-is_collectable = BOOL league-specific items"
+restricted_drop = false
+notes = "League-specific item - it's not chance able since the base doesn't drop"
+aprox_value = 30
+is_collectable = true
 
 [[amulets.uniques.cards]]
 name = "Mawr Blaidd"
 reward = "Eyes of the Greatwolf Greatwolf Talisman"
-drops_anywhere = false
 drop_level = 68
-drop_info = "Bramble Valley Map • Dark Forest Map • Forbidden Woods Map"
-notes = ""
-hide_card = true
+notes = "Bramble Valley Map • Dark Forest Map • Forbidden Woods Map"
+hide_card = false
 top_card = false
 
-
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Hexclaw Talisman"
 lvl_required = 1
 implicit_mod = "(40-50)% increased Global Critical Strike Chance"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
-
-
+####################################################################################################
 
 [[amulets]]
 base_type = "Horned Talisman"
 lvl_required = 1
 implicit_mod = "Projectiles Pierce 2 additional Targets"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Lone Antler Talisman"
 lvl_required = 1
 implicit_mod = "(20-30)% increased Lightning Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Longtooth Talisman"
 lvl_required = 1
 implicit_mod = "(4-6)% additional Physical Damage Reduction"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Mandible Talisman"
 lvl_required = 1
 implicit_mod = "(6-10)% increased Attack and Cast Speed"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Monkey Paw Talisman"
 lvl_required = 1
 implicit_mod = "10% chance to gain an Endurance Charge on Kill"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Monkey Paw Talisman"
 lvl_required = 1
 implicit_mod = "10% chance to gain a Frenzy Charge on Kill"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Monkey Paw Talisman"
 lvl_required = 1
 implicit_mod = "10% chance to gain a Power Charge on Kill"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Monkey Twins Talisman"
 lvl_required = 1
 implicit_mod = "(5-8)% increased Area of Effect"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Primal Skull Talisman"
 lvl_required = 1
 implicit_mod = "Regenerate 2% of Life per second"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Rot Head Talisman"
 lvl_required = 1
 implicit_mod = "(30-40)% increased Fish Bite Sensitivity"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Rotfeather Talisman"
 lvl_required = 1
 implicit_mod = "(25-35)% increased Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+[[amulets.uniques]]
+name = "Natural Hierarchy"
+restricted_drop = false
+notes = "League-specific item"
+aprox_value = 0
+is_collectable = false
+
+####################################################################################################
 
 [[amulets]]
 base_type = "Spinefuse Talisman"
 lvl_required = 1
 implicit_mod = "(6-10)% increased Quantity of Items found"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Splitnewt Talisman"
 lvl_required = 1
 implicit_mod = "(4-6)% chance to Freeze, Shock and Ignite"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Three Hands Talisman"
 lvl_required = 1
 implicit_mod = "Gain (6-12)% of Physical Damage as Extra Damage of a random Element"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Three Rat Talisman"
 lvl_required = 1
 implicit_mod = "(12-16)% increased Attributes"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Undying Flesh Talisman"
 lvl_required = 1
 implicit_mod = "+1 to maximum number of Raised Zombies"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+####################################################################################################
 
 [[amulets]]
 base_type = "Wereclaw Talisman"
 lvl_required = 1
 implicit_mod = "+(24-36)% to Global Critical Strike Multiplier"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false
 
+[[amulets.uniques]]
+name = "Rigwald's Curse"
+restricted_drop = false
+notes = "League-specific item"
+aprox_value = 0
+is_collectable = false
+
+[[amulets.uniques.cards]]
+name = "The Cursed King"
+reward = "Rigwald's Curse Wereclaw Talisman"
+drop_level = 0
+notes = "TODO"
+hide_card = true
+top_card = false
+
+####################################################################################################
 
 [[amulets]]
 base_type = "Writhing Talisman"
 lvl_required = 1
 implicit_mod = "(20-30)% increased Attack Damage"
 class = "Amulets"
-grand_heist = false
-talisman = false
+notes = ""
+has_top_unique = false
+boss_only = false

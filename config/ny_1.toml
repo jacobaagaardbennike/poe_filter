@@ -8,16 +8,16 @@ name = "Anarchy's Price"
 reward = "Voltaxic Rift Spine Bow Corrupted"
 drop_level = 48
 notes = "This item can drop from Rogue Exiles."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Tranquillity"
 reward = "Voltaxic Rift Spine Bow"
 drop_level = 48
 notes = "Ashen Wood, Fields, Orchard, Peninsula, The Ashen Fields"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Archer: Mix
@@ -27,16 +27,16 @@ name = "The Porcupine"
 reward = "ilvl 50 six-link Normal Short Bow"
 drop_level = 38
 notes = "The High Gardens • Courtyard Map • Gardens Map • Orchard Map • Plaza Map • Terrace Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "A Note in the Wind"
 reward = "Asenath's Mark - (manaforged arrow trigger type helmet)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Archer: Hidden
@@ -46,80 +46,80 @@ name = "Bowyer's Dream"
 reward = "ilvl 91 six-link Normal Harbinger Bow"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Endless Night"
 reward = "Maloney's Mechanism Ornate Quiver"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Etched in Blood"
 reward = "rigwalds quills quiver Two-Implicit Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Hunter's Resolve"
 reward = "random unique bow"
 drop_level = 23
 notes = "The Riverways (Act 6) • The Southern Forest (Act 6) • The Sarn Ramparts • Forking River Map • Ramparts Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Imperial Legacy"
 reward = "white 6link Imperial Bow"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Fletcher"
 reward = "drillneck quiver Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Wind"
 reward = "Windripper imperial bow"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Wolven King's Bite"
 reward = "rigwalds quills quiver"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Thunderous Skies"
 reward = "Storm Cloud long bow"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Vile Power"
 reward = "Doomfletch Royal Bow"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 ####################################################################################################
@@ -130,56 +130,56 @@ name = "A Fate Worse Than Death"
 reward = "Cortex Synthesised Map Corrupted"
 drop_level = 78
 notes = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer, Sirus Awakener of Worlds"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Altered Perception"
 reward = "simulacrum (can drop Megalomaniac mcluster, Split Personality Crimson Jewel, Voices (Cluster)"
 drop_level = 68
 notes = "Uhtred Covetous Traitor"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Eternal Bonds"
 reward = "Replica Cortex Synthesised Map"
 drop_level = 78
 notes = "Drops from Map Reward Chests in Heist Contracts and Blueprints"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Sambodhi's Vow"
 reward = "mortal fragment (uber atziri)"
 drop_level = 70
 notes = "Can drop from members of the Immortal Syndicate."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Something Dark"
 reward = "83 blueprint fully revealed"
 drop_level = 75
 notes = "Drops from Breachlords in Breachstones."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Eldritch Decay"
 reward = "uber elder fragment"
 drop_level = 81
 notes = "The Constrictor The Enslaver The Eradicator The Purifier"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Eye of Terror"
 reward = "Chayula's Flawless Breachstone"
 drop_level = 68
 notes = "It That Fled"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Content: Mix
@@ -189,56 +189,56 @@ name = "Checkmate"
 reward = "76x simulacrum splinter"
 drop_level = 68
 notes = "Academy Map • Museum Map • Scriptorium Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Guardian's Challenge"
 reward = "Shaper Guardian Map"
 drop_level = 81
 notes = "Sold by Kirac for 3x Cartographer's Chisel"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Last Hope"
 reward = "Mortal Hope (opens vaal areas and buffs map quality)"
 drop_level = 68
 notes = "Atziri, Queen of the Vaal"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Lingering Remnants"
 reward = "vaal temple map Corrupted"
 drop_level = 78
 notes = "Drops in a lot of maps"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Obscured"
 reward = "Breachstone"
 drop_level = 68
 notes = "The Obscured can drop from Abyss monsters, including from Abyss nodes in Delve."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Price of Prescience"
 reward = "Vaal Temple Map T16 Delirium: 100% Corrupted"
 drop_level = 78
 notes = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Price of Protection"
 reward = "Elder Guardian Occupied Map T: 14 to 16 Modifiers: 8 Corrupted"
 drop_level = 81
 notes = "Drops from Invasion bosses or Vaal side area bosses."
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Content: Hideable Unique maps
@@ -248,72 +248,72 @@ name = "Justified Ambition"
 reward = "Synthesis Map"
 drop_level = 81
 notes = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Scholar of the Seas"
 reward = "Mao Kun Unique map"
 drop_level = 68
 notes = "The Brine King's Reef • Coves Map • Reef Map • Strand Map • Whakawairua Tuahu"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Dreamland"
 reward = "Poorjoy's Asylum Unique map"
 drop_level = 68
 notes = "Drops from Cartographer's Strongboxes."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Landing"
 reward = "The Breachhead Unique map"
 drop_level = 73
 notes = "Shore Map • Mao Kun • Strand Map • Whakawairua Tuahu"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Professor"
 reward = "The Putrid Cloister Unique Museum Map"
 drop_level = 68
 notes = "Academy Map • Laboratory Map • Museum Map • Scriptorium Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Rabbit's Foot"
 reward = "10x Incursion Vial"
 drop_level = 50
 notes = "Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Ziggurat Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Twilight Moon"
 reward = "The Twilight Temple Map"
 drop_level = 68
 notes = "Cold River Map • Moon Temple Map • Temple Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Wolf's Legacy"
 reward = "Vaults of Atziri Unique map"
 drop_level = 68
 notes = "This card drops from Izaro's Treasure chests, Labyrinth Troves, or Silver Key caches in the Eternal Labyrinth or Enriched Eternal Labyrinth. Still requires verification if it can drop in Merciless Labyrinth."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Treasure Hunter"
 reward = "Vaults of Atziri Unique map"
 drop_level = 68
 notes = "Museum Map • Relic Chambers Map • Vaults of Atziri • Vault Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Content: Gamble
@@ -323,48 +323,48 @@ name = "Buried Treasure"
 reward = "sulphite scarab"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Cameria's Cut"
 reward = "Scarab"
 drop_level = 68
 notes = "Cameria the Coldblooded"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Man With Bear"
 reward = "bestiary scarab"
 drop_level = 68
 notes = "Barrows Map • Cemetery Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "The Card Sharp"
 reward = "divination scarab"
 drop_level = 68
 notes = "alva missions + Alva's Memory of Reverse Incursion."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "The Deal"
 reward = "cartography scarab"
 drop_level = 68
 notes = "Cameria the Coldblooded"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Encroaching Darkness"
 reward = "Map Corrupted"
 drop_level = 73
 notes = "lotta maps"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Content: Hidden Unless SSF
@@ -374,24 +374,24 @@ name = "Azure Rage"
 reward = "Random Punishing Magic tier 16 map (phsyical reflect)"
 drop_level = 81
 notes = "Factory Map • Port Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Left to Fate"
 reward = "Random unidentified corrupted tier 16 Rare map"
 drop_level = 73
 notes = "Forking River Map • Ramparts Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Puzzle"
 reward = "5x breech stone splinter"
 drop_level = 68
 notes = "The Puzzle can drop from Beyond demons."
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Content: Hidden
@@ -401,96 +401,96 @@ name = "Boon of Justice"
 reward = "Offering to the Goddess"
 drop_level = 73
 notes = "Chateau Map • Conservatory Map • Orchard Map • Plaza Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Boundless Realms"
 reward = "map"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Cartographer's Delight"
 reward = "tier 5 map"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Her Mask"
 reward = "saccrifice fragment"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Lost Worlds"
 reward = "tier 15 map"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Rain Tempter"
 reward = "tier 6 map"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Arena Champion"
 reward = "tier 12 map"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Easy Stroll"
 reward = "tier 15 map 8 modifiers"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Explorer"
 reward = "map Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Surveyor"
 reward = "tier 14 map"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Trial"
 reward = "tier 15 map Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Triskaidekaphobia"
 reward = "corrup tier 13 map 8 modifiers"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 ####################################################################################################
@@ -501,56 +501,56 @@ name = "Brother's Gift"
 reward = "5x div"
 drop_level = 68
 notes = "Cemetery Map • Grave Trough Map • Graveyard Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "House of Mirrors"
 reward = "1x Mirror of Kalandra"
 drop_level = 78
 notes = "The Alluring Abyss (uber atziri)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "I See Brothers"
 reward = "2x fracturing orb"
 drop_level = 68
 notes = "various map bosses"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "Seven Years Bad Luck"
 reward = "1x Mirror shard"
 drop_level = 35
 notes = "Crimson Temple Map • Defiled Cathedral Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Immortal"
 reward = "House of Mirrors Card"
 drop_level = 35
 notes = "The Hall of Grandmasters"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "Unrequited Love"
 reward = "19x Mirror Shard"
 drop_level = 35
 notes = "The Temple of Decay Level 1 • Maze Map • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Sephirot"
 reward = "10x div"
 drop_level = 35
 notes = "Dominus, Ascendant Excellis Aurafix The Hallowed Husk The Hallowed Husk The High Templar"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Currency: All Season
@@ -560,96 +560,96 @@ name = "Abandoned Wealth"
 reward = "3x exalted"
 drop_level = 68
 notes = "Mao Kun map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Alluring Bounty"
 reward = "10x exalted"
 drop_level = 68
 notes = "The Apex of Sacrifice • The Alluring Abyss"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Brother's Stash"
 reward = "5x exalted"
 drop_level = 68
 notes = "Cemetery Map • Grave Trough Map • Graveyard Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Darker Half"
 reward = "5x eldricht Exalted"
 drop_level = 81
 notes = "Drops when receiving Currency rewards from Delirium layers in maps (from Delirium Mirror or Delirium Orbs) and in Simulacrum."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Demigod's Wager"
 reward = "Orb of Annulment"
 drop_level = 35
 notes = "The Cleansing Light"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Divine Beauty"
 reward = "7x div"
 drop_level = 68
 notes = "Drops from Merveil in both Underground Sea Map and Maelström of Chaos"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Ever-Changing"
 reward = "10x Orb of Unmaking"
 drop_level = 68
 notes = "Drops in maps opened via Kirac missions."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Long Con"
 reward = "Elderslayer's Exalted Orb"
 drop_level = 80
 notes = "This card drops from Izaro's Treasure chests in the Eternal Labyrinth (Uber Lab) and Enriched Eternal Labyrinth."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Fortunate"
 reward = "2x div"
 drop_level = 68
 notes = "Ancient City Map • Arid Lake Map • Atoll Map • Beach Map • Burial Chambers Map • Caldera Map • Canyon Map • Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map • Estuary Map • Fields Map • Jungle Valley Map • Leyline Map • Marshes Map • Mesa Map • Mineral Pools Map • Orchard Map • Peninsula Map • Plateau Map • Shore Map • Sulphur Vents Map • Terrace Map • Crater Map • Tropical Island Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Rusted Bard"
 reward = "4x Tainted Mythic Orb"
 drop_level = 68
 notes = "The Vinktar Square"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Seeker"
 reward = "3x Orb of Annulment"
 drop_level = 35
 notes = "The Temple of Atzoatl"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Side Quest"
 reward = "20x Scouting Report"
 drop_level = 69
 notes = "Alleyways Map • Arachnid Tomb Map • Armoury Map • Castle Ruins Map • Forking River Map • Iceberg Map • Infested Valley Map • Mineral Pools Map • Siege Map • Primordial Blocks Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Currency: Mix
@@ -659,128 +659,128 @@ name = "Ambitious Obsession"
 reward = "Skittering Delirium Orb"
 drop_level = 68
 notes = "Ara Sister of Light, Armala, the Widow, Drek Apex Hunter, Erebix Light's Bane, Gorulis Will-Thief, Khor Sister of Shadows, Mephod the Earth Scorcher, Nassar Lion of the Seas, Stalker of the Endless Dunes, Tahsin Warmaker, Terror of the Infinite Drifts, Varhesh Shimmering Aberration"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Chaotic Disposition"
 reward = "5x Chaos Orb"
 drop_level = 23
 notes = "Poorjoy's Asylum"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Coveted Possession"
 reward = "5x Regal Orb"
 drop_level = 23
 notes = "The Catacombs • The Ossuary (Act 5) • The Ossuary (Act 10) • Bone Crypt Map • Sanctuary Map • Ziggurat Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Dementophobia"
 reward = "10x Delerium Orb"
 drop_level = 68
 notes = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer, Venarius"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Harmony of Souls"
 reward = "9x shrieking essence"
 drop_level = 68
 notes = "Abomination Map Can drop from versions of Doedre, Maligaro, and Shavronne in Sepulchre Map, Overgrown Shrine Map, and Cells Map respectively, as well as Abomination Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Cacophony"
 reward = "3x defening essence"
 drop_level = 68
 notes = "Drops from Merveil, the Returned in both Underground Sea Map and Maelström of Chaos"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Cartographer"
 reward = "10x cartographers chisel"
 drop_level = 39
 notes = "Drops from Cartographer's Strongboxes."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Heroic Shot"
 reward = "17x chromatic"
 drop_level = 23
 notes = "Can drop from Arcanist's Strongboxes"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Hoarder"
 reward = "Exalted Orb"
 drop_level = 68
 notes = "Maelström of Chaos • Mineral Pools Map • Underground Sea Map • Vaults of Atziri • Vault Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Innocent"
 reward = "40x Orb of Regret"
 drop_level = 23
 notes = "The Chamber of Innocence • Basilica Map • Defiled Cathedral Map • Sanctuary Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Saint's Treasure"
 reward = "2x Exalted Orb"
 drop_level = 68
 notes = "Alleyways Map • Arcade Map • Bazaar Map • Ghetto Map • Port Map • Precinct Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Scout"
 reward = "7x Exalted Orb"
 drop_level = 68
 notes = "Ashen Wood Map • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map • Jungle Valley Map • Lair Map • Ramparts Map • Spider Forest Map • Stagnation Map • Thicket Map • Tropical Island Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Transformation"
 reward = "Tainted Mythic Orb"
 drop_level = 68
 notes = "Drops from bosses with the 'transform_boss' monster tag."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Wrath"
 reward = "10x Chaos Orb"
 drop_level = 23
 notes = "The Cathedral Rooftop (Act 5) • The Feeding Trough • Belfry Map • Lava Lake Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Three Faces in the Dark"
 reward = "3x Chaos Orb"
 drop_level = 23
 notes = "The Grain Gate • The Refinery • Arsenal Map • Factory Map • Port Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Vinia's Token"
 reward = "10x orb of regret"
 drop_level = 68
 notes = "Core Map • Malformation Map • Shrine Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Currency: Gamble
@@ -790,40 +790,40 @@ name = "Emperor's Luck"
 reward = "5x currency"
 drop_level = 23
 notes = "The Imperial Gardens • The High Gardens • Courtyard Map • Gardens Map • Orchard Map • Terrace Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Lucky Deck"
 reward = "10x stacked deck"
 drop_level = 74
 notes = "Ziggurat Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Parasitic Passengers"
 reward = "10x Incubator"
 drop_level = 68
 notes = "Arachnid Tomb Map • Channel Map • Infested Valley Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "The Tireless Extractor"
 reward = "10x oil"
 drop_level = 68
 notes = "Factory Map • Fortress Map • Port Map • Silo Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Three Voices"
 reward = "3x Essence"
 drop_level = 23
 notes = "Arena Map • City Square Map • Courthouse Map • Courtyard Map • Crystal Ore Map • Forbidden Woods Map • Graveyard Map • Racecourse Map • Vaal Pyramid Map • Vaal Temple Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Currency: Hidden Unless SSF
@@ -833,48 +833,48 @@ name = "Disdain"
 reward = "Delerium Orb"
 drop_level = 44
 notes = "Can drop after completing any Maven's Invitation, including Quest ones."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Lucky Connections"
 reward = "20x Orb of Fusing"
 drop_level = 23
 notes = "The Docks • The Quay • Pier Map • Port Map • Shipyard Map • Wharf Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Finishing Touch"
 reward = "fertile catalyst (life and mana)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Inventor"
 reward = "10x Vaal Orb"
 drop_level = 23
 notes = "The Ancient Pyramid • The Temple of Decay Level 1 • The Temple of Decay Level 2 • Maze Map • Doryani's Machinarium • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Journey"
 reward = "harbringers orb"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Union"
 reward = "10x gemcutters prism"
 drop_level = 23
 notes = "The Fellshrine Ruins (Act 7) • Cemetery Map • Grave Trough Map • Graveyard Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Currency: Hidden
@@ -885,104 +885,104 @@ name = "A Sea of Blue"
 reward = "13x Orb of Alteration"
 drop_level = 68
 notes = "Citadel Map • Crystal Ore Map • Grotto Map • Mineral Pools Map • Primordial Blocks Map • Ziggurat Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Acclimatisation"
 reward = "20x Orb of Alteration"
 drop_level = 23
 notes = "Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Loyalty"
 reward = "3x fusing"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "No Traces"
 reward = "10x Orb of Scouring"
 drop_level = 23
 notes = "The Ossuary (Act 5) • The Reliquary (Act 10) • The Ossuary (Act 10) • Mausoleum Map • Relic Chambers Map • Sepulchre Map • Ziggurat Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Rain of Chaos"
 reward = "1x chaos"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Society's Remorse"
 reward = "10x alt"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Catalyst"
 reward = "1x vaal"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Fool"
 reward = "20x chance"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Gemcutter"
 reward = "Gemcutter's Prism"
 drop_level = 0
 notes = "todo"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Master Artisan"
 reward = "20x q currency"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Scholar"
 reward = "40x wiz"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Survivalist"
 reward = "7x alchemy"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Tinkerer's Table"
 reward = "5x fossil"
 drop_level = 23
 notes = "lots of maps"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 ####################################################################################################
@@ -993,24 +993,24 @@ name = "Desecrated Virtue"
 reward = "Level 6 Awakened Support Gem Quality: +23% Corrupted"
 drop_level = 0
 notes = "Aul, the Crystal King"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Cheater"
 reward = "Level 6 Awakened Support Gem Quality: +20% Corrupted"
 drop_level = 72
 notes = "Fortress (t17map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "Wealth and Power"
 reward = "Level 4 Enlighten Corrupted"
 drop_level = 68
 notes = "Citadel Map (t17map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Gem: All Season
@@ -1020,40 +1020,40 @@ name = "Doryani's Epiphany"
 reward = "Random corrupted level 21 transfigured gem with 20% quality"
 drop_level = 68
 notes = "Doryani's Machinarium Unique Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Gemcutter's Mercy"
 reward = "Exceptional Gem - (awakened or normal, empower, enhance, enchant)"
 drop_level = 38
 notes = "Gem chests in the Azurite Mine."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Home"
 reward = "Exceptional Gem q1-20"
 drop_level = 38
 notes = "Alleyways Ancient City, Arcade, Bazaar, Chateau, City Square, Crimson Township, Haunted Mansion, Residence, Siege, Sunken City, Tower. (awakened or normal, empower, enhance, enchant)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Artist"
 reward = "level 4 enhance Corrupted"
 drop_level = 68
 notes = "Abomination (tier17 map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Enlightened"
 reward = "Level 3 Enlighten"
 drop_level = 60
 notes = "Basilica Map • Belfry Map • Crimson Temple Map • Defiled Cathedral Map • Ivory Temple Map • Lookout Map • Moon Temple Map • The Twilight Temple • Sanctuary Map • Temple Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 ####################################################################################################
@@ -1064,40 +1064,40 @@ name = "The Emptiness"
 reward = "vaal breech gem"
 drop_level = 80
 notes = "Appears to drop in maps (unique maps?) with the Mysterious Barrels sextant modifier."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Brush Paint and Palette"
 reward = "The artist card (enhance)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Blessing of Moosh"
 reward = "lvl 21 trans gem"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Bitter Blossom"
 reward = "level 21 chaos gem q23 Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Hook"
 reward = "Level 21 Transfigured Gem 23% Quality Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Gem: Gamble
@@ -1107,8 +1107,8 @@ name = "The Fox"
 reward = "level 20 gem"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Gem: Hidden Unless SSF
@@ -1118,32 +1118,32 @@ name = "A Chilling Wind"
 reward = "21 vaal cold snap"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Deathly Designs"
 reward = "level 21 trap gem 23q Corrupted"
 drop_level = 72
 notes = "Ash Lessard"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Magma Crab"
 reward = "21 vaal molten shell"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Realm"
 reward = "portal"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Gem: Hidden
@@ -1153,64 +1153,64 @@ name = "Dialla's Subjugation"
 reward = "support gem 23q Corrupted"
 drop_level = 0
 notes = "todo"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Dying Anguish"
 reward = "level 19 trans gem q19"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Gemcutter's Promise"
 reward = "20q gem"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Gift of the Gemling Queen"
 reward = "level 20 support gem"
 drop_level = 68
 notes = "Crystal Ore Map • Dig Map • Excavation Map • Flooded Mine Map • Geode Map • Grotto Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Cataclysm"
 reward = "lvl 21 spell gem"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Doppelganger"
 reward = "20q mirror arrow"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Volatile Power"
 reward = "q20 vaal gem Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Wilted Rose"
 reward = "level 21 aura gem Corrupted"
 drop_level = 72
 notes = "Acton's Nightmare"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 
@@ -1222,8 +1222,8 @@ name = "Auspicious Ambitions"
 reward = "Experimented Item Level: 100 Double-Influenced"
 drop_level = 73
 notes = "Drops from the regular and uber versions of Maven, Exarch, Eater, and Uber Elder."
-hide_card = true
 top_card = true
+hide_card = true
 
 
 
@@ -1235,112 +1235,112 @@ name = "A Familiar Call"
 reward = "blue jewellery of farrul shaper + hunter item"
 drop_level = 0
 notes = "todo"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Broken Promises"
 reward = "Two-implicit synthesised item level 87 Normal Diamond Ring"
 drop_level = 80
 notes = "Eater of Souls, Tolman the Exhumer"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Imperfect Memories"
 reward = "Random three-implicit synthesised item level 100 rare jewellery"
 drop_level = 80
 notes = "Venarius (Synth Cortex Map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Magnum Opus"
 reward = "Three-Implicit Synthesised Normal level 100 Item"
 drop_level = 80
 notes = "Altered Distant Memory • Augmented Distant Memory • Twisted Distant Memory • Rewritten Distant Memory"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "More is Never Enough"
 reward = "?"
 drop_level = 0
 notes = "CURRENTLY DISABLED"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Matryoshka"
 reward = "rare onyx amulet Item Level: 85 Quality: +20% Influenced Item Four Anointments Incubating Talisman Item Corrupted"
 drop_level = 68
 notes = "Unravelling Horror"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "Monochrome"
 reward = "Sextants, which don't crop after 234"
 drop_level = 0
 notes = "CURRENTLY DISABLED"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Prometheus' Armoury"
 reward = "yellow double influenced 1hand weap"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Rebirth and Renewal"
 reward = "?"
 drop_level = 0
 notes = "CURRENTLY DISABLED"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Sacrifice"
 reward = "white 6link Sacrificial garb"
 drop_level = 80
 notes = "The Temple of Atzoatl"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Shortcut"
 reward = "Quicksilver Flask of the Cheetah Item Level: 100 (12-14% movement)"
 drop_level = 80
 notes = "Trial of Stinging Doubt • Trial of Burning Rage • Trial of Lingering Pain • Trial of Crippling Grief • Trial of Piercing Truth • Trial of Swirling Fear. Drops in Vaal side areas and Labyrinth Trial areas of area level 80+."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "Underground Forest"
 reward = "Sextants, which don't crop after 234"
 drop_level = 0
 notes = "CURRENTLY DISABLED"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Void of the Elements"
 reward = "blue shaper opal ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Who Asked"
 reward = "Dictator's Weapon Item Level: 83 Fractured - (% physical damage and accuracy rating)"
 drop_level = 80
 notes = "Fortress Map • Foundry Map • Forge of the Phoenix Map • Silo Map May drop from other Forge_Area tag maps"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Items: Mix
@@ -1351,64 +1351,64 @@ name = "Draped in Dreams"
 reward = "blue 6link astral plate influenced"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Duality"
 reward = "blue double influenced body armour"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Dying Light"
 reward = "yellow shaper + elder diamond ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Further Invention"
 reward = "blue double influenced helmet"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Nook's Crown"
 reward = "Elder influenced item level 100 Rare Bone Helmet"
 drop_level = 0
 notes = "Catarina Master of Undeath (Investigation boss)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Aspirant"
 reward = "blue enchanged and influenced item"
 drop_level = 0
 notes = "Harvest boss"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Awakened"
 reward = "yellow double influenced jewelery"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Celestial Stone"
 reward = "opal ring shaper"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Items: Gamble
@@ -1419,32 +1419,32 @@ name = "A Dusty Memory"
 reward = "yellow item fractured"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Bijoux"
 reward = "yellow cluster jewel"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Void"
 reward = "random card"
 drop_level = 23
 notes = "Abomination Map • Citadel Map • Fortress Map • Sanctuary Map • Ziggurat Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Gambler"
 reward = "divination card"
 drop_level = 0
 notes = "todo"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 ####################################################################################################
@@ -1456,16 +1456,16 @@ name = "Emperor of Purity"
 reward = "white 6link holy chainmail (good for righteous fire)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Enforcer"
 reward = "blue spiked gloves Warlord (physical)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Unique: Hidden Unless SSF
@@ -1476,24 +1476,24 @@ name = "Immortal Resolve"
 reward = "blue 6link body armour - influenced"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Celestial Justicar"
 reward = "magic 6link astral plate"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Undisputed"
 reward = "blue merciless vaal axe - elder"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Items: Fishing related cards which are mostly hidden by default
@@ -1503,48 +1503,48 @@ name = "Baited Expectations"
 reward = "fishing item unique"
 drop_level = 23
 notes = "Desert Map • Desert Spring Map • Dry Sea Map • Dunes Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Catch"
 reward = "fish rod"
 drop_level = 68
 notes = "Atoll Map • Maelström of Chaos • Beach Map • Coves Map • Peninsula Map • Plateau Map • Reef Map • Shipyard Map • Shore Map • Strand Map • Tropical Island Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Fishmonger"
 reward = "albino rhoa feather"
 drop_level = 23
 notes = "Drought-Maddened Rhoa Skullbeak"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Vast"
 reward = "Song of the Sirens Fishing Rod"
 drop_level = 23
 notes = "Coral Ruins Map • Coves Map • Reef Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Old Man"
 reward = "yellow fishing rod"
 drop_level = 54
 notes = "Atoll Map • Lighthouse Map • Peninsula Map • Pier Map • Shore Map • Strand Map • Tropical Island Map • Wharf Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The One That Got Away"
 reward = "Replica Bated Breath Chain Belt"
 drop_level = 78
 notes = "Strand Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Items: Hidden
@@ -1555,376 +1555,376 @@ name = "Astral Protection"
 reward = "blue shaper shield"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Call to the First Ones"
 reward = "yellow corrupt tier 1 talisman"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Destined to Crumble"
 reward = "yellow body armour"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Eldritch Perfection"
 reward = "blue item perfect eldrict mod"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Lantador's Lost Love"
 reward = "yellow two-stone ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Lachrymal Necrosis"
 reward = "Corrupted yellow Jewel Implicit Modifier: Corrupted Blood cannot be inflicted on you"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Merciless Armament"
 reward = "blue merciless 2h weap"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Perfection"
 reward = "yellow shaper jewellery"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Prosperity"
 reward = "blue perandus gold ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Shard of Fate"
 reward = "blue vivid hewel"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Soul Quenched"
 reward = "yellow two-handed experimental weapon"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Struck by Lightning"
 reward = "blue lightning jewelery"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Archmage's Right Hand"
 reward = "blue glyphic wand"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Bear Woman"
 reward = "blue warlod ursine pelt hat"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Brawny Battle Mage"
 reward = "blue tornado wand"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Carrion Crow"
 reward = "blue armour"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Chains that Bind"
 reward = "normal 6link body armour"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Dapper Prodigy"
 reward = "6 blue link body"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Dark Mage"
 reward = "6link staff"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Endurance"
 reward = "blue crimson gem"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Ethereal"
 reward = "white 6link vaal regalia white"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Flora's Gift"
 reward = "white 5link staff"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Golden Era"
 reward = "blue staff"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Hale Heart"
 reward = "yellow elder Item"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Inoculated"
 reward = "blue armour"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Jester"
 reward = "blue merc 1h weap"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Jeweller's Boon"
 reward = " 5link body influence"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Journalist"
 reward = "blue double veiled item"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The King's Blade"
 reward = "blue bloodthirsty eternal sword"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Lord in Black"
 reward = "blue ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Lord of Celebration"
 reward = "blue shaper sceptre of shit"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Lover"
 reward = "yellow jewelery"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Metalsmith's Gift"
 reward = "white prismatic ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Mountain"
 reward = "blue jewel of potency"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Opulent"
 reward = "yellow ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Rabid Rhoa"
 reward = "blue claw"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Road to Power"
 reward = "blue runic 1h weap"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Sigil"
 reward = "blue amulet"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Spoiled Prince"
 reward = "blue wand"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Surgeon"
 reward = "blue surgeon flask"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Tumbleweed"
 reward = "blue diamond ring - redeemer item"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Twins"
 reward = "blue claw"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Tyrant"
 reward = "blue merciless item"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Warden"
 reward = "yellow amulet Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Warlord"
 reward = "six link 2handed maul"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Web"
 reward = "blue weap"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The White Knight"
 reward = "Normal Six-Link Astral Plate Item Level: 100 Crusader Item"
 drop_level = 0
 notes = "Trial of Stinging Doubt"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 
@@ -1941,8 +1941,8 @@ name = "Terrible Secret of Space"
 reward = "level 21 trans golem gem Corrupted"
 drop_level = 72
 notes = "Avatar of Undoing, Calderus, Fragment of Winter, Guardian of the Vault, Pirate Treasure, Stone of the Currents, Telvar, the Inebriated, The Eroding One, Titan of the Grove, Void Anomaly"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Minion: Mix
@@ -1956,16 +1956,16 @@ name = "A Stone Perfected"
 reward = "Jewel Primordial Corrupted (golem)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Primordial"
 reward = "primordial jewel (golem) (golem)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Minion: Hidden Unless SSF
@@ -1975,40 +1975,40 @@ name = "Dark Dreams"
 reward = "Elder influenced Bone Helmet"
 drop_level = 80
 notes = "Minara Anemina"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Death"
 reward = "Mon'tregul's Grasp Void Sceptre"
 drop_level = 51
 notes = "Abomination Map • Bog Map • Marshes Map • Mud Geyser Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Craving"
 reward = "Unending Hunger Cobalt Jewel"
 drop_level = 23
 notes = "Infector of Dreams, Rose, The Bone Sculptor, Thorn, Xixic High Necromancer"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Darkest Dream"
 reward = "corrupted Severed in Sleep Cutlass"
 drop_level = 80
 notes = "Whakawairua Tuahu"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Lich"
 reward = "Midnight Bargain Engraved Wand (minion)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 
@@ -2021,64 +2021,64 @@ name = "Grave Knowledge"
 reward = "+20% quality Summon Raging Spirit"
 drop_level = 23
 notes = "The Catacombs • The Ossuary (Act 5) • The Ossuary (Act 10) • The Crypt (Act 7) • Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Necropolis Map • Sanctuary Map • Ziggurat Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Keeper's Corruption"
 reward = "blue eldricth bone helm - elder but found in breach realm"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Army of Blood"
 reward = "Bloodbond chest"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Bones"
 reward = "Corrupted Level 21 Vaal Summon Skeletons"
 drop_level = 72
 notes = "Minara Anemina"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Forsaken"
 reward = "Umbilicus Immortalis Leather Belt (heals zombies shit)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Rite of Elements"
 reward = "lvl 21 golem gem Corrupted (golem)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Skeleton"
 reward = "q23 summon skeleton Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Summoner"
 reward = "20% minion gem"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 ####################################################################################################
@@ -2089,8 +2089,8 @@ name = "Beauty Through Death"
 reward = "Atziri's Reflection Golden Buckler"
 drop_level = 56
 notes = "K'aj A'alai, K'aj Q'ura, K'aj Y'ara'az (corrupt vaal temple)"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 
@@ -2099,120 +2099,120 @@ name = "Divine Justice"
 reward = "Grand Spectrum jewel Corrupted"
 drop_level = 56
 notes = "Armourer's Strongbox"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "Fire Of Unknown Origin"
 reward = "Nimis Topaz Ring"
 drop_level = 81
 notes = "Academy, Residence"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "Love Through Ice"
 reward = "Two-Implicit Corrupted Unnatural Instinct Viridian Jewel - (Allocated Small Passive Skills in Radius grant nothing Grants all bonuses of Unallocated Small Passive Skills in Radius) can be excellent with the parandus pact"
 drop_level = 54
 notes = "Veritania, The Redeemer (conquerer)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "Luminous Trove"
 reward = "Voices Large Cluster Jewel Corrupted"
 drop_level = 68
 notes = "Aul, the Crystal King"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "Succor of the Sinless"
 reward = "Bottled Faith Sulphur Flask"
 drop_level = 79
 notes = "Sanctuary (t17map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Apothecary"
 reward = "Mageblood Heavy Belt"
 drop_level = 75
 notes = "Crimson Temple Map • Crimson Township Map • Defiled Cathedral Map • Haunted Mansion Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Demon"
 reward = "Headhunter Leather Belt Two-Implicit Corrupted"
 drop_level = 68
 notes = "Lord of the Grey (Belfry Map), Megaera (Crater Map), The Destroyer's Heart (Lava Lake Map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Dragon's Heart"
 reward = "Level 4 Empower Corrupted"
 drop_level = 78
 notes = "Fortress (t17map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Doctor"
 reward = "Headhunter Leather Belt"
 drop_level = 68
 notes = "Abomination Map • Burial Chambers Map • The Putrid Cloister • Phantasmagoria Map • Sepulchre Map • Spider Forest Map • Waste Pool Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Endless Darkness"
 reward = "Voidforge Infernal Sword"
 drop_level = 81
 notes = "The Beachhead, Beachhead (unique harbringer maps), Delve. Harbinger Portals in Kirac's Memory of Phaaryl."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Gulf"
 reward = "Thread of Hope crimson Jewel Two-Implicit Corrupted"
 drop_level = 86
 notes = "Uber Elder only (Passives in Radius can be Allocated without being connected to your tree)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Insane Cat"
 reward = "Mageblood Heavy Belt corrupted"
 drop_level = 68
 notes = "Drops from Omniphobia and Kosis in map areas affected by Delirium."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Price of Devotion"
 reward = "Mageblood Heavy Belt Quality +20% Two-Implicit Corrupted"
 drop_level = 75
 notes = "Uber Atziri."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Progeny of Lunaris"
 reward = "Dying Sun Ruby Flask"
 drop_level = 81
 notes = "Helial, the Day Unending (The Twilight Temple Moon Temple Map), Khor, Sister of Shadows (Cold River Map), Sebbert, Crescent's Point (Moon Temple Map), Selenia, the Endless Night (The Twilight Temple Moon Temple Map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[valuable]]
 name = "The Samurai's Eye"
 reward = "Watcher's Eye Prismatic Jewel"
 drop_level = 81
 notes = "Ziggurat Map (t17map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Unique: All Season
@@ -2222,176 +2222,176 @@ name = "Azyran's Reward"
 reward = "Prismatic Jewel Corrupted (can drop watcher)"
 drop_level = 68
 notes = "Laboratory Map • Relic Chambers Map • Stagnation Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Chasing Risk"
 reward = "Synthesis Item (can drop bottled faith)"
 drop_level = 81
 notes = "Drops from the Vaal Omnitect in areas of level 79 or greater."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Deadly Joy"
 reward = "two-implicit corrupted The Torrent's Reclamation Cloth Belt"
 drop_level = 68
 notes = "Poorjoy's Asylum"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Judging Voices"
 reward = "Forbidden Shako Great Crown"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "Remembrance"
 reward = "Precursor's Emblem (ring) Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Astromancer"
 reward = "two-implicit corrupted The Eternity Shroud Blood Raiment"
 drop_level = 81
 notes = "Corpse Stitcher (heist lab thing)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Chosen"
 reward = "Skin of the Lords Simple Robe"
 drop_level = 80
 notes = "Breach encounters such as in Clasped Hand"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Destination"
 reward = "Watcher's Eye Prismatic Jewel Two-Implicit Corrupted"
 drop_level = 81
 notes = "Beach Map • Channel Map • Shore Map • Fungal Hollow Map • Tropical Island Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "The Eternal War"
 reward = "Timeless Jewel Two-Implicit Corrupted"
 drop_level = 68
 notes = "Al-Hezmin The Hunter, Baran The Crusader, Drox The Warlord, Veritania The Redeemer"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Fiend"
 reward = "Headhunter Leather Belt Corrupted"
 drop_level = 68
 notes = "Foundry Map • Laboratory Map • Shrine Map • Poorjoy's Asylum"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Greatest Intentions"
 reward = "The Saviour Legion Sword Two-Implicit Corrupted"
 drop_level = 81
 notes = "Maven's Invitation: The Feared (shaper)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "The Hunger"
 reward = "Taste of Hate Sapphire Flask"
 drop_level = 38
 notes = "The Belly of the Beast Level 1 • The Belly of the Beast Level 2 • The Harvest (area) • The Belly of the Beast (Act 9) • The Rotting Core • Abomination Map • Carcass Map • Core Map • Malformation Map • Phantasmagoria Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Last One Standing"
 reward = "Atziri's Disfavour Vaal Axe"
 drop_level = 80
 notes = "Arena, Colosseum, Pit, Pit of the Chimera"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Mad King"
 reward = "Vaal Aspect (drops from vaal bosses, can be combined to The Adorned Crimson Jewel - (50-150)% increased Effect of Jewel Socket Passive Skills containing Corrupted Magic Jewels"
 drop_level = 68
 notes = "Caldera Map • Colosseum Map • Dark Forest Map • Reef Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Nurse"
 reward = "The Doctor"
 drop_level = 30
 notes = "Abomination, Carcass, Cells, Core, Scriptorium, Shavronne's Tower, The Harvest, The Rotting Core, Tower"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "The Patient"
 reward = "the nurse"
 drop_level = 68
 notes = "Armoury Map • Arsenal Map • Colonnade Map • Promenade Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Price of Loyalty"
 reward = "Skin of the Loyal Simple Robe (Two-Implicit Corrupted)"
 drop_level = 79
 notes = "Zilquapa, Architect of the Breach"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Prince of Darkness"
 reward = "Elegant Hubris Timeless Jewel"
 drop_level = 68
 notes = "Eater of Souls Nightmare's Omen"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Shieldbearer"
 reward = "The Squire Elegant Round Shield"
 drop_level = 70
 notes = "Citadel Map (t17map)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The Soul"
 reward = "Soul Taker Siege Axe"
 drop_level = 68
 notes = "Cells Map • Core Map • Museum Map • Overgrown Shrine Map • Phantasmagoria Map • Sepulchre Map • Tower Map • Waste Pool Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[all_season]]
 name = "The World Eater"
 reward = "Starforge Infernal Sword"
 drop_level = 83
 notes = "Ghorr, the Grasping Maw"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Winter's Embrace"
 reward = "Three-implicit synthesised Circle of Fear Sapphire Ring"
 drop_level = 68
 notes = "doesn't drop, only from gamble cards"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 ####################################################################################################
@@ -2403,24 +2403,24 @@ name = "A Modest Request"
 reward = "Megalomaniac Medium Cluster Jewel Corrupted"
 drop_level = 68
 notes = "Eater of Souls Nightmare's Omen The Hallowed Husk The High Templar"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Assassin's Gift"
 reward = "Divinarius Imperial Skean Two-Implicit Corrupted"
 drop_level = 68
 notes = "doesn't drop, only from gamble cards"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Brotherhood in Exile"
 reward = "One With Nothing Small Cluster Jewel (Adds Hollow Palm Technique)"
 drop_level = 68
 notes = "Chateau Map • Conservatory Map • Orchard Map • Plaza Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 
@@ -2429,48 +2429,48 @@ name = "Misery in Darkness"
 reward = "Shroud of the Lightless Carnal Armour (abyss)"
 drop_level = 68
 notes = "Kurgal, the Blackblooded (delve boss)"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Pride of the First Ones"
 reward = "Farrul's Fur Triumphant Lamellar"
 drop_level = 80
 notes = "Barrows Map • Grotto Map • Lair Map • Caer Blaidd, Wolfpack's Den"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Coming Storm"
 reward = "Lightning Coil Desert Brigandine"
 drop_level = 45
 notes = "Cemetery Map • Colonnade Map • Graveyard Map • Infested Valley Map • Leyline Map • Promenade Map • Shipyard Map • Stagnation Map • Villa Map • Wharf Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Damned"
 reward = "Soul Ripper Quartz Flask"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Escape"
 reward = "Seven-League Step Rawhide Boots"
 drop_level = 56
 notes = "Drops from Breachlords in Breachstones."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Leviathan"
 reward = "Maven Item Two-Implicit Corrupted - 81+ Maelström of Chaos Atoll Map (rf boots)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Unique: Gamble
@@ -2481,344 +2481,344 @@ name = "Akil's Prophecy"
 reward = "elegant round shield Two-Implicit Corrupted (squire chance)"
 drop_level = 70
 notes = "Alva's"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Alone in the Darkness"
 reward = "unique delve item"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Arrogance of the Vaal"
 reward = "unique item Two-Implicit Corrupted"
 drop_level = 54
 notes = "Ancient City Map • Sunken City Map • Vaal Pyramid Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Assassin's Favour"
 reward = "dagger"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Atziri's Arsenal"
 reward = "weapon Corrupted"
 drop_level = 23
 notes = "Vaults of Atziri"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Blind Venture"
 reward = "ring Corrupted"
 drop_level = 23
 notes = "The Reliquary (Act 5) • The Reliquary (Act 10) • Museum Map • Relic Chambers Map • Sanctuary Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Boon of the First Ones"
 reward = "Bestiary Item"
 drop_level = 72
 notes = "Pit of the Chimera Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Costly Curio"
 reward = "double influenced unique"
 drop_level = 80
 notes = "Museum Map • Relic Chambers Map • Sanctuary Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Council of Cats"
 reward = "farrul item (often expensive)"
 drop_level = 80
 notes = "Al-Hezmin The Hunter"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Doedre's Madness"
 reward = "Doedre Item"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Earth Drinker"
 reward = "granite flask"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Fateful Meeting"
 reward = "League-Specific Item Double-Influenced Item Item Level: 97 Two-Implicit Corrupted"
 drop_level = 80
 notes = "Drops from Vaal Flesh Merchant, a monster which appears in Alva's temporal incursions if you have the atlas passive skill Vaal Oligarchs allocated."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Glimmer of Hope"
 reward = "gold ring"
 drop_level = 38
 notes = "The Cavern of Anger (Act 6) • Flooded Mine Map • Mineral Pools Map • Underground Sea Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "Haunting Shadows"
 reward = "Metamorph Item"
 drop_level = 68
 notes = "The Twilight Temple Unique Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Heterochromia"
 reward = "two-stone ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Hope"
 reward = "prismatic ring Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Hubris"
 reward = "Ring (can drop kalandras ring)"
 drop_level = 23
 notes = "Can drop from Jeweller's Strongboxes."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Jack in the Box"
 reward = "item"
 drop_level = 23
 notes = "The City of Sarn • The Ebony Barracks • The Slums • The Marketplace • The Battlefront • The Docks • The Sarn Ramparts • The Solaris Concourse • The Harbour Bridge • The Grand Promenade • The Lunaris Concourse • The Quay • The Grain Gate • Arsenal Map • Colonnade Map • Ghetto Map • Port Map • Precinct Map • Promenade Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Light and Truth"
 reward = "unique crystal sceptre"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Lysah's Respite"
 reward = "agate amulet Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Mitts"
 reward = "gloves"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Peaceful Moments"
 reward = "Timeless Jewel"
 drop_level = 68
 notes = "Courtyard Map • Gardens Map • Orchard Map • Terrace Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Prejudice"
 reward = "item - influenced"
 drop_level = 80
 notes = "This card drops in Redeemer-influenced maps. Other sources of divination card, such as Legion encounter with divination card reward type, can bypass this restriction."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "Sambodhi's Wisdom"
 reward = "q30 armour"
 drop_level = 58
 notes = "Dunes Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Aesthete"
 reward = "shavronne item"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Admirer"
 reward = "atziri item (can drop disvaoir ad others)"
 drop_level = 70
 notes = "Ancient City Map • Maze Map • Doryani's Machinarium • Vaal Pyramid Map • Vaults of Atziri • Vaal Temple Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Battle Born"
 reward = "unique axe (can drop soultaker)"
 drop_level = 23
 notes = "Kaom's Dream • Kaom's Stronghold • Caldera Map • Volcano Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Body"
 reward = "unique body armour"
 drop_level = 23
 notes = "Can drop from an Armourer's Strongbox."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Breach"
 reward = "unique breach item"
 drop_level = 68
 notes = "Drops from Null Portals that spawn in Elder-Influenced maps."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Cache"
 reward = "unique jewellery (good but not top)"
 drop_level = 23
 notes = "Maelström of Chaos • Mineral Pools Map • Underground Sea Map • Vaults of Atziri • Vault Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Calling"
 reward = "unique beyond item"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Dragon"
 reward = "unique coruscating elixir"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "The Dreamer"
 reward = "Chayula Item"
 drop_level = 68
 notes = "Agent of the Void"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Drunken Aristocrat"
 reward = "Divination Distillate Large Hybrid Flask"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "The Dungeon Master"
 reward = "BeltDouble-Influenced Item (can bemageblood headhunter)"
 drop_level = 68
 notes = "Cage Map • Cells Map • Dungeon Map • Pen Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "The Eye of the Dragon"
 reward = "jewel Corrupted (not most expensive, but ok)"
 drop_level = 23
 notes = "The Boiling Lake • Forge of the Phoenix Map • Sulphur Vents Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Forgotten Treasure"
 reward = "Leather Belt Double-Influenced (can be headhunter)"
 drop_level = 80
 notes = "Temple Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Forward Gaze"
 reward = "Unique Replica Item"
 drop_level = 50
 notes = "Doryani's Machinarium"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Gentleman"
 reward = "unique sword Corrupted (Rakiata's Dance)"
 drop_level = 23
 notes = "The Slums • The Sarn Ramparts • The Grain Gate • Ghetto Map • Precinct Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Gladiator"
 reward = "unique nightmare bascinet"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "The Garish Power"
 reward = "unique jewel"
 drop_level = 23
 notes = "The Chamber of Sins Level 1 (Act 7) • The Chamber of Sins Level 2 (Act 7) • Overgrown Ruin Map • Overgrown Shrine Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Life Thief"
 reward = "Zerphi's Heart Paua Amulet"
 drop_level = 68
 notes = "Alleyways Map • City Square Map • Crimson Temple Map • Defiled Cathedral Map • Haunted Mansion Map • Lookout Map • Silo Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Lion"
 reward = "lioneye item"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 
@@ -2827,120 +2827,120 @@ name = "The Mercenary"
 reward = "unique shield Corrupted (squire chance)"
 drop_level = 23
 notes = "The Broken Bridge (Act 7) • Castle Ruins Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "The Messenger"
 reward = "harbringer piece"
 drop_level = 68
 notes = "Crystal Ore Map • Port Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Penitent"
 reward = "unique unset ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "The Risk"
 reward = "Ventor's Gamble gold ring"
 drop_level = 49
 notes = "The Risk can drop from the following loot containers: Diviner's Strongbox Izaro's Treasure in the Endgame Labyrinth"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Shepherd's Sandals"
 reward = "unique boots Two-Implicit Corrupted (can be Ralakesh's)"
 drop_level = 80
 notes = "Barrows Map • Grotto Map • Lair Map • Caer Blaidd, Wolfpack's Den"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Standoff"
 reward = "unique rustich sash"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Tower"
 reward = "unique staff"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Traitor"
 reward = "unique wand Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Unexpected Prize"
 reward = "Attribute Transforming Jewel Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Undaunted"
 reward = "nemesis item Corrupted (can drop headhunter)"
 drop_level = 23
 notes = "Courthouse Map • Precinct Map • Whakawairua Tuahu"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Valkyrie"
 reward = "nemesis item (can drop headhunter)"
 drop_level = 23
 notes = "Drops from female Rogue Exiles."
-hide_card = true
 top_card = true
+hide_card = true
 
 [[favorite]]
 name = "The Wretched"
 reward = "belt (can drop mageblood and headhunter)"
 drop_level = 68
 notes = "Bone Crypt Map • Citadel Map • Cursed Crypt Map • The Coward's Trial • Necropolis Map • Acton's Nightmare • Ziggurat Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Wolf"
 reward = "rigwald item (cleave weaps)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Wolverine"
 reward = "unique claw"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[gamble]]
 name = "Time-Lost Relic"
 reward = "unique league specific item (Can drop headhunter)"
 drop_level = 68
 notes = "Battleground Graves • Bluffs • Cemetery • Desert Ruins • Dried Riverbed • Forest Ruins • Karui Wargraves • Mountainside • Rotting Temple • Sarn Slums • Scrublands • Shipwreck Reef • Utzaal Outskirts • Vaal Temple • Volcanic Island • Crystal Ore Map • Dig Map • Excavation Map • Flooded Mine Map • Geode Map • Grotto Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 
@@ -2957,160 +2957,160 @@ name = "A Dab of Ink"
 reward = "Poets pen"
 drop_level = 23
 notes = "The Library • Academy Map • Museum Map • Scriptorium Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Alivia's Grace"
 reward = "queen of the forest"
 drop_level = 0
 notes = "todo"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Broken Truce"
 reward = "Cold Iron Point Ezomyte Dagger"
 drop_level = 62
 notes = "Thane Jorgin"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Desperate Crusade"
 reward = "Prism Guardian Archon Kite Shield"
 drop_level = 68
 notes = "Basilica Map • Residence Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Gift of Asenath"
 reward = "two-implicit corrupted Asenath's Gentle Touch Silk Gloves"
 drop_level = 68
 notes = "Crystal Ore Map • Dig Map • Excavation Map • Flooded Mine Map • Geode Map • Grotto Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Hunter's Reward"
 reward = "The Taming Prismatic Ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Silence and Frost"
 reward = "The Pandemonius Jade Amulet"
 drop_level = 70
 notes = "Farrul, First of the Plains"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Avenger"
 reward = "møljner Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Beast"
 reward = "belly of the beast"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Incantation"
 reward = "The whispering ice"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Insatiable"
 reward = "The harvest sycthe Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Last Supper"
 reward = "Bino's Kitchen Knife Slaughter Knife"
 drop_level = 58
 notes = "Poorjoy's Asylum"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Mind's Eyes"
 reward = "Astral Projector Topaz Ring"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Offering"
 reward = "Shavronne's Wrappings Occultist's Vestment"
 drop_level = 47
 notes = "Bazur Gisale, Thought Thief Prodigy of Darkness Reassembled Brutus Shavronne the Sickening Shavronne, Unbound"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Pack Leader"
 reward = "Alpha's Howl Sinner Tricorne"
 drop_level = 48
 notes = "Ashen Wood Map • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map • Jungle Valley Map • Lair Map • Ramparts Map • Spider Forest Map • Stagnation Map • Thicket Map • Tropical Island Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Polymath"
 reward = "Astramentis Onyx Amulet"
 drop_level = 23
 notes = "The Reliquary (Act 5) • The Reliquary (Act 10) • Museum Map • Relic Chambers Map • Sanctuary Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Scavenger"
 reward = "carcass jack"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Siren"
 reward = "The whispering ice Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Spark and the Flame"
 reward = "bereks respite two stone ring"
 drop_level = 23
 notes = "Atoll Map • Plateau Map • Siege Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Sun"
 reward = "Rise of the Phoenix Mosaic Kite Shield"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Unique: Hidden Unless SSF
@@ -3121,24 +3121,24 @@ name = "Humility"
 reward = "Tabula Rasa"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Stormcaller"
 reward = "angerod staff"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Vanity"
 reward = "tabula Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 ####################################################################################################
 ########## Unique: Hidden
@@ -3148,306 +3148,298 @@ name = "A Mother's Parting Gift"
 reward = "Fertile Mind Cobalt Jewel Corrupted (dex to int)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Audacity"
 reward = " doryanas fist Corrupted"
 drop_level = 0
 notes = "todo"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Burning Blood"
 reward = "corrupted Xoph's Blood Amber Amulet"
 drop_level = 70
 notes = "Forge of the Phoenix Lava Chamber"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Cursed Words"
 reward = "Maw of Mischief (Bex minion)"
 drop_level = 0
 notes = "todo"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Dark Temptation"
 reward = "Obliteration Imbued Wand"
 drop_level = 0
 notes = "todo"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Echoes of Love"
 reward = "fidelita's spike Two-Implicit Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Forbidden Power"
 reward = " Balefire Opal Sceptre Corrupted (scorcing ray)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "From Bone to Ashes"
 reward = "Ngamahu's Flame Abyssal Axe Two-Implicit Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Lethean Temptation"
 reward = "Nebulis Void Sceptre"
 drop_level = 0
 notes = "Only from gamble cards"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Might is Right"
 reward = "Trypanon Great Mallet"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Pride Before the Fall"
 reward = "kaoms heart Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Poisoned Faith"
 reward = "arakalis fang Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Rats"
 reward = "rats nest"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Rebirth"
 reward = "Charans sword"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Reckless Ambition"
 reward = "Omeyocan Carnal Boots"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Adventuring Spirit"
 reward = "Victario's Influence Lacquered Garb"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Academic"
 reward = "Inspired Learning Crimson Jewel - (With 4 Notables Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds)"
 drop_level = 38
 notes = "Academy Map • Museum Map • Scriptorium Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Betrayal"
 reward = "Maligaro's Virtuosity Deerskin Gloves"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Blazing Fire"
 reward = "Chin Sol Assassin"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
-
-
+hide_card = true
 
 [[hide]]
 name = "The Conduit"
 reward = "doryana's fist"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
-[[hide]]
-name = "The Cursed King"
-reward = "Rigwald's Curse Wereclaw Talisman"
-drop_level = 0
-notes = "TODO"
-hide_card = true
-top_card = true
+
 
 [[hide]]
 name = "The Deceiver"
 reward = "belt of the deciever Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Deep Ones"
 reward = "tidebreaker maul"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Demoness"
 reward = "Death's Hand - Karui Sceptre"
 drop_level = 74
 notes = "The Northern Forest (Act 7) • Bramble Valley Map • Dark Forest Map • Forbidden Woods Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Enthusiasts"
 reward = "Victario's Influence Lacquered Garb Two-Implicit Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Fathomless Depths"
 reward = "Lightpoacher - abyss hat"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Feast"
 reward = "Romira's Banquet Diamond Ring Corrupted (power charge)"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Formless Sea"
 reward = "varunastra sword"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Fox in the Brambles"
 reward = "bramble jack chest Two-Implicit Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Harvester"
 reward = "The harvest sycthe"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Hermit"
 reward = "lifesprig wand"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Hive of Knowledge"
 reward = "mechina mitts Two-Implicit Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The King's Heart"
 reward = "kaom's heart"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Lunaris Priestess"
 reward = "sire of shards staff"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[good]]
 name = "The Oath"
 reward = "Death's Oath Astral Plate"
 drop_level = 47
 notes = "The Belly of the Beast (Act 9) • The Rotting Core • Abomination Map • Carcass Map • Core Map • Malformation Map • Phantasmagoria Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Offspring"
 reward = "Ryslatha's Coil belt"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The One With All"
 reward = "le heup of all Corruptedt"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Pact"
 reward = "pledge of hands staff"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 
@@ -3457,32 +3449,32 @@ name = "The Queen"
 reward = "Atziri's Acuity Vaal Gauntlets"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Ruthless Ceinture"
 reward = "meginord's girdle Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Scarred Meadow"
 reward = "Wake of Destruction Mesh Boots"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Strategist"
 reward = "Corrupted Inspired Learning Crimson Jewel - (With 4 Notables Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds)"
 drop_level = 0
 notes = "Drox The Warlord"
-hide_card = true
 top_card = true
+hide_card = true
 
 
 
@@ -3491,93 +3483,93 @@ name = "The Thaumaturgist"
 reward = "Shavronne's Revelation Moonstone Ring Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Throne"
 reward = "Kaom's Roots boots"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Visionary"
 reward = "Lioneye's Vision - chest"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Watcher"
 reward = "crown of eyes hat"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Wedding Gift"
 reward = "Arakaali's Fang Fiend Dagger"
 drop_level = 52
 notes = "Overgrown Ruin Map • Sunken City Map"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Whiteout"
 reward = "Cospri's Malice 1h sword foil"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Witch"
 reward = "Kiara's Determination Silver Flask"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Wolf's Shadow"
 reward = "Hyaon's Fury Legion Sword"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Thirst for Knowledge"
 reward = "Gluttony Leather Belt"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Turn the Other Cheek"
 reward = "Pacifism Viridian Jewel (-1 frenzy charge"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "The Wolven King's Bite"
 reward = "rigwalds quills quiver"
 drop_level = 0
 notes = "todo"
-hide_card = true
 top_card = true
+hide_card = true
 
 [[hide]]
 name = "Unchained"
 reward = "facebreaker Two-Implicit Corrupted"
 drop_level = 0
 notes = "TODO"
-hide_card = true
 top_card = true
+hide_card = true

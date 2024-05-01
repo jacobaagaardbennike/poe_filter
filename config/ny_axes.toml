@@ -1,634 +1,824 @@
+
+# [[axes]]
+# class = "One Hand Axes" | class = "Two Hand Axes"
+# base_type = "STRING"
+# lvl_required = INTEGER
+# str_required = INTEGER
+# dex_required = INTEGER
+# damage = "STRING"
+# critical_chance = "STRING"
+# aps = DECIMAL
+# dps = DECIMAL
+# implicit_mod = "STRING"
+# notes = "STRING"
+# unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
+# [[axes.uniques]]
+# name = "STRING"
+# restricted_drop = BOOL
+# notes = "STRING"
+# valuable = BOOL
+# usage = "CHANGE"
+# is_collectable = BOOL
+
+# [[axes.uniques.cards]]
+# name = "STRING"
+# reward = "STRING"
+# drop_level = INTEGER
+# notes = "STRING"
+# top_card = BOOL
+# hide_card = BOOL
+
+
 ####################################################################################################
 ########## Axes
 ####################################################################################################
-[axes]
-[axes.rusted_hatchet]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Rusted Hatchet"
-lvl_required = "1"
-str_required = "12"
-dex_required = "6"
+lvl_required = 1
+str_required = 12
+dex_required = 6
 damage = "6-11"
 critical_chance = "5.00%"
-aps = "1.5"
-dps = "12.7"
+aps = 1.5
+dps = 12.7
 implicit_mod = "+10 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.jade_hatchet]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Jade Hatchet"
-lvl_required = "6"
-str_required = "21"
-dex_required = "10"
+lvl_required = 6
+str_required = 21
+dex_required = 10
 damage = "10-15"
 critical_chance = "5.00%"
-aps = "1.45"
-dps = "18.1"
+aps = 1.45
+dps = 18.1
 implicit_mod = "+10 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.boarding_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Boarding Axe"
-lvl_required = "11"
-str_required = "28"
-dex_required = "19"
+lvl_required = 11
+str_required = 28
+dex_required = 19
 damage = "11-21"
 critical_chance = "5.00%"
-aps = "1.5"
-dps = "24"
+aps = 1.5
+dps = 24
 implicit_mod = "+10 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.cleaver]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Cleaver"
-lvl_required = "16"
-str_required = "48"
-dex_required = "14"
+lvl_required = 16
+str_required = 48
+dex_required = 14
 damage = "12-35"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "30.6"
+aps = 1.3
+dps = 30.6
 implicit_mod = "+10 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.broad_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Broad Axe"
-lvl_required = "21"
-str_required = "54"
-dex_required = "25"
+lvl_required = 21
+str_required = 54
+dex_required = 25
 damage = "19-34"
 critical_chance = "5.00%"
-aps = "1.35"
-dps = "35.8"
+aps = 1.35
+dps = 35.8
 implicit_mod = "+10 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.arming_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Arming Axe"
-lvl_required = "25"
-str_required = "58"
-dex_required = "33"
+lvl_required = 25
+str_required = 58
+dex_required = 33
 damage = "14-42"
 critical_chance = "5.00%"
-aps = "1.4"
-dps = "39.2"
+aps = 1.4
+dps = 39.2
 implicit_mod = "+10 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.decorative_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Decorative Axe"
-lvl_required = "29"
-str_required = "80"
-dex_required = "23"
+lvl_required = 29
+str_required = 80
+dex_required = 23
 damage = "27-50"
 critical_chance = "5.00%"
-aps = "1.2"
-dps = "46.2"
+aps = 1.2
+dps = 46.2
 implicit_mod = "+10 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.maltreatment_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Maltreatment Axe"
-lvl_required = "30"
-str_required = "78"
-dex_required = "34"
+lvl_required = 30
+str_required = 78
+dex_required = 34
 damage = "19-39"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "37.7"
+aps = 1.3
+dps = 37.7
 implicit_mod = "+10 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.spectral_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Spectral Axe"
-lvl_required = "33"
-str_required = "85"
-dex_required = "37"
+lvl_required = 33
+str_required = 85
+dex_required = 37
 damage = "29-48"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "50.1"
+aps = 1.3
+dps = 50.1
 implicit_mod = "8% increased Global Physical Damage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.etched_hatchet]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Etched Hatchet"
-lvl_required = "35"
-str_required = "93"
-dex_required = "43"
+lvl_required = 35
+str_required = 93
+dex_required = 43
 damage = "26-46"
 critical_chance = "5.00%"
-aps = "1.35"
-dps = "48.6"
+aps = 1.35
+dps = 48.6
 implicit_mod = "8% increased Global Physical Damage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.jasper_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Jasper Axe"
-lvl_required = "36"
-str_required = "86"
-dex_required = "40"
+lvl_required = 36
+str_required = 86
+dex_required = 40
 damage = "32-50"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "53.3"
+aps = 1.3
+dps = 53.3
 implicit_mod = "+15 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.tomahawk]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Tomahawk"
-lvl_required = "39"
-str_required = "81"
-dex_required = "56"
+lvl_required = 39
+str_required = 81
+dex_required = 56
 damage = "25-46"
 critical_chance = "5.00%"
-aps = "1.5"
-dps = "53.2"
+aps = 1.5
+dps = 53.2
 implicit_mod = "+15 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.wrist_chopper]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Wrist Chopper"
-lvl_required = "42"
-str_required = "112"
-dex_required = "32"
+lvl_required = 42
+str_required = 112
+dex_required = 32
 damage = "26-79"
 critical_chance = "5.00%"
-aps = "1.2"
-dps = "63"
+aps = 1.2
+dps = 63
 implicit_mod = "+15 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.war_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "War Axe"
-lvl_required = "45"
-str_required = "106"
-dex_required = "49"
+lvl_required = 45
+str_required = 106
+dex_required = 49
 damage = "35-65"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "65"
+aps = 1.3
+dps = 65
 implicit_mod = "+15 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.chest_splitter]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Chest Splitter"
-lvl_required = "48"
-str_required = "105"
-dex_required = "60"
+lvl_required = 48
+str_required = 105
+dex_required = 60
 damage = "24-71"
 critical_chance = "5.00%"
-aps = "1.4"
-dps = "66.5"
+aps = 1.4
+dps = 66.5
 implicit_mod = "+15 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.disapprobation_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Disapprobation Axe"
-lvl_required = "50"
-str_required = "124"
-dex_required = "54"
+lvl_required = 50
+str_required = 124
+dex_required = 54
 damage = "29-60"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "57.9"
+aps = 1.3
+dps = 57.9
 implicit_mod = "+15 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.ceremonial_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Ceremonial Axe"
-lvl_required = "51"
-str_required = "134"
-dex_required = "39"
+lvl_required = 51
+str_required = 134
+dex_required = 39
 damage = "45-83"
 critical_chance = "5.00%"
-aps = "1.2"
-dps = "76.8"
+aps = 1.2
+dps = 76.8
 implicit_mod = "8% increased Global Physical Damage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.wraith_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Wraith Axe"
-lvl_required = "54"
-str_required = "134"
-dex_required = "59"
+lvl_required = 54
+str_required = 134
+dex_required = 59
 damage = "45-75"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "78"
+aps = 1.3
+dps = 78
 implicit_mod = "8% increased Global Physical Damage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.engraved_hatchet]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Engraved Hatchet"
-lvl_required = "56"
-str_required = "143"
-dex_required = "66"
+lvl_required = 56
+str_required = 143
+dex_required = 66
 damage = "40-71"
 critical_chance = "5.00%"
-aps = "1.35"
-dps = "74.9"
+aps = 1.35
+dps = 74.9
 implicit_mod = "8% increased Global Physical Damage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.karui_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Karui Axe"
-lvl_required = "57"
-str_required = "132"
-dex_required = "62"
+lvl_required = 57
+str_required = 132
+dex_required = 62
 damage = "49-77"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "81.9"
+aps = 1.3
+dps = 81.9
 implicit_mod = "+20 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.siege_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Siege Axe"
-lvl_required = "59"
-str_required = "119"
-dex_required = "82"
+lvl_required = 59
+str_required = 119
+dex_required = 82
 damage = "38-70"
 critical_chance = "5.00%"
-aps = "1.5"
-dps = "81"
+aps = 1.5
+dps = 81
 implicit_mod = "+20 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.reaver_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Reaver Axe"
-lvl_required = "61"
-str_required = "167"
-dex_required = "57"
+lvl_required = 61
+str_required = 167
+dex_required = 57
 damage = "38-114"
 critical_chance = "5.00%"
-aps = "1.2"
-dps = "91.2"
+aps = 1.2
+dps = 91.2
 implicit_mod = "+20 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.butcher_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Butcher Axe"
-lvl_required = "63"
-str_required = "149"
-dex_required = "76"
+lvl_required = 63
+str_required = 149
+dex_required = 76
 damage = "47-87"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "87.1"
+aps = 1.3
+dps = 87.1
 implicit_mod = "+20 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.vaal_hatchet]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Vaal Hatchet"
-lvl_required = "65"
-str_required = "140"
-dex_required = "86"
+lvl_required = 65
+str_required = 140
+dex_required = 86
 damage = "30-90"
 critical_chance = "5.00%"
-aps = "1.4"
-dps = "84"
+aps = 1.4
+dps = 84
 implicit_mod = "+20 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.royal_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Royal Axe"
-lvl_required = "67"
-str_required = "167"
-dex_required = "57"
+lvl_required = 67
+str_required = 167
+dex_required = 57
 damage = "54-100"
 critical_chance = "5.00%"
-aps = "1.2"
-dps = "92.4"
+aps = 1.2
+dps = 92.4
 implicit_mod = "+20 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.infernal_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Infernal Axe"
-lvl_required = "69"
-str_required = "158"
-dex_required = "76"
+lvl_required = 69
+str_required = 158
+dex_required = 76
 damage = "51-85"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "88.4"
+aps = 1.3
+dps = 88.4
 implicit_mod = "+20 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.psychotic_axe]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Psychotic Axe"
-lvl_required = "70"
-str_required = "163"
-dex_required = "84"
+lvl_required = 70
+str_required = 163
+dex_required = 84
 damage = "34-71"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "68.3"
+aps = 1.3
+dps = 68.3
 implicit_mod = "+20 to Maximum Rage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.runic_hatchet]
+[[axes]]
 class = "One Hand Axes"
 base_type = "Runic Hatchet"
-lvl_required = "71"
-str_required = "163"
-dex_required = "82"
+lvl_required = 71
+str_required = 163
+dex_required = 82
 damage = "44-79"
 critical_chance = "5.00%"
-aps = "1.35"
-dps = "83"
+aps = 1.35
+dps = 83
 implicit_mod = "12% increased Global Physical Damage"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.stone_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Stone Axe"
-lvl_required = "1"
-str_required = "17"
-dex_required = "8"
+lvl_required = 1
+str_required = 17
+dex_required = 8
 damage = "12-20"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "20.8"
+aps = 1.3
+dps = 20.8
 implicit_mod = "+20% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.jade_chopper]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Jade Chopper"
-lvl_required = "9"
-str_required = "31"
-dex_required = "9"
+lvl_required = 9
+str_required = 31
+dex_required = 9
 damage = "19-30"
 critical_chance = "5.00%"
-aps = "1.25"
-dps = "30.6"
+aps = 1.25
+dps = 30.6
 implicit_mod = "+20% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.woodsplitter]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Woodsplitter"
-lvl_required = "13"
-str_required = "36"
-dex_required = "17"
+lvl_required = 13
+str_required = 36
+dex_required = 17
 damage = "19-39"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "37.7"
+aps = 1.3
+dps = 37.7
 implicit_mod = "+20% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.poleaxe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Poleaxe"
-lvl_required = "18"
-str_required = "44"
-dex_required = "25"
+lvl_required = 18
+str_required = 44
+dex_required = 25
 damage = "29-43"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "46.8"
+aps = 1.3
+dps = 46.8
 implicit_mod = "+20% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.double_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Double Axe"
-lvl_required = "23"
-str_required = "62"
-dex_required = "27"
+lvl_required = 23
+str_required = 62
+dex_required = 27
 damage = "36-60"
 critical_chance = "5.00%"
-aps = "1.25"
-dps = "60"
+aps = 1.25
+dps = 60
 implicit_mod = "+20% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.gilded_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Gilded Axe"
-lvl_required = "28"
-str_required = "64"
-dex_required = "37"
+lvl_required = 28
+str_required = 64
+dex_required = 37
 damage = "43-58"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "65.7"
+aps = 1.3
+dps = 65.7
 implicit_mod = "+20% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.prime_cleaver]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Prime Cleaver"
-lvl_required = "30"
+lvl_required = 30
 damage = "39-61"
 critical_chance = "5.00%"
-aps = "1.35"
-dps = "67.5"
+aps = 1.35
+dps = 67.5
 implicit_mod = "+20% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.shadow_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Shadow Axe"
-lvl_required = "33"
-str_required = "80"
-dex_required = "37"
+lvl_required = 33
+str_required = 80
+dex_required = 37
 damage = "49-73"
 critical_chance = "5.00%"
-aps = "1.25"
-dps = "76.2"
+aps = 1.25
+dps = 76.2
 implicit_mod = "50% increased Critical Strike Chance"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.dagger_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Dagger Axe"
-lvl_required = "36"
-str_required = "89"
-dex_required = "43"
+lvl_required = 36
+str_required = 89
+dex_required = 43
 damage = "53-83"
 critical_chance = "5.00%"
-aps = "1.2"
-dps = "81.6"
+aps = 1.2
+dps = 81.6
 implicit_mod = "50% increased Critical Strike Chance"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.jasper_chopper]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Jasper Chopper"
-lvl_required = "37"
-str_required = "100"
-dex_required = "29"
+lvl_required = 37
+str_required = 100
+dex_required = 29
 damage = "58-91"
 critical_chance = "5.00%"
-aps = "1.15"
-dps = "85.6"
+aps = 1.15
+dps = 85.6
 implicit_mod = "+30% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.timber_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Timber Axe"
-lvl_required = "41"
-str_required = "97"
-dex_required = "45"
+lvl_required = 41
+str_required = 97
+dex_required = 45
 damage = "48-99"
 critical_chance = "5.00%"
-aps = "1.25"
-dps = "91.9"
+aps = 1.25
+dps = 91.9
 implicit_mod = "+30% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.headsman_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Headsman Axe"
-lvl_required = "45"
-str_required = "99"
-dex_required = "57"
+lvl_required = 45
+str_required = 99
+dex_required = 57
 damage = "61-92"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "99.5"
+aps = 1.3
+dps = 99.5
 implicit_mod = "+30% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.labrys]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Labrys"
-lvl_required = "49"
-str_required = "122"
-dex_required = "53"
+lvl_required = 49
+str_required = 122
+dex_required = 53
 damage = "74-123"
 critical_chance = "5.00%"
-aps = "1.2"
-dps = "118.2"
+aps = 1.2
+dps = 118.2
 implicit_mod = "+30% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.honed_cleaver]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Honed Cleaver"
-lvl_required = "50"
+lvl_required = 50
 damage = "60-95"
 critical_chance = "5.00%"
-aps = "1.35"
-dps = "104.6"
+aps = 1.35
+dps = 104.6
 implicit_mod = "+30% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.noble_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Noble Axe"
-lvl_required = "52"
-str_required = "113"
-dex_required = "65"
+lvl_required = 52
+str_required = 113
+dex_required = 65
 damage = "76-103"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "116.4"
+aps = 1.3
+dps = 116.4
 implicit_mod = "50% increased Critical Strike Chance"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.abyssal_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Abyssal Axe"
-lvl_required = "55"
-str_required = "128"
-dex_required = "60"
+lvl_required = 55
+str_required = 128
+dex_required = 60
 damage = "81-121"
 critical_chance = "5.00%"
-aps = "1.25"
-dps = "126.2"
+aps = 1.25
+dps = 126.2
 implicit_mod = "50% increased Critical Strike Chance"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.karui_chopper]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Karui Chopper"
-lvl_required = "58"
-str_required = "151"
-dex_required = "43"
+lvl_required = 58
+str_required = 151
+dex_required = 43
 damage = "121-189"
 critical_chance = "5.00%"
-aps = "1.05"
-dps = "162.8"
+aps = 1.05
+dps = 162.8
 implicit_mod = "50% increased Critical Strike Chance"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.talon_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Talon Axe"
-lvl_required = "59"
-str_required = "140"
-dex_required = "67"
+lvl_required = 59
+str_required = 140
+dex_required = 67
 damage = "88-138"
 critical_chance = "5.00%"
-aps = "1.2"
-dps = "135.7"
+aps = 1.2
+dps = 135.7
 implicit_mod = "50% increased Critical Strike Chance"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.sundering_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Sundering Axe"
-lvl_required = "60"
-str_required = "149"
-dex_required = "76"
+lvl_required = 60
+str_required = 149
+dex_required = 76
 damage = "74-155"
 critical_chance = "5.00%"
-aps = "1.3"
-dps = "148.9"
+aps = 1.3
+dps = 148.9
 implicit_mod = "+20% to Damage over Time Multiplier for Bleeding"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.ezomyte_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Ezomyte Axe"
-lvl_required = "62"
-str_required = "140"
-dex_required = "86"
+lvl_required = 62
+str_required = 140
+dex_required = 86
 damage = "87-131"
 critical_chance = "5.70%"
-aps = "1.35"
-dps = "147.1"
+aps = 1.35
+dps = 147.1
 implicit_mod = "25% chance to Maim on Hit"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.vaal_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Vaal Axe"
-lvl_required = "64"
-str_required = "158"
-dex_required = "76"
+lvl_required = 64
+str_required = 158
+dex_required = 76
 damage = "104-174"
 critical_chance = "5.00%"
-aps = "1.15"
-dps = "159.8"
+aps = 1.15
+dps = 159.8
 implicit_mod = "25% chance to Maim on Hit"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.despot_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Despot Axe"
-lvl_required = "66"
-str_required = "140"
-dex_required = "86"
+lvl_required = 66
+str_required = 140
+dex_required = 86
 damage = "90-122"
 critical_chance = "5.00%"
-aps = "1.4"
-dps = "148.5"
+aps = 1.4
+dps = 148.5
 implicit_mod = "50% increased Critical Strike Chance"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.void_axe]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Void Axe"
-lvl_required = "68"
-str_required = "149"
-dex_required = "76"
+lvl_required = 68
+str_required = 149
+dex_required = 76
 damage = "96-144"
 critical_chance = "6.00%"
-aps = "1.25"
-dps = "150"
+aps = 1.25
+dps = 150
 implicit_mod = "50% increased Critical Strike Chance"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.fleshripper]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Fleshripper"
-lvl_required = "70"
-str_required = "156"
-dex_required = "84"
+lvl_required = 70
+str_required = 156
+dex_required = 84
 damage = "97-152"
 critical_chance = "5.00%"
-aps = "1.2"
-dps = "149.5"
+aps = 1.2
+dps = 149.5
 implicit_mod = "50% increased Critical Strike Chance"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
-[axes.apex_cleaver]
+[[axes]]
 class = "Two Hand Axes"
 base_type = "Apex Cleaver"
-lvl_required = "70"
+lvl_required = 70
 damage = "71-111"
 critical_chance = "5.00%"
-aps = "1.35"
-dps = "122.8"
+aps = 1.35
+dps = 122.8
 implicit_mod = "+40% to Maximum Quality"
+notes = "STRING"
+unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 

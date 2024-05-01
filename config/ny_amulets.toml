@@ -14,16 +14,16 @@
 # lvl_required = INTEGER
 # implicit_mod = "STRING"
 # class = "Amulets"
-# notes = "STRING"
-# has_top_unique = BOOL
-# boss_only = BOOL
-
+# notes = "STRING""
+# unique_tier = INTEGER
+# 0 = boss only, 1 = top awesome world drop included, 2 = ok value, 3 = show, 4 = could be useful, 5 = hide
 
 # [[amulets.uniques]]
 # name = "STRING"
 # restricted_drop = BOOL
 # notes = "STRING"
-# aprox_value = INTEGER
+# valuable = BOOL
+# usage = "CHANGE"
 # is_collectable = BOOL
 
 # [[amulets.uniques.cards]]
@@ -31,8 +31,8 @@
 # reward = "STRING"
 # drop_level = INTEGER
 # notes = "STRING"
-# hide_card = BOOL
 # top_card = BOOL
+# hide_card = BOOL
 
 ####################################################################################################
 [[amulets]]
@@ -41,15 +41,15 @@ lvl_required = 16
 implicit_mod = "+(16-24) to Strength and Intelligence"
 class = "Amulets"
 notes = ""
-has_top_unique = true
-boss_only = true
+unique_tier = 0
 
 
 [[amulets.uniques]]
 name = "Eternal Damnation"
 restricted_drop = true
 notes = "Lycia, Herald of the Scourge - Sanctum"
-aprox_value = 250
+valuable = true
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -57,7 +57,8 @@ is_collectable = false
 name = "Extractor Mentis"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -65,7 +66,8 @@ is_collectable = false
 name = "Shaper's Seed"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -73,7 +75,8 @@ is_collectable = false
 name = "The Aylardex"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -81,7 +84,8 @@ is_collectable = false
 name = "Voll's Devotion"
 restricted_drop = false
 drop_info = "League-specific item"
-aprox_value = 5
+valuable = false
+usage = "CHANGE"
 is_collectable = true
 
 [[amulets.uniques.cards]]
@@ -100,7 +104,7 @@ lvl_required = 5
 implicit_mod = "+(20-30) to Strength"
 class = "Amulets"
 notes = ""
-has_top_unique = false
+unique_tier = 2
 boss_only = true
 
 
@@ -108,8 +112,8 @@ boss_only = true
 name = "Blood of Corruption"
 restricted_drop = true
 notes = "from card or Tear of Purity + vaal orb"
-notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 [[amulets.uniques.cards]]
@@ -125,7 +129,8 @@ top_card = false
 name = "Bloodsoaked Medallion"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -133,7 +138,8 @@ is_collectable = false
 name = "The Anvil"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -141,7 +147,8 @@ is_collectable = false
 name = "Xoph's Blood"
 restricted_drop = true
 notes = "Xoph in the Flawless Breachstone - can be crafted"
-aprox_value = 50
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -149,7 +156,8 @@ is_collectable = false
 name = "Xoph's Heart"
 restricted_drop = true
 notes = "Xoph and his Breach monsters"
-aprox_value = 10
+valuable = false
+usage = "CHANGE"
 is_collectable = true
 
 ####################################################################################################
@@ -160,9 +168,8 @@ lvl_required = 69
 implicit_mod = "Has Elder, Shaper and all Conqueror Influences & Implicit Modifiers Cannot Be Changed"
 class = "Amulets"
 restricted_drop = true
+unique_tier = 5
 notes = "Grand Geist Curio Display"
-has_top_unique = false
-boss_only = false
 
 ####################################################################################################
 
@@ -172,14 +179,14 @@ lvl_required = 77
 implicit_mod = "(48-56)% increased Mana Regeneration Rate"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 [[amulets.uniques]]
 name = "Gloomfang"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 ####################################################################################################
@@ -190,14 +197,14 @@ lvl_required = 16
 implicit_mod = "+(16-24) to Strength and Dexterity"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-hide_uniques = false
+unique_tier = 5
 
 [[amulets.uniques]]
 name = "Daresso's Salute"
 restricted_drop = false
 notes = "League-specific item"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 [[amulets.uniques.cards]]
@@ -213,7 +220,8 @@ top_card = false
 name = "Eye of Innocence"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -221,16 +229,17 @@ is_collectable = false
 name = "Retaliation Charm"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
 [[amulets.uniques]]
 name = "The Felbog Fang"
 restricted_drop = true
-drop_info = "Namharim, Born of Night - T4 Harvest Seed bosses"
-notes = ""
-aprox_value = 0
+notes = "Namharim, Born of Night - T4 Harvest Seed bosses"
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -238,7 +247,8 @@ is_collectable = false
 name = "The Jinxed Juju"
 restricted_drop = false
 notes = "Minion Related"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -250,14 +260,14 @@ lvl_required = 1
 implicit_mod = "Regenerate (2-4) Life per second"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-hide_uniques = false
+unique_tier = 3
 
 [[amulets.uniques]]
 name = "Araku Tiki"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -265,7 +275,8 @@ is_collectable = false
 name = "Ikiaho's Promise"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -273,7 +284,8 @@ is_collectable = false
 name = "Ngamahu Tiki"
 restricted_drop = true
 notes = "Drop Disabled"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -281,7 +293,8 @@ is_collectable = false
 name = "Tainted Pact"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -289,7 +302,8 @@ is_collectable = false
 name = "Tavukai"
 restricted_drop = false
 notes = "League-specific item - useful for SRS"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 [[amulets.uniques.cards]]
@@ -304,8 +318,9 @@ top_card = false
 [[amulets.uniques]]
 name = "The Primordial Chain"
 restricted_drop = false
-notes = "League-specific item - useful for Golems"
-aprox_value = 0
+notes = "League-specific item"
+valuable = false
+usage = "GOLEMS"
 is_collectable = false
 
 ####################################################################################################
@@ -316,9 +331,8 @@ lvl_required = 24
 implicit_mod = "-1 Prefix Modifier allowed & -2 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed & 100% increased Explicit Modifier magnitudes"
 class = "Amulets"
 restricted_drop = true
+unique_tier = 5
 notes = "Grand Heis Curio Display"
-has_top_unique = false
-boss_only = false
 
 ####################################################################################################
 
@@ -328,14 +342,14 @@ lvl_required = 8
 implicit_mod = "(12-20)% increased Rarity of Items found"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 3
 
 [[amulets.uniques]]
 name = "Bisco's Collar"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 [[amulets.cards]]
@@ -353,14 +367,16 @@ top_card = false
 name = "Demigod's Presence"
 restricted_drop = true
 notes = "drop disabled - Closed beta prize"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 [[amulets.uniques]]
 name = "Perquil's Toe"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -368,7 +384,8 @@ is_collectable = false
 name = "The Ascetic"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -376,7 +393,8 @@ is_collectable = false
 name = "The Effigon"
 restricted_drop = true
 notes = "drop disabled"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -384,7 +402,8 @@ is_collectable = false
 name = "The Ignomon"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -392,7 +411,8 @@ is_collectable = false
 name = "The Untouched Soul"
 restricted_drop = false
 notes = ""
-aprox_value = 10
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -400,14 +420,16 @@ is_collectable = false
 name = "The Utmost"
 restricted_drop = true
 notes = "4x fragments one from Uber Exarch, Elder, Eater, Maven - It can be obtained by placing each of the four Primordial Fragments in the proper arrangement."
-aprox_value = 500
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 [[amulets.uniques]]
 name = "Winterheart"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -415,7 +437,8 @@ is_collectable = false
 name = "Replica Winterheart"
 restricted_drop = true
 notes = "Grand Heist Curio Display"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 ####################################################################################################
@@ -426,7 +449,7 @@ lvl_required = 5
 implicit_mod = "+(20-30) to Dexterity"
 class = "Amulets"
 notes = ""
-has_top_unique = true
+unique_tier = 0
 boss_only = true
 
 
@@ -434,7 +457,8 @@ boss_only = true
 name = "Hyrri's Truth"
 restricted_drop = false
 notes = "League-specific items"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -442,7 +466,8 @@ is_collectable = false
 name = "Replica Hyrri's Truth"
 restricted_drop = true
 notes = "Grand Heist Curio Display"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -450,7 +475,8 @@ is_collectable = false
 name = "Karui Charge"
 restricted_drop = true
 notes = "drop disabled"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -458,7 +484,8 @@ is_collectable = false
 name = "Karui Ward"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -466,7 +493,8 @@ is_collectable = false
 name = "Replica Karui Ward"
 restricted_drop = true
 notes = "Grand Heist Curio Display"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -474,7 +502,8 @@ is_collectable = false
 name = "Rashkaldor's Patience"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -482,7 +511,8 @@ is_collectable = false
 name = "The Halcyon"
 restricted_drop = true
 notes = "Tul and her Breach monsters"
-aprox_value = 10
+valuable = false
+usage = "CHANGE"
 is_collectable = true
 
 
@@ -490,14 +520,16 @@ is_collectable = true
 name = "The Pandemonius"
 restricted_drop = true
 notes = "Tul in the Flawless Breachstone - can be crafted"
-aprox_value = 100
+valuable = true
+usage = "CHANGE"
 is_collectable = true
 
 [[amulets.uniques]]
 name = "Willowgift"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 ####################################################################################################
@@ -508,14 +540,15 @@ lvl_required = 5
 implicit_mod = "+(20-30) to Intelligence"
 class = "Amulets"
 notes = ""
-has_top_unique = true
+unique_tier = 0
 boss_only = true
 
 [[amulets.uniques]]
 name = "Choir of the Storm"
 restricted_drop = true
 notes = "Esh in the Flawless Breachstone version of encounter"
-aprox_value = 150
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -523,7 +556,8 @@ is_collectable = false
 name = "Doedre's Tongue"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -531,7 +565,8 @@ is_collectable = false
 name = "Marylene's Fallacy"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -539,7 +574,8 @@ is_collectable = false
 name = "Stone of Lazhwar"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -547,7 +583,8 @@ is_collectable = false
 name = "Tear of Purity"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -555,7 +592,8 @@ is_collectable = false
 name = "The Ephemeral Bond"
 restricted_drop = false
 notes = "League-specific items"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -563,7 +601,8 @@ is_collectable = false
 name = "Voice of the Storm"
 restricted_drop = true
 notes = " Esh and her Breach monsters"
-aprox_value = 700
+valuable = true
+usage = "CHANGE"
 is_collectable = false
 
 ####################################################################################################
@@ -574,14 +613,14 @@ lvl_required = 74
 implicit_mod = "Regenerate (1.2-1.6)% of Life per second"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 [[amulets.uniques]]
 name = "Bloodgrip"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 ####################################################################################################
@@ -592,14 +631,15 @@ lvl_required = 20
 implicit_mod = "+(10-16) to all Attributes"
 class = "Amulets"
 notes = ""
-has_top_unique = true
+unique_tier = 0
 boss_only = true
 
 [[amulets.uniques]]
 name = "Ashes of the Stars"
 restricted_drop = true
 notes = "Uber Eater of Worlds"
-aprox_value = 50
+valuable = true
+usage = "CHANGE"
 is_collectable = true
 
 
@@ -607,7 +647,8 @@ is_collectable = true
 name = "Astramentis"
 restricted_drop = false
 notes = ""
-aprox_value = 15
+valuable = false
+usage = "CHANGE"
 is_collectable = true
 
 [[amulets.uniques.cards]]
@@ -623,8 +664,9 @@ top_card = false
 name = "Aul's Uprising (All Attributes)"
 restricted_drop = true
 drop_info = "Aul, the Crystal King"
+valuable = true
+usage = "CHANGE"
 notes = "Envy has no Reservation"
-aprox_value = 20
 is_collectable = true
 
 
@@ -632,8 +674,9 @@ is_collectable = true
 name = "Aul's Uprising (Dexterity)"
 restricted_drop = true
 drop_info = "Aul, the Crystal King"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 20
 is_collectable = true
 
 
@@ -641,8 +684,9 @@ is_collectable = true
 name = "Aul's Uprising (Intelligence)"
 restricted_drop = true
 drop_info = "Aul, the Crystal King"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 20
 is_collectable = true
 
 
@@ -650,8 +694,9 @@ is_collectable = true
 name = "Aul's Uprising (Strength)"
 restricted_drop = true
 drop_info = "Aul, the Crystal King"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 20
 is_collectable = true
 
 
@@ -659,7 +704,8 @@ is_collectable = true
 name = "Carnage Heart"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -667,8 +713,9 @@ is_collectable = false
 name = "Crystallised Omniscience"
 restricted_drop = true
 drop_info = "Uber Searing Exarch"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 3000
 is_collectable = true
 
 
@@ -676,7 +723,8 @@ is_collectable = true
 name = "Eye of Chayula"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -684,7 +732,8 @@ is_collectable = false
 name = "Hinekora's Sight"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -692,7 +741,8 @@ is_collectable = false
 name = "Replica Hinekora's Sight"
 restricted_drop = true
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -700,8 +750,9 @@ is_collectable = false
 name = "Impresence (Chaos)"
 restricted_drop = true
 drop_info = "The Elder & Uber Eldar"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 100
 is_collectable = false
 
 
@@ -709,8 +760,9 @@ is_collectable = false
 name = "Impresence (Cold)"
 restricted_drop = true
 drop_info = "The Elder & Uber Eldar"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 10
 is_collectable = true
 
 
@@ -718,8 +770,9 @@ is_collectable = true
 name = "Impresence (Fire)"
 restricted_drop = true
 drop_info = "The Elde & Uber Eldarr"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 10
 is_collectable = true
 
 
@@ -727,8 +780,9 @@ is_collectable = true
 name = "Impresence (Lightning)"
 restricted_drop = true
 drop_info = "The Elder & Uber Eldar"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 10
 is_collectable = true
 
 
@@ -736,8 +790,9 @@ is_collectable = true
 name = "Impresence (Physical)"
 restricted_drop = true
 drop_info = "The Elder & Uber Eldar"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 10
 is_collectable = true
 
 
@@ -745,8 +800,9 @@ is_collectable = true
 name = "Leadership's Price"
 restricted_drop = true
 drop_info = "Drops from the twin bosses of Contract: The Twins unique contract"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 10
 is_collectable = true
 
 
@@ -754,8 +810,9 @@ is_collectable = true
 name = "Presence of Chayula"
 restricted_drop = true
 drop_info = "Chayula Who Dreamt from Chayula's Breachstone"
+valuable = true
+usage = "CHANGE"
 notes = "Can also be created"
-aprox_value = 200
 is_collectable = false
 
 
@@ -763,7 +820,8 @@ is_collectable = false
 name = "Replica Dragonfang's Flight"
 restricted_drop = false
 notes = ""
-aprox_value = 100
+valuable = true
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -771,8 +829,9 @@ is_collectable = false
 name = "Solstice Vigil"
 restricted_drop = true
 drop_info = "The Shaper"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 100
 is_collectable = true
 
 
@@ -780,8 +839,9 @@ is_collectable = true
 name = "Stranglegasp"
 restricted_drop = true
 drop_info = "Can drop after completing a Blight encounter in a Blight-ravaged map"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 5000
 is_collectable = true
 
 
@@ -798,8 +858,9 @@ top_card = true
 name = "The Eternal Struggle"
 restricted_drop = true
 drop_info = "The Black Star (mini exarch) or The Infinite Hunger (mini eater)"
+valuable = false
+usage = "CHANGE"
 notes = ""
-aprox_value = 15
 is_collectable = false
 
 
@@ -807,8 +868,9 @@ is_collectable = false
 name = "Yoke of Suffering"
 restricted_drop = true
 drop_info = "Nightmare of the Unbreakable - Fortress T17 map"
+valuable = true
+usage = "CHANGE"
 notes = ""
-aprox_value = 50
 is_collectable = false
 
 ####################################################################################################
@@ -819,15 +881,15 @@ lvl_required = 1
 implicit_mod = "(20-30)% increased Mana Regeneration Rate"
 class = "Amulets"
 notes = ""
-has_top_unique = true
-boss_only = false
+unique_tier = 1
 
 
 [[amulets.uniques]]
 name = "Atziri's Foible"
 restricted_drop = false
 notes = "Might be useful for Mana builds"
-aprox_value = 20
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -835,7 +897,8 @@ is_collectable = false
 name = "Replica Atziri's Foible"
 restricted_drop = true
 notes = "Grand Heist Curio Display"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -843,7 +906,8 @@ is_collectable = false
 name = "Defiance of Destiny"
 restricted_drop = false
 notes = "Valuable"
-aprox_value = 350
+valuable = true
+usage = "CHANGE"
 is_collectable = true
 
 
@@ -851,7 +915,8 @@ is_collectable = true
 name = "Sacrificial Heart"
 restricted_drop = true
 notes = "The Vaal Omnitect (alva temple)"
-aprox_value = 5
+valuable = false
+usage = "CHANGE"
 is_collectable = true
 
 
@@ -859,7 +924,8 @@ is_collectable = true
 name = "Sidhebreath"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -867,7 +933,8 @@ is_collectable = false
 name = "Zerphi's Heart"
 restricted_drop = true
 notes = "can be crafted from alva stuff"
-aprox_value = 10
+valuable = false
+usage = "CHANGE"
 is_collectable = true
 
 ####################################################################################################
@@ -878,8 +945,7 @@ lvl_required = 74
 implicit_mod = "(10-15)% faster start of Energy Shield Recharge"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -889,8 +955,7 @@ lvl_required = 24
 implicit_mod = "-2 Prefix Modifiers allowed & -1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 100% increased Explicit Modifier magnitudes"
 class = "Amulets"
 notes = "Grand Geist Curio Display"
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -900,15 +965,15 @@ lvl_required = 16
 implicit_mod = "+(16-24) to Dexterity and Intelligence"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 3
 
 
 [[amulets.uniques]]
 name = "Badge of the Brotherhood"
 restricted_drop = false
 notes = "League-specific item"
-aprox_value = 70
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -916,7 +981,8 @@ is_collectable = false
 name = "Replica Badge of the Brotherhood"
 restricted_drop = true
 notes = "Grand Heist Curio Display"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -924,7 +990,8 @@ is_collectable = false
 name = "Fury Valve"
 restricted_drop = false
 notes = "Metamorph item"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -932,7 +999,8 @@ is_collectable = false
 name = "Maligaro's Cruelty"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -940,7 +1008,8 @@ is_collectable = false
 name = "Ungil's Harmony"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 
@@ -948,14 +1017,16 @@ is_collectable = false
 name = "Victario's Acuity"
 restricted_drop = false
 notes = "League-specific item"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 [[amulets.uniques]]
 name = "Warped Timepiece"
 restricted_drop = false
 notes = ""
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 ####################################################################################################
@@ -966,14 +1037,15 @@ lvl_required = 5
 implicit_mod = "Has 1 Socket"
 class = "Amulets"
 notes = ""
-has_top_unique = true
+unique_tier = 0
 boss_only = true
 
 [[amulets.uniques]]
 name = "Uul-Netol's Vow"
 restricted_drop = true
 notes = "Can drop from any Breachlord in a Flawless Breachstone"
-aprox_value = 6000
+valuable = true
+usage = "CHANGE"
 is_collectable = true
 
 ####################################################################################################
@@ -987,8 +1059,7 @@ lvl_required = 1
 implicit_mod = "(20-30)% increased Fire Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -998,8 +1069,7 @@ lvl_required = 1
 implicit_mod = "50% of Cold Damage from Hits taken as Fire Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1009,8 +1079,7 @@ lvl_required = 1
 implicit_mod = "50% of Cold Damage from Hits taken as Lightning Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1020,8 +1089,7 @@ lvl_required = 1
 implicit_mod = "50% of Fire Damage from Hits taken as Cold Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1031,8 +1099,7 @@ lvl_required = 1
 implicit_mod = "50% of Fire Damage from Hits taken as Lightning Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1042,8 +1109,7 @@ lvl_required = 1
 implicit_mod = "50% of Lightning Damage from Hits taken as Cold Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1053,8 +1119,7 @@ lvl_required = 1
 implicit_mod = "50% of Lightning Damage from Hits taken as Fire Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1064,14 +1129,14 @@ lvl_required = 1
 implicit_mod = "Has 1 Socket"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 [[amulets.uniques]]
 name = "Night's Hold"
 restricted_drop = false
 notes = "League-specific item"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 ####################################################################################################
@@ -1082,8 +1147,7 @@ lvl_required = 1
 implicit_mod = "(20-30)% increased maximum Mana"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1093,8 +1157,7 @@ lvl_required = 1
 implicit_mod = "(20-30)% increased Global Physical Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1104,8 +1167,7 @@ lvl_required = 1
 implicit_mod = "(20-30)% increased Spell Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1115,14 +1177,14 @@ lvl_required = 1
 implicit_mod = "(15-25)% increased Global Defences"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 [[amulets.uniques]]
 name = "Blightwell"
 restricted_drop = false
 notes = "League-specific item"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 ####################################################################################################
@@ -1133,8 +1195,7 @@ lvl_required = 1
 implicit_mod = "(19-31)% increased Chaos Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1144,8 +1205,7 @@ lvl_required = 1
 implicit_mod = "(20-30)% increased Cold Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1155,8 +1215,7 @@ lvl_required = 1
 implicit_mod = "(8-12)% increased maximum Life"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1166,14 +1225,14 @@ lvl_required = 1
 implicit_mod = "2x random"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 2
 
 [[amulets.uniques]]
 name = "Eyes of the Greatwolf"
 restricted_drop = false
 notes = "League-specific item - it's not chance able since the base doesn't drop"
-aprox_value = 30
+valuable = false
+usage = "CHANGE"
 is_collectable = true
 
 [[amulets.uniques.cards]]
@@ -1192,8 +1251,7 @@ lvl_required = 1
 implicit_mod = "(40-50)% increased Global Critical Strike Chance"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1203,8 +1261,7 @@ lvl_required = 1
 implicit_mod = "Projectiles Pierce 2 additional Targets"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1214,8 +1271,7 @@ lvl_required = 1
 implicit_mod = "(20-30)% increased Lightning Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1225,8 +1281,7 @@ lvl_required = 1
 implicit_mod = "(4-6)% additional Physical Damage Reduction"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1236,8 +1291,7 @@ lvl_required = 1
 implicit_mod = "(6-10)% increased Attack and Cast Speed"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1247,8 +1301,7 @@ lvl_required = 1
 implicit_mod = "10% chance to gain an Endurance Charge on Kill"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1258,8 +1311,7 @@ lvl_required = 1
 implicit_mod = "10% chance to gain a Frenzy Charge on Kill"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1269,8 +1321,7 @@ lvl_required = 1
 implicit_mod = "10% chance to gain a Power Charge on Kill"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1280,8 +1331,7 @@ lvl_required = 1
 implicit_mod = "(5-8)% increased Area of Effect"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1291,8 +1341,7 @@ lvl_required = 1
 implicit_mod = "Regenerate 2% of Life per second"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1302,8 +1351,7 @@ lvl_required = 1
 implicit_mod = "(30-40)% increased Fish Bite Sensitivity"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1313,14 +1361,14 @@ lvl_required = 1
 implicit_mod = "(25-35)% increased Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 [[amulets.uniques]]
 name = "Natural Hierarchy"
 restricted_drop = false
 notes = "League-specific item"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 ####################################################################################################
@@ -1331,8 +1379,7 @@ lvl_required = 1
 implicit_mod = "(6-10)% increased Quantity of Items found"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1342,8 +1389,7 @@ lvl_required = 1
 implicit_mod = "(4-6)% chance to Freeze, Shock and Ignite"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1353,8 +1399,7 @@ lvl_required = 1
 implicit_mod = "Gain (6-12)% of Physical Damage as Extra Damage of a random Element"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1364,8 +1409,7 @@ lvl_required = 1
 implicit_mod = "(12-16)% increased Attributes"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1375,8 +1419,7 @@ lvl_required = 1
 implicit_mod = "+1 to maximum number of Raised Zombies"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 ####################################################################################################
 
@@ -1386,14 +1429,14 @@ lvl_required = 1
 implicit_mod = "+(24-36)% to Global Critical Strike Multiplier"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5
 
 [[amulets.uniques]]
 name = "Rigwald's Curse"
 restricted_drop = false
 notes = "League-specific item"
-aprox_value = 0
+valuable = false
+usage = "CHANGE"
 is_collectable = false
 
 [[amulets.uniques.cards]]
@@ -1412,5 +1455,4 @@ lvl_required = 1
 implicit_mod = "(20-30)% increased Attack Damage"
 class = "Amulets"
 notes = ""
-has_top_unique = false
-boss_only = false
+unique_tier = 5

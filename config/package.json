@@ -1,0 +1,15 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "node fix.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "toml": "^3.0.0"
+  }
+}

@@ -1,0 +1,874 @@
+####################################################################################################
+########## Boots
+####################################################################################################
+[boots]
+[boots.iron_greaves]
+class = "Boots"
+base_type = "Iron Greaves"
+lvl_required = 1
+str_required = 8
+dex_required = 0
+int_required = 0
+armour = "6-9"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.rawhide_boots]
+class = "Boots"
+base_type = "Rawhide Boots"
+lvl_required = 1
+str_required = 0
+dex_required = 11
+int_required = 0
+armour = "-"
+evasion_rating = "13-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.wool_shoes]
+class = "Boots"
+base_type = "Wool Shoes"
+lvl_required = 1
+str_required = 0
+dex_required = 0
+int_required = 11
+armour = "-"
+evasion_rating = "-"
+energy_shield = "5-7"
+ward = "-"
+implicit_mod = "-"
+
+[boots.chain_boots]
+class = "Boots"
+base_type = "Chain Boots"
+lvl_required = 5
+str_required = 8
+dex_required = 0
+int_required = 8
+armour = "11-15"
+evasion_rating = "-"
+energy_shield = "3-5"
+ward = "-"
+implicit_mod = "-"
+
+[boots.leatherscale_boots]
+class = "Boots"
+base_type = "Leatherscale Boots"
+lvl_required = 6
+str_required = 9
+dex_required = 9
+int_required = 0
+armour = "12-17"
+evasion_rating = "12-17"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.wrapped_boots]
+class = "Boots"
+base_type = "Wrapped Boots"
+lvl_required = 6
+str_required = 0
+dex_required = 9
+int_required = 9
+armour = "12-17"
+evasion_rating = "4-5"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.steel_greaves]
+class = "Boots"
+base_type = "Steel Greaves"
+lvl_required = 9
+str_required = 21
+dex_required = 0
+int_required = 0
+armour = "32-42"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.velvet_slippers]
+class = "Boots"
+base_type = "Velvet Slippers"
+lvl_required = 9
+str_required = 0
+dex_required = 0
+int_required = 21
+armour = "-"
+evasion_rating = "-"
+energy_shield = "8-11"
+ward = "-"
+implicit_mod = "-"
+
+[boots.goathide_boots]
+class = "Boots"
+base_type = "Goathide Boots"
+lvl_required = 12
+str_required = 0
+dex_required = 26
+int_required = 0
+armour = "-"
+evasion_rating = "42-54"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.golden_caligae]
+class = "Boots"
+base_type = "Golden Caligae"
+lvl_required = 12
+str_required = 0
+dex_required = 0
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(8-16)% to all Elemental Resistances"
+
+[boots.ringmail_boots]
+class = "Boots"
+base_type = "Ringmail Boots"
+lvl_required = 13
+str_required = 15
+dex_required = 0
+int_required = 15
+armour = "25-32"
+evasion_rating = "6-8"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.strapped_boots]
+class = "Boots"
+base_type = "Strapped Boots"
+lvl_required = 16
+str_required = 0
+dex_required = 18
+int_required = 18
+armour = "30-39"
+evasion_rating = "7-9"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.ironscale_boots]
+class = "Boots"
+base_type = "Ironscale Boots"
+lvl_required = 18
+str_required = 19
+dex_required = 19
+int_required = 0
+armour = "34-44"
+evasion_rating = "34-44"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.basemetal_treads]
+class = "Boots"
+base_type = "Basemetal Treads"
+lvl_required = 20
+str_required = 39
+dex_required = 0
+int_required = 0
+armour = "68-78"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(4-5)% Chance to Block Attack Damage & You take 20% of Damage from Blocked Hits"
+
+[boots.cloudwhisper_boots]
+class = "Boots"
+base_type = "Cloudwhisper Boots"
+lvl_required = 20
+str_required = 0
+dex_required = 39
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating & 25% less Accuracy Rating"
+
+[boots.duskwalk_slippers]
+class = "Boots"
+base_type = "Duskwalk Slippers"
+lvl_required = 20
+str_required = 0
+dex_required = 0
+int_required = 39
+armour = "-"
+evasion_rating = "-"
+energy_shield = "15-18"
+ward = "-"
+implicit_mod = "10% reduced Movement Speed & (30-40)% increased Cooldown Recovery Rate of Movement Skills"
+
+[boots.deerskin_boots]
+class = "Boots"
+base_type = "Deerskin Boots"
+lvl_required = 22
+str_required = 0
+dex_required = 42
+int_required = 0
+armour = "-"
+evasion_rating = "74-92"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.silk_slippers]
+class = "Boots"
+base_type = "Silk Slippers"
+lvl_required = 22
+str_required = 0
+dex_required = 0
+int_required = 42
+armour = "-"
+evasion_rating = "-"
+energy_shield = "17-21"
+ward = "-"
+implicit_mod = "-"
+
+[boots.plated_greaves]
+class = "Boots"
+base_type = "Plated Greaves"
+lvl_required = 23
+str_required = 44
+dex_required = 0
+int_required = 0
+armour = "77-96"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.runic_greaves]
+class = "Boots"
+base_type = "Runic Greaves"
+lvl_required = 24
+str_required = 20
+dex_required = 20
+int_required = 20
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "24-28"
+implicit_mod = "-"
+
+[boots.clasped_boots]
+class = "Boots"
+base_type = "Clasped Boots"
+lvl_required = 27
+str_required = 0
+dex_required = 27
+int_required = 27
+armour = "50-57"
+evasion_rating = "11-12"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.mesh_boots]
+class = "Boots"
+base_type = "Mesh Boots"
+lvl_required = 28
+str_required = 28
+dex_required = 0
+int_required = 28
+armour = "51-64"
+evasion_rating = "-"
+energy_shield = "11-14"
+ward = "-"
+implicit_mod = "-"
+
+[boots.bronzescale_boots]
+class = "Boots"
+base_type = "Bronzescale Boots"
+lvl_required = 30
+str_required = 30
+dex_required = 30
+int_required = 0
+armour = "55-63"
+evasion_rating = "55-63"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.scholar_boots]
+class = "Boots"
+base_type = "Scholar Boots"
+lvl_required = 32
+str_required = 0
+dex_required = 0
+int_required = 59
+armour = "-"
+evasion_rating = "-"
+energy_shield = "23-25"
+ward = "-"
+implicit_mod = "-"
+
+[boots.reinforced_greaves]
+class = "Boots"
+base_type = "Reinforced Greaves"
+lvl_required = 33
+str_required = 61
+dex_required = 0
+int_required = 0
+armour = "109-120"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.nubuck_boots]
+class = "Boots"
+base_type = "Nubuck Boots"
+lvl_required = 34
+str_required = 0
+dex_required = 62
+int_required = 0
+armour = "-"
+evasion_rating = "113-126"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.shackled_boots]
+class = "Boots"
+base_type = "Shackled Boots"
+lvl_required = 34
+str_required = 0
+dex_required = 34
+int_required = 34
+armour = "-"
+evasion_rating = "62-71"
+energy_shield = "13-15"
+ward = "-"
+implicit_mod = "-"
+
+[boots.steelscale_boots]
+class = "Boots"
+base_type = "Steelscale Boots"
+lvl_required = 36
+str_required = 35
+dex_required = 35
+int_required = 0
+armour = "65-75"
+evasion_rating = "65-75"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.riveted_boots]
+class = "Boots"
+base_type = "Riveted Boots"
+lvl_required = 36
+str_required = 35
+dex_required = 0
+int_required = 35
+armour = "65-71"
+evasion_rating = "-"
+energy_shield = "14-15"
+ward = "-"
+implicit_mod = "-"
+
+[boots.antique_greaves]
+class = "Boots"
+base_type = "Antique Greaves"
+lvl_required = 37
+str_required = 67
+dex_required = 0
+int_required = 0
+armour = "122-144"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.satin_slippers]
+class = "Boots"
+base_type = "Satin Slippers"
+lvl_required = 38
+str_required = 0
+dex_required = 0
+int_required = 69
+armour = "-"
+evasion_rating = "-"
+energy_shield = "26-30"
+ward = "-"
+implicit_mod = "-"
+
+[boots.eelskin_boots]
+class = "Boots"
+base_type = "Eelskin Boots"
+lvl_required = 39
+str_required = 0
+dex_required = 70
+int_required = 0
+armour = "-"
+evasion_rating = "129-148"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.zealot_boots]
+class = "Boots"
+base_type = "Zealot Boots"
+lvl_required = 40
+str_required = 39
+dex_required = 0
+int_required = 39
+armour = "73-87"
+evasion_rating = "-"
+energy_shield = "15-18"
+ward = "-"
+implicit_mod = "-"
+
+[boots.trapper_boots]
+class = "Boots"
+base_type = "Trapper Boots"
+lvl_required = 41
+str_required = 0
+dex_required = 40
+int_required = 40
+armour = "74-85"
+evasion_rating = "16-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.serpentscale_boots]
+class = "Boots"
+base_type = "Serpentscale Boots"
+lvl_required = 42
+str_required = 40
+dex_required = 40
+int_required = 0
+armour = "76-90"
+evasion_rating = "76-90"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.sharkskin_boots]
+class = "Boots"
+base_type = "Sharkskin Boots"
+lvl_required = 44
+str_required = 0
+dex_required = 79
+int_required = 0
+armour = "-"
+evasion_rating = "145-171"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.samite_slippers]
+class = "Boots"
+base_type = "Samite Slippers"
+lvl_required = 44
+str_required = 0
+dex_required = 0
+int_required = 79
+armour = "-"
+evasion_rating = "-"
+energy_shield = "30-35"
+ward = "-"
+implicit_mod = "-"
+
+[boots.ancient_greaves]
+class = "Boots"
+base_type = "Ancient Greaves"
+lvl_required = 46
+str_required = 82
+dex_required = 0
+int_required = 0
+armour = "151-174"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.ambush_boots]
+class = "Boots"
+base_type = "Ambush Boots"
+lvl_required = 47
+str_required = 0
+dex_required = 45
+int_required = 45
+armour = "-"
+evasion_rating = "85-95"
+energy_shield = "18-20"
+ward = "-"
+implicit_mod = "-"
+
+[boots.runic_sollerets]
+class = "Boots"
+base_type = "Runic Sollerets"
+lvl_required = 48
+str_required = 37
+dex_required = 37
+int_required = 37
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "62-71"
+implicit_mod = "-"
+
+[boots.soldier_boots]
+class = "Boots"
+base_type = "Soldier Boots"
+lvl_required = 49
+str_required = 47
+dex_required = 0
+int_required = 47
+armour = "88-99"
+evasion_rating = "-"
+energy_shield = "18-20"
+ward = "-"
+implicit_mod = "-"
+
+[boots.darksteel_treads]
+class = "Boots"
+base_type = "Darksteel Treads"
+lvl_required = 50
+str_required = 89
+dex_required = 0
+int_required = 0
+armour = "164-189"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(4-5)% Chance to Block Attack Damage & You take 20% of Damage from Blocked Hits"
+
+[boots.windbreak_boots]
+class = "Boots"
+base_type = "Windbreak Boots"
+lvl_required = 50
+str_required = 0
+dex_required = 89
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating & 25% less Accuracy Rating"
+
+[boots.nightwind_slippers]
+class = "Boots"
+base_type = "Nightwind Slippers"
+lvl_required = 50
+str_required = 0
+dex_required = 0
+int_required = 89
+armour = "-"
+evasion_rating = "-"
+energy_shield = "34-39"
+ward = "-"
+implicit_mod = "10% reduced Movement Speed & (30-40)% increased Cooldown Recovery Rate of Movement Skills"
+
+[boots.wyrmscale_boots]
+class = "Boots"
+base_type = "Wyrmscale Boots"
+lvl_required = 51
+str_required = 48
+dex_required = 48
+int_required = 0
+armour = "92-103"
+evasion_rating = "92-103"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.conjurer_boots]
+class = "Boots"
+base_type = "Conjurer Boots"
+lvl_required = 53
+str_required = 0
+dex_required = 0
+int_required = 94
+armour = "-"
+evasion_rating = "-"
+energy_shield = "36-42"
+ward = "-"
+implicit_mod = "-"
+
+[boots.goliath_greaves]
+class = "Boots"
+base_type = "Goliath Greaves"
+lvl_required = 54
+str_required = 95
+dex_required = 0
+int_required = 0
+armour = "177-209"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.shagreen_boots]
+class = "Boots"
+base_type = "Shagreen Boots"
+lvl_required = 55
+str_required = 0
+dex_required = 97
+int_required = 0
+armour = "-"
+evasion_rating = "180-216"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.carnal_boots]
+class = "Boots"
+base_type = "Carnal Boots"
+lvl_required = 55
+str_required = 0
+dex_required = 52
+int_required = 52
+armour = "-"
+evasion_rating = "99-117"
+energy_shield = "20-24"
+ward = "-"
+implicit_mod = "-"
+
+[boots.legion_boots]
+class = "Boots"
+base_type = "Legion Boots"
+lvl_required = 58
+str_required = 54
+dex_required = 0
+int_required = 54
+armour = "104-120"
+evasion_rating = "-"
+energy_shield = "21-25"
+ward = "-"
+implicit_mod = "-"
+
+[boots.hydrascale_boots]
+class = "Boots"
+base_type = "Hydrascale Boots"
+lvl_required = 59
+str_required = 56
+dex_required = 56
+int_required = 0
+armour = "106-122"
+evasion_rating = "106-122"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.arcanist_slippers]
+class = "Boots"
+base_type = "Arcanist Slippers"
+lvl_required = 61
+str_required = 0
+dex_required = 0
+int_required = 119
+armour = "-"
+evasion_rating = "-"
+energy_shield = "47-55"
+ward = "-"
+implicit_mod = "-"
+
+[boots.vaal_greaves]
+class = "Boots"
+base_type = "Vaal Greaves"
+lvl_required = 62
+str_required = 117
+dex_required = 0
+int_required = 0
+armour = "220-253"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.stealth_boots]
+class = "Boots"
+base_type = "Stealth Boots"
+lvl_required = 62
+str_required = 0
+dex_required = 117
+int_required = 0
+armour = "220-253"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.assassins_boots]
+class = "Boots"
+base_type = "Assassin's Boots"
+lvl_required = 63
+str_required = 0
+dex_required = 62
+int_required = 62
+armour = "-"
+evasion_rating = "121-139"
+energy_shield = "25-28"
+ward = "-"
+implicit_mod = "-"
+
+[boots.crusader_boots]
+class = "Boots"
+base_type = "Crusader Boots"
+lvl_required = 64
+str_required = 62
+dex_required = 0
+int_required = 62
+armour = "121-139"
+evasion_rating = "-"
+energy_shield = "25-28"
+ward = "-"
+implicit_mod = "-"
+
+[boots.dragonscale_boots]
+class = "Boots"
+base_type = "Dragonscale Boots"
+lvl_required = 65
+str_required = 62
+dex_required = 62
+int_required = 0
+armour = "121-139"
+evasion_rating = "121-139"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.sorcerer_boots]
+class = "Boots"
+base_type = "Sorcerer Boots"
+lvl_required = 67
+str_required = 0
+dex_required = 0
+int_required = 123
+armour = "-"
+evasion_rating = "-"
+energy_shield = "51-59"
+ward = "-"
+implicit_mod = "-"
+
+[boots.titan_greaves]
+class = "Boots"
+base_type = "Titan Greaves"
+lvl_required = 68
+str_required = 120
+dex_required = 0
+int_required = 0
+armour = "241-278"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.slink_boots]
+class = "Boots"
+base_type = "Slink Boots"
+lvl_required = 69
+str_required = 0
+dex_required = 120
+int_required = 0
+armour = "246-283"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[boots.murder_boots]
+class = "Boots"
+base_type = "Murder Boots"
+lvl_required = 69
+str_required = 0
+dex_required = 82
+int_required = 42
+armour = "-"
+evasion_rating = "185-213"
+energy_shield = "18-21"
+ward = "-"
+implicit_mod = "-"
+
+[boots.runic_sabatons]
+class = "Boots"
+base_type = "Runic Sabatons"
+lvl_required = 69
+str_required = 46
+dex_required = 46
+int_required = 46
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "102-117"
+implicit_mod = "-"
+
+[boots.two-toned_boots]
+class = "Boots"
+base_type = "Two-Toned Boots"
+lvl_required = 70
+str_required = 0
+dex_required = 62
+int_required = 62
+armour = "-"
+evasion_rating = "126-145"
+energy_shield = "26-30"
+ward = "-"
+implicit_mod = "(8-12)% to Cold and Lightning Resistances"
+
+[boots.fugitive_boots]
+class = "Boots"
+base_type = "Fugitive Boots"
+lvl_required = 70
+str_required = 0
+dex_required = 56
+int_required = 76
+armour = "-"
+evasion_rating = "112-129"
+energy_shield = "32-37"
+ward = "-"
+implicit_mod = "(13-17)% to Chaos Resistance"
+
+[boots.brimstone_treads]
+class = "Boots"
+base_type = "Brimstone Treads"
+lvl_required = 80
+str_required = 124
+dex_required = 0
+int_required = 0
+armour = "236-271"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(4-5)% Chance to Block Attack Damage & You take 20% of Damage from Blocked Hits"
+
+[boots.stormrider_boots]
+class = "Boots"
+base_type = "Stormrider Boots"
+lvl_required = 80
+str_required = 0
+dex_required = 124
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating & 25% less Accuracy Rating"
+
+[boots.dreamquest_slippers]
+class = "Boots"
+base_type = "Dreamquest Slippers"
+lvl_required = 80
+str_required = 0
+dex_required = 0
+int_required = 124
+armour = "-"
+evasion_rating = "-"
+energy_shield = "50-57"
+ward = "-"
+implicit_mod = "10% reduced Movement Speed & (30-40)% increased Cooldown Recovery Rate of Movement Skills"

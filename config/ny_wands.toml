@@ -1,0 +1,278 @@
+####################################################################################################
+########## Wands
+####################################################################################################
+[wands]
+[wands.driftwood_wand]
+class = "Wands"
+base_type = "Driftwood Wand"
+lvl_required = 1
+int_required = 14
+damage = "5-9"
+critical_chance = "7.00%"
+aps = 1.4
+dps = 9.8
+implicit_mod = "(8-12)% increased Spell Damage"
+
+[wands.goats_horn]
+class = "Wands"
+base_type = "Goat's Horn"
+lvl_required = 6
+int_required = 29
+damage = "9-16"
+critical_chance = "7.00%"
+aps = 1.2
+dps = 15
+implicit_mod = "Adds (1-2) to (3-4) Fire Damage to Spells and Attacks"
+
+[wands.carved_wand]
+class = "Wands"
+base_type = "Carved Wand"
+lvl_required = 12
+int_required = 47
+damage = "9-17"
+critical_chance = "7.00%"
+aps = 1.5
+dps = 19.5
+implicit_mod = "(11-15)% increased Spell Damage"
+
+[wands.quartz_wand]
+class = "Wands"
+base_type = "Quartz Wand"
+lvl_required = 18
+int_required = 65
+damage = "14-27"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 26.7
+implicit_mod = "Adds (2-3) to (4-7) Cold Damage to Spells and Attacks"
+
+[wands.calling_wand]
+class = "Wands"
+base_type = "Calling Wand"
+lvl_required = 20
+int_required = 81
+damage = "13-25"
+critical_chance = "7.00%"
+aps = 1.4
+dps = 26.6
+implicit_mod = "Minions deal (12-16)% increased Damage"
+
+[wands.spiraled_wand]
+class = "Wands"
+base_type = "Spiraled Wand"
+lvl_required = 24
+int_required = 83
+damage = "12-37"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 31.9
+implicit_mod = "Adds (1-2) to (9-11) Lightning Damage to Spells and Attacks"
+
+[wands.sage_wand]
+class = "Wands"
+base_type = "Sage Wand"
+lvl_required = 30
+int_required = 119
+damage = "23-42"
+critical_chance = "8.00%"
+aps = 1.2
+dps = 39
+implicit_mod = "(17-21)% increased Spell Damage"
+
+[wands.assembler_wand]
+class = "Wands"
+base_type = "Assembler Wand"
+lvl_required = 30
+int_required = 101
+damage = "16-30"
+critical_chance = "7.50%"
+aps = 1.4
+dps = 32.2
+implicit_mod = "Gain an Endurance, Frenzy or Power Charge every 6 seconds"
+
+[wands.pagan_wand]
+class = "Wands"
+base_type = "Pagan Wand"
+lvl_required = 34
+int_required = 118
+damage = "22-40"
+critical_chance = "7.00%"
+aps = 1.35
+dps = 41.8
+implicit_mod = "10% increased Cast Speed"
+
+[wands.fauns_horn]
+class = "Wands"
+base_type = "Faun's Horn"
+lvl_required = 35
+int_required = 116
+damage = "26-48"
+critical_chance = "7.00%"
+aps = 1.2
+dps = 44.4
+implicit_mod = "Adds (5-10) to (11-13) Fire Damage to Spells and Attacks"
+
+[wands.engraved_wand]
+class = "Wands"
+base_type = "Engraved Wand"
+lvl_required = 40
+int_required = 131
+damage = "21-38"
+critical_chance = "7.00%"
+aps = 1.5
+dps = 44.2
+implicit_mod = "(22-26)% increased Spell Damage"
+
+[wands.crystal_wand]
+class = "Wands"
+base_type = "Crystal Wand"
+lvl_required = 45
+int_required = 146
+damage = "28-52"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 52
+implicit_mod = "Adds (4-8) to (10-12) Cold Damage to Spells and Attacks"
+
+[wands.coiled_wand]
+class = "Wands"
+base_type = "Coiled Wand"
+lvl_required = 49
+int_required = 158
+damage = "21-64"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 55.3
+implicit_mod = "Adds (1-2) to (22-24) Lightning Damage to Spells and Attacks"
+
+[wands.congregator_wand]
+class = "Wands"
+base_type = "Congregator Wand"
+lvl_required = 50
+int_required = 168
+damage = "25-46"
+critical_chance = "7.50%"
+aps = 1.4
+dps = 49.7
+implicit_mod = "Gain an Endurance, Frenzy or Power Charge every 6 seconds"
+
+[wands.convening_wand]
+class = "Wands"
+base_type = "Convening Wand"
+lvl_required = 50
+int_required = 183
+damage = "27-50"
+critical_chance = "7.00%"
+aps = 1.4
+dps = 53.9
+implicit_mod = "Minions deal (20-24)% increased Damage"
+
+[wands.omen_wand]
+class = "Wands"
+base_type = "Omen Wand"
+lvl_required = 53
+int_required = 200
+damage = "33-61"
+critical_chance = "8.00%"
+aps = 1.2
+dps = 56.4
+implicit_mod = "(27-31)% increased Spell Damage"
+
+[wands.heathen_wand]
+class = "Wands"
+base_type = "Heathen Wand"
+lvl_required = 55
+int_required = 184
+damage = "31-57"
+critical_chance = "7.00%"
+aps = 1.35
+dps = 59.4
+implicit_mod = "10% increased Cast Speed"
+
+[wands.demons_horn]
+class = "Wands"
+base_type = "Demon's Horn"
+lvl_required = 56
+int_required = 179
+damage = "38-71"
+critical_chance = "7.00%"
+aps = 1.2
+dps = 65.4
+implicit_mod = "Adds (18-36) to (53-59) Fire Damage to Spells and Attacks"
+
+[wands.imbued_wand]
+class = "Wands"
+base_type = "Imbued Wand"
+lvl_required = 59
+int_required = 188
+damage = "29-53"
+critical_chance = "7.00%"
+aps = 1.5
+dps = 61.5
+implicit_mod = "(33-37)% increased Spell Damage"
+
+[wands.opal_wand]
+class = "Wands"
+base_type = "Opal Wand"
+lvl_required = 62
+int_required = 212
+damage = "35-65"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 65
+implicit_mod = "Adds (14-29) to (42-47) Cold Damage to Spells and Attacks"
+
+[wands.tornado_wand]
+class = "Wands"
+base_type = "Tornado Wand"
+lvl_required = 65
+int_required = 212
+damage = "25-75"
+critical_chance = "7.00%"
+aps = 1.3
+dps = 65
+implicit_mod = "Adds (3-5) to (70-82) Lightning Damage to Spells and Attacks"
+
+[wands.prophecy_wand]
+class = "Wands"
+base_type = "Prophecy Wand"
+lvl_required = 68
+int_required = 245
+damage = "35-64"
+critical_chance = "8.00%"
+aps = 1.2
+dps = 59.4
+implicit_mod = "(36-40)% increased Spell Damage"
+
+[wands.profane_wand]
+class = "Wands"
+base_type = "Profane Wand"
+lvl_required = 70
+int_required = 237
+damage = "33-61"
+critical_chance = "7.00%"
+aps = 1.35
+dps = 63.4
+implicit_mod = "14% increased Cast Speed"
+
+[wands.accumulator_wand]
+class = "Wands"
+base_type = "Accumulator Wand"
+lvl_required = 70
+int_required = 237
+damage = "29-54"
+critical_chance = "7.50%"
+aps = 1.4
+dps = 58.1
+implicit_mod = "Gain 2 Endurance, Frenzy or Power Charges every 6 seconds"
+
+[wands.convoking_wand]
+class = "Wands"
+base_type = "Convoking Wand"
+lvl_required = 72
+int_required = 242
+damage = "30-55"
+critical_chance = "7.00%"
+aps = 1.4
+dps = 59.5
+implicit_mod = "Minions deal (26-30)% increased Damage"

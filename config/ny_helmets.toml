@@ -1,0 +1,1018 @@
+####################################################################################################
+########## Helmets
+####################################################################################################
+[helmets]
+[helmets.iron_hat]
+class = "Helmets"
+base_type = "Iron Hat"
+lvl_required = 1
+str_required = 9
+dex_required = 0
+int_required = 0
+armour = "9-13"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.leather_cap]
+class = "Helmets"
+base_type = "Leather Cap"
+lvl_required = 1
+str_required = 0
+dex_required = 13
+int_required = 0
+armour = "-"
+evasion_rating = "19-27"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.vine_circlet]
+class = "Helmets"
+base_type = "Vine Circlet"
+lvl_required = 1
+str_required = 0
+dex_required = 0
+int_required = 13
+armour = "-"
+evasion_rating = "-"
+energy_shield = "7-10"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.battered_helm]
+class = "Helmets"
+base_type = "Battered Helm"
+lvl_required = 1
+str_required = 8
+dex_required = 8
+int_required = 0
+armour = "13-18"
+evasion_rating = "13-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.scare_mask]
+class = "Helmets"
+base_type = "Scare Mask"
+lvl_required = 1
+str_required = 0
+dex_required = 8
+int_required = 8
+armour = "13-18"
+evasion_rating = "4-6"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.rusted_coif]
+class = "Helmets"
+base_type = "Rusted Coif"
+lvl_required = 5
+str_required = 9
+dex_required = 0
+int_required = 9
+armour = "16-22"
+evasion_rating = "-"
+energy_shield = "5-7"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.cone_helmet]
+class = "Helmets"
+base_type = "Cone Helmet"
+lvl_required = 7
+str_required = 21
+dex_required = 0
+int_required = 0
+armour = "38-50"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.iron_circlet]
+class = "Helmets"
+base_type = "Iron Circlet"
+lvl_required = 8
+str_required = 0
+dex_required = 0
+int_required = 23
+armour = "-"
+evasion_rating = "-"
+energy_shield = "12-15"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.tricorne]
+class = "Helmets"
+base_type = "Tricorne"
+lvl_required = 10
+str_required = 0
+dex_required = 27
+int_required = 0
+armour = "-"
+evasion_rating = "53-69"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.plague_mask]
+class = "Helmets"
+base_type = "Plague Mask"
+lvl_required = 10
+str_required = 0
+dex_required = 14
+int_required = 14
+armour = "29-38"
+evasion_rating = "7-10"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.soldier_helmet]
+class = "Helmets"
+base_type = "Soldier Helmet"
+lvl_required = 12
+str_required = 16
+dex_required = 0
+int_required = 16
+armour = "34-45"
+evasion_rating = "-"
+energy_shield = "8-11"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.golden_wreath]
+class = "Helmets"
+base_type = "Golden Wreath"
+lvl_required = 12
+str_required = 0
+dex_required = 0
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(16-24) to all Attributes"
+
+[helmets.golden_visage]
+class = "Helmets"
+base_type = "Golden Visage"
+lvl_required = 12
+str_required = 0
+dex_required = 0
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(8-16)% to all Elemental Resistances"
+
+[helmets.sallet]
+class = "Helmets"
+base_type = "Sallet"
+lvl_required = 13
+str_required = 18
+dex_required = 18
+int_required = 0
+armour = "37-48"
+evasion_rating = "37-48"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.sorrow_mask]
+class = "Helmets"
+base_type = "Sorrow Mask"
+lvl_required = 15
+str_required = 20
+dex_required = 20
+int_required = 0
+armour = "42-49"
+evasion_rating = "42-49"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "You are Crushed & (2-3) to maximum Fortification"
+
+[helmets.imp_crown]
+class = "Helmets"
+base_type = "Imp Crown"
+lvl_required = 15
+str_required = 20
+dex_required = 0
+int_required = 20
+armour = "42-49"
+evasion_rating = "-"
+energy_shield = "10-12"
+ward = "-"
+implicit_mod = "Socketed Skills apply Fire, Cold and Lightning Exposure on Hit & -10% to all Elemental Resistances"
+
+[helmets.gale_crown]
+class = "Helmets"
+base_type = "Gale Crown"
+lvl_required = 15
+str_required = 0
+dex_required = 20
+int_required = 20
+armour = "42-49"
+evasion_rating = "10-12"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Adds (3-4) to (5-6) Cold Damage & Your Hits treat Cold Resistance as 10% higher than actual value"
+
+[helmets.torture_cage]
+class = "Helmets"
+base_type = "Torture Cage"
+lvl_required = 17
+str_required = 0
+dex_required = 0
+int_required = 40
+armour = "-"
+evasion_rating = "-"
+energy_shield = "20-25"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.iron_mask]
+class = "Helmets"
+base_type = "Iron Mask"
+lvl_required = 17
+str_required = 0
+dex_required = 21
+int_required = 21
+armour = "48-60"
+evasion_rating = "11-14"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.barbute_helmet]
+class = "Helmets"
+base_type = "Barbute Helmet"
+lvl_required = 18
+str_required = 42
+dex_required = 0
+int_required = 0
+armour = "92-115"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.leather_hood]
+class = "Helmets"
+base_type = "Leather Hood"
+lvl_required = 20
+str_required = 0
+dex_required = 46
+int_required = 0
+armour = "-"
+evasion_rating = "101-127"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.great_helmet]
+class = "Helmets"
+base_type = "Great Helmet"
+lvl_required = 22
+str_required = 27
+dex_required = 0
+int_required = 27
+armour = "61-76"
+evasion_rating = "-"
+energy_shield = "14-17"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.visored_sallet]
+class = "Helmets"
+base_type = "Visored Sallet"
+lvl_required = 23
+str_required = 28
+dex_required = 28
+int_required = 0
+armour = "64-80"
+evasion_rating = "64-80"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.runic_helm]
+class = "Helmets"
+base_type = "Runic Helm"
+lvl_required = 25
+str_required = 30
+dex_required = 30
+int_required = 30
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "41-47"
+
+[helmets.close_helmet]
+class = "Helmets"
+base_type = "Close Helmet"
+lvl_required = 26
+str_required = 58
+dex_required = 0
+int_required = 0
+armour = "130-150"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.tribal_circlet]
+class = "Helmets"
+base_type = "Tribal Circlet"
+lvl_required = 26
+str_required = 0
+dex_required = 0
+int_required = 58
+armour = "-"
+evasion_rating = "-"
+energy_shield = "28-33"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.festival_mask]
+class = "Helmets"
+base_type = "Festival Mask"
+lvl_required = 28
+str_required = 0
+dex_required = 33
+int_required = 33
+armour = "77-88"
+evasion_rating = "17-19"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.wolf_pelt]
+class = "Helmets"
+base_type = "Wolf Pelt"
+lvl_required = 30
+str_required = 0
+dex_required = 66
+int_required = 0
+armour = "-"
+evasion_rating = "150-172"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.crusader_helmet]
+class = "Helmets"
+base_type = "Crusader Helmet"
+lvl_required = 31
+str_required = 36
+dex_required = 0
+int_required = 36
+armour = "85-95"
+evasion_rating = "-"
+energy_shield = "18-20"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.gilded_sallet]
+class = "Helmets"
+base_type = "Gilded Sallet"
+lvl_required = 33
+str_required = 38
+dex_required = 38
+int_required = 0
+armour = "90-97"
+evasion_rating = "90-97"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.bone_circlet]
+class = "Helmets"
+base_type = "Bone Circlet"
+lvl_required = 34
+str_required = 0
+dex_required = 0
+int_required = 73
+armour = "-"
+evasion_rating = "-"
+energy_shield = "36-40"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.gladiator_helmet]
+class = "Helmets"
+base_type = "Gladiator Helmet"
+lvl_required = 35
+str_required = 75
+dex_required = 0
+int_required = 0
+armour = "174-195"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.golden_mask]
+class = "Helmets"
+base_type = "Golden Mask"
+lvl_required = 35
+str_required = 0
+dex_required = 40
+int_required = 40
+armour = "96-103"
+evasion_rating = "20-22"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.secutor_helm]
+class = "Helmets"
+base_type = "Secutor Helm"
+lvl_required = 36
+str_required = 42
+dex_required = 42
+int_required = 0
+armour = "98-116"
+evasion_rating = "98-116"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.aventail_helmet]
+class = "Helmets"
+base_type = "Aventail Helmet"
+lvl_required = 37
+str_required = 42
+dex_required = 0
+int_required = 42
+armour = "101-119"
+evasion_rating = "-"
+energy_shield = "21-25"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.raven_mask]
+class = "Helmets"
+base_type = "Raven Mask"
+lvl_required = 38
+str_required = 0
+dex_required = 44
+int_required = 44
+armour = "104-119"
+evasion_rating = "22-25"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.lunaris_circlet]
+class = "Helmets"
+base_type = "Lunaris Circlet"
+lvl_required = 39
+str_required = 0
+dex_required = 0
+int_required = 83
+armour = "-"
+evasion_rating = "-"
+energy_shield = "41-48"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.reaver_helmet]
+class = "Helmets"
+base_type = "Reaver Helmet"
+lvl_required = 40
+str_required = 85
+dex_required = 0
+int_required = 0
+armour = "198-233"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.hunter_hood]
+class = "Helmets"
+base_type = "Hunter Hood"
+lvl_required = 41
+str_required = 0
+dex_required = 87
+int_required = 0
+armour = "-"
+evasion_rating = "203-227"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.fencer_helm]
+class = "Helmets"
+base_type = "Fencer Helm"
+lvl_required = 43
+str_required = 49
+dex_required = 49
+int_required = 0
+armour = "117-134"
+evasion_rating = "117-134"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.zealot_helmet]
+class = "Helmets"
+base_type = "Zealot Helmet"
+lvl_required = 44
+str_required = 50
+dex_required = 0
+int_required = 50
+armour = "119-137"
+evasion_rating = "-"
+energy_shield = "25-29"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.atonement_mask]
+class = "Helmets"
+base_type = "Atonement Mask"
+lvl_required = 45
+str_required = 51
+dex_required = 51
+int_required = 0
+armour = "122-140"
+evasion_rating = "122-140"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "You are Crushed & (2-3) to maximum Fortification"
+
+[helmets.demon_crown]
+class = "Helmets"
+base_type = "Demon Crown"
+lvl_required = 45
+str_required = 51
+dex_required = 0
+int_required = 51
+armour = "122-140"
+evasion_rating = "-"
+energy_shield = "25-29"
+ward = "-"
+implicit_mod = "Socketed Skills apply Fire, Cold and Lightning Exposure on Hit & -10% to all Elemental Resistances"
+
+[helmets.callous_mask]
+class = "Helmets"
+base_type = "Callous Mask"
+lvl_required = 45
+str_required = 0
+dex_required = 51
+int_required = 51
+armour = "122-137"
+evasion_rating = "25-28"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.winter_crown]
+class = "Helmets"
+base_type = "Winter Crown"
+lvl_required = 45
+str_required = 0
+dex_required = 51
+int_required = 51
+armour = "122-140"
+evasion_rating = "25-29"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Adds (15-20) to (28-35) Cold Damage & Your Hits treat Cold Resistance as 10% higher than actual value"
+
+[helmets.noble_tricorne]
+class = "Helmets"
+base_type = "Noble Tricorne"
+lvl_required = 47
+str_required = 0
+dex_required = 99
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.siege_helmet]
+class = "Helmets"
+base_type = "Siege Helmet"
+lvl_required = 48
+str_required = 101
+dex_required = 0
+int_required = 0
+armour = "237-272"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.steel_circlet]
+class = "Helmets"
+base_type = "Steel Circlet"
+lvl_required = 48
+str_required = 0
+dex_required = 0
+int_required = 101
+armour = "-"
+evasion_rating = "-"
+energy_shield = "49-55"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.runic_crest]
+class = "Helmets"
+base_type = "Runic Crest"
+lvl_required = 49
+str_required = 55
+dex_required = 55
+int_required = 55
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "97-112"
+
+[helmets.lacquered_helmet]
+class = "Helmets"
+base_type = "Lacquered Helmet"
+lvl_required = 51
+str_required = 57
+dex_required = 57
+int_required = 0
+armour = "138-155"
+evasion_rating = "138-155"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.regicide_mask]
+class = "Helmets"
+base_type = "Regicide Mask"
+lvl_required = 52
+str_required = 0
+dex_required = 58
+int_required = 58
+armour = "141-158"
+evasion_rating = "29-32"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.great_crown]
+class = "Helmets"
+base_type = "Great Crown"
+lvl_required = 53
+str_required = 59
+dex_required = 0
+int_required = 59
+armour = "143-161"
+evasion_rating = "-"
+energy_shield = "29-33"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.necromancer_circlet]
+class = "Helmets"
+base_type = "Necromancer Circlet"
+lvl_required = 54
+str_required = 0
+dex_required = 0
+int_required = 112
+armour = "-"
+evasion_rating = "-"
+energy_shield = "55-64"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.samnite_helmet]
+class = "Helmets"
+base_type = "Samnite Helmet"
+lvl_required = 55
+str_required = 114
+dex_required = 0
+int_required = 0
+armour = "276-325"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.ursine_pelt]
+class = "Helmets"
+base_type = "Ursine Pelt"
+lvl_required = 55
+str_required = 0
+dex_required = 114
+int_required = 0
+armour = "276-325"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.harlequin_mask]
+class = "Helmets"
+base_type = "Harlequin Mask"
+lvl_required = 57
+str_required = 0
+dex_required = 64
+int_required = 64
+armour = "157-185"
+evasion_rating = "32-38"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.fluted_bascinet]
+class = "Helmets"
+base_type = "Fluted Bascinet"
+lvl_required = 58
+str_required = 64
+dex_required = 64
+int_required = 0
+armour = "160-189"
+evasion_rating = "160-189"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.magistrate_crown]
+class = "Helmets"
+base_type = "Magistrate Crown"
+lvl_required = 58
+str_required = 64
+dex_required = 0
+int_required = 64
+armour = "160-189"
+evasion_rating = "-"
+energy_shield = "33-39"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.solaris_circlet]
+class = "Helmets"
+base_type = "Solaris Circlet"
+lvl_required = 59
+str_required = 0
+dex_required = 0
+int_required = 122
+armour = "-"
+evasion_rating = "-"
+energy_shield = "60-68"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.ezomyte_burgonet]
+class = "Helmets"
+base_type = "Ezomyte Burgonet"
+lvl_required = 60
+str_required = 138
+dex_required = 0
+int_required = 0
+armour = "346-381"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.silken_hood]
+class = "Helmets"
+base_type = "Silken Hood"
+lvl_required = 60
+str_required = 0
+dex_required = 138
+int_required = 0
+armour = "346-381"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.vaal_mask]
+class = "Helmets"
+base_type = "Vaal Mask"
+lvl_required = 62
+str_required = 0
+dex_required = 79
+int_required = 72
+armour = "207-239"
+evasion_rating = "37-43"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.pig-faced_bascinet]
+class = "Helmets"
+base_type = "Pig-Faced Bascinet"
+lvl_required = 63
+str_required = 85
+dex_required = 62
+int_required = 0
+armour = "229-263"
+evasion_rating = "159-183"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.prophet_crown]
+class = "Helmets"
+base_type = "Prophet Crown"
+lvl_required = 63
+str_required = 85
+dex_required = 0
+int_required = 62
+armour = "224-258"
+evasion_rating = "-"
+energy_shield = "32-37"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.sinner_tricorne]
+class = "Helmets"
+base_type = "Sinner Tricorne"
+lvl_required = 64
+str_required = 0
+dex_required = 138
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.royal_burgonet]
+class = "Helmets"
+base_type = "Royal Burgonet"
+lvl_required = 65
+str_required = 148
+dex_required = 0
+int_required = 0
+armour = "377-434"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.mind_cage]
+class = "Helmets"
+base_type = "Mind Cage"
+lvl_required = 65
+str_required = 0
+dex_required = 0
+int_required = 138
+armour = "-"
+evasion_rating = "-"
+energy_shield = "73-84"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.nightmare_bascinet]
+class = "Helmets"
+base_type = "Nightmare Bascinet"
+lvl_required = 67
+str_required = 62
+dex_required = 85
+int_required = 0
+armour = "162-187"
+evasion_rating = "233-268"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.deicide_mask]
+class = "Helmets"
+base_type = "Deicide Mask"
+lvl_required = 67
+str_required = 0
+dex_required = 73
+int_required = 88
+armour = "190-219"
+evasion_rating = "47-54"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.praetor_crown]
+class = "Helmets"
+base_type = "Praetor Crown"
+lvl_required = 68
+str_required = 62
+dex_required = 0
+int_required = 91
+armour = "161-185"
+evasion_rating = "-"
+energy_shield = "51-58"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.runic_crown]
+class = "Helmets"
+base_type = "Runic Crown"
+lvl_required = 68
+str_required = 66
+dex_required = 66
+int_required = 66
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "164-189"
+
+[helmets.eternal_burgonet]
+class = "Helmets"
+base_type = "Eternal Burgonet"
+lvl_required = 69
+str_required = 138
+dex_required = 0
+int_required = 0
+armour = "373-429"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.hubris_circlet]
+class = "Helmets"
+base_type = "Hubris Circlet"
+lvl_required = 69
+str_required = 0
+dex_required = 0
+int_required = 154
+armour = "-"
+evasion_rating = "-"
+energy_shield = "80-92"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.lion_pelt]
+class = "Helmets"
+base_type = "Lion Pelt"
+lvl_required = 70
+str_required = 0
+dex_required = 150
+int_required = 0
+armour = "-"
+evasion_rating = "380-437"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[helmets.bone_helmet]
+class = "Helmets"
+base_type = "Bone Helmet"
+lvl_required = 73
+str_required = 76
+dex_required = 0
+int_required = 76
+armour = "197-227"
+evasion_rating = "-"
+energy_shield = "40-46"
+ward = "-"
+implicit_mod = "Minions deal (15-20)% increased Damage"
+
+[helmets.penitent_mask]
+class = "Helmets"
+base_type = "Penitent Mask"
+lvl_required = 75
+str_required = 79
+dex_required = 79
+int_required = 0
+armour = "185-212"
+evasion_rating = "185-212"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "You are Crushed & (2-3) to maximum Fortification"
+
+[helmets.archdemon_crown]
+class = "Helmets"
+base_type = "Archdemon Crown"
+lvl_required = 75
+str_required = 79
+dex_required = 0
+int_required = 79
+armour = "185-212"
+evasion_rating = "-"
+energy_shield = "38-43"
+ward = "-"
+implicit_mod = "Socketed Skills apply Fire, Cold and Lightning Exposure on Hit & -10% to all Elemental Resistances"
+
+[helmets.blizzard_crown]
+class = "Helmets"
+base_type = "Blizzard Crown"
+lvl_required = 75
+str_required = 0
+dex_required = 79
+int_required = 79
+armour = "185-212"
+evasion_rating = "38-43"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Adds (75-85) to (115-128) Cold Damage & Your Hits treat Cold Resistance as 10% higher than actual value"
+

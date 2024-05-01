@@ -1,0 +1,69 @@
+####################################################################################################
+########## Belts
+####################################################################################################
+[belts]
+[belts.chain_belt]
+class = "Belts"
+base_type = "Chain Belt"
+lvl_required = 1
+implicit_mod = "+(9-20) to maximum Energy Shield"
+
+[belts.rustic_sash]
+class = "Belts"
+base_type = "Rustic Sash"
+lvl_required = 1
+implicit_mod = "(12-24)% increased Global Physical Damage"
+
+[belts.stygian_vise]
+class = "Belts"
+base_type = "Stygian Vise"
+lvl_required = 1
+implicit_mod = "Has 1 Abyssal Socket"
+
+[belts.heavy_belt]
+class = "Belts"
+base_type = "Heavy Belt"
+lvl_required = 8
+implicit_mod = "+(25-35) to Strength"
+
+[belts.leather_belt]
+class = "Belts"
+base_type = "Leather Belt"
+lvl_required = 8
+implicit_mod = "+(25-40) to maximum Life"
+
+[belts.cloth_belt]
+class = "Belts"
+base_type = "Cloth Belt"
+lvl_required = 16
+implicit_mod = "(15-25)% increased Stun and Block Recovery"
+
+[belts.studded_belt]
+class = "Belts"
+base_type = "Studded Belt"
+lvl_required = 16
+implicit_mod = "(20-30)% increased Stun Duration on Enemies"
+
+[belts.micro-distillery_belt]
+class = "Belts"
+base_type = "Micro-Distillery Belt"
+lvl_required = 24
+implicit_mod = "Can't use Flask in Fifth Slot & Flasks applied to you have 30% increased Effect"
+
+[belts.mechanical_belt]
+class = "Belts"
+base_type = "Mechanical Belt"
+lvl_required = 56
+implicit_mod = "Has 1 Socket"
+
+[belts.vanguard_belt]
+class = "Belts"
+base_type = "Vanguard Belt"
+lvl_required = 78
+implicit_mod = "+(260-320) to Armour and Evasion Rating"
+
+[belts.crystal_belt]
+class = "Belts"
+base_type = "Crystal Belt"
+lvl_required = 79
+implicit_mod = "+(60-80) to maximum Energy Shield"

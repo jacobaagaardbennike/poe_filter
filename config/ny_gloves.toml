@@ -1,0 +1,888 @@
+####################################################################################################
+########## Gloves
+####################################################################################################
+[gloves]
+[gloves.iron_gauntlets]
+class = "Gloves"
+base_type = "Iron Gauntlets"
+lvl_required = 1
+str_required = 6
+dex_required = 0
+int_required = 0
+armour = "6-9"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.rawhide_gloves]
+class = "Gloves"
+base_type = "Rawhide Gloves"
+lvl_required = 1
+str_required = 0
+dex_required = 9
+int_required = 0
+armour = "-"
+evasion_rating = "13-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.wool_gloves]
+class = "Gloves"
+base_type = "Wool Gloves"
+lvl_required = 1
+str_required = 0
+dex_required = 0
+int_required = 9
+armour = "-"
+evasion_rating = "-"
+energy_shield = "5-7"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.fishscale_gauntlets]
+class = "Gloves"
+base_type = "Fishscale Gauntlets"
+lvl_required = 1
+str_required = 5
+dex_required = 5
+int_required = 0
+armour = "9-12"
+evasion_rating = "9-12"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.wrapped_mitts]
+class = "Gloves"
+base_type = "Wrapped Mitts"
+lvl_required = 5
+str_required = 0
+dex_required = 6
+int_required = 6
+armour = "-"
+evasion_rating = "11-15"
+energy_shield = "3-5"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.chain_gloves]
+class = "Gloves"
+base_type = "Chain Gloves"
+lvl_required = 7
+str_required = 8
+dex_required = 0
+int_required = 8
+armour = "14-20"
+evasion_rating = "-"
+energy_shield = "4-6"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.goathide_gloves]
+class = "Gloves"
+base_type = "Goathide Gloves"
+lvl_required = 9
+str_required = 0
+dex_required = 17
+int_required = 0
+armour = "-"
+evasion_rating = "32-42"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.taxing_gauntlets]
+class = "Gloves"
+base_type = "Taxing Gauntlets"
+lvl_required = 10
+str_required = 18
+dex_required = 0
+int_required = 0
+armour = "35-41"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Exerted Attacks deal (25-30)% increased Damage & Warcry Skills have +2 seconds to Cooldown"
+
+[gloves.gauche_gloves]
+class = "Gloves"
+base_type = "Gauche Gloves"
+lvl_required = 10
+str_required = 0
+dex_required = 18
+int_required = 0
+armour = "-"
+evasion_rating = "35-41"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "25% reduced Attack Damage with Main Hand & (40-50)% increased Attack Damage with Off Hand"
+
+[gloves.leyline_gloves]
+class = "Gloves"
+base_type = "Leyline Gloves"
+lvl_required = 10
+str_required = 0
+dex_required = 0
+int_required = 18
+armour = "-"
+evasion_rating = "-"
+energy_shield = "9-10"
+ward = "-"
+implicit_mod = "30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"
+
+[gloves.plated_gauntlets]
+class = "Gloves"
+base_type = "Plated Gauntlets"
+lvl_required = 11
+str_required = 20
+dex_required = 0
+int_required = 0
+armour = "39-50"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.velvet_gloves]
+class = "Gloves"
+base_type = "Velvet Gloves"
+lvl_required = 12
+str_required = 0
+dex_required = 0
+int_required = 21
+armour = "-"
+evasion_rating = "-"
+energy_shield = "10-13"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.golden_bracers]
+class = "Gloves"
+base_type = "Golden Bracers"
+lvl_required = 12
+str_required = 0
+dex_required = 0
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(20-30) to maximum Life"
+
+[gloves.ironscale_gauntlets]
+class = "Gloves"
+base_type = "Ironscale Gauntlets"
+lvl_required = 15
+str_required = 14
+dex_required = 14
+int_required = 0
+armour = "28-37"
+evasion_rating = "28-37"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.strapped_mitts]
+class = "Gloves"
+base_type = "Strapped Mitts"
+lvl_required = 16
+str_required = 0
+dex_required = 14
+int_required = 14
+armour = "-"
+evasion_rating = "30-39"
+energy_shield = "7-9"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.ringmail_gloves]
+class = "Gloves"
+base_type = "Ringmail Gloves"
+lvl_required = 19
+str_required = 16
+dex_required = 0
+int_required = 16
+armour = "35-46"
+evasion_rating = "-"
+energy_shield = "8-10"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.deerskin_gloves]
+class = "Gloves"
+base_type = "Deerskin Gloves"
+lvl_required = 21
+str_required = 0
+dex_required = 33
+int_required = 0
+armour = "-"
+evasion_rating = "71-88"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.bronze_gauntlets]
+class = "Gloves"
+base_type = "Bronze Gauntlets"
+lvl_required = 23
+str_required = 36
+dex_required = 0
+int_required = 0
+armour = "77-96"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.runic_gloves]
+class = "Gloves"
+base_type = "Runic Gloves"
+lvl_required = 24
+str_required = 16
+dex_required = 16
+int_required = 16
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "24-28"
+implicit_mod = "-"
+
+[gloves.silk_gloves]
+class = "Gloves"
+base_type = "Silk Gloves"
+lvl_required = 25
+str_required = 0
+dex_required = 0
+int_required = 39
+armour = "-"
+evasion_rating = "-"
+energy_shield = "18-23"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.bronzescale_gauntlets]
+class = "Gloves"
+base_type = "Bronzescale Gauntlets"
+lvl_required = 27
+str_required = 22
+dex_required = 22
+int_required = 0
+armour = "50-62"
+evasion_rating = "50-62"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.clasped_mitts]
+class = "Gloves"
+base_type = "Clasped Mitts"
+lvl_required = 31
+str_required = 0
+dex_required = 25
+int_required = 25
+armour = "-"
+evasion_rating = "57-65"
+energy_shield = "12-14"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.mesh_gloves]
+class = "Gloves"
+base_type = "Mesh Gloves"
+lvl_required = 32
+str_required = 26
+dex_required = 0
+int_required = 26
+armour = "58-67"
+evasion_rating = "-"
+energy_shield = "12-14"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.nubuck_gloves]
+class = "Gloves"
+base_type = "Nubuck Gloves"
+lvl_required = 33
+str_required = 0
+dex_required = 50
+int_required = 0
+armour = "-"
+evasion_rating = "109-122"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.steel_gauntlets]
+class = "Gloves"
+base_type = "Steel Gauntlets"
+lvl_required = 35
+str_required = 52
+dex_required = 0
+int_required = 0
+armour = "116-127"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.embroidered_gloves]
+class = "Gloves"
+base_type = "Embroidered Gloves"
+lvl_required = 36
+str_required = 0
+dex_required = 0
+int_required = 54
+armour = "-"
+evasion_rating = "-"
+energy_shield = "25-28"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.steelscale_gauntlets]
+class = "Gloves"
+base_type = "Steelscale Gauntlets"
+lvl_required = 36
+str_required = 29
+dex_required = 29
+int_required = 0
+armour = "65-75"
+evasion_rating = "65-75"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.trapper_mitts]
+class = "Gloves"
+base_type = "Trapper Mitts"
+lvl_required = 36
+str_required = 0
+dex_required = 29
+int_required = 29
+armour = "-"
+evasion_rating = "65-77"
+energy_shield = "14-16"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.riveted_gloves]
+class = "Gloves"
+base_type = "Riveted Gloves"
+lvl_required = 37
+str_required = 29
+dex_required = 0
+int_required = 29
+armour = "67-77"
+evasion_rating = "-"
+energy_shield = "14-16"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.eelskin_gloves]
+class = "Gloves"
+base_type = "Eelskin Gloves"
+lvl_required = 38
+str_required = 0
+dex_required = 56
+int_required = 0
+armour = "-"
+evasion_rating = "125-148"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.antique_gauntlets]
+class = "Gloves"
+base_type = "Antique Gauntlets"
+lvl_required = 39
+str_required = 58
+dex_required = 0
+int_required = 0
+armour = "129-154"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.gruelling_gauntlets]
+class = "Gloves"
+base_type = "Gruelling Gauntlets"
+lvl_required = 40
+str_required = 59
+dex_required = 0
+int_required = 0
+armour = "132-152"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Exerted Attacks deal (30-40)% increased Damage & Warcry Skills have +2 seconds to Cooldown"
+
+[gloves.southswing_gloves]
+class = "Gloves"
+base_type = "Southswing Gloves"
+lvl_required = 40
+str_required = 0
+dex_required = 59
+int_required = 0
+armour = "132-152"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "25% reduced Attack Damage with Main Hand & (40-50)% increased Attack Damage with Off Hand"
+
+[gloves.aetherwind_gloves]
+class = "Gloves"
+base_type = "Aetherwind Gloves"
+lvl_required = 40
+str_required = 0
+dex_required = 0
+int_required = 59
+armour = "-"
+evasion_rating = "-"
+energy_shield = "28-32"
+ward = "-"
+implicit_mod = "30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"
+
+[gloves.satin_gloves]
+class = "Gloves"
+base_type = "Satin Gloves"
+lvl_required = 41
+str_required = 0
+dex_required = 0
+int_required = 60
+armour = "-"
+evasion_rating = "-"
+energy_shield = "28-33"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.serpentscale_gauntlets]
+class = "Gloves"
+base_type = "Serpentscale Gauntlets"
+lvl_required = 43
+str_required = 34
+dex_required = 34
+int_required = 0
+armour = "78-87"
+evasion_rating = "78-87"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.zealot_gloves]
+class = "Gloves"
+base_type = "Zealot Gloves"
+lvl_required = 43
+str_required = 34
+dex_required = 0
+int_required = 34
+armour = "78-92"
+evasion_rating = "-"
+energy_shield = "16-19"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.sharkskin_gloves]
+class = "Gloves"
+base_type = "Sharkskin Gloves"
+lvl_required = 45
+str_required = 0
+dex_required = 66
+int_required = 0
+armour = "-"
+evasion_rating = "148-163"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.ambush_mitts]
+class = "Gloves"
+base_type = "Ambush Mitts"
+lvl_required = 45
+str_required = 0
+dex_required = 35
+int_required = 35
+armour = "-"
+evasion_rating = "81-91"
+energy_shield = "17-19"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.ancient_gauntlets]
+class = "Gloves"
+base_type = "Ancient Gauntlets"
+lvl_required = 47
+str_required = 68
+dex_required = 0
+int_required = 0
+armour = "154-173"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.samite_gloves]
+class = "Gloves"
+base_type = "Samite Gloves"
+lvl_required = 47
+str_required = 0
+dex_required = 0
+int_required = 68
+armour = "-"
+evasion_rating = "-"
+energy_shield = "32-37"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.runic_gages]
+class = "Gloves"
+base_type = "Runic Gages"
+lvl_required = 48
+str_required = 31
+dex_required = 31
+int_required = 31
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "62-71"
+implicit_mod = "-"
+
+[gloves.wyrmscale_gauntlets]
+class = "Gloves"
+base_type = "Wyrmscale Gauntlets"
+lvl_required = 49
+str_required = 38
+dex_required = 38
+int_required = 0
+armour = "88-104"
+evasion_rating = "88-104"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.carnal_mitts]
+class = "Gloves"
+base_type = "Carnal Mitts"
+lvl_required = 50
+str_required = 0
+dex_required = 39
+int_required = 39
+armour = "-"
+evasion_rating = "90-101"
+energy_shield = "19-21"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.soldier_gloves]
+class = "Gloves"
+base_type = "Soldier Gloves"
+lvl_required = 51
+str_required = 40
+dex_required = 0
+int_required = 40
+armour = "92-103"
+evasion_rating = "-"
+energy_shield = "19-21"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.goliath_gauntlets]
+class = "Gloves"
+base_type = "Goliath Gauntlets"
+lvl_required = 53
+str_required = 77
+dex_required = 0
+int_required = 0
+armour = "174-200"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.shagreen_gloves]
+class = "Gloves"
+base_type = "Shagreen Gloves"
+lvl_required = 54
+str_required = 0
+dex_required = 78
+int_required = 0
+armour = "-"
+evasion_rating = "177-212"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.conjurer_gloves]
+class = "Gloves"
+base_type = "Conjurer Gloves"
+lvl_required = 55
+str_required = 0
+dex_required = 0
+int_required = 79
+armour = "-"
+evasion_rating = "-"
+energy_shield = "37-44"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.legion_gloves]
+class = "Gloves"
+base_type = "Legion Gloves"
+lvl_required = 57
+str_required = 44
+dex_required = 0
+int_required = 44
+armour = "103-121"
+evasion_rating = "-"
+energy_shield = "21-25"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.assassins_mitts]
+class = "Gloves"
+base_type = "Assassin's Mitts"
+lvl_required = 58
+str_required = 0
+dex_required = 45
+int_required = 0
+armour = "104-123"
+evasion_rating = "21-25"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.hydrascale_gauntlets]
+class = "Gloves"
+base_type = "Hydrascale Gauntlets"
+lvl_required = 59
+str_required = 45
+dex_required = 45
+int_required = 0
+armour = "106-122"
+evasion_rating = "106-122"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.arcanist_gloves]
+class = "Gloves"
+base_type = "Arcanist Gloves"
+lvl_required = 60
+str_required = 0
+dex_required = 0
+int_required = 95
+armour = "-"
+evasion_rating = "-"
+energy_shield = "45-52"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.stealth_gloves]
+class = "Gloves"
+base_type = "Stealth Gloves"
+lvl_required = 62
+str_required = 0
+dex_required = 97
+int_required = 0
+armour = "231-265"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.vaal_gauntlets]
+class = "Gloves"
+base_type = "Vaal Gauntlets"
+lvl_required = 63
+str_required = 100
+dex_required = 0
+int_required = 0
+armour = "232-266"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.crusader_gloves]
+class = "Gloves"
+base_type = "Crusader Gloves"
+lvl_required = 66
+str_required = 51
+dex_required = 0
+int_required = 51
+armour = "121-139"
+evasion_rating = "-"
+energy_shield = "25-28"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.dragonscale_gauntlets]
+class = "Gloves"
+base_type = "Dragonscale Gauntlets"
+lvl_required = 67
+str_required = 51
+dex_required = 51
+int_required = 0
+armour = "121-139"
+evasion_rating = "121-139"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.murder_mitts]
+class = "Gloves"
+base_type = "Murder Mitts"
+lvl_required = 67
+str_required = 0
+dex_required = 51
+int_required = 51
+armour = "121-139"
+evasion_rating = "25-28"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.titan_gauntlets]
+class = "Gloves"
+base_type = "Titan Gauntlets"
+lvl_required = 69
+str_required = 98
+dex_required = 0
+int_required = 0
+armour = "242-278"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.sorcerer_gloves]
+class = "Gloves"
+base_type = "Sorcerer Gloves"
+lvl_required = 69
+str_required = 0
+dex_required = 0
+int_required = 97
+armour = "-"
+evasion_rating = "-"
+energy_shield = "49-57"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.runic_gauntlets]
+class = "Gloves"
+base_type = "Runic Gauntlets"
+lvl_required = 69
+str_required = 38
+dex_required = 38
+int_required = 38
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "102-117"
+implicit_mod = "-"
+
+[gloves.debilitation_gauntlets]
+class = "Gloves"
+base_type = "Debilitation Gauntlets"
+lvl_required = 70
+str_required = 101
+dex_required = 0
+int_required = 0
+armour = "236-271"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Exerted Attacks deal (40-50)% increased Damage & Warcry Skills have +2 seconds to Cooldown"
+
+[gloves.slink_gloves]
+class = "Gloves"
+base_type = "Slink Gloves"
+lvl_required = 70
+str_required = 0
+dex_required = 95
+int_required = 0
+armour = "242-278"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[gloves.sinistral_gloves]
+class = "Gloves"
+base_type = "Sinistral Gloves"
+lvl_required = 70
+str_required = 0
+dex_required = 101
+int_required = 0
+armour = "236-271"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "25% reduced Attack Damage with Main Hand & (40-50)% increased Attack Damage with Off Hand"
+
+[gloves.nexus_gloves]
+class = "Gloves"
+base_type = "Nexus Gloves"
+lvl_required = 70
+str_required = 0
+dex_required = 0
+int_required = 101
+armour = "-"
+evasion_rating = "-"
+energy_shield = "47-54"
+ward = "-"
+implicit_mod = "30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"
+
+[gloves.spiked_gloves]
+class = "Gloves"
+base_type = "Spiked Gloves"
+lvl_required = 70
+str_required = 95
+dex_required = 0
+int_required = 0
+armour = "220-253"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(16-20)% increased Melee Damage"
+
+[gloves.gripped_gloves]
+class = "Gloves"
+base_type = "Gripped Gloves"
+lvl_required = 70
+str_required = 0
+dex_required = 95
+int_required = 0
+armour = "220-253"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(14-18)% increased Projectile Attack Damage"
+
+[gloves.fingerless_silk_gloves]
+class = "Gloves"
+base_type = "Fingerless Silk Gloves"
+lvl_required = 70
+str_required = 0
+dex_required = 0
+int_required = 95
+armour = "-"
+evasion_rating = "-"
+energy_shield = "45-52"
+ward = "-"
+implicit_mod = "(12-16)% increased Spell Damage"
+
+[gloves.apothecarys_gloves]
+class = "Gloves"
+base_type = "Apothecary's Gloves"
+lvl_required = 70
+str_required = 46
+dex_required = 0
+int_required = 59
+armour = "108-124"
+evasion_rating = "-"
+energy_shield = "29-33"
+ward = "-"
+implicit_mod = "(14-18)% increased Damage over Time"
+

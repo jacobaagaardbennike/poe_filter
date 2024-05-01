@@ -1,0 +1,810 @@
+####################################################################################################
+########## Shields
+####################################################################################################
+[shields]
+[shields.splintered_tower_shield]
+class = "Shields"
+base_type = "Splintered Tower Shield"
+lvl_required = 1
+str_required = 11
+dex_required = 0
+int_required = 0
+armour = "9-12"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[shields.goathide_buckler]
+class = "Shields"
+base_type = "Goathide Buckler"
+lvl_required = 1
+str_required = 0
+dex_required = 13
+int_required = 0
+armour = "-"
+evasion_rating = "14-20"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[shields.twig_spirit_shield]
+class = "Shields"
+base_type = "Twig Spirit Shield"
+lvl_required = 1
+str_required = 0
+dex_required = 0
+int_required = 15
+armour = "-"
+evasion_rating = "-"
+energy_shield = "6-8"
+ward = "-"
+implicit_mod = "(10-15)% increased Spell Damage"
+
+[shields.corroded_tower_shield]
+class = "Shields"
+base_type = "Corroded Tower Shield"
+lvl_required = 5
+str_required = 20
+dex_required = 0
+int_required = 0
+armour = "36-47"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(10-20) to maximum Life"
+
+[shields.rotted_round_shield]
+class = "Shields"
+base_type = "Rotted Round Shield"
+lvl_required = 5
+str_required = 11
+dex_required = 11
+int_required = 0
+armour = "13-18"
+evasion_rating = "13-18"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "60% increased Block Recovery"
+
+[shields.spiked_bundle]
+class = "Shields"
+base_type = "Spiked Bundle"
+lvl_required = 5
+str_required = 0
+dex_required = 11
+int_required = 11
+armour = "-"
+evasion_rating = "13-18"
+energy_shield = "4-6"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[shields.plank_kite_shield]
+class = "Shields"
+base_type = "Plank Kite Shield"
+lvl_required = 7
+str_required = 13
+dex_required = 0
+int_required = 13
+armour = "18-25"
+evasion_rating = "-"
+energy_shield = "5-7"
+ward = "-"
+implicit_mod = "+4% to all Elemental Resistances"
+
+[shields.pine_buckler]
+class = "Shields"
+base_type = "Pine Buckler"
+lvl_required = 8
+str_required = 0
+dex_required = 26
+int_required = 0
+armour = "-"
+evasion_rating = "51-66"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[shields.yew_spirit_shield]
+class = "Shields"
+base_type = "Yew Spirit Shield"
+lvl_required = 9
+str_required = 0
+dex_required = 0
+int_required = 29
+armour = "-"
+evasion_rating = "-"
+energy_shield = "11-14"
+ward = "-"
+implicit_mod = "(5-10)% increased Spell Damage"
+
+[shields.rawhide_tower_shield]
+class = "Shields"
+base_type = "Rawhide Tower Shield"
+lvl_required = 11
+str_required = 33
+dex_required = 0
+int_required = 0
+armour = "53-66"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(10-20) to maximum Life"
+
+[shields.fir_round_shield]
+class = "Shields"
+base_type = "Fir Round Shield"
+lvl_required = 12
+str_required = 19
+dex_required = 19
+int_required = 0
+armour = "29-37"
+evasion_rating = "29-37"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "180% increased Block Recovery"
+
+[shields.driftwood_spiked_shield]
+class = "Shields"
+base_type = "Driftwood Spiked Shield"
+lvl_required = 12
+str_required = 0
+dex_required = 19
+int_required = 19
+armour = "-"
+evasion_rating = "46-60"
+energy_shield = "11-15"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[shields.linden_kite_shield]
+class = "Shields"
+base_type = "Linden Kite Shield"
+lvl_required = 13
+str_required = 20
+dex_required = 0
+int_required = 20
+armour = "43-56"
+evasion_rating = "-"
+energy_shield = "11-14"
+ward = "-"
+implicit_mod = "+4% to all Elemental Resistances"
+
+[shields.bone_spirit_shield]
+class = "Shields"
+base_type = "Bone Spirit Shield"
+lvl_required = 15
+str_required = 0
+dex_required = 0
+int_required = 42
+armour = "-"
+evasion_rating = "-"
+energy_shield = "15-19"
+ward = "-"
+implicit_mod = "Minions deal (5-10)% increased Damage"
+
+[shields.golden_flame]
+class = "Shields"
+base_type = "Golden Flame"
+lvl_required = 15
+str_required = 0
+dex_required = 0
+int_required = 0
+armour = "-"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(11-19)% to Chaos Resistance"
+
+[shields.painted_buckler]
+class = "Shields"
+base_type = "Painted Buckler"
+lvl_required = 16
+str_required = 0
+dex_required = 44
+int_required = 0
+armour = "-"
+evasion_rating = "123-154"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "6% increased Movement Speed"
+
+[shields.cedar_tower_shield]
+class = "Shields"
+base_type = "Cedar Tower Shield"
+lvl_required = 17
+str_required = 47
+dex_required = 0
+int_required = 0
+armour = "94-113"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(20-30) to maximum Life"
+
+[shields.studded_round_shield]
+class = "Shields"
+base_type = "Studded Round Shield"
+lvl_required = 20
+str_required = 29
+dex_required = 29
+int_required = 0
+armour = "46-58"
+evasion_rating = "46-58"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "60% increased Block Recovery"
+
+[shields.reinforced_kite_shield]
+class = "Shields"
+base_type = "Reinforced Kite Shield"
+lvl_required = 20
+str_required = 29
+dex_required = 0
+int_required = 29
+armour = "65-81"
+evasion_rating = "-"
+energy_shield = "15-18"
+ward = "-"
+implicit_mod = "-"
+
+[shields.alloyed_spiked_shield]
+class = "Shields"
+base_type = "Alloyed Spiked Shield"
+lvl_required = 20
+str_required = 0
+dex_required = 29
+int_required = 29
+armour = "-"
+evasion_rating = "56-70"
+energy_shield = "13-16"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[shields.hammered_buckler]
+class = "Shields"
+base_type = "Hammered Buckler"
+lvl_required = 23
+str_required = 0
+dex_required = 60
+int_required = 0
+armour = "-"
+evasion_rating = "116-139"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[shields.tarnished_spirit_shield]
+class = "Shields"
+base_type = "Tarnished Spirit Shield"
+lvl_required = 23
+str_required = 0
+dex_required = 0
+int_required = 60
+armour = "-"
+evasion_rating = "-"
+energy_shield = "21-25"
+ward = "-"
+implicit_mod = "(5-10)% increased Spell Damage"
+
+[shields.copper_tower_shield]
+class = "Shields"
+base_type = "Copper Tower Shield"
+lvl_required = 24
+str_required = 62
+dex_required = 0
+int_required = 0
+armour = "151-173"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(30-40) to maximum Life"
+
+[shields.scarlet_round_shield]
+class = "Shields"
+base_type = "Scarlet Round Shield"
+lvl_required = 27
+str_required = 37
+dex_required = 37
+int_required = 0
+armour = "87-100"
+evasion_rating = "87-100"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[shields.layered_kite_shield]
+class = "Shields"
+base_type = "Layered Kite Shield"
+lvl_required = 27
+str_required = 37
+dex_required = 0
+int_required = 37
+armour = "62-73"
+evasion_rating = "-"
+energy_shield = "13-16"
+ward = "-"
+implicit_mod = "+8% to all Elemental Resistances"
+
+[shields.burnished_spiked_shield]
+class = "Shields"
+base_type = "Burnished Spiked Shield"
+lvl_required = 27
+str_required = 0
+dex_required = 37
+int_required = 37
+armour = "-"
+evasion_rating = "62-73"
+energy_shield = "13-16"
+ward = "-"
+implicit_mod = "+5% chance to Suppress Spell Damage"
+
+[shields.jingling_spirit_shield]
+class = "Shields"
+base_type = "Jingling Spirit Shield"
+lvl_required = 28
+str_required = 0
+dex_required = 0
+int_required = 71
+armour = "-"
+evasion_rating = "-"
+energy_shield = "25-29"
+ward = "-"
+implicit_mod = "(10-15)% increased Spell Damage"
+
+[shields.war_buckler]
+class = "Shields"
+base_type = "War Buckler"
+lvl_required = 29
+str_required = 0
+dex_required = 74
+int_required = 0
+armour = "-"
+evasion_rating = "169-194"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "9% increased Movement Speed"
+
+[shields.reinforced_tower_shield]
+class = "Shields"
+base_type = "Reinforced Tower Shield"
+lvl_required = 30
+str_required = 76
+dex_required = 0
+int_required = 0
+armour = "237-260"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(10-20) to maximum Life"
+
+[shields.exothermic_tower_shield]
+class = "Shields"
+base_type = "Exothermic Tower Shield"
+lvl_required = 30
+str_required = 76
+dex_required = 0
+int_required = 0
+armour = "87-100"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Scorch Enemies when you Block their Damage"
+
+[shields.endothermic_buckler]
+class = "Shields"
+base_type = "Endothermic Buckler"
+lvl_required = 30
+str_required = 0
+dex_required = 76
+int_required = 0
+armour = "-"
+evasion_rating = "75-86"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Inflict Brittle on Enemies when you Block their Damage"
+
+[shields.exhausting_spirit_shield]
+class = "Shields"
+base_type = "Exhausting Spirit Shield"
+lvl_required = 30
+str_required = 0
+dex_required = 0
+int_required = 76
+armour = "-"
+evasion_rating = "-"
+energy_shield = "16-19"
+ward = "-"
+implicit_mod = "Sap Enemies when you Block their Damage"
+
+[shields.brass_spirit_shield]
+class = "Shields"
+base_type = "Brass Spirit Shield"
+lvl_required = 33
+str_required = 0
+dex_required = 0
+int_required = 83
+armour = "-"
+evasion_rating = "-"
+energy_shield = "35-40"
+ward = "-"
+implicit_mod = "-"
+
+[shields.splendid_round_shield]
+class = "Shields"
+base_type = "Splendid Round Shield"
+lvl_required = 33
+str_required = 44
+dex_required = 44
+int_required = 0
+armour = "75-86"
+evasion_rating = "75-86"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "120% increased Block Recovery"
+
+[shields.ornate_spiked_shield]
+class = "Shields"
+base_type = "Ornate Spiked Shield"
+lvl_required = 33
+str_required = 0
+dex_required = 44
+int_required = 44
+armour = "-"
+evasion_rating = "120-135"
+energy_shield = "26-29"
+ward = "-"
+implicit_mod = "+5% chance to Suppress Spell Damage"
+
+[shields.gilded_buckler]
+class = "Shields"
+base_type = "Gilded Buckler"
+lvl_required = 34
+str_required = 0
+dex_required = 85
+int_required = 0
+armour = "-"
+evasion_rating = "225-259"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "6% increased Movement Speed"
+
+[shields.ceremonial_kite_shield]
+class = "Shields"
+base_type = "Ceremonial Kite Shield"
+lvl_required = 34
+str_required = 46
+dex_required = 0
+int_required = 46
+armour = "77-89"
+evasion_rating = "-"
+energy_shield = "16-19"
+ward = "-"
+implicit_mod = "+12% to all Elemental Resistances"
+
+[shields.painted_tower_shield]
+class = "Shields"
+base_type = "Painted Tower Shield"
+lvl_required = 35
+str_required = 87
+dex_required = 0
+int_required = 0
+armour = "188-216"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(20-30) to maximum Life"
+
+[shields.walnut_spirit_shield]
+class = "Shields"
+base_type = "Walnut Spirit Shield"
+lvl_required = 37
+str_required = 0
+dex_required = 0
+int_required = 92
+armour = "-"
+evasion_rating = "-"
+energy_shield = "32-38"
+ward = "-"
+implicit_mod = "(5-10)% increased Spell Damage"
+
+[shields.oak_buckler]
+class = "Shields"
+base_type = "Oak Buckler"
+lvl_required = 38
+str_required = 0
+dex_required = 94
+int_required = 0
+armour = "-"
+evasion_rating = "220-259"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[shields.buckskin_tower_shield]
+class = "Shields"
+base_type = "Buckskin Tower Shield"
+lvl_required = 39
+str_required = 96
+dex_required = 0
+int_required = 0
+armour = "177-209"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(10-20) to maximum Life"
+
+[shields.maple_round_shield]
+class = "Shields"
+base_type = "Maple Round Shield"
+lvl_required = 39
+str_required = 52
+dex_required = 52
+int_required = 0
+armour = "88-99"
+evasion_rating = "88-99"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "180% increased Block Recovery"
+
+[shields.redwood_spiked_shield]
+class = "Shields"
+base_type = "Redwood Spiked Shield"
+lvl_required = 39
+str_required = 0
+dex_required = 52
+int_required = 52
+armour = "-"
+evasion_rating = "142-163"
+energy_shield = "30-34"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[shields.etched_kite_shield]
+class = "Shields"
+base_type = "Etched Kite Shield"
+lvl_required = 40
+str_required = 53
+dex_required = 0
+int_required = 53
+armour = "127-142"
+evasion_rating = "-"
+energy_shield = "27-30"
+ward = "-"
+implicit_mod = "+4% to all Elemental Resistances"
+
+[shields.ivory_spirit_shield]
+class = "Shields"
+base_type = "Ivory Spirit Shield"
+lvl_required = 41
+str_required = 0
+dex_required = 0
+int_required = 101
+armour = "-"
+evasion_rating = "-"
+energy_shield = "35-40"
+ward = "-"
+implicit_mod = "Minions deal (5-10)% increased Damage"
+
+[shields.enameled_buckler]
+class = "Shields"
+base_type = "Enameled Buckler"
+lvl_required = 42
+str_required = 0
+dex_required = 103
+int_required = 0
+armour = "-"
+evasion_rating = "311-349"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "6% increased Movement Speed"
+
+[shields.mahogany_tower_shield]
+class = "Shields"
+base_type = "Mahogany Tower Shield"
+lvl_required = 43
+str_required = 105
+dex_required = 0
+int_required = 0
+armour = "230-265"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(20-30) to maximum Life"
+
+[shields.ancient_spirit_shield]
+class = "Shields"
+base_type = "Ancient Spirit Shield"
+lvl_required = 45
+str_required = 0
+dex_required = 0
+int_required = 110
+armour = "-"
+evasion_rating = "-"
+energy_shield = "38-45"
+ward = "-"
+implicit_mod = "(5-10)% increased Spell Damage"
+
+[shields.spiked_round_shield]
+class = "Shields"
+base_type = "Spiked Round Shield"
+lvl_required = 45
+str_required = 59
+dex_required = 59
+int_required = 0
+armour = "102-120"
+evasion_rating = "102-120"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "60% increased Block Recovery"
+
+[shields.compound_spiked_shield]
+class = "Shields"
+base_type = "Compound Spiked Shield"
+lvl_required = 45
+str_required = 0
+dex_required = 59
+int_required = 59
+armour = "-"
+evasion_rating = "122-144"
+energy_shield = "25-30"
+ward = "-"
+implicit_mod = "+3% chance to Suppress Spell Damage"
+
+[shields.corrugated_buckler]
+class = "Shields"
+base_type = "Corrugated Buckler"
+lvl_required = 46
+str_required = 0
+dex_required = 112
+int_required = 0
+armour = "-"
+evasion_rating = "227-272"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[shields.steel_kite_shield]
+class = "Shields"
+base_type = "Steel Kite Shield"
+lvl_required = 46
+str_required = 60
+dex_required = 0
+int_required = 60
+armour = "146-167"
+evasion_rating = "-"
+energy_shield = "30-35"
+ward = "-"
+implicit_mod = "-"
+
+[shields.bronze_tower_shield]
+class = "Shields"
+base_type = "Bronze Tower Shield"
+lvl_required = 47
+str_required = 114
+dex_required = 0
+int_required = 0
+armour = "290-324"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(30-40) to maximum Life"
+
+[shields.chiming_spirit_shield]
+class = "Shields"
+base_type = "Chiming Spirit Shield"
+lvl_required = 49
+str_required = 0
+dex_required = 0
+int_required = 119
+armour = "-"
+evasion_rating = "-"
+energy_shield = "42-48"
+ward = "-"
+implicit_mod = "(10-15)% increased Spell Damage"
+
+[shields.crimson_round_shield]
+class = "Shields"
+base_type = "Crimson Round Shield"
+lvl_required = 49
+str_required = 64
+dex_required = 64
+int_required = 0
+armour = "155-178"
+evasion_rating = "155-178"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[shields.polished_spiked_shield]
+class = "Shields"
+base_type = "Polished Spiked Shield"
+lvl_required = 49
+str_required = 0
+dex_required = 64
+int_required = 64
+armour = "-"
+evasion_rating = "111-131"
+energy_shield = "23-27"
+ward = "-"
+implicit_mod = "+5% chance to Suppress Spell Damage"
+
+[shields.magmatic_tower_shield]
+class = "Shields"
+base_type = "Magmatic Tower Shield"
+lvl_required = 50
+str_required = 121
+dex_required = 0
+int_required = 0
+armour = "144-165"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Scorch Enemies when you Block their Damage"
+
+[shields.battle_buckler]
+class = "Shields"
+base_type = "Battle Buckler"
+lvl_required = 50
+str_required = 0
+dex_required = 121
+int_required = 0
+armour = "-"
+evasion_rating = "287-330"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "9% increased Movement Speed"
+
+[shields.polar_buckler]
+class = "Shields"
+base_type = "Polar Buckler"
+lvl_required = 50
+str_required = 0
+dex_required = 121
+int_required = 0
+armour = "-"
+evasion_rating = "123-142"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "Inflict Brittle on Enemies when you Block their Damage"
+
+[shields.transfer-attuned_spirit_shield]
+class = "Shields"
+base_type = "Transfer-attuned Spirit Shield"
+lvl_required = 70
+str_required = 0
+dex_required = 0
+int_required = 159
+armour = "-"
+evasion_rating = "-"
+energy_shield = "39-45"
+ward = "-"
+implicit_mod = "Sap Enemies when you Block their Damage"
+
+[shields.elegant_round_shield]
+class = "Shields"
+base_type = "Elegant Round Shield"
+lvl_required = 70
+str_required = 85
+dex_required = 85
+int_required = 0
+armour = "148-170"
+evasion_rating = "148-170"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "120% increased Block Recovery"
+
+[shields.supreme_spiked_shield]
+class = "Shields"
+base_type = "Supreme Spiked Shield"
+lvl_required = 70
+str_required = 0
+dex_required = 85
+int_required = 85
+armour = "-"
+evasion_rating = "242-278"
+energy_shield = "49-57"
+ward = "-"
+implicit_mod = "+5% chance to Suppress Spell Damage"
+

@@ -1,0 +1,922 @@
+####################################################################################################
+########## Maces
+####################################################################################################
+[maces]
+[maces.driftwood_club]
+class = "One Hand Maces"
+base_type = "Driftwood Club"
+lvl_required = 1
+str_required = 14
+damage = "6-8"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 10.1
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.tribal_club]
+class = "One Hand Maces"
+base_type = "Tribal Club"
+lvl_required = 5
+str_required = 26
+damage = "8-13"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 14.7
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.spiked_club]
+class = "One Hand Maces"
+base_type = "Spiked Club"
+lvl_required = 10
+str_required = 41
+damage = "13-16"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 21
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.stone_hammer]
+class = "One Hand Maces"
+base_type = "Stone Hammer"
+lvl_required = 15
+str_required = 56
+damage = "15-27"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 27.3
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[maces.war_hammer]
+class = "One Hand Maces"
+base_type = "War Hammer"
+lvl_required = 20
+str_required = 71
+damage = "13-31"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 31.9
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.bladed_mace]
+class = "One Hand Maces"
+base_type = "Bladed Mace"
+lvl_required = 24
+str_required = 83
+damage = "19-32"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 35.7
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.ceremonial_mace]
+class = "One Hand Maces"
+base_type = "Ceremonial Mace"
+lvl_required = 28
+str_required = 95
+damage = "32-40"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 43.2
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[maces.flare_mace]
+class = "One Hand Maces"
+base_type = "Flare Mace"
+lvl_required = 30
+str_required = 101
+damage = "20-41"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 39.7
+implicit_mod = "Trigger lvl_required 10 Fiery Impact on Melee Hit with this Weapon"
+
+[maces.dream_mace]
+class = "One Hand Maces"
+base_type = "Dream Mace"
+lvl_required = 32
+str_required = 107
+damage = "21-43"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 44.8
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.wyrm_mace]
+class = "One Hand Maces"
+base_type = "Wyrm Mace"
+lvl_required = 34
+str_required = 118
+damage = "28-42"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 47.2
+implicit_mod = "4% increased Attack Speed"
+
+[maces.petrified_club]
+class = "One Hand Maces"
+base_type = "Petrified Club"
+lvl_required = 35
+str_required = 116
+damage = "31-51"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 51.2
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.barbed_club]
+class = "One Hand Maces"
+base_type = "Barbed Club"
+lvl_required = 38
+str_required = 125
+damage = "33-42"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 52.5
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.rock_breaker]
+class = "One Hand Maces"
+base_type = "Rock Breaker"
+lvl_required = 41
+str_required = 134
+damage = "37-69"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 60.9
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[maces.battle_hammer]
+class = "One Hand Maces"
+base_type = "Battle Hammer"
+lvl_required = 44
+str_required = 143
+damage = "25-59"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 58.8
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.flanged_mace]
+class = "One Hand Maces"
+base_type = "Flanged Mace"
+lvl_required = 47
+str_required = 152
+damage = "38-63"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 65.7
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.ornate_mace]
+class = "One Hand Maces"
+base_type = "Ornate Mace"
+lvl_required = 50
+str_required = 161
+damage = "53-67"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 72
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[maces.crack_mace]
+class = "One Hand Maces"
+base_type = "Crack Mace"
+lvl_required = 50
+str_required = 161
+damage = "31-64"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 61.8
+implicit_mod = "Trigger lvl_required 15 Fiery Impact on Melee Hit with this Weapon"
+
+[maces.phantom_mace]
+class = "One Hand Maces"
+base_type = "Phantom Mace"
+lvl_required = 53
+str_required = 170
+damage = "33-69"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 71.4
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.dragon_mace]
+class = "One Hand Maces"
+base_type = "Dragon Mace"
+lvl_required = 55
+str_required = 184
+damage = "44-66"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 74.2
+implicit_mod = "4% increased Attack Speed"
+
+[maces.ancestral_club]
+class = "One Hand Maces"
+base_type = "Ancestral Club"
+lvl_required = 56
+str_required = 179
+damage = "48-80"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 80
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.tenderizer]
+class = "One Hand Maces"
+base_type = "Tenderizer"
+lvl_required = 58
+str_required = 185
+damage = "49-62"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 77.7
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.gavel]
+class = "One Hand Maces"
+base_type = "Gavel"
+lvl_required = 60
+str_required = 212
+damage = "54-101"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 89.1
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[maces.legion_hammer]
+class = "One Hand Maces"
+base_type = "Legion Hammer"
+lvl_required = 62
+str_required = 212
+damage = "35-81"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 81.2
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.pernach]
+class = "One Hand Maces"
+base_type = "Pernach"
+lvl_required = 64
+str_required = 212
+damage = "49-82"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 85.2
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.auric_mace]
+class = "One Hand Maces"
+base_type = "Auric Mace"
+lvl_required = 66
+str_required = 212
+damage = "65-82"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 88.2
+implicit_mod = "15% reduced Enemy Stun Threshold"
+
+[maces.nightmare_mace]
+class = "One Hand Maces"
+base_type = "Nightmare Mace"
+lvl_required = 68
+str_required = 212
+damage = "38-80"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 82.6
+implicit_mod = "10% reduced Enemy Stun Threshold"
+
+[maces.behemoth_mace]
+class = "One Hand Maces"
+base_type = "Behemoth Mace"
+lvl_required = 70
+str_required = 220
+damage = "49-74"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 83
+implicit_mod = "6% increased Attack Speed"
+
+[maces.boom_mace]
+class = "One Hand Maces"
+base_type = "Boom Mace"
+lvl_required = 70
+str_required = 218
+damage = "39-81"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 78
+implicit_mod = "Trigger lvl_required 20 Fiery Impact on Melee Hit with this Weapon"
+
+[maces.driftwood_maul]
+class = "Two Hand Maces"
+base_type = "Driftwood Maul"
+lvl_required = 1
+str_required = 20
+damage = "10-16"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 16.9
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.tribal_maul]
+class = "Two Hand Maces"
+base_type = "Tribal Maul"
+lvl_required = 8
+str_required = 35
+damage = "17-25"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 26.2
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.mallet]
+class = "Two Hand Maces"
+base_type = "Mallet"
+lvl_required = 12
+str_required = 47
+damage = "16-33"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 31.9
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.sledgehammer]
+class = "Two Hand Maces"
+base_type = "Sledgehammer"
+lvl_required = 17
+str_required = 62
+damage = "25-38"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 41
+implicit_mod = "45% increased Stun Duration on Enemies"
+
+[maces.jagged_maul]
+class = "Two Hand Maces"
+base_type = "Jagged Maul"
+lvl_required = 22
+str_required = 77
+damage = "27-49"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 49.4
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.brass_maul]
+class = "Two Hand Maces"
+base_type = "Brass Maul"
+lvl_required = 27
+str_required = 92
+damage = "40-60"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 60
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.blunt_force_condenser]
+class = "Two Hand Maces"
+base_type = "Blunt Force Condenser"
+lvl_required = 30
+str_required = 101
+damage = "39-64"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 59.2
+implicit_mod = "Warcries Exert 1 additional Attack"
+
+[maces.fright_maul]
+class = "Two Hand Maces"
+base_type = "Fright Maul"
+lvl_required = 32
+str_required = 107
+damage = "46-62"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 67.5
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.morning_star]
+class = "Two Hand Maces"
+base_type = "Morning Star"
+lvl_required = 34
+str_required = 118
+damage = "45-68"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 70.6
+implicit_mod = "15% increased Area of Effect"
+
+[maces.totemic_maul]
+class = "Two Hand Maces"
+base_type = "Totemic Maul"
+lvl_required = 36
+str_required = 119
+damage = "57-85"
+critical_chance = "5.00%"
+aps = 1.1
+dps = 78.1
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.great_mallet]
+class = "Two Hand Maces"
+base_type = "Great Mallet"
+lvl_required = 40
+str_required = 131
+damage = "43-88"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 81.9
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.steelhead]
+class = "Two Hand Maces"
+base_type = "Steelhead"
+lvl_required = 44
+str_required = 143
+damage = "54-81"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 87.8
+implicit_mod = "45% increased Stun Duration on Enemies"
+
+[maces.spiny_maul]
+class = "Two Hand Maces"
+base_type = "Spiny Maul"
+lvl_required = 48
+str_required = 155
+damage = "55-103"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 98.8
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.crushing_force_magnifier]
+class = "Two Hand Maces"
+base_type = "Crushing Force Magnifier"
+lvl_required = 50
+str_required = 161
+damage = "62-103"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 94.8
+implicit_mod = "Warcries Exert 1 additional Attack"
+
+[maces.plated_maul]
+class = "Two Hand Maces"
+base_type = "Plated Maul"
+lvl_required = 51
+str_required = 164
+damage = "72-108"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 108
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.dread_maul]
+class = "Two Hand Maces"
+base_type = "Dread Maul"
+lvl_required = 54
+str_required = 173
+damage = "77-104"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 113.1
+implicit_mod = "30% increased Stun Duration on Enemies"
+
+[maces.solar_maul]
+class = "Two Hand Maces"
+base_type = "Solar Maul"
+lvl_required = 56
+str_required = 187
+damage = "75-113"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 117.5
+implicit_mod = "15% increased Area of Effect"
+
+[maces.karui_maul]
+class = "Two Hand Maces"
+base_type = "Karui Maul"
+lvl_required = 57
+str_required = 182
+damage = "112-168"
+critical_chance = "5.00%"
+aps = 1
+dps = 140
+implicit_mod = "45% increased Stun Duration on Enemies"
+
+[maces.colossus_mallet]
+class = "Two Hand Maces"
+base_type = "Colossus Mallet"
+lvl_required = 59
+str_required = 188
+damage = "65-135"
+critical_chance = "5.50%"
+aps = 1.3
+dps = 130
+implicit_mod = "30% increased Area Damage"
+
+[maces.piledriver]
+class = "Two Hand Maces"
+base_type = "Piledriver"
+lvl_required = 61
+str_required = 212
+damage = "77-115"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 129.6
+implicit_mod = "20% reduced Enemy Stun Threshold"
+
+[maces.meatgrinder]
+class = "Two Hand Maces"
+base_type = "Meatgrinder"
+lvl_required = 63
+str_required = 212
+damage = "74-138"
+critical_chance = "5.00%"
+aps = 1.25
+dps = 132.5
+implicit_mod = "5% chance to deal Double Damage"
+
+[maces.imperial_maul]
+class = "Two Hand Maces"
+base_type = "Imperial Maul"
+lvl_required = 65
+str_required = 212
+damage = "102-153"
+critical_chance = "5.00%"
+aps = 1.1
+dps = 140.3
+implicit_mod = "10% increased Strength"
+
+[maces.terror_maul]
+class = "Two Hand Maces"
+base_type = "Terror Maul"
+lvl_required = 67
+str_required = 212
+damage = "101-137"
+critical_chance = "6.00%"
+aps = 1.15
+dps = 136.8
+implicit_mod = "25% chance to double Stun Duration"
+
+[maces.coronal_maul]
+class = "Two Hand Maces"
+base_type = "Coronal Maul"
+lvl_required = 69
+str_required = 220
+damage = "91-136"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 136.3
+implicit_mod = "20% increased Area of Effect"
+
+[maces.impact_force_propagator]
+class = "Two Hand Maces"
+base_type = "Impact Force Propagator"
+lvl_required = 70
+str_required = 220
+damage = "81-135"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 124.1
+implicit_mod = "Warcries Exert 2 additional Attacks"
+
+[maces.driftwood_sceptre]
+class = "Secptres"
+base_type = "Driftwood Sceptre"
+lvl_required = 1
+str_required = 8
+int_required = 8
+damage = "8-11"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 11.4
+implicit_mod = "10% increased Elemental Damage"
+
+[maces.darkwood_sceptre]
+class = "Secptres"
+base_type = "Darkwood Sceptre"
+lvl_required = 5
+str_required = 14
+int_required = 14
+damage = "11-17"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 16.8
+implicit_mod = "12% increased Elemental Damage"
+
+[maces.bronze_sceptre]
+class = "Secptres"
+base_type = "Bronze Sceptre"
+lvl_required = 10
+str_required = 22
+int_required = 22
+damage = "15-29"
+critical_chance = "6.00%"
+aps = 1.1
+dps = 24.2
+implicit_mod = "12% increased Elemental Damage"
+
+[maces.quartz_sceptre]
+class = "Secptres"
+base_type = "Quartz Sceptre"
+lvl_required = 15
+str_required = 25
+int_required = 35
+damage = "21-32"
+critical_chance = "6.50%"
+aps = 1.1
+dps = 29.2
+implicit_mod = "20% increased Elemental Damage"
+
+[maces.iron_sceptre]
+class = "Secptres"
+base_type = "Iron Sceptre"
+lvl_required = 20
+str_required = 38
+int_required = 38
+damage = "27-40"
+critical_chance = "6.00%"
+aps = 1.1
+dps = 36.9
+implicit_mod = "14% increased Elemental Damage"
+
+[maces.ochre_sceptre]
+class = "Secptres"
+base_type = "Ochre Sceptre"
+lvl_required = 24
+str_required = 44
+int_required = 44
+damage = "24-45"
+critical_chance = "6.00%"
+aps = 1.15
+dps = 39.7
+implicit_mod = "16% increased Elemental Damage"
+
+[maces.ritual_sceptre]
+class = "Secptres"
+base_type = "Ritual Sceptre"
+lvl_required = 28
+str_required = 51
+int_required = 51
+damage = "21-50"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 42.6
+implicit_mod = "16% increased Elemental Damage"
+
+[maces.oscillating_sceptre]
+class = "Sceptres"
+base_type = "Oscillating Sceptre"
+lvl_required = 30
+str_required = 44
+int_required = 64
+damage = "23-34"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 41.3
+implicit_mod = "Elemental Overload"
+
+[maces.shadow_sceptre]
+class = "Secptres"
+base_type = "Shadow Sceptre"
+lvl_required = 32
+str_required = 52
+int_required = 62
+damage = "29-44"
+critical_chance = "6.20%"
+aps = 1.25
+dps = 45.6
+implicit_mod = "22% increased Elemental Damage"
+
+[maces.grinning_fetish]
+class = "Secptres"
+base_type = "Grinning Fetish"
+lvl_required = 35
+str_required = 62
+int_required = 62
+damage = "24-36"
+critical_chance = "6.00%"
+aps = 1.5
+dps = 45
+implicit_mod = "18% increased Elemental Damage"
+
+[maces.horned_sceptre]
+class = "Secptres"
+base_type = "Horned Sceptre"
+lvl_required = 36
+str_required = 66
+int_required = 66
+damage = "27-50"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 50.1
+implicit_mod = "Damage Penetrates 4% Elemental Resistances"
+
+[maces.sekhem]
+class = "Secptres"
+base_type = "Sekhem"
+lvl_required = 38
+str_required = 67
+int_required = 67
+damage = "30-55"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 53.1
+implicit_mod = "18% increased Elemental Damage"
+
+[maces.crystal_sceptre]
+class = "Secptres"
+base_type = "Crystal Sceptre"
+lvl_required = 41
+str_required = 59
+int_required = 85
+damage = "35-52"
+critical_chance = "6.50%"
+aps = 1.25
+dps = 54.4
+implicit_mod = "30% increased Elemental Damage"
+
+[maces.lead_sceptre]
+class = "Secptres"
+base_type = "Lead Sceptre"
+lvl_required = 44
+str_required = 77
+int_required = 77
+damage = "38-57"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 59.4
+implicit_mod = "22% increased Elemental Damage"
+
+[maces.blood_sceptre]
+class = "Secptres"
+base_type = "Blood Sceptre"
+lvl_required = 47
+str_required = 81
+int_required = 81
+damage = "30-55"
+critical_chance = "6.00%"
+aps = 1.4
+dps = 59.5
+implicit_mod = "24% increased Elemental Damage"
+
+[maces.royal_sceptre]
+class = "Secptres"
+base_type = "Royal Sceptre"
+lvl_required = 50
+str_required = 86
+int_required = 86
+damage = "34-80"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 68.4
+implicit_mod = "24% increased Elemental Damage"
+
+[maces.stabilising_sceptre]
+class = "Secptres"
+base_type = "Stabilising Sceptre"
+lvl_required = 50
+str_required = 71
+int_required = 102
+damage = "35-52"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 63
+implicit_mod = "Elemental Equilibrium"
+
+[maces.abyssal_sceptre]
+class = "Secptres"
+base_type = "Abyssal Sceptre"
+lvl_required = 53
+str_required = 83
+int_required = 99
+damage = "45-67"
+critical_chance = "6.20%"
+aps = 1.25
+dps = 70
+implicit_mod = "30% increased Elemental Damage"
+
+[maces.stag_sceptre]
+class = "Secptres"
+base_type = "Stag Sceptre"
+lvl_required = 55
+str_required = 98
+int_required = 98
+damage = "39-72"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 72.2
+implicit_mod = "Damage Penetrates 4% Elemental Resistances"
+
+[maces.karui_sceptre]
+class = "Secptres"
+base_type = "Karui Sceptre"
+lvl_required = 56
+str_required = 96
+int_required = 96
+damage = "37-55"
+critical_chance = "6.00%"
+aps = 1.5
+dps = 69
+implicit_mod = "26% increased Elemental Damage"
+
+[maces.tyrants_sekhem]
+class = "Secptres"
+base_type = "Tyrant's Sekhem"
+lvl_required = 58
+str_required = 99
+int_required = 99
+damage = "43-80"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 76.9
+implicit_mod = "26% increased Elemental Damage"
+
+[maces.opal_sceptre]
+class = "Secptres"
+base_type = "Opal Sceptre"
+lvl_required = 60
+str_required = 95
+int_required = 131
+damage = "49-73"
+critical_chance = "6.50%"
+aps = 1.25
+dps = 76.2
+implicit_mod = "40% increased Elemental Damage"
+
+[maces.platinum_sceptre]
+class = "Secptres"
+base_type = "Platinum Sceptre"
+lvl_required = 62
+str_required = 113
+int_required = 113
+damage = "51-76"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 79.4
+implicit_mod = "30% increased Elemental Damage"
+
+[maces.vaal_sceptre]
+class = "Secptres"
+base_type = "Vaal Sceptre"
+lvl_required = 64
+str_required = 113
+int_required = 113
+damage = "37-70"
+critical_chance = "6.00%"
+aps = 1.4
+dps = 74.9
+implicit_mod = "32% increased Elemental Damage"
+
+[maces.carnal_sceptre]
+class = "Secptres"
+base_type = "Carnal Sceptre"
+lvl_required = 66
+str_required = 113
+int_required = 113
+damage = "41-95"
+critical_chance = "6.00%"
+aps = 1.2
+dps = 81.6
+implicit_mod = "32% increased Elemental Damage"
+
+[maces.void_sceptre]
+class = "Secptres"
+base_type = "Void Sceptre"
+lvl_required = 68
+str_required = 104
+int_required = 122
+damage = "50-76"
+critical_chance = "6.20%"
+aps = 1.25
+dps = 78.8
+implicit_mod = "40% increased Elemental Damage"
+
+[maces.sambar_sceptre]
+class = "Secptres"
+base_type = "Sambar Sceptre"
+lvl_required = 70
+str_required = 121
+int_required = 113
+damage = "42-78"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 78
+implicit_mod = "Damage Penetrates 6% Elemental Resistances"
+
+[maces.alternating_sceptre]
+class = "Secptres"
+base_type = "Alternating Sceptre"
+lvl_required = 70
+str_required = 95
+int_required = 131
+damage = "41-61"
+critical_chance = "6.30%"
+aps = 1.45
+dps = 73.9
+implicit_mod = "Secrets of Suffering"

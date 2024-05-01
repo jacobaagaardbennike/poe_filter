@@ -1,0 +1,938 @@
+####################################################################################################
+########## Swords
+####################################################################################################
+[swords]
+[swords.golden_blade]
+class = "One Hand Swords"
+base_type = "Golden Blade"
+lvl_required = 1
+str_required = 8
+dex_required = 8
+damage = "3-23"
+critical_chance = "5.00%"
+aps = 1.1
+dps = 14.3
+implicit_mod = "(16-24) to all Attributes"
+
+[swords.rusted_sword]
+class = "One Hand Swords"
+base_type = "Rusted Sword"
+lvl_required = 1
+str_required = 8
+dex_required = 8
+damage = "4-9"
+critical_chance = "5.00%"
+aps = 1.55
+dps = 10.1
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.charans_sword]
+class = "One Hand Swords"
+base_type = "Charan's Sword"
+lvl_required = 1
+str_required = 9
+dex_required = 9
+damage = "5-11"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 11.6
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.copper_sword]
+class = "One Hand Swords"
+base_type = "Copper Sword"
+lvl_required = 5
+str_required = 14
+dex_required = 14
+damage = "6-14"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 15
+implicit_mod = "+45 to Accuracy Rating"
+
+[swords.sabre]
+class = "One Hand Swords"
+base_type = "Sabre"
+lvl_required = 10
+str_required = 18
+dex_required = 26
+damage = "5-22"
+critical_chance = "5.00%"
+aps = 1.55
+dps = 20.9
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.broad_sword]
+class = "One Hand Swords"
+base_type = "Broad Sword"
+lvl_required = 15
+str_required = 30
+dex_required = 30
+damage = "15-21"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 26.1
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.war_sword]
+class = "One Hand Swords"
+base_type = "War Sword"
+lvl_required = 20
+str_required = 41
+dex_required = 35
+damage = "16-30"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 32.2
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.ancient_sword]
+class = "One Hand Swords"
+base_type = "Ancient Sword"
+lvl_required = 24
+str_required = 44
+dex_required = 44
+damage = "18-33"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 37
+implicit_mod = "+165 to Accuracy Rating"
+
+[swords.elegant_sword]
+class = "One Hand Swords"
+base_type = "Elegant Sword"
+lvl_required = 28
+str_required = 46
+dex_required = 55
+damage = "20-33"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 39.7
+implicit_mod = "+190 to Accuracy Rating"
+
+[swords.fickle_spiritblade]
+class = "One Hand Swords"
+base_type = "Fickle Spiritblade"
+lvl_required = 30
+str_required = 54
+dex_required = 54
+damage = "18-33"
+critical_chance = "6.50%"
+aps = 1.6
+dps = 40.8
+implicit_mod = "100% of Physical Damage from Hits with this Weapon is Converted to a random Element"
+
+[swords.dusk_blade]
+class = "One Hand Swords"
+base_type = "Dusk Blade"
+lvl_required = 32
+str_required = 57
+dex_required = 57
+damage = "19-54"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 47.5
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.hook_sword]
+class = "One Hand Swords"
+base_type = "Hook Sword"
+lvl_required = 34
+str_required = 64
+dex_required = 64
+damage = "28-60"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 50.6
+implicit_mod = "15% chance to Maim on Hit"
+
+[swords.variscite_blade]
+class = "One Hand Swords"
+base_type = "Variscite Blade"
+lvl_required = 35
+str_required = 62
+dex_required = 62
+damage = "25-53"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 50.7
+implicit_mod = "+240 to Accuracy Rating"
+
+[swords.cutlass]
+class = "One Hand Swords"
+base_type = "Cutlass"
+lvl_required = 38
+str_required = 55
+dex_required = 79
+damage = "13-53"
+critical_chance = "5.00%"
+aps = 1.55
+dps = 51.2
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.baselard]
+class = "One Hand Swords"
+base_type = "Baselard"
+lvl_required = 41
+str_required = 72
+dex_required = 72
+damage = "37-53"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 58.5
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.battle_sword]
+class = "One Hand Swords"
+base_type = "Battle Sword"
+lvl_required = 44
+str_required = 83
+dex_required = 70
+damage = "38-70"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 64.8
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.elder_sword]
+class = "One Hand Swords"
+base_type = "Elder Sword"
+lvl_required = 47
+str_required = 81
+dex_required = 81
+damage = "36-66"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 66.3
+implicit_mod = "+330 to Accuracy Rating"
+
+[swords.graceful_sword]
+class = "One Hand Swords"
+base_type = "Graceful Sword"
+lvl_required = 50
+str_required = 78
+dex_required = 94
+damage = "34-55"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 66.7
+implicit_mod = "+350 to Accuracy Rating"
+
+[swords.capricious_spiritblade]
+class = "One Hand Swords"
+base_type = "Capricious Spiritblade"
+lvl_required = 50
+str_required = 94
+dex_required = 94
+damage = "27-51"
+critical_chance = "6.50%"
+aps = 1.6
+dps = 62.4
+implicit_mod = "100% of Physical Damage from Hits with this Weapon is Converted to a random Element"
+
+[swords.twilight_blade]
+class = "One Hand Swords"
+base_type = "Twilight Blade"
+lvl_required = 53
+str_required = 91
+dex_required = 91
+damage = "30-86"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 75.4
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.grappler]
+class = "One Hand Swords"
+base_type = "Grappler"
+lvl_required = 55
+str_required = 99
+dex_required = 99
+damage = "44-94"
+critical_chance = "5.00%"
+aps = 1.15
+dps = 79.3
+implicit_mod = "15% chance to Maim on Hit"
+
+[swords.gemstone_sword]
+class = "One Hand Swords"
+base_type = "Gemstone Sword"
+lvl_required = 56
+str_required = 96
+dex_required = 96
+damage = "39-83"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 79.3
+implicit_mod = "+400 to Accuracy Rating"
+
+[swords.corsair_sword]
+class = "One Hand Swords"
+base_type = "Corsair Sword"
+lvl_required = 58
+str_required = 81
+dex_required = 117
+damage = "20-80"
+critical_chance = "5.00%"
+aps = 1.55
+dps = 77.5
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.gladius]
+class = "One Hand Swords"
+base_type = "Gladius"
+lvl_required = 60
+str_required = 113
+dex_required = 113
+damage = "54-78"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 85.8
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.legion_sword]
+class = "One Hand Swords"
+base_type = "Legion Sword"
+lvl_required = 62
+str_required = 122
+dex_required = 104
+damage = "53-98"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 90.6
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.vaal_blade]
+class = "One Hand Swords"
+base_type = "Vaal Blade"
+lvl_required = 64
+str_required = 113
+dex_required = 113
+damage = "46-86"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 85.8
+implicit_mod = "+460 to Accuracy Rating"
+
+[swords.eternal_sword]
+class = "One Hand Swords"
+base_type = "Eternal Sword"
+lvl_required = 66
+str_required = 104
+dex_required = 122
+damage = "41-68"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 81.7
+implicit_mod = "+475 to Accuracy Rating"
+
+[swords.midnight_blade]
+class = "One Hand Swords"
+base_type = "Midnight Blade"
+lvl_required = 68
+str_required = 113
+dex_required = 113
+damage = "35-99"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 87.1
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.tiger_hook]
+class = "One Hand Swords"
+base_type = "Tiger Hook"
+lvl_required = 70
+str_required = 119
+dex_required = 119
+damage = "37-80"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 81.9
+implicit_mod = "20% chance to Maim on Hit"
+
+[swords.anarchic_spiritblade]
+class = "One Hand Swords"
+base_type = "Anarchic Spiritblade"
+lvl_required = 70
+str_required = 121
+dex_required = 121
+damage = "34-63"
+critical_chance = "6.50%"
+aps = 1.6
+dps = 77.6
+implicit_mod = "100% of Physical Damage from Hits with this Weapon is Converted to a random Element"
+
+[swords.rusted_spike]
+class = "Thrusting One Hand Swords"
+base_type = "Rusted Spike"
+lvl_required = 1
+dex_required = 20
+damage = "5-11"
+critical_chance = "5.50%"
+aps = 1.55
+dps = 12.4
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.whalebone_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Whalebone Rapier"
+lvl_required = 7
+dex_required = 32
+damage = "4-17"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 16.8
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.battered_foil]
+class = "Thrusting One Hand Swords"
+base_type = "Battered Foil"
+lvl_required = 12
+dex_required = 47
+damage = "11-20"
+critical_chance = "6.00%"
+aps = 1.5
+dps = 23.2
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.basket_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Basket Rapier"
+lvl_required = 17
+dex_required = 62
+damage = "11-25"
+critical_chance = "5.50%"
+aps = 1.55
+dps = 27.9
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.jagged_foil]
+class = "Thrusting One Hand Swords"
+base_type = "Jagged Foil"
+lvl_required = 22
+dex_required = 77
+damage = "12-29"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 32.8
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.antique_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Antique Rapier"
+lvl_required = 26
+dex_required = 89
+damage = "12-46"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 37.7
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.elegant_foil]
+class = "Thrusting One Hand Swords"
+base_type = "Elegant Foil"
+lvl_required = 30
+dex_required = 101
+damage = "18-33"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 40.8
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.thorn_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Thorn Rapier"
+lvl_required = 34
+dex_required = 113
+damage = "19-44"
+critical_chance = "5.70%"
+aps = 1.4
+dps = 44.1
+implicit_mod = "+35% to Global Critical Strike Multiplier"
+
+[swords.smallsword]
+class = "Thrusting One Hand Swords"
+base_type = "Smallsword"
+lvl_required = 36
+dex_required = 124
+damage = "19-40"
+critical_chance = "6.00%"
+aps = 1.55
+dps = 45.7
+implicit_mod = "15% chance to cause Bleeding on Hit"
+
+[swords.wyrmbone_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Wyrmbone Rapier"
+lvl_required = 37
+dex_required = 122
+damage = "13-51"
+critical_chance = "5.50%"
+aps = 1.5
+dps = 48
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.burnished_foil]
+class = "Thrusting One Hand Swords"
+base_type = "Burnished Foil"
+lvl_required = 40
+dex_required = 131
+damage = "25-46"
+critical_chance = "6.00%"
+aps = 1.4
+dps = 49.7
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.estoc]
+class = "Thrusting One Hand Swords"
+base_type = "Estoc"
+lvl_required = 43
+dex_required = 140
+damage = "21-50"
+critical_chance = "5.50%"
+aps = 1.5
+dps = 53.2
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.serrated_foil]
+class = "Thrusting One Hand Swords"
+base_type = "Serrated Foil"
+lvl_required = 46
+dex_required = 149
+damage = "21-49"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 56
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.primeval_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Primeval Rapier"
+lvl_required = 49
+dex_required = 158
+damage = "18-73"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 59.2
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.fancy_foil]
+class = "Thrusting One Hand Swords"
+base_type = "Fancy Foil"
+lvl_required = 52
+dex_required = 167
+damage = "28-51"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 63.2
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.apex_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Apex Rapier"
+lvl_required = 55
+dex_required = 176
+damage = "29-67"
+critical_chance = "5.70%"
+aps = 1.4
+dps = 67.2
+implicit_mod = "+35% to Global Critical Strike Multiplier"
+
+[swords.courtesan_sword]
+class = "Thrusting One Hand Swords"
+base_type = "Courtesan Sword"
+lvl_required = 57
+dex_required = 190
+damage = "29-60"
+critical_chance = "6.00%"
+aps = 1.55
+dps = 69
+implicit_mod = "15% chance to cause Bleeding on Hit"
+
+[swords.dragonbone_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Dragonbone Rapier"
+lvl_required = 58
+dex_required = 185
+damage = "19-75"
+critical_chance = "5.50%"
+aps = 1.5
+dps = 70.5
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.tempered_foil]
+class = "Thrusting One Hand Swords"
+base_type = "Tempered Foil"
+lvl_required = 60
+dex_required = 212
+damage = "35-65"
+critical_chance = "6.00%"
+aps = 1.4
+dps = 70
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.pecoraro]
+class = "Thrusting One Hand Swords"
+base_type = "Pecoraro"
+lvl_required = 62
+dex_required = 212
+damage = "29-69"
+critical_chance = "5.50%"
+aps = 1.5
+dps = 73.5
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.spiraled_foil]
+class = "Thrusting One Hand Swords"
+base_type = "Spiraled Foil"
+lvl_required = 64
+dex_required = 212
+damage = "27-64"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 72.8
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.vaal_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Vaal Rapier"
+lvl_required = 66
+dex_required = 212
+damage = "22-87"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 70.9
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.jewelled_foil]
+class = "Thrusting One Hand Swords"
+base_type = "Jewelled Foil"
+lvl_required = 68
+dex_required = 212
+damage = "32-60"
+critical_chance = "5.50%"
+aps = 1.6
+dps = 73.6
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.harpy_rapier]
+class = "Thrusting One Hand Swords"
+base_type = "Harpy Rapier"
+lvl_required = 70
+dex_required = 212
+damage = "31-72"
+critical_chance = "5.70%"
+aps = 1.4
+dps = 72.1
+implicit_mod = "+35% to Global Critical Strike Multiplier"
+
+[swords.dragoon_sword]
+class = "Thrusting One Hand Swords"
+base_type = "Dragoon Sword"
+lvl_required = 72
+dex_required = 220
+damage = "32-66"
+critical_chance = "6.00%"
+aps = 1.5
+dps = 73.5
+implicit_mod = "20% chance to cause Bleeding on Hit"
+
+[swords.corroded_blade]
+class = "Two Hand Swords"
+base_type = "Corroded Blade"
+lvl_required = 1
+str_required = 11
+dex_required = 11
+damage = "8-16"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 17.4
+implicit_mod = "40% increased Global Accuracy Rating"
+
+[swords.longsword]
+class = "Two Hand Swords"
+base_type = "Longsword"
+lvl_required = 8
+str_required = 20
+dex_required = 17
+damage = "11-26"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 25.9
+implicit_mod = "+60 to Accuracy Rating"
+
+[swords.bastard_sword]
+class = "Two Hand Swords"
+base_type = "Bastard Sword"
+lvl_required = 12
+str_required = 21
+dex_required = 30
+damage = "17-29"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 33.3
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[swords.two-handed_sword]
+class = "Two Hand Swords"
+base_type = "Two-Handed Sword"
+lvl_required = 17
+str_required = 33
+dex_required = 33
+damage = "20-38"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 40.6
+implicit_mod = "+120 to Accuracy Rating"
+
+[swords.etched_greatsword]
+class = "Two Hand Swords"
+base_type = "Etched Greatsword"
+lvl_required = 22
+str_required = 45
+dex_required = 38
+damage = "23-48"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 49.7
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[swords.ornate_sword]
+class = "Two Hand Swords"
+base_type = "Ornate Sword"
+lvl_required = 27
+str_required = 45
+dex_required = 54
+damage = "30-50"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 56
+implicit_mod = "+185 to Accuracy Rating"
+
+[swords.rebuking_blade]
+class = "Two Hand Swords"
+base_type = "Rebuking Blade"
+lvl_required = 30
+str_required = 54
+dex_required = 54
+damage = "30-56"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 60.2
+implicit_mod = "Attack Critical Strikes ignore Enemy Monster Elemental Resistances"
+
+[swords.spectral_sword]
+class = "Two Hand Swords"
+base_type = "Spectral Sword"
+lvl_required = 32
+str_required = 57
+dex_required = 57
+damage = "31-65"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 64.8
+implicit_mod = "45% increased Global Accuracy Rating"
+
+[swords.curved_blade]
+class = "Two Hand Swords"
+base_type = "Curved Blade"
+lvl_required = 35
+str_required = 62
+dex_required = 73
+damage = "41-68"
+critical_chance = "6.00%"
+aps = 1.35
+dps = 73.5
+implicit_mod = "+40% to Global Critical Strike Multiplier"
+
+[swords.butcher_sword]
+class = "Two Hand Swords"
+base_type = "Butcher Sword"
+lvl_required = 36
+str_required = 69
+dex_required = 58
+damage = "34-79"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 73.5
+implicit_mod = "+250 to Accuracy Rating"
+
+[swords.footman_sword]
+class = "Two Hand Swords"
+base_type = "Footman Sword"
+lvl_required = 40
+str_required = 57
+dex_required = 83
+damage = "39-65"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 75.4
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[swords.highland_blade]
+class = "Two Hand Swords"
+base_type = "Highland Blade"
+lvl_required = 44
+str_required = 77
+dex_required = 77
+damage = "45-84"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 87
+implicit_mod = "+305 to Accuracy Rating"
+
+[swords.engraved_greatsword]
+class = "Two Hand Swords"
+base_type = "Engraved Greatsword"
+lvl_required = 48
+str_required = 91
+dex_required = 76
+damage = "49-102"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 98.2
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[swords.blasting_blade]
+class = "Two Hand Swords"
+base_type = "Blasting Blade"
+lvl_required = 50
+str_required = 86
+dex_required = 86
+damage = "47-87"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 93.8
+implicit_mod = "Attack Critical Strikes ignore Enemy Monster Elemental Resistances"
+
+[swords.tiger_sword]
+class = "Two Hand Swords"
+base_type = "Tiger Sword"
+lvl_required = 51
+str_required = 80
+dex_required = 96
+damage = "54-89"
+critical_chance = "5.00%"
+aps = 1.4
+dps = 100.1
+implicit_mod = "+360 to Accuracy Rating"
+
+[swords.wraith_sword]
+class = "Two Hand Swords"
+base_type = "Wraith Sword"
+lvl_required = 54
+str_required = 93
+dex_required = 93
+damage = "52-109"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 108.6
+implicit_mod = "45% increased Global Accuracy Rating"
+
+[swords.lithe_blade]
+class = "Two Hand Swords"
+base_type = "Lithe Blade"
+lvl_required = 56
+str_required = 96
+dex_required = 113
+damage = "63-104"
+critical_chance = "6.00%"
+aps = 1.35
+dps = 112.7
+implicit_mod = "+40% to Global Critical Strike Multiplier"
+
+[swords.headmans_sword]
+class = "Two Hand Swords"
+base_type = "Headman's Sword"
+lvl_required = 57
+str_required = 106
+dex_required = 89
+damage = "55-128"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 119
+implicit_mod = "+400 to Accuracy Rating"
+
+[swords.reaver_sword]
+class = "Two Hand Swords"
+base_type = "Reaver Sword"
+lvl_required = 59
+str_required = 82
+dex_required = 119
+damage = "62-104"
+critical_chance = "5.00%"
+aps = 1.5
+dps = 124.4
+implicit_mod = "60% increased Global Accuracy Rating"
+
+[swords.ezomyte_blade]
+class = "Two Hand Swords"
+base_type = "Ezomyte Blade"
+lvl_required = 61
+str_required = 113
+dex_required = 113
+damage = "62-115"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 123.9
+implicit_mod = "+25% to Global Critical Strike Multiplier"
+
+[swords.vaal_greatsword]
+class = "Two Hand Swords"
+base_type = "Vaal Greatsword"
+lvl_required = 63
+str_required = 122
+dex_required = 104
+damage = "68-142"
+critical_chance = "5.00%"
+aps = 1.3
+dps = 136.5
+implicit_mod = "+470 to Accuracy Rating"
+
+[swords.lion_sword]
+class = "Two Hand Swords"
+base_type = "Lion Sword"
+lvl_required = 65
+str_required = 104
+dex_required = 122
+damage = "69-115"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 133.3
+implicit_mod = "+50 to Strength and Dexterity"
+
+[swords.infernal_sword]
+class = "Two Hand Swords"
+base_type = "Infernal Sword"
+lvl_required = 67
+str_required = 113
+dex_required = 113
+damage = "62-129"
+critical_chance = "5.00%"
+aps = 1.35
+dps = 128.9
+implicit_mod = "30% increased Elemental Damage with Attack Skills"
+
+[swords.exquisite_blade]
+class = "Two Hand Swords"
+base_type = "Exquisite Blade"
+lvl_required = 70
+str_required = 119
+dex_required = 131
+damage = "67-112"
+critical_chance = "5.70%"
+aps = 1.35
+dps = 120.8
+implicit_mod = "+50% to Global Critical Strike Multiplier"
+
+[swords.banishing_blade]
+class = "Two Hand Swords"
+base_type = "Banishing Blade"
+lvl_required = 70
+str_required = 130
+dex_required = 130
+damage = "55-102"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 109.9
+implicit_mod = "Attack Critical Strikes ignore Enemy Monster Elemental Resistances"

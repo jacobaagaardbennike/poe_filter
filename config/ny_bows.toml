@@ -1,0 +1,92 @@
+####################################################################################################
+########## Bows
+####################################################################################################
+[bows]
+[bows.citadel_bow]
+class = "Bows"
+base_type = "Citadel Bow"
+lvl_required = 58
+dex_required = 185
+damage = "36-144"
+critical_chance = "6.00%"
+aps = 1.25
+dps = 112.5
+implicit_mod = "(15-25)% to Global Critical Strike Multiplier"
+
+[bows.ranger_bow]
+class = "Bows"
+base_type = "Ranger Bow"
+lvl_required = 60
+dex_required = 212
+damage = "56-117"
+critical_chance = "6.00%"
+aps = 1.3
+dps = 112.5
+implicit_mod = "(15-25)% to Global Critical Strike Multiplier"
+
+[bows.assassin_bow]
+class = "Bows"
+base_type = "Assassin Bow"
+lvl_required = 62
+dex_required = 212
+damage = "43-130"
+critical_chance = "6.70%"
+aps = 1.25
+dps = 108.1
+implicit_mod = "(15-25)% to Global Critical Strike Multiplier"
+
+[bows.spine_bow]
+class = "Bows"
+base_type = "Spine Bow"
+lvl_required = 64
+dex_required = 212
+damage = "38-115"
+critical_chance = "6.50%"
+aps = 1.4
+dps = 107.1
+implicit_mod = "(20-24)% increased Elemental Damage with Attack Skills"
+
+[bows.imperial_bow]
+class = "Bows"
+base_type = "Imperial Bow"
+lvl_required = 66
+dex_required = 212
+damage = "29-117"
+critical_chance = "5.00%"
+aps = 1.45
+dps = 105.8
+implicit_mod = "(20-24)% increased Elemental Damage with Attack Skills"
+
+[bows.harbinger_bow]
+class = "Bows"
+base_type = "Harbinger Bow"
+lvl_required = 68
+dex_required = 212
+damage = "50-133"
+critical_chance = "5.00%"
+aps = 1.2
+dps = 109.8
+implicit_mod = "(30-50)% increased Critical Strike Chance"
+
+[bows.solarine_bow]
+class = "Bows"
+base_type = "Solarine Bow"
+lvl_required = 70
+dex_required = 212
+damage = "16-24"
+critical_chance = "5.50%"
+aps = 1.3
+dps = 26
+implicit_mod = "Adds (121-133) to (184-197) Fire Damage"
+
+[bows.maraketh_bow]
+class = "Bows"
+base_type = "Maraketh Bow"
+lvl_required = 71
+dex_required = 222
+damage = "61-92"
+critical_chance = "5.50%"
+aps = 1.4
+dps = 107.1
+implicit_mod = "10% increased Movement Speed"
+

@@ -1,0 +1,1369 @@
+####################################################################################################
+########## Body Armours
+####################################################################################################
+[body_armours]
+[body_armours.plate_vest]
+class = "Body Armours"
+base_type = "Plate Vest"
+lvl_required = 1
+str_required = 12
+dex_required = 0
+int_required = 0
+armour = "19-27"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.shabby_jerkin]
+class = "Body Armours"
+base_type = "Shabby Jerkin"
+lvl_required = 1
+str_required = 0
+dex_required = 14
+int_required = 0
+armour = "29-41"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.simple_robe]
+class = "Body Armours"
+base_type = "Simple Robe"
+lvl_required = 1
+str_required = 0
+dex_required = 0
+int_required = 17
+armour = "-"
+evasion_rating = "14-20"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.scale_vest]
+class = "Body Armours"
+base_type = "Scale Vest"
+lvl_required = 1
+str_required = 10
+dex_required = 10
+int_required = 0
+armour = "27-38"
+evasion_rating = "27-38"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.chainmail_vest]
+class = "Body Armours"
+base_type = "Chainmail Vest"
+lvl_required = 1
+str_required = 10
+dex_required = 0
+int_required = 10
+armour = "27-38"
+evasion_rating = "-"
+energy_shield = "9-13"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.padded_vest]
+class = "Body Armours"
+base_type = "Padded Vest"
+lvl_required = 1
+str_required = 0
+dex_required = 10
+int_required = 10
+armour = "-"
+evasion_rating = "27-38"
+energy_shield = "9-13"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.chestplate]
+class = "Body Armours"
+base_type = "Chestplate"
+lvl_required = 6
+str_required = 25
+dex_required = 0
+int_required = 0
+armour = "68-89"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.light_brigandine]
+class = "Body Armours"
+base_type = "Light Brigandine"
+lvl_required = 8
+str_required = 16
+dex_required = 16
+int_required = 0
+armour = "48-63"
+evasion_rating = "48-63"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.chainmail_tunic]
+class = "Body Armours"
+base_type = "Chainmail Tunic"
+lvl_required = 8
+str_required = 16
+dex_required = 0
+int_required = 16
+armour = "48-63"
+evasion_rating = "-"
+energy_shield = "13-17"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.strapped_leather]
+class = "Body Armours"
+base_type = "Strapped Leather"
+lvl_required = 9
+str_required = 0
+dex_required = 32
+int_required = 0
+armour = "-"
+evasion_rating = "98-127"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.oiled_vest]
+class = "Body Armours"
+base_type = "Oiled Vest"
+lvl_required = 9
+str_required = 0
+dex_required = 17
+int_required = 17
+armour = "-"
+evasion_rating = "54-70"
+energy_shield = "14-18"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.silken_vest]
+class = "Body Armours"
+base_type = "Silken Vest"
+lvl_required = 11
+str_required = 0
+dex_required = 0
+int_required = 37
+armour = "-"
+evasion_rating = "-"
+energy_shield = "30-38"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.copper_plate]
+class = "Body Armours"
+base_type = "Copper Plate"
+lvl_required = 17
+str_required = 53
+dex_required = 0
+int_required = 0
+armour = "176-221"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.buckskin_tunic]
+class = "Body Armours"
+base_type = "Buckskin Tunic"
+lvl_required = 17
+str_required = 0
+dex_required = 53
+int_required = 0
+armour = "176-221"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.scale_doublet]
+class = "Body Armours"
+base_type = "Scale Doublet"
+lvl_required = 17
+str_required = 28
+dex_required = 28
+int_required = 0
+armour = "97-121"
+evasion_rating = "97-121"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.ringmail_coat]
+class = "Body Armours"
+base_type = "Ringmail Coat"
+lvl_required = 17
+str_required = 28
+dex_required = 0
+int_required = 28
+armour = "97-121"
+evasion_rating = "-"
+energy_shield = "22-28"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.scholars_robe]
+class = "Body Armours"
+base_type = "Scholar's Robe"
+lvl_required = 18
+str_required = 0
+dex_required = 0
+int_required = 55
+armour = "-"
+evasion_rating = "-"
+energy_shield = "43-53"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.padded_jacket]
+class = "Body Armours"
+base_type = "Padded Jacket"
+lvl_required = 18
+str_required = 0
+dex_required = 30
+int_required = 30
+armour = "-"
+evasion_rating = "102-128"
+energy_shield = "24-29"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.golden_mantle]
+class = "Body Armours"
+base_type = "Golden Mantle"
+lvl_required = 20
+str_required = 8
+dex_required = 8
+int_required = 8
+armour = "75-86"
+evasion_rating = "75-86"
+energy_shield = "17-19"
+ward = "-"
+implicit_mod = "(15-25)% to all Elemental Resistances"
+
+[body_armours.war_plate]
+class = "Body Armours"
+base_type = "War Plate"
+lvl_required = 21
+str_required = 63
+dex_required = 0
+int_required = 0
+armour = "216-248"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.infantry_brigandine]
+class = "Body Armours"
+base_type = "Infantry Brigandine"
+lvl_required = 21
+str_required = 34
+dex_required = 34
+int_required = 0
+armour = "119-142"
+evasion_rating = "119-142"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.chainmail_doublet]
+class = "Body Armours"
+base_type = "Chainmail Doublet"
+lvl_required = 21
+str_required = 34
+dex_required = 0
+int_required = 34
+armour = "119-140"
+evasion_rating = "-"
+energy_shield = "27-31"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.oiled_coat]
+class = "Body Armours"
+base_type = "Oiled Coat"
+lvl_required = 22
+str_required = 0
+dex_required = 35
+int_required = 35
+armour = "-"
+evasion_rating = "124-146"
+energy_shield = "28-33"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.wild_leather]
+class = "Body Armours"
+base_type = "Wild Leather"
+lvl_required = 25
+str_required = 0
+dex_required = 73
+int_required = 0
+armour = "-"
+evasion_rating = "255-306"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.silken_garb]
+class = "Body Armours"
+base_type = "Silken Garb"
+lvl_required = 25
+str_required = 0
+dex_required = 0
+int_required = 73
+armour = "-"
+evasion_rating = "-"
+energy_shield = "56-64"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.full_plate]
+class = "Body Armours"
+base_type = "Full Plate"
+lvl_required = 28
+str_required = 81
+dex_required = 0
+int_required = 0
+armour = "284-319"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.full_leather]
+class = "Body Armours"
+base_type = "Full Leather"
+lvl_required = 28
+str_required = 0
+dex_required = 81
+int_required = 0
+armour = "284-327"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.mages_vestment]
+class = "Body Armours"
+base_type = "Mage's Vestment"
+lvl_required = 28
+str_required = 0
+dex_required = 0
+int_required = 81
+armour = "-"
+evasion_rating = "-"
+energy_shield = "62-69"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.full_scale_armour]
+class = "Body Armours"
+base_type = "Full Scale Armour"
+lvl_required = 28
+str_required = 43
+dex_required = 43
+int_required = 0
+armour = "156-180"
+evasion_rating = "156-180"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.full_ringmail]
+class = "Body Armours"
+base_type = "Full Ringmail"
+lvl_required = 28
+str_required = 43
+dex_required = 0
+int_required = 43
+armour = "156-180"
+evasion_rating = "-"
+energy_shield = "34-39"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.scarlet_raiment]
+class = "Body Armours"
+base_type = "Scarlet Raiment"
+lvl_required = 28
+str_required = 0
+dex_required = 43
+int_required = 43
+armour = "156-180"
+evasion_rating = "34-39"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.arena_plate]
+class = "Body Armours"
+base_type = "Arena Plate"
+lvl_required = 32
+str_required = 91
+dex_required = 0
+int_required = 0
+armour = "324-389"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.sun_leather]
+class = "Body Armours"
+base_type = "Sun Leather"
+lvl_required = 32
+str_required = 0
+dex_required = 91
+int_required = 0
+armour = "324-382"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.silk_robe]
+class = "Body Armours"
+base_type = "Silk Robe"
+lvl_required = 32
+str_required = 0
+dex_required = 0
+int_required = 91
+armour = "-"
+evasion_rating = "-"
+energy_shield = "69-80"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.soldiers_brigandine]
+class = "Body Armours"
+base_type = "Soldier's Brigandine"
+lvl_required = 32
+str_required = 48
+dex_required = 48
+int_required = 0
+armour = "178-210"
+evasion_rating = "178-210"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.full_chainmail]
+class = "Body Armours"
+base_type = "Full Chainmail"
+lvl_required = 32
+str_required = 48
+dex_required = 0
+int_required = 48
+armour = "178-199"
+evasion_rating = "-"
+energy_shield = "38-43"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.waxed_garb]
+class = "Body Armours"
+base_type = "Waxed Garb"
+lvl_required = 32
+str_required = 0
+dex_required = 48
+int_required = 48
+armour = "-"
+evasion_rating = "178-205"
+energy_shield = "38-44"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.lordly_plate]
+class = "Body Armours"
+base_type = "Lordly Plate"
+lvl_required = 35
+str_required = 99
+dex_required = 0
+int_required = 0
+armour = "353-417"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.thiefs_garb]
+class = "Body Armours"
+base_type = "Thief's Garb"
+lvl_required = 35
+str_required = 0
+dex_required = 99
+int_required = 0
+armour = "353-396"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.cabalist_regalia]
+class = "Body Armours"
+base_type = "Cabalist Regalia"
+lvl_required = 35
+str_required = 0
+dex_required = 0
+int_required = 99
+armour = "-"
+evasion_rating = "-"
+energy_shield = "75-88"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.field_lamellar]
+class = "Body Armours"
+base_type = "Field Lamellar"
+lvl_required = 35
+str_required = 53
+dex_required = 53
+int_required = 0
+armour = "194-223"
+evasion_rating = "194-223"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.holy_chainmail]
+class = "Body Armours"
+base_type = "Holy Chainmail"
+lvl_required = 35
+str_required = 53
+dex_required = 0
+int_required = 53
+armour = "194-233"
+evasion_rating = "-"
+energy_shield = "41-49"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.bone_armour]
+class = "Body Armours"
+base_type = "Bone Armour"
+lvl_required = 35
+str_required = 0
+dex_required = 53
+int_required = 53
+armour = "194-233"
+evasion_rating = "41-49"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.bronze_plate]
+class = "Body Armours"
+base_type = "Bronze Plate"
+lvl_required = 37
+str_required = 104
+dex_required = 0
+int_required = 0
+armour = "373-429"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.eelskin_tunic]
+class = "Body Armours"
+base_type = "Eelskin Tunic"
+lvl_required = 37
+str_required = 0
+dex_required = 104
+int_required = 0
+armour = "373-429"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.sages_robe]
+class = "Body Armours"
+base_type = "Sage's Robe"
+lvl_required = 37
+str_required = 0
+dex_required = 0
+int_required = 104
+armour = "-"
+evasion_rating = "-"
+energy_shield = "79-90"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.wyrmscale_doublet]
+class = "Body Armours"
+base_type = "Wyrmscale Doublet"
+lvl_required = 38
+str_required = 57
+dex_required = 57
+int_required = 0
+armour = "210-236"
+evasion_rating = "210-236"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.latticed_ringmail]
+class = "Body Armours"
+base_type = "Latticed Ringmail"
+lvl_required = 39
+str_required = 59
+dex_required = 0
+int_required = 59
+armour = "216-248"
+evasion_rating = "-"
+energy_shield = "45-52"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.quilted_jacket]
+class = "Body Armours"
+base_type = "Quilted Jacket"
+lvl_required = 40
+str_required = 0
+dex_required = 60
+int_required = 60
+armour = "-"
+evasion_rating = "221-248"
+energy_shield = "46-52"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.battle_plate]
+class = "Body Armours"
+base_type = "Battle Plate"
+lvl_required = 41
+str_required = 114
+dex_required = 0
+int_required = 0
+armour = "412-474"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.frontier_leather]
+class = "Body Armours"
+base_type = "Frontier Leather"
+lvl_required = 41
+str_required = 0
+dex_required = 114
+int_required = 0
+armour = "412-495"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.silken_wrap]
+class = "Body Armours"
+base_type = "Silken Wrap"
+lvl_required = 41
+str_required = 0
+dex_required = 0
+int_required = 114
+armour = "-"
+evasion_rating = "-"
+energy_shield = "86-104"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.hussar_brigandine]
+class = "Body Armours"
+base_type = "Hussar Brigandine"
+lvl_required = 42
+str_required = 62
+dex_required = 62
+int_required = 0
+armour = "232-278"
+evasion_rating = "232-278"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.crusader_chainmail]
+class = "Body Armours"
+base_type = "Crusader Chainmail"
+lvl_required = 43
+str_required = 64
+dex_required = 0
+int_required = 64
+armour = "237-266"
+evasion_rating = "-"
+energy_shield = "50-55"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.sleek_coat]
+class = "Body Armours"
+base_type = "Sleek Coat"
+lvl_required = 44
+str_required = 0
+dex_required = 65
+int_required = 65
+armour = "-"
+evasion_rating = "243-287"
+energy_shield = "51-60"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.sun_plate]
+class = "Body Armours"
+base_type = "Sun Plate"
+lvl_required = 45
+str_required = 124
+dex_required = 0
+int_required = 0
+armour = "451-506"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.glorious_leather]
+class = "Body Armours"
+base_type = "Glorious Leather"
+lvl_required = 45
+str_required = 0
+dex_required = 124
+int_required = 0
+armour = "451-519"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.conjurers_vestment]
+class = "Body Armours"
+base_type = "Conjurer's Vestment"
+lvl_required = 45
+str_required = 0
+dex_required = 0
+int_required = 124
+armour = "-"
+evasion_rating = "-"
+energy_shield = "94-105"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.full_wyrmscale]
+class = "Body Armours"
+base_type = "Full Wyrmscale"
+lvl_required = 46
+str_required = 68
+dex_required = 68
+int_required = 0
+armour = "254-292"
+evasion_rating = "254-292"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.ornate_ringmail]
+class = "Body Armours"
+base_type = "Ornate Ringmail"
+lvl_required = 47
+str_required = 69
+dex_required = 0
+int_required = 69
+armour = "259-298"
+evasion_rating = "-"
+energy_shield = "54-62"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.crimson_raiment]
+class = "Body Armours"
+base_type = "Crimson Raiment"
+lvl_required = 48
+str_required = 0
+dex_required = 71
+int_required = 71
+armour = "264-304"
+evasion_rating = "55-63"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.colosseum_plate]
+class = "Body Armours"
+base_type = "Colosseum Plate"
+lvl_required = 49
+str_required = 134
+dex_required = 0
+int_required = 0
+armour = "491-589"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.coronal_leather]
+class = "Body Armours"
+base_type = "Coronal Leather"
+lvl_required = 49
+str_required = 0
+dex_required = 134
+int_required = 0
+armour = "491-579"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.spidersilk_robe]
+class = "Body Armours"
+base_type = "Spidersilk Robe"
+lvl_required = 49
+str_required = 0
+dex_required = 0
+int_required = 134
+armour = "-"
+evasion_rating = "-"
+energy_shield = "101-117"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.commanders_brigandine]
+class = "Body Armours"
+base_type = "Commander's Brigandine"
+lvl_required = 50
+str_required = 73
+dex_required = 73
+int_required = 0
+armour = "275-325"
+evasion_rating = "275-325"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.chain_hauberk]
+class = "Body Armours"
+base_type = "Chain Hauberk"
+lvl_required = 51
+str_required = 75
+dex_required = 0
+int_required = 75
+armour = "281-314"
+evasion_rating = "-"
+energy_shield = "58-65"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.lacquered_garb]
+class = "Body Armours"
+base_type = "Lacquered Garb"
+lvl_required = 52
+str_required = 0
+dex_required = 76
+int_required = 76
+armour = "-"
+evasion_rating = "286-329"
+energy_shield = "59-68"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.majestic_plate]
+class = "Body Armours"
+base_type = "Majestic Plate"
+lvl_required = 53
+str_required = 145
+dex_required = 0
+int_required = 0
+armour = "530-625"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.cutthroats_garb]
+class = "Body Armours"
+base_type = "Cutthroat's Garb"
+lvl_required = 53
+str_required = 0
+dex_required = 145
+int_required = 0
+armour = "530-594"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.destroyer_regalia]
+class = "Body Armours"
+base_type = "Destroyer Regalia"
+lvl_required = 53
+str_required = 0
+dex_required = 0
+int_required = 145
+armour = "-"
+evasion_rating = "-"
+energy_shield = "109-129"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.battle_lamellar]
+class = "Body Armours"
+base_type = "Battle Lamellar"
+lvl_required = 54
+str_required = 79
+dex_required = 79
+int_required = 0
+armour = "297-341"
+evasion_rating = "297-341"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.devout_chainmail]
+class = "Body Armours"
+base_type = "Devout Chainmail"
+lvl_required = 55
+str_required = 80
+dex_required = 0
+int_required = 80
+armour = "302-363"
+evasion_rating = "-"
+energy_shield = "62-74"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.golden_plate]
+class = "Body Armours"
+base_type = "Golden Plate"
+lvl_required = 56
+str_required = 152
+dex_required = 0
+int_required = 0
+armour = "559-643"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.sharkskin_tunic]
+class = "Body Armours"
+base_type = "Sharkskin Tunic"
+lvl_required = 56
+str_required = 0
+dex_required = 152
+int_required = 0
+armour = "559-643"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.savants_robe]
+class = "Body Armours"
+base_type = "Savant's Robe"
+lvl_required = 56
+str_required = 0
+dex_required = 0
+int_required = 152
+armour = "-"
+evasion_rating = "-"
+energy_shield = "115-132"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.crypt_armour]
+class = "Body Armours"
+base_type = "Crypt Armour"
+lvl_required = 56
+str_required = 0
+dex_required = 82
+int_required = 82
+armour = "-"
+evasion_rating = "308-369"
+energy_shield = "63-76"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.dragonscale_doublet]
+class = "Body Armours"
+base_type = "Dragonscale Doublet"
+lvl_required = 57
+str_required = 83
+dex_required = 83
+int_required = 0
+armour = "313-351"
+evasion_rating = "313-351"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.loricated_ringmail]
+class = "Body Armours"
+base_type = "Loricated Ringmail"
+lvl_required = 58
+str_required = 84
+dex_required = 0
+int_required = 84
+armour = "325-374"
+evasion_rating = "-"
+energy_shield = "66-76"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.crusader_plate]
+class = "Body Armours"
+base_type = "Crusader Plate"
+lvl_required = 59
+str_required = 160
+dex_required = 0
+int_required = 0
+armour = "601-691"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.destiny_leather]
+class = "Body Armours"
+base_type = "Destiny Leather"
+lvl_required = 59
+str_required = 0
+dex_required = 160
+int_required = 0
+armour = "601-721"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.necromancer_silks]
+class = "Body Armours"
+base_type = "Necromancer Silks"
+lvl_required = 59
+str_required = 0
+dex_required = 0
+int_required = 160
+armour = "-"
+evasion_rating = "-"
+energy_shield = "123-147"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.sentinel_jacket]
+class = "Body Armours"
+base_type = "Sentinel Jacket"
+lvl_required = 59
+str_required = 0
+dex_required = 86
+int_required = 86
+armour = "-"
+evasion_rating = "330-370"
+energy_shield = "67-76"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.desert_brigandine]
+class = "Body Armours"
+base_type = "Desert Brigandine"
+lvl_required = 60
+str_required = 96
+dex_required = 96
+int_required = 0
+armour = "376-451"
+evasion_rating = "376-451"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.conquest_chainmail]
+class = "Body Armours"
+base_type = "Conquest Chainmail"
+lvl_required = 61
+str_required = 96
+dex_required = 0
+int_required = 96
+armour = "387-445"
+evasion_rating = "-"
+energy_shield = "79-91"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.astral_plate]
+class = "Body Armours"
+base_type = "Astral Plate"
+lvl_required = 62
+str_required = 180
+dex_required = 0
+int_required = 0
+armour = "711-782"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "(8-12)% to all Elemental Resistances"
+
+[body_armours.exquisite_leather]
+class = "Body Armours"
+base_type = "Exquisite Leather"
+lvl_required = 62
+str_required = 0
+dex_required = 170
+int_required = 0
+armour = "704-810"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.occultists_vestment]
+class = "Body Armours"
+base_type = "Occultist's Vestment"
+lvl_required = 62
+str_required = 0
+dex_required = 0
+int_required = 180
+armour = "-"
+evasion_rating = "-"
+energy_shield = "137-151"
+ward = "-"
+implicit_mod = "(3-10)% increased Spell Damage"
+
+[body_armours.varnished_coat]
+class = "Body Armours"
+base_type = "Varnished Coat"
+lvl_required = 62
+str_required = 0
+dex_required = 96
+int_required = 96
+armour = "-"
+evasion_rating = "387-434"
+energy_shield = "79-89"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.full_dragonscale]
+class = "Body Armours"
+base_type = "Full Dragonscale"
+lvl_required = 63
+str_required = 115
+dex_required = 94
+int_required = 0
+armour = "470-541"
+evasion_rating = "373-429"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.elegant_ringmail]
+class = "Body Armours"
+base_type = "Elegant Ringmail"
+lvl_required = 64
+str_required = 90
+dex_required = 0
+int_required = 105
+armour = "377-433"
+evasion_rating = "-"
+energy_shield = "92-105"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.gladiator_plate]
+class = "Body Armours"
+base_type = "Gladiator Plate"
+lvl_required = 65
+str_required = 177
+dex_required = 0
+int_required = 0
+armour = "738-848"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.zodiac_leather]
+class = "Body Armours"
+base_type = "Zodiac Leather"
+lvl_required = 65
+str_required = 0
+dex_required = 197
+int_required = 0
+armour = "-"
+evasion_rating = "854-982"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.widowsilk_robe]
+class = "Body Armours"
+base_type = "Widowsilk Robe"
+lvl_required = 65
+str_required = 0
+dex_required = 0
+int_required = 187
+armour = "-"
+evasion_rating = "-"
+energy_shield = "157-181"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.blood_raiment]
+class = "Body Armours"
+base_type = "Blood Raiment"
+lvl_required = 65
+str_required = 0
+dex_required = 107
+int_required = 90
+armour = "-"
+evasion_rating = "436-501"
+energy_shield = "73-84"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.generals_brigandine]
+class = "Body Armours"
+base_type = "General's Brigandine"
+lvl_required = 66
+str_required = 103
+dex_required = 103
+int_required = 0
+armour = "415-465"
+evasion_rating = "415-465"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.saints_hauberk]
+class = "Body Armours"
+base_type = "Saint's Hauberk"
+lvl_required = 67
+str_required = 109
+dex_required = 0
+int_required = 94
+armour = "443-496"
+evasion_rating = "-"
+energy_shield = "76-85"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.glorious_plate]
+class = "Body Armours"
+base_type = "Glorious Plate"
+lvl_required = 68
+str_required = 191
+dex_required = 0
+int_required = 0
+armour = "776-892"
+evasion_rating = "-"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.assassins_garb]
+class = "Body Armours"
+base_type = "Assassin's Garb"
+lvl_required = 68
+str_required = 0
+dex_required = 183
+int_required = 0
+armour = "-"
+evasion_rating = "737-811"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "3% increased Movement Speed"
+
+[body_armours.vaal_regalia]
+class = "Body Armours"
+base_type = "Vaal Regalia"
+lvl_required = 68
+str_required = 0
+dex_required = 0
+int_required = 194
+armour = "-"
+evasion_rating = "-"
+energy_shield = "171-197"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.sadist_garb]
+class = "Body Armours"
+base_type = "Sadist Garb"
+lvl_required = 68
+str_required = 0
+dex_required = 103
+int_required = 109
+armour = "-"
+evasion_rating = "427-491"
+energy_shield = "93-107"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.triumphant_lamellar]
+class = "Body Armours"
+base_type = "Triumphant Lamellar"
+lvl_required = 69
+str_required = 95
+dex_required = 116
+int_required = 0
+armour = "380-437"
+evasion_rating = "477-549"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.saintly_chainmail]
+class = "Body Armours"
+base_type = "Saintly Chainmail"
+lvl_required = 70
+str_required = 99
+dex_required = 0
+int_required = 115
+armour = "401-461"
+evasion_rating = "-"
+energy_shield = "96-110"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.grasping_mail]
+class = "Body Armours"
+base_type = "Grasping Mail"
+lvl_required = 70
+str_required = 60
+dex_required = 60
+int_required = 60
+armour = "217-250"
+evasion_rating = "217-250"
+energy_shield = "-"
+ward = "-"
+implicit_mod = "-"
+
+[body_armours.carnal_armour]
+class = "Body Armours"
+base_type = "Carnal Armour"
+lvl_required = 71
+str_required = 0
+dex_required = 88
+int_required = 122
+armour = "-"
+evasion_rating = "353-388"
+energy_shield = "103-113"
+ward = "-"
+implicit_mod = "(20-25) to maximum Mana"
+
+[body_armours.sacrificial_garb]
+class = "Body Armours"
+base_type = "Sacrificial Garb"
+lvl_required = 72
+str_required = 66
+dex_required = 66
+int_required = 66
+armour = "-"
+evasion_rating = "329-378"
+energy_shield = "329-378"
+ward = "-"
+implicit_mod = "+1 to Level of all Vaal Skill Gems"
+

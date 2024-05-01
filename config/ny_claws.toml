@@ -1,0 +1,340 @@
+####################################################################################################
+########## Claws
+####################################################################################################
+[claws]
+[claws.nailed_fist]
+class = "Claws"
+base_type = "Nailed Fist"
+lvl_required = 1
+dex_required = 11
+int_required = 11
+damage = "4-11"
+critical_chance = "6.20%"
+aps = 1.6
+dps = 12
+implicit_mod = "Grants 3 Life per Enemy Hit"
+
+[claws.sharktooth_claw]
+class = "Claws"
+base_type = "Sharktooth Claw"
+lvl_required = 7
+dex_required = 14
+int_required = 20
+damage = "6-17"
+critical_chance = "6.50%"
+aps = 1.5
+dps = 17.2
+implicit_mod = "Grants 6 Life per Enemy Hit"
+
+[claws.awl]
+class = "Claws"
+base_type = "Awl"
+lvl_required = 12
+dex_required = 25
+int_required = 25
+damage = "7-23"
+critical_chance = "6.30%"
+aps = 1.55
+dps = 23.3
+implicit_mod = "Grants 7 Life per Enemy Hit"
+
+[claws.cats_paw]
+class = "Claws"
+base_type = "Cat's Paw"
+lvl_required = 17
+dex_required = 39
+int_required = 27
+damage = "12-22"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 27.2
+implicit_mod = "Grants 8 Life per Enemy Hit"
+
+[claws.blinder]
+class = "Claws"
+base_type = "Blinder"
+lvl_required = 22
+dex_required = 41
+int_required = 41
+damage = "12-31"
+critical_chance = "6.30%"
+aps = 1.55
+dps = 33.3
+implicit_mod = "Grants 12 Life per Enemy Hit"
+
+[claws.timeworn_claw]
+class = "Claws"
+base_type = "Timeworn Claw"
+lvl_required = 26
+dex_required = 39
+int_required = 56
+damage = "16-43"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 38.4
+implicit_mod = "Grants 19 Life per Enemy Hit"
+
+[claws.sparkling_claw]
+class = "Claws"
+base_type = "Sparkling Claw"
+lvl_required = 30
+dex_required = 64
+int_required = 44
+damage = "14-38"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 41.6
+implicit_mod = "Grants 15 Life per Enemy Hit"
+
+[claws.shadow_fangs]
+class = "Claws"
+base_type = "Shadow Fangs"
+lvl_required = 30
+dex_required = 54
+int_required = 54
+damage = "13-24"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 29.6
+implicit_mod = "Adds (26-38) to (52-70) Chaos Damage"
+
+[claws.fright_claw]
+class = "Claws"
+base_type = "Fright Claw"
+lvl_required = 34
+dex_required = 61
+int_required = 61
+damage = "12-46"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 43.5
+implicit_mod = "Grants 20 Life per Enemy Hit"
+
+[claws.double_claw]
+class = "Claws"
+base_type = "Double Claw"
+lvl_required = 36
+dex_required = 67
+int_required = 67
+damage = "15-44"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 44.2
+implicit_mod = "Grants 15 Life & 6 Mana per Enemy Hit"
+
+[claws.thresher_claw]
+class = "Claws"
+base_type = "Thresher Claw"
+lvl_required = 37
+dex_required = 53
+int_required = 77
+damage = "20-53"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 47.5
+implicit_mod = "Grants 25 Life per Enemy Hit"
+
+[claws.gouger]
+class = "Claws"
+base_type = "Gouger"
+lvl_required = 40
+dex_required = 70
+int_required = 70
+damage = "15-51"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 49.5
+implicit_mod = "Grants 24 Life per Enemy Hit"
+
+[claws.tigers_paw]
+class = "Claws"
+base_type = "Tiger's Paw"
+lvl_required = 43
+dex_required = 88
+int_required = 61
+damage = "23-43"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 52.8
+implicit_mod = "1.6% of Physical Attack Damage Leeched as Life"
+
+[claws.gut_ripper]
+class = "Claws"
+base_type = "Gut Ripper"
+lvl_required = 46
+dex_required = 80
+int_required = 80
+damage = "20-53"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 54.7
+implicit_mod = "Grants 44 Life per Enemy Hit"
+
+[claws.prehistoric_claw]
+class = "Claws"
+base_type = "Prehistoric Claw"
+lvl_required = 49
+dex_required = 69
+int_required = 100
+damage = "26-68"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 61.1
+implicit_mod = "2% of Physical Attack Damage Leeched as Life"
+
+[claws.malign_fangs]
+class = "Claws"
+base_type = "Malign Fangs"
+lvl_required = 50
+dex_required = 86
+int_required = 86
+damage = "20-37"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 45.6
+implicit_mod = "Adds (43-55) to (81-104) Chaos Damage"
+
+[claws.noble_claw]
+class = "Claws"
+base_type = "Noble Claw"
+lvl_required = 52
+dex_required = 105
+int_required = 73
+damage = "21-56"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 61.6
+implicit_mod = "Grants 40 Life per Enemy Hit"
+
+[claws.eagle_claw]
+class = "Claws"
+base_type = "Eagle Claw"
+lvl_required = 55
+dex_required = 94
+int_required = 94
+damage = "17-69"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 64.5
+implicit_mod = "2% of Physical Attack Damage Leeched as Life"
+
+[claws.twin_claw]
+class = "Claws"
+base_type = "Twin Claw"
+lvl_required = 57
+dex_required = 103
+int_required = 103
+damage = "21-64"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 63.7
+implicit_mod = "Grants 28 Life & 10 Mana per Enemy Hit"
+
+[claws.great_white_claw]
+class = "Claws"
+base_type = "Great White Claw"
+lvl_required = 58
+dex_required = 81
+int_required = 117
+damage = "30-78"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 70.2
+implicit_mod = "Grants 46 Life per Enemy Hit"
+
+[claws.throat_stabber]
+class = "Claws"
+base_type = "Throat Stabber"
+lvl_required = 60
+dex_required = 113
+int_required = 113
+damage = "21-73"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 70.5
+implicit_mod = "Grants 40 Life per Enemy Hit"
+
+[claws.hellions_paw]
+class = "Claws"
+base_type = "Hellion's Paw"
+lvl_required = 62
+dex_required = 131
+int_required = 95
+damage = "29-55"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 67.2
+implicit_mod = "1.6% of Physical Attack Damage Leeched as Life"
+
+[claws.eye_gouger]
+class = "Claws"
+base_type = "Eye Gouger"
+lvl_required = 64
+dex_required = 113
+int_required = 113
+damage = "26-68"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 70.5
+implicit_mod = "Grants 50 Life per Enemy Hit"
+
+[claws.vaal_claw]
+class = "Claws"
+base_type = "Vaal Claw"
+lvl_required = 66
+dex_required = 95
+int_required = 131
+damage = "29-76"
+critical_chance = "6.50%"
+aps = 1.3
+dps = 68.3
+implicit_mod = "2% of Physical Attack Damage Leeched as Life"
+
+[claws.imperial_claw]
+class = "Claws"
+base_type = "Imperial Claw"
+lvl_required = 68
+dex_required = 131
+int_required = 95
+damage = "25-65"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 72
+implicit_mod = "Grants 46 Life per Enemy Hit"
+
+[claws.terror_claw]
+class = "Claws"
+base_type = "Terror Claw"
+lvl_required = 70
+dex_required = 113
+int_required = 113
+damage = "18-71"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 66.7
+implicit_mod = "2% of Physical Attack Damage Leeched as Life"
+
+[claws.void_fangs]
+class = "Claws"
+base_type = "Void Fangs"
+lvl_required = 70
+dex_required = 113
+int_required = 113
+damage = "22-41"
+critical_chance = "6.00%"
+aps = 1.6
+dps = 50.4
+implicit_mod = "Adds (46-63) to (92-113) Chaos Damage"
+
+[claws.gemini_claw]
+class = "Claws"
+base_type = "Gemini Claw"
+lvl_required = 72
+dex_required = 121
+int_required = 121
+damage = "23-68"
+critical_chance = "6.30%"
+aps = 1.5
+dps = 68.2
+implicit_mod = "Grants 38 Life & 14 Mana per Enemy Hit"
+

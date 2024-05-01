@@ -1,0 +1,160 @@
+####################################################################################################
+########## Rings
+####################################################################################################
+[rings]
+[rings.breach_ring]
+class = "Rings"
+base_type = "Breach Ring"
+lvl_required = 1
+implicit_mod = "Properties are doubled while in a BreachCorrupted"
+
+[rings.coral_ring]
+class = "Rings"
+base_type = "Coral Ring"
+lvl_required = 1
+implicit_mod = "+(20-30) to maximum Life"
+
+[rings.iron_ring]
+class = "Rings"
+base_type = "Iron Ring"
+lvl_required = 1
+implicit_mod = "Adds 1 to 4 Physical Damage to Attacks"
+
+[rings.paua_ring]
+class = "Rings"
+base_type = "Paua Ring"
+lvl_required = 1
+implicit_mod = "+(20-30) to maximum Mana"
+
+[rings.unset_ring]
+class = "Rings"
+base_type = "Unset Ring"
+lvl_required = 5
+implicit_mod = "Has 1 Socket"
+
+[rings.sapphire_ring]
+class = "Rings"
+base_type = "Sapphire Ring"
+lvl_required = 8
+implicit_mod = "+(20-30)% to Cold Resistance"
+
+[rings.topaz_ring]
+class = "Rings"
+base_type = "Topaz Ring"
+lvl_required = 12
+implicit_mod = "+(20-30)% to Lightning Resistance"
+
+[rings.ruby_ring]
+class = "Rings"
+base_type = "Ruby Ring"
+lvl_required = 16
+implicit_mod = "+(20-30)% to Fire Resistance"
+
+[rings.diamond_ring]
+class = "Rings"
+base_type = "Diamond Ring"
+lvl_required = 20
+implicit_mod = "(20-30)% increased Global Critical Strike Chance"
+
+[rings.gold_ring]
+class = "Rings"
+base_type = "Gold Ring"
+lvl_required = 20
+implicit_mod = "(6-15)% increased Rarity of Items found"
+
+[rings.moonstone_ring]
+class = "Rings"
+base_type = "Moonstone Ring"
+lvl_required = 20
+implicit_mod = "+(15-25) to maximum Energy Shield"
+
+[rings.two-stone_ring]
+class = "Rings"
+base_type = "Two-Stone Ring"
+lvl_required = 20
+implicit_mod = "+(12-16)% to Cold and Lightning Resistances"
+
+[rings.cogwork_ring]
+class = "Rings"
+base_type = "Cogwork Ring"
+lvl_required = 24
+implicit_mod = "-1 Prefix Modifier allowed & +1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & & 25% increased Suffix Modifier magnitudes"
+
+[rings.composite_ring]
+class = "Rings"
+base_type = "Composite Ring"
+lvl_required = 24
+implicit_mod = "+3 Prefix Modifiers allowed & -3 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed"
+
+[rings.geodesic_ring]
+class = "Rings"
+base_type = "Geodesic Ring"
+lvl_required = 24
+implicit_mod = "+1 Prefix Modifier allowed & -1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 25% increased Prefix Modifier magnitudes"
+
+[rings.helical_ring]
+class = "Rings"
+base_type = "Helical Ring"
+lvl_required = 24
+implicit_mod = "-2 Prefix Modifiers allowed & +1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 50% & increased Suffix Modifier magnitudes"
+
+[rings.manifold_ring]
+class = "Rings"
+base_type = "Manifold Ring"
+lvl_required = 24
+implicit_mod = "+1 Prefix Modifier allowed & -2 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed & 50% increased Prefix Modifier magnitudes"
+
+[rings.ratcheting_ring]
+class = "Rings"
+base_type = "Ratcheting Ring"
+lvl_required = 24
+implicit_mod = "-3 Prefix Modifiers allowed & +3 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed"
+
+[rings.bone_ring]
+class = "Rings"
+base_type = "Bone Ring"
+lvl_required = 25
+implicit_mod = "Minions have +(10-15)% to all Elemental Resistances"
+
+[rings.amethyst_ring]
+class = "Rings"
+base_type = "Amethyst Ring"
+lvl_required = 30
+implicit_mod = "+(17-23)% to Chaos Resistance"
+
+[rings.prismatic_ring]
+class = "Rings"
+base_type = "Prismatic Ring"
+lvl_required = 30
+implicit_mod = "+(8-10)% to all Elemental Resistances"
+
+[rings.cerulean_ring]
+class = "Rings"
+base_type = "Cerulean Ring"
+lvl_required = 80
+implicit_mod = "(8-10)% increased maximum Mana"
+
+[rings.iolite_ring]
+class = "Rings"
+base_type = "Iolite Ring"
+lvl_required = 80
+implicit_mod = "(17-23)% increased Chaos Damage"
+
+[rings.opal_ring]
+class = "Rings"
+base_type = "Opal Ring"
+lvl_required = 80
+implicit_mod = "(15-25)% increased Elemental Damage"
+
+[rings.steel_ring]
+class = "Rings"
+base_type = "Steel Ring"
+lvl_required = 80
+implicit_mod = "Adds (3-4) to (10-14) Physical Damage to Attacks"
+
+[rings.vermillion_ring]
+class = "Rings"
+base_type = "Vermillion Ring"
+lvl_required = 80
+implicit_mod = "(5-7)% increased maximum Life"
+

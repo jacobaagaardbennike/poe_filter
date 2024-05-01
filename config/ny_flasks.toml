@@ -1,0 +1,442 @@
+####################################################################################################
+########## Flasks
+####################################################################################################
+[flasks]
+
+[flasks.small_hybrid_flask]
+class = "Hybrid Flasks"
+base_type = "Small Hybrid Flask"
+lvl_required = 10
+life_restored = 100
+mana_restored = 70
+duration = 5
+charges_used = 20
+total_charges = 40
+
+[flasks.medium_hybrid_flask]
+class = "Hybrid Flasks"
+base_type = "Medium Hybrid Flask"
+lvl_required = 20
+life_restored = 230
+mana_restored = 100
+duration = 5
+charges_used = 20
+total_charges = 40
+
+[flasks.large_hybrid_flask]
+class = "Hybrid Flasks"
+base_type = "Large Hybrid Flask"
+lvl_required = 30
+life_restored = 510
+mana_restored = 140
+duration = 5
+charges_used = 20
+total_charges = 40
+
+[flasks.colossal_hybrid_flask]
+class = "Hybrid Flasks"
+base_type = "Colossal Hybrid Flask"
+lvl_required = 40
+life_restored = 690
+mana_restored = 200
+duration = 5
+charges_used = 20
+total_charges = 40
+
+[flasks.sacred_hybrid_flask]
+class = "Hybrid Flasks"
+base_type = "Sacred Hybrid Flask"
+lvl_required = 50
+life_restored = 1440
+mana_restored = 400
+duration = 5
+charges_used = 20
+total_charges = 40
+
+[flasks.hallowed_hybrid_flask]
+class = "Hybrid Flasks"
+base_type = "Hallowed Hybrid Flask"
+lvl_required = 60
+life_restored = 1740
+mana_restored = 480
+duration = 5
+charges_used = 20
+total_charges = 40
+
+[flasks.small_life_flask]
+class = "Life Flasks"
+base_type = "Small Life Flask"
+lvl_required = 1
+life_restored = 70
+duration = 3
+charges_used = 7
+total_charges = 21
+
+[flasks.medium_life_flask]
+class = "Life Flasks"
+base_type = "Medium Life Flask"
+lvl_required = 3
+life_restored = 150
+duration = 3.5
+charges_used = 8
+total_charges = 28
+
+[flasks.large_life_flask]
+class = "Life Flasks"
+base_type = "Large Life Flask"
+lvl_required = 6
+life_restored = 250
+duration = 3.5
+charges_used = 9
+total_charges = 30
+
+[flasks.greater_life_flask]
+class = "Life Flasks"
+base_type = "Greater Life Flask"
+lvl_required = 12
+life_restored = 360
+duration = 3.5
+charges_used = 10
+total_charges = 32
+
+[flasks.grand_life_flask]
+class = "Life Flasks"
+base_type = "Grand Life Flask"
+lvl_required = 18
+life_restored = 640
+duration = 3
+charges_used = 10
+total_charges = 25
+
+[flasks.giant_life_flask]
+class = "Life Flasks"
+base_type = "Giant Life Flask"
+lvl_required = 24
+life_restored = 830
+duration = 4
+charges_used = 10
+total_charges = 30
+
+[flasks.colossal_life_flask]
+class = "Life Flasks"
+base_type = "Colossal Life Flask"
+lvl_required = 30
+life_restored = 1000
+duration = 3.5
+charges_used = 10
+total_charges = 32
+
+[flasks.sacred_life_flask]
+class = "Life Flasks"
+base_type = "Sacred Life Flask"
+lvl_required = 36
+life_restored = 1200
+duration = 3
+charges_used = 10
+total_charges = 25
+
+[flasks.hallowed_life_flask]
+class = "Life Flasks"
+base_type = "Hallowed Life Flask"
+lvl_required = 42
+life_restored = 1990
+duration = 4
+charges_used = 10
+total_charges = 30
+
+[flasks.sanctified_life_flask]
+class = "Life Flasks"
+base_type = "Sanctified Life Flask"
+lvl_required = 50
+life_restored = 1460
+duration = 1.5
+charges_used = 15
+total_charges = 30
+
+[flasks.divine_life_flask]
+class = "Life Flasks"
+base_type = "Divine Life Flask"
+lvl_required = 60
+life_restored = 2400
+duration = 3.5
+charges_used = 15
+total_charges = 45
+
+[flasks.eternal_life_flask]
+class = "Life Flasks"
+base_type = "Eternal Life Flask"
+lvl_required = 65
+life_restored = 2080
+duration = 2
+charges_used = 15
+total_charges = 45
+
+[flasks.small_mana_flask]
+class = "Mana Flasks"
+base_type = "Small Mana Flask"
+lvl_required = 1
+mana_restored = 50
+duration = 3
+charges_used = 6
+total_charges = 24
+
+[flasks.medium_mana_flask]
+class = "Mana Flasks"
+base_type = "Medium Mana Flask"
+lvl_required = 3
+mana_restored = 70
+duration = 3.5
+charges_used = 7
+total_charges = 30
+
+[flasks.large_mana_flask]
+class = "Mana Flasks"
+base_type = "Large Mana Flask"
+lvl_required = 6
+mana_restored = 90
+duration = 4
+charges_used = 8
+total_charges = 35
+
+[flasks.greater_mana_flask]
+class = "Mana Flasks"
+base_type = "Greater Mana Flask"
+lvl_required = 12
+mana_restored = 120
+duration = 4
+charges_used = 9
+total_charges = 36
+
+[flasks.grand_mana_flask]
+class = "Mana Flasks"
+base_type = "Grand Mana Flask"
+lvl_required = 18
+mana_restored = 170
+duration = 4.5
+charges_used = 7
+total_charges = 30
+
+[flasks.giant_mana_flask]
+class = "Mana Flasks"
+base_type = "Giant Mana Flask"
+lvl_required = 24
+mana_restored = 250
+duration = 5
+charges_used = 8
+total_charges = 36
+
+[flasks.colossal_mana_flask]
+class = "Mana Flasks"
+base_type = "Colossal Mana Flask"
+lvl_required = 30
+mana_restored = 350
+duration = 5
+charges_used = 8
+total_charges = 38
+
+[flasks.sacred_mana_flask]
+class = "Mana Flasks"
+base_type = "Sacred Mana Flask"
+lvl_required = 36
+mana_restored = 480
+duration = 5.5
+charges_used = 7
+total_charges = 35
+
+[flasks.hallowed_mana_flask]
+class = "Mana Flasks"
+base_type = "Hallowed Mana Flask"
+lvl_required = 42
+mana_restored = 700
+duration = 6
+charges_used = 6
+total_charges = 30
+
+[flasks.sanctified_mana_flask]
+class = "Mana Flasks"
+base_type = "Sanctified Mana Flask"
+lvl_required = 50
+mana_restored = 1100
+duration = 6.5
+charges_used = 7
+total_charges = 35
+
+[flasks.divine_mana_flask]
+class = "Mana Flasks"
+base_type = "Divine Mana Flask"
+lvl_required = 60
+mana_restored = 1400
+duration = 5
+charges_used = 8
+total_charges = 42
+
+[flasks.eternal_mana_flask]
+class = "Mana Flasks"
+base_type = "Eternal Mana Flask"
+lvl_required = 65
+mana_restored = 1800
+duration = 7
+charges_used = 8
+total_charges = 42
+
+[flasks.quicksilver_flask]
+class = "Utility Flasks"
+base_type = "Quicksilver Flask"
+lvl_required = 4
+duration = 6
+charges_used = 30
+total_charges = 60
+effects = "40% increased Movement Speed"
+
+[flasks.bismuth_flask]
+class = "Utility Flasks"
+base_type = "Bismuth Flask"
+lvl_required = 8
+duration = 8.5
+charges_used = 15
+total_charges = 40
+effects = "+35% to all Elemental Resistances"
+
+[flasks.amethyst_flask]
+class = "Utility Flasks"
+base_type = "Amethyst Flask"
+lvl_required = 18
+duration = 6.5
+charges_used = 35
+total_charges = 65
+effects = "+35% to Chaos Resistance"
+
+[flasks.ruby_flask]
+class = "Utility Flasks"
+base_type = "Ruby Flask"
+lvl_required = 18
+duration = 8
+charges_used = 20
+total_charges = 50
+effects = "+40% to Fire Resistance & +5% to maximum Fire Resistance"
+
+[flasks.sapphire_flask]
+class = "Utility Flasks"
+base_type = "Sapphire Flask"
+lvl_required = 18
+duration = 8
+charges_used = 20
+total_charges = 50
+effects = "+40% to Cold Resistance & +5% to maximum Cold Resistance"
+
+[flasks.topaz_flask]
+class = "Utility Flasks"
+base_type = "Topaz Flask"
+lvl_required = 18
+duration = 8
+charges_used = 20
+total_charges = 50
+effects = "+40% to Lightning Resistance & +5% to maximum Lightning Resistance"
+
+[flasks.aquamarine_flask]
+class = "Utility Flasks"
+base_type = "Aquamarine Flask"
+lvl_required = 27
+duration = 8
+charges_used = 20
+total_charges = 50
+effects = "60% reduced Effect of Freeze on you & Creates Chilled Ground on Use"
+
+[flasks.basalt_flask]
+class = "Utility Flasks"
+base_type = "Basalt Flask"
+lvl_required = 27
+duration = 8
+charges_used = 40
+total_charges = 60
+effects = "20% more Armour & Taunts nearby Enemies on use"
+
+[flasks.corundum_flask]
+class = "Utility Flasks"
+base_type = "Corundum Flask"
+lvl_required = 27
+duration = 7.5
+charges_used = 20
+total_charges = 50
+effects = "30% increased Stun Threshold & Cannot be Stunned if you've been Stunned during Effect"
+
+[flasks.diamond_flask]
+class = "Utility Flasks"
+base_type = "Diamond Flask"
+lvl_required = 27
+duration = 6
+charges_used = 20
+total_charges = 40
+effects = "100% increased Global Critical Strike Chance"
+
+[flasks.gold_flask]
+class = "Utility Flasks"
+base_type = "Gold Flask"
+lvl_required = 27
+duration = 5
+charges_used = 60
+total_charges = 80
+effects = "30% increased Rarity of Items found"
+
+[flasks.granite_flask]
+class = "Utility Flasks"
+base_type = "Granite Flask"
+lvl_required = 27
+duration = 6
+charges_used = 30
+total_charges = 60
+effects = "+1500 to Armour"
+
+[flasks.iron_flask]
+class = "Utility Flasks"
+base_type = "Iron Flask"
+lvl_required = 27
+duration = 5
+charges_used = 40
+total_charges = 60
+effects = "+200 to Ward & Restores Ward on use"
+
+[flasks.jade_flask]
+class = "Utility Flasks"
+base_type = "Jade Flask"
+lvl_required = 27
+duration = 6
+charges_used = 30
+total_charges = 60
+effects = "+1500 to Evasion Rating"
+
+[flasks.quartz_flask]
+class = "Utility Flasks"
+base_type = "Quartz Flask"
+lvl_required = 27
+duration = 6
+charges_used = 30
+total_charges = 60
+effects = "Phasing & +10% chance to Suppress Spell Damage"
+
+[flasks.silver_flask]
+class = "Utility Flasks"
+base_type = "Silver Flask"
+lvl_required = 27
+duration = 6
+charges_used = 40
+total_charges = 60
+effects = "Onslaught"
+
+[flasks.stibnite_flask]
+class = "Utility Flasks"
+base_type = "Stibnite Flask"
+lvl_required = 27
+duration = 8
+charges_used = 40
+total_charges = 60
+effects = "20% more Evasion Rating & Creates a Smoke Cloud on Use"
+
+[flasks.sulphur_flask]
+class = "Utility Flasks"
+base_type = "Sulphur Flask"
+lvl_required = 27
+duration = 8
+charges_used = 40
+total_charges = 60
+effects = "40% increased Damage & Creates Consecrated Ground on Use"

@@ -1,0 +1,862 @@
+[[Cards]]
+card = "A Sea of Blue"
+req_number = 3
+req_area_lvl = 68
+drop_areas = ["Citadel Map", "Crystal Ore Map", "Grotto Map", "Mineral Pools Map", "Primordial Blocks Map", "Ziggurat Map"]
+drop_monsters = ["Any"]
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+name = "Orb of Alteration"
+amount = 13
+properties = ""
+
+[[Cards]]
+card = "Abandoned Wealth"
+tier = 2
+req_number = 5
+req_area_lvl = 68
+drop_areas = ["Mao Kun"]
+drop_monsters = []
+tags = "FavoriteCurrency"
+[Cards.Reward.Currency]
+name = "Exalted Orb"
+amount = 3
+properties = ""
+
+[[Cards]]
+card = "Acclimatisation"
+req_number = 2
+req_area_lvl = 23
+drop_areas = ["Desert Map", "Desert Spring Map", "Dry Sea Map", "Dunes Map"]
+drop_monsters = []
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+name = "Orb of Alteration"
+amount = 20
+properties = ""
+
+[[Cards]]
+card = "Alluring Bounty"
+tier = 1
+req_number = 7
+req_area_lvl = 68
+drop_areas = ["The Apex of Sacrifice", "The Alluring Abyss"]
+drop_monsters = []
+tags = "FavoriteCurrency"
+[Cards.Reward.Currency]
+name = "Exalted Orb"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "Ambitious Obsession"
+req_number = 4
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = ["Ara Sister of Light", "Armala, the Widow", "Drek Apex Hunter", "Erebix Light's Bane", "Gorulis Will-Thief", "Khor Sister of Shadows", "Mephod the Earth Scorcher", "Nassar Lion of the Seas", "Stalker of the Endless Dunes", "Tahsin Warmaker", "Terror of the Infinite Drifts", "Varhesh Shimmering Aberration"]
+tags = ""
+priority = "Early|Ssf"
+[Cards.Reward.Currency]
+name = "Skittering Delirium Orb"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "Brother's Gift"
+tier = 1
+req_number = 1
+req_area_lvl = 68
+drop_areas = ["Cemetery Map", "Grave Trough Map", "Graveyard Map"]
+drop_monsters = ["Any"]
+tags = "NormalMap"
+[Cards.Reward.Currency]
+name = "Divine Orb"
+amount = 5
+properties = ""
+
+[[Cards]]
+card = "Brother's Stash"
+tier = 1
+req_number = 1
+req_area_lvl = 68
+drop_areas = ["Cemetery Map", "Grave Trough Map", "Graveyard Map"]
+drop_monsters = ["Any"]
+tags = "NormalMap|FavoriteCurrency"
+[Cards.Reward.Currency]
+name = "Exalted Orb"
+amount = 5
+properties = ""
+
+[[Cards]]
+card = "Buried Treasure"
+tier = -1
+req_number = 3
+req_area_lvl = 68
+drop_areas = ["Crystal Ore Map", "Dig Map", "Excavation Map", "Flooded Mine Map", "Geode Map", "Grotto Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Currency]
+name = "Sulphite Scarab"
+amount = 1
+properties = ""
+
+properties = "Corrupted"
+
+[[Cards]]
+card = "Cameria's Cut"
+req_number = 2
+req_area_lvl = 68
+drop_areas = ["Any"]
+drop_monsters = ["Cameria the Coldblooded"]
+tags = "Betrayal"
+priority = "Early|Ssf"
+[Cards.Reward.Currency]
+name = "Scarab"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "Chaotic Disposition"
+req_number = 1
+req_area_lvl = 23
+drop_areas = ["Poorjoy's Asylum"]
+drop_monsters = []
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+name = "Chaos Orb"
+amount = 5
+properties = ""
+
+[[Cards]]
+card = "Checkmate"
+req_number = 8
+req_area_lvl = 68
+drop_areas = ["Academy Map", "Museum Map", "Scriptorium Map"]
+drop_monsters = []
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+name = "Simulacrum Splinter"
+amount = 76
+properties = ""
+
+[[Cards]]
+card = "Coveted Possession"
+req_number = 9
+req_area_lvl = 23
+drop_areas = ["The Catacombs", "The Ossuary (Act 5)", "The Ossuary (Act 10)", "Bone Crypt Map", "Sanctuary Map", "Ziggurat Map"]
+drop_monsters = []
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+name = "Regal Orb"
+amount = 5
+properties = ""
+
+[[Cards]]
+card = "Darker Half"
+tier = 1
+req_number = 3
+req_area_lvl = 81
+drop_areas = ["Currency rewards from Delirium layers and Simulacrum."]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Currency]
+name = "Eldritch Chaos Orb"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "Dementophobia"
+req_number = 11
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = ["Al-Hezmin, The Hunter", "Baran, The Crusader", "Drox, The Warlord", "Venarius", "Veritania, The Redeemer"]
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+name = "Delirium Orb"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "Demigod's Wager"
+tier = 1
+req_number = 7
+req_area_lvl = 35
+drop_areas = []
+drop_monsters = ["The Cleansing Light"]
+tags = "FavoriteCurrency"
+[Cards.Reward.Currency]
+name = "Orb of Annulment"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "Disdain"
+req_number = 5
+req_area_lvl = 0
+drop_areas = ["The Maven's Crucible"]
+drop_monsters = []
+tags = "EndBoss"
+priority = "Early|Ssf"
+[Cards.Reward.Currency]
+name = "Delirium Orb"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "Divine Beauty"
+tier = 1
+req_number = 12
+req_area_lvl = 68
+drop_areas = ["Underground Sea Map", "Maelström of Chaos"]
+drop_monsters = ["Fire and Fury", "Merveil, the Returned", "Shock and Horror", "Tormented Temptress"]
+tags = "RegularBoss"
+[Cards.Reward.Currency]
+name = "Divine Orb"
+amount = 7
+properties = ""
+
+[[Cards]]
+card = "Emperor's Luck"
+req_number = 5
+req_area_lvl = 23
+drop_areas = ["The Imperial Gardens", "The High Gardens", "Courtyard Map", "Gardens Map", "Orchard Map", "Terrace Map"]
+drop_monsters = []
+tags = ""
+priority = "DoubleGoingForIt|TrippleSkull|Ssf"
+[Cards.Reward.Currency]
+name = "Random Currency"
+amount = 5
+properties = ""
+
+[[Cards]]
+card = "Ever-Changing"
+req_number = 3
+req_area_lvl = 68
+drop_areas = ["Drops in maps opened via Kirac missions."]
+drop_monsters = []
+tags = ""
+priority = "Always"
+[Cards.Reward.Currency]
+name = "Orb of Unmaking"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "Harmony of Souls"
+tier = 2
+req_number = 9
+req_area_lvl = 68
+drop_areas = ["Abomination", "Sepulchre Map", "Overgrown Shrine Map", "Cells Map"]
+drop_monsters = ["Doedre", "Maligaro", "Shavronne"]
+tags = "FavoriteCurrency"
+[Cards.Reward.Currency]
+name = "Shrieking Essence"
+amount = 9
+properties = ""
+
+[[Cards]]
+card = "House of Mirrors"
+tier = 1
+req_number = 9
+req_area_lvl = 78
+drop_areas = ["The Alluring Abyss"]
+drop_monsters = ["Atziri Queen of the Vaal"]
+tags = "Uber|EndBoss"
+[Cards.Reward.Currency]
+name = "Mirror of Kalandra"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "I See Brothers"
+tier = 1
+req_number = 2
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = ["bosses with the 'I_see_brothers_card' monster tag"]
+tags = ""
+[Cards.Reward.Currency]
+name = "Fracturing Orb"
+amount = 2
+properties = ""
+
+[[Cards]]
+card = "Loyalty"
+req_number = 5
+tier = -1
+req_area_lvl = 23
+drop_areas = ["The Den (Act 7)", "Barrows Map", "Grotto Map", "Lair Map", "Caer Blaidd, Wolfpack's Den"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Currency]
+reward = "Orb of Fusing"
+amount = 3
+properties = ""
+
+[[Cards]]
+card = "Lucky Connections"
+req_number = 7
+req_area_lvl = 23
+drop_areas = ["The Docks", "The Quay", "Pier Map", "Port Map", "Shipyard Map", "Wharf Map"]
+drop_monsters = []
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+reward = "Orb of Fusing"
+amount = 20
+properties = ""
+
+[[Cards]]
+card = "Lucky Deck"
+req_number = 9
+req_area_lvl = 74
+drop_areas = ["Ziggurat Map"]
+drop_monsters = []
+tags = "T17Map"
+priority = "DoubleGoingForIt|Ssf"
+reward = "10 req_numbered Deck"
+[Cards.Reward.Item]
+level = 0
+rarity = "Card"
+properties = ""
+
+[[Cards]]
+card = "More is Never Enough"
+tier = 2
+req_number = 7
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = []
+tags = "NoSource"
+[Cards.Reward.Currency]
+reward = "Veiled Scarabs"
+amount = 4
+properties = ""
+
+[[Cards]]
+card = "No Traces"
+req_number = 9
+req_area_lvl = 23
+drop_areas = ["The Ossuary (Act 5)", "The Reliquary (Act 10)", "The Ossuary (Act 10)", "Mausoleum Map", "Relic Chambers Map", "Sepulchre Map", "Ziggurat Map"]
+drop_monsters = []
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+reward = "Orb of Scouring"
+amount = 30
+properties = ""
+
+[[Cards]]
+card = "Parasitic Passengers"
+tier = -1
+req_number = 8
+req_area_lvl = 68
+drop_areas = ["Arachnid Tomb Map", "Channel Map", "Infested Valley Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Currency]
+name = "Random Incubator"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "Rain of Chaos"
+tier = -1
+req_number = 8
+req_area_lvl = 23
+drop_areas = ["The Crossroads (Act 7)", "The Imperial Fields", "Castle Ruins Map", "Fields Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Currency]
+reward = "Chaos Orb"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "Seven Years Bad Luck"
+tier = 1
+req_number = 13
+req_area_lvl = 35
+drop_areas = ["Crimson Temple Map", "Defiled Cathedral Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Currency]
+name = "Mirror Shard"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "Society's Remorse"
+req_number = 1
+req_area_lvl = 23
+drop_areas = ["any"]
+drop_monsters = ["Voltaxic Sulphite deposits"]
+tags = "Strongbox"
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+name = "Orb of Alteration"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "The Cacophony"
+tier = 2
+req_number = 8
+req_area_lvl = 68
+drop_areas = ["Underground Sea Map", "Maelström of Chaos"]
+drop_monsters = ["Doedre the Defiler", "Doedre the Defiler", "Erebix, Light's Bane", "Merveil, the Returned", "Merveil, the Returned", "Nassar, Lion of the Seas", "Shrieker Eihal", "The Sanguine Siren"]
+tags = ""
+[Cards.Reward.Currency]
+name = "Deafening Essence"
+amount = 3
+properties = ""
+
+[[Cards]]
+card = "The Card Sharp"
+req_number = 4
+req_area_lvl = 68
+drop_areas = ["Alva's Memory of Reverse Incursion", "Temporal incursion encounters"]
+drop_monsters = ["Ahuana, Architect of Ceremonies", "Paquate, Architect of Corruption", "Zalatl, Architect of Thaumaturgy"]
+tags = ""
+priority = "Always"
+[Cards.Reward.Currency]
+name = "Divination Scarab"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "The Cartographer"
+req_number = 1
+req_area_lvl = 39
+drop_areas = []
+drop_monsters = ["Cartographer's Strongboxes"]
+tags = "Strongbox"
+priority = "Early|Ssf"
+[Cards.Reward.Currency]
+reward = "Cartographer's Chisel"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "The Catalyst"
+tier = -1
+req_number = 3
+req_area_lvl = 23
+drop_areas = ["The Ancient Pyramid", "The Causeway", "The Vaal City", "The Temple of Decay Level 1", "The Temple of Decay Level 2", "Ancient City Map", "Maze Map", "Doryani's Machinarium", "Vaal Pyramid Map", "Vaults of Atziri", "Vaal Temple Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Currency]
+reward = "Vaal Orb"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "The Finishing Touch"
+req_number = 2
+req_area_lvl = 60
+drop_areas = []
+drop_monsters = ["Hillock, the Blacksmith"]
+tags = ""
+priority = "Always"
+[Cards.Reward.Currency]
+name = "Fertile Catalyst"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "The Fishmonger"
+tier = 2
+req_number = 4
+req_area_lvl = 23
+drop_areas = ["any"]
+drop_monsters = ["Drought-Maddened Rhoa", "Skullbeak"]
+tags = ""
+[Cards.Reward.Currency]
+name = "Albino Rhoa Feather"
+amount = 1000
+properties = ""
+
+[[Cards]]
+card = "The Fool"
+req_number = 4
+req_area_lvl = 23
+drop_areas = ["any"]
+drop_monsters = ["Immortal Syndicate members"]
+tags = "Betrayal"
+priority = "Early|Ssf"
+[Cards.Reward.Currency]
+reward = "Orb of Chance"
+amount = 20
+properties = ""
+
+[[Cards]]
+card = "The Fortunate"
+tier = 1
+req_number = 12
+req_area_lvl = 68
+drop_areas = ["Ancient City Map", "Arid Lake Map", "Atoll Map", "Beach Map", "Burial Chambers Map", "Caldera Map", "Canyon Map", "Desert Map", "Desert Spring Map", "Dry Sea Map", "Dunes Map", "Estuary Map", "Fields Map", "Jungle Valley Map", "Leyline Map", "Marshes Map", "Mesa Map", "Mineral Pools Map", "Orchard Map", "Peninsula Map", "Plateau Map", "Shore Map", "Sulphur Vents Map", "Terrace Map", "Crater Map", "Tropical Island Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Currency]
+name = "Divine Orb"
+amount = 2
+properties = ""
+
+[[Cards]]
+card = "The Gemcutter"
+req_number = 3
+req_area_lvl = 23
+drop_areas = ["any"]
+drop_monsters = ["Gemcutter's Strongboxes"]
+tags = "Strongbox"
+priority = "Early|Ssf"
+[Cards.Reward.Currency]
+name = "Gemcutter's Prism"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "The Heroic Shot"
+req_number = 1
+req_area_lvl = 23
+drop_areas = ["any"]
+drop_monsters = ["Arcanist's Strongboxes"]
+tags = "Strongbox"
+priority = "PoorMansCurrency"
+[Cards.Reward.Currency]
+name = "Chromatic Orb"
+amount = 17
+properties = ""
+
+[[Cards]]
+card = "The Hoarder"
+tier = 2
+req_number = 12
+req_area_lvl = 68
+drop_areas = ["Maelström of Chaos", "Mineral Pools Map", "Underground Sea Map", "Vaults of Atziri", "Vault Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Currency]
+name = "Exalted Orb|FavoriteCurrency"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "The Immortal"
+tier = 1
+req_number = 10
+req_area_lvl = 35
+drop_areas = ["Hall of Grandmasters"]
+drop_monsters = ["Grandmaster"]
+tags = "EndBoss"
+[Cards.Reward.Item]
+name = "House of Mirrors divination card."
+level = 0
+rarity = "Card"
+properties = ""
+
+[[Cards]]
+card = "The Innocent"
+req_number = 10
+req_area_lvl = 23
+drop_areas = ["The Chamber of Innocence", "Basilica Map", "Defiled Cathedral Map", "Sanctuary Map"]
+drop_monsters = []
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+name = "Orb of Regret"
+amount = 40
+properties = ""
+
+[[Cards]]
+card = "The Inventor"
+req_number = 6
+req_area_lvl = 23
+drop_areas = ["The Ancient Pyramid", "The Temple of Decay Level 1", "The Temple of Decay Level 2", "Maze Map", "Doryani's Machinarium", "Pyramid Map", "Vaults of Atziri", "Vaal Temple Map"]
+drop_monsters = []
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+reward = "Vaal Orb"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "The Journey"
+tier = -1
+req_number = 3
+req_area_lvl = 68
+drop_areas = ["Atoll Map", "Maelström of Chaos", "Beach Map", "Coral Ruins Map", "Coves Map", "Estuary Map", "Lighthouse Map", "Peninsula Map", "Pier Map", "Plateau Map", "Port Map", "Reef Map", "Shipyard Map", "Shore Map", "Mao Kun", "Strand Map", "Whakawairua Tuahu", "Tropical Island Map", "Wharf Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Currency]
+reward = "Harbinger's Orb"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "The Long Con"
+tier = 1
+req_number = 4
+req_area_lvl = 80
+drop_areas = ["Eternal Labyrinth (Uber Lab)", "Enriched Eternal Labyrinth"]
+drop_monsters = ["Izaro's Treasure Chests"]
+tags = "Labyrinth|Strongbox"
+[Cards.Reward.Currency]
+name = "Elderslayer's Exalted Orb"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "The Master Artisan"
+tier = -1
+req_number = 5
+req_area_lvl = 23
+drop_areas = ["Any"]
+drop_monsters = ["Artisan's Strongboxes"]
+tags = "Strongbox|Ssf"
+[Cards.Reward.Currency]
+name = "Quality Currency"
+amount = 20
+properties = ""
+
+[[Cards]]
+card = "The Rabbit's Foot"
+tier = -1
+req_number = 8
+req_area_lvl = 50
+drop_areas = ["Bone Crypt Map", "Citadel Map", "Cursed Crypt Map", "The Coward's Trial", "Ziggurat Map"]
+drop_monsters = ["any"]
+tags = "Incursion Vial|Ssf"
+[Cards.Reward.Currency]
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "The Rusted Bard"
+req_number = 9
+req_area_lvl = 68
+drop_areas = ["The Vinktar Square"]
+drop_monsters = []
+tags = ""
+priority = "Always"
+[Cards.Reward.Currency]
+name = "Tainted Mythic Orb"
+amount = 4
+properties = ""
+
+properties = "SixLink"
+
+[[Cards]]
+card = "The Saint's Treasure"
+tier = 2
+req_number = 10
+req_area_lvl = 68
+drop_areas = ["Alleyways Map", "Arcade Map", "Bazaar Map", "Ghetto Map", "Port Map", "Precinct Map"]
+drop_monsters = ["Any"]
+tags = "FavoriteCurrency"
+[Cards.Reward.Currency]
+name = "Exalted Orb"
+amount = 2
+properties = ""
+
+[[Cards]]
+card = "The Scholar"
+tier = -1
+req_number = 3
+req_area_lvl = 23
+drop_areas = ["The Library", "The Archives", "Academy Map", "Museum Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Currency]
+name = "Scroll of Wisdom"
+amount = 40
+properties = ""
+
+[[Cards]]
+card = "The Scout"
+tier = 2
+req_number = 8
+req_area_lvl = 68
+drop_areas = ["Ashen Wood Map", "Bramble Valley Map", "Dark Forest Map", "Forbidden Woods Map", "Jungle Valley Map", "Lair Map", "Ramparts Map", "Spider Forest Map", "Stagnation Map", "Thicket Map", "Tropical Island Map"]
+drop_monsters = ["Any"]
+tags = "FavoriteCurrency"
+[Cards.Reward.Currency]
+name = "Exalted Orb"
+amount = 7
+properties = ""
+
+[[Cards]]
+card = "The Seeker"
+tier = 1
+req_number = 9
+req_area_lvl = 35
+drop_areas = ["The Temple of Atzoatl"]
+drop_monsters = []
+tags = "FavoriteCurrency"
+[Cards.Reward.Currency]
+name = "Orb of Annulment"
+amount = 3
+properties = ""
+
+[[Cards]]
+card = "The Sephirot"
+tier = 1
+req_number = 11
+req_area_lvl = 35
+drop_areas = []
+drop_monsters = ["Dominus, Ascendant", "Excellis Aurafix", "The Hallowed Husk", "The High Templar"]
+tags = "EndBoss"
+[Cards.Reward.Currency]
+name = "Divine Orb"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "The Side Quest"
+req_number = 5
+req_area_lvl = 69
+drop_areas = ["Arachnid Tomb Map", "Armoury Map", "Castle Ruins Map", "Forking River Map", "Iceberg Map", "Infested Valley Map", "Mineral Pools Map", "Siege Map", "Primordial Blocks Map"]
+drop_monsters = ["Any"]
+tags = ""
+priority = "PoorMansCurrency|Ssf"
+[Cards.Reward.Currency]
+name = "Scouting Report"
+amount = 20
+properties = ""
+
+[[Cards]]
+card = "The Survivalist"
+tier = -1
+req_number = 3
+req_area_lvl = 23
+drop_areas = ["The Cavern of Anger (Act 6)", "Flooded Mine Map", "Mineral Pools Map", "Underground Sea Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Currency]
+reward = "Orb of Alchemy"
+amount = 7
+properties = ""
+
+[[Cards]]
+card = "The Tinkerer's Table"
+tier = -1
+req_number = 5
+req_area_lvl = 23
+drop_areas = ["Academy Map", "Acid Caverns Map", "Alleyways Map", "Ancient City Map", "Arachnid Nest Map", "Arachnid Tomb Map", "Arcade Map", "Arena Map", "Arid Lake Map", "Armoury Map", "Arsenal Map", "Ashen Wood Map", "Atoll Map", "Barrows Map", "Basilica Map", "Bazaar Map", "Beach Map", "Belfry Map", "Bog Map", "Bone Crypt Map", "Bramble Valley Map", "Burial Chambers Map", "Cage Map", "Caldera Map", "Canyon Map", "Carcass Map", "Castle Ruins Map", "Cells Map", "Cemetery Map", "Channel Map", "Chateau Map", "Pit of the Chimera Map", "City Square Map", "Cold River Map", "Colonnade Map", "Colosseum Map", "Conservatory Map", "Coral Ruins Map", "Core Map", "Courthouse Map", "Courtyard Map", "Coves Map", "Crimson Temple Map", "Crimson Township Map", "Crystal Ore Map", "Cursed Crypt Map", "Dark Forest Map", "Defiled Cathedral Map", "Desert Map", "Desert Spring Map", "Dig Map", "Dry Sea Map", "Dunes Map", "Dungeon Map", "Estuary Map", "Excavation Map", "Factory Map", "Fields Map", "Flooded Mine Map", "Forbidden Woods Map", "Forking River Map", "Foundry Map", "Frozen Cabins Map", "Gardens Map", "Geode Map", "Ghetto Map", "Glacier Map", "Grave Trough Map", "Graveyard Map", "Grotto Map", "Haunted Mansion Map", "Lair of the Hydra Map", "Iceberg Map", "Infested Valley Map", "Ivory Temple Map", "Jungle Valley Map", "Laboratory Map", "Lair Map", "Lava Chamber Map", "Lava Lake Map", "Leyline Map", "Lighthouse Map", "Lookout Map", "Malformation Map", "Marshes Map", "Mausoleum Map", "Maze Map", "Mesa Map", "Mineral Pools Map", "Maze of the Minotaur Map", "Moon Temple Map", "Mud Geyser Map", "Museum Map", "Necropolis Map", "Orchard Map", "Overgrown Ruin Map", "Overgrown Shrine Map", "Palace Map", "Park Map", "Pen Map", "Peninsula Map", "Phantasmagoria Map", "Forge of the Phoenix Map", "Pier Map", "Pit Map", "Plateau Map", "Plaza Map", "Port Map", "Precinct Map", "Primordial Pool Map", "Promenade Map", "Racecourse Map", "Ramparts Map", "Reef Map", "Relic Chambers Map", "Residence Map", "Scriptorium Map", "Sepulchre Map", "Shipyard Map", "Shore Map", "Shrine Map", "Siege Map", "Silo Map", "Spider Forest Map", "Spider Lair Map", "Fungal Hollow Map", "Stagnation Map", "Strand Map", "Sulphur Vents Map", "Summit Map", "Sunken City Map", "Temple Map", "Terrace Map", "Thicket Map", "Primordial Blocks Map", "Tower Map", "Toxic Sewer Map", "Crater Map", "Tropical Island Map", "Underground River Map", "Underground Sea Map", "Vaal Pyramid Map", "Vaal Temple Map", "Vault Map", "Villa Map", "Volcano Map", "Wasteland Map", "Waste Pool Map", "Waterways Map", "Wharf Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Currency]
+reward = "Random Fossil"
+amount = 5
+properties = ""
+
+[[Cards]]
+card = "The Tireless Extractor"
+req_number = 8
+req_area_lvl = 68
+drop_areas = ["Factory Map", "Fortress Map", "Foundry Map", "Forge of the Phoenix Map", "Port Map", "Silo Map"]
+drop_monsters = ["Any"]
+tags = ""
+priority = "TrippleSkull|Ssf"
+[Cards.Reward.Currency]
+name = "Oil"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "The Transformation"
+req_number = 5
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = ["transform_boss tag"]
+tags = ""
+priority = "Always"
+[Cards.Reward.Currency]
+name = "Tainted Mythic Orb"
+amount = 1
+properties = ""
+
+[[Cards]]
+card = "The Union"
+tier = -1
+req_number = 7
+req_area_lvl = 23
+drop_areas = ["The Fellshrine Ruins (Act 7)", "Cemetery Map", "Grave Trough Map", "Graveyard Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Currency]
+reward = "Gemcutter's Prism"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "The Wrath"
+tier = -1
+req_number = 8
+req_area_lvl = 23
+drop_areas = ["The Cathedral Rooftop (Act 5)", "The Feeding Trough", "Belfry Map", "Lava Lake Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Currency]
+reward = "Chaos Orb"
+amount = 10
+properties = ""
+
+[[Cards]]
+card = "Three Faces in the Dark"
+tier = -1
+req_number = 7
+req_area_lvl = 23
+drop_areas = ["The Grain Gate", "The Refinery", "Arsenal Map", "Factory Map", "Port Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Currency]
+reward = "Chaos Orb"
+amount = 3
+properties = ""
+
+[[Cards]]
+card = "Three Voices"
+tier = -1
+req_number = 3
+req_area_lvl = 23
+drop_areas = ["Arena Map", "City Square Map", "Courthouse Map", "Courtyard Map", "Crystal Ore Map", "Forbidden Woods Map", "Graveyard Map", "Racecourse Map", "Vaal Pyramid Map"]
+drop_monsters = ["Triple Boss Tag"]
+tags = "Ssf"
+[Cards.Reward.Currency]
+name = "Essence"
+amount = 3
+properties = ""
+
+[[Cards]]
+card = "Unrequited Love"
+tier = 1
+req_number = 16
+req_area_lvl = 35
+drop_areas = ["The Temple of Decay Level 1", "Maze Map", "Vaal Pyramid Map", "Vaults of Atziri"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Currency]
+name = "Mirror Shard"
+amount = 19
+properties = ""
+
+[[Cards]]
+card = "Vinia's Token"
+tier = -1
+req_number = 5
+req_area_lvl = 68
+drop_areas = ["Core Map", "Malformation Map", "Shrine Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Currency]
+name = "Orb of Regret"
+amount = 10
+properties = ""

@@ -237,6 +237,20 @@ rarity = "Unique"
 properties = "Shield"
 
 [[Cards]]
+card = "Birth of the Three"
+tier = 0
+req_number = 3
+req_area_lvl = 23
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Unique]
+reward = "The Goddess Bound Whalebone Rapier"
+level = 0
+rarity = "Unique"
+properties = "Sword"
+
+[[Cards]]
 card = "Blind Venture"
 req_number = 7
 req_area_lvl = 23
@@ -783,6 +797,20 @@ rarity = "Unique"
 properties = "TwoImplicitCorrupted|Jewel"
 
 [[Cards]]
+card = "Luck of the Vaal"
+tier = 0
+req_number = 1
+req_area_lvl = 47
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Unique]
+reward = "Random Vaal Gauntlets"
+level = 0
+rarity = "Unique"
+properties = "Corrupted|Gloves"
+
+[[Cards]]
 card = "Luminous Trove"
 tier = 1
 req_number = 7
@@ -1008,6 +1036,20 @@ reward = "The Pandemonius Jade Amulet"
 level = 0
 rarity = "Unique"
 properties = "Amulet"
+
+[[Cards]]
+card = "Squandered Prosperity"
+tier = 0
+req_number = 5
+req_area_lvl = 73
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Map]
+reward = "The Perandus Manor Chateau Map"
+map_level = 0
+rarity = "Unique"
+properties = "Corrupted"
 
 [[Cards]]
 card = "Succor of the Sinless"
@@ -1994,6 +2036,20 @@ rarity = "Unique"
 properties = ""
 
 [[Cards]]
+card = "The Mayor"
+tier = 0
+req_number = 5
+req_area_lvl = 73
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Map]
+reward = "The Perandus Manor Chateau Map"
+map_level = 0
+rarity = "Unique"
+properties = ""
+
+[[Cards]]
 card = "The Mercenary"
 tier = -1
 req_number = 5
@@ -2860,6 +2916,20 @@ reward = "Voltaxic Rift Spine Bow"
 level = 0
 rarity = "Unique"
 properties = "Bow"
+
+[[Cards]]
+card = "Treasures of the Vaal"
+tier = 0
+req_number = 12
+req_area_lvl = 1
+drop_areas = []
+drop_monsters = []
+tags = "Disalbed"
+[Cards.Reward.Unique]
+reward = "Vaal Jewel"
+level = 0
+rarity = "Unique"
+properties = "TwoImplicitCorrupted|Jewel"
 
 [[Cards]]
 card = "Turn the Other Cheek"

@@ -1,0 +1,411 @@
+# Justified Ambition
+
+
+[[Cards]]
+card = "Azure Rage"
+req_number = 4
+req_area_lvl = 81
+drop_areas = ["Factory Map", "Port Map"]
+drop_monsters = []
+tags = ""
+priority = "Early|Ssf"
+[Cards.Reward.Map]
+map_level = 83
+rarity = "Magic"
+reward = "Punishing Map"
+properties = ""
+
+[[Cards]]
+card = "Boundless Realms"
+tier = -1
+req_number = 4
+req_area_lvl = 58
+drop_areas = ["(Act 8) The Solaris Temple Level 1", "(Act 8) The Solaris Temple Level 2", "The Harbour Bridge", "Cold River Map", "The Twilight Temple", "Temple Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Map]
+reward = "Random Map"
+map_level = 0
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "Cartographer's Delight"
+tier = -1
+req_number = 3
+req_area_lvl = 58
+drop_areas = ["The Harbour Bridge", "The Foothills"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Map]
+reward = "Map"
+map_level = 75
+rarity = "Normal"
+properties = ""
+
+
+[[Cards]]
+card = "Guardian's Challenge"
+tier = 2
+req_number = 4
+req_area_lvl = 81
+drop_areas = ["Sold by Kirac for 3x Cartographer's Chisel"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Map]
+reward = "Shaper Guardian Map"
+map_level = 83
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "Her Mask"
+tier = -1
+req_number = 4
+req_area_lvl = 23
+drop_areas = ["any"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Map]
+reward = "Sacrifice Fragment"
+map_level = 70
+rarity = ""
+properties = ""
+
+
+
+[[Cards]]
+card = "Last Hope"
+req_number = 3
+req_area_lvl = 53
+drop_areas = ["Vaal Temple Map"]
+drop_monsters = []
+tags = ""
+priority = "Always"
+[Cards.Reward.Map]
+reward = "Mortal Hope (Uber atziri)"
+map_level = 84
+rarity = "Unique"
+properties = ""
+
+[[Cards]]
+card = "Left to Fate"
+req_number = 4
+req_area_lvl = 73	
+drop_areas = ["Forking River Map", "Ramparts Map"]
+drop_monsters = []
+tags = ""
+priority = "Always"
+[Cards.Reward.Map]
+reward = "Random Map"
+map_level = 83
+rarity = "rare"
+properties = "Corrupted|Unidentified"
+
+[[Cards]]
+card = "Lingering Remnants"
+tier = 2
+req_number = 16
+req_area_lvl = 78
+drop_areas = ["any"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Map]
+reward = "Vaal Temple Map"
+map_level = 83
+rarity = "rare"
+properties = "Corrupted"
+
+[[Cards]]
+card = "Lost Worlds"
+tier = -1
+req_number = 8
+req_area_lvl = 73
+drop_areas = []
+drop_monsters = ["Sold by Kirac for 1x Orb of Chance"]
+tags = "Ssf"
+[Cards.Reward.Map]
+reward = "Random Map"
+map_level = 82
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "Sambodhi's Vow"
+req_number = 3
+req_area_lvl = 70
+drop_areas = []
+drop_monsters = ["members of the Immortal Syndicate"]
+tags = "Betrayal"
+priority = "Always"
+[Cards.Reward.Map]
+reward = "Mortal Fragment (Uber atziri)"
+map_level = 74
+rarity = "Unique"
+properties = ""
+
+[[Cards]]
+card = "Scholar of the Seas"
+tier = -1
+req_number = 7
+req_area_lvl = 68
+drop_areas = ["The Brine King's Reef", "Coves Map", "Reef Map", "Strand Map", "Whakawairua Tuahu"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Map]
+reward = "Mao Kun Shore Map"
+map_level = 73
+rarity = "Unique"
+properties = ""
+
+[[Cards]]
+card = "The Arena Champion"
+tier = -1
+req_number = 10
+req_area_lvl = 73
+drop_areas = []
+drop_monsters = ["Ambrius, Legion Slayer", "Avatar of the Forge", "Avatar of the Huntress", "Avatar of the Skies", "Guardian of the Chimera", "Olof, Son of the Headsman"]
+tags = ""
+[Cards.Reward.Map]
+map_level = 79
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "The Dreamland"
+req_number = 8
+req_area_lvl = 68
+drop_areas = ["Any"]
+drop_monsters = ["Cartographer's Strongboxes"]
+tags = "Strongbox"
+priority = "Always"
+[Cards.Reward.Map]
+reward = "Poorjoy's Asylum Temple Map"
+map_level = 81
+rarity = "Unique"
+properties = ""
+
+[[Cards]]
+card = "The Easy Stroll"
+req_number = 2
+req_area_lvl = 73
+drop_areas = ["Courtyard Map", "Gardens Map", "Orchard Map", "Terrace Map"]
+drop_monsters = ["Any"]
+tags = ""
+priority = "Early|Ssf"
+[Cards.Reward.Map]
+reward = "Map with 8 modifiers"
+map_level = 82
+rarity = "rare"
+properties = "Corrupted"
+
+[[Cards]]
+card = "The Encroaching Darkness"
+tier = -1
+req_number = 8
+req_area_lvl = 73
+drop_areas = ["any"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Map]
+reward = "Random Map"
+map_level = 0
+rarity = "unique"
+properties = "Corrupted"
+
+[[Cards]]
+card = "The Explorer"
+tier = -1
+req_number = 6
+req_area_lvl = 68
+drop_areas = ["Thicket Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Map]
+reward = "Random map"
+map_level = 0
+rarity = "rare"
+properties = "Corrupted"
+
+[[Cards]]
+card = "The Eye of Terror"
+tier = 1
+req_number = 8
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = ["It That Fled"]
+tags = "Betrayal"
+monster_tier = -1
+[Cards.Reward.Map]
+map_level = 1000
+rarity = "Unique"
+reward = "Chayula's Flawless Breachstone"
+properties = "EndgameArea"
+
+
+[[Cards]]
+req_number = 5
+name = "The Landing"
+req_area_lvl = 73
+drop_areas = ["Shore Map", "Mao Kun", "Strand Map", "Whakawairua Tuahu"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Map]
+reward = "The Beachhead Harbinger Map"
+map_level = 82
+rarity = "unique"
+properties = "Corrupted|EndgameArea"
+
+[[Cards]]
+card = "The Obscured"
+tier = 2
+req_number = 7
+req_area_lvl = 68
+drop_areas = ["Abyss", "Abyss Nodes in Delve"]
+drop_monsters = ["Corpse Thief", "Deep Stalker", "Lightless Grub", "Lightless Nightmare", "Lightless Terror", "Pit Maw", "Pitworm", "Primeval Hunter", "Primeval Watcher", "Thresher", "Well Creeper", "Wellwing", "Wellwing Matriarch"]
+tags = ""
+[Cards.Reward.Map]
+reward = "Breachstone"
+map_level = 81
+rarity = "unique"
+properties = ""
+
+[[Cards]]
+card = "The Price of Prescience"
+tier = 2
+req_number = 5
+req_area_lvl = 78
+drop_areas = []
+drop_monsters = ["Al-Hezmin, The Hunter", "Baran, The Crusader", "Drox, The Warlord", "Veritania, The Redeemer"]
+tags = ""
+[Cards.Reward.Map]
+monster_tier = 16
+reward = "Vaal Temple Map"
+map_level = 1000
+rarity = "rare"
+properties = "Corrupted|EndgameArea"
+
+[[Cards]]
+card = "The Price of Protection"
+req_number = 5
+req_area_lvl = 81
+drop_areas = ["Vaal side areas"]
+drop_monsters = ["Invasion bosses", "Vaal side area Boss"]
+tags = ""
+priority = "Always"
+reward = "monster_tier 14-16 Elder Guardian Occupied Map"
+[Cards.Reward.Map]
+monster_tier = 14
+map_level = 81
+rarity = "rare"
+properties = "Corrupted|EndgameArea"
+
+
+[[Cards]]
+card = "The Professor"
+tier = -1
+req_number = 4
+req_area_lvl = 68
+drop_areas = ["Academy Map", "Laboratory Map", "Museum Map", "Scriptorium Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Map]
+reward = "The Putrid Cloister"
+map_level = 79
+rarity = ""
+properties = ""
+
+[[Cards]]
+card = "The Puzzle"
+tier = -1
+req_number = 5
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = ["Beyond demons"]
+tags = ""
+[Cards.Reward.Currency]
+name = "Breachstone Splinter"
+amount = 5
+properties = ""
+
+[[Cards]]
+card = "The Surveyor"
+tier = -1
+req_number = 4
+req_area_lvl = 73
+drop_areas = ["Abomination Map", "Carcass Map", "Core Map", "Malformation Map", "Phantasmagoria Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Map]
+map_level = 81
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "The Trial"
+tier = -1
+req_number = 7
+req_area_lvl = 73
+drop_areas = ["any"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Map]
+reward = "map"
+map_level = 82
+rarity = "rare"
+properties = "Corrupted"
+
+[[Cards]]
+card = "The Twilight Moon"
+tier = -1
+req_number = 6
+req_area_lvl = 68
+drop_areas = ["Cold River Map", "Moon Temple Map", "Temple Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Map]
+reward = "The Twilight Temple Moon Temple Map"
+map_level = 71
+rarity = "Unique"
+
+[[Cards]]
+card = "The Wolf's Legacy"
+tier = -1
+req_number = 4
+req_area_lvl = 68
+drop_areas = ["Labyrinth Troves", "Eternal Labyrinth", "Enriched Eternal Labyrinth"]
+drop_monsters = ["Labyrinth Troves", "Silver Key caches"]
+tags = "Labyrinth"
+[Cards.Reward.Map]
+reward = "Vaults of Atziri"
+map_level = 71
+rarity = "Unique"
+properties = ""
+
+[[Cards]]
+card = "Treasure Hunter"
+tier = -1
+req_number = 7
+req_area_lvl = 68
+drop_areas = ["Crystal Ore Map", "Excavation Map", "Flooded Mine Map", "Grotto Map", "Lair Map", "Maze of the Minotaur Map", "Fungal Hollow Map", "Underground River Map", "Caer Blaidd, Wolfpack's Den", "Underground Sea Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Map]
+reward = "Vaults of Atziri Vaal Pyramid Map"
+map_level = 71
+rarity = "unique"
+properties = "Corrupted"
+
+[[Cards]]
+card = "Triskaidekaphobia"
+req_number = 13
+req_area_lvl = 80
+drop_areas = ["Drops from Uber Atziri and Temple of Atzoatl's Incursion Atziri encounter."]
+drop_monsters = ["Atziri, Queen of the Vaal"]
+tags = "Uber"
+priority = "Always"
+[Cards.Reward.Map]
+reward = "Map with 8 modifiers"
+map_level = 80
+rarity = "rare"
+properties = "Corrupted|Delirium"

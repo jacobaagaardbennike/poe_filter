@@ -125,6 +125,20 @@ rarity = "Unique"
 properties = ""
 
 [[Cards]]
+card = "Anarchy's Price"
+req_number = 13
+req_area_lvl = 48
+drop_areas = ["any"]
+drop_monsters = ["Rogue Exiles"]
+tags = "Anarchy|RegularBoss"
+priority = "e|Ssf"
+[Cards.Reward.Unique]
+reward = "Voltaxic Rift Spine Bow"
+level = 0
+rarity = "Unique"
+properties = "Corrupted|Bow"
+
+[[Cards]]
 card = "Arrogance of the Vaal"
 req_number = 8
 req_area_lvl = 54
@@ -431,6 +445,20 @@ reward = "Prism Guardian Archon Kite Shield"
 level = 0
 rarity = "Unique"
 properties = "Shield"
+
+[[Cards]]
+card = "Divine Justice"
+tier = 1
+req_number = 1
+req_area_lvl = 56
+drop_areas = ["Any"]
+drop_monsters = ["Armourer's Strongboxes"]
+tags = "Strongbox"
+[Cards.Reward.Unique]
+reward = "Grand Spectrum (cobolt, crimson or viridian) jewel"
+level = 0
+rarity = "Unique"
+properties = "Corrupted|Jewel"
 
 [[Cards]]
 card = "Doedre's Madness"
@@ -1402,9 +1430,19 @@ level = 0
 rarity = "Unique"
 properties = "Corrupted|Sword"
 
-name = "Cartography Scarab"
-amount = 1
-properties = ""
+[[Cards]]
+card = "Cursed Words"
+tier = -1
+req_number = 13
+req_area_lvl = 68
+drop_areas = ["Cemetery Map", "Grave Trough Map", "Graveyard Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Unique]
+reward = "Maw of Mischief Bone Helmet"
+level = 0
+rarity = "Unique"
+properties = "Helmet"
 
 [[Cards]]
 card = "The Deceiver"
@@ -1659,6 +1697,20 @@ rarity = "Unique"
 properties = "Corrupted|Ring"
 
 [[Cards]]
+card = "The Fiend"
+tier = 1
+req_number = 11
+req_area_lvl = 68
+drop_areas = ["Foundry Map", "Laboratory Map", "Shrine Map", "Poorjoy's Asylum"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Unique]
+reward = "Headhunter Leather Belt"
+level = 0
+rarity = "Unique"
+properties = "Corrupted|Belt"
+
+[[Cards]]
 card = "The Fletcher"
 tier = -1
 req_number = 5
@@ -1811,6 +1863,20 @@ reward = "Thread of Hope Crimson Jewel"
 level = 0
 rarity = "Unique"
 properties = "TwoImplicitCorrupted|Jewel"
+
+[[Cards]]
+card = "The Harvester"
+tier = -1
+req_number = 11
+req_area_lvl = 28
+drop_areas = ["(Act 7) The Crossroads", "The Imperial Fields", "Castle Ruins Map", "Fields Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Unique]
+reward = "The Harvest Jasper Chopper"
+level = 0
+rarity = "Unique"
+properties = "Axe"
 
 [[Cards]]
 card = "The Hermit"
@@ -2733,20 +2799,6 @@ reward = "Cospri's Malice Jewelled Foil"
 level = 0
 rarity = "Unique"
 properties = "Trigger|Sword"
-
-[[Cards]]
-card = "The Wilted Rose"
-req_number = 7
-req_area_lvl = 72
-drop_areas = ["Acton's Nightmare"]
-drop_monsters = []
-tags = ""
-priority = "Always"
-[Cards.Reward.Gem]
-reward = "Random Aura Gem"
-level = 21
-quality = 0
-properties = "Corrupted"
 
 [[Cards]]
 card = "The Wind"

@@ -1,5 +1,18 @@
 # Justified Ambition
 
+[[Cards]]
+card = "Altered Perception"
+tier = 2
+req_number = 3
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = ["Uhtred Covetous Traitor"]
+tags = ""
+[Cards.Reward.Map]
+reward = "Simulacrum"
+map_level = 75
+rarity = "Unique"
+properties = ""
 
 [[Cards]]
 card = "Azure Rage"
@@ -131,6 +144,20 @@ rarity = "Normal"
 properties = ""
 
 [[Cards]]
+card = "Rain Tempter"
+tier = -1
+req_number = 9
+req_area_lvl = 50
+drop_areas = ["The High Gardens", "Courtyard Map", "Gardens Map", "Orchard Map", "Terrace Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Map]
+reward = "Random Map"
+map_level = 76
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
 card = "Sambodhi's Vow"
 req_number = 3
 req_area_lvl = 70
@@ -156,6 +183,19 @@ tags = "Ssf"
 reward = "Mao Kun Shore Map"
 map_level = 73
 rarity = "Unique"
+properties = ""
+
+[[Cards]]
+tier = 1
+card = "Something Dark"
+req_number = 5
+req_area_lvl = 75
+drop_areas = []
+drop_monsters = ["Chayula, Who Dreamt", "Esh, Forked Thought", "Tul, Creeping Avalanche", "Uul-Netol, Unburdened Flesh", "Xoph, Dark Embers"]
+[Cards.Reward.Map]
+reward = "Fully Revealed Blueprint"
+map_level = 83
+rarity = "Normal"
 properties = ""
 
 [[Cards]]

@@ -14,16 +14,16 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "Deathly Designs"
+tier = 1000
 req_number = 7
 req_area_lvl = 72
 drop_areas = ["Any"]
 drop_monsters = ["Ash Lessard"]
-tags = "Anarchy"
-priority = "Early|Ssf"
+tags = "Anarchy|Ssf"
 [Cards.Reward.Gem]
+reward = "Trap Gem"
 level = 21
 quality = 23
-reward = "Trap Gem"
 properties = "Corrupted"
 
 [[Cards]]
@@ -56,12 +56,12 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "Doryani's Epiphany"
+tier = 1000
 req_number = 3
 req_area_lvl = 68
 drop_areas = ["Doryani's Machinarium"]
 drop_monsters = []
-tags = ""
-priority = "Tradeable|Ssf"
+tags = "Tradeable|Ssf"
 [Cards.Reward.Gem]
 reward = "Transfigured Gem"
 level = 21
@@ -154,12 +154,12 @@ properties = "SupportGem"
 
 [[Cards]]
 card = "Terrible Secret of Space"
+tier = 1000
 req_number = 8
 req_area_lvl = 72
 drop_areas = []
 drop_monsters = ["Avatar of Undoing", "Calderus", "Fragment of Winter", "Guardian of the Vault", "Pirate Treasure", "Stone of the Currents", "Telvar, the Inebriated", "The Eroding One", "Titan of the Grove", "Void Anomaly"]
-tags = ""
-priority = "Tradeable|Ssf"
+tags = "Tradeable|Ssf"
 [Cards.Reward.Gem]
 reward = "Transfigured Golem Gem"
 level = 21
@@ -182,12 +182,12 @@ properties = "Corrupted|SupportGem"
 
 [[Cards]]
 card = "The Bitter Blossom"
+tier = 1000
 req_number = 3
 req_area_lvl = 72
 drop_areas = []
 drop_monsters = ["Elida Blisterclaw", "Gorulis, Will-Thief", "Murgeth Bogsong", "Oshabi, Avatar of the Grove"]
-tags = ""
-priority = "Early|Ssf"
+tags = "Ssf"
 [Cards.Reward.Gem]
 reward = "Random Chaos Gem"
 level = 21
@@ -196,12 +196,12 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "The Blessing of Moosh"
+tier = 1000
 req_number = 4
 req_area_lvl = 68
 drop_areas = ["the Lord's Labyrinth"]
 drop_monsters = ["Darkshrines activates drop chance"]
-tags = "Labyrinth"
-priority = "Always|Tradeable"
+tags = "Labyrinth|Tradeable"
 [Cards.Reward.Gem]
 reward = "Transfigured Gem"
 level = 21
@@ -248,6 +248,7 @@ tags = "T17Map"
 reward = "Awakened Support Gem"
 level = 6
 quality = 20
+properties = ""
 
 [[Cards]]
 card = "The Doppelganger"
@@ -405,12 +406,12 @@ properties = ""
 
 [[Cards]]
 card = "The Wilted Rose"
+tier = 1000
 req_number = 7
 req_area_lvl = 72
 drop_areas = ["Acton's Nightmare"]
 drop_monsters = []
 tags = ""
-priority = "Always"
 [Cards.Reward.Gem]
 reward = "Random Aura Gem"
 level = 21
@@ -441,6 +442,6 @@ drop_monsters = ["Any"]
 tags = "T17Map"
 [Cards.Reward.Gem]
 reward = "Enlighten Support"
-gem_level = 4
+level = 4
 quality = ""
 properties = "Corrupted|SupportGem"

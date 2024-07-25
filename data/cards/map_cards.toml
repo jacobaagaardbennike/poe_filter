@@ -16,16 +16,16 @@ properties = ""
 
 [[Cards]]
 card = "Azure Rage"
+tier = 1000
 req_number = 4
 req_area_lvl = 81
 drop_areas = ["Factory Map", "Port Map"]
 drop_monsters = []
-tags = ""
-priority = "Early|Ssf"
+tags = "Ssf"
 [Cards.Reward.Map]
+reward = "Punishing Map"
 map_level = 83
 rarity = "Magic"
-reward = "Punishing Map"
 properties = ""
 
 [[Cards]]
@@ -89,12 +89,12 @@ properties = ""
 
 [[Cards]]
 card = "Last Hope"
+tier = 1000
 req_number = 3
 req_area_lvl = 53
 drop_areas = ["Vaal Temple Map"]
 drop_monsters = []
 tags = ""
-priority = "Always"
 [Cards.Reward.Map]
 reward = "Mortal Hope (Uber atziri)"
 map_level = 84
@@ -103,12 +103,12 @@ properties = ""
 
 [[Cards]]
 card = "Left to Fate"
+tier = 1000
 req_number = 4
 req_area_lvl = 73	
 drop_areas = ["Forking River Map", "Ramparts Map"]
 drop_monsters = []
 tags = ""
-priority = "Always"
 [Cards.Reward.Map]
 reward = "Random Map"
 map_level = 83
@@ -159,12 +159,12 @@ properties = ""
 
 [[Cards]]
 card = "Sambodhi's Vow"
+tier = 1000
 req_number = 3
 req_area_lvl = 70
 drop_areas = []
 drop_monsters = ["members of the Immortal Syndicate"]
 tags = "Betrayal"
-priority = "Always"
 [Cards.Reward.Map]
 reward = "Mortal Fragment (Uber atziri)"
 map_level = 74
@@ -186,12 +186,13 @@ rarity = "Unique"
 properties = ""
 
 [[Cards]]
-tier = 1
 card = "Something Dark"
+tier = 1
 req_number = 5
 req_area_lvl = 75
 drop_areas = []
 drop_monsters = ["Chayula, Who Dreamt", "Esh, Forked Thought", "Tul, Creeping Avalanche", "Uul-Netol, Unburdened Flesh", "Xoph, Dark Embers"]
+tags = ""
 [Cards.Reward.Map]
 reward = "Fully Revealed Blueprint"
 map_level = 83
@@ -207,18 +208,19 @@ drop_areas = []
 drop_monsters = ["Ambrius, Legion Slayer", "Avatar of the Forge", "Avatar of the Huntress", "Avatar of the Skies", "Guardian of the Chimera", "Olof, Son of the Headsman"]
 tags = ""
 [Cards.Reward.Map]
+reward = "CHANGEME"
 map_level = 79
 rarity = "Normal"
 properties = ""
 
 [[Cards]]
 card = "The Dreamland"
+tier = 1000
 req_number = 8
 req_area_lvl = 68
 drop_areas = ["Any"]
 drop_monsters = ["Cartographer's Strongboxes"]
 tags = "Strongbox"
-priority = "Always"
 [Cards.Reward.Map]
 reward = "Poorjoy's Asylum Temple Map"
 map_level = 81
@@ -227,12 +229,12 @@ properties = ""
 
 [[Cards]]
 card = "The Easy Stroll"
+tier = 1000
 req_number = 2
 req_area_lvl = 73
 drop_areas = ["Courtyard Map", "Gardens Map", "Orchard Map", "Terrace Map"]
 drop_monsters = ["Any"]
-tags = ""
-priority = "Early|Ssf"
+tags = "Ssf"
 [Cards.Reward.Map]
 reward = "Map with 8 modifiers"
 map_level = 82
@@ -275,17 +277,16 @@ req_area_lvl = 68
 drop_areas = []
 drop_monsters = ["It That Fled"]
 tags = "Betrayal"
-monster_tier = -1
 [Cards.Reward.Map]
+reward = "Chayula's Flawless Breachstone"
 map_level = 1000
 rarity = "Unique"
-reward = "Chayula's Flawless Breachstone"
 properties = "EndgameArea"
 
-
 [[Cards]]
-req_number = 5
 name = "The Landing"
+tier = 1000
+req_number = 5
 req_area_lvl = 73
 drop_areas = ["Shore Map", "Mao Kun", "Strand Map", "Whakawairua Tuahu"]
 drop_monsters = ["Any"]
@@ -319,23 +320,21 @@ drop_areas = []
 drop_monsters = ["Al-Hezmin, The Hunter", "Baran, The Crusader", "Drox, The Warlord", "Veritania, The Redeemer"]
 tags = ""
 [Cards.Reward.Map]
-monster_tier = 16
 reward = "Vaal Temple Map"
-map_level = 1000
+map_level = 83
 rarity = "rare"
 properties = "Corrupted|EndgameArea"
 
 [[Cards]]
 card = "The Price of Protection"
+tier = 1000
 req_number = 5
 req_area_lvl = 81
 drop_areas = ["Vaal side areas"]
 drop_monsters = ["Invasion bosses", "Vaal side area Boss"]
 tags = ""
-priority = "Always"
-reward = "monster_tier 14-16 Elder Guardian Occupied Map"
 [Cards.Reward.Map]
-monster_tier = 14
+reward = "monster_tier 14-16 Elder Guardian Occupied Map"
 map_level = 81
 rarity = "rare"
 properties = "Corrupted|EndgameArea"
@@ -363,9 +362,10 @@ req_area_lvl = 68
 drop_areas = []
 drop_monsters = ["Beyond demons"]
 tags = ""
-[Cards.Reward.Currency]
-name = "Breachstone Splinter"
-amount = 5
+[Cards.Reward.Map]
+reward = "Breachstone Splinter"
+map_level = 1000
+rarity = "CHANGEME"
 properties = ""
 
 [[Cards]]
@@ -377,6 +377,7 @@ drop_areas = ["Abomination Map", "Carcass Map", "Core Map", "Malformation Map", 
 drop_monsters = []
 tags = "Ssf"
 [Cards.Reward.Map]
+reward = "CHANGEME"
 map_level = 81
 rarity = "Normal"
 properties = ""
@@ -407,6 +408,7 @@ tags = "Ssf"
 reward = "The Twilight Temple Moon Temple Map"
 map_level = 71
 rarity = "Unique"
+properties = ""
 
 [[Cards]]
 card = "The Wolf's Legacy"
@@ -438,12 +440,12 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "Triskaidekaphobia"
+tier = 1000
 req_number = 13
 req_area_lvl = 80
 drop_areas = ["Drops from Uber Atziri and Temple of Atzoatl's Incursion Atziri encounter."]
 drop_monsters = ["Atziri, Queen of the Vaal"]
 tags = "Uber"
-priority = "Always"
 [Cards.Reward.Map]
 reward = "Map with 8 modifiers"
 map_level = 80

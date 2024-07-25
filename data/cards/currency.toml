@@ -1,13 +1,13 @@
 [[Cards]]
 card = "A Sea of Blue"
+tier = 1000
 req_number = 3
 req_area_lvl = 68
 drop_areas = ["Citadel Map", "Crystal Ore Map", "Grotto Map", "Mineral Pools Map", "Primordial Blocks Map", "Ziggurat Map"]
 drop_monsters = ["Any"]
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
-name = "Orb of Alteration"
+reward = "Orb of Alteration"
 amount = 13
 properties = ""
 
@@ -20,20 +20,20 @@ drop_areas = ["Mao Kun"]
 drop_monsters = []
 tags = "FavoriteCurrency"
 [Cards.Reward.Currency]
-name = "Exalted Orb"
+reward = "Exalted Orb"
 amount = 3
 properties = ""
 
 [[Cards]]
 card = "Acclimatisation"
+tier = 1000
 req_number = 2
 req_area_lvl = 23
 drop_areas = ["Desert Map", "Desert Spring Map", "Dry Sea Map", "Dunes Map"]
 drop_monsters = []
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
-name = "Orb of Alteration"
+reward = "Orb of Alteration"
 amount = 20
 properties = ""
 
@@ -46,20 +46,20 @@ drop_areas = ["The Apex of Sacrifice", "The Alluring Abyss"]
 drop_monsters = []
 tags = "FavoriteCurrency"
 [Cards.Reward.Currency]
-name = "Exalted Orb"
+reward = "Exalted Orb"
 amount = 10
 properties = ""
 
 [[Cards]]
 card = "Ambitious Obsession"
+tier = 1000
 req_number = 4
 req_area_lvl = 68
 drop_areas = []
 drop_monsters = ["Ara Sister of Light", "Armala, the Widow", "Drek Apex Hunter", "Erebix Light's Bane", "Gorulis Will-Thief", "Khor Sister of Shadows", "Mephod the Earth Scorcher", "Nassar Lion of the Seas", "Stalker of the Endless Dunes", "Tahsin Warmaker", "Terror of the Infinite Drifts", "Varhesh Shimmering Aberration"]
-tags = ""
-priority = "Early|Ssf"
+tags = "Ssf"
 [Cards.Reward.Currency]
-name = "Skittering Delirium Orb"
+reward = "Skittering Delirium Orb"
 amount = 1
 properties = ""
 
@@ -72,7 +72,7 @@ drop_areas = ["Cemetery Map", "Grave Trough Map", "Graveyard Map"]
 drop_monsters = ["Any"]
 tags = "NormalMap"
 [Cards.Reward.Currency]
-name = "Divine Orb"
+reward = "Divine Orb"
 amount = 5
 properties = ""
 
@@ -85,7 +85,7 @@ drop_areas = ["Cemetery Map", "Grave Trough Map", "Graveyard Map"]
 drop_monsters = ["Any"]
 tags = "NormalMap|FavoriteCurrency"
 [Cards.Reward.Currency]
-name = "Exalted Orb"
+reward = "Exalted Orb"
 amount = 5
 properties = ""
 
@@ -98,7 +98,7 @@ drop_areas = ["Crystal Ore Map", "Dig Map", "Excavation Map", "Flooded Mine Map"
 drop_monsters = ["Any"]
 tags = "Ssf"
 [Cards.Reward.Currency]
-name = "Sulphite Scarab"
+reward = "Sulphite Scarab"
 amount = 1
 properties = ""
 
@@ -106,53 +106,53 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "Cameria's Cut"
+tier = 1000
 req_number = 2
 req_area_lvl = 68
 drop_areas = ["Any"]
 drop_monsters = ["Cameria the Coldblooded"]
-tags = "Betrayal"
-priority = "Early|Ssf"
+tags = "Betrayal|Ssf"
 [Cards.Reward.Currency]
-name = "Scarab"
+reward = "Scarab"
 amount = 1
 properties = ""
 
 [[Cards]]
 card = "Chaotic Disposition"
+tier = 1000
 req_number = 1
 req_area_lvl = 23
 drop_areas = ["Poorjoy's Asylum"]
 drop_monsters = []
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
-name = "Chaos Orb"
+reward = "Chaos Orb"
 amount = 5
 properties = ""
 
 [[Cards]]
 card = "Checkmate"
+tier = 1000
 req_number = 8
 req_area_lvl = 68
 drop_areas = ["Academy Map", "Museum Map", "Scriptorium Map"]
 drop_monsters = []
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
-name = "Simulacrum Splinter"
+reward = "Simulacrum Splinter"
 amount = 76
 properties = ""
 
 [[Cards]]
 card = "Coveted Possession"
+tier = 1000
 req_number = 9
 req_area_lvl = 23
 drop_areas = ["The Catacombs", "The Ossuary (Act 5)", "The Ossuary (Act 10)", "Bone Crypt Map", "Sanctuary Map", "Ziggurat Map"]
 drop_monsters = []
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
-name = "Regal Orb"
+reward = "Regal Orb"
 amount = 5
 properties = ""
 
@@ -165,20 +165,20 @@ drop_areas = ["Currency rewards from Delirium layers and Simulacrum."]
 drop_monsters = []
 tags = ""
 [Cards.Reward.Currency]
-name = "Eldritch Chaos Orb"
+reward = "Eldritch Chaos Orb"
 amount = 1
 properties = ""
 
 [[Cards]]
 card = "Dementophobia"
+tier = 1000
 req_number = 11
 req_area_lvl = 68
 drop_areas = []
 drop_monsters = ["Al-Hezmin, The Hunter", "Baran, The Crusader", "Drox, The Warlord", "Venarius", "Veritania, The Redeemer"]
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
-name = "Delirium Orb"
+reward = "Delirium Orb"
 amount = 10
 properties = ""
 
@@ -191,20 +191,20 @@ drop_areas = []
 drop_monsters = ["The Cleansing Light"]
 tags = "FavoriteCurrency"
 [Cards.Reward.Currency]
-name = "Orb of Annulment"
+reward = "Orb of Annulment"
 amount = 1
 properties = ""
 
 [[Cards]]
 card = "Disdain"
+tier = 1000
 req_number = 5
 req_area_lvl = 0
 drop_areas = ["The Maven's Crucible"]
 drop_monsters = []
-tags = "EndBoss"
-priority = "Early|Ssf"
+tags = "EndBoss|Ssf"
 [Cards.Reward.Currency]
-name = "Delirium Orb"
+reward = "Delirium Orb"
 amount = 1
 properties = ""
 
@@ -217,33 +217,33 @@ drop_areas = ["Underground Sea Map", "Maelström of Chaos"]
 drop_monsters = ["Fire and Fury", "Merveil, the Returned", "Shock and Horror", "Tormented Temptress"]
 tags = "RegularBoss"
 [Cards.Reward.Currency]
-name = "Divine Orb"
+reward = "Divine Orb"
 amount = 7
 properties = ""
 
 [[Cards]]
 card = "Emperor's Luck"
+tier = 1000
 req_number = 5
 req_area_lvl = 23
 drop_areas = ["The Imperial Gardens", "The High Gardens", "Courtyard Map", "Gardens Map", "Orchard Map", "Terrace Map"]
 drop_monsters = []
-tags = ""
-priority = "DoubleGoingForIt|TrippleSkull|Ssf"
+tags = "DoubleGoingForIt|TrippleSkull|Ssf"
 [Cards.Reward.Currency]
-name = "Random Currency"
+reward = "Random Currency"
 amount = 5
 properties = ""
 
 [[Cards]]
 card = "Ever-Changing"
+tier = 1000
 req_number = 3
 req_area_lvl = 68
 drop_areas = ["Drops in maps opened via Kirac missions."]
 drop_monsters = []
 tags = ""
-priority = "Always"
 [Cards.Reward.Currency]
-name = "Orb of Unmaking"
+reward = "Orb of Unmaking"
 amount = 10
 properties = ""
 
@@ -256,7 +256,7 @@ drop_areas = ["Abomination", "Sepulchre Map", "Overgrown Shrine Map", "Cells Map
 drop_monsters = ["Doedre", "Maligaro", "Shavronne"]
 tags = "FavoriteCurrency"
 [Cards.Reward.Currency]
-name = "Shrieking Essence"
+reward = "Shrieking Essence"
 amount = 9
 properties = ""
 
@@ -269,7 +269,7 @@ drop_areas = ["The Alluring Abyss"]
 drop_monsters = ["Atziri Queen of the Vaal"]
 tags = "Uber|EndBoss"
 [Cards.Reward.Currency]
-name = "Mirror of Kalandra"
+reward = "Mirror of Kalandra"
 amount = 1
 properties = ""
 
@@ -282,14 +282,14 @@ drop_areas = []
 drop_monsters = ["bosses with the 'I_see_brothers_card' monster tag"]
 tags = ""
 [Cards.Reward.Currency]
-name = "Fracturing Orb"
+reward = "Fracturing Orb"
 amount = 2
 properties = ""
 
 [[Cards]]
 card = "Loyalty"
-req_number = 5
 tier = -1
+req_number = 5
 req_area_lvl = 23
 drop_areas = ["The Den (Act 7)", "Barrows Map", "Grotto Map", "Lair Map", "Caer Blaidd, Wolfpack's Den"]
 drop_monsters = []
@@ -301,12 +301,12 @@ properties = ""
 
 [[Cards]]
 card = "Lucky Connections"
+tier = 1000
 req_number = 7
 req_area_lvl = 23
 drop_areas = ["The Docks", "The Quay", "Pier Map", "Port Map", "Shipyard Map", "Wharf Map"]
 drop_monsters = []
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
 reward = "Orb of Fusing"
 amount = 20
@@ -314,16 +314,15 @@ properties = ""
 
 [[Cards]]
 card = "Lucky Deck"
+tier = 1000
 req_number = 9
 req_area_lvl = 74
 drop_areas = ["Ziggurat Map"]
 drop_monsters = []
-tags = "T17Map"
-priority = "DoubleGoingForIt|Ssf"
+tags = "T17Map|DoubleGoingForIt|Ssf"
+[Cards.Reward.Currency]
 reward = "10 req_numbered Deck"
-[Cards.Reward.Item]
-level = 0
-rarity = "Card"
+amount = "CHANGEME"
 properties = ""
 
 [[Cards]]
@@ -341,12 +340,12 @@ properties = ""
 
 [[Cards]]
 card = "No Traces"
+tier = 1000
 req_number = 9
 req_area_lvl = 23
 drop_areas = ["The Ossuary (Act 5)", "The Reliquary (Act 10)", "The Ossuary (Act 10)", "Mausoleum Map", "Relic Chambers Map", "Sepulchre Map", "Ziggurat Map"]
 drop_monsters = []
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
 reward = "Orb of Scouring"
 amount = 30
@@ -361,7 +360,7 @@ drop_areas = ["Arachnid Tomb Map", "Channel Map", "Infested Valley Map"]
 drop_monsters = []
 tags = "Ssf"
 [Cards.Reward.Currency]
-name = "Random Incubator"
+reward = "Random Incubator"
 amount = 10
 properties = ""
 
@@ -387,20 +386,20 @@ drop_areas = ["Crimson Temple Map", "Defiled Cathedral Map"]
 drop_monsters = []
 tags = ""
 [Cards.Reward.Currency]
-name = "Mirror Shard"
+reward = "Mirror Shard"
 amount = 1
 properties = ""
 
 [[Cards]]
 card = "Society's Remorse"
+tier = 1000
 req_number = 1
 req_area_lvl = 23
 drop_areas = ["any"]
 drop_monsters = ["Voltaxic Sulphite deposits"]
-tags = "Strongbox"
-priority = "PoorMansCurrency|Ssf"
+tags = "Strongbox|PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
-name = "Orb of Alteration"
+reward = "Orb of Alteration"
 amount = 10
 properties = ""
 
@@ -413,31 +412,31 @@ drop_areas = ["Underground Sea Map", "Maelström of Chaos"]
 drop_monsters = ["Doedre the Defiler", "Doedre the Defiler", "Erebix, Light's Bane", "Merveil, the Returned", "Merveil, the Returned", "Nassar, Lion of the Seas", "Shrieker Eihal", "The Sanguine Siren"]
 tags = ""
 [Cards.Reward.Currency]
-name = "Deafening Essence"
+reward = "Deafening Essence"
 amount = 3
 properties = ""
 
 [[Cards]]
 card = "The Card Sharp"
+tier = 1000
 req_number = 4
 req_area_lvl = 68
 drop_areas = ["Alva's Memory of Reverse Incursion", "Temporal incursion encounters"]
 drop_monsters = ["Ahuana, Architect of Ceremonies", "Paquate, Architect of Corruption", "Zalatl, Architect of Thaumaturgy"]
 tags = ""
-priority = "Always"
 [Cards.Reward.Currency]
-name = "Divination Scarab"
+reward = "Divination Scarab"
 amount = 1
 properties = ""
 
 [[Cards]]
 card = "The Cartographer"
+tier = 1000
 req_number = 1
 req_area_lvl = 39
 drop_areas = []
 drop_monsters = ["Cartographer's Strongboxes"]
-tags = "Strongbox"
-priority = "Early|Ssf"
+tags = "Strongbox|Ssf"
 [Cards.Reward.Currency]
 reward = "Cartographer's Chisel"
 amount = 10
@@ -458,14 +457,14 @@ properties = ""
 
 [[Cards]]
 card = "The Finishing Touch"
+tier = 1000
 req_number = 2
 req_area_lvl = 60
 drop_areas = []
 drop_monsters = ["Hillock, the Blacksmith"]
 tags = ""
-priority = "Always"
 [Cards.Reward.Currency]
-name = "Fertile Catalyst"
+reward = "Fertile Catalyst"
 amount = 1
 properties = ""
 
@@ -478,18 +477,18 @@ drop_areas = ["any"]
 drop_monsters = ["Drought-Maddened Rhoa", "Skullbeak"]
 tags = ""
 [Cards.Reward.Currency]
-name = "Albino Rhoa Feather"
+reward = "Albino Rhoa Feather"
 amount = 1000
 properties = ""
 
 [[Cards]]
 card = "The Fool"
+tier = 1000
 req_number = 4
 req_area_lvl = 23
 drop_areas = ["any"]
 drop_monsters = ["Immortal Syndicate members"]
-tags = "Betrayal"
-priority = "Early|Ssf"
+tags = "Betrayal|Ssf"
 [Cards.Reward.Currency]
 reward = "Orb of Chance"
 amount = 20
@@ -504,33 +503,33 @@ drop_areas = ["Ancient City Map", "Arid Lake Map", "Atoll Map", "Beach Map", "Bu
 drop_monsters = ["Any"]
 tags = ""
 [Cards.Reward.Currency]
-name = "Divine Orb"
+reward = "Divine Orb"
 amount = 2
 properties = ""
 
 [[Cards]]
 card = "The Gemcutter"
+tier = 1000
 req_number = 3
 req_area_lvl = 23
 drop_areas = ["any"]
 drop_monsters = ["Gemcutter's Strongboxes"]
-tags = "Strongbox"
-priority = "Early|Ssf"
+tags = "Strongbox|Ssf"
 [Cards.Reward.Currency]
-name = "Gemcutter's Prism"
+reward = "Gemcutter's Prism"
 amount = 1
 properties = ""
 
 [[Cards]]
 card = "The Heroic Shot"
+tier = 1000
 req_number = 1
 req_area_lvl = 23
 drop_areas = ["any"]
 drop_monsters = ["Arcanist's Strongboxes"]
-tags = "Strongbox"
-priority = "PoorMansCurrency"
+tags = "Strongbox|PoorMansCurrency"
 [Cards.Reward.Currency]
-name = "Chromatic Orb"
+reward = "Chromatic Orb"
 amount = 17
 properties = ""
 
@@ -543,7 +542,7 @@ drop_areas = ["Maelström of Chaos", "Mineral Pools Map", "Underground Sea Map",
 drop_monsters = []
 tags = ""
 [Cards.Reward.Currency]
-name = "Exalted Orb|FavoriteCurrency"
+reward = "Exalted Orb|FavoriteCurrency"
 amount = 1
 properties = ""
 
@@ -555,33 +554,32 @@ req_area_lvl = 35
 drop_areas = ["Hall of Grandmasters"]
 drop_monsters = ["Grandmaster"]
 tags = "EndBoss"
-[Cards.Reward.Item]
-name = "House of Mirrors divination card."
-level = 0
-rarity = "Card"
+[Cards.Reward.Currency]
+reward = "House of Mirrors divination card."
+amount = 1000
 properties = ""
 
 [[Cards]]
 card = "The Innocent"
+tier = 1000
 req_number = 10
 req_area_lvl = 23
 drop_areas = ["The Chamber of Innocence", "Basilica Map", "Defiled Cathedral Map", "Sanctuary Map"]
 drop_monsters = []
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
-name = "Orb of Regret"
+reward = "Orb of Regret"
 amount = 40
 properties = ""
 
 [[Cards]]
 card = "The Inventor"
+tier = 1000
 req_number = 6
 req_area_lvl = 23
 drop_areas = ["The Ancient Pyramid", "The Temple of Decay Level 1", "The Temple of Decay Level 2", "Maze Map", "Doryani's Machinarium", "Pyramid Map", "Vaults of Atziri", "Vaal Temple Map"]
 drop_monsters = []
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
 reward = "Vaal Orb"
 amount = 10
@@ -609,7 +607,7 @@ drop_areas = ["Eternal Labyrinth (Uber Lab)", "Enriched Eternal Labyrinth"]
 drop_monsters = ["Izaro's Treasure Chests"]
 tags = "Labyrinth|Strongbox"
 [Cards.Reward.Currency]
-name = "Elderslayer's Exalted Orb"
+reward = "Elderslayer's Exalted Orb"
 amount = 1
 properties = ""
 
@@ -622,7 +620,7 @@ drop_areas = ["Any"]
 drop_monsters = ["Artisan's Strongboxes"]
 tags = "Strongbox|Ssf"
 [Cards.Reward.Currency]
-name = "Quality Currency"
+reward = "Quality Currency"
 amount = 20
 properties = ""
 
@@ -635,19 +633,20 @@ drop_areas = ["Bone Crypt Map", "Citadel Map", "Cursed Crypt Map", "The Coward's
 drop_monsters = ["any"]
 tags = "Incursion Vial|Ssf"
 [Cards.Reward.Currency]
+reward = "CHANGEME"
 amount = 10
 properties = ""
 
 [[Cards]]
 card = "The Rusted Bard"
+tier = 1000
 req_number = 9
 req_area_lvl = 68
 drop_areas = ["The Vinktar Square"]
 drop_monsters = []
 tags = ""
-priority = "Always"
 [Cards.Reward.Currency]
-name = "Tainted Mythic Orb"
+reward = "Tainted Mythic Orb"
 amount = 4
 properties = ""
 
@@ -662,7 +661,7 @@ drop_areas = ["Alleyways Map", "Arcade Map", "Bazaar Map", "Ghetto Map", "Port M
 drop_monsters = ["Any"]
 tags = "FavoriteCurrency"
 [Cards.Reward.Currency]
-name = "Exalted Orb"
+reward = "Exalted Orb"
 amount = 2
 properties = ""
 
@@ -675,7 +674,7 @@ drop_areas = ["The Library", "The Archives", "Academy Map", "Museum Map"]
 drop_monsters = []
 tags = ""
 [Cards.Reward.Currency]
-name = "Scroll of Wisdom"
+reward = "Scroll of Wisdom"
 amount = 40
 properties = ""
 
@@ -688,7 +687,7 @@ drop_areas = ["Ashen Wood Map", "Bramble Valley Map", "Dark Forest Map", "Forbid
 drop_monsters = ["Any"]
 tags = "FavoriteCurrency"
 [Cards.Reward.Currency]
-name = "Exalted Orb"
+reward = "Exalted Orb"
 amount = 7
 properties = ""
 
@@ -701,7 +700,7 @@ drop_areas = ["The Temple of Atzoatl"]
 drop_monsters = []
 tags = "FavoriteCurrency"
 [Cards.Reward.Currency]
-name = "Orb of Annulment"
+reward = "Orb of Annulment"
 amount = 3
 properties = ""
 
@@ -714,20 +713,20 @@ drop_areas = []
 drop_monsters = ["Dominus, Ascendant", "Excellis Aurafix", "The Hallowed Husk", "The High Templar"]
 tags = "EndBoss"
 [Cards.Reward.Currency]
-name = "Divine Orb"
+reward = "Divine Orb"
 amount = 10
 properties = ""
 
 [[Cards]]
 card = "The Side Quest"
+tier = 1000
 req_number = 5
 req_area_lvl = 69
 drop_areas = ["Arachnid Tomb Map", "Armoury Map", "Castle Ruins Map", "Forking River Map", "Iceberg Map", "Infested Valley Map", "Mineral Pools Map", "Siege Map", "Primordial Blocks Map"]
 drop_monsters = ["Any"]
-tags = ""
-priority = "PoorMansCurrency|Ssf"
+tags = "PoorMansCurrency|Ssf"
 [Cards.Reward.Currency]
-name = "Scouting Report"
+reward = "Scouting Report"
 amount = 20
 properties = ""
 
@@ -759,27 +758,27 @@ properties = ""
 
 [[Cards]]
 card = "The Tireless Extractor"
+tier = 1000
 req_number = 8
 req_area_lvl = 68
 drop_areas = ["Factory Map", "Fortress Map", "Foundry Map", "Forge of the Phoenix Map", "Port Map", "Silo Map"]
 drop_monsters = ["Any"]
-tags = ""
-priority = "TrippleSkull|Ssf"
+tags = "TrippleSkull|Ssf"
 [Cards.Reward.Currency]
-name = "Oil"
+reward = "Oil"
 amount = 10
 properties = ""
 
 [[Cards]]
 card = "The Transformation"
+tier = 1000
 req_number = 5
 req_area_lvl = 68
 drop_areas = []
 drop_monsters = ["transform_boss tag"]
 tags = ""
-priority = "Always"
 [Cards.Reward.Currency]
-name = "Tainted Mythic Orb"
+reward = "Tainted Mythic Orb"
 amount = 1
 properties = ""
 
@@ -831,7 +830,7 @@ drop_areas = ["Arena Map", "City Square Map", "Courthouse Map", "Courtyard Map",
 drop_monsters = ["Triple Boss Tag"]
 tags = "Ssf"
 [Cards.Reward.Currency]
-name = "Essence"
+reward = "Essence"
 amount = 3
 properties = ""
 
@@ -844,7 +843,7 @@ drop_areas = ["The Temple of Decay Level 1", "Maze Map", "Vaal Pyramid Map", "Va
 drop_monsters = []
 tags = ""
 [Cards.Reward.Currency]
-name = "Mirror Shard"
+reward = "Mirror Shard"
 amount = 19
 properties = ""
 
@@ -857,6 +856,6 @@ drop_areas = ["Core Map", "Malformation Map", "Shrine Map"]
 drop_monsters = []
 tags = "Ssf"
 [Cards.Reward.Currency]
-name = "Orb of Regret"
+reward = "Orb of Regret"
 amount = 10
 properties = ""

@@ -1,6 +1,20 @@
 # Justified Ambition
 
 [[Cards]]
+card = "A Fate Worse Than Death"
+tier = 2
+req_number = 4
+req_area_lvl = 78
+drop_areas = []
+drop_monsters = ["Al-Hezmin, The Hunter", "Baran, The Crusader", "Drox, The Warlord", "Sirus, Awakener of Worlds", "Veritania, The Redeemer"]
+tags = ""
+[Cards.Reward.Map]
+reward = "Cortex Synthesised Map"
+map_level = 83
+rarity = "unique"
+properties = "Corrupted"
+
+[[Cards]]
 card = "Altered Perception"
 tier = 2
 req_number = 3
@@ -29,8 +43,22 @@ rarity = "Magic"
 properties = ""
 
 [[Cards]]
-card = "Boundless Realms"
+card = "Boon of Justice"
 tier = -1
+req_number = 6
+req_area_lvl = 73
+drop_areas = ["Chateau Map", "Conservatory Map", "Orchard Map", "Plaza Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Currency]
+reward = "Offering to the Goddess"
+map_level = 0
+rarity = "CHANGME"
+properties = ""
+
+[[Cards]]
+card = "Boundless Realms"
+tier = 1000
 req_number = 4
 req_area_lvl = 58
 drop_areas = ["(Act 8) The Solaris Temple Level 1", "(Act 8) The Solaris Temple Level 2", "The Harbour Bridge", "Cold River Map", "The Twilight Temple", "Temple Map"]
@@ -44,7 +72,7 @@ properties = ""
 
 [[Cards]]
 card = "Cartographer's Delight"
-tier = -1
+tier = 1000
 req_number = 3
 req_area_lvl = 58
 drop_areas = ["The Harbour Bridge", "The Foothills"]
@@ -56,6 +84,19 @@ map_level = 75
 rarity = "Normal"
 properties = ""
 
+[[Cards]]
+card = "Eternal Bonds"
+tier = 2
+req_number = 4
+req_area_lvl = 78
+drop_areas = ["Map Reward Chests in Heist Contracts and Blueprints"]
+drop_monsters = []
+tags = "Heist"
+[Cards.Reward.Map]
+reward = "Replica Cortex Synthesised Map"
+map_level = 84
+rarity = "Normal"
+properties = ""
 
 [[Cards]]
 card = "Guardian's Challenge"
@@ -73,7 +114,7 @@ properties = ""
 
 [[Cards]]
 card = "Her Mask"
-tier = -1
+tier = 1000
 req_number = 4
 req_area_lvl = 23
 drop_areas = ["any"]
@@ -89,7 +130,7 @@ properties = ""
 
 [[Cards]]
 card = "Last Hope"
-tier = 1000
+tier = 2
 req_number = 3
 req_area_lvl = 53
 drop_areas = ["Vaal Temple Map"]
@@ -131,7 +172,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "Lost Worlds"
-tier = -1
+tier = 1000
 req_number = 8
 req_area_lvl = 73
 drop_areas = []
@@ -145,7 +186,7 @@ properties = ""
 
 [[Cards]]
 card = "Rain Tempter"
-tier = -1
+tier = 1000
 req_number = 9
 req_area_lvl = 50
 drop_areas = ["The High Gardens", "Courtyard Map", "Gardens Map", "Orchard Map", "Terrace Map"]
@@ -159,7 +200,7 @@ properties = ""
 
 [[Cards]]
 card = "Sambodhi's Vow"
-tier = 1000
+tier = 2
 req_number = 3
 req_area_lvl = 70
 drop_areas = []
@@ -173,7 +214,7 @@ properties = ""
 
 [[Cards]]
 card = "Scholar of the Seas"
-tier = -1
+tier = 1000
 req_number = 7
 req_area_lvl = 68
 drop_areas = ["The Brine King's Reef", "Coves Map", "Reef Map", "Strand Map", "Whakawairua Tuahu"]
@@ -201,7 +242,7 @@ properties = ""
 
 [[Cards]]
 card = "The Arena Champion"
-tier = -1
+tier = 1000
 req_number = 10
 req_area_lvl = 73
 drop_areas = []
@@ -242,8 +283,22 @@ rarity = "rare"
 properties = "Corrupted"
 
 [[Cards]]
+card = "The Eldritch Decay"
+tier = 2
+req_number = 4
+req_area_lvl = 81
+drop_areas = ["any"]
+drop_monsters = ["The Constrictor", "The Enslaver", "The Eradicator", "The Purifier"]
+tags = ""
+[Cards.Reward.Map]
+reward = "Uber Elder Fragment"
+map_level = 0
+rarity = "unique"
+properties = ""
+
+[[Cards]]
 card = "The Encroaching Darkness"
-tier = -1
+tier = 1000
 req_number = 8
 req_area_lvl = 73
 drop_areas = ["any"]
@@ -257,7 +312,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "The Explorer"
-tier = -1
+tier = 1000
 req_number = 6
 req_area_lvl = 68
 drop_areas = ["Thicket Map"]
@@ -284,7 +339,7 @@ rarity = "Unique"
 properties = "EndgameArea"
 
 [[Cards]]
-name = "The Landing"
+card = "The Landing"
 tier = 1000
 req_number = 5
 req_area_lvl = 73
@@ -296,6 +351,20 @@ reward = "The Beachhead Harbinger Map"
 map_level = 82
 rarity = "unique"
 properties = "Corrupted|EndgameArea"
+
+[[Cards]]
+card = "The Mayor"
+tier = 0
+req_number = 5
+req_area_lvl = 73
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Map]
+reward = "The Perandus Manor Chateau Map"
+map_level = 0
+rarity = "Unique"
+properties = ""
 
 [[Cards]]
 card = "The Obscured"
@@ -327,7 +396,7 @@ properties = "Corrupted|EndgameArea"
 
 [[Cards]]
 card = "The Price of Protection"
-tier = 1000
+tier = 2
 req_number = 5
 req_area_lvl = 81
 drop_areas = ["Vaal side areas"]
@@ -342,7 +411,7 @@ properties = "Corrupted|EndgameArea"
 
 [[Cards]]
 card = "The Professor"
-tier = -1
+tier = 33
 req_number = 4
 req_area_lvl = 68
 drop_areas = ["Academy Map", "Laboratory Map", "Museum Map", "Scriptorium Map"]
@@ -356,7 +425,7 @@ properties = ""
 
 [[Cards]]
 card = "The Puzzle"
-tier = -1
+tier = 1000
 req_number = 5
 req_area_lvl = 68
 drop_areas = []
@@ -370,7 +439,7 @@ properties = ""
 
 [[Cards]]
 card = "The Surveyor"
-tier = -1
+tier = 1000
 req_number = 4
 req_area_lvl = 73
 drop_areas = ["Abomination Map", "Carcass Map", "Core Map", "Malformation Map", "Phantasmagoria Map"]
@@ -384,7 +453,7 @@ properties = ""
 
 [[Cards]]
 card = "The Trial"
-tier = -1
+tier = 1000
 req_number = 7
 req_area_lvl = 73
 drop_areas = ["any"]
@@ -412,7 +481,7 @@ properties = ""
 
 [[Cards]]
 card = "The Wolf's Legacy"
-tier = -1
+tier = 1000
 req_number = 4
 req_area_lvl = 68
 drop_areas = ["Labyrinth Troves", "Eternal Labyrinth", "Enriched Eternal Labyrinth"]
@@ -426,7 +495,7 @@ properties = ""
 
 [[Cards]]
 card = "Treasure Hunter"
-tier = -1
+tier = 1000
 req_number = 7
 req_area_lvl = 68
 drop_areas = ["Crystal Ore Map", "Excavation Map", "Flooded Mine Map", "Grotto Map", "Lair Map", "Maze of the Minotaur Map", "Fungal Hollow Map", "Underground River Map", "Caer Blaidd, Wolfpack's Den", "Underground Sea Map"]

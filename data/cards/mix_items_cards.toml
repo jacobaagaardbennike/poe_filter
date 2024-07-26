@@ -1,0 +1,1315 @@
+[[Cards]]
+card = "A Dusty Memory"
+tier = 1000
+req_number = 5
+req_area_lvl = 68
+drop_areas = ["Fractured Cortex", "Altered Distant Memory", "Augmented Distant Memory", "Twisted Distant Memory", "Rewritten Distant Memory"]
+drop_monsters = ["Map Boss"]
+tags = "Early|TrippleSkull|Ssf"
+[Cards.Reward.Item]
+reward = "Random Item"
+level = 100
+rarity = "rare"
+properties = "Fractured"
+
+[[Cards]]
+card = "A Familiar Call"
+tier = 2
+req_number = 3
+req_area_lvl = 80
+drop_areas = ["Pit of the Chimera Map"]
+drop_monsters = ["Guardian of the Chimera"]
+tags = "Tradeable"
+[Cards.Reward.Item]
+reward = "Jewellery of Farrul"
+level = 100
+rarity = "Magic"
+properties = "Hunter|Shaper"
+
+[[Cards]]
+card = "Astral Protection"
+tier = 1000
+req_number = 5
+req_area_lvl = 68
+drop_areas = ["Moon Temple Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Shield"
+level = 0
+rarity = "Normal"
+properties = "Shaper"
+
+[[Cards]]
+card = "Auspicious Ambitions"
+tier = 1
+req_number = 4
+req_area_lvl = 73
+drop_areas = []
+drop_monsters = ["The Eater of Worlds", "The Elder", "The Maven", "The Searing Exarch"]
+tags = "Uber|EndBoss|RegularBoss"
+[Cards.Reward.Item]
+reward = "Experimented Item"
+level = 100
+rarity = "Normal"
+properties = "DoubleInfluenced"
+
+[[Cards]]
+card = "Bijoux"
+tier = 1000
+req_number = 3
+req_area_lvl = 80
+drop_areas = ["Crystal Ore Map", "Dig Map", "Excavation Map", "Flooded Mine Map", "Geode Map", "Grotto Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Cluster Jewel"
+level = 84
+rarity = "Rare"
+properties = "ClusterJewel"
+
+[[Cards]]
+card = "Blessing of God"
+tier = 1000
+req_number = 3
+req_area_lvl = 23
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Item]
+reward = "Random Elreon's Jewellery (-8-4 mana cost)"
+level = 85
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "Bowyer's Dream"
+tier = 5000
+req_number = 6
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Lord of the Ashen Arrow", "Mirage of Bones", "Steelpoint the Avenger", "Stonebeak, Battle Fowl"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Harbinger Bow (crit)"
+level = 91
+rarity = "normal"
+properties = "SixLink|Bow"
+
+[[Cards]]
+card = "Broken Promises"
+tier = 2
+req_number = 2
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Eater of Souls", "Tolman, the Exhumer"]
+tags = "Trade|Gamble"
+[Cards.Reward.Item]
+reward = "Diamond Ring"
+level = 87
+rarity = "Normal"
+properties = "TwoImplicitSynthesised"
+
+[[Cards]]
+card = "Call to the First Ones"
+tier = 1000
+req_number = 5
+req_area_lvl = 23
+drop_areas = ["(Act 7) Corrupted The Northern Forest", "(Act 7) The Dread Thicket", "Bramble Valley Map", "Dark Forest Map", "Forbidden Woods Map", "Thicket Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "monster_tier 1 Talisman"
+level = 0
+rarity = "Rare"
+properties = ""
+
+[[Cards]]
+card = "Dark Dreams"
+tier = 5
+req_number = 4
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Minara Anemina"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Bone Helmet"
+level = 0
+rarity = "Rare"
+properties = "Elder"
+
+[[Cards]]
+card = "Destined to Crumble"
+tier = 1000
+req_number = 5
+req_area_lvl = 80
+drop_areas = ["Academy Map", "Museum Map", "Scriptorium Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Body Armour"
+level = 100
+rarity = "Rare"
+properties = ""
+
+[[Cards]]
+card = "Draped in Dreams"
+tier = 5
+req_number = 5
+req_area_lvl = 80
+drop_areas = ["Unknown"]
+drop_monsters = ["Unknown"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Astral Plate"
+level = 100
+rarity = "normal"
+properties = "SixLink|RandomInfluence|BodyArmour"
+
+[[Cards]]
+card = "Duality"
+tier = 2
+req_number = 2
+req_area_lvl = 80
+drop_areas = ["Temple of Atzoatl (Temple, not in Incursions)"]
+drop_monsters = ["Architects"]
+tags = "Incursion|Trade|Ssf"
+[Cards.Reward.Item]
+reward = "Random Body Armour"
+level = 100
+rarity = "Normal"
+properties = "DoubleInfluenced"
+
+[[Cards]]
+card = "Dying Light"
+tier = 1000
+req_number = 10
+req_area_lvl = 80
+drop_areas = ["Also Maven's Invitation: The Feared"]
+drop_monsters = ["The Shaper", "Uber Shaper"]
+tags = "Uber|EndBoss|RegularBoss|Tradeable"
+[Cards.Reward.Item]
+reward = "Diamond Ring"
+level = 100
+rarity = "Rare"
+properties = "Elder|Shaper"
+
+[[Cards]]
+card = "Eldritch Perfection"
+tier = 1000
+req_number = 4
+req_area_lvl = 68
+drop_areas = ["Maps influenced by The Searing Exarch or The Eater of Worlds"]
+drop_monsters = ["Eldritch Monsters"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Random Item"
+level = 100
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "Emperor of Purity"
+tier = -1
+req_number = 7
+req_area_lvl = 50
+drop_areas = ["(Act 7) The Chamber of Sins Level 1", "(Act 7) The Chamber of Sins Level 2", "Overgrown Ruin Map", "Overgrown Shrine Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Holy Chainmail"
+level = 60
+rarity = "normal"
+properties = "SixLink"
+
+[[Cards]]
+card = "Further Invention"
+tier = 3
+req_number = 4
+req_area_lvl = 80
+drop_areas = ["Foundry Map", "Laboratory Map", "Vault Map"]
+drop_monsters = []
+tags = "Trade"
+[Cards.Reward.Item]
+reward = "Random Helmet"
+level = 100
+rarity = "Normal"
+properties = "DoubleInfluenced"
+
+[[Cards]]
+card = "Immortal Resolve"
+tier = 1000
+req_number = 6
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Amalgam of Nightmares", "Champion of the Hollows", "Lord of the Hollows", "Messenger of the Hollows"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Body Armour"
+level = 0
+rarity = "normal"
+properties = "SixLink|RandomInfluence"
+
+[[Cards]]
+card = "Imperfect Memories"
+tier = 5000
+req_number = 5
+req_area_lvl = 80
+drop_areas = ["Cortex", "Replica Cortex"]
+drop_monsters = ["Venarius"]
+tags = "Always|Tradeable"
+[Cards.Reward.Item]
+reward = "Random Jewellery"
+level = 100
+rarity = "Rare"
+properties = "ThreeImplicitSynthesised"
+
+[[Cards]]
+card = "Imperial Legacy"
+tier = 5000
+req_number = 22
+req_area_lvl = 80
+drop_areas = ["Desert Map", "Desert Spring Map", "Dry Sea Map", "Dunes Map", "Pillars of Arun"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Imperial Bow (elemental damage)"
+level = 100
+rarity = "normal"
+properties = "SixLink"
+
+[[Cards]]
+card = "Justified Ambition"
+tier = 31
+req_number = 5
+req_area_lvl = 81
+drop_areas = []
+drop_monsters = ["Al-Hezmin, The Hunter", "Baran, The Crusader", "Drox, The Warlord", "Veritania, The Redeemer"]
+tags = ""
+[Cards.Reward.Map]
+reward = "Synthesised Map"
+map_level = 78
+rarity = "Unique"
+properties = ""
+
+[[Cards]]
+card = "Keeper's Corruption"
+tier = 3
+req_number = 7
+req_area_lvl = 80
+drop_areas = ["Chayula's Domain"]
+drop_monsters = ["Breach Boss"]
+tags = "Trade"
+[Cards.Reward.Item]
+reward = "Eldritch Bone Helmet (Concentrated Effect)"
+level = 89
+rarity = "Magic"
+properties = "Elder"
+
+[[Cards]]
+card = "Lachrymal Necrosis"
+tier = 1000
+req_number = 3
+req_area_lvl = 33
+drop_areas = ["Corrupted The Chamber of Innocence", "The Desecrated Chambers", "Basilica Map", "Defiled Cathedral Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Jewel (Corrupted Blood cannot be inflicted on you)"
+level = 0
+rarity = "Rare"
+properties = "Corrupted"
+
+[[Cards]]
+card = "Lantador's Lost Love"
+tier = 1000
+req_number = 7
+req_area_lvl = 23
+drop_areas = ["(Act 6) The Twilight Strand", "(Act 6) The Coast", "(Act 6) The Tidal Island", "(Act 6) The Mud Flats", "The Beacon", "The Brine King's Reef", "Atoll Map", "Maelström of Chaos", "Beach Map", "Coral Ruins Map", "Coves Map", "Estuary Map", "Lighthouse Map", "Peninsula Map", "Pier Map", "Plateau Map", "Port Map", "Reef Map", "Shore Map", "Mao Kun", "Strand Map", "Whakawairua Tuahu", "Tropical Island Map", "Wharf Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Two-Stone Ring"
+level = 100
+rarity = "Rare"
+properties = ""
+
+[[Cards]]
+card = "Lucky Deck"
+tier = 2
+req_number = 9
+req_area_lvl = 74
+drop_areas = ["Ziggurat Map"]
+drop_monsters = []
+tags = "T17Map|DoubleGoingForIt|Ssf"
+[Cards.Reward.Item]
+reward = "10 req_numbered Deck"
+level = 0
+rarity = "CHANGEME"
+properties = ""
+
+[[Cards]]
+card = "Magnum Opus"
+tier = 5000
+req_number = 5
+req_area_lvl = 80
+drop_areas = ["Altered Distant Memory", "Augmented Distant Memory", "Twisted Distant Memory", "Rewritten Distant Memory"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Random Item"
+level = 100
+rarity = "Normal"
+properties = "ThreeImplicitSynthesised"
+
+[[Cards]]
+card = "Matryoshka"
+tier = 1
+req_number = 8
+req_area_lvl = 68
+drop_areas = ["Port Map"]
+drop_monsters = ["Unravelling Horror"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Onyx Amulet (Four Anointments Incubating Talisman Item)"
+level = 85
+rarity = "Rare"
+properties = "Amulet"
+
+[[Cards]]
+card = "Merciless Armament"
+tier = 1000
+req_number = 4
+req_area_lvl = 80
+drop_areas = ["Armoury Map", "Arsenal Map", "Colonnade Map", "Promenade Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Merciless Two-Hand Weapon (phys dmg)"
+level = 100
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "Monochrome"
+tier = 0
+req_number = 3
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Item]
+reward = ""
+level = 0
+rarity = ""
+properties = ""
+
+[[Cards]]
+card = "Nook's Crown"
+tier = 31
+req_number = 4
+req_area_lvl = 80
+drop_areas = ["Betrayal Hideout"]
+drop_monsters = ["Catarina, Master of Undeath"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Bone Helmet"
+level = 100
+rarity = "Rare"
+properties = "Elder"
+
+[[Cards]]
+card = "Perfection"
+tier = 1000
+req_number = 5
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Guardian of the Chimera", "Guardian of the Hydra", "Guardian of the Minotaur", "Guardian of the Phoenix"]
+tags = "EndBoss|Ssf"
+[Cards.Reward.Item]
+reward = "Random Jewellery"
+level = 100
+rarity = "Rare"
+properties = "Shaper"
+
+[[Cards]]
+card = "Prometheus' Armoury"
+tier = 1000
+req_number = 6
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Haku, Warmaster"]
+tags = "Betrayal|TripplePow|Ssf"
+[Cards.Reward.Item]
+reward = "Random OneHand Weapon"
+level = 100
+rarity = "Rare"
+properties = "DoubleInfluenced"
+
+[[Cards]]
+card = "Prosperity"
+tier = 1000
+req_number = 10
+req_area_lvl = 61
+drop_areas = ["Atoll Map", "Maelström of Chaos", "Beach Map", "Coral Ruins Map", "Coves Map", "Estuary Map", "Lighthouse Map", "Peninsula Map", "Pier Map", "Plateau Map", "Port Map", "Reef Map", "Shipyard Map", "Shore Map", "Mao Kun", "Strand Map", "Whakawairua Tuahu", "Tropical Island Map", "Wharf Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Perandus' Gold Ring (Rarity)"
+level = 0
+rarity = "Rare"
+properties = ""
+
+[[Cards]]
+card = "Sambodhi's Wisdom"
+tier = 1000
+req_number = 3
+req_area_lvl = 58
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Item]
+reward = ""
+level = 0
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "Shard of Fate"
+tier = 1000
+req_number = 4
+req_area_lvl = 23
+drop_areas = ["(Act 7) The Chamber of Sins Level 1", "(Act 7) The Chamber of Sins Level 2", "Overgrown Ruin Map", "Overgrown Shrine Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Vivid Jewel"
+level = 0
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "Soul Quenched"
+tier = 1000
+req_number = 5
+req_area_lvl = 73
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Item]
+reward = ""
+level = 0
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "Struck by Lightning"
+tier = 1000
+req_number = 3
+req_area_lvl = 70
+drop_areas = ["Cemetery Map", "Colonnade Map", "Courtyard Map", "The Vinktar Square", "Graveyard Map", "Infested Valley Map", "Leyline Map", "Promenade Map", "Shipyard Map", "Stagnation Map", "Tower Map", "Villa Map", "Wharf Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Electrocuting Jewellery (lightning atk dmg)"
+level = 76
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "Squandered Prosperity"
+tier = 0
+req_number = 5
+req_area_lvl = 73
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Map]
+reward = "The Perandus Manor Chateau Map"
+map_level = 0
+rarity = "Unique"
+properties = "Corrupted"
+
+[[Cards]]
+card = "The Archmage's Right Hand"
+tier = 1000
+req_number = 7
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Chayula's Domain", "Esh's Domain", "Tul's Domain", "Uul-Netol's Domain", "Xoph's Domain"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Glyphic Prophecy Wand (increased spell dmg)"
+level = 100
+rarity = "Magic"
+properties = "Wand"
+
+[[Cards]]
+card = "The Aspirant"
+tier = 3
+req_number = 5
+req_area_lvl = 81
+drop_areas = ["Sacred Blossom"]
+drop_monsters = ["Oshabi, Avatar of the Grove"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Random Elevated Item"
+level = 0
+rarity = "Magic"
+properties = "RandomInfluence"
+
+[[Cards]]
+card = "The Awakened"
+tier = 5000
+req_number = 6
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Avatar of Apocalypse", "Barthol, the Corruptor", "Bazur", "Maker of Mires", "Merveil, the Returned", "Sallazzang", "The Hallowed Husk"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Random Jewellery"
+level = 86
+rarity = "Rare"
+properties = "DoubleInfluenced"
+
+[[Cards]]
+card = "The Bargain"
+tier = 1000
+req_number = 5
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = ["It That Fled"]
+tags = "Disabled"
+[Cards.Reward.Item]
+reward = ""
+level = 85
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "The Bear Woman"
+tier = 1000
+req_number = 6
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Beast of the Pits", "Erebix, Light's Bane", "The Cleansing Light"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Fecund Ursine Pelt (maximum life)"
+level = 0
+rarity = "Magic"
+properties = "Warlord"
+
+[[Cards]]
+card = "The Brawny Battle Mage"
+tier = 1000
+req_number = 5
+req_area_lvl = 80
+drop_areas = ["Abomination Map", "Burial Chambers Map", "The Putrid Cloister", "Phantasmagoria Map", "Sepulchre Map", "Spider Forest Map", "Waste Pool Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Merciless Tornado Wand (phys dmg)"
+level = 100
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Carrion Crow"
+tier = 1000
+req_number = 4
+req_area_lvl = 23
+drop_areas = ["The Ebony Barracks", "The Imperial Gardens", "The Battlefront", "The Aqueduct", "The Ascent", "Oriath Square", "The Grand Promenade", "The Blood Aqueduct"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Random Life Armour"
+level = 0
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Catch"
+tier = 3
+req_number = 18
+req_area_lvl = 68
+drop_areas = ["Atoll Map", "Maelström of Chaos", "Beach Map", "Coves Map", "Peninsula Map", "Plateau Map", "Reef Map", "Shipyard Map", "Shore Map", "Strand Map", "Tropical Island Map"]
+drop_monsters = []
+tags = "Trade"
+[Cards.Reward.Item]
+reward = "Incubated Fishing Rod"
+level = 99
+rarity = "Normal"
+properties = "Fishing"
+
+[[Cards]]
+card = "The Celestial Justicar"
+tier = -1
+req_number = 6
+req_area_lvl = 47
+drop_areas = ["(Act 7) The Crypt", "Bone Crypt Map", "Citadel Map", "Cursed Crypt Map", "The Coward's Trial", "Ziggurat Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Astral Plate"
+level = 0
+rarity = "normal"
+properties = "SixLink|BodyArmour"
+
+[[Cards]]
+card = "The Celestial Stone"
+tier = 5
+req_number = 10
+req_area_lvl = 80
+drop_areas = ["Any"]
+drop_monsters = ["Jeweller's Strongboxes"]
+tags = "Strongbox|Ssf"
+[Cards.Reward.Item]
+reward = "Opal Ring"
+level = 100
+rarity = "Normal"
+properties = "Shaper|Ring"
+
+[[Cards]]
+card = "The Chains that Bind"
+tier = 5
+req_number = 11
+req_area_lvl = 38
+drop_areas = ["(Act 5) The Control Blocks", "The Slave Pens", "Shavronne's Tower", "Cage Map", "Cells Map", "Dungeon Map", "Pen Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Random Body Armour"
+level = 0
+rarity = "normal"
+properties = "SixLink"
+
+[[Cards]]
+card = "The Dapper Prodigy"
+tier = 5
+req_number = 6
+req_area_lvl = 80
+drop_areas = ["Palace Map", "Residence Map", "Villa Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Random Body Armour"
+level = 100
+rarity = "normal"
+properties = "SixLink"
+
+[[Cards]]
+card = "The Dark Mage"
+tier = 5
+req_number = 6
+req_area_lvl = 50
+drop_areas = ["(Act 7) The Chamber of Sins Level 1", "(Act 7) The Chamber of Sins Level 2", "Overgrown Ruin Map", "Overgrown Shrine Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Random Staff"
+level = 55
+rarity = "normal"
+properties = "SixLink"
+
+[[Cards]]
+card = "The Endurance"
+tier = 1000
+req_number = 4
+req_area_lvl = 23
+drop_areas = ["The Mines Level 1", "The Mines Level 2", "The Crystal Veins", "The Tunnel", "The Quarry", "Crystal Ore Map", "Dig Map", "Excavation Map", "Flooded Mine Map", "Geode Map", "Grotto Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Vivid Crimson Jewel (% max life)"
+level = 0
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Enforcer"
+tier = -1
+req_number = 4
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = []
+tags = "NoSource|Ssf"
+[Cards.Reward.Item]
+reward = "Spiked Gloves of the Conquest (Culling Strike)"
+level = 86
+rarity = "Magic"
+properties = "Warlord"
+
+[[Cards]]
+card = "The Ethereal"
+tier = 5
+req_number = 7
+req_area_lvl = 51
+drop_areas = ["The Apex of Sacrifice", "The Alluring Abyss"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward ="Vaal Regalia"
+level = 0
+rarity = "normal"
+properties = "SixLink"
+
+[[Cards]]
+card = "The Flora's Gift"
+tier = 1000
+req_number = 5
+req_area_lvl = 60
+drop_areas = ["Ashen Wood Map", "Bramble Valley Map", "Dark Forest Map", "Forbidden Woods Map", "Jungle Valley Map", "Lair Map", "Ramparts Map", "Spider Forest Map", "Tropical Island Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Five-Link Staff"
+level = 66
+rarity = "Normal"
+properties = "Staff"
+
+[[Cards]]
+card = "The Gambler"
+tier = 1000
+req_number = 9
+req_area_lvl = 68
+drop_areas = ["Any"]
+drop_monsters = ["Any"]
+tags = "TrippleSkull|Ssf"
+[Cards.Reward.Item]
+reward = "Random divination card"
+level = 0
+rarity = "Card"
+properties = ""
+
+[[Cards]]
+card = "The Golden Era"
+tier = 1000
+req_number = 7
+req_area_lvl = 80
+drop_areas = ["Basilica Map", "Ivory Temple Map", "Residence Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Flaring Eclipse Staff (phys dmg)"
+level = 100
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Hale Heart"
+tier = 1000
+req_number = 4
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["The Constrictor", "The Enslaver", "The Eradicator", "The Purifier"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Random Item"
+level = 100
+rarity = "Rare"
+properties = "Elder"
+
+[[Cards]]
+card = "The Inoculated"
+tier = 1000
+req_number = 4
+req_area_lvl = 59
+drop_areas = ["Abomination Map", "Acid Caverns Map", "Bog Map", "Marshes Map", "Mud Geyser Map", "Primordial Pool Map", "Stagnation Map", "Sulphur Vents Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Seraphim's Armour (es and block rec)"
+level = 0
+rarity = "Magic"
+properties = "BodyArmour"
+
+[[Cards]]
+card = "The Jester"
+tier = 1000
+req_number = 9
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Ash Lessard"]
+tags = "Anarchy"
+[Cards.Reward.Item]
+reward = "Merciless One-Hand Weapon (phys)"
+level = 100
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Jeweller's Boon"
+tier = 1000
+req_number = 5
+req_area_lvl = 80
+drop_areas = ["Citadel Map", "Crystal Ore Map", "Grotto Map", "Mineral Pools Map", "Primordial Blocks Map", "Ziggurat Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Random Five-Linked Body Armour"
+level = 0
+rarity = "Normal"
+properties = "RandomInfluence"
+
+[[Cards]]
+card = "The Journalist"
+tier = 1000
+req_number = 10
+req_area_lvl = 68
+drop_areas = ["Alleyways Map", "City Square Map", "Crimson Temple Map", "Defiled Cathedral Map", "Haunted Mansion Map", "Lookout Map", "Silo Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Double Veiled Helmet"
+level = 0
+rarity = "Rare"
+properties = "Helmet"
+
+[[Cards]]
+card = "The King's Blade"
+tier = 1000
+req_number = 5
+req_area_lvl = 60
+drop_areas = ["Arena Map", "Pit of the Chimera Map", "Colosseum Map", "Pit Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Bloodthirsty Eternal Swor (% phys dmg)"
+level = 66
+rarity = "Magic"
+properties = "Sword"
+
+[[Cards]]
+card = "The Lord in Black"
+tier = 1000
+req_number = 6
+req_area_lvl = 75
+drop_areas = []
+drop_monsters = ["K'tash, the Hate Shepherd"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Ring of Bameth (Chaos resist)"
+level = 83
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Lord of Celebration"
+tier = 1000
+req_number = 4
+req_area_lvl = 80
+drop_areas = ["Basilica Map", "Chateau Map", "Conservatory Map", "Crimson Temple Map", "Crimson Township Map", "Haunted Mansion Map", "Ivory Temple Map", "Laboratory Map", "The Twilight Temple", "Palace Map", "Relic Chambers Map", "Residence Map", "Sanctuary Map", "Temple Map", "Vaults of Atziri", "Vault Map", "Villa Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Sceptre of Celebration (atk speed)"
+level = 0
+rarity = "Magic"
+properties = "Shaper"
+
+[[Cards]]
+card = "The Lover"
+tier = 1000
+req_number = 2
+req_area_lvl = 23
+drop_areas = ["Maelström of Chaos", "Underground Sea Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Jewellery"
+level = 79
+rarity = "Rare"
+properties = ""
+
+[[Cards]]
+card = "The Master"
+tier = 1000
+req_number = 4
+req_area_lvl = 23
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Item]
+reward = ""
+level = 0
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "The Metalsmith's Gift"
+tier = 1000
+req_number = 6
+req_area_lvl = 23
+drop_areas = ["(Act 6) The Coast", "(Act 6) The Mud Flats", "The Karui Fortress"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Prismatic Ring"
+level = 0
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "The Mountain"
+tier = 1000
+req_number = 6
+req_area_lvl = 23
+drop_areas = ["The Ascent", "The Descent", "Glacier Map", "Summit Map", "Volcano Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Jewel of Potency (Global critical strike multiplier)"
+level = 0
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Old Man"
+tier = 1
+req_number = 12
+req_area_lvl = 54
+drop_areas = ["Atoll Map", "Lighthouse Map", "Peninsula Map", "Pier Map", "Reef Map", "Shore Map", "Strand Map", "Tropical Island Map", "Wharf Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Fishing Rod"
+level = 0
+rarity = "rare"
+properties = "TwoImplicitCorrupted|Fishing"
+
+[[Cards]]
+card = "The Opulent"
+tier = 1000
+req_number = 5
+req_area_lvl = 23
+drop_areas = ["Basilica Map", "Chateau Map", "Conservatory Map", "Crimson Temple Map", "Crimson Township Map", "Haunted Mansion Map", "Ivory Temple Map", "Laboratory Map", "The Twilight Temple", "Palace Map", "Relic Chambers Map", "Residence Map", "Sanctuary Map", "Temple Map", "Vaults of Atziri", "Vault Map", "Villa Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Ring"
+level = 100
+rarity = "Rare"
+properties = ""
+
+[[Cards]]
+card = "The Porcupine"
+tier = 5
+req_number = 6
+req_area_lvl = 38
+drop_areas = ["The High Gardens", "Courtyard Map", "Gardens Map", "Orchard Map", "Plaza Map", "Terrace Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Random Short Bow"
+level = 55
+rarity = "normal"
+properties = "SixLink"
+
+[[Cards]]
+card = "Brush, Paint and Palette"
+tier = 2
+req_number = 5
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = ["Doedre the Defiler", "Erythrophagia", "Headmistress Braeta", "Portentia, the Foul", "Prodigy of Hexes"]
+tags = ""
+[Cards.Reward.Item]
+reward = "The Artist Divination Card (Enhance)"
+level = 0
+rarity = "Card"
+properties = ""
+
+[[Cards]]
+card = "The Rabid Rhoa"
+tier = 1000
+req_number = 4
+req_area_lvl = 75
+drop_areas = []
+drop_monsters = ["Drought-Maddened Rhoa", "Skullbeak"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Malicious Gemini Claw (adds chaos dmg)"
+level = 83
+rarity = "Magic"
+properties = "Claw"
+
+[[Cards]]
+card = "The Road to Power"
+tier = 1000
+req_number = 7
+req_area_lvl = 80
+drop_areas = ["Castle Ruins Map", "Dark Forest Map", "Orchard Map", "Shore Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Runic One-Hand Weapon (Increased spell damage)"
+level = 100
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Sacrifice"
+tier = 2
+req_number = 4
+req_area_lvl = 80
+drop_areas = ["The Temple of Atzoatl"]
+drop_monsters = ["Any"]
+tags = "Trade"
+[Cards.Reward.Item]
+reward = "Sacrificial Garb (+1 to vaal skill gems)"
+level = 100
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "The Shortcut"
+tier = -1
+req_number = 1
+req_area_lvl = 80
+drop_areas = ["Vaal side areas and Labyrinth Trial areas"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Quicksilver Flask of the Cheetah (increased movement speed during effect)"
+level = 100
+rarity = "Magic"
+properties = "Flask"
+
+[[Cards]]
+card = "The Sigil"
+tier = 1000
+req_number = 3
+req_area_lvl = 58
+drop_areas = ["Overgrown Ruin Map", "Overgrown Shrine Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Unassailable Amulet (% max es)"
+level = 0
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Spoiled Prince"
+tier = 1000
+req_number = 4
+req_area_lvl = 80
+drop_areas = ["Vaal Pyramid Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Dictator's Prophecy Wand (Phys atk)"
+level = 100
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Surgeon"
+tier = 1000
+req_number = 4
+req_area_lvl = 60
+drop_areas = ["Overgrown Ruin Map", "Overgrown Shrine Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Surgeon's Flask (Gain charge on crit)"
+level = 0
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Sustenance"
+tier = 1000
+req_number = 3
+req_area_lvl = 54
+drop_areas = []
+drop_monsters = ["It That Fled"]
+tags = "Disabled"
+[Cards.Reward.Item]
+reward = "Energy From Within Cobalt Jewel"
+level = 0
+rarity = "Unique"
+properties = "Corrupted|Jewel"
+
+[[Cards]]
+card = "The Tumbleweed"
+tier = 1000
+req_number = 2
+req_area_lvl = 80
+drop_areas = ["Desert Map", "Desert Spring Map", "Dry Sea Map", "Dunes Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Diamond Ring of Redemption (range of modifiers)"
+level = 100
+rarity = "Magic"
+properties = "Redeemer"
+
+[[Cards]]
+card = "The Twins"
+tier = 1000
+req_number = 8
+req_area_lvl = 75
+drop_areas = ["Cold River Map", "Moon Temple Map", "The Twilight Temple", "Temple Map"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Gemini Claw of Celebration (Atk speed)"
+level = 83
+rarity = "Magic"
+properties = "Claw"
+
+[[Cards]]
+card = "The Tyrant"
+tier = 1000
+req_number = 9
+req_area_lvl = 80
+drop_areas = ["Ancient City Map", "Arcade Map", "Bazaar Map", "Castle Ruins Map", "Coral Ruins Map", "Ghetto Map", "Port Map", "Precinct Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Merciless Weapon (Increased phys dmg)"
+level = 100
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The Undisputed"
+tier = 1000
+req_number = 8
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["Chayula, Who Dreamt"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Merciless Vaal Axe (phys dmg)"
+level = 100
+rarity = "Magic"
+properties = "Elder"
+
+[[Cards]]
+card = "The Valley of Steel Boxes"
+tier = 1000
+req_number = 9
+req_area_lvl = 51
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Item]
+reward = ""
+level = 0
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "The Void"
+tier = 2
+req_number = 1
+req_area_lvl = 23
+drop_areas = ["Abomination Map", "Citadel Map", "Fortress Map", "Sanctuary Map", "Ziggurat Map"]
+drop_monsters = []
+tags = "T17Map|ElverDodge"
+[Cards.Reward.Item]
+reward = "?"
+level = 0
+rarity = "Unique"
+properties = ""
+
+[[Cards]]
+card = "The Warden"
+tier = 1000
+req_number = 4
+req_area_lvl = 23
+drop_areas = ["(Act 5) The Control Blocks", "(Act 6) The Lower Prison", "Corrupted The Slave Pens", "Shavronne's Tower", "Cage Map", "Cells Map", "Dungeon Map", "Pen Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Amulet"
+level = 0
+rarity = "Rare"
+properties = "Corrupted"
+
+[[Cards]]
+card = "The Warlord"
+tier = 5
+req_number = 6
+req_area_lvl = 75
+drop_areas = ["Armoury Map", "Arsenal Map", "Colonnade Map", "Promenade Map"]
+drop_monsters = ["Any"]
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Coronal Maul"
+level = 83
+rarity = "normal"
+properties = "SixLink"
+
+[[Cards]]
+card = "The Web"
+tier = 1000
+req_number = 8
+req_area_lvl = 68
+drop_areas = ["Arachnid Nest Map", "Arachnid Tomb Map", "Jungle Valley Map", "Spider Lair Map", "Sunken City Map", "Toxic Sewer Map"]
+drop_monsters = []
+tags = ""
+[Cards.Reward.Item]
+reward = "Weapon of Crafting (can have 3 crafting modifiers)"
+level = 0
+rarity = "Magic"
+properties = ""
+
+[[Cards]]
+card = "The White Knight"
+tier = 5
+req_number = 8
+req_area_lvl = 75
+drop_areas = ["EndGame~Labyrinth~trials~arrows", "Trial of Stinging Doubt"]
+drop_monsters = ["Any"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Astral Plate"
+level = 100
+rarity = "normal"
+properties = "SixLink|Crusader|BodyArmour"
+
+[[Cards]]
+card = "Underground Forest"
+tier = 0
+req_number = 4
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = []
+tags = "Disabled"
+[Cards.Reward.Item]
+reward = ""
+level = 0
+rarity = "Normal"
+properties = ""
+
+[[Cards]]
+card = "Void of the Elements"
+tier = 1000
+req_number = 3
+req_area_lvl = 80
+drop_areas = []
+drop_monsters = ["The Elder"]
+tags = ""
+[Cards.Reward.Item]
+reward = "Overpowering Opal Ring (ele atk dmg)"
+level = 100
+rarity = "Magic"
+properties = "Elder"
+
+[[Cards]]
+card = "Who Asked"
+tier = -1
+req_number = 9
+req_area_lvl = 80
+drop_areas = ["Fortress Map", "Foundry Map", "Forge of the Phoenix Map", "Silo Map"]
+drop_monsters = []
+tags = "Ssf"
+[Cards.Reward.Item]
+reward = "Dictator's Weapon (phys dmg + accuracy)"
+level = 83
+rarity = "Magic"
+properties = "Fractured"

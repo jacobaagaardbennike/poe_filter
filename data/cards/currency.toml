@@ -1,6 +1,6 @@
 [[Cards]]
 card = "A Sea of Blue"
-tier = 1000
+tier = 32
 req_number = 3
 req_area_lvl = 68
 drop_areas = ["Citadel Map", "Crystal Ore Map", "Grotto Map", "Mineral Pools Map", "Primordial Blocks Map", "Ziggurat Map"]
@@ -26,7 +26,7 @@ properties = ""
 
 [[Cards]]
 card = "Acclimatisation"
-tier = 1000
+tier = 3
 req_number = 2
 req_area_lvl = 23
 drop_areas = ["Desert Map", "Desert Spring Map", "Dry Sea Map", "Dunes Map"]
@@ -39,7 +39,7 @@ properties = ""
 
 [[Cards]]
 card = "Alluring Bounty"
-tier = 1
+tier = 2
 req_number = 7
 req_area_lvl = 68
 drop_areas = ["The Apex of Sacrifice", "The Alluring Abyss"]
@@ -52,7 +52,7 @@ properties = ""
 
 [[Cards]]
 card = "Ambitious Obsession"
-tier = 1000
+tier = 33
 req_number = 4
 req_area_lvl = 68
 drop_areas = []
@@ -78,7 +78,7 @@ properties = ""
 
 [[Cards]]
 card = "Brother's Stash"
-tier = 1
+tier = 2
 req_number = 1
 req_area_lvl = 68
 drop_areas = ["Cemetery Map", "Grave Trough Map", "Graveyard Map"]
@@ -106,7 +106,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "Cameria's Cut"
-tier = 1000
+tier = 31
 req_number = 2
 req_area_lvl = 68
 drop_areas = ["Any"]
@@ -119,7 +119,7 @@ properties = ""
 
 [[Cards]]
 card = "Chaotic Disposition"
-tier = 1000
+tier = 3
 req_number = 1
 req_area_lvl = 23
 drop_areas = ["Poorjoy's Asylum"]
@@ -132,7 +132,7 @@ properties = ""
 
 [[Cards]]
 card = "Checkmate"
-tier = 1000
+tier = 33
 req_number = 8
 req_area_lvl = 68
 drop_areas = ["Academy Map", "Museum Map", "Scriptorium Map"]
@@ -145,7 +145,7 @@ properties = ""
 
 [[Cards]]
 card = "Coveted Possession"
-tier = 1000
+tier = 3
 req_number = 9
 req_area_lvl = 23
 drop_areas = ["The Catacombs", "The Ossuary (Act 5)", "The Ossuary (Act 10)", "Bone Crypt Map", "Sanctuary Map", "Ziggurat Map"]
@@ -158,7 +158,7 @@ properties = ""
 
 [[Cards]]
 card = "Darker Half"
-tier = 1
+tier = 2
 req_number = 3
 req_area_lvl = 81
 drop_areas = ["Currency rewards from Delirium layers and Simulacrum."]
@@ -171,7 +171,7 @@ properties = ""
 
 [[Cards]]
 card = "Dementophobia"
-tier = 1000
+tier = 33
 req_number = 11
 req_area_lvl = 68
 drop_areas = []
@@ -184,7 +184,7 @@ properties = ""
 
 [[Cards]]
 card = "Demigod's Wager"
-tier = 1
+tier = 2
 req_number = 7
 req_area_lvl = 35
 drop_areas = []
@@ -197,7 +197,7 @@ properties = ""
 
 [[Cards]]
 card = "Disdain"
-tier = 1000
+tier = -1
 req_number = 5
 req_area_lvl = 0
 drop_areas = ["The Maven's Crucible"]
@@ -223,7 +223,7 @@ properties = ""
 
 [[Cards]]
 card = "Emperor's Luck"
-tier = 1000
+tier = 45
 req_number = 5
 req_area_lvl = 23
 drop_areas = ["The Imperial Gardens", "The High Gardens", "Courtyard Map", "Gardens Map", "Orchard Map", "Terrace Map"]
@@ -236,7 +236,7 @@ properties = ""
 
 [[Cards]]
 card = "Ever-Changing"
-tier = 1000
+tier = 2
 req_number = 3
 req_area_lvl = 68
 drop_areas = ["Drops in maps opened via Kirac missions."]
@@ -249,7 +249,7 @@ properties = ""
 
 [[Cards]]
 card = "Harmony of Souls"
-tier = 2
+tier = 3
 req_number = 9
 req_area_lvl = 68
 drop_areas = ["Abomination", "Sepulchre Map", "Overgrown Shrine Map", "Cells Map"]
@@ -301,7 +301,7 @@ properties = ""
 
 [[Cards]]
 card = "Lucky Connections"
-tier = 1000
+tier = -1
 req_number = 7
 req_area_lvl = 23
 drop_areas = ["The Docks", "The Quay", "Pier Map", "Port Map", "Shipyard Map", "Wharf Map"]
@@ -313,21 +313,21 @@ amount = 20
 properties = ""
 
 [[Cards]]
-card = "Lucky Deck"
-tier = 1000
-req_number = 9
-req_area_lvl = 74
-drop_areas = ["Ziggurat Map"]
-drop_monsters = []
-tags = "T17Map|DoubleGoingForIt|Ssf"
+card = "Man With Bear"
+tier = 33
+req_number = 3
+req_area_lvl = 68
+drop_areas = ["Barrows Map", "Cemetery Map"]
+drop_monsters = ["any"]
+tags = "Ssf"
 [Cards.Reward.Currency]
-reward = "10 req_numbered Deck"
-amount = "CHANGEME"
+reward = "Bestiary Scarab"
+amount = 1
 properties = ""
 
 [[Cards]]
 card = "More is Never Enough"
-tier = 2
+tier = 33
 req_number = 7
 req_area_lvl = 68
 drop_areas = []
@@ -340,7 +340,7 @@ properties = ""
 
 [[Cards]]
 card = "No Traces"
-tier = 1000
+tier = 34
 req_number = 9
 req_area_lvl = 23
 drop_areas = ["The Ossuary (Act 5)", "The Reliquary (Act 10)", "The Ossuary (Act 10)", "Mausoleum Map", "Relic Chambers Map", "Sepulchre Map", "Ziggurat Map"]
@@ -353,7 +353,7 @@ properties = ""
 
 [[Cards]]
 card = "Parasitic Passengers"
-tier = -1
+tier = 5
 req_number = 8
 req_area_lvl = 68
 drop_areas = ["Arachnid Tomb Map", "Channel Map", "Infested Valley Map"]
@@ -378,6 +378,19 @@ amount = 1
 properties = ""
 
 [[Cards]]
+card = "Rebirth and Renewal"
+req_number = 43
+req_area_lvl = 68
+drop_areas = []
+drop_monsters = []
+tags = "NoSource"
+priority = "Early|Ssf"
+[Cards.Reward.Currency]
+reward = "Horned Scarab"
+amount = 1
+properties = ""
+
+[[Cards]]
 card = "Seven Years Bad Luck"
 tier = 1
 req_number = 13
@@ -392,7 +405,7 @@ properties = ""
 
 [[Cards]]
 card = "Society's Remorse"
-tier = 1000
+tier = 32
 req_number = 1
 req_area_lvl = 23
 drop_areas = ["any"]
@@ -418,7 +431,7 @@ properties = ""
 
 [[Cards]]
 card = "The Card Sharp"
-tier = 1000
+tier = 33
 req_number = 4
 req_area_lvl = 68
 drop_areas = ["Alva's Memory of Reverse Incursion", "Temporal incursion encounters"]
@@ -431,7 +444,7 @@ properties = ""
 
 [[Cards]]
 card = "The Cartographer"
-tier = 1000
+tier = 33
 req_number = 1
 req_area_lvl = 39
 drop_areas = []
@@ -456,8 +469,22 @@ amount = 1
 properties = ""
 
 [[Cards]]
+card = "The Deal"
+tier = 31
+req_number = 5
+req_area_lvl = 68
+drop_areas = ["any"]
+drop_monsters = ["Cameria the Coldblooded"]
+tags = "Betrayal"
+priority = "Early|Ssf"
+[Cards.Reward.Currency]
+reward = "Cartography Scarab of Escalation"
+amount = 1
+properties = ""
+
+[[Cards]]
 card = "The Finishing Touch"
-tier = 1000
+tier = 31
 req_number = 2
 req_area_lvl = 60
 drop_areas = []
@@ -478,12 +505,12 @@ drop_monsters = ["Drought-Maddened Rhoa", "Skullbeak"]
 tags = ""
 [Cards.Reward.Currency]
 reward = "Albino Rhoa Feather"
-amount = 1000
+amount = 1
 properties = ""
 
 [[Cards]]
 card = "The Fool"
-tier = 1000
+tier = 31
 req_number = 4
 req_area_lvl = 23
 drop_areas = ["any"]
@@ -509,7 +536,7 @@ properties = ""
 
 [[Cards]]
 card = "The Gemcutter"
-tier = 1000
+tier = 31
 req_number = 3
 req_area_lvl = 23
 drop_areas = ["any"]
@@ -522,7 +549,7 @@ properties = ""
 
 [[Cards]]
 card = "The Heroic Shot"
-tier = 1000
+tier = 31
 req_number = 1
 req_area_lvl = 23
 drop_areas = ["any"]
@@ -540,9 +567,9 @@ req_number = 12
 req_area_lvl = 68
 drop_areas = ["Maelström of Chaos", "Mineral Pools Map", "Underground Sea Map", "Vaults of Atziri", "Vault Map"]
 drop_monsters = []
-tags = ""
+tags = "FavoriteCurrency"
 [Cards.Reward.Currency]
-reward = "Exalted Orb|FavoriteCurrency"
+reward = "Exalted Orb"
 amount = 1
 properties = ""
 
@@ -556,12 +583,12 @@ drop_monsters = ["Grandmaster"]
 tags = "EndBoss"
 [Cards.Reward.Currency]
 reward = "House of Mirrors divination card."
-amount = 1000
+amount = 1
 properties = ""
 
 [[Cards]]
 card = "The Innocent"
-tier = 1000
+tier = 34
 req_number = 10
 req_area_lvl = 23
 drop_areas = ["The Chamber of Innocence", "Basilica Map", "Defiled Cathedral Map", "Sanctuary Map"]
@@ -574,7 +601,7 @@ properties = ""
 
 [[Cards]]
 card = "The Inventor"
-tier = 1000
+tier = 32
 req_number = 6
 req_area_lvl = 23
 drop_areas = ["The Ancient Pyramid", "The Temple of Decay Level 1", "The Temple of Decay Level 2", "Maze Map", "Doryani's Machinarium", "Pyramid Map", "Vaults of Atziri", "Vaal Temple Map"]
@@ -592,7 +619,7 @@ req_number = 3
 req_area_lvl = 68
 drop_areas = ["Atoll Map", "Maelström of Chaos", "Beach Map", "Coral Ruins Map", "Coves Map", "Estuary Map", "Lighthouse Map", "Peninsula Map", "Pier Map", "Plateau Map", "Port Map", "Reef Map", "Shipyard Map", "Shore Map", "Mao Kun", "Strand Map", "Whakawairua Tuahu", "Tropical Island Map", "Wharf Map"]
 drop_monsters = []
-tags = ""
+tags = "Ssf"
 [Cards.Reward.Currency]
 reward = "Harbinger's Orb"
 amount = 1
@@ -626,20 +653,20 @@ properties = ""
 
 [[Cards]]
 card = "The Rabbit's Foot"
-tier = -1
+tier = 33
 req_number = 8
 req_area_lvl = 50
 drop_areas = ["Bone Crypt Map", "Citadel Map", "Cursed Crypt Map", "The Coward's Trial", "Ziggurat Map"]
 drop_monsters = ["any"]
-tags = "Incursion Vial|Ssf"
+tags = "Ssf"
 [Cards.Reward.Currency]
-reward = "CHANGEME"
+reward = "Incursion Vial"
 amount = 10
 properties = ""
 
 [[Cards]]
 card = "The Rusted Bard"
-tier = 1000
+tier = 2
 req_number = 9
 req_area_lvl = 68
 drop_areas = ["The Vinktar Square"]
@@ -693,7 +720,7 @@ properties = ""
 
 [[Cards]]
 card = "The Seeker"
-tier = 1
+tier = 2
 req_number = 9
 req_area_lvl = 35
 drop_areas = ["The Temple of Atzoatl"]
@@ -719,7 +746,7 @@ properties = ""
 
 [[Cards]]
 card = "The Side Quest"
-tier = 1000
+tier = 33
 req_number = 5
 req_area_lvl = 69
 drop_areas = ["Arachnid Tomb Map", "Armoury Map", "Castle Ruins Map", "Forking River Map", "Iceberg Map", "Infested Valley Map", "Mineral Pools Map", "Siege Map", "Primordial Blocks Map"]
@@ -732,7 +759,7 @@ properties = ""
 
 [[Cards]]
 card = "The Survivalist"
-tier = -1
+tier = 5
 req_number = 3
 req_area_lvl = 23
 drop_areas = ["The Cavern of Anger (Act 6)", "Flooded Mine Map", "Mineral Pools Map", "Underground Sea Map"]
@@ -745,7 +772,7 @@ properties = ""
 
 [[Cards]]
 card = "The Tinkerer's Table"
-tier = -1
+tier = 5
 req_number = 5
 req_area_lvl = 23
 drop_areas = ["Academy Map", "Acid Caverns Map", "Alleyways Map", "Ancient City Map", "Arachnid Nest Map", "Arachnid Tomb Map", "Arcade Map", "Arena Map", "Arid Lake Map", "Armoury Map", "Arsenal Map", "Ashen Wood Map", "Atoll Map", "Barrows Map", "Basilica Map", "Bazaar Map", "Beach Map", "Belfry Map", "Bog Map", "Bone Crypt Map", "Bramble Valley Map", "Burial Chambers Map", "Cage Map", "Caldera Map", "Canyon Map", "Carcass Map", "Castle Ruins Map", "Cells Map", "Cemetery Map", "Channel Map", "Chateau Map", "Pit of the Chimera Map", "City Square Map", "Cold River Map", "Colonnade Map", "Colosseum Map", "Conservatory Map", "Coral Ruins Map", "Core Map", "Courthouse Map", "Courtyard Map", "Coves Map", "Crimson Temple Map", "Crimson Township Map", "Crystal Ore Map", "Cursed Crypt Map", "Dark Forest Map", "Defiled Cathedral Map", "Desert Map", "Desert Spring Map", "Dig Map", "Dry Sea Map", "Dunes Map", "Dungeon Map", "Estuary Map", "Excavation Map", "Factory Map", "Fields Map", "Flooded Mine Map", "Forbidden Woods Map", "Forking River Map", "Foundry Map", "Frozen Cabins Map", "Gardens Map", "Geode Map", "Ghetto Map", "Glacier Map", "Grave Trough Map", "Graveyard Map", "Grotto Map", "Haunted Mansion Map", "Lair of the Hydra Map", "Iceberg Map", "Infested Valley Map", "Ivory Temple Map", "Jungle Valley Map", "Laboratory Map", "Lair Map", "Lava Chamber Map", "Lava Lake Map", "Leyline Map", "Lighthouse Map", "Lookout Map", "Malformation Map", "Marshes Map", "Mausoleum Map", "Maze Map", "Mesa Map", "Mineral Pools Map", "Maze of the Minotaur Map", "Moon Temple Map", "Mud Geyser Map", "Museum Map", "Necropolis Map", "Orchard Map", "Overgrown Ruin Map", "Overgrown Shrine Map", "Palace Map", "Park Map", "Pen Map", "Peninsula Map", "Phantasmagoria Map", "Forge of the Phoenix Map", "Pier Map", "Pit Map", "Plateau Map", "Plaza Map", "Port Map", "Precinct Map", "Primordial Pool Map", "Promenade Map", "Racecourse Map", "Ramparts Map", "Reef Map", "Relic Chambers Map", "Residence Map", "Scriptorium Map", "Sepulchre Map", "Shipyard Map", "Shore Map", "Shrine Map", "Siege Map", "Silo Map", "Spider Forest Map", "Spider Lair Map", "Fungal Hollow Map", "Stagnation Map", "Strand Map", "Sulphur Vents Map", "Summit Map", "Sunken City Map", "Temple Map", "Terrace Map", "Thicket Map", "Primordial Blocks Map", "Tower Map", "Toxic Sewer Map", "Crater Map", "Tropical Island Map", "Underground River Map", "Underground Sea Map", "Vaal Pyramid Map", "Vaal Temple Map", "Vault Map", "Villa Map", "Volcano Map", "Wasteland Map", "Waste Pool Map", "Waterways Map", "Wharf Map"]
@@ -758,7 +785,7 @@ properties = ""
 
 [[Cards]]
 card = "The Tireless Extractor"
-tier = 1000
+tier = 45
 req_number = 8
 req_area_lvl = 68
 drop_areas = ["Factory Map", "Fortress Map", "Foundry Map", "Forge of the Phoenix Map", "Port Map", "Silo Map"]
@@ -771,7 +798,7 @@ properties = ""
 
 [[Cards]]
 card = "The Transformation"
-tier = 1000
+tier = 2
 req_number = 5
 req_area_lvl = 68
 drop_areas = []
@@ -784,7 +811,7 @@ properties = ""
 
 [[Cards]]
 card = "The Union"
-tier = -1
+tier = 5
 req_number = 7
 req_area_lvl = 23
 drop_areas = ["The Fellshrine Ruins (Act 7)", "Cemetery Map", "Grave Trough Map", "Graveyard Map"]
@@ -797,7 +824,7 @@ properties = ""
 
 [[Cards]]
 card = "The Wrath"
-tier = -1
+tier = 32
 req_number = 8
 req_area_lvl = 23
 drop_areas = ["The Cathedral Rooftop (Act 5)", "The Feeding Trough", "Belfry Map", "Lava Lake Map"]
@@ -810,7 +837,7 @@ properties = ""
 
 [[Cards]]
 card = "Three Faces in the Dark"
-tier = -1
+tier = 32
 req_number = 7
 req_area_lvl = 23
 drop_areas = ["The Grain Gate", "The Refinery", "Arsenal Map", "Factory Map", "Port Map"]
@@ -849,7 +876,7 @@ properties = ""
 
 [[Cards]]
 card = "Vinia's Token"
-tier = -1
+tier = 34
 req_number = 5
 req_area_lvl = 68
 drop_areas = ["Core Map", "Malformation Map", "Shrine Map"]

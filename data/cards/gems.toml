@@ -1,6 +1,6 @@
 [[Cards]]
 card = "A Chilling Wind"
-tier = -1
+tier = 1000
 req_number = 4
 req_area_lvl = 72
 drop_areas = ["Cold River Map", "Forbidden Woods Map", "Frozen Cabins Map", "Glacier Map", "Iceberg Map", "Summit Map"]
@@ -42,7 +42,7 @@ properties = "Corrupted|SupportGem"
 
 [[Cards]]
 card = "Dialla's Subjugation"
-tier = -1
+tier = 1000
 req_number = 7
 req_area_lvl = 23
 drop_areas = ["(Act 8) The Solaris Temple", "(Act 8) The Solaris Temple Level 2", "The Harbour Bridge", "Cold River Map", "The Twilight Temple", "Temple Map"]
@@ -56,7 +56,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "Doryani's Epiphany"
-tier = 1000
+tier = 2
 req_number = 3
 req_area_lvl = 68
 drop_areas = ["Doryani's Machinarium"]
@@ -70,7 +70,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "Dying Anguish"
-tier = -1
+tier = 1000
 req_number = 8
 req_area_lvl = 68
 drop_areas = ["Arsenal Map", "Colonnade Map", "Ghetto Map", "Port Map", "Precinct Map", "Promenade Map"]
@@ -98,7 +98,7 @@ properties = "SupportGem"
 
 [[Cards]]
 card = "Gemcutter's Promise"
-tier = -1
+tier = 1000
 req_number = 3
 req_area_lvl = 23
 drop_areas = ["The Ebony Barracks", "The Lunaris Concourse", "Colonnade Map", "Promenade Map"]
@@ -112,7 +112,7 @@ properties = ""
 
 [[Cards]]
 card = "Gift of the Gemling Queen"
-tier = -1
+tier = 1000
 req_number = 9
 req_area_lvl = 68
 drop_areas = ["Crystal Ore Map", "Dig Map", "Excavation Map", "Flooded Mine Map", "Geode Map", "Grotto Map"]
@@ -126,7 +126,7 @@ properties = ""
 
 [[Cards]]
 card = "Grave Knowledge"
-tier = -1
+tier = 1000
 req_number = 6
 req_area_lvl = 23
 drop_areas = ["(Act 5) The Ossuary", "(Act 7) The Crypt", "(Act 10) The Ossuary", "The Catacombs", "Bone Crypt Map", "Citadel Map", "Cursed Crypt Map", "The Coward's Trial", "Necropolis Map", "Sanctuary Map", "Ziggurat Map"]
@@ -154,7 +154,7 @@ properties = "SupportGem"
 
 [[Cards]]
 card = "Terrible Secret of Space"
-tier = 1000
+tier = 5
 req_number = 8
 req_area_lvl = 72
 drop_areas = []
@@ -168,7 +168,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "The Artist"
-tier = 2
+tier = 1
 req_number = 11
 req_area_lvl = 68
 drop_areas = ["Abomination Map"]
@@ -182,7 +182,7 @@ properties = "Corrupted|SupportGem"
 
 [[Cards]]
 card = "The Bitter Blossom"
-tier = 1000
+tier = 5
 req_number = 3
 req_area_lvl = 72
 drop_areas = []
@@ -210,7 +210,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "The Bones"
-tier = -1
+tier = 1000
 req_number = 6
 req_area_lvl = 72
 drop_areas = []
@@ -224,7 +224,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "The Cataclysm"
-tier = -1
+tier = 1000
 req_number = 13
 req_area_lvl = 72
 drop_areas = ["Drops in Vaal side areas"]
@@ -252,7 +252,7 @@ properties = ""
 
 [[Cards]]
 card = "The Doppelganger"
-tier = -1
+tier = 1000
 req_number = 2
 req_area_lvl = 23
 drop_areas = ["(Act 7) The Crossroads", "Whakawairua Tuahu"]
@@ -280,7 +280,7 @@ properties = "Corrupted|SupportGem"
 
 [[Cards]]
 card = "The Emptiness"
-tier = 1
+tier = 2
 req_number = 6
 req_area_lvl = 80
 drop_areas = ["Unique maps (maybe with Mysterious Barrels modifier)"]
@@ -308,7 +308,7 @@ properties = "SupportGem"
 
 [[Cards]]
 card = "The Fox"
-tier = -1
+tier = 1000
 req_number = 6
 req_area_lvl = 68
 drop_areas = ["Barrows Map", "Castle Ruins Map", "Fields Map", "Sunken City Map"]
@@ -336,7 +336,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "The Magma Crab"
-tier = -1
+tier = 1000
 req_number = 6
 req_area_lvl = 72
 drop_areas = []
@@ -350,7 +350,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "The Realm"
-tier = -1
+tier = 1000
 req_number = 5
 req_area_lvl = 23
 drop_areas = ["Chayula's Domain", "Tul's Domain", "Xoph's Domain", "Esh's Domain", "Uul-Netol's Domain", "Kirac's Divination Card master missions"]
@@ -364,7 +364,7 @@ properties = ""
 
 [[Cards]]
 card = "The Rite of Elements"
-tier = -1
+tier = 1000
 req_number = 5
 req_area_lvl = 72
 drop_areas = ["Coves Map", "Flooded Mine Map", "Geode Map", "Grotto Map", "Peninsula Map", "Vault Map", "Waterways Map", "Wharf Map"]
@@ -378,7 +378,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "The Skeleton"
-tier = -1
+tier = 1000
 req_number = 6
 req_area_lvl = 23
 drop_areas = []
@@ -392,7 +392,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "The Summoner"
-tier = -1
+tier = 1000
 req_number = 6
 req_area_lvl = 23
 drop_areas = ["(Act 6) The Lower Prison", "(Act 7) The Chamber of Sins Level 1", "The Crematorium", "The Catacombs", "Shavronne's Tower", "Bone Crypt Map", "Burial Chambers Map", "Cage Map", "Spider Forest Map"]
@@ -406,7 +406,7 @@ properties = ""
 
 [[Cards]]
 card = "The Wilted Rose"
-tier = 1000
+tier = 5
 req_number = 7
 req_area_lvl = 72
 drop_areas = ["Acton's Nightmare"]
@@ -420,7 +420,7 @@ properties = "Corrupted"
 
 [[Cards]]
 card = "Volatile Power"
-tier = -1
+tier = 1000
 req_number = 9
 req_area_lvl = 23
 drop_areas = ["The Mines", "The Mines Level 2", "The Crystal Veins", "The Tunnel", "The Quarry", "Crystal Ore Map", "Dig Map", "Excavation Map", "Flooded Mine Map", "Geode Map", "Grotto Map"]

@@ -1,5 +1,6 @@
 [[Equipment]]
-Class = "Rusted Hatchet"
+Class = "One Hand Axes"
+BaseType = "Rusted Hatchet"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Rust of Winter"
@@ -11,7 +12,8 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Jade Hatchet"
+Class = "One Hand Axes"
+BaseType = "Jade Hatchet"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "The Gryphon"
@@ -30,12 +32,14 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Boarding Axe"
+Class = "One Hand Axes"
+BaseType = "Boarding Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Cleaver"
+Class = "One Hand Axes"
+BaseType = "Cleaver"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Dreadarc"
@@ -54,17 +58,20 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Broad Axe"
+Class = "One Hand Axes"
+BaseType = "Broad Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Arming Axe"
+Class = "One Hand Axes"
+BaseType = "Arming Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Decorative Axe"
+Class = "One Hand Axes"
+BaseType = "Decorative Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Relentless Fury"
@@ -76,22 +83,26 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Spectral Axe"
+Class = "One Hand Axes"
+BaseType = "Spectral Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Etched Hatchet"
+Class = "One Hand Axes"
+BaseType = "Etched Hatchet"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Jasper Axe"
+Class = "One Hand Axes"
+BaseType = "Jasper Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Tomahawk"
+Class = "One Hand Axes"
+BaseType = "Tomahawk"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Moonbender's Wing"
@@ -103,47 +114,56 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Wrist Chopper"
+Class = "One Hand Axes"
+BaseType = "Wrist Chopper"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "War Axe"
+Class = "One Hand Axes"
+BaseType = "War Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Chest Splitter"
+Class = "One Hand Axes"
+BaseType = "Chest Splitter"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Disapprobation Axe"
+Class = "One Hand Axes"
+BaseType = "Disapprobation Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Ceremonial Axe"
+Class = "One Hand Axes"
+BaseType = "Ceremonial Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Wraith Axe"
+Class = "One Hand Axes"
+BaseType = "Wraith Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Engraved Hatchet"
+Class = "One Hand Axes"
+BaseType = "Engraved Hatchet"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Karui Axe"
+Class = "One Hand Axes"
+BaseType = "Karui Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Siege Axe"
+Class = "One Hand Axes"
+BaseType = "Siege Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Replica Soul Taker"
@@ -162,12 +182,14 @@ Collecting = true
 
 
 [[Equipment]]
-Class = "Reaver Axe"
+Class = "One Hand Axes"
+BaseType = "Reaver Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Butcher Axe"
+Class = "One Hand Axes"
+BaseType = "Butcher Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Actum"
@@ -179,7 +201,8 @@ Collecting = true
 
 
 [[Equipment]]
-Class = "Vaal Hatchet"
+Class = "One Hand Axes"
+BaseType = "Vaal Hatchet"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Jack, the Axe"
@@ -191,7 +214,8 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Royal Axe"
+Class = "One Hand Axes"
+BaseType = "Royal Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Rigwald's Savagery"
@@ -203,7 +227,8 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Infernal Axe"
+Class = "One Hand Axes"
+BaseType = "Infernal Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Dyadus"
@@ -215,27 +240,32 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Psychotic Axe"
+Class = "One Hand Axes"
+BaseType = "Psychotic Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Runic Hatchet"
+Class = "One Hand Axes"
+BaseType = "Runic Hatchet"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Stone Axe"
+Class = "Two Hand Axes"
+BaseType = "Stone Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Jade Chopper"
+Class = "Two Hand Axes"
+BaseType = "Jade Chopper"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Woodsplitter"
+Class = "Two Hand Axes"
+BaseType = "Woodsplitter"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Limbsplit"
@@ -254,7 +284,8 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Poleaxe"
+Class = "Two Hand Axes"
+BaseType = "Poleaxe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Wideswing"
@@ -266,17 +297,20 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Double Axe"
+Class = "Two Hand Axes"
+BaseType = "Double Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Gilded Axe"
+Class = "Two Hand Axes"
+BaseType = "Gilded Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Shadow Axe"
+Class = "Two Hand Axes"
+BaseType = "Shadow Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Reaper's Pursuit"
@@ -288,12 +322,14 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Dagger Axe"
+Class = "Two Hand Axes"
+BaseType = "Dagger Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Jasper Chopper"
+Class = "Two Hand Axes"
+BaseType = "Jasper Chopper"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Replica Harvest"
@@ -312,12 +348,14 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Timber Axe"
+Class = "Two Hand Axes"
+BaseType = "Timber Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Headsman Axe"
+Class = "Two Hand Axes"
+BaseType = "Headsman Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "The Blood Reaper"
@@ -329,22 +367,26 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Labrys"
+Class = "Two Hand Axes"
+BaseType = "Labrys"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Honed Cleaver"
+Class = "Two Hand Axes"
+BaseType = "Honed Cleaver"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Noble Axe"
+Class = "Two Hand Axes"
+BaseType = "Noble Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Abyssal Axe"
+Class = "Two Hand Axes"
+BaseType = "Abyssal Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Ngamahu's Flame"
@@ -356,7 +398,8 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Karui Chopper"
+Class = "Two Hand Axes"
+BaseType = "Karui Chopper"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Kaom's Primacy"
@@ -368,17 +411,20 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Talon Axe"
+Class = "Two Hand Axes"
+BaseType = "Talon Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Sundering Axe"
+Class = "Two Hand Axes"
+BaseType = "Sundering Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Ezomyte Axe"
+Class = "Two Hand Axes"
+BaseType = "Ezomyte Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Replica Wings of Entropy"
@@ -404,7 +450,8 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Vaal Axe"
+Class = "Two Hand Axes"
+BaseType = "Vaal Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Atziri's Disfavour"
@@ -437,7 +484,8 @@ Collecting = false
 
 
 [[Equipment]]
-Class = "Despot Axe"
+Class = "Two Hand Axes"
+BaseType = "Despot Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Debeon's Dirge"
@@ -456,7 +504,8 @@ Collecting = true
 
 
 [[Equipment]]
-Class = "Void Axe"
+Class = "Two Hand Axes"
+BaseType = "Void Axe"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Kitava's Feast"
@@ -468,10 +517,12 @@ Collecting = true
 
 
 [[Equipment]]
-Class = "Apex Cleaver"
+Class = "Two Hand Axes"
+BaseType = "Apex Cleaver"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
-Class = "Fleshripper"
+Class = "Two Hand Axes"
+BaseType = "Fleshripper"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]

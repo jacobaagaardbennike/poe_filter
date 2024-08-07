@@ -1,0 +1,910 @@
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Charan's Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Oni-Goroshi"
+Value = 9999
+DropsFrom = ["Map or Uber Hillock"]
+SpecificCards = ["Rebirth"]
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Rusted Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Blood of Summer"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+[Equipment.Unique]
+Name = "Dreadbeak"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+[Equipment.Unique]
+Name = "Redbeak"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Copper Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Sabre"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Princess"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Broad Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "War Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Replica Tempestuous Steel"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Tempestuous Steel"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Ancient Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Elegant Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Lakishu's Blade"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Goddess Scorned"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Dusk Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ephemeral Edge"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Hook Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Variscite Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Cutlass"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Severed in Sleep"
+Value = 9999
+DropsFrom = ["Chayula Monsters"]
+SpecificCards = ["The Darkest Dream"]
+GambleCards = ["The Dreamer", "The Breach"]
+Collecting = false
+[Equipment.Unique]
+Name = "United in Dream"
+Value = 9999
+DropsFrom = ["Chayula (Flawless Breachstone)"]
+SpecificCards = []
+GambleCards = ["The Dreamer", "The Breach"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Baselard"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Battle Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Elder Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Innsbury Edge"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Innsbury Edge"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Capricious Spiritblade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Graceful Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Nametaker"
+Value = 9999
+DropsFrom = ["Viridian Wildwood"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Twilight Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Prismatic Eclipse"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Grappler"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Gemstone Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fate of the Vaal"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Story of the Vaal"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Corsair Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ichimonji"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Gladius"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Scaeva"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Iron Mass"
+Value = 9999
+DropsFrom = ["Curio Displays"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "The Redblade"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Legion Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Hyaon's Fury"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Wolf's Shadow"]
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Rippling Thoughts"
+Value = 9999
+DropsFrom = ["Crafted from first, second and third Piece of the Arcane"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "The Saviour"
+Value = 9999
+DropsFrom = ["Uber Sirus"]
+SpecificCards = ["The Greatest Intentions"]
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "The Surging Thoughts"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Vaal Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Rebuke of the Vaal"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+[Equipment.Unique]
+Name = "Varunastra"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Formless Sea"]
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Eternal Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Beltimber Blade"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+[Equipment.Unique]
+Name = "Dreamfeather"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+[Equipment.Unique]
+Name = "Grelwood Shank"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+[Equipment.Unique]
+Name = "Replica Dreamfeather"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Goddess Unleashed"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Midnight Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ahn's Might"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Razor of the Seventh Sun"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+[Equipment.Unique]
+Name = "Rigwald's Command"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolf", "The Gentleman", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Anarchic Spiritblade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Tiger Hook"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Rusted Spike"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Whalebone Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Goddess Bound"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Birth of the Three"]
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Battered Foil"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Basket Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Aurumvorax"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Jagged Foil"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fidelitas' Spike"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Echoes of Love"]
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Antique Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ewar's Mirage"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Elegant Foil"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Chitus' Needle"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Thorn Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Smallsword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Wyrmbone Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Burnished Foil"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Estoc"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Daresso's Passion"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Serrated Foil"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Primeval Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Fancy Foil"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Apex Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Courtesan Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Dragonbone Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Tempered Foil"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Pecoraro"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Spiraled Foil"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Vaal Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Paradoxica"
+Value = 9999
+DropsFrom = ["Intervention Safehouses"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Replica Paradoxica"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Jewelled Foil"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Cospri's Malice"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Whiteout"]
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Harpy Rapier"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Dragoon Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Corroded Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Thunder of the Dawn"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Longsword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Bastard Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Shiversting"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Two-Handed Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Etched Greatsword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Edge of Madness"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Calling", "The Gentleman", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Ornate Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Queen's Decree"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Queen's Escape"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Spectral Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Curved Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Butcher Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Footman Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Highland Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Rigwald's Charge"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolf", "The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Engraved Greatsword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Rakiata's Dance"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Blasting Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Tiger Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Terminus Est"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Wraith Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Lithe Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Headman's Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Reaver Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Hiltless"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Dancing Dervish"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Dancing Duo"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Ezomyte Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Kondo's Pride"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Living Blade"
+Value = 9999
+DropsFrom = ["Sasan (Settlers Bandit)"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Vaal Greatsword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Lion Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Doomsower"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Infernal Sword"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Oro's Sacrifice"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Oro's Sacrifice"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = false
+[Equipment.Unique]
+Name = "Starforge"
+Value = 9999
+DropsFrom = ["Uber Shaper"]
+SpecificCards = ["The World Eater"]
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Voidforge"
+Value = 9999
+DropsFrom = ["Uber Uber Elder"]
+SpecificCards = ["The Endless Darkness"]
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Echoforge"
+Value = 9999
+DropsFrom = ["Maven"]
+SpecificCards = []
+GambleCards = ["The Leviathan"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Banishing Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Two Hand Swords"
+BaseType = "Exquisite Blade"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]

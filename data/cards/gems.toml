@@ -1,6 +1,6 @@
 [[Cards]]
 card = "A Chilling Wind"
-tier = 1000
+tier = -1
 req_number = 4
 req_area_lvl = 72
 drop_areas = ["Cold River Map", "Forbidden Woods Map", "Frozen Cabins Map", "Glacier Map", "Iceberg Map", "Summit Map"]

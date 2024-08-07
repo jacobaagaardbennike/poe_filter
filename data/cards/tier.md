@@ -23,8 +23,6 @@
 
 # t shit
 
-"The Catalyst"
-
 # FilterBlade: Conditional Entry
 
 "Arrogance of the Vaal"
@@ -41,34 +39,18 @@
 "Heterochromia"
 "The Spark and the Flame"
 
-Show # %HS2 $type->divination $tier->t5c
+# und
+
 "Gemcutter's Promise"
-"Her Mask"
-
-"The Catalyst"
-"The Deal"
-"The Flora's Gift"
 "The Gambler"
-
+"A Dusty Memory"
 "The Puzzle"
+"Alone in the Darkness"
+"Atziri's Arsenal"
+"Blind Venture"
 
 Show # %HS3 $type->divination $tier->t4
-"A Chilling Wind"
-"A Dab of Ink"
-"A Dusty Memory"
-"A Modest Request"
-"A Note in the Wind"
-"A Stone Perfected"
-"Akil's Prophecy"
-"Alone in the Darkness"
-"Assassin's Favour"
-"Astral Protection"
-"Atziri's Arsenal"
-"Azure Rage"
-"Baited Expectations"
-"Bijoux"
-"Blind Venture"
-"Boundless Realms"
+
 "Broken Truce"
 "Dark Temptation"
 "Death"

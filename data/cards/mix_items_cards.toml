@@ -28,7 +28,7 @@ properties = "Hunter|Shaper"
 
 [[Cards]]
 card = "Astral Protection"
-tier = 1000
+tier = -1
 req_number = 5
 req_area_lvl = 68
 drop_areas = ["Moon Temple Map"]
@@ -56,7 +56,7 @@ properties = "DoubleInfluenced"
 
 [[Cards]]
 card = "Bijoux"
-tier = 1000
+tier = 43
 req_number = 3
 req_area_lvl = 80
 drop_areas = ["Crystal Ore Map", "Dig Map", "Excavation Map", "Flooded Mine Map", "Geode Map", "Grotto Map"]
@@ -756,7 +756,7 @@ properties = "SixLink"
 
 [[Cards]]
 card = "The Flora's Gift"
-tier = 1000
+tier = -1
 req_number = 5
 req_area_lvl = 60
 drop_areas = ["Ashen Wood Map", "Bramble Valley Map", "Dark Forest Map", "Forbidden Woods Map", "Jungle Valley Map", "Lair Map", "Ramparts Map", "Spider Forest Map", "Tropical Island Map"]

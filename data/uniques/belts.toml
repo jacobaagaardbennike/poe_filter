@@ -1,0 +1,521 @@
+[[Equipment]]
+Class = "Chain Belt"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ascent From Flesh"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+[Equipment.Unique]
+Name = "Bated Breath"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+[Equipment.Unique]
+Name = "Chains of Emancipation"
+Value = 9999
+DropsFrom = ["Boss of Unique Contract: The Slaver King"]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+[Equipment.Unique]
+Name = "Coward's Chains"
+Value = 9999
+DropsFrom = ["Hybridisation Chamber (T3 incursion room)"]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+[Equipment.Unique]
+Name = "Coward's Legacy"
+Value = 9999
+DropsFrom = ["Crafted"]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+[Equipment.Unique]
+Name = "Maligaro's Restraint"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+[Equipment.Unique]
+Name = "Replica Bated Breath"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+Collecting = true
+SpecificCards = ["The One That Got Away"]
+GambleCards = ["The Forward Gaze"]
+[Equipment.Unique]
+Name = "Chain of Endurance"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = true
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+
+
+[[Equipment]]
+Class = "Rustic Sash"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+name = "Chains of Time"
+Value = 9999
+DropsFrom = ["Disabled"]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+[Equipment.Unique]
+name = "Faminebind"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Standoff", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+[Equipment.Unique]
+name = "Feastbind"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Standoff", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+[Equipment.Unique]
+name = "Prismweave"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Standoff", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+[Equipment.Unique]
+name = "Replica Prismweave"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+[Equipment.Unique]
+name = "The Retch"
+Value = 9999
+DropsFrom = ["Crafted"]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+
+
+
+Class = "Stygian Vise"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+name = "Darkness Enthroned"
+Value = 9999
+DropsFrom = ["Abyssal Lich"]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+
+
+
+Class = "Heavy Belt"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+name = "Belt of the Deceiver"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = ["The Deceiver"]
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Bisco's Leash"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Doryani's Invitation"
+Value = 9999
+DropsFrom = ["Atziri (Apex of Sacrifice or Throne of Atziri in the Temple"]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Dyadian Dawn"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Meginord's Girdle"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = ["The Ruthless Ceinture"]
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Mother's Embrace"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = true
+SpecificCards = []
+GambleCards = ["Haunting Shadows", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Replica Siegebreaker"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+Collecting = true
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+
+[Equipment.Unique]
+name = "Siegebreaker"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "String of Servitude"
+Value = 9999
+DropsFrom = ["The Vaal Omnitect"]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Survivor's Guilt"
+Value = 9999
+DropsFrom = ["Rituals"]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Mageblood"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = true
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Kaom's Binding"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+
+
+
+Class = "Leather Belt"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+name = "Bear's Girdle"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Cyclopean Coil"
+Value = 9999
+DropsFrom = ["The Elder"]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Gluttony"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = ["Thirst for Knowledge"]
+GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Headhunter"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = true
+SpecificCards = ["The Fiend", "The Demon", "The Nurse", "The Patient"]
+GambleCards = ["The Forgotten Treasure", "The Standoff", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Hyperboreus"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Immortal Flesh"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Leash of Oblation"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Pyroshock Clasp"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Forgotten Treasure", "The Standoff", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Replica Headhunter"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+Collecting = true
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+
+[Equipment.Unique]
+name = "Umbilicus Immortalis"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = ["The Forsaken"]
+GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+[Equipment.Unique]
+name = "Wurm's Molt"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+
+
+
+
+
+Class = "Cloth Belt"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+name = "Arn's Anguish"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Graven's Secret"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Olesya's Delight"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Perandus Blazon"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Replica Soul Tether"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+Collecting = false
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+
+[Equipment.Unique]
+name = "Soul Tether"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Soulthirst"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Sunblast"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "The Druggery"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+[Equipment.Unique.Card]
+CardName = ""
+Specific = false
+[Equipment.Unique]
+name = "The Flow Untethered"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "The Torrent's Reclamation"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Ceinture of Benevolence"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Bound Fate"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Nevalius Inheritance"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+
+Class = "Studded Belt"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+name = "Ryslatha's Coil"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "The Magnate"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "The Nomad"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "The Tactician"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "Ynda's Stand"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+
+Class = "Micro-Distillery Belt"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+Class = "Mechanical Belt"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+Class = "Vanguard Belt"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+name = "Perseverance"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = false
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "The Tides of Time"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+
+Class = "Crystal Belt"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+name = "Auxium"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []
+
+[Equipment.Unique]
+name = "The Burden of Truth"
+Value = 9999
+DropsFrom = [CHANGEME]
+Collecting = true
+SpecificCards = []
+GambleCards = []

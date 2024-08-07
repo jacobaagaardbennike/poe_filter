@@ -30,7 +30,7 @@ properties = ""
 
 [[Cards]]
 card = "Azure Rage"
-tier = 1000
+tier = 5
 req_number = 4
 req_area_lvl = 81
 drop_areas = ["Factory Map", "Port Map"]
@@ -58,7 +58,7 @@ properties = ""
 
 [[Cards]]
 card = "Boundless Realms"
-tier = 1000
+tier = -1
 req_number = 4
 req_area_lvl = 58
 drop_areas = ["(Act 8) The Solaris Temple Level 1", "(Act 8) The Solaris Temple Level 2", "The Harbour Bridge", "Cold River Map", "The Twilight Temple", "Temple Map"]
@@ -114,7 +114,7 @@ properties = ""
 
 [[Cards]]
 card = "Her Mask"
-tier = 1000
+tier = -1
 req_number = 4
 req_area_lvl = 23
 drop_areas = ["any"]

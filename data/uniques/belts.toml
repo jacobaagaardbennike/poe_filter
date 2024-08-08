@@ -60,7 +60,6 @@ GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "
 Collecting = true
 
 
-
 [[Equipment]]
 Class = "Belt"
 BaseType = "Rustic Sash"
@@ -109,8 +108,7 @@ GambleCards = []
 Collecting = true
 
 
-
-
+[[Equipment]]
 Class = "Belt"
 BaseType = "Stygian Vise"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
@@ -123,8 +121,7 @@ GambleCards = []
 Collecting = false
 
 
-
-
+[[Equipment]]
 Class = "Belt"
 BaseType = "Heavy Belt"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
@@ -214,8 +211,7 @@ GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "
 Collecting = false
 
 
-
-
+[[Equipment]]
 Class = "Belt"
 BaseType = "Leather Belt"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
@@ -298,9 +294,7 @@ GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "
 Collecting = false
 
 
-
-
-
+[[Equipment]]
 Class = "Belt"
 BaseType = "Cloth Belt"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
@@ -404,8 +398,7 @@ GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "
 Collecting = true
 
 
-
-
+[[Equipment]]
 Class = "Belt"
 BaseType = "Studded Belt"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
@@ -446,14 +439,19 @@ GambleCards = []
 Collecting = true
 
 
+[[Equipment]]
 Class = "Belt"
 BaseType = "Micro-Distillery Belt"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
+
+[[Equipment]]
 Class = "Belt"
 BaseType = "Mechanical Belt"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
+
+[[Equipment]]
 Class = "Belt"
 BaseType = "Vanguard Belt"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
@@ -473,6 +471,7 @@ GambleCards = []
 Collecting = true
 
 
+[[Equipment]]
 Class = "Belt"
 BaseType = "Crystal Belt"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]

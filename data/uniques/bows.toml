@@ -1,0 +1,391 @@
+[[Equipment]]
+Class = "Bow"
+BaseType = "Crude Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Relic of the Cycle"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+[Equipment.Unique]
+Name = "Silverbough"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+[Equipment.Unique]
+Name = "Silverbranch"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Widowhail"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Short Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Quill Rain"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Quill Rain"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Long Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Storm Cloud"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Thunderous Skies", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Tempest"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Composite Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Recurve Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Roth's Reach"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Bone Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Royal Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Doomfletch"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Vile Power", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Doomfletch's Prism"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Death Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Death's Harp"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Death's Opus"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+[Equipment.Unique]
+Name = "Iron Commander"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Iron Commander"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Grove Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Reflex Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Decurve Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Compound Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Sniper Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Ivory Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Foundry Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Highborn Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Decimation Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Infractem"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Infractem"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Thicket Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Steelwood Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Crimson Storm"
+Value = 9999
+DropsFrom = ["Fortification Safehouses"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Citadel Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Xoph's Inception"
+Value = 9999
+DropsFrom = ["Xoph Monsters"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Collecting = false
+[Equipment.Unique]
+Name = "Xoph's Nurture"
+Value = 9999
+DropsFrom = ["Xoph (Flawless Breachstone)"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Collecting = true
+[Equipment.Unique]
+Name = "The Gluttonous Tide"
+Value = 9999
+DropsFrom = ["Eater of Worlds"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Ranger Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Hopeshredder"
+Value = 9999
+DropsFrom = ["The Elder"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Null's Inclination"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Assassin Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Arborix"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Chin Sol"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Blazing Fire"]
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Darkscorn"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Spine Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Reach of the Council"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Voltaxic Rift"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Tranquillity", "Anarchy's Price"]
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Imperial Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Lioneye's Glare"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Lion", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Windripper"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = true
+[Equipment.Unique]
+Name = "Windripper"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wind", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Harbinger Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Nuro's Harp"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Slivertongue"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hunter's Resolve", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Solarine Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Bow"
+BaseType = "Maraketh Bow"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]

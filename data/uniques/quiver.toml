@@ -1,0 +1,256 @@
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Serrated Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Craghead"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Fire Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Sharktooth Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Hyrri's Bite"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb", "Craftable: normal Sharktooth Arrow Quiver + rare Onyx Amulet + quality Rain of Arrows + Orb of Chance"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Hyrri's Demise"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+[Equipment.Unique]
+Name = "Ahuana's Bite"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Feathered Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Asphyxia's Wrath"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Saemus' Gift"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Penetrating Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Drillneck"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Fletcher"]
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Blunt Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Rearguard"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Fracturing Spinner"
+Value = 9999
+DropsFrom = ["Crafted from First, Second and Third Piece of Directions"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "The Shattered Divinity"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Two-Point Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Rigwald's Quills"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Wolven King's Bite", "Etched in Blood"]
+GambleCards = ["The Wolf", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+[Equipment.Unique]
+Name = "Skirmish"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Spike-Point Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Skirmish"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Soul Strike"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Soul Strike"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Blazing Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Blackgleam"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Signal Fire"
+Value = 9999
+DropsFrom = ["Disabled"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Ornate Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Maloney's Mechanism"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Endless Night"]
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = true
+[Equipment.Unique]
+Name = "Replica Maloney's Mechanism"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Broadhead Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Steelworm"
+Value = 9999
+DropsFrom = ["Labyrinth"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Vile Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Maloney's Nightfall"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Heavy Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Scorpion's Call"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Primal Arrow Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Voidfletcher"
+Value = 9999
+DropsFrom = ["Uber Elder"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "The Poised Prism"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Quiver"
+BaseType = "Artillery Quiver"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]

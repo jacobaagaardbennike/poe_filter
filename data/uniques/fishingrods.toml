@@ -1,0 +1,18 @@
+[[Equipment]]
+Class = "Fishing rod"
+BaseType = "Fishing rod"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Reefbane"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Baited Expectations", "Atziri's Arsenal", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Song of the Sirens"
+Value = 9999
+DropsFrom = ["Drops while Fairgraves' Tricorne is worn", "ChanceOrb"]
+SpecificCards = ["The Vast"]
+GambleCards = ["Baited Expectations"]
+Owned = false

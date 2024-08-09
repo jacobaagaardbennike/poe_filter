@@ -65,7 +65,7 @@ Name = "Al Dhih"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["The Wolverine", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["The Wolverine", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
 

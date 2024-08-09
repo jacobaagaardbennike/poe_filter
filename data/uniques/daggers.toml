@@ -271,7 +271,7 @@ Name = "Cold Iron Point"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["Broken Truce"]
-GambleCards = ["Assassin's Favour", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Assassin's Favour", "Fateful Meeting", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Cold Iron Point"

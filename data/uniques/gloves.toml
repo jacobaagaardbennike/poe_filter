@@ -1,0 +1,50 @@
+[[Equipment]]
+Class = "Gloves"
+BaseType = "Titan Gauntlets"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Craiceann's Pincers"
+Value = 9999
+DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = ?
+
+
+[[Equipment]]
+Class = "Gloves"
+BaseType = "Hydrascale Gauntlets"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Farrul's Pounce"
+Value = 9999
+DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Council of Cats", "Boon of the First Ones"]
+Owned = ?
+
+
+[[Equipment]]
+Class = "Gloves"
+BaseType = "Carnal Mitts"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fenumus' Weave"
+Value = 9999
+DropsFrom = ["Fenumus (Fenumus' Lair)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = ?
+
+
+[[Equipment]]
+Class = "Gloves"
+BaseType = "Soldier Gloves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Saqawal's Winds"
+Value = 9999
+DropsFrom = ["Saqawal (Saqawal's Roost)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = ?

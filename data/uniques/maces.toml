@@ -52,7 +52,7 @@ Name = "Lavianga's Wisdom"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
 
@@ -397,7 +397,7 @@ Name = "Jorrhast's Blacksteel"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
 
@@ -447,7 +447,7 @@ Name = "Marohi Erqi"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 
 
@@ -592,7 +592,7 @@ Name = "Brutus' Lead Sprinkler"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
 
@@ -760,7 +760,7 @@ Name = "Sign of the Sin Eater"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
 

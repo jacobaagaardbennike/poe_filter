@@ -1,0 +1,1020 @@
+[[Equipment]]
+Class = "Boots"
+BaseType = "Iron Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Steel Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Basemetal Treads"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Plated Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Stormcharger"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Reinforced Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Windscream"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Windshriek"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Antique Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Torchoak Step"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Ancient Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Redblade Tramplers"
+Value = 9999
+DropsFrom = ["Redblade Warbands"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Kahuturoa's Certainty"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Darksteel Treads"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Goliath Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Craiceann's Tracks"
+Value = 9999
+DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = false
+[Equipment.Unique]
+Name = "The Tempest Rising"
+Value = 9999
+DropsFrom = ["Uber Sirus"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Vaal Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Dawnstrider"
+Value = 9999
+DropsFrom = ["Exarch"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Titan Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Doryani's Delusion"
+Value = 9999
+DropsFrom = ["Doryani's Machinarium Maze Map"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Kaom's Roots"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Throne"]
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Red Trail"
+Value = 9999
+DropsFrom = ["Uul-Netol (Flawless Breachstone)", "Crafted"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = false
+[Equipment.Unique]
+Name = "Replica Red Trail"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
+Name = "The Infinite Pursuit"
+Value = 9999
+DropsFrom = ["Uul-Netol Monsters"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Precursor Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Brimstone Treads"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Leviathan Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Rawhide Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Seven-League Step"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Escape"]
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Goathide Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Abberath's Hooves"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Victario's Flight"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Cloudwhisper Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Deerskin Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Deerstalker"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Nubuck Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Goldwyrm"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Eelskin Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Orbala's Stand"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Sharkskin Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Blood Dance"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Windbreak Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Shagreen Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Temptation Step"
+Value = 9999
+DropsFrom = ["Ultimatum"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Three-step Assault"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Three-step Assault"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Stealth Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Garukhan's Flight"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Sin Trek"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Slink Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Farrul's Chase"
+Value = 9999
+DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Council of Cats", "Boon of the First Ones"]
+Owned = false
+[Equipment.Unique]
+Name = "Atziri's Step"
+Value = 9999
+DropsFrom = ["Atziri"]
+SpecificCards = []
+GambleCards = ["The Admirer"]
+Owned = false
+[Equipment.Unique]
+Name = "Doryani's Delusion"
+Value = 9999
+DropsFrom = ["Apex Assembly"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Harpyskin Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Stormrider Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Velour Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Wool Shoes"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Wanderlust"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Velvet Slippers"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Wondertrap"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Greedtrap"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Duskwalk Slippers"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Silk Slippers"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Bones of Ullr"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Bones of Ullr"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Scholar Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Shavronne's Pace"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Aesthete", "The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Shavronne's Gambit"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Satin Slippers"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Samite Slippers"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Nightwind Slippers"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Conjurer Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Rainbowstride"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Baited Expectations", "The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Arcanist Slippers"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Inya's Epiphany"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Inya's Epiphany"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Sorcerer Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Doryani's Delusion"
+Value = 9999
+DropsFrom = ["Apex Assembly"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Skyforth"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Steppan Eard"
+Value = 9999
+DropsFrom = ["Renegades warband"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Sage Slippers"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Dreamquest Slippers"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Warlock Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Leatherscale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Ironscale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Dusktoe"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Duskblight"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Bronzescale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Lioneye's Paws"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Lion", "The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Lioneye's Paws"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Steelscale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Serpentscale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Mutewind Whispersteps"
+Value = 9999
+DropsFrom = ["Mutewind warband"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Wyrmscale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Legacy of Fury"
+Value = 9999
+DropsFrom = ["Maven"]
+SpecificCards = []
+GambleCards = ["The Leviathan"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Hydrascale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Saqawal's Talons"
+Value = 9999
+DropsFrom = ["Saqawal (Saqawal's Roost)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = false
+[Equipment.Unique]
+Name = "Gamblesprint"
+Value = 9999
+DropsFrom = ["Ultimatum"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Dragonscale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Darkray Vectors"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Annihilation's Approach"
+Value = 9999
+DropsFrom = ["Uber Exarch"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Two-Toned Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Beacon of Madness (ev/es)"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Beacon of Madness (es/ar)"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Beacon of Madness (ar/ev)"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Chimerascale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Wyvernscale Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Chain Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Ringmail Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Mesh Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Wake of Destruction"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Scarred Meadow"]
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Riveted Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ralakesh's Impatience"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Zealot Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Soldier Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Alberon's Warpath"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Alberon's Warpath"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Legion Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Gang's Momentum"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "March of the Legion"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Crusader Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Death's Door"
+Value = 9999
+DropsFrom = ["Labyrinth"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Martyr Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Paladin Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Wrapped Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Strapped Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Nomic's Storm"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Clasped Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Sundance"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Sunspite"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Shackled Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Veruso's Ambition"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Trapper Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Brinerot Whalers"
+Value = 9999
+DropsFrom = ["Brinerot Warband monsters"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Ambush Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Carnal Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Corpsewalker"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Omeyocan"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = ["Reckless Ambition"]
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Dance of the Offered"
+Value = 9999
+DropsFrom = ["Conduit of Lightning Chest (tier 3 incursion room)", "Crafted"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Assassin's Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fenumus' Spinnerets"
+Value = 9999
+DropsFrom = ["Fenumus (Fenumus' Lair)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = false
+[Equipment.Unique]
+Name = "The Stampede"
+Value = 9999
+DropsFrom = ["Blighted map"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Replica Stampede"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Murder Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Bubonic Trail"
+Value = 9999
+DropsFrom = ["Abyssal Depths"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Voidwalker"
+Value = 9999
+DropsFrom = ["Shaper"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Replica Voidwalker"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Fugitive Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Inextricable Fate"
+Value = 9999
+DropsFrom = ["Eater"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Infiltrator Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Phantom Boots"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Runic Greaves"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Runic Sollerets"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Olroth's Charge"
+DropsFrom = ["Olroth (Expedition Logbook)"]
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Boots"
+BaseType = "Runic Sabatons"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Vorana's March"
+Value = 9999
+DropsFrom = ["Olroth (Expedition Logbook)"]
+SpecificCards = []
+GambleCards = []
+Owned = false

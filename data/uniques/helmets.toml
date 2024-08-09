@@ -1,0 +1,47 @@
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Magistrate Crown"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Craiceann's Chitin"
+Value = 9999
+DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = ?
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Harlequin Mask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Farrul's Bite"
+Value = 9999
+DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Council of Cats", "Boon of the First Ones"]
+Owned = ?
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Necromancer Circlet"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fenumus' Toxins"
+Value = 9999
+DropsFrom = ["Fenumus (Fenumus' Lair)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = ?
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Silken Hood"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Saqawal's Flock"
+Value = 9999
+DropsFrom = ["Saqawal (Saqawal's Roost)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = ?

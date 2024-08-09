@@ -8,8 +8,21 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
-
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Cragfall"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Slivers of Providence"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
 
 [[Equipment]]
 Class = "Quiver"
@@ -27,21 +40,21 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb", "Craftable: normal Sharktooth Arrow Quiver + rare Onyx Amulet + quality Rain of Arrows + Orb of Chance"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
-[Equipment.Unique]
+Owned = true
+[Equipment.Disabled.Unique]
 Name = "Hyrri's Demise"
 Value = 9999
-DropsFrom = ["Disabled"]
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Collecting = false
+Owned = false
 [Equipment.Unique]
 Name = "Ahuana's Bite"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -54,14 +67,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Saemus' Gift"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -74,7 +87,7 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Fletcher"]
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -87,21 +100,21 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "The Fracturing Spinner"
 Value = 9999
 DropsFrom = ["Crafted from First, Second and Third Piece of Directions"]
 SpecificCards = []
 GambleCards = []
-Collecting = true
+Owned = false
 [Equipment.Unique]
 Name = "The Shattered Divinity"
 Value = 9999
 DropsFrom = ["Crafted"]
 SpecificCards = []
 GambleCards = []
-Collecting = true
+Owned = false
 
 
 [[Equipment]]
@@ -114,14 +127,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Wolven King's Bite", "Etched in Blood"]
 GambleCards = ["The Wolf", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = true
+Owned = false
 [Equipment.Unique]
 Name = "Skirmish"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -134,21 +147,21 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Replica Soul Strike"
 Value = 9999
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Collecting = true
+Owned = false
 [Equipment.Unique]
 Name = "Soul Strike"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -161,14 +174,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
-[Equipment.Unique]
+Owned = true
+[Equipment.Disabled.Unique]
 Name = "The Signal Fire"
 Value = 9999
-DropsFrom = ["Disabled"]
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Collecting = false
+Owned = false
 
 
 [[Equipment]]
@@ -181,14 +194,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["Endless Night"]
 GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = true
+Owned = false
 [Equipment.Unique]
 Name = "Replica Maloney's Mechanism"
 Value = 9999
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Collecting = true
+Owned = false
 
 
 [[Equipment]]
@@ -201,7 +214,7 @@ Value = 9999
 DropsFrom = ["Labyrinth"]
 SpecificCards = []
 GambleCards = []
-Collecting = true
+Owned = false
 
 
 [[Equipment]]
@@ -214,7 +227,7 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -227,7 +240,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Broadstroke"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
 
 
 [[Equipment]]
@@ -240,14 +260,14 @@ Value = 9999
 DropsFrom = ["Uber Elder"]
 SpecificCards = []
 GambleCards = []
-Collecting = true
+Owned = false
 [Equipment.Unique]
 Name = "The Poised Prism"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]

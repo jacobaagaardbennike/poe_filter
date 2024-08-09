@@ -2,34 +2,34 @@
 Class = "Bow"
 BaseType = "Crude Bow"
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
+[Equipment.Disabled.Unique]
 Name = "Relic of the Cycle"
 Value = 9999
-DropsFrom = ["Disabled"]
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Collecting = false
-[Equipment.Unique]
+Owned = false
+[Equipment.Disabled.Unique]
 Name = "Silverbough"
 Value = 9999
-DropsFrom = ["Disabled"]
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Collecting = false
+Owned = false
 [Equipment.Unique]
 Name = "Silverbranch"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Widowhail"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -42,14 +42,14 @@ Value = 9999
 DropsFrom = []
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Replica Quill Rain"
 Value = 9999
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -62,14 +62,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Thunderous Skies", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
-[Equipment.Unique]
+Owned = true
+[Equipment.Disabled.Unique]
 Name = "The Tempest"
 Value = 9999
-DropsFrom = ["Disabled"]
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Collecting = false
+Owned = false
 
 
 [[Equipment]]
@@ -88,7 +88,7 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -107,14 +107,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Vile Power", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
-[Equipment.Unique]
+Owned = true
+[Equipment.Disabled.Unique]
 Name = "Doomfletch's Prism"
 Value = 9999
-DropsFrom = ["Disabled"]
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Collecting = false
+Owned = false
 
 
 [[Equipment]]
@@ -127,28 +127,28 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
-[Equipment.Unique]
+Owned = true
+[Equipment.Disabled.Unique]
 Name = "Death's Opus"
 Value = 9999
-DropsFrom = ["Disabled"]
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Collecting = false
+Owned = false
 [Equipment.Unique]
 Name = "Iron Commander"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Replica Iron Commander"
 Value = 9999
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Collecting = true
+Owned = false
 
 
 [[Equipment]]
@@ -209,14 +209,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Replica Infractem"
 Value = 9999
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -235,7 +235,7 @@ Value = 9999
 DropsFrom = ["Fortification Safehouses"]
 SpecificCards = []
 GambleCards = []
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -248,21 +248,21 @@ Value = 9999
 DropsFrom = ["Xoph Monsters"]
 SpecificCards = []
 GambleCards = ["The Breach"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Xoph's Nurture"
 Value = 9999
 DropsFrom = ["Xoph (Flawless Breachstone)"]
 SpecificCards = []
 GambleCards = ["The Breach"]
-Collecting = true
+Owned = false
 [Equipment.Unique]
 Name = "The Gluttonous Tide"
 Value = 9999
 DropsFrom = ["Eater of Worlds"]
 SpecificCards = []
 GambleCards = []
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -275,14 +275,14 @@ Value = 9999
 DropsFrom = ["The Elder"]
 SpecificCards = []
 GambleCards = []
-Collecting = true
+Owned = false
 [Equipment.Unique]
 Name = "Null's Inclination"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -295,21 +295,21 @@ Value = 9999
 DropsFrom = ["Crafted"]
 SpecificCards = []
 GambleCards = []
-Collecting = true
+Owned = false
 [Equipment.Unique]
 Name = "Chin Sol"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Blazing Fire"]
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Darkscorn"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = true
+Owned = false
 
 
 [[Equipment]]
@@ -322,14 +322,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Voltaxic Rift"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["Tranquillity", "Anarchy's Price"]
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = true
+Owned = false
 
 
 [[Equipment]]
@@ -342,21 +342,21 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Lion", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Replica Windripper"
 Value = 9999
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Collecting = true
+Owned = false
 [Equipment.Unique]
 Name = "Windripper"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wind", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]
@@ -369,14 +369,14 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 [Equipment.Unique]
 Name = "Slivertongue"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hunter's Resolve", "Hunter's Resolve", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Collecting = false
+Owned = true
 
 
 [[Equipment]]

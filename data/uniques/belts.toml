@@ -199,7 +199,7 @@ Collecting = true
 name = "Mageblood"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
+SpecificCards = ["The Apothecary", "The Price of Devotion", "The Insane Cat"]
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Collecting = true
 [Equipment.Unique]
@@ -240,8 +240,8 @@ Collecting = false
 name = "Headhunter"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Fiend", "The Demon", "The Nurse", "The Patient"]
-GambleCards = ["The Forgotten Treasure", "The Standoff", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+SpecificCards = ["The Doctor", "The Fiend", "The Demon", "The Nurse", "The Patient"]
+GambleCards = ["The Forgotten Treasure", "The Valkyrie", "The Undaunted", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Collecting = true
 [Equipment.Unique]
 name = "Hyperboreus"
@@ -269,7 +269,7 @@ name = "Pyroshock Clasp"
 Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["The Forgotten Treasure", "The Standoff", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["The Forgotten Treasure", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Collecting = false
 [Equipment.Unique]
 name = "Replica Headhunter"

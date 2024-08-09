@@ -1,0 +1,538 @@
+[[Equipment]]
+Class = "Flask"
+BaseType = "Small Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Medium Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Large Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Greater Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Grand Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Giant Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Colossal Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Sacred Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Hallowed Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Sanctified Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Blood of the Karui"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Valkyrie", "The Undaunted", "Time-Lost Relic", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Divine Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Eternal Life Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Small Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Medium Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Large Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Greater Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Doedre's Elixir"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Doedre's Madness", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Grand Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Zerphi's Last Breath"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Jack in the Box"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Giant Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Colossal Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Sacred Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Hallowed Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Sanctified Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Lavianga's Spirit"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Valkyrie", "The Undaunted", "Time-Lost Relic", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Lavianga's Spirit"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Divine Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Eternal Mana Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Small Hybrid Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Medium Hybrid Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Large Hybrid Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Divination Distillate"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Drunken Aristocrat"]
+GambleCards = ["Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Colossal Hybrid Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Sacred Hybrid Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Hallowed Hybrid Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Writhing Jar"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Baited Expectations", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Quicksilver Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Rotgut"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Bismuth Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Wise Oak"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Oriath's End"
+Value = 9999
+DropsFrom = ["Uber Sirus"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Amethyst Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Atziri's Promise"
+Value = 9999
+DropsFrom = ["Atziri"]
+SpecificCards = []
+GambleCards = ["The Admirer"]
+Collecting = false
+[Equipment.Unique]
+Name = "Progenesis"
+Value = 9999
+DropsFrom = ["Uber Maven"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Ruby Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Coruscating Elixir"
+Value = 9999
+DropsFrom = []
+SpecificCards = ["Coruscating Elixir"]
+GambleCards = []
+Collecting = false
+[Equipment.Unique]
+Name = "Dying Sun"
+Value = 9999
+DropsFrom = ["Shaper"]
+SpecificCards = ["The Progeny of Lunaris"]
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Sapphire Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Taste of Hate"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Hunger"]
+GambleCards = ["Jack in the Box"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Topaz Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Vessel of Vinktar"
+Value = 9999
+DropsFrom = ["The Vinktar Square"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Aquamarine Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Basalt Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Corundum Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Diamond Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Coralito's Signature"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Gold Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Granite Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Lion's Roar"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Earth Drinker", "Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Rumi's Concoction"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = false
+[Equipment.Unique]
+Name = "Rumi's Concoction"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Earth Drinker", "Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Iron Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Elixir of the Unbroken Circle"
+Value = 9999
+DropsFrom = ["Medved (Expedition Logbook)"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Vorana's Preparation"
+Value = 9999
+DropsFrom = ["Vorana (Expedition Logbook)"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Starlight Chalice"
+Value = 9999
+DropsFrom = ["Uhtred (Expedition Logbook)"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Olroth's Resolve"
+Value = 9999
+DropsFrom = ["Olroth (Expedition Logbook)"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Jade Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Quartz Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Forbidden Taste"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Soul Catcher"
+Value = 9999
+DropsFrom = ["Vaal Omnitect"]
+SpecificCards = []
+GambleCards = []
+Collecting = true
+[Equipment.Unique]
+Name = "Soul Ripper"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = ["The Damned"]
+GambleCards = []
+Collecting = true
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Silver Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Cinderswallow Urn"
+Value = 9999
+DropsFrom = ["Catarina (betrayal"]
+SpecificCards = []
+GambleCards = []
+Collecting = false
+[Equipment.Unique]
+Name = "Kiara's Determination"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Witch"]
+GambleCards = ["Jack in the Box"]
+Collecting = false
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Stibnite Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Sin's Rebirth"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Jack in the Box"]
+Collecting = true
+[Equipment.Unique]
+Name = "Witchfire Brew"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "Replica Witchfire Brew"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = true
+
+
+[[Equipment]]
+Class = "Flask"
+BaseType = "Sulphur Flask"
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Bottled Faith"
+Value = 9999
+DropsFrom = ["Venarius"]
+SpecificCards = ["Succor of the Sinless"]
+GambleCards = ["Chasing Risk"]
+Collecting = true
+[Equipment.Unique]
+Name = "Replica Sorrow of the Divine"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Overflowing Chalice"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Jack in the Box"]
+Collecting = false
+[Equipment.Unique]
+Name = "The Sorrow of the Divine"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Time-Lost Relic", "Jack in the Box"]
+Collecting = false

@@ -1,1353 +1,115 @@
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Plate Vest"
+BaseType = "Conquest Lamellar"
+ItemInfo = ["L:84", "AR:723-831", "EV:723-831", "S:173", "D:173", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Bramblejack"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Fox in the Brambles"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Wall of Brambles"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Chestplate"
+BaseType = "Necrotic Armour"
+ItemInfo = ["L:84", "EV:723-831", "ES:145-167", "D:173", "I:173", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Copper Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Solaris Lorica"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "War Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Full Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Arena Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Lordly Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Bronze Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Battle Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Sun Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Colosseum Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Pragmatism"
-Value = 9999
-DropsFrom = ["King in the Mists"]
-SpecificCards = []
-GambleCards = []
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Majestic Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Utula's Hunger"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Golden Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Greed's Embrace"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Craiceann's Carapace"
-Value = 9999
-DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
-SpecificCards = []
-GambleCards = ["Boon of the First Ones"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Crusader Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Iron Fortress"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-[Equipment.Disabled.Unique]
-Name = "Iron Heart"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = true
-[Equipment.Unique]
-Name = "Lioneye's Vision"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Visionary"]
-GambleCards = ["The Lion", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Astral Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Blunderbore"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Death's Oath"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Oath"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Gladiator Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Brass Dome"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Glorious Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Perfidy"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Kaom's Heart"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The King's Heart", "Pride Before the Fall"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Kaom's Heart"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Titan Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Legion Plate"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Royal Plate"
+ItemInfo = ["L:84", "AR:1183-1360", "S:293", "IM:Movement Speed: -5%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Shabby Jerkin"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Strapped Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "Wildwrap"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Buckskin Tunic"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Ashrend"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Wild Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Foxshade"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Fox's Fortune"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Full Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Sun Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Briskwrap"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Thief's Garb"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Eelskin Tunic"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Frontier Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Glorious Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Coronal Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Cutthroat's Garb"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Bronn's Lithe"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Sharkskin Tunic"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Rat Cage"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Destiny Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Queen of the Forest"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["Alivia's Grace"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Exquisite Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Kintsugi"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-[Equipment.Unique]
-Name = "Yriel's Fostering"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Zodiac Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Snowblind Grace"
-Value = 9999
-DropsFrom = ["Tul Monsters"]
-SpecificCards = []
-GambleCards = ["The Breach"]
-Owned = true
-[Equipment.Unique]
-Name = "The Perfect Form"
-Value = 9999
-DropsFrom = ["Tul (Flawless Breachstone)", "Crafted"]
-SpecificCards = []
-GambleCards = ["The Breach"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Perfect Form"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = true
-[Equipment.Unique]
-Name = "Hyrri's Ire"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Hyrri's Ire"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Assassin's Garb"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Cospri's Will"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Supreme Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Astral Leather"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Syndicate's Garb"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Simple Robe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Skin of the Lords"
-Value = 9999
-DropsFrom = ["Chayula (Flawless Breachstone)", "Crafted"]
-SpecificCards = ["The Chosen"]
-GambleCards = ["The Dreamer", "The Breach"]
-Owned = true
-[Equipment.Unique]
-Name = "Skin of the Loyal"
-Value = 9999
-DropsFrom = ["Chayula Monsters"]
-SpecificCards = ["The Price of Loyalty"]
-GambleCards = []
-Owned = true
-[Equipment.Unique]
-Name = "Tabula Rasa"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["Humility", "Vanity"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Thousand Ribbons"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Silken Vest"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Ghostwrithe"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Scholar's Robe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Cloak of Flame"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Silken Garb"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Mage's Vestment"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Silk Robe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Cabalist Regalia"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Apostate"
-Value = 9999
-DropsFrom = ["Uber Venarius"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Sage's Robe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Dialla's Malefaction"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Zahndethus' Cassock"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Silken Wrap"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Conjurer's Vestment"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Spidersilk Robe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Soul Mantle"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Covenant"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Covenant"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Destroyer Regalia"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Coming Calamity"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Savant's Robe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Cloak of Tawm'r Isley"
-Value = 9999
-DropsFrom = ["None Intervention Syndicate Hideouts"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Garb of the Ephemeral"
-Value = 9999
-DropsFrom = ["Venarius"]
-SpecificCards = []
-GambleCards = ["Chasing Risk"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Necromancer Silks"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Fleshcrafter"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-[Equipment.Unique]
-Name = "Vis Mortis"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Occultist's Vestment"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Shavronne's Wrappings"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Offering"]
-GambleCards = ["The Aesthete", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Widowsilk Robe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Fenumus' Shroud"
-Value = 9999
-DropsFrom = ["Fenumus (Fenumus' Lair)"]
-SpecificCards = []
-GambleCards = ["Boon of the First Ones"]
-Owned = true
-[Equipment.Unique]
-Name = "Doedre's Skin"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Doedre's Madness", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Infernal Mantle"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Vaal Regalia"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Beast Fur Shawl"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Queen's Hunger"
-Value = 9999
-DropsFrom = ["Catarina (Betrayal)"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Arcane Vestment"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Nightweave Robe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Twilight Regalia"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Scale Vest"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Light Brigandine"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Scale Doublet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Infantry Brigandine"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Full Scale Armour"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "Viper's Scales"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Soldier's Brigandine"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Field Lamellar"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Wyrmscale Doublet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Gruthkul's Pelt"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Hussar Brigandine"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Full Wyrmscale"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Belly of the Beast"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Beast"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Commander's Brigandine"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Battle Lamellar"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Dragonscale Doublet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Desert Brigandine"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Lightning Coil"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Coming Storm"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Full Dragonscale"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Daresso's Defiance"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "General's Brigandine"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Triumphant Lamellar"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Farrul's Fur"
-Value = 9999
-DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
-SpecificCards = ["Pride of the First Ones"]
-GambleCards = ["Council of Cats", "Boon of the First Ones"]
-Owned = false
-[Equipment.Unique]
-Name = "Replica Farrul's Fur"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Unique]
-Name = "Cherrubim's Maleficence"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Full Wyvernscale"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Marshall's Brigandine"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Conquest Lamellar"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Chainmail Vest"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Chainmail Tunic"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Ringmail Coat"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Chainmail Doublet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Full Ringmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Full Chainmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Holy Chainmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Voll's Protector"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Latticed Ringmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Icetomb"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Crystal Vault"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Crusader Chainmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Ambu's Charge"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Ambu's Charge"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Ornate Ringmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Lightbane Raiment"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Chain Hauberk"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Devout Chainmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Fourth Vow"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Long Watch"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Loricated Ringmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "Rotting Legion"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Conquest Chainmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Kingsguard"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Elegant Ringmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Geofri's Sanctuary"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Loreweave"
-Value = 9999
-DropsFrom = ["Vendor 60 Unique Rings"]
-SpecificCards = []
-GambleCards = []
-Owned = true
-[Equipment.Unique]
-Name = "Replica Loreweave"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Saint's Hauberk"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Doryani's Prototype"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-[Equipment.Unique]
-Name = "Sporeguard"
-Value = 9999
-DropsFrom = ["Blighted map"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "The Ivory Tower"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Saintly Chainmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Chains of Command"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Incandescent Heart"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Grand Ringmail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Paladin's Hauberk"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sacred Chainmail"
+ItemInfo = ["L:84", "AR:'723-831'", "ES:145-167", "S:173", "I:173", "IM:Movement Speed: -5%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Padded Vest"
+BaseType = "Syndicate's Garb"
+ItemInfo = ["L:84", "EV:1205-1386", "D:293", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Oiled Vest"
+BaseType = "Twilight Regalia"
+ItemInfo = ["L:84", "ES:262-302", "I:293", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Padded Jacket"
+BaseType = "Astral Leather"
+ItemInfo = ["L:78", "EV:1037-1193", "D:254", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Oiled Coat"
+BaseType = "Legion Plate"
+ItemInfo = ["L:78", "AR:1018-1171", "S:254", "IM:Movement Speed: -5%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Scarlet Raiment"
+BaseType = "Marshall's Brigandine"
+ItemInfo = ["L:78", "AR:627-721", "EV:627-721", "S:151", "D:151", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Waxed Garb"
+BaseType = "Nightweave Robe"
+ItemInfo = ["L:78", "ES:227-260", "I:254", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Bone Armour"
+BaseType = "Paladin's Hauberk"
+ItemInfo = ["L:78", "AR:627-721", "ES:126-145", "S:151", "I:151", "IM:Movement Speed: -5%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Bloodbond"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Army of Blood"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Quilted Jacket"
+BaseType = "Torturer Garb"
+ItemInfo = ["L:78", "EV:627-721", "ES:126-145", "D:151", "I:151", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Sleek Coat"
+BaseType = "Arcane Vestment"
+ItemInfo = ["L:73", "ES:196-225", "I:222", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Crimson Raiment"
+BaseType = "Full Wyvernscale"
+ItemInfo = ["L:73", "AR:545-627", "EV:545-627", "S:133", "D:133", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Lacquered Garb"
+BaseType = "Grand Ringmail"
+ItemInfo = ["L:73", "AR:545-627", "ES:110-127", "S:133", "I:133", "IM:Movement Speed: -5%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Cloak of Defiance"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Victario's Influence"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Adventuring Spirit", "The Enthusiasts"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Crypt Armour"
+BaseType = "Sanguine Raiment"
+ItemInfo = ["L:73", "EV:545-627", "ES:110-127", "D:133", "I:133", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Sentinel Jacket"
+BaseType = "Supreme Leather"
+ItemInfo = ["L:73", "EV:894-1028", "D:222", "IM:Movement Speed: -3%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Dendrobate"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["Toxic Tidings"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Expedition's End"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
 
 [[Equipment]]
 Class = "Body Armours"
-BaseType = "Varnished Coat"
+BaseType = "Titan Plate"
+ItemInfo = ["L:73", "AR:877-1009", "S:222", "IM:Movement Speed: -5%"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Carcass Jack"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Scavenger"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Admiral"
-Value = 9999
-DropsFrom = ["Unique Contract: Death to Darnaw"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Blood Raiment"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Saqawal's Nest"
-Value = 9999
-DropsFrom = ["Saqawal (Saqawal's Roost)"]
-SpecificCards = []
-GambleCards = ["Boon of the First Ones"]
-Owned = false
-[Equipment.Unique]
-Name = "The Eternity Shroud"
-Value = 9999
-DropsFrom = ["Uber Uber Elder"]
-SpecificCards = ["The Astromancer"]
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Replica Eternity Shroud"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Sadist Garb"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Doppelgänger Guise"
-Value = 9999
-DropsFrom = ["Maven"]
-SpecificCards = []
-GambleCards = ["The Leviathan"]
-Owned = true
-[Equipment.Unique]
-Name = "Inpulsa's Broken Heart"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-[Equipment.Unique]
-Name = "Tinkerskin"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Carnal Armour"
+ItemInfo = ["L:71", "EV:353-388", "ES:103-113","D:88", "I:122", "IM(20-25) to maximum Mana"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "The Restless Ward"
@@ -1385,34 +147,10 @@ SpecificCards = []
 GambleCards = []
 Owned = false
 
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Sanguine Raiment"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Torturer Garb"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Necrotic Armour"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Grasping Mail"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sacrificial Garb"
+ItemInfo = ["L:72", "EV:329-378", "ES:329-378", "S:66", "D:66", "I:66", "IM+1 to Level of all Vaal Skill Gems"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Shadowstitch"
@@ -1428,3 +166,1281 @@ DropsFrom = ["Uber Atziri"]
 SpecificCards = []
 GambleCards = ["The Admirer"]
 Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Grasping Mail"
+ItemInfo = ["L:70", "AR:217-250", "EV:217-250", "S:60", "D:60", "I:60"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Saintly Chainmail"
+ItemInfo = ["L:70", "AR:401-461", "ES:96-110", "S:99", "I:115"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Chains of Command"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Incandescent Heart"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Triumphant Lamellar"
+ItemInfo = ["L:69", "AR:380-437", "EV:477-549", "S:95", "D:116"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Farrul's Fur"
+Value = 9999
+DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
+SpecificCards = ["Pride of the First Ones"]
+GambleCards = ["Council of Cats", "Boon of the First Ones"]
+Owned = false
+[Equipment.Unique]
+Name = "Replica Farrul's Fur"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
+Name = "Cherrubim's Maleficence"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Assassin's Garb"
+ItemInfo = ["L:68", "EV:737-811","D:183", "IM3% increased Movement Speed"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Cospri's Will"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Glorious Plate"
+ItemInfo = ["L:68", "AR:776-892", "S:191"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Perfidy"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Kaom's Heart"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The King's Heart", "Pride Before the Fall"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Kaom's Heart"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Sadist Garb"
+ItemInfo = ["L:68", "EV:427-491", "ES:93-107","D:103", "I:109"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Doppelgänger Guise"
+Value = 9999
+DropsFrom = ["Maven"]
+SpecificCards = []
+GambleCards = ["The Leviathan"]
+Owned = true
+[Equipment.Unique]
+Name = "Inpulsa's Broken Heart"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Tinkerskin"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Vaal Regalia"
+ItemInfo = ["L:68", "ES:171-197","I:194"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Beast Fur Shawl"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Queen's Hunger"
+Value = 9999
+DropsFrom = ["Catarina (Betrayal)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Saint's Hauberk"
+ItemInfo = ["L:67", "AR:443-496", "ES:76-85", "S:109", "I:94"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Doryani's Prototype"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Sporeguard"
+Value = 9999
+DropsFrom = ["Blighted map"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Ivory Tower"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "General's Brigandine"
+ItemInfo = ["L:66", "AR:415-465", "EV:415-465", "S:103", "D:103"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Blood Raiment"
+ItemInfo = ["L:65", "EV:436-501", "ES:73-84","D:107", "I:90"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Saqawal's Nest"
+Value = 9999
+DropsFrom = ["Saqawal (Saqawal's Roost)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = false
+[Equipment.Unique]
+Name = "The Eternity Shroud"
+Value = 9999
+DropsFrom = ["Uber Uber Elder"]
+SpecificCards = ["The Astromancer"]
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Replica Eternity Shroud"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Gladiator Plate"
+ItemInfo = ["L:65", "AR:738-848", "S:177"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Brass Dome"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Widowsilk Robe"
+ItemInfo = ["L:65", "ES:157-181","I:187"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fenumus' Shroud"
+Value = 9999
+DropsFrom = ["Fenumus (Fenumus' Lair)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = true
+[Equipment.Unique]
+Name = "Doedre's Skin"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Doedre's Madness", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Infernal Mantle"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Zodiac Leather"
+ItemInfo = ["L:65", "EV:854-982","D:197"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Snowblind Grace"
+Value = 9999
+DropsFrom = ["Tul Monsters"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = true
+[Equipment.Unique]
+Name = "The Perfect Form"
+Value = 9999
+DropsFrom = ["Tul (Flawless Breachstone)", "Crafted"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Perfect Form"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = true
+[Equipment.Unique]
+Name = "Hyrri's Ire"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Hyrri's Ire"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Elegant Ringmail"
+ItemInfo = ["L:64", "AR:377-433", "ES:92-105", "S:90", "I:105"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Geofri's Sanctuary"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Loreweave"
+Value = 9999
+DropsFrom = ["Vendor 60 Unique Rings"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Replica Loreweave"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Full Dragonscale"
+ItemInfo = ["L:63", "AR:470-541", "EV:373-429", "S:115", "D:94"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Daresso's Defiance"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Astral Plate"
+ItemInfo = ["L:62", "AR:711-782", "S:180", "IM(8-12)% to all Elemental Resistances"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Blunderbore"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Death's Oath"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Oath"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Exquisite Leather"
+ItemInfo = ["L:62", "AR:704-810","D:170"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Kintsugi"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Yriel's Fostering"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Occultist's Vestment"
+ItemInfo = ["L:62", "ES:137-151","I:180", "IM(3-10)% increased Spell Damage"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Shavronne's Wrappings"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Offering"]
+GambleCards = ["The Aesthete", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Varnished Coat"
+ItemInfo = ["L:62", "EV:387-434", "ES:79-89","D:96", "I:96"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Carcass Jack"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Scavenger"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Admiral"
+Value = 9999
+DropsFrom = ["Unique Contract: Death to Darnaw"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Conquest Chainmail"
+ItemInfo = ["L:61", "AR:387-445", "ES:79-91", "S:96", "I:96"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Kingsguard"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Desert Brigandine"
+ItemInfo = ["L:60", "AR:376-451", "EV:376-451", "S:96", "D:96"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Lightning Coil"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Coming Storm"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Crusader Plate"
+ItemInfo = ["L:59", "AR:601-691", "S:160"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Iron Fortress"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Iron Heart"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Lioneye's Vision"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Visionary"]
+GambleCards = ["The Lion", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Destiny Leather"
+ItemInfo = ["L:59", "AR:601-721","D:160"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Queen of the Forest"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Alivia's Grace"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Necromancer Silks"
+ItemInfo = ["L:59", "ES:123-147","I:160"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fleshcrafter"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Vis Mortis"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Sentinel Jacket"
+ItemInfo = ["L:59", "EV:330-370", "ES:67-76","D:86", "I:86"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Dendrobate"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Toxic Tidings"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Expedition's End"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Loricated Ringmail"
+ItemInfo = ["L:58", "AR:325-374", "ES:66-76", "S:84", "I:84"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Disabled.Unique]
+Name = "Rotting Legion"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Dragonscale Doublet"
+ItemInfo = ["L:57", "AR:313-351", "EV:313-351", "S:83", "D:83"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Crypt Armour"
+ItemInfo = ["L:56", "EV:308-369", "ES:63-76","D:82", "I:82"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Golden Plate"
+ItemInfo = ["L:56", "AR:559-643", "S:152"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Greed's Embrace"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Craiceann's Carapace"
+Value = 9999
+DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Savant's Robe"
+ItemInfo = ["L:56", "ES:115-132","I:152"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Cloak of Tawm'r Isley"
+Value = 9999
+DropsFrom = ["None Intervention Syndicate Hideouts"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Garb of the Ephemeral"
+Value = 9999
+DropsFrom = ["Venarius"]
+SpecificCards = []
+GambleCards = ["Chasing Risk"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Sharkskin Tunic"
+ItemInfo = ["L:56", "AR:559-643","D:152"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Rat Cage"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Devout Chainmail"
+ItemInfo = ["L:55", "AR:302-363", "ES:62-74", "S:80", "I:80"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Fourth Vow"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Long Watch"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Battle Lamellar"
+ItemInfo = ["L:54", "AR:297-341", "EV:297-341", "S:79", "D:79"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Cutthroat's Garb"
+ItemInfo = ["L:53", "AR:530-594","D:145"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Bronn's Lithe"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Destroyer Regalia"
+ItemInfo = ["L:53", "ES:109-129","I:145"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Coming Calamity"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Majestic Plate"
+ItemInfo = ["L:53", "AR:530-625", "S:145"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Utula's Hunger"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Chain Hauberk"
+ItemInfo = ["L:51", "AR:281-314", "ES:58-65", "S:75", "I:75"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Lacquered Garb"
+ItemInfo = ["L:52", "EV:286-329", "ES:59-68","D:76", "I:76"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Cloak of Defiance"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Victario's Influence"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Adventuring Spirit", "The Enthusiasts"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Commander's Brigandine"
+ItemInfo = ["L:50", "AR:275-325", "EV:275-325", "S:73", "D:73"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Colosseum Plate"
+ItemInfo = ["L:49", "AR:491-589", "S:134"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Pragmatism"
+Value = 9999
+DropsFrom = ["King in the Mists"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Coronal Leather"
+ItemInfo = ["L:49", "AR:491-579","D:134"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Spidersilk Robe"
+ItemInfo = ["L:49", "ES:101-117","I:134"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Soul Mantle"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Covenant"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Covenant"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Crimson Raiment"
+ItemInfo = ["L:48", "AR:264-304", "EV:55-63","D:71", "I:71"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Ornate Ringmail"
+ItemInfo = ["L:47", "AR:259-298", "ES:54-62", "S:69", "I:69"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Lightbane Raiment"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Full Wyrmscale"
+ItemInfo = ["L:46", "AR:254-292", "EV:254-292", "S:68", "D:68"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Belly of the Beast"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Beast"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Conjurer's Vestment"
+ItemInfo = ["L:45", "ES:94-105","I:124"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Glorious Leather"
+ItemInfo = ["L:45", "AR:451-519","D:124"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Sun Plate"
+ItemInfo = ["L:45", "AR:451-506", "S:124"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Sleek Coat"
+ItemInfo = ["L:44", "EV:243-287", "ES:51-60","D:65", "I:65"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Crusader Chainmail"
+ItemInfo = ["L:43", "AR:237-266", "ES:50-55", "S:64", "I:64"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ambu's Charge"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Ambu's Charge"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Hussar Brigandine"
+ItemInfo = ["L:42", "AR:232-278", "EV:232-278", "S:62", "D:62"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Battle Plate"
+ItemInfo = ["L:41", "AR:412-474", "S:114"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Frontier Leather"
+ItemInfo = ["L:41", "AR:412-495","D:114"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Silken Wrap"
+ItemInfo = ["L:41", "ES:86-104","I:114"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Quilted Jacket"
+ItemInfo = ["L:40", "EV:221-248", "ES:46-52","D:60", "I:60"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Latticed Ringmail"
+ItemInfo = ["L:39", "AR:216-248", "ES:45-52", "S:59", "I:59"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Icetomb"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Crystal Vault"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Wyrmscale Doublet"
+ItemInfo = ["L:38", "AR:210-236", "EV:210-236", "S:57", "D:57"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Gruthkul's Pelt"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Bronze Plate"
+ItemInfo = ["L:37", "AR:373-429", "S:104"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Eelskin Tunic"
+ItemInfo = ["L:37", "AR:373-429","D:104"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Sage's Robe"
+ItemInfo = ["L:37", "ES:79-90","I:104"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Dialla's Malefaction"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Zahndethus' Cassock"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Bone Armour"
+ItemInfo = ["L:35", "AR:194-233", "EV:41-49","D:53", "I:53"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Bloodbond"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Army of Blood"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Cabalist Regalia"
+ItemInfo = ["L:35", "ES:75-88","I:99"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Apostate"
+Value = 9999
+DropsFrom = ["Uber Venarius"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Field Lamellar"
+ItemInfo = ["L:35", "AR:194-223", "EV:194-223", "S:53", "D:53"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Holy Chainmail"
+ItemInfo = ["L:35", "AR:194-233", "ES:41-49", "S:53", "I:53"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Voll's Protector"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Lordly Plate"
+ItemInfo = ["L:35", "AR:353-417", "S:99"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Thief's Garb"
+ItemInfo = ["L:35", "AR:353-396","D:99"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Arena Plate"
+ItemInfo = ["L:32", "AR:324-389", "S:91"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Full Chainmail"
+ItemInfo = ["L:32", "AR:178-199", "ES:38-43", "S:48", "I:48"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Silk Robe"
+ItemInfo = ["L:32", "ES:69-80","I:91"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Soldier's Brigandine"
+ItemInfo = ["L:32", "AR:178-210", "EV:178-210", "S:48", "D:48"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Sun Leather"
+ItemInfo = ["L:32", "AR:324-382","D:91"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Briskwrap"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Waxed Garb"
+ItemInfo = ["L:32", "EV:178-205", "ES:38-44","D:48", "I:48"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Full Leather"
+ItemInfo = ["L:28", "AR:284-327","D:81"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Full Plate"
+ItemInfo = ["L:28", "AR:284-319", "S:81"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Full Ringmail"
+ItemInfo = ["L:28", "AR:156-180", "ES:34-39", "S:43", "I:43"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Full Scale Armour"
+ItemInfo = ["L:28", "AR:156-180", "EV:156-180", "S:43", "D:43"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Disabled.Unique]
+Name = "Viper's Scales"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Mage's Vestment"
+ItemInfo = ["L:28", "ES:62-69","I:81"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Scarlet Raiment"
+ItemInfo = ["L:28", "AR:156-180", "EV:34-39","D:43", "I:43"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Silken Garb"
+ItemInfo = ["L:25", "ES:56-64","I:73"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Wild Leather"
+ItemInfo = ["L:25", "EV:255-306","D:73"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Foxshade"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Fox's Fortune"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Oiled Coat"
+ItemInfo = ["L:22", "EV:124-146", "ES:28-33","D:35", "I:35"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Chainmail Doublet"
+ItemInfo = ["L:21", "AR:119-140", "ES:27-31", "S:34", "I:34"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Infantry Brigandine"
+ItemInfo = ["L:21", "AR:119-142", "EV:119-142", "S:34", "D:34"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "War Plate"
+ItemInfo = ["L:21", "AR:216-248", "S:63"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Golden Mantle"
+ItemInfo = ["L:20", "AR:75-86", "EV:75-86", "ES:17-19", "S:8", "D:8", "I:8", "IM(15-25)% to all Elemental Resistances"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Disabled.Unique]
+Name = "Demigod's Dominance"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Padded Jacket"
+ItemInfo = ["L:18", "EV:102-128", "ES:24-29","D:30", "I:30"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Scholar's Robe"
+ItemInfo = ["L:18", "ES:43-53","I:55"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Cloak of Flame"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Buckskin Tunic"
+ItemInfo = ["L:17", "AR:176-221","D:53"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ashrend"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Copper Plate"
+ItemInfo = ["L:17", "AR:176-221", "S:53"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Solaris Lorica"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Ringmail Coat"
+ItemInfo = ["L:17", "AR:97-121", "ES:22-28", "S:28", "I:28"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Scale Doublet"
+ItemInfo = ["L:17", "AR:97-121", "EV:97-121", "S:28", "D:28"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Silken Vest"
+ItemInfo = ["L:11", "ES:30-38","I:37"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ghostwrithe"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Oiled Vest"
+ItemInfo = ["L:9", "EV:54-70", "ES:14-18","D:17", "I:17"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Strapped Leather"
+ItemInfo = ["L:9", "EV:98-127","D:32"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Disabled.Unique]
+Name = "Wildwrap"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Chainmail Tunic"
+ItemInfo = ["L:8", "AR:48-63", "ES:13-17", "S:16", "I:16"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Light Brigandine"
+ItemInfo = ["L:8", "AR:48-63", "EV:48-63", "S:16", "D:16"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Chestplate"
+ItemInfo = ["L:6", "AR:68-89", "S:25"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Chainmail Vest"
+ItemInfo = ["L:1", "AR:27-38", "ES:9-13", "S:10", "I:10"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Padded Vest"
+ItemInfo = ["L:1", "EV:27-38", "ES:9-13","D:10", "I:10"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Plate Vest"
+ItemInfo = ["L:1", "AR:19-27", "S:12"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Bramblejack"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Fox in the Brambles"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Wall of Brambles"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Scale Vest"
+ItemInfo = ["L:1", "AR:27-38", "EV:27-38", "S:10", "D:10"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Shabby Jerkin"
+ItemInfo = ["L:1", "AR:29-41","D:14"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Simple Robe"
+ItemInfo = ["L:1", "EV:14-20","I:17"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Skin of the Lords"
+Value = 9999
+DropsFrom = ["Chayula (Flawless Breachstone)", "Crafted"]
+SpecificCards = ["The Chosen"]
+GambleCards = ["The Dreamer", "The Breach"]
+Owned = true
+[Equipment.Unique]
+Name = "Skin of the Loyal"
+Value = 9999
+DropsFrom = ["Chayula Monsters"]
+SpecificCards = ["The Price of Loyalty"]
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Tabula Rasa"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Humility", "Vanity"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Thousand Ribbons"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true

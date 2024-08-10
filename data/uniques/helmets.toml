@@ -1,1069 +1,97 @@
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Iron Hat"
+BaseType = "Divine Crown"
+ItemInfo = ["L:84", "AR:'355-409'", "ES:71-82", "S:132", "I:132"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Ezomyte Peak"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Disabled.Unique]
-Name = "Ezomyte Hold"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Disabled.Unique]
-Name = "Tear of Entropy"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Cone Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Barbute Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Thrillsteel"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Close Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Baron"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Gladiator Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Reaver Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Blood Price"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Siege Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Kaom's Command"
-Value = 9999
-DropsFrom = ["Kingsmarch ship to Ngakanu or Te Onui"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Samnite Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Hrimnor's Resolve"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Ezomyte Burgonet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Abyssus"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Replica Abyssus"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = ?
-[Equipment.Unique]
-Name = "Cowl of the Thermophile"
-Value = 9999
-DropsFrom = ["Blighted map"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Royal Burgonet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Formless Flame"
-Value = 9999
-DropsFrom = ["Xoph Monsters"]
-SpecificCards = []
-GambleCards = ["The Breach"]
-Owned = ?
-[Equipment.Unique]
-Name = "The Formless Inferno"
-Value = 9999
-DropsFrom = ["Xoph (Flawless Breachstone)", "Crafted"]
-SpecificCards = []
-GambleCards = ["The Breach"]
-Owned = ?
-[Equipment.Unique]
-Name = "Echoes of Creation"
-Value = 9999
-DropsFrom = ["Uber Shaper"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Eternal Burgonet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Usurper's Penance"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "General's Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Conqueror's Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
 BaseType = "Giantslayer Helmet"
+ItemInfo = ["L:84", "AR:582-669", "S:224"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Leather Cap"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Goldrim"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Tricorne"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Fairgraves' Tricorne"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Baited Expectations", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Leather Hood"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Heatshiver"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Replica Heatshiver"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = ?
-[Equipment.Disabled.Unique]
-Name = "Frostferno"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Wolf Pelt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Elevore"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Hunter Hood"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Noble Tricorne"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Ursine Pelt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Rat's Nest"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["Rats"]
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Silken Hood"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Saqawal's Flock"
-Value = 9999
-DropsFrom = ["Saqawal (Saqawal's Roost)"]
-SpecificCards = []
-GambleCards = ["Boon of the First Ones"]
-Owned = ?
-[Equipment.Unique]
-Name = "Cowl of the Cryophile"
-Value = 9999
-DropsFrom = ["Blighted map"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Starkonja's Head"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Sinner Tricorne"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Alpha's Howl"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Pack Leader"]
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Replica Alpha's Howl"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = ?
-[Equipment.Unique]
-Name = "Assailum"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Lion Pelt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Obscurantis"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Dire Pelt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Grizzly Pelt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Majestic Pelt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Vine Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Crown of Thorns"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Disabled.Unique]
-Name = "Martyr's Crown"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Iron Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Asenath's Mark"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["A Note in the Wind"]
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Wreath of Phrecia"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Disabled.Unique]
-Name = "Asenath's Chant"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Torture Cage"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Tribal Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Mark of the Red Covenant"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Bone Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Plume of Pursuit"
-Value = 9999
-DropsFrom = ["Janaar (Harvest)"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Wraithlord"
-Value = 9999
-DropsFrom = ["Ziggurat Map (T17)"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Lunaris Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Doedre's Scorn"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Doedre's Madness", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Steel Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Maw of Conquest"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Sudden Dawn"
-Value = 9999
-DropsFrom = ["Black Star"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Necromancer Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Fenumus' Toxins"
-Value = 9999
-DropsFrom = ["Fenumus (Fenumus' Lair)"]
-SpecificCards = []
-GambleCards = ["Boon of the First Ones"]
-Owned = ?
-[Equipment.Unique]
-Name = "Chitus' Apex"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "The Devouring Diadem"
-Value = 9999
-DropsFrom = ["Catarina (Betrayal)"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Sandstorm Visage"
-Value = 9999
-DropsFrom = ["Lycia (Sanctum)"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Solaris Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Cowl of the Ceraunophile"
-Value = 9999
-DropsFrom = ["Blighted map"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Flamesight"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Galesight"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Thundersight"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Wilma's Requital"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Mind Cage"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Hale Negator"
-Value = 9999
-DropsFrom = ["Krugal (Delve Abyssal City)"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Rime Gaze"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Scold's Bridle"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Hubris Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Crown of Eyes"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Watcher"]
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Eber's Unification"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Indigon"
-Value = 9999
-DropsFrom = ["Elder"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Ylfeban's Trickery"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Moonlit Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Sunfire Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Lich's Circlet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Battered Helm"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Sallet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Sorrow Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Visored Sallet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Trickster's Smile"
-Value = 9999
-DropsFrom = ["Wildwood"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Disabled.Unique]
-Name = "The Peregrine"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Gilded Sallet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Deidbell"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Disabled.Unique]
-Name = "Deidbellow"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Secutor Helm"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Skullhead"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Fencer Helm"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "El'Abin's Visage"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Atonement Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Lacquered Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Black Sun Crest"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "The Fledgling"
-Value = 9999
-DropsFrom = ["Unique Contract: Heart of Glory"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Fluted Bascinet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Crest of Desire"
-Value = 9999
-DropsFrom = ["Curio Displays"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Pig-Faced Bascinet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Devourer of Minds"
-Value = 9999
-DropsFrom = ["Uber Uber Elder"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Nightmare Bascinet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Devoto's Devotion"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Gladiator", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "The Bringer of Rain"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Gladiator", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Knight Helm"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Penitent Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Conquest Helmet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
 BaseType = "Haunted Bascinet"
+ItemInfo = ["L:84", "AR:355-409", "EV:355-409", "S:132", "D:132"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Rusted Coif"
+BaseType = "Lich's Circlet"
+ItemInfo = ["L:84", "ES:117-134", "I:224"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Soldier Helmet"
+BaseType = "Majestic Pelt"
+ItemInfo = ["L:84", "EV:582-669", "D:224"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Honourhome"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Imp Crown"
+BaseType = "Torturer's Mask"
+ItemInfo = ["L:84", "EV:355-409", "ES:71-82", "D:132", "I:132"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Great Helmet"
+BaseType = "Ancient Mask"
+ItemInfo = ["L:78", "EV:308-355", "ES:62-71", "D:116", "I:116"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Veil of the Night"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Replica Veil of the Night"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = ?
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Crusader Helmet"
+BaseType = "Conqueror's Helmet"
+ItemInfo = ["L:78", "AR:501-576", "S:194"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Aventail Helmet"
+BaseType = "Conquest Helmet"
+ItemInfo = ["L:78", "AR:308-355", "EV:308-355", "S:116", "D:116"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Mindspiral"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Zealot Helmet"
+BaseType = "Grizzly Pelt"
+ItemInfo = ["L:78", "EV:501-576", "D:194"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Kitava's Thirst"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Ravenous Passion"
-Value = 9999
-DropsFrom = ["Uber Eater"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Demon Crown"
+BaseType = "Paladin Crown"
+ItemInfo = ["L:78", "AR:308-355", "ES:62-71", "S:116", "I:116"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Great Crown"
+BaseType = "Sunfire Circlet"
+ItemInfo = ["L:78", "ES:101-116", "I:194"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Forbidden Shako"
-Value = 9999
-DropsFrom = ["Oshabi (Harvest)"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Geofri's Crest"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Lightpoacher"
-Value = 9999
-DropsFrom = ["Liches"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Disabled.Unique]
-Name = "Geofri's Legacy"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Disabled.Unique]
-Name = "Replica Forbidden Shako"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Magistrate Crown"
+BaseType = "Archdemon Crown"
+ItemInfo = ["L:75", "AR:185-212", "ES:38-43", "S:79", "I:79", "IM:Socketed Skills apply Fire, Cold and Lightning Exposure on Hit & -10% to all Elemental Resistances"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Craiceann's Chitin"
-Value = 9999
-DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
-SpecificCards = []
-GambleCards = ["Boon of the First Ones"]
-Owned = ?
-[Equipment.Unique]
-Name = "Crown of the Tyrant"
-Value = 9999
-DropsFrom = ["Aul (Delve)"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Mask of the Spirit Drinker"
-Value = 9999
-DropsFrom = ["Sanctum of Immortality Chest (T3 Pools of Restoration incursion room)"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Mask of the Stitched Demon"
-Value = 9999
-DropsFrom = ["Crafted"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Mask of the Tribunal"
-Value = 9999
-DropsFrom = ["Uber Venarius"]
-SpecificCards = []
-GambleCards = ["Chasing Risk"]
-Owned = ?
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Prophet Crown"
+BaseType = "Blizzard Crown"
+ItemInfo = ["L:75", "AR:185-212", "EV:38-43", "D:79", "I:79", "IM:Adds (75-85) to (115-128) Cold Damage & Your Hits treat Cold Resistance as 10% higher than actual value"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Crown of the Inward Eye"
-Value = 9999
-DropsFrom = ["Sirus"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Speaker's Wreath"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "The Brine Crown"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "The Broken Crown"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Praetor Crown"
+BaseType = "Penitent Mask"
+ItemInfo = ["L:75", "AR:185-212", "EV:185-212", "S:79", "D:79", "IM:You are Crushed & (2-3) to maximum Fortification"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Ahn's Contempt"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Malachai's Vision"
-Value = 9999
-DropsFrom = ["Crafted with Voll's Vision + Vall Orb"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Memory Vault"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Viridi's Veil"
-Value = 9999
-DropsFrom = ["Uber Maven"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Voll's Vision"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
 
 [[Equipment]]
 Class = "Helmets"
 BaseType = "Bone Helmet"
+ItemInfo = ["L:73", "AR:197-227", "ES:40-46", "S:76", "I:76", "IM:Minions deal (15-20)% increased Damage"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Ancient Skull"
@@ -1071,307 +99,156 @@ Value = 9999
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
+Owned = true
 [Equipment.Unique]
 Name = "Maw of Mischief"
 Value = 9999
 DropsFrom = []
 SpecificCards = ["Cursed Words"]
 GambleCards = []
-Owned = ?
+Owned = false
 
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Dire Pelt"
+ItemInfo = ["L:73", "EV:431-496", "D:170"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 [[Equipment]]
 Class = "Helmets"
 BaseType = "Faithful Helmet"
+ItemInfo = ["L:73", "AR:268-308", "ES:54-62", "S:101", "I:101"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Archdemon Crown"
+BaseType = "General's Helmet"
+ItemInfo = ["L:73", "AR:431-496", "S:170"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Paladin Crown"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Divine Crown"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Scare Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Plague Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Curtain Call"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Gale Crown"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Iron Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "Malachai's Awakening"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Malachai's Simula"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Festival Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Leer Cast"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Replica Leer Cast"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Golden Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Three Dragons"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Willclash"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Raven Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Gull"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Callous Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Eye of Malice"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "The Tempest's Binding"
-Value = 9999
-DropsFrom = ["Crafted from first, second and third Piece of Storms"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "The Tempest's Liberation"
-Value = 9999
-DropsFrom = ["Crafted"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Winter Crown"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Regicide Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Crown of the Pale King"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Gorgon's Gaze"
-Value = 9999
-DropsFrom = ["Pillars of Arun"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "Akoya's Gaze"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Harlequin Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Farrul's Bite"
-Value = 9999
-DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
-SpecificCards = []
-GambleCards = ["Council of Cats", "Boon of the First Ones"]
-Owned = ?
-[Equipment.Unique]
-Name = "Mind of the Council"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Vaal Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Fractal Thoughts"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-[Equipment.Unique]
-Name = "Glimpse of Chaos"
-Value = 9999
-DropsFrom = ["Trialmaster"]
-SpecificCards = []
-GambleCards = []
-Owned = ?
-[Equipment.Unique]
-Name = "The Vertex"
-Value = 9999
-DropsFrom = ["Uber Atziri"]
-SpecificCards = []
-GambleCards = ["The Admirer"]
-Owned = ?
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Deicide Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Heretic's Veil"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = ?
-
 
 [[Equipment]]
 Class = "Helmets"
 BaseType = "Jester Mask"
+ItemInfo = ["L:73", "EV:268-308", "ES:54-62", "D:101", "I:101"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Blizzard Crown"
+BaseType = "Knight Helm"
+ItemInfo = ["L:73", "AR:268-308", "EV:268-308", "S:101", "D:101"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Ancient Mask"
+BaseType = "Moonlit Circlet"
+ItemInfo = ["L:73", "ES:87-100", "I:170"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
 
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Torturer's Mask"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[[Equipment]]
-Class = "Helmets"
-BaseType = "
-"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Helmets"
-BaseType = "Runic Helm"
+BaseType = "Lion Pelt"
+ItemInfo = ["L:70", "EV:380-437", "D:150"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
-Name = "Faithguard"
+Name = "Obscurantis"
 Value = 9999
-DropsFrom = ["Expedition monsters"]
+DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = []
-Owned = ?
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
 [[Equipment]]
 Class = "Helmets"
-BaseType = "Runic Crest"
+BaseType = "Eternal Burgonet"
+ItemInfo = ["L:69", "AR:373-429", "S:138"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Usurper's Penance"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
 
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Hubris Circlet"
+ItemInfo = ["L:69", "ES:80-92", "I:154"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Crown of Eyes"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Watcher"]
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Eber's Unification"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Indigon"
+Value = 9999
+DropsFrom = ["Elder"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Ylfeban's Trickery"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Praetor Crown"
+ItemInfo = ["L:68", "AR:161-185", "ES:51-58", "S:62", "I:91"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ahn's Contempt"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Malachai's Vision"
+Value = 9999
+DropsFrom = ["Crafted with Voll's Vision + Vall Orb"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Memory Vault"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Viridi's Veil"
+Value = 9999
+DropsFrom = ["Uber Maven"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Voll's Vision"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
 
 [[Equipment]]
 Class = "Helmets"
 BaseType = "Runic Crown"
+ItemInfo = ["L:68", "S:66", "D:66", "I:66", "IM:164-189"]
 ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 [Equipment.Unique]
 Name = "Cadigan's Crown"
@@ -1379,4 +256,1157 @@ Value = 9999
 DropsFrom = ["Olroth (Knights of the Sun Logbook)"]
 SpecificCards = []
 GambleCards = []
-Owned = ?
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Deicide Mask"
+ItemInfo = ["L:67", "AR:190-219", "EV:47-54", "D:73", "I:88"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Heretic's Veil"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Nightmare Bascinet"
+ItemInfo = ["L:67", "AR:162-187", "EV:233-268", "S:62", "D:85"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Devoto's Devotion"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gladiator", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Bringer of Rain"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Gladiator", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Mind Cage"
+ItemInfo = ["L:65", "ES:73-84", "I:138"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Hale Negator"
+Value = 9999
+DropsFrom = ["Krugal (Delve Abyssal City)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Rime Gaze"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Scold's Bridle"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Royal Burgonet"
+ItemInfo = ["L:65", "AR:377-434", "S:148"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Formless Flame"
+Value = 9999
+DropsFrom = ["Xoph Monsters"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = true
+[Equipment.Unique]
+Name = "The Formless Inferno"
+Value = 9999
+DropsFrom = ["Xoph (Flawless Breachstone)", "Crafted"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = false
+[Equipment.Unique]
+Name = "Echoes of Creation"
+Value = 9999
+DropsFrom = ["Uber Shaper"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Sinner Tricorne"
+ItemInfo = ["L:64", "EV:369-425", "D:138"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Alpha's Howl"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Pack Leader"]
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Replica Alpha's Howl"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
+Name = "Assailum"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Pig-Faced Bascinet"
+ItemInfo = ["L:63", "AR:229-263", "EV:159-183", "S:85", "D:62"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Devourer of Minds"
+Value = 9999
+DropsFrom = ["Uber Uber Elder"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Prophet Crown"
+ItemInfo = ["L:63", "AR:224-258", "ES:32-37", "S:85", "I:62"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Crown of the Inward Eye"
+Value = 9999
+DropsFrom = ["Sirus"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Speaker's Wreath"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Brine Crown"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "The Broken Crown"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Vaal Mask"
+ItemInfo = ["L:62", "AR:207-239", "EV:37-43", "D:79", "I:72"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fractal Thoughts"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Glimpse of Chaos"
+Value = 9999
+DropsFrom = ["Trialmaster"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Vertex"
+Value = 9999
+DropsFrom = ["Uber Atziri"]
+SpecificCards = []
+GambleCards = ["The Admirer"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Ezomyte Burgonet"
+ItemInfo = ["L:60", "AR:346-381", "S:138"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Abyssus"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Abyssus"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = true
+[Equipment.Unique]
+Name = "Cowl of the Thermophile"
+Value = 9999
+DropsFrom = ["Blighted map"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Silken Hood"
+ItemInfo = ["L:60", "AR:346-381", "D:138"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Saqawal's Flock"
+Value = 9999
+DropsFrom = ["Saqawal (Saqawal's Roost)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = false
+[Equipment.Unique]
+Name = "Cowl of the Cryophile"
+Value = 9999
+DropsFrom = ["Blighted map"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Starkonja's Head"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Solaris Circlet"
+ItemInfo = ["L:59", "ES:60-68", "I:122"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Cowl of the Ceraunophile"
+Value = 9999
+DropsFrom = ["Blighted map"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Flamesight"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Galesight"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Thundersight"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Wilma's Requital"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Fluted Bascinet"
+ItemInfo = ["L:58", "AR:160-189", "EV:160-189", "S:64", "D:64"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Crest of Desire"
+Value = 9999
+DropsFrom = ["Curio Displays"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Magistrate Crown"
+ItemInfo = ["L:58", "AR:160-189", "ES:33-39", "S:64", "I:64"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Craiceann's Chitin"
+Value = 9999
+DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = false
+[Equipment.Unique]
+Name = "Crown of the Tyrant"
+Value = 9999
+DropsFrom = ["Aul (Delve)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Mask of the Spirit Drinker"
+Value = 9999
+DropsFrom = ["Sanctum of Immortality Chest (T3 Pools of Restoration incursion room)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Mask of the Stitched Demon"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Mask of the Tribunal"
+Value = 9999
+DropsFrom = ["Uber Venarius"]
+SpecificCards = []
+GambleCards = ["Chasing Risk"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Harlequin Mask"
+ItemInfo = ["L:57", "AR:157-185", "EV:32-38", "D:64", "I:64"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Farrul's Bite"
+Value = 9999
+DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Council of Cats", "Boon of the First Ones"]
+Owned = false
+[Equipment.Unique]
+Name = "Mind of the Council"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Samnite Helmet"
+ItemInfo = ["L:55", "AR:276-325", "S:114"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Hrimnor's Resolve"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Ursine Pelt"
+ItemInfo = ["L:55", "AR:276-325", "D:114"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Rat's Nest"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Rats"]
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Necromancer Circlet"
+ItemInfo = ["L:54", "ES:55-64", "I:112"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fenumus' Toxins"
+Value = 9999
+DropsFrom = ["Fenumus (Fenumus' Lair)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = true
+[Equipment.Unique]
+Name = "Chitus' Apex"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "The Devouring Diadem"
+Value = 9999
+DropsFrom = ["Catarina (Betrayal)"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Sandstorm Visage"
+Value = 9999
+DropsFrom = ["Lycia (Sanctum)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Great Crown"
+ItemInfo = ["L:53", "AR:143-161", "ES:29-33", "S:59", "I:59"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Forbidden Shako"
+Value = 9999
+DropsFrom = ["Oshabi (Harvest)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Geofri's Crest"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Lightpoacher"
+Value = 9999
+DropsFrom = ["Liches"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Geofri's Legacy"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Replica Forbidden Shako"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Regicide Mask"
+ItemInfo = ["L:52", "AR:141-158", "EV:29-32", "D:58", "I:58"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Crown of the Pale King"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Gorgon's Gaze"
+Value = 9999
+DropsFrom = ["Pillars of Arun"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Akoya's Gaze"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Lacquered Helmet"
+ItemInfo = ["L:51", "AR:138-155", "EV:138-155", "S:57", "D:57"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Black Sun Crest"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Fledgling"
+Value = 9999
+DropsFrom = ["Unique Contract: Heart of Glory"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Runic Crest"
+ItemInfo = ["L:49", "S:55", "D:55", "I:55", "IM:97-112"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Siege Helmet"
+ItemInfo = ["L:48", "AR:237-272", "S:101"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Kaom's Command"
+Value = 9999
+DropsFrom = ["Kingsmarch ship to Ngakanu or Te Onui"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Steel Circlet"
+ItemInfo = ["L:48", "ES:49-55", "I:101"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Maw of Conquest"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Sudden Dawn"
+Value = 9999
+DropsFrom = ["Black Star"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Noble Tricorne"
+ItemInfo = ["L:47", "EV:232-266", "D:99"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Atonement Mask"
+ItemInfo = ["L:45", "AR:122-140", "EV:122-140", "S:51", "D:51", "IM:You are Crushed & (2-3) to maximum Fortification"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Callous Mask"
+ItemInfo = ["L:45", "AR:122-137", "EV:25-28", "D:51", "I:51"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Eye of Malice"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Tempest's Binding"
+Value = 9999
+DropsFrom = ["Crafted from first, second and third Piece of Storms"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Tempest's Liberation"
+Value = 9999
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Demon Crown"
+ItemInfo = ["L:45", "AR:122-140", "ES:25-29", "S:51", "I:51", "IM:Socketed Skills apply Fire, Cold and Lightning Exposure on Hit & -10% to all Elemental Resistances"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Winter Crown"
+ItemInfo = ["L:45", "AR:122-140", "EV:25-29", "D:51", "I:51", "IM:Adds (15-20) to (28-35) Cold Damage & Your Hits treat Cold Resistance as 10% higher than actual value"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Zealot Helmet"
+ItemInfo = ["L:44", "AR:119-137", "ES:25-29", "S:50", "I:50"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Kitava's Thirst"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Ravenous Passion"
+Value = 9999
+DropsFrom = ["Uber Eater"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Fencer Helm"
+ItemInfo = ["L:43", "AR:117-134", "EV:117-134", "S:49", "D:49"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Disabled.Unique]
+Name = "El'Abin's Visage"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Hunter Hood"
+ItemInfo = ["L:41", "EV:203-227", "D:87"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Reaver Helmet"
+ItemInfo = ["L:40", "AR:198-233", "S:85"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Blood Price"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Lunaris Circlet"
+ItemInfo = ["L:39", "ES:41-48", "I:83"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Doedre's Scorn"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Doedre's Madness", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Raven Mask"
+ItemInfo = ["L:38", "AR:104-119", "EV:22-25", "D:44", "I:44"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Gull"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Aventail Helmet"
+ItemInfo = ["L:37", "AR:101-119", "ES:21-25", "S:42", "I:42"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Mindspiral"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Secutor Helm"
+ItemInfo = ["L:36", "AR:98-116", "EV:98-116", "S:42", "D:42"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Skullhead"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Gladiator Helmet"
+ItemInfo = ["L:35", "AR:174-195", "S:75"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Golden Mask"
+ItemInfo = ["L:35", "AR:96-103", "EV:20-22", "D:40", "I:40"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Three Dragons"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Willclash"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Bone Circlet"
+ItemInfo = ["L:34", "ES:36-40", "I:73"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Plume of Pursuit"
+Value = 9999
+DropsFrom = ["Janaar (Harvest)"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Wraithlord"
+Value = 9999
+DropsFrom = ["Ziggurat Map (T17)"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Gilded Sallet"
+ItemInfo = ["L:33", "AR:90-97", "EV:90-97", "S:38", "D:38"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Deidbell"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Deidbellow"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Crusader Helmet"
+ItemInfo = ["L:31", "AR:85-95", "ES:18-20", "S:36", "I:36"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Wolf Pelt"
+ItemInfo = ["L:30", "EV:150-172", "D:66"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Elevore"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Festival Mask"
+ItemInfo = ["L:28", "AR:77-88", "EV:17-19", "D:33", "I:33"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Leer Cast"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Leer Cast"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Tribal Circlet"
+ItemInfo = ["L:26", "ES:28-33", "I:58"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Mark of the Red Covenant"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Close Helmet"
+ItemInfo = ["L:26", "AR:130-150", "S:58"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Baron"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Runic Helm"
+ItemInfo = ["L:25", "S:30", "D:30", "I:30", "IM:41-47"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Faithguard"
+Value = 9999
+DropsFrom = ["Expedition monsters"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Visored Sallet"
+ItemInfo = ["L:23", "AR:64-80", "EV:64-80", "S:28", "D:28"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "The Trickster's Smile"
+Value = 9999
+DropsFrom = ["Wildwood"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "The Peregrine"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Great Helmet"
+ItemInfo = ["L:22", "AR:61-76", "ES:14-17", "S:27", "I:27"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Veil of the Night"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Veil of the Night"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Leather Hood"
+ItemInfo = ["L:20", "EV:101-127", "D:46"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Heatshiver"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Heatshiver"
+Value = 9999
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Frostferno"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Barbute Helmet"
+ItemInfo = ["L:18", "AR:92-115", "S:42"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Thrillsteel"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Iron Mask"
+ItemInfo = ["L:17", "AR:48-60", "EV:11-14", "D:21", "I:21"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Disabled.Unique]
+Name = "Malachai's Awakening"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Malachai's Simula"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Torture Cage"
+ItemInfo = ["L:17", "ES:20-25", "I:40"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Gale Crown"
+ItemInfo = ["L:15", "AR:42-49", "EV:10-12", "D:20", "I:20", "IM:Adds (3-4) to (5-6) Cold Damage & Your Hits treat Cold Resistance as 10% higher than actual value"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Imp Crown"
+ItemInfo = ["L:15", "AR:42-49", "ES:10-12", "S:20", "I:20", "IM:Socketed Skills apply Fire, Cold and Lightning Exposure on Hit & -10% to all Elemental Resistances"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Sorrow Mask"
+ItemInfo = ["L:15", "AR:42-49", "EV:42-49", "S:20", "D:20", "IM:You are Crushed & (2-3) to maximum Fortification"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Sallet"
+ItemInfo = ["L:13", "AR:37-48", "EV:37-48", "S:18", "D:18"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Golden Visage"
+ItemInfo = ["L:12", "IM:(8-16)% to all Elemental Resistances"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Disabled.Unique]
+Name = "Demigod's Immortality"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Golden Wreath"
+ItemInfo = ["L:12", "IM:(16-24) to all Attributes"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Disabled.Unique]
+Name = "Demigod's Triumph"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Soldier Helmet"
+ItemInfo = ["L:12", "AR:34-45", "ES:8-11", "S:16", "I:16"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Honourhome"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Plague Mask"
+ItemInfo = ["L:10", "AR:29-38", "EV:7-10", "D:14", "I:14"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Curtain Call"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Tricorne"
+ItemInfo = ["L:10", "EV:53-69", "D:27"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Fairgraves' Tricorne"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Baited Expectations", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Iron Circlet"
+ItemInfo = ["L:8", "ES:12-15", "I:23"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Asenath's Mark"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["A Note in the Wind"]
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Wreath of Phrecia"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Asenath's Chant"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Cone Helmet"
+ItemInfo = ["L:7", "AR:38-50", "S:21"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Rusted Coif"
+ItemInfo = ["L:5", "AR:16-22", "ES:5-7", "S:9", "I:9"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Battered Helm"
+ItemInfo = ["L:1", "AR:13-18", "EV:13-18", "S:8", "D:8"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Iron Hat"
+ItemInfo = ["L:1", "AR:9-13", "S:9"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Ezomyte Peak"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Ezomyte Hold"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Tear of Entropy"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Leather Cap"
+ItemInfo = ["L:1", "EV:19-27", "D:13"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Goldrim"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Scare Mask"
+ItemInfo = ["L:1", "AR:13-18", "EV:4-6", "D:8", "I:8"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+
+[[Equipment]]
+Class = "Helmets"
+BaseType = "Vine Circlet"
+ItemInfo = ["L:1", "ES:7-10", "I:13"]
+ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+[Equipment.Unique]
+Name = "Crown of Thorns"
+Value = 9999
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Martyr's Crown"
+Value = 9999
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+

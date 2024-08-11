@@ -1,503 +1,492 @@
 [[Equipment]]
 Class = "Belt"
 BaseType = "Chain Belt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Ascent From Flesh"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Bated Breath"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Chains of Emancipation"
-Value = 9999
-DropsFrom = ["Boss of Unique Contract: The Slaver King"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Coward's Chains"
-Value = 9999
-DropsFrom = ["Hybridisation Chamber (T3 incursion room)"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Coward's Legacy"
-Value = 9999
-DropsFrom = ["Crafted"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Maligaro's Restraint"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Bated Breath"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["CurioDisplay"]
 SpecificCards = ["The One That Got Away"]
 GambleCards = ["The Forward Gaze"]
 Owned = false
 [Equipment.Unique]
+Name = "Chains of Emancipation"
+ValueTier = CHANGEME
+DropsFrom = ["Boss of Unique Contract: The Slaver King"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Coward's Chains"
+ValueTier = CHANGEME
+DropsFrom = ["Hybridisation Chamber (T3 incursion room)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Coward's Legacy"
+ValueTier = CHANGEME
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Maligaro's Restraint"
+ValueTier = CHANGEME
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
 Name = "Chain of Endurance"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 
-
 [[Equipment]]
 Class = "Belt"
 BaseType = "Rustic Sash"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-name = "Chains of Time"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 name = "Faminebind"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Standoff", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Feastbind"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Standoff", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Prismweave"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Standoff", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Replica Prismweave"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = true
 [Equipment.Unique]
 name = "The Retch"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Crafted"]
 SpecificCards = []
 GambleCards = []
 Owned = false
-
+[Equipment.Disabled.Unique]
+name = "Chains of Time"
+ValueTier = CHANGEME
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
 
 [[Equipment]]
 Class = "Belt"
 BaseType = "Stygian Vise"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 name = "Darkness Enthroned"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Abyssal Lich"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 
-
 [[Equipment]]
 Class = "Belt"
 BaseType = "Heavy Belt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 name = "Belt of the Deceiver"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Deceiver"]
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Bisco's Leash"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-name = "Doryani's Invitation"
-Value = 9999
+name = "Doryani's Invitatio"
+ValueTier = CHANGEME
 DropsFrom = ["Atziri (Apex of Sacrifice or Throne of Atziri in the Temple"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 name = "Dyadian Dawn"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Meginord's Girdle"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Ruthless Ceinture"]
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Mother's Embrace"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Haunting Shadows", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 name = "Replica Siegebreaker"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
 [Equipment.Unique]
 name = "Siegebreaker"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "String of Servitude"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["The Vaal Omnitect"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 name = "Survivor's Guilt"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Rituals"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 name = "Mageblood"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Apothecary", "The Price of Devotion", "The Insane Cat"]
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 name = "Kaom's Binding"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
-
 [[Equipment]]
 Class = "Belt"
 BaseType = "Leather Belt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique", "Unique"]
 [Equipment.Unique]
 name = "Bear's Girdle"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Ersi (harvest boss)"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 name = "Cyclopean Coil"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["The Elder"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 name = "Gluttony"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["Thirst for Knowledge"]
 GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Headhunter"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Doctor", "The Fiend", "The Demon", "The Nurse", "The Patient"]
 GambleCards = ["The Forgotten Treasure", "The Valkyrie", "The Undaunted", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
+name = "Replica Headhunter"
+ValueTier = CHANGEME
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
 name = "Hyperboreus"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Transportation Safehouses"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 name = "Immortal Flesh"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Leash of Oblation"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Pyroshock Clasp"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Forgotten Treasure", "Fateful Meeting", "Time-Lost Relic", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-name = "Replica Headhunter"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Unique]
 name = "Umbilicus Immortalis"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Forsaken"]
 GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Wurm's Molt"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Forgotten Treasure", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
-
 [[Equipment]]
 Class = "Belt"
 BaseType = "Cloth Belt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 name = "Arn's Anguish"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Maven"]
 SpecificCards = []
 GambleCards = ["The Leviathan"]
 Owned = true
 [Equipment.Unique]
 name = "Graven's Secret"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Maven"]
 SpecificCards = []
 GambleCards = ["The Leviathan"]
 Owned = false
 [Equipment.Unique]
 name = "Olesya's Delight"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Maven"]
 SpecificCards = []
 GambleCards = ["The Leviathan"]
 Owned = true
 [Equipment.Unique]
 name = "Perandus Blazon"
-Value = 9999
+ValueTier = CHANGEME
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+name = "Soul Tether"
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Replica Soul Tether"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = true
 [Equipment.Unique]
-name = "Soul Tether"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
 name = "Soulthirst"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Sunblast"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "The Druggery"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "The Flow Untethered"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Crafted from First and Second Piece of Time"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 name = "The Torrent's Reclamation"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Crafted"]
 SpecificCards = ["Deadly Joy"]
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 name = "Ceinture of Benevolence"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "Bound Fate"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 name = "Nevalius Inheritance"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 
-
 [[Equipment]]
 Class = "Belt"
 BaseType = "Studded Belt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 name = "Ryslatha's Coil"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Offspring"]
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "The Magnate"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
+[Equipment.Unique]
+name = "Ynda's Stand"
+ValueTier = CHANGEME
+DropsFrom = ["shipping resources from Kingsmarch to Riben Fell, Pondium, or Kalguur."]
+SpecificCards = []
+GambleCards = []
+Owned = false
 [Equipment.Disabled.Unique]
 name = "The Nomad"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Disabled.Unique]
 name = "The Tactician"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
 Owned = false
-[Equipment.Unique]
-name = "Ynda's Stand"
-Value = 9999
-DropsFrom = ["shipping resources from Kingsmarch to Riben Fell, Pondium, or Kalguur."]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
 
 [[Equipment]]
 Class = "Belt"
 BaseType = "Micro-Distillery Belt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
+ShowRarity = ["SUnique"]
 
 [[Equipment]]
 Class = "Belt"
 BaseType = "Mechanical Belt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
+ShowRarity = ["SUnique"]
 
 [[Equipment]]
 Class = "Belt"
 BaseType = "Vanguard Belt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 name = "Perseverance"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 name = "The Tides of Time"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Uber Shaper"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 
-
 [[Equipment]]
 Class = "Belt"
 BaseType = "Crystal Belt"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 name = "Auxium"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 name = "The Burden of Truth"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = ["Sirus"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 
-
 [[Equipment]]
 Class = "Belt"
 BaseType = "Golden Obi"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Disabled.Unique]
 Name = "Demigod's Bounty"
-Value = 9999
+ValueTier = CHANGEME
 DropsFrom = []
 SpecificCards = []
 GambleCards = []

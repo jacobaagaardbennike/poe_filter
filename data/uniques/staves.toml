@@ -1,448 +1,462 @@
-[[Equipment]]
-Class = "Staves"
-BaseType = "Gnarled Branch"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Fencoil"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Fencoil"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Unique]
-Name = "The Blood Thorn"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Blood Thorn"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Disabled.Unique]
-Name = "Mirebough"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Disabled.Unique]
-Name = "Vestige of Divinity"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
+
 
 
 [[Equipment]]
 Class = "Staves"
-BaseType = "Primitive Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Long Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Royal Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Stormheart"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "The Stormwall"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = true
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Crescent Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Woodful Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Quarterstaff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Annihilating Light"
-Value = 9999
-DropsFrom = ["Uber Exarch"]
-SpecificCards = []
-GambleCards = []
-Owned = true
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Reciprocation Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Highborn Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Martyr of Innocence"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-[Equipment.Unique]
-Name = "Witchhunter's Judgment"
-Value = 9999
-DropsFrom = ["Oshabi (Grove)"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Disabled.Unique]
-Name = "The Geomantic Gyre"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Moon Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Primordial Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Femurs of the Saints"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Burden of Shadows"
-Value = 9999
-DropsFrom = ["King in the mists"]
-SpecificCards = []
-GambleCards = []
-Owned = true
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Lathi"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Searing Touch"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Staves"
-BaseType = "Imperial Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Agnerod East"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Stormcaller"]
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Agnerod North"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Stormcaller"]
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Agnerod South"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Stormcaller"]
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Agnerod West"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Stormcaller"]
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Enmity Divine"
-Value = 9999
-DropsFrom = ["Crafted with first, second and third Piece of Brutality"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "The Yielding Mortality"
-Value = 9999
-DropsFrom = ["Crafted"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Staves"
+ItemInfo = ["L:70", "D:65-120", "C:6.00%", "IM:Spend Energy Shield before Mana for Costs of Socketed Skills & (140-165) to maximum Energy Shield"]
 BaseType = "Battery Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
+ShowRarity = []
 
 [[Equipment]]
 Class = "Staves"
+ItemInfo = ["L:70", "D:70-145", "C:6.00%", "IM:100% increased Global Critical Strike Chance"]
 BaseType = "Eclipse Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Warstaves"
-BaseType = "Iron Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Dying Breath"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Pillar of the Caged God"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Realm Ender"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Realmshaper"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
+ShowRarity = []
 
 [[Equipment]]
-Class = "Warstaves"
-BaseType = "Coiled Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Xirgil's Crank"
-Value = 9999
-DropsFrom = ["Labyrinth"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
+Class = "Wartaves"
+ItemInfo = ["L:70", "D:78-144", "C:7.00%", "IM:+1 to Maximum Power Charges and Maximum Endurance Charges"]
+BaseType = "Eventuality Rod"
+ShowRarity = []
 
 [[Equipment]]
-Class = "Warstaves"
-BaseType = "Vile Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Whispering Ice"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Incantation", "The Siren"]
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Warstaves"
-BaseType = "Military Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Tremor Rod"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Warstaves"
-BaseType = "Serpentine Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Cane of Kulemak"
-Value = 9999
-DropsFrom = ["Catarina (betrayal"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Sire of Shards"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Lunaris Priestess"]
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Warstaves"
-BaseType = "Potentiality Rod"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Warstaves"
-BaseType = "Foul Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Winds of Fate"
-Value = 9999
-DropsFrom = ["Lycia Sanctum"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Warstaves"
-BaseType = "Ezomyte Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Cane of Unravelling"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Soulwrest"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Alone in the Darkness", "The Tower", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Fulcrum"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Warstaves"
-BaseType = "Maelström Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Disintegrator"
-Value = 9999
-DropsFrom = ["Elder"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Duskdawn"
-Value = 9999
-DropsFrom = ["Crafted"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Replica Duskdawn"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Unique]
-Name = "Taryn's Shiver"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Warstaves"
+Class = "Wartaves"
+ItemInfo = ["L:68", "D:73-136", "C:6.50%", "IM:+20% Chance to Block Spell Damage while wielding a Staff"]
 BaseType = "Judgement Staff"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Atziri's Rule"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Uber Atziri"]
 SpecificCards = []
 GambleCards = ["The Admirer"]
 Owned = true
 [Equipment.Unique]
 Name = "Hegemony's Era"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Pledge of Hands"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Atziri", "Atziri temple throne"]
 SpecificCards = ["The Pact"]
 GambleCards = ["The Admirer"]
 Owned = false
 [Equipment.Unique]
 Name = "The Grey Spire"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Alone in the Darkness", "The Tower", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:66", "D:57-171", "C:7.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Imperial Staff"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Agnerod East"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Stormcaller"]
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Agnerod North"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Stormcaller"]
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Agnerod South"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Stormcaller"]
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Agnerod West"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Stormcaller"]
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Enmity Divine"
+ValueTier = 10
+DropsFrom = ["Crafted with first, second and third Piece of Brutality"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Yielding Mortality"
+ValueTier = 10
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Owned = false
 
 [[Equipment]]
-Class = "Warstaves"
-BaseType = "Eventuality Rod"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+Class = "Wartaves"
+ItemInfo = ["L:64", "D:71-147", "C:6.80%", "IM:+25% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Maelström Staff"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Disintegrator"
+ValueTier = 10
+DropsFrom = ["Elder"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Duskdawn"
+ValueTier = 10
+DropsFrom = ["Crafted"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Replica Duskdawn"
+ValueTier = 50
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
+Name = "Taryn's Shiver"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:62", "D:72-120", "C:6.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Lathi"
+ShowRarity = []
+[Equipment.Unique]
+Name = "The Searing Touch"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Wartaves"
+ItemInfo = ["L:60", "D:53-160", "C:7.30%", "IM:+20% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Ezomyte Staff"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Cane of Unravelling"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Soulwrest"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Alone in the Darkness", "The Tower", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Fulcrum"
+ValueTier = 1337
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:58", "D:55-165", "C:6.20%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Primordial Staff"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Femurs of the Saints"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Burden of Shadows"
+ValueTier = 10
+DropsFrom = ["King in the mists"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:57", "D:66-138", "C:6.00%", "IM:80% increased Global Critical Strike Chance"]
+BaseType = "Moon Staff"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wartaves"
+ItemInfo = ["L:55", "D:65-121", "C:6.10%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Foul Staff"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "The Winds of Fate"
+ValueTier = 100
+DropsFrom = ["Lycia Sanctum"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:52", "D:48-145", "C:6.50%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Highborn Staff"
+ShowRarity = ["Unique", "SUnique"]
+[Equipment.Unique]
+Name = "Martyr of Innocence"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Witchhunter's Judgment"
+ValueTier = 0
+DropsFrom = ["Oshabi (Grove)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "The Geomantic Gyre"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Wartaves"
+ItemInfo = ["L:50", "D:61-113", "C:7.00%", "IM:+1 to Maximum Power Charges and Maximum Endurance Charges"]
+BaseType = "Potentiality Rod"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:50", "D:55-102", "C:6.00%", "IM:Spend Energy Shield before Mana for Costs of Socketed Skills & (100-120) to maximum Energy Shield"]
+BaseType = "Reciprocation Staff"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wartaves"
+ItemInfo = ["L:49", "D:56-117", "C:6.30%", "IM:+20% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Serpentine Staff"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Cane of Kulemak"
+ValueTier = 10
+DropsFrom = ["Catarina (betrayal"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Sire of Shards"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Lunaris Priestess"]
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:45", "D:51-86", "C:6.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Quarterstaff"
+ShowRarity = []
+[Equipment.Unique]
+Name = "The Annihilating Light"
+ValueTier = 1337
+DropsFrom = ["Uber Exarch"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[[Equipment]]
+Class = "Wartaves"
+ItemInfo = ["L:41", "D:38-114", "C:6.60%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Military Staff"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Tremor Rod"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:37", "D:34-102", "C:6.20%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Woodful Staff"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:36", "D:41-85", "C:6.00%", "IM:80% increased Global Critical Strike Chance"]
+BaseType = "Crescent Staff"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wartaves"
+ItemInfo = ["L:33", "D:41-76", "C:6.10%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Vile Staff"
+ShowRarity = []
+[Equipment.Unique]
+Name = "The Whispering Ice"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Incantation", "The Siren"]
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Wartaves"
+ItemInfo = ["L:30", "D:39-73", "C:7.00%", "IM:+1 to Maximum Power Charges and Maximum Endurance Charges"]
+BaseType = "Capacity Rod"
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:30", "D:36-66", "C:6.00%", "IM:Spend Energy Shield before Mana for Costs of Socketed Skills & (66-80) to maximum Energy Shield"]
+BaseType = "Transformer Staff"
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:28", "D:27-81", "C:6.50%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Royal Staff"
+ShowRarity = []
+[Equipment.Unique]
+Name = "The Stormheart"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "The Stormwall"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[[Equipment]]
+Class = "Wartaves"
+ItemInfo = ["L:23", "D:27-57", "C:6.20%", "IM:+20% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Coiled Staff"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Xirgil's Crank"
+ValueTier = 0
+DropsFrom = ["Labyrinth"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:18", "D:24-41", "C:6.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Long Staff"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wartaves"
+ItemInfo = ["L:13", "D:14-42", "C:6.40%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Iron Staff"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Dying Breath"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Pillar of the Caged God"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Realmshaper"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Realm Ender"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:9", "D:10-31", "C:6.20%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Primitive Staff"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Staves"
+ItemInfo = ["L:1", "D:9-19", "C:6.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
+BaseType = "Gnarled Branch"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Fencoil"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Fencoil"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
+Name = "The Blood Thorn"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Blood Thorn"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Mirebough"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Vestige of Divinity"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false

@@ -1,316 +1,323 @@
 [[Equipment]]
 Class = "Wands"
-BaseType = "Driftwood Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+BaseType = "Convoking Wand"
+ItemInfo = ["L:72", "D:30-55", "C:7.00%", "IM:Minions deal (26-30)% increased Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Accumulator Wand"
+ItemInfo = ["L:70", "D:29-54", "C:7.50%", "IM:Gain 2 Endurance, Frenzy or Power Charges every 6 seconds"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Profane Wand"
+ItemInfo = ["L:70", "D:33-61", "C:7.00%", "IM:14% increased Cast Speed"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Prophecy Wand"
+ItemInfo = ["L:68", "D:35-64", "C:8.00%", "IM:(36-40)% increased Spell Damage"]
+ShowRarity = ["Unique"]
 [Equipment.Unique]
-Name = "Lifesprig"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Hermit"]
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Goat's Horn"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Abberath's Horn"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Carved Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Ashcaller"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Poet's Pen"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["A Dab of Ink"]
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Quartz Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Calling Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Spiraled Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "Amplification Rod"
-Value = 9999
-DropsFrom = []
+Name = "Grace of the Goddess"
+ValueTier = 100
+DropsFrom = ["Uber Maven"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
-Name = "Reverberation Rod"
-Value = 9999
+Name = "Void Battery"
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
-[Equipment.Unique]
-Name = "Storm Prison"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
 
 [[Equipment]]
 Class = "Wands"
-BaseType = "Sage Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+BaseType = "Tornado Wand"
+ItemInfo = ["L:65", "D:25-75", "C:7.00%", "IM:Adds (3-5) to (70-82) Lightning Damage to Spells and Attacks"]
+ShowRarity = []
 [Equipment.Unique]
-Name = "Relic of the Pact"
-Value = 9999
-DropsFrom = ["Ultimatum"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Twyzel"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Twyzel"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = true
-[Equipment.Unique]
-Name = "Shade of Solaris"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Pagan Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Faun's Horn"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Engraved Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Eclipse Solaris"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Midnight Bargain"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Lich"]
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Midnight Bargain"
-Value = 9999
-SpecificCards = []
+Name = "Shimmeron"
+ValueTier = 0
+DropsFrom = ["Elder"]
 SpecificCards = []
 GambleCards = []
 Owned = true
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Crystal Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "Corona Solaris"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Coiled Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Congregator Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Convening Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Omen Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Apep's Rage"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Heathen Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Demon's Horn"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Imbued Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Moonsorrow"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Obliteration"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["Dark Temptation"]
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Piscator's Vigil"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Opal Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ItemInfo = ["L:62", "D:35-65", "C:7.00%", "IM:Adds (14-29) to (42-47) Cold Damage to Spells and Attacks"]
+ShowRarity = ["Unique"]
+[Equipment.Unique]
+Name = "Tulborn"
+ValueTier = 9
+DropsFrom = ["Tul Monsters"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = false
 [Equipment.Unique]
 Name = "Tulfall"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Tul (Flawless Breachstone)", "Crafted"]
 SpecificCards = ["The Breach"]
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Replica Tulfall"
-Value = 9999
+ValueTier = 0
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
-[Equipment.Unique]
-Name = "Tulborn"
-Value = 9999
-DropsFrom = ["Tul Monsters"]
-SpecificCards = []
-GambleCards = ["The Breach"]
-Owned = false
-
 
 [[Equipment]]
 Class = "Wands"
-BaseType = "Tornado Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+BaseType = "Imbued Wand"
+ItemInfo = ["L:59", "D:29-53", "C:7.00%", "IM:(33-37)% increased Spell Damage"]
+ShowRarity = []
 [Equipment.Unique]
-Name = "Shimmeron"
-Value = 9999
-DropsFrom = ["Elder"]
-SpecificCards = []
-GambleCards = []
-Owned = true
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Prophecy Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Void Battery"
-Value = 9999
+Name = "Moonsorrow"
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Grace of the Goddess"
-Value = 9999
-DropsFrom = ["Uber Maven"]
+Name = "Obliteration"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Dark Temptation"]
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Piscator's Vigil"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Demon's Horn"
+ItemInfo = ["L:56", "D:38-71", "C:7.00%", "IM:Adds (18-36) to (53-59) Fire Damage to Spells and Attacks"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Heathen Wand"
+ItemInfo = ["L:55", "D:31-57", "C:7.00%", "IM:10% increased Cast Speed"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Omen Wand"
+ItemInfo = ["L:53", "D:33-61", "C:8.00%", "IM:(27-31)% increased Spell Damage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Apep's Rage"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Congregator Wand"
+ItemInfo = ["L:50", "D:25-46", "C:7.50%", "IM:Gain an Endurance, Frenzy or Power Charge every 6 seconds"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Convening Wand"
+ItemInfo = ["L:50", "D:27-50", "C:7.00%", "IM:Minions deal (20-24)% increased Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Coiled Wand"
+ItemInfo = ["L:49", "D:21-64", "C:7.00%", "IM:Adds (1-2) to (22-24) Lightning Damage to Spells and Attacks"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Crystal Wand"
+ItemInfo = ["L:45", "D:28-52", "C:7.00%", "IM:Adds (4-8) to (10-12) Cold Damage to Spells and Attacks"]
+ShowRarity = []
+[Equipment.Disabled.Unique]
+Name = "Corona Solaris"
+ValueTier = -1
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
 Owned = false
 
+[[Equipment]]
+Class = "Wands"
+BaseType = "Engraved Wand"
+ItemInfo = ["L:40", "D:21-38", "C:7.00%", "IM:(22-26)% increased Spell Damage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Eclipse Solaris"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Midnight Bargain"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Lich"]
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Midnight Bargain"
+ValueTier = 0
+SpecificCards = []
+SpecificCards = []
+GambleCards = []
+Owned = true
 
 [[Equipment]]
 Class = "Wands"
-BaseType = "Accumulator Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Wands"
-BaseType = "Profane Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
+BaseType = "Faun's Horn"
+ItemInfo = ["L:35", "D:26-48", "C:7.00%", "IM:Adds (5-10) to (11-13) Fire Damage to Spells and Attacks"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
-BaseType = "Convoking Wand"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+BaseType = "Pagan Wand"
+ItemInfo = ["L:34", "D:22-40", "C:7.00%", "IM:10% increased Cast Speed"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Assembler Wand"
+ItemInfo = ["L:30", "D:16-30", "C:7.50%", "IM:Gain an Endurance, Frenzy or Power Charge every 6 seconds"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Sage Wand"
+ItemInfo = ["L:30", "D:23-42", "C:8.00%", "IM:(17-21)% increased Spell Damage"]
+ShowRarity = ["Unique"]
+[Equipment.Unique]
+Name = "Relic of the Pact"
+ValueTier = 10
+DropsFrom = ["Ultimatum"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Shade of Solaris"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Twyzel"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Twyzel"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = true
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Calling Wand"
+ItemInfo = ["L:20", "D:13-25", "C:7.00%", "IM:Minions deal (12-16)% increased Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Spiraled Wand"
+ItemInfo = ["L:24", "D:12-37", "C:7.00%", "IM:Adds (1-2) to (9-11) Lightning Damage to Spells and Attacks"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Reverberation Rod"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Storm Prison"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Amplification Rod"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Quartz Wand"
+ItemInfo = ["L:18", "D:14-27", "C:7.00%", "IM:Adds (2-3) to (4-7) Cold Damage to Spells and Attacks"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Carved Wand"
+ItemInfo = ["L:12", "D:9-17", "C:7.00%", "IM:(11-15)% increased Spell Damage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Ashcaller"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Poet's Pen"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["A Dab of Ink"]
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Goat's Horn"
+ItemInfo = ["L:6", "D:9-16", "C:7.00%", "IM:Adds (1-2) to (3-4) Fire Damage to Spells and Attacks"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Abberath's Horn"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Wands"
+BaseType = "Driftwood Wand"
+ItemInfo = ["L:1", "D:5-9", "C:7.00%", "IM:(8-12)% increased Spell Damage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Lifesprig"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Hermit"]
+GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true

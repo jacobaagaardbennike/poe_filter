@@ -1,528 +1,544 @@
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Rusted Hatchet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "Rust of Winter"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Jade Hatchet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "The Gryphon"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "The Screaming Eagle"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Boarding Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Cleaver"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Dreadarc"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Dreadsurge"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Broad Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Arming Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Decorative Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Relentless Fury"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Spectral Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Etched Hatchet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Jasper Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Tomahawk"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Moonbender's Wing"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Wrist Chopper"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "War Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Chest Splitter"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Disapprobation Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Ceremonial Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Wraith Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Engraved Hatchet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Karui Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Siege Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Disabled.Unique]
-Name = "Replica Soul Taker"
-Value = 9999
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Soul Taker"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Soul"]
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Reaver Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Butcher Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Actum"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Vaal Hatchet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Jack, the Axe"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Royal Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Rigwald's Savagery"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolf", "The Battle Born", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Infernal Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Dyadus"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Axes"
-BaseType = "Psychotic Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
 
 
 [[Equipment]]
 Class = "One Hand Axes"
 BaseType = "Runic Hatchet"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Stone Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
+ItemInfo = ["L:71", "D:44-79", "C:5.00%", "IM:12% increased Global Physical Damage"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Axes"
-BaseType = "Jade Chopper"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
+BaseType = "Apex Cleaver"
+ItemInfo = ["L:70", "D:71-111", "C:5.00%", "IM:+40% to Maximum Quality"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Axes"
-BaseType = "Woodsplitter"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+BaseType = "Fleshripper"
+ItemInfo = ["L:70", "D:97-152", "C:5.00%", "IM:50% increased Critical Strike Chance"]
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Psychotic Axe"
+ItemInfo = ["L:70", "D:34-71", "C:5.00%", "IM:+20 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Infernal Axe"
+ItemInfo = ["L:69", "D:51-85", "C:5.00%", "IM:+20 to Maximum Rage"]
+ShowRarity = []
 [Equipment.Unique]
-Name = "Limbsplit"
-Value = 9999
+Name = "Dyadus"
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
-[Equipment.Disabled.Unique]
-Name = "The Cauteriser"
-Value = 9999
-DropsFrom = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Void Axe"
+ItemInfo = ["L:68", "D:96-144", "C:6.00%", "IM:50% increased Critical Strike Chance"]
+ShowRarity = ["Unique"]
+[Equipment.Unique]
+Name = "Kitava's Feast"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 
-
 [[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Poleaxe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+Class = "One Hand Axes"
+BaseType = "Royal Axe"
+ItemInfo = ["L:67", "D:54-100", "C:5.00%", "IM:+20 to Maximum Rage"]
+ShowRarity = []
 [Equipment.Unique]
-Name = "Wideswing"
-Value = 9999
+Name = "Rigwald's Savagery"
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["The Wolf", "The Battle Born", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Double Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Gilded Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Shadow Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Reaper's Pursuit"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Dagger Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Jasper Chopper"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Replica Harvest"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = true
-[Equipment.Unique]
-Name = "The Harvest"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Harvester", "The Insatiable"]
-GambleCards = ["The Calling", "The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Timber Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Headsman Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "The Blood Reaper"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Labrys"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Honed Cleaver"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Noble Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Abyssal Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Ngamahu's Flame"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["From Bone to Ashes"]
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Karui Chopper"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Kaom's Primacy"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Talon Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Sundering Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Ezomyte Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Replica Wings of Entropy"
-Value = 9999
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Unique]
-Name = "Sinvicta's Mettle"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Wings of Entropy"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Vaal Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Atziri's Disfavour"
-Value = 9999
-DropsFrom = ["Uber Atziri"]
-SpecificCards = ["The Last One Standing"]
-GambleCards = ["The Admirer"]
-Owned = false
-[Equipment.Unique]
-Name = "Hezmana's Bloodlust"
-Value = 9999
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Uul-Netol's Embrace"
-Value = 9999
-DropsFrom = ["Uul-Netol (Flawless Breachstone)"]
-SpecificCards = []
-GambleCards = ["The Breach"]
-Owned = false
-[Equipment.Unique]
-Name = "Uul-Netol's Kiss"
-Value = 9999
-DropsFrom = ["Uul-Netol Monsters"]
-SpecificCards = []
-GambleCards = ["The Breach"]
-Owned = true
-
 
 [[Equipment]]
 Class = "Two Hand Axes"
 BaseType = "Despot Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ItemInfo = ["L:66", "D:90-122", "C:5.00%", "IM:50% increased Critical Strike Chance"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Debeon's Dirge"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Kingmaker"
-Value = 9999
+ValueTier = 100
 DropsFrom = ["Crafted"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 
-
 [[Equipment]]
-Class = "Two Hand Axes"
-BaseType = "Void Axe"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+Class = "One Hand Axes"
+BaseType = "Vaal Hatchet"
+ItemInfo = ["L:65", "D:30-90", "C:5.00%", "IM:+20 to Maximum Rage"]
+ShowRarity = []
 [Equipment.Unique]
-Name = "Kitava's Feast"
-Value = 9999
+Name = "Jack, the Axe"
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Vaal Axe"
+ItemInfo = ["L:64", "D:104-174", "C:5.00%", "IM:25% chance to Maim on Hit"]
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Atziri's Disfavour"
+ValueTier = 1000
+DropsFrom = ["Uber Atziri"]
+SpecificCards = ["The Last One Standing"]
+GambleCards = ["The Admirer"]
+Owned = false
+[Equipment.Unique]
+Name = "Hezmana's Bloodlust"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Uul-Netol's Embrace"
+ValueTier = 100
+DropsFrom = ["Uul-Netol (Flawless Breachstone)"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = false
+[Equipment.Unique]
+Name = "Uul-Netol's Kiss"
+ValueTier = 0
+DropsFrom = ["Uul-Netol Monsters"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = true
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Butcher Axe"
+ItemInfo = ["L:63", "D:47-87", "C:5.00%", "IM:+20 to Maximum Rage"]
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Actum"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = []
 Owned = false
 
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Ezomyte Axe"
+ItemInfo = ["L:62", "D:87-131", "C:5.70%", "IM:25% chance to Maim on Hit"]
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Sinvicta's Mettle"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Wings of Entropy"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Wings of Entropy"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Reaver Axe"
+ItemInfo = ["L:61", "D:38-114", "C:5.00%", "IM:+20 to Maximum Rage"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Axes"
-BaseType = "Apex Cleaver"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+BaseType = "Sundering Axe"
+ItemInfo = ["L:60", "D:74-155", "C:5.00%", "IM:+20% to Damage over Time Multiplier for Bleeding"]
+ShowRarity = []
+
+
+
 
 
 [[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Siege Axe"
+ItemInfo = ["L:59", "D:38-70", "C:5.00%", "IM:+20 to Maximum Rage"]
+ShowRarity = ["Unique"]
+[Equipment.Unique]
+Name = "Soul Taker"
+ValueTier = 100
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Soul"]
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Replica Soul Taker"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
 Class = "Two Hand Axes"
-BaseType = "Fleshripper"
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+BaseType = "Talon Axe"
+ItemInfo = ["L:59", "D:88-138", "C:5.00%", "IM:50% increased Critical Strike Chance"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Karui Chopper"
+ItemInfo = ["L:58", "D:121-189", "C:5.00%", "IM:50% increased Critical Strike Chance"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Kaom's Primacy"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Karui Axe"
+ItemInfo = ["L:57", "D:49-77", "C:5.00%", "IM:+20 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Engraved Hatchet"
+ItemInfo = ["L:56", "D:40-71", "C:5.00%", "IM:8% increased Global Physical Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Abyssal Axe"
+ItemInfo = ["L:55", "D:81-121", "C:5.00%", "IM:50% increased Critical Strike Chance"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Ngamahu's Flame"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["From Bone to Ashes"]
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Wraith Axe"
+ItemInfo = ["L:54", "D:45-75", "C:5.00%", "IM:8% increased Global Physical Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Noble Axe"
+ItemInfo = ["L:52", "D:76-103", "C:5.00%", "IM:50% increased Critical Strike Chance"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Ceremonial Axe"
+ItemInfo = ["L:51", "D:45-83", "C:5.00%", "IM:8% increased Global Physical Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Disapprobation Axe"
+ItemInfo = ["L:50", "D:29-60", "C:5.00%", "IM:+15 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Honed Cleaver"
+ItemInfo = ["L:50", "D:60-95", "C:5.00%", "IM:+30% to Maximum Quality"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Labrys"
+ItemInfo = ["L:49", "D:74-123", "C:5.00%", "IM:+30% to Maximum Quality"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Chest Splitter"
+ItemInfo = ["L:48", "D:24-71", "C:5.00%", "IM:+15 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Headsman Axe"
+ItemInfo = ["L:45", "D:61-92", "C:5.00%", "IM:+30% to Maximum Quality"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "The Blood Reaper"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "War Axe"
+ItemInfo = ["L:45", "D:35-65", "C:5.00%", "IM:+15 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Wrist Chopper"
+ItemInfo = ["L:42", "D:26-79", "C:5.00%", "IM:+15 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Timber Axe"
+ItemInfo = ["L:41", "D:48-99", "C:5.00%", "IM:+30% to Maximum Quality"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Tomahawk"
+ItemInfo = ["L:39", "D:25-46", "C:5.00%", "IM:+15 to Maximum Rage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Moonbender's Wing"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Jasper Chopper"
+ItemInfo = ["L:37", "D:58-91", "C:5.00%", "IM:+30% to Maximum Quality"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "The Harvest"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Harvester", "The Insatiable"]
+GambleCards = ["The Calling", "The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Harvest"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = true
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Dagger Axe"
+ItemInfo = ["L:36", "D:53-83", "C:5.00%", "IM:50% increased Critical Strike Chance"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Jasper Axe"
+ItemInfo = ["L:36", "D:32-50", "C:5.00%", "IM:+15 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Etched Hatchet"
+ItemInfo = ["L:35", "D:26-46", "C:5.00%", "IM:8% increased Global Physical Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Shadow Axe"
+ItemInfo = ["L:33", "D:49-73", "C:5.00%", "IM:50% increased Critical Strike Chance"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Reaper's Pursuit"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Spectral Axe"
+ItemInfo = ["L:33", "D:29-48", "C:5.00%", "IM:8% increased Global Physical Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Maltreatment Axe"
+ItemInfo = ["L:30", "D:19-39", "C:5.00%", "IM:+10 to Maximum Rage"]
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Prime Cleaver"
+ItemInfo = ["L:30", "D:39-61", "C:5.00%", "IM:+20% to Maximum Quality"]
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Decorative Axe"
+ItemInfo = ["L:29", "D:27-50", "C:5.00%", "IM:+10 to Maximum Rage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Relentless Fury"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Gilded Axe"
+ItemInfo = ["L:28", "D:43-58", "C:5.00%", "IM:+20% to Maximum Quality"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Arming Axe"
+ItemInfo = ["L:25", "D:14-42", "C:5.00%", "IM:+10 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Double Axe"
+ItemInfo = ["L:23", "D:36-60", "C:5.00%", "IM:+20% to Maximum Quality"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Broad Axe"
+ItemInfo = ["L:21", "D:19-34", "C:5.00%", "IM:+10 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Cleaver"
+ItemInfo = ["L:16", "D:12-35", "C:5.00%", "IM:+10 to Maximum Rage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Dreadarc"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Dreadsurge"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Poleaxe"
+ItemInfo = ["L:18", "D:29-43", "C:5.00%", "IM:+20% to Maximum Quality"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Wideswing"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Woodsplitter"
+ItemInfo = ["L:13", "D:19-39", "C:5.00%", "IM:+20% to Maximum Quality"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Limbsplit"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "The Cauteriser"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Boarding Axe"
+ItemInfo = ["L:11", "D:11-21", "C:5.00%", "IM:+10 to Maximum Rage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Jade Chopper"
+ItemInfo = ["L:9", "D:19-30", "C:5.00%", "IM:+20% to Maximum Quality"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Jade Hatchet"
+ItemInfo = ["L:6", "D:10-15", "C:5.00%", "IM:+10 to Maximum Rage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "The Screaming Eagle"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Battle Born", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "The Gryphon"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "One Hand Axes"
+BaseType = "Rusted Hatchet"
+ItemInfo = ["L:1", "D:6-11", "C:5.00%", "IM:+10 to Maximum Rage"]
+ShowRarity = []
+[Equipment.Disabled.Unique]
+Name = "Rust of Winter"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Two Hand Axes"
+BaseType = "Stone Axe"
+ItemInfo = ["L:1", "D:12-20", "C:5.00%", "IM:+20% to Maximum Quality"]
+ShowRarity = []

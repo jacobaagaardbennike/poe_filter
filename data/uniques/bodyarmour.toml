@@ -112,39 +112,39 @@ BaseType = "Carnal Armour"
 ItemInfo = ["L:71", "EV:353-388", "ES:103-113","D:88", "I:122", "IM(20-25) to maximum Mana"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "The Restless Ward"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Restless Ward"
-ValueTier = CHANGEME
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Unique]
 Name = "Shroud of the Lightless"
-ValueTier = CHANGEME
+ValueTier = 1000
 DropsFrom = ["Abyssal Depths"]
 SpecificCards = ["Misery in Darkness"]
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Replica Shroud of the Lightless"
-ValueTier = CHANGEME
+ValueTier = 50
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
 [Equipment.Unique]
 Name = "Stasis Prison"
-ValueTier = CHANGEME
+ValueTier = 1000
 DropsFrom = ["Timeless Conflict"]
 SpecificCards = []
 GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Restless Ward"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Restless Ward"
+ValueTier = 50
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
 Owned = false
 
 [[Equipment]]
@@ -153,19 +153,19 @@ BaseType = "Sacrificial Garb"
 ItemInfo = ["L:72", "EV:329-378", "ES:329-378", "S:66", "D:66", "I:66", "IM+1 to Level of all Vaal Skill Gems"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Shadowstitch"
-ValueTier = CHANGEME
-DropsFrom = ["Double corrupt a normal rarity Sacrificial Garb"]
-SpecificCards = []
-GambleCards = []
-Owned = true
-[Equipment.Unique]
 Name = "Atziri's Splendour"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Uber Atziri"]
 SpecificCards = []
 GambleCards = ["The Admirer"]
 Owned = false
+[Equipment.Unique]
+Name = "Shadowstitch"
+ValueTier = 1337
+DropsFrom = ["Double corrupt a normal rarity Sacrificial Garb"]
+SpecificCards = []
+GambleCards = []
+Owned = true
 
 [[Equipment]]
 Class = "Body Armours"
@@ -180,14 +180,14 @@ ItemInfo = ["L:70", "AR:401-461", "ES:96-110", "S:99", "I:115"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Chains of Command"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Incandescent Heart"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -200,21 +200,21 @@ ItemInfo = ["L:69", "AR:380-437", "EV:477-549", "S:95", "D:116"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Farrul's Fur"
-ValueTier = CHANGEME
+ValueTier = 100
 DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
 SpecificCards = ["Pride of the First Ones"]
 GambleCards = ["Council of Cats", "Boon of the First Ones"]
 Owned = false
 [Equipment.Unique]
 Name = "Replica Farrul's Fur"
-ValueTier = CHANGEME
+ValueTier = 100
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
 [Equipment.Unique]
 Name = "Cherrubim's Maleficence"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -227,7 +227,7 @@ ItemInfo = ["L:68", "EV:737-811","D:183", "IM3% increased Movement Speed"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Cospri's Will"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -239,26 +239,26 @@ BaseType = "Glorious Plate"
 ItemInfo = ["L:68", "AR:776-892", "S:191"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Perfidy"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
 Name = "Kaom's Heart"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The King's Heart", "Pride Before the Fall"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Kaom's Heart"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
+[Equipment.Unique]
+Name = "Perfidy"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
 
 [[Equipment]]
 Class = "Body Armours"
@@ -267,21 +267,21 @@ ItemInfo = ["L:68", "EV:427-491", "ES:93-107","D:103", "I:109"]
 ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Doppelgänger Guise"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Maven"]
 SpecificCards = []
 GambleCards = ["The Leviathan"]
 Owned = true
 [Equipment.Unique]
 Name = "Inpulsa's Broken Heart"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Tinkerskin"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -294,14 +294,14 @@ ItemInfo = ["L:68", "ES:171-197","I:194"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "The Beast Fur Shawl"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "The Queen's Hunger"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Catarina (Betrayal)"]
 SpecificCards = []
 GambleCards = []
@@ -314,21 +314,21 @@ ItemInfo = ["L:67", "AR:443-496", "ES:76-85", "S:109", "I:94"]
 ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Doryani's Prototype"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Sporeguard"
-ValueTier = CHANGEME
+ValueTier = 50
 DropsFrom = ["Blighted map"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "The Ivory Tower"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -346,25 +346,25 @@ BaseType = "Blood Raiment"
 ItemInfo = ["L:65", "EV:436-501", "ES:73-84","D:107", "I:90"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
+Name = "Replica Eternity Shroud"
+ValueTier = 10
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
 Name = "Saqawal's Nest"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Saqawal (Saqawal's Roost)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
 Owned = false
 [Equipment.Unique]
 Name = "The Eternity Shroud"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Uber Uber Elder"]
 SpecificCards = ["The Astromancer"]
 GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Replica Eternity Shroud"
-ValueTier = CHANGEME
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
 Owned = false
 
 [[Equipment]]
@@ -374,7 +374,7 @@ ItemInfo = ["L:65", "AR:738-848", "S:177"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "The Brass Dome"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -386,22 +386,22 @@ BaseType = "Widowsilk Robe"
 ItemInfo = ["L:65", "ES:157-181","I:187"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Fenumus' Shroud"
-ValueTier = CHANGEME
-DropsFrom = ["Fenumus (Fenumus' Lair)"]
-SpecificCards = []
-GambleCards = ["Boon of the First Ones"]
-Owned = true
-[Equipment.Unique]
 Name = "Doedre's Skin"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Doedre's Madness", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
+Name = "Fenumus' Shroud"
+ValueTier = 0
+DropsFrom = ["Fenumus (Fenumus' Lair)"]
+SpecificCards = []
+GambleCards = ["Boon of the First Ones"]
+Owned = true
+[Equipment.Unique]
 Name = "Infernal Mantle"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -413,40 +413,40 @@ BaseType = "Zodiac Leather"
 ItemInfo = ["L:65", "EV:854-982","D:197"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "The Snowblind Grace"
-ValueTier = CHANGEME
-DropsFrom = ["Tul Monsters"]
-SpecificCards = []
-GambleCards = ["The Breach"]
-Owned = true
-[Equipment.Unique]
-Name = "The Perfect Form"
-ValueTier = CHANGEME
-DropsFrom = ["Tul (Flawless Breachstone)", "Crafted"]
-SpecificCards = []
-GambleCards = ["The Breach"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Perfect Form"
-ValueTier = CHANGEME
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = true
-[Equipment.Unique]
 Name = "Hyrri's Ire"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Hyrri's Ire"
-ValueTier = CHANGEME
+ValueTier = 50
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
+[Equipment.Unique]
+Name = "The Perfect Form"
+ValueTier = 10
+DropsFrom = ["Tul (Flawless Breachstone)", "Crafted"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Perfect Form"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = true
+[Equipment.Unique]
+Name = "The Snowblind Grace"
+ValueTier = 0
+DropsFrom = ["Tul Monsters"]
+SpecificCards = []
+GambleCards = ["The Breach"]
+Owned = true
 
 [[Equipment]]
 Class = "Body Armours"
@@ -455,21 +455,21 @@ ItemInfo = ["L:64", "AR:377-433", "ES:92-105", "S:90", "I:105"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Geofri's Sanctuary"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Loreweave"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Vendor 60 Unique Rings"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 Name = "Replica Loreweave"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -482,7 +482,7 @@ ItemInfo = ["L:63", "AR:470-541", "EV:373-429", "S:115", "D:94"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Daresso's Defiance"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -495,14 +495,14 @@ ItemInfo = ["L:62", "AR:711-782", "S:180", "IM(8-12)% to all Elemental Resistanc
 ShowRarity = []
 [Equipment.Unique]
 Name = "Blunderbore"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Death's Oath"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Oath"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -515,14 +515,14 @@ ItemInfo = ["L:62", "AR:704-810","D:170"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Kintsugi"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Yriel's Fostering"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -535,7 +535,7 @@ ItemInfo = ["L:62", "ES:137-151","I:180", "IM(3-10)% increased Spell Damage"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Shavronne's Wrappings"
-ValueTier = CHANGEME
+ValueTier = 1337
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Offering"]
 GambleCards = ["The Aesthete", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -548,14 +548,14 @@ ItemInfo = ["L:62", "EV:387-434", "ES:79-89","D:96", "I:96"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Carcass Jack"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Scavenger"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "The Admiral"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Unique Contract: Death to Darnaw"]
 SpecificCards = []
 GambleCards = []
@@ -568,7 +568,7 @@ ItemInfo = ["L:61", "AR:387-445", "ES:79-91", "S:96", "I:96"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Kingsguard"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -581,7 +581,7 @@ ItemInfo = ["L:60", "AR:376-451", "EV:376-451", "S:96", "D:96"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Lightning Coil"
-ValueTier = CHANGEME
+ValueTier = 1337
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Coming Storm"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -593,25 +593,25 @@ BaseType = "Crusader Plate"
 ItemInfo = ["L:59", "AR:601-691", "S:160"]
 ShowRarity = []
 [Equipment.Unique]
+Name = "Lioneye's Vision"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Visionary"]
+GambleCards = ["The Lion", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
 Name = "The Iron Fortress"
-ValueTier = CHANGEME
+ValueTier = 1337
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Disabled.Unique]
 Name = "Iron Heart"
-ValueTier = CHANGEME
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
-[Equipment.Unique]
-Name = "Lioneye's Vision"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Visionary"]
-GambleCards = ["The Lion", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
 [[Equipment]]
@@ -621,7 +621,7 @@ ItemInfo = ["L:59", "AR:601-721","D:160"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Queen of the Forest"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["Alivia's Grace"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -634,14 +634,14 @@ ItemInfo = ["L:59", "ES:123-147","I:160"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Fleshcrafter"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Vis Mortis"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -654,17 +654,17 @@ ItemInfo = ["L:59", "EV:330-370", "ES:67-76","D:86", "I:86"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Dendrobate"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["Toxic Tidings"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Expedition's End"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
-GambleCards = ["The Forward Gaze"]
+GambleCards = []
 Owned = false
 
 [[Equipment]]
@@ -674,7 +674,7 @@ ItemInfo = ["L:58", "AR:325-374", "ES:66-76", "S:84", "I:84"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Rotting Legion"
-ValueTier = CHANGEME
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -699,14 +699,14 @@ ItemInfo = ["L:56", "AR:559-643", "S:152"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Greed's Embrace"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Craiceann's Carapace"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
@@ -752,7 +752,7 @@ ItemInfo = ["L:55", "AR:302-363", "ES:62-74", "S:80", "I:80"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Fourth Vow"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Long Watch"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -875,7 +875,7 @@ GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal",
 Owned = true
 [Equipment.Unique]
 Name = "Replica Covenant"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -945,14 +945,14 @@ ItemInfo = ["L:43", "AR:237-266", "ES:50-55", "S:64", "I:64"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Ambu's Charge"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Ambu's Charge"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -1002,7 +1002,7 @@ GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal",
 Owned = true
 [Equipment.Disabled.Unique]
 Name = "Crystal Vault"
-ValueTier = CHANGEME
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -1040,14 +1040,14 @@ ItemInfo = ["L:37", "ES:79-90","I:104"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Dialla's Malefaction"
-ValueTier = CHANGEME
+ValueTier = 100
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Zahndethus' Cassock"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1074,7 +1074,7 @@ ItemInfo = ["L:35", "ES:75-88","I:99"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Apostate"
-ValueTier = CHANGEME
+ValueTier = 100
 DropsFrom = ["Uber Venarius"]
 SpecificCards = []
 GambleCards = []
@@ -1179,7 +1179,7 @@ ItemInfo = ["L:28", "AR:156-180", "EV:156-180", "S:43", "D:43"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Viper's Scales"
-ValueTier = CHANGEME
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -1217,7 +1217,7 @@ GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal",
 Owned = true
 [Equipment.Disabled.Unique]
 Name = "Fox's Fortune"
-ValueTier = CHANGEME
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -1254,7 +1254,7 @@ ItemInfo = ["L:20", "AR:75-86", "EV:75-86", "ES:17-19", "S:8", "D:8", "I:8", "IM
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Demigod's Dominance"
-ValueTier = CHANGEME
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -1273,7 +1273,7 @@ ItemInfo = ["L:18", "ES:43-53","I:55"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Cloak of Flame"
-ValueTier = CHANGEME
+ValueTier = 1337
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1343,7 +1343,7 @@ ItemInfo = ["L:9", "EV:98-127","D:32"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Wildwrap"
-ValueTier = CHANGEME
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -1393,7 +1393,7 @@ GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal",
 Owned = true
 [Equipment.Disabled.Unique]
 Name = "Wall of Brambles"
-ValueTier = CHANGEME
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []

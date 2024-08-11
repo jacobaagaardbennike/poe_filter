@@ -2,28 +2,28 @@
 # AKASKDS = ["L:70","EV:126-145", "ES:26-30", "D:62", "I:62", "IM:(8-12)% to Cold and Lightning Resistances"]
 
 
-
+# cold light = 0 value
 # [[Equipment]]
 # Class = "Boots"
 # BaseType = "Two-Toned Boots"
-# ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+# ShowRarity = []
 # [Equipment.Unique]
 # Name = "Beacon of Madness (ev/es)"
-# Value = 9999
+
 # DropsFrom = ["Anywhere", "ChanceOrb"]
 # SpecificCards = []
 # GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 # Owned = true
 # [Equipment.Unique]
 # Name = "Beacon of Madness (es/ar)"
-# Value = 9999
+
 # DropsFrom = ["Anywhere", "ChanceOrb"]
 # SpecificCards = []
 # GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 # Owned = false
 # [Equipment.Unique]
 # Name = "Beacon of Madness (ar/ev)"
-# Value = 9999
+
 # DropsFrom = ["Anywhere", "ChanceOrb"]
 # SpecificCards = []
 # GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -36,100 +36,100 @@
 Class = "Boots"
 BaseType = "Leviathan Greaves"
 ItemInfo = ["L:84", "AR:359-413", "S:177"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Paladin Boots"
 ItemInfo = ["L:84", "AR:205-236", "ES:41-47", "S:98", "I:98"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Phantom Boots"
 ItemInfo = ["L:84", "EV:205-236", "ES:(41-47", "D:98", "I:98"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Velour Boots"
 ItemInfo = ["L:84", "EV:359-413", "D:177"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Warlock Boots"
 ItemInfo = ["L:84", "ES:72-83", "I:177"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Wyvernscale Boots"
 ItemInfo = ["L:84", "AR:205-236", "EV:205-236", "S:98", "D:98"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Chimerascale Boots"
 ItemInfo = ["L:78", "AR:176-203", "EV:176-203", "S:85", "D:85"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Harpyskin Boots"
 ItemInfo = ["L:78", "EV:307-353", "D:153"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Infiltrator Boots"
 ItemInfo = ["L:78", "EV:176-203", "ES:35-41", "D:85", "I:85"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Martyr Boots"
 ItemInfo = ["L:78", "AR:176-203", "ES:35-41", "S:85", "I:85"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Precursor Greaves"
 ItemInfo = ["L:78", "AR:307-353", "S:153"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Sage Slippers"
 ItemInfo = ["L:78", "ES:62-71", "I:153"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Brimstone Treads"
 ItemInfo = ["L:80", "AR:236-271", "S:124", "IM:(4-5)% Chance to Block Attack Damage & You take 20% of Damage from Blocked Hits"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Dreamquest Slippers"
 ItemInfo = ["L:80","ES:50-57", "I:124", "IM:10% reduced Movement Speed & (30-40)% increased Cooldown Recovery Rate of Movement Skills"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Stormrider Boots"
 ItemInfo = ["L:80","D:124", "IM:1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating & 25% less Accuracy Rating"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Fugitive Boots"
 ItemInfo = ["L:70","EV:112-129", "ES:32-37", "D:56", "I:76", "IM:(13-17)% to Chaos Resistance"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Inextricable Fate"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Eater"]
 SpecificCards = []
 GambleCards = []
@@ -139,24 +139,24 @@ Owned = true
 Class = "Boots"
 BaseType = "Murder Boots"
 ItemInfo = ["L:69","EV:185-213", "ES:18-21", "D:82", "I:42"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Bubonic Trail"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Abyssal Depths"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 Name = "Voidwalker"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Shaper"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 Name = "Replica Voidwalker"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -166,10 +166,10 @@ Owned = false
 Class = "Boots"
 BaseType = "Runic Sabatons"
 ItemInfo = ["L:69","W:102-117", "S:46", "D:46", "I:46"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Vorana's March"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Olroth (Expedition Logbook)"]
 SpecificCards = []
 GambleCards = []
@@ -179,51 +179,51 @@ Owned = false
 Class = "Boots"
 BaseType = "Slink Boots"
 ItemInfo = ["L:69", "AR:246-283", "D:120"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
-[Equipment.Unique]
-Name = "Farrul's Chase"
-Value = 9999
-DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
-SpecificCards = []
-GambleCards = ["Council of Cats", "Boon of the First Ones"]
-Owned = false
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Atziri's Step"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Atziri"]
 SpecificCards = []
 GambleCards = ["The Admirer"]
 Owned = false
 [Equipment.Unique]
 Name = "Doryani's Delusion"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Apex Assembly"]
 SpecificCards = []
 GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Farrul's Chase"
+ValueTier = 0
+DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
+SpecificCards = []
+GambleCards = ["Council of Cats", "Boon of the First Ones"]
 Owned = false
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Sorcerer Boots"
 ItemInfo = ["L:67","ES:51-59", "I:123"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Doryani's Delusion"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Apex Assembly"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Skyforth"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Steppan Eard"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Renegades warband"]
 SpecificCards = []
 GambleCards = []
@@ -233,17 +233,17 @@ Owned = true
 Class = "Boots"
 BaseType = "Dragonscale Boots"
 ItemInfo = ["L:65", "AR:121-139", "EV:121-139", "S:62", "D:62"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Darkray Vectors"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Annihilation's Approach"
-Value = 9999
+ValueTier = 50
 DropsFrom = ["Uber Exarch"]
 SpecificCards = []
 GambleCards = []
@@ -253,10 +253,10 @@ Owned = false
 Class = "Boots"
 BaseType = "Crusader Boots"
 ItemInfo = ["L:64", "AR:121-139", "ES:25-28", "S:62", "I:62"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Death's Door"
-Value = 9999
+ValueTier = 100
 DropsFrom = ["Labyrinth"]
 SpecificCards = []
 GambleCards = []
@@ -266,24 +266,24 @@ Owned = false
 Class = "Boots"
 BaseType = "Assassin's Boots"
 ItemInfo = ["L:63","EV:121-139", "ES:25-28", "D:62", "I:62"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Fenumus' Spinnerets"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Fenumus (Fenumus' Lair)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
 Owned = false
 [Equipment.Unique]
 Name = "The Stampede"
-Value = 9999
+ValueTier = 50
 DropsFrom = ["Blighted map"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Replica Stampede"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -293,17 +293,17 @@ Owned = false
 Class = "Boots"
 BaseType = "Stealth Boots"
 ItemInfo = ["L:62", "AR:220-253", "D:117"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Garukhan's Flight"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Sin Trek"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -313,10 +313,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Vaal Greaves"
 ItemInfo = ["L:62", "AR:220-253", "S:117"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Dawnstrider"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Exarch"]
 SpecificCards = []
 GambleCards = []
@@ -326,17 +326,17 @@ Owned = true
 Class = "Boots"
 BaseType = "Arcanist Slippers"
 ItemInfo = ["L:61","ES:47-55", "I:119"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Inya's Epiphany"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Inya's Epiphany"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -346,38 +346,38 @@ Owned = false
 Class = "Boots"
 BaseType = "Titan Greaves"
 ItemInfo = ["L:68", "AR:241-278", "S:120"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Doryani's Delusion"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Doryani's Machinarium Maze Map"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Kaom's Roots"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Throne"]
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "The Red Trail"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Uul-Netol (Flawless Breachstone)", "Crafted"]
 SpecificCards = []
 GambleCards = ["The Breach"]
 Owned = false
 [Equipment.Unique]
 Name = "Replica Red Trail"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
 [Equipment.Unique]
 Name = "The Infinite Pursuit"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Uul-Netol Monsters"]
 SpecificCards = []
 GambleCards = ["The Breach"]
@@ -387,17 +387,17 @@ Owned = true
 Class = "Boots"
 BaseType = "Hydrascale Boots"
 ItemInfo = ["L:59", "AR:106-122", "EV:106-122", "S:56", "D:56"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Saqawal's Talons"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Saqawal (Saqawal's Roost)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
 Owned = false
 [Equipment.Unique]
 Name = "Gamblesprint"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Ultimatum"]
 SpecificCards = []
 GambleCards = []
@@ -407,17 +407,17 @@ Owned = false
 Class = "Boots"
 BaseType = "Legion Boots"
 ItemInfo = ["L:58", "AR:104-120", "ES:21-25", "S:54", "I:54"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Gang's Momentum"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "March of the Legion"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -427,24 +427,24 @@ Owned = true
 Class = "Boots"
 BaseType = "Carnal Boots"
 ItemInfo = ["L:55","EV:99-117", "ES:20-24", "D:52", "I:52"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Corpsewalker"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Omeyocan"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Crafted"]
 SpecificCards = ["Reckless Ambition"]
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Dance of the Offered"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Conduit of Lightning Chest (tier 3 incursion room)", "Crafted"]
 SpecificCards = []
 GambleCards = []
@@ -454,24 +454,24 @@ Owned = true
 Class = "Boots"
 BaseType = "Shagreen Boots"
 ItemInfo = ["L:55","EV:180-216", "D:97"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Temptation Step"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Ultimatum"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Three-step Assault"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Three-step Assault"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -481,17 +481,17 @@ Owned = true
 Class = "Boots"
 BaseType = "Goliath Greaves"
 ItemInfo = ["L:54", "AR:177-209", "S:95"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Craiceann's Tracks"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
 Owned = false
 [Equipment.Unique]
 Name = "The Tempest Rising"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Uber Sirus"]
 SpecificCards = []
 GambleCards = []
@@ -501,10 +501,10 @@ Owned = false
 Class = "Boots"
 BaseType = "Conjurer Boots"
 ItemInfo = ["L:53","ES:36-42", "I:94"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Rainbowstride"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Baited Expectations", "The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -514,10 +514,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Wyrmscale Boots"
 ItemInfo = ["L:51", "AR:92-103", "EV:92-103", "S:48", "D:48"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Legacy of Fury"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Maven"]
 SpecificCards = []
 GambleCards = ["The Leviathan"]
@@ -527,35 +527,35 @@ Owned = true
 Class = "Boots"
 BaseType = "Darksteel Treads"
 ItemInfo = ["L:50", "AR:164-189", "S:89", "IM:(4-5)% Chance to Block Attack Damage & You take 20% of Damage from Blocked Hits"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Nightwind Slippers"
 ItemInfo = ["L:50","ES:34-39", "I:89", "IM:10% reduced Movement Speed & (30-40)% increased Cooldown Recovery Rate of Movement Skills"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Windbreak Boots"
 ItemInfo = ["L:50","D:89", "IM:1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating & 25% less Accuracy Rating"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Soldier Boots"
 ItemInfo = ["L:49", "AR:88-99", "ES:18-20", "S:47", "I:47"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Alberon's Warpath"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Alberon's Warpath"
-Value = 9999
+ValueTier = 100
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -565,11 +565,11 @@ Owned = false
 Class = "Boots"
 BaseType = "Runic Sollerets"
 ItemInfo = ["L:48","W:62-71", "S:37", "D:37", "I:37"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Olroth's Charge"
 DropsFrom = ["Olroth (Expedition Logbook)"]
-Value = 9999
+ValueTier = 10
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -579,23 +579,23 @@ Owned = false
 Class = "Boots"
 BaseType = "Ambush Boots"
 ItemInfo = ["L:47","EV:85-95", "ES:18-20", "D:45", "I:45"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Ancient Greaves"
 ItemInfo = ["L:46", "AR:151-174", "S:82"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Redblade Tramplers"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Redblade Warbands"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 Name = "Kahuturoa's Certainty"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -605,16 +605,16 @@ Owned = true
 Class = "Boots"
 BaseType = "Samite Slippers"
 ItemInfo = ["L:44","ES:30-35", "I:79"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Sharkskin Boots"
 ItemInfo = ["L:44","EV:145-171", "D:79"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "The Blood Dance"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -624,10 +624,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Serpentscale Boots"
 ItemInfo = ["L:42", "AR:76-90", "EV:76-90", "S:40", "D:40"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Mutewind Whispersteps"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Mutewind warband"]
 SpecificCards = []
 GambleCards = []
@@ -637,10 +637,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Trapper Boots"
 ItemInfo = ["L:41", "AR:74-85", "EV:16-18", "D:40", "I:40"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Brinerot Whalers"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Brinerot Warband monsters"]
 SpecificCards = []
 GambleCards = []
@@ -650,23 +650,23 @@ Owned = true
 Class = "Boots"
 BaseType = "Zealot Boots"
 ItemInfo = ["L:40", "AR:73-87", "ES:15-18", "S:39", "I:39"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Scholar Boots"
 ItemInfo = ["L:32","ES:23-25", "I:59"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Shavronne's Pace"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Aesthete", "The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Disabled.Unique]
 Name = "Shavronne's Gambit"
-Value = 9999
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -676,10 +676,10 @@ Owned = false
 Class = "Boots"
 BaseType = "Nubuck Boots"
 ItemInfo = ["L:34","EV:113-126", "D:62"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Goldwyrm"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -689,10 +689,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Riveted Boots"
 ItemInfo = ["L:36", "AR:65-71", "ES:14-15", "S:35", "I:35"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Ralakesh's Impatience"
-Value = 9999
+ValueTier = 1000
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -702,16 +702,16 @@ Owned = true
 Class = "Boots"
 BaseType = "Steelscale Boots"
 ItemInfo = ["L:36", "AR:65-75", "EV:65-75", "S:35", "D:35"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Eelskin Boots"
 ItemInfo = ["L:39","EV:129-148", "D:70"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Orbala's Stand"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -721,16 +721,16 @@ Owned = true
 Class = "Boots"
 BaseType = "Satin Slippers"
 ItemInfo = ["L:38","ES:26-30", "I:69"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Antique Greaves"
 ItemInfo = ["L:37", "AR:122-144", "S:67"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Torchoak Step"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -740,10 +740,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Shackled Boots"
 ItemInfo = ["L:34","EV:62-71", "ES:13-15", "D:34", "I:34"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Veruso's Ambition"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -753,17 +753,17 @@ Owned = false
 Class = "Boots"
 BaseType = "Reinforced Greaves"
 ItemInfo = ["L:33", "AR:109-120", "S:61"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Windscream"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Disabled.Unique]
 Name = "Windshriek"
-Value = 9999
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -773,17 +773,17 @@ Owned = false
 Class = "Boots"
 BaseType = "Bronzescale Boots"
 ItemInfo = ["L:30", "AR:55-63", "EV:55-63", "S:30", "D:30"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Lioneye's Paws"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Lion", "The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Lioneye's Paws"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -793,10 +793,10 @@ Owned = false
 Class = "Boots"
 BaseType = "Mesh Boots"
 ItemInfo = ["L:28", "AR:51-64", "ES:11-14", "S:28", "I:28"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Wake of Destruction"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Scarred Meadow"]
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -806,17 +806,17 @@ Owned = true
 Class = "Boots"
 BaseType = "Clasped Boots"
 ItemInfo = ["L:27", "AR:50-57", "EV:11-12", "D:27", "I:27"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Sundance"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Disabled.Unique]
 Name = "Sunspite"
-Value = 9999
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -826,16 +826,16 @@ Owned = false
 Class = "Boots"
 BaseType = "Runic Greaves"
 ItemInfo = ["L:24","W:24-28", "S:20", "D:20", "I:20"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Plated Greaves"
 ItemInfo = ["L:23", "AR:77-96", "S:44"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Stormcharger"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -845,10 +845,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Deerskin Boots"
 ItemInfo = ["L:22","EV:74-92", "D:42"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Deerstalker"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -858,17 +858,17 @@ Owned = true
 Class = "Boots"
 BaseType = "Silk Slippers"
 ItemInfo = ["L:22","ES:17-21", "I:42"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Bones of Ullr"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Bones of Ullr"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -878,35 +878,35 @@ Owned = true
 Class = "Boots"
 BaseType = "Basemetal Treads"
 ItemInfo = ["L:20", "AR:68-78", "S:39", "IM:(4-5)% Chance to Block Attack Damage & You take 20% of Damage from Blocked Hits"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Cloudwhisper Boots"
 ItemInfo = ["L:20","D:39", "IM:1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating & 25% less Accuracy Rating"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Duskwalk Slippers"
 ItemInfo = ["L:20","ES:15-18", "I:39", "IM:10% reduced Movement Speed & (30-40)% increased Cooldown Recovery Rate of Movement Skills"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Ironscale Boots"
 ItemInfo = ["L:18", "AR:34-44", "EV:34-44", "S:19", "D:19"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Dusktoe"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Disabled.Unique]
 Name = "Duskblight"
-Value = 9999
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -916,10 +916,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Strapped Boots"
 ItemInfo = ["L:16", "AR:30-39", "EV:7-9", "D:18", "I:18"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Nomic's Storm"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -929,23 +929,23 @@ Owned = true
 Class = "Boots"
 BaseType = "Ringmail Boots"
 ItemInfo = ["L:13", "AR:25-32", "EV:6-8", "S:15", "I:15"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Goathide Boots"
 ItemInfo = ["L:12","EV:42-54", "D:26"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Abberath's Hooves"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Victario's Flight"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -955,11 +955,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Golden Caligae"
 ItemInfo = ["L:12","IM:(8-16)% to all Elemental Resistances"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Demigod's Stride"
-ItemInfo = []
-Value = 9999
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -969,23 +968,23 @@ Owned = false
 Class = "Boots"
 BaseType = "Steel Greaves"
 ItemInfo = ["L:9", "AR:32-42", "S:21"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Velvet Slippers"
 ItemInfo = ["L:9","ES:8-11", "I:21"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Wondertrap"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Disabled.Unique]
 Name = "Greedtrap"
-Value = 9999
+ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
@@ -995,34 +994,34 @@ Owned = false
 Class = "Boots"
 BaseType = "Leatherscale Boots"
 ItemInfo = ["L:6", "AR:12-17", "EV:12-17", "S:9", "D:9"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Wrapped Boots"
 ItemInfo = ["L:6", "AR:12-17", "EV:4-5", "D:9", "I:9"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Chain Boots"
 ItemInfo = ["L:5", "AR:11-15", "ES:3-5", "S:8", "I:8"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Iron Greaves"
 ItemInfo = ["L:1", "AR:6-9", "S:8"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Boots"
 BaseType = "Rawhide Boots"
 ItemInfo = ["L:1","EV:13-18", "D:11"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Seven-League Step"
-Value = 9999
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Escape"]
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1032,10 +1031,10 @@ Owned = true
 Class = "Boots"
 BaseType = "Wool Shoes"
 ItemInfo = ["L:1","ES:5-7", "I:11"]
-ShowRarity = ["Normal", "Magic", "Rare", "Unique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Wanderlust"
-Value = 9999
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]

@@ -1,37 +1,41 @@
 [[Equipment]]
 Class = "Wands"
 BaseType = "Convoking Wand"
-ItemInfo = ["L:72", "D:30-55", "C:7.00%", "IM:Minions deal (26-30)% increased Damage"]
+DropLevel = 72
+ItemInfo = ["D:30-55", "C:7.00%", "AS:1.50", "IM:Minions deal (26-30)% increased Damage"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Accumulator Wand"
-ItemInfo = ["L:70", "D:29-54", "C:7.50%", "IM:Gain 2 Endurance, Frenzy or Power Charges every 6 seconds"]
+DropLevel = 70
+ItemInfo = ["D:29-54", "C:7.50%", "AS:1.50", "IM:Gain 2 Endurance, Frenzy or Power Charges every 6 seconds"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Profane Wand"
-ItemInfo = ["L:70", "D:33-61", "C:7.00%", "IM:14% increased Cast Speed"]
+DropLevel = 70
+ItemInfo = ["D:33-61", "C:7.00%", "AS:1.45", "IM:14% increased Cast Speed"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Prophecy Wand"
-ItemInfo = ["L:68", "D:35-64", "C:8.00%", "IM:(36-40)% increased Spell Damage"]
+DropLevel = 68
+ItemInfo = ["D:35-64", "C:8.00%", "AS:1.40", "IM:(36-40)% increased Spell Damage"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Grace of the Goddess"
 ValueTier = 100
-DropsFrom = ["Uber Maven"]
+DropsFrom = ["Uber Maven", "UniqueDropLevel:85"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Void Battery"
 ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:75"]
 SpecificCards = []
 GambleCards = ["The Traitor", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -39,12 +43,13 @@ Owned = true
 [[Equipment]]
 Class = "Wands"
 BaseType = "Tornado Wand"
-ItemInfo = ["L:65", "D:25-75", "C:7.00%", "IM:Adds (3-5) to (70-82) Lightning Damage to Spells and Attacks"]
+DropLevel = 65
+ItemInfo = ["D:25-75", "C:7.00%", "AS:1.45", "IM:Adds (3-5) to (70-82) Lightning Damage to Spells and Attacks"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Shimmeron"
 ValueTier = 0
-DropsFrom = ["Elder"]
+DropsFrom = ["Elder", "UniqueDropLevel:75"]
 SpecificCards = []
 GambleCards = []
 Owned = true
@@ -52,7 +57,8 @@ Owned = true
 [[Equipment]]
 Class = "Wands"
 BaseType = "Opal Wand"
-ItemInfo = ["L:62", "D:35-65", "C:7.00%", "IM:Adds (14-29) to (42-47) Cold Damage to Spells and Attacks"]
+DropLevel = 62
+ItemInfo = ["D:35-65", "C:7.00%", "AS:1.45", "IM:Adds (14-29) to (42-47) Cold Damage to Spells and Attacks"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Tulborn"
@@ -78,7 +84,8 @@ Owned = false
 [[Equipment]]
 Class = "Wands"
 BaseType = "Imbued Wand"
-ItemInfo = ["L:59", "D:29-53", "C:7.00%", "IM:(33-37)% increased Spell Damage"]
+DropLevel = 59
+ItemInfo = ["D:29-53", "C:7.00%", "AS:1.60", "IM:(33-37)% increased Spell Damage"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Moonsorrow"
@@ -105,19 +112,22 @@ Owned = true
 [[Equipment]]
 Class = "Wands"
 BaseType = "Demon's Horn"
-ItemInfo = ["L:56", "D:38-71", "C:7.00%", "IM:Adds (18-36) to (53-59) Fire Damage to Spells and Attacks"]
+DropLevel = 56
+ItemInfo = ["D:38-71", "C:7.00%", "AS:1.40", "IM:Adds (18-36) to (53-59) Fire Damage to Spells and Attacks"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Heathen Wand"
-ItemInfo = ["L:55", "D:31-57", "C:7.00%", "IM:10% increased Cast Speed"]
+DropLevel = 55
+ItemInfo = ["D:31-57", "C:7.00%", "AS:1.45", "IM:10% increased Cast Speed"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Omen Wand"
-ItemInfo = ["L:53", "D:33-61", "C:8.00%", "IM:(27-31)% increased Spell Damage"]
+DropLevel = 53
+ItemInfo = ["D:33-61", "C:8.00%", "AS:1.40", "IM:(27-31)% increased Spell Damage"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Apep's Rage"
@@ -130,25 +140,29 @@ Owned = true
 [[Equipment]]
 Class = "Wands"
 BaseType = "Congregator Wand"
-ItemInfo = ["L:50", "D:25-46", "C:7.50%", "IM:Gain an Endurance, Frenzy or Power Charge every 6 seconds"]
+DropLevel = 50
+ItemInfo = ["D:25-46", "C:7.50%", "AS:1.50", "IM:Gain an Endurance, Frenzy or Power Charge every 6 seconds"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Convening Wand"
-ItemInfo = ["L:50", "D:27-50", "C:7.00%", "IM:Minions deal (20-24)% increased Damage"]
+DropLevel = 50
+ItemInfo = ["D:27-50", "C:7.00%", "AS:1.50", "IM:Minions deal (20-24)% increased Damage"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Coiled Wand"
-ItemInfo = ["L:49", "D:21-64", "C:7.00%", "IM:Adds (1-2) to (22-24) Lightning Damage to Spells and Attacks"]
+DropLevel = 49
+ItemInfo = ["D:21-64", "C:7.00%", "AS:1.45", "IM:Adds (1-2) to (22-24) Lightning Damage to Spells and Attacks"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Crystal Wand"
-ItemInfo = ["L:45", "D:28-52", "C:7.00%", "IM:Adds (4-8) to (10-12) Cold Damage to Spells and Attacks"]
+DropLevel = 45
+ItemInfo = ["D:28-52", "C:7.00%", "AS:1.45", "IM:Adds (4-8) to (10-12) Cold Damage to Spells and Attacks"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Corona Solaris"
@@ -161,7 +175,8 @@ Owned = false
 [[Equipment]]
 Class = "Wands"
 BaseType = "Engraved Wand"
-ItemInfo = ["L:40", "D:21-38", "C:7.00%", "IM:(22-26)% increased Spell Damage"]
+DropLevel = 40
+ItemInfo = ["D:21-38", "C:7.00%", "AS:1.60", "IM:(22-26)% increased Spell Damage"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Eclipse Solaris"
@@ -188,25 +203,29 @@ Owned = true
 [[Equipment]]
 Class = "Wands"
 BaseType = "Faun's Horn"
-ItemInfo = ["L:35", "D:26-48", "C:7.00%", "IM:Adds (5-10) to (11-13) Fire Damage to Spells and Attacks"]
+DropLevel = 35
+ItemInfo = ["D:26-48", "C:7.00%", "AS:1.40", "IM:Adds (5-10) to (11-13) Fire Damage to Spells and Attacks"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Pagan Wand"
-ItemInfo = ["L:34", "D:22-40", "C:7.00%", "IM:10% increased Cast Speed"]
+DropLevel = 34
+ItemInfo = ["D:22-40", "C:7.00%", "AS:1.45", "IM:10% increased Cast Speed"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Assembler Wand"
-ItemInfo = ["L:30", "D:16-30", "C:7.50%", "IM:Gain an Endurance, Frenzy or Power Charge every 6 seconds"]
+DropLevel = 30
+ItemInfo = ["D:16-30", "C:7.50%", "AS:1.50", "IM:Gain an Endurance, Frenzy or Power Charge every 6 seconds"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Sage Wand"
-ItemInfo = ["L:30", "D:23-42", "C:8.00%", "IM:(17-21)% increased Spell Damage"]
+DropLevel = 30
+ItemInfo = ["D:23-42", "C:8.00%", "AS:1.40", "IM:(17-21)% increased Spell Damage"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Relic of the Pact"
@@ -240,13 +259,15 @@ Owned = true
 [[Equipment]]
 Class = "Wands"
 BaseType = "Calling Wand"
-ItemInfo = ["L:20", "D:13-25", "C:7.00%", "IM:Minions deal (12-16)% increased Damage"]
+DropLevel = 20
+ItemInfo = ["D:13-25", "C:7.00%", "AS:1.50", "IM:Minions deal (12-16)% increased Damage"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Spiraled Wand"
-ItemInfo = ["L:24", "D:12-37", "C:7.00%", "IM:Adds (1-2) to (9-11) Lightning Damage to Spells and Attacks"]
+DropLevel = 24
+ItemInfo = ["D:12-37", "C:7.00%", "AS:1.45", "IM:Adds (1-2) to (9-11) Lightning Damage to Spells and Attacks"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Reverberation Rod"
@@ -273,13 +294,15 @@ Owned = false
 [[Equipment]]
 Class = "Wands"
 BaseType = "Quartz Wand"
-ItemInfo = ["L:18", "D:14-27", "C:7.00%", "IM:Adds (2-3) to (4-7) Cold Damage to Spells and Attacks"]
+DropLevel = 18
+ItemInfo = ["D:14-27", "C:7.00%", "AS:1.45", "IM:Adds (2-3) to (4-7) Cold Damage to Spells and Attacks"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wands"
 BaseType = "Carved Wand"
-ItemInfo = ["L:12", "D:9-17", "C:7.00%", "IM:(11-15)% increased Spell Damage"]
+DropLevel = 12
+ItemInfo = ["D:9-17", "C:7.00%", "AS:1.60", "IM:(11-15)% increased Spell Damage"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Ashcaller"
@@ -299,7 +322,8 @@ Owned = true
 [[Equipment]]
 Class = "Wands"
 BaseType = "Goat's Horn"
-ItemInfo = ["L:6", "D:9-16", "C:7.00%", "IM:Adds (1-2) to (3-4) Fire Damage to Spells and Attacks"]
+DropLevel = 6
+ItemInfo = ["D:9-16", "C:7.00%", "AS:1.40", "IM:Adds (1-2) to (3-4) Fire Damage to Spells and Attacks"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Abberath's Horn"
@@ -312,7 +336,8 @@ Owned = true
 [[Equipment]]
 Class = "Wands"
 BaseType = "Driftwood Wand"
-ItemInfo = ["L:1", "D:5-9", "C:7.00%", "IM:(8-12)% increased Spell Damage"]
+DropLevel = 1
+ItemInfo = ["D:5-9", "C:7.00%", "AS:1.50", "IM:(8-12)% increased Spell Damage"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Lifesprig"

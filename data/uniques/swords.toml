@@ -1,51 +1,57 @@
-
-
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Dragoon Sword"
-ItemInfo = ["L:72", "D:32-66", "C:6.00%", "IM:20% chance to cause Bleeding on Hit"]
+DropLevel = 72
+ItemInfo = ["D:32-66", "C:6.00%", "AS:1.50", "IM:20% chance to cause Bleeding on Hit"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Anarchic Spiritblade"
-ItemInfo = ["L:70", "D:34-63", "C:6.50%", "IM:100% of Physical Damage from Hits with this Weapon is Converted to a random Element"]
+DropLevel = 70
+ItemInfo = ["D:34-63", "C:6.50%", "AS:1.60", "IM:100% of Physical Damage from Hits with this Weapon is Converted to a random Element"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Exquisite Blade"
-ItemInfo = ["L:70", "D:67-112", "C:5.70%", "IM:+50% to Global Critical Strike Multiplier"]
+DropLevel = 70
+ItemInfo = ["D:67-112", "C:5.70%", "AS:1.35", "IM:+50% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Banishing Blade"
-ItemInfo = ["L:70", "D:55-102", "C:6.50%", "IM:Attack Critical Strikes ignore Enemy Monster Elemental Resistances"]
+DropLevel = 70
+ItemInfo = ["D:55-102", "C:6.50%", "AS:1.40", "IM:Attack Critical Strikes ignore Enemy Monster Elemental Resistances"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Harpy Rapier"
-ItemInfo = ["L:70", "D:31-72", "C:5.70%", "IM:+35% to Global Critical Strike Multiplier"]
+DropLevel = 70
+ItemInfo = ["D:31-72", "C:5.70%", "AS:1.40", "IM:+35% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Tiger Hook"
-ItemInfo = ["L:70", "D:37-80", "C:5.00%", "IM:20% chance to Maim on Hit"]
+DropLevel = 70
+ItemInfo = ["D:37-80", "C:5.00%", "AS:1.40", "IM:20% chance to Maim on Hit"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Jewelled Foil"
-ItemInfo = ["L:68", "D:32-60", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 68
+ItemInfo = ["D:32-60", "C:5.50%", "AS:1.60", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Midnight Blade"
-ItemInfo = ["L:68", "D:35-99", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 68
+ItemInfo = ["D:35-99", "C:5.00%", "AS:1.30", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Ahn's Might"
@@ -57,7 +63,7 @@ Owned = true
 [Equipment.Unique]
 Name = "Razor of the Seventh Sun"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:77"]
 SpecificCards = []
 GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
@@ -72,7 +78,8 @@ Owned = true
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Infernal Sword"
-ItemInfo = ["L:67", "D:62-129", "C:5.00%", "IM:30% increased Elemental Damage with Attack Skills"]
+DropLevel = 67
+ItemInfo = ["D:62-129", "C:5.00%", "AS:1.35", "IM:30% increased Elemental Damage with Attack Skills"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Oro's Sacrifice"
@@ -113,12 +120,13 @@ Owned = false
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Eternal Sword"
-ItemInfo = ["L:66", "D:41-68", "C:5.00%", "IM:+475 to Accuracy Rating"]
+DropLevel = 66
+ItemInfo = ["D:41-68", "C:5.00%", "AS:1.50", "IM:+475 to Accuracy Rating"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Beltimber Blade"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:77"]
 SpecificCards = []
 GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
@@ -139,14 +147,14 @@ Owned = true
 [Equipment.Unique]
 Name = "Grelwood Shank"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:77"]
 SpecificCards = []
 GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Disabled.Unique]
 Name = "The Goddess Unleashed"
 ValueTier = -1
-DropsFrom = []
+DropsFrom = ["UniqueDropLevel:66"]
 SpecificCards = []
 GambleCards = []
 Owned = false
@@ -154,12 +162,13 @@ Owned = false
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Vaal Rapier"
-ItemInfo = ["L:66", "D:22-87", "C:6.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 66
+ItemInfo = ["D:22-87", "C:6.50%", "AS:1.30", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Paradoxica"
 ValueTier = 1337
-DropsFrom = ["Intervention Safehouses"]
+DropsFrom = ["Intervention Safehouses", "UniqueDropLevel:78"]
 SpecificCards = []
 GambleCards = []
 Owned = false
@@ -174,7 +183,8 @@ Owned = false
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Jewelled Foil"
-ItemInfo = ["L:68", "D:32-60", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 68
+ItemInfo = ["D:32-60", "C:5.50%", "AS:1.60", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Cospri's Malice"
@@ -187,7 +197,8 @@ Owned = true
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Lion Sword"
-ItemInfo = ["L:65", "D:69-115", "C:5.00%", "IM:+50 to Strength and Dexterity"]
+DropLevel = 65
+ItemInfo = ["D:69-115", "C:5.00%", "AS:1.45", "IM:+50 to Strength and Dexterity"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Doomsower"
@@ -200,13 +211,15 @@ Owned = true
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Spiraled Foil"
-ItemInfo = ["L:64", "D:27-64", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 64
+ItemInfo = ["D:27-64", "C:5.50%", "AS:1.60", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Vaal Blade"
-ItemInfo = ["L:64", "D:46-86", "C:5.00%", "IM:+460 to Accuracy Rating"]
+DropLevel = 64
+ItemInfo = ["D:46-86", "C:5.00%", "AS:1.30", "IM:+460 to Accuracy Rating"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Rebuke of the Vaal"
@@ -226,13 +239,15 @@ Owned = false
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Vaal Greatsword"
-ItemInfo = ["L:63", "D:68-142", "C:5.00%", "IM:+470 to Accuracy Rating"]
+DropLevel = 63
+ItemInfo = ["D:68-142", "C:5.00%", "AS:1.30", "IM:+470 to Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Legion Sword"
-ItemInfo = ["L:62", "D:53-98", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 62
+ItemInfo = ["D:53-98", "C:5.00%", "AS:1.20", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Hyaon's Fury"
@@ -266,13 +281,15 @@ Owned = false
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Pecoraro"
-ItemInfo = ["L:62", "D:29-69", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 62
+ItemInfo = ["D:29-69", "C:5.50%", "AS:1.50", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Ezomyte Blade"
-ItemInfo = ["L:61", "D:62-115", "C:6.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 61
+ItemInfo = ["D:62-115", "C:6.50%", "AS:1.40", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Kondo's Pride"
@@ -292,13 +309,15 @@ Owned = false
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Tempered Foil"
-ItemInfo = ["L:60", "D:35-65", "C:6.00%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 60
+ItemInfo = ["D:35-65", "C:6.00%", "AS:1.40", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Gladius"
-ItemInfo = ["L:60", "D:54-78", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 60
+ItemInfo = ["D:54-78", "C:5.00%", "AS:1.30", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "1"
@@ -325,7 +344,8 @@ Owned = false
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Reaver Sword"
-ItemInfo = ["L:59", "D:62-104", "C:5.00%", "IM:60% increased Global Accuracy Rating"]
+DropLevel = 59
+ItemInfo = ["D:62-104", "C:5.00%", "AS:1.50", "IM:60% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Hiltless"
@@ -352,7 +372,8 @@ Owned = false
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Corsair Sword"
-ItemInfo = ["L:58", "D:20-80", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 58
+ItemInfo = ["D:20-80", "C:5.00%", "AS:1.55", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Ichimonji"
@@ -365,25 +386,29 @@ Owned = true
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Dragonbone Rapier"
-ItemInfo = ["L:58", "D:19-75", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 58
+ItemInfo = ["D:19-75", "C:5.50%", "AS:1.50", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Courtesan Sword"
-ItemInfo = ["L:57", "D:29-60", "C:6.00%", "IM:15% chance to cause Bleeding on Hit"]
+DropLevel = 57
+ItemInfo = ["D:29-60", "C:6.00%", "AS:1.55", "IM:15% chance to cause Bleeding on Hit"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Headman's Sword"
-ItemInfo = ["L:57", "D:55-128", "C:5.00%", "IM:+400 to Accuracy Rating"]
+DropLevel = 57
+ItemInfo = ["D:55-128", "C:5.00%", "AS:1.30", "IM:+400 to Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Gemstone Sword"
-ItemInfo = ["L:56", "D:39-83", "C:5.00%", "IM:+400 to Accuracy Rating"]
+DropLevel = 56
+ItemInfo = ["D:39-83", "C:5.00%", "AS:1.30", "IM:+400 to Accuracy Rating"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Fate of the Vaal"
@@ -403,31 +428,36 @@ Owned = false
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Lithe Blade"
-ItemInfo = ["L:56", "D:63-104", "C:6.00%", "IM:+40% to Global Critical Strike Multiplier"]
+DropLevel = 56
+ItemInfo = ["D:63-104", "C:6.00%", "AS:1.35", "IM:+40% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Apex Rapier"
-ItemInfo = ["L:55", "D:29-67", "C:5.70%", "IM:+35% to Global Critical Strike Multiplier"]
+DropLevel = 55
+ItemInfo = ["D:29-67", "C:5.70%", "AS:1.40", "IM:+35% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Grappler"
-ItemInfo = ["L:55", "D:44-94", "C:5.00%", "IM:15% chance to Maim on Hit"]
+DropLevel = 55
+ItemInfo = ["D:44-94", "C:5.00%", "AS:1.15", "IM:15% chance to Maim on Hit"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Wraith Sword"
-ItemInfo = ["L:54", "D:52-109", "C:5.00%", "IM:45% increased Global Accuracy Rating"]
+DropLevel = 54
+ItemInfo = ["D:52-109", "C:5.00%", "AS:1.35", "IM:45% increased Global Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Twilight Blade"
-ItemInfo = ["L:53", "D:30-86", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 53
+ItemInfo = ["D:30-86", "C:5.00%", "AS:1.30", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Prismatic Eclipse"
@@ -440,13 +470,15 @@ Owned = true
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Fancy Foil"
-ItemInfo = ["L:52", "D:28-51", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 52
+ItemInfo = ["D:28-51", "C:5.50%", "AS:1.60", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Tiger Sword"
-ItemInfo = ["L:51", "D:54-89", "C:5.00%", "IM:+360 to Accuracy Rating"]
+DropLevel = 51
+ItemInfo = ["D:54-89", "C:5.00%", "AS:1.40", "IM:+360 to Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Terminus Est"
@@ -459,19 +491,22 @@ Owned = true
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Blasting Blade"
-ItemInfo = ["L:50", "D:47-87", "C:6.50%", "IM:Attack Critical Strikes ignore Enemy Monster Elemental Resistances"]
+DropLevel = 50
+ItemInfo = ["D:47-87", "C:6.50%", "AS:1.40", "IM:Attack Critical Strikes ignore Enemy Monster Elemental Resistances"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Capricious Spiritblade"
-ItemInfo = ["L:50", "D:27-51", "C:6.50%", "IM:100% of Physical Damage from Hits with this Weapon is Converted to a random Element"]
+DropLevel = 50
+ItemInfo = ["D:27-51", "C:6.50%", "AS:1.60", "IM:100% of Physical Damage from Hits with this Weapon is Converted to a random Element"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Graceful Sword"
-ItemInfo = ["L:50", "D:34-55", "C:5.00%", "IM:+350 to Accuracy Rating"]
+DropLevel = 50
+ItemInfo = ["D:34-55", "C:5.00%", "AS:1.50", "IM:+350 to Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Nametaker"
@@ -484,18 +519,20 @@ Owned = true
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Primeval Rapier"
-ItemInfo = ["L:49", "D:18-73", "C:6.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 49
+ItemInfo = ["D:18-73", "C:6.50%", "AS:1.30", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Engraved Greatsword"
-ItemInfo = ["L:48", "D:49-102", "C:5.00%", "IM:60% increased Global Accuracy Rating"]
+DropLevel = 48
+ItemInfo = ["D:49-102", "C:5.00%", "AS:1.30", "IM:60% increased Global Accuracy Rating"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Rakiata's Dance"
 ValueTier = 100
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:70"]
 SpecificCards = []
 GambleCards = ["The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
@@ -503,7 +540,8 @@ Owned = false
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Elder Sword"
-ItemInfo = ["L:47", "D:36-66", "C:5.00%", "IM:+330 to Accuracy Rating"]
+DropLevel = 47
+ItemInfo = ["D:36-66", "C:5.00%", "AS:1.30", "IM:+330 to Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Innsbury Edge"
@@ -523,24 +561,27 @@ Owned = true
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Serrated Foil"
-ItemInfo = ["L:46", "D:21-49", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 46
+ItemInfo = ["D:21-49", "C:5.50%", "AS:1.60", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Battle Sword"
-ItemInfo = ["L:44", "D:38-70", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 44
+ItemInfo = ["D:38-70", "C:5.00%", "AS:1.20", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Highland Blade"
-ItemInfo = ["L:44", "D:45-84", "C:5.00%", "IM:+305 to Accuracy Rating"]
+DropLevel = 44
+ItemInfo = ["D:45-84", "C:5.00%", "AS:1.35", "IM:+305 to Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Rigwald's Charge"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:77"]
 SpecificCards = []
 GambleCards = ["The Wolf", "The Gentleman", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -548,7 +589,8 @@ Owned = true
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Estoc"
-ItemInfo = ["L:43", "D:21-50", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 43
+ItemInfo = ["D:21-50", "C:5.50%", "AS:1.50", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Daresso's Passion"
@@ -561,25 +603,29 @@ Owned = true
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Baselard"
-ItemInfo = ["L:41", "D:37-53", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 41
+ItemInfo = ["D:37-53", "C:5.00%", "AS:1.30", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Burnished Foil"
-ItemInfo = ["L:40", "D:25-46", "C:6.00%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 40
+ItemInfo = ["D:25-46", "C:6.00%", "AS:1.40", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Footman Sword"
-ItemInfo = ["L:40", "D:39-65", "C:5.00%", "IM:60% increased Global Accuracy Rating"]
+DropLevel = 40
+ItemInfo = ["D:39-65", "C:5.00%", "AS:1.45", "IM:60% increased Global Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Cutlass"
-ItemInfo = ["L:38", "D:13-53", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 38
+ItemInfo = ["D:13-53", "C:5.00%", "AS:1.55", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Severed in Sleep"
@@ -599,49 +645,57 @@ Owned = false
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Wyrmbone Rapier"
-ItemInfo = ["L:37", "D:13-51", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 37
+ItemInfo = ["D:13-51", "C:5.50%", "AS:1.50", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Butcher Sword"
-ItemInfo = ["L:36", "D:34-79", "C:5.00%", "IM:+250 to Accuracy Rating"]
+DropLevel = 36
+ItemInfo = ["D:34-79", "C:5.00%", "AS:1.30", "IM:+250 to Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Smallsword"
-ItemInfo = ["L:36", "D:19-40", "C:6.00%", "IM:15% chance to cause Bleeding on Hit"]
+DropLevel = 36
+ItemInfo = ["D:19-40", "C:6.00%", "AS:1.55", "IM:15% chance to cause Bleeding on Hit"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Curved Blade"
-ItemInfo = ["L:35", "D:41-68", "C:6.00%", "IM:+40% to Global Critical Strike Multiplier"]
+DropLevel = 35
+ItemInfo = ["D:41-68", "C:6.00%", "AS:1.35", "IM:+40% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Variscite Blade"
-ItemInfo = ["L:35", "D:25-53", "C:5.00%", "IM:+240 to Accuracy Rating"]
+DropLevel = 35
+ItemInfo = ["D:25-53", "C:5.00%", "AS:1.30", "IM:+240 to Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Hook Sword"
-ItemInfo = ["L:34", "D:28-60", "C:5.00%", "IM:15% chance to Maim on Hit"]
+DropLevel = 34
+ItemInfo = ["D:28-60", "C:5.00%", "AS:1.15", "IM:15% chance to Maim on Hit"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Thorn Rapier"
-ItemInfo = ["L:34", "D:19-44", "C:5.70%", "IM:+35% to Global Critical Strike Multiplier"]
+DropLevel = 34
+ItemInfo = ["D:19-44", "C:5.70%", "AS:1.40", "IM:+35% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Dusk Blade"
-ItemInfo = ["L:32", "D:19-54", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 32
+ItemInfo = ["D:19-54", "C:5.00%", "AS:1.30", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Ephemeral Edge"
@@ -654,13 +708,15 @@ Owned = true
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Spectral Sword"
-ItemInfo = ["L:32", "D:31-65", "C:5.00%", "IM:45% increased Global Accuracy Rating"]
+DropLevel = 32
+ItemInfo = ["D:31-65", "C:5.00%", "AS:1.35", "IM:45% increased Global Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Elegant Foil"
-ItemInfo = ["L:30", "D:18-33", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 30
+ItemInfo = ["D:18-33", "C:5.50%", "AS:1.60", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Chitus' Needle"
@@ -673,19 +729,22 @@ Owned = false
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Fickle Spiritblade"
-ItemInfo = ["L:30", "D:18-33", "C:6.50%", "IM:100% of Physical Damage from Hits with this Weapon is Converted to a random Element"]
+DropLevel = 30
+ItemInfo = ["D:18-33", "C:6.50%", "AS:1.60", "IM:100% of Physical Damage from Hits with this Weapon is Converted to a random Element"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Rebuking Blade"
-ItemInfo = ["L:30", "D:30-56", "C:6.50%", "IM:Attack Critical Strikes ignore Enemy Monster Elemental Resistances"]
+DropLevel = 30
+ItemInfo = ["D:30-56", "C:6.50%", "AS:1.40", "IM:Attack Critical Strikes ignore Enemy Monster Elemental Resistances"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Elegant Sword"
-ItemInfo = ["L:28", "D:20-33", "C:5.00%", "IM:+190 to Accuracy Rating"]
+DropLevel = 28
+ItemInfo = ["D:20-33", "C:5.00%", "AS:1.50", "IM:+190 to Accuracy Rating"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Lakishu's Blade"
@@ -705,7 +764,8 @@ Owned = false
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Ornate Sword"
-ItemInfo = ["L:27", "D:30-50", "C:5.00%", "IM:+185 to Accuracy Rating"]
+DropLevel = 27
+ItemInfo = ["D:30-50", "C:5.00%", "AS:1.40", "IM:+185 to Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Queen's Decree"
@@ -725,7 +785,8 @@ Owned = false
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Antique Rapier"
-ItemInfo = ["L:26", "D:12-46", "C:6.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 26
+ItemInfo = ["D:12-46", "C:6.50%", "AS:1.30", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Ewar's Mirage"
@@ -738,13 +799,15 @@ Owned = true
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Ancient Sword"
-ItemInfo = ["L:24", "D:18-33", "C:5.00%", "IM:+165 to Accuracy Rating"]
+DropLevel = 24
+ItemInfo = ["D:18-33", "C:5.00%", "AS:1.45", "IM:+165 to Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Etched Greatsword"
-ItemInfo = ["L:22", "D:23-48", "C:5.00%", "IM:60% increased Global Accuracy Rating"]
+DropLevel = 22
+ItemInfo = ["D:23-48", "C:5.00%", "AS:1.40", "IM:60% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Edge of Madness"
@@ -757,7 +820,8 @@ Owned = true
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Jagged Foil"
-ItemInfo = ["L:22", "D:12-29", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 22
+ItemInfo = ["D:12-29", "C:5.50%", "AS:1.60", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Fidelitas' Spike"
@@ -770,7 +834,8 @@ Owned = true
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "War Sword"
-ItemInfo = ["L:20", "D:16-30", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 20
+ItemInfo = ["D:16-30", "C:5.00%", "AS:1.40", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Tempestuous Steel"
@@ -790,7 +855,8 @@ Owned = true
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Basket Rapier"
-ItemInfo = ["L:17", "D:11-25", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 17
+ItemInfo = ["D:11-25", "C:5.50%", "AS:1.55", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Aurumvorax"
@@ -803,19 +869,22 @@ Owned = true
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Two-Handed Sword"
-ItemInfo = ["L:17", "D:20-38", "C:5.00%", "IM:+120 to Accuracy Rating"]
+DropLevel = 17
+ItemInfo = ["D:20-38", "C:5.00%", "AS:1.40", "IM:+120 to Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Broad Sword"
-ItemInfo = ["L:15", "D:15-21", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 15
+ItemInfo = ["D:15-21", "C:5.00%", "AS:1.45", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Bastard Sword"
-ItemInfo = ["L:12", "D:17-29", "C:5.00%", "IM:60% increased Global Accuracy Rating"]
+DropLevel = 12
+ItemInfo = ["D:17-29", "C:5.00%", "AS:1.45", "IM:60% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Shiversting"
@@ -828,13 +897,15 @@ Owned = true
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Battered Foil"
-ItemInfo = ["L:12", "D:11-20", "C:6.00%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 12
+ItemInfo = ["D:11-20", "C:6.00%", "AS:1.50", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Sabre"
-ItemInfo = ["L:10", "D:5-22", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 10
+ItemInfo = ["D:5-22", "C:5.00%", "AS:1.55", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Princess"
@@ -847,13 +918,15 @@ Owned = true
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Longsword"
-ItemInfo = ["L:8", "D:11-26", "C:5.00%", "IM:+60 to Accuracy Rating"]
+DropLevel = 8
+ItemInfo = ["D:11-26", "C:5.00%", "AS:1.40", "IM:+60 to Accuracy Rating"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
 BaseType = "Whalebone Rapier"
-ItemInfo = ["L:7", "D:4-17", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
+DropLevel = 7
+ItemInfo = ["D:4-17", "C:5.50%", "AS:1.60", "IM:+25% to Global Critical Strike Multiplier"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Goddess Bound"
@@ -866,26 +939,15 @@ Owned = true
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Copper Sword"
-ItemInfo = ["L:5", "D:6-14", "C:5.00%", "IM:+45 to Accuracy Rating"]
+DropLevel = 5
+ItemInfo = ["D:6-14", "C:5.00%", "AS:1.50", "IM:+45 to Accuracy Rating"]
 ShowRarity = []
-
-[[Equipment]]
-Class = "One Hand Swords"
-BaseType = "Charan's Sword"
-ItemInfo = ["L:1", "D:5-11", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
-ShowRarity = []
-[Equipment.Unique]
-Name = "Oni-Goroshi"
-ValueTier = 100
-DropsFrom = ["Map or Uber Hillock"]
-SpecificCards = ["Rebirth"]
-GambleCards = []
-Owned = true
 
 [[Equipment]]
 Class = "Two Hand Swords"
 BaseType = "Corroded Blade"
-ItemInfo = ["L:1", "D:8-16", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 3
+ItemInfo = ["D:8-16", "C:5.00%", "AS:1.45", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Thunder of the Dawn"
@@ -895,11 +957,33 @@ SpecificCards = []
 GambleCards = []
 Owned = false
 
+[[Equipment]]
+Class = "Thrusting One Hand Swords"
+BaseType = "Rusted Spike"
+DropLevel = 3
+ItemInfo = ["D:5-11", "C:5.50%", "AS:1.55", "IM:+25% to Global Critical Strike Multiplier"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Swords"
+BaseType = "Charan's Sword"
+DropLevel = 2
+ItemInfo = ["D:5-11", "C:5.00%", "AS:1.45", "IM:40% increased Global Accuracy Rating"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Oni-Goroshi"
+ValueTier = 100
+DropsFrom = ["Map or Uber Hillock"]
+SpecificCards = ["Rebirth"]
+GambleCards = []
+Owned = true
+
 [swords]
 [[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Golden Blade"
-ItemInfo = ["L:1", "D:3-23", "C:5.00%", "IM:(16-24) to all Attributes"]
+DropLevel = 1
+ItemInfo = ["D:3-23", "C:5.00%", "AS:1.10", "IM:(16-24) to all Attributes"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Demigod's Authority"
@@ -910,15 +994,10 @@ GambleCards = []
 Owned = false
 
 [[Equipment]]
-Class = "Thrusting One Hand Swords"
-BaseType = "Rusted Spike"
-ItemInfo = ["L:1", "D:5-11", "C:5.50%", "IM:+25% to Global Critical Strike Multiplier"]
-ShowRarity = []
-
-[[Equipment]]
 Class = "One Hand Swords"
 BaseType = "Rusted Sword"
-ItemInfo = ["L:1", "D:4-9", "C:5.00%", "IM:40% increased Global Accuracy Rating"]
+DropLevel = 1
+ItemInfo = ["D:4-9", "C:5.00%", "AS:1.55", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Redbeak"

@@ -1,304 +1,191 @@
+
 [[Equipment]]
-Class = "Ring"
-BaseType = "Breach Ring"
+Class = "Rings"
+BaseType = "Cerulean Ring"
+DropLevel = 80
+ItemInfo = "IM:(8-10)% increased maximum Mana"
 ShowRarity = []
 
 [[Equipment]]
-Class = "Ring"
-BaseType = "Coral Ring"
+Class = "Rings"
+BaseType = "Vermillion Ring"
+DropLevel = 80
+ItemInfo = "IM:(5-7)% increased maximum Life"
 ShowRarity = []
-[Equipment.Unique]
-Name = "Kaom's Sign"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Sibyl's Lament"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Winterweave"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Bloodboil"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Honoured Alliance"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Kaom's Way"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Disabled.Unique]
-Name = "Winterweave (fated)"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
 
 [[Equipment]]
-Class = "Ring"
-BaseType = "Iron Ring"
+Class = "Rings"
+BaseType = "Iolite Ring"
+DropLevel = 78
+ItemInfo = "IM:(17-23)% increased Chaos Damage"
 ShowRarity = []
-[Equipment.Unique]
-Name = "Blackheart"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Circle of Guilt"
-ValueTier = 10
-DropsFrom = ["Altered Distant Memory"]
-SpecificCards = []
-GambleCards = ["Chasing Risk"]
-Owned = true
-[Equipment.Unique]
-Name = "Icefang Orbit"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Le Heup of All"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The One With All"]
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Warden's Brand"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Venopuncture"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Voidheart"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
 
 [[Equipment]]
-Class = "Ring"
-BaseType = "Paua Ring"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Doedre's Damning"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Doedre's Madness", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Doedre's Damning"
-ValueTier = 0
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Unique]
-Name = "Fated End"
-ValueTier = 10
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Unique]
-Name = "Perandus Signet"
-ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-[Equipment.Unique]
-Name = "Praxis"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Soulbound"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Unset Ring"
+Class = "Rings"
+BaseType = "Opal Ring"
+DropLevel = 78
+ItemInfo = "IM:(15-25)% increased Elemental Damage"
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Angler's Plait"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = ["Baited Expectations"]
-Owned = false
-[Equipment.Unique]
-Name = "Brinerot Mark"
+Name = "Mark of the Shaper"
 ValueTier = 0
-DropsFrom = ["Brinerot Warband monsters"]
+DropsFrom = ["Uber Elder", "UniqueDropLevel:85"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
-Name = "Essence Worm"
+Name = "Stormfire"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:78"]
 SpecificCards = []
-GambleCards = ["The Penitent", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Malachai's Artifice"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Penitent", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Malachai's Artifice"
-ValueTier = 0
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = true
-[Equipment.Unique]
-Name = "Mark of Submission"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Penitent", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Mutewind Seal"
-ValueTier = 0
-DropsFrom = ["Mutewind warband leaders, Mutewind Delve Cache"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Profane Proxy"
+Name = "Polaric Devastation"
 ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Penitent", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Redblade Band"
-ValueTier = 0
-DropsFrom = ["Redblade Warbands"]
+DropsFrom = ["Tiny Exarch"]
 SpecificCards = []
 GambleCards = []
 Owned = false
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Steel Ring"
+DropLevel = 78
+ItemInfo = "IM:Adds (3-4) to (10-14) Physical Damage to Attacks"
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Rotblood Promise"
+Name = "Mark of the Elder"
+ValueTier = 0
+DropsFrom = ["Uber Elder", "UniqueDropLevel:85"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Helical Ring"
+DropLevel = 75
+ItemInfo = "IM:-2 Prefix Modifiers allowed & +1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 50% & increased Suffix Modifier magnitudes"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Manifold Ring"
+DropLevel = 75
+ItemInfo = "IM:+1 Prefix Modifier allowed & -2 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed & 50% increased Prefix Modifier magnitudes"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Cogwork Ring"
+DropLevel = 68
+ItemInfo = "IM:-1 Prefix Modifier allowed & +1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & & 25% increased Suffix Modifier magnitudes"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Composite Ring"
+DropLevel = 68
+ItemInfo = "IM:+3 Prefix Modifiers allowed & -3 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Geodesic Ring"
+DropLevel = 68
+ItemInfo = "IM:+1 Prefix Modifier allowed & -1 Suffix Modifier allowed & Implicit Modifiers Cannot Be Changed & 25% increased Prefix Modifier magnitudes"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Nameless Ring"
+DropLevel = 68
+ItemInfo = "IM:50% increased Elemental Ailment Duration on you 50% reduced Effect of Curses on you"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "The Queller of Minds"
 ValueTier = 0
 DropsFrom = ["Rituals"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
-Name = "The Hungry Loop"
+Name = "The Selfish Shepherd"
+ValueTier = 0
+DropsFrom = ["Rituals"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Hateful Accuser"
 ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Penitent", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Pariah"
-ValueTier = 0
-DropsFrom = ["Renegades warband and Renegades Delve Cache"]
+DropsFrom = ["Rituals", "UniqueDropLevel:68"]
 SpecificCards = []
 GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Triumvirate Authority"
-ValueTier = 0
-DropsFrom = ["Atziri (Apex or Incursion Throne of Atziri)"]
-SpecificCards = []
-GambleCards = ["The Admirer"]
-Owned = true
-[Equipment.Unique]
-Name = "Vivinsect"
-ValueTier = 0
-DropsFrom = ["Research Safehouses"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Voideye"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Penitent", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Voideye"
-ValueTier = 0
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
 Owned = false
 
 [[Equipment]]
-Class = "Ring"
-BaseType = "Sapphire Ring"
+Class = "Rings"
+BaseType = "Ratcheting Ring"
+DropLevel = 68
+ItemInfo = "IM:-3 Prefix Modifiers allowed & +3 Suffix Modifiers allowed & Implicit Modifiers Cannot Be Changed"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Amethyst Ring"
+DropLevel = 38
+ItemInfo = "IM:+(17-23)% to Chaos Resistance"
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Call of the Void"
-ValueTier = 10
-DropsFrom = ["Uber Uber Elder"]
+Name = "Blackflame"
+ValueTier = 0
+DropsFrom = ["Rituals"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
-Name = "Circle of Fear"
-ValueTier = 10
+Name = "Circle of Nostalgia"
+ValueTier = 100
 DropsFrom = ["Altered Distant Memory"]
 SpecificCards = []
 GambleCards = ["Chasing Risk"]
+Owned = false
+[Equipment.Unique]
+Name = "Death Rush"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:46"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Dream Fragments"
+Name = "Ming's Heart"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:65"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Original Sin"
+ValueTier = 1000
+DropsFrom = ["Sanctum (special expensive)", "UniqueDropLevel:83"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Prismatic Ring"
+DropLevel = 30
+ItemInfo = "IM:+(8-10)% to all Elemental Resistances"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Lori's Lantern"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Hope", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Precursor's Emblem"
@@ -308,63 +195,338 @@ SpecificCards = ["Remembrance"]
 GambleCards = []
 Owned = false
 [Equipment.Unique]
-Name = "Pyre"
+Name = "The Taming"
+ValueTier = 50
+DropsFrom = ["Crafted with Bereks"]
+SpecificCards = ["Hunter's Reward"]
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Thief's Torment"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hope", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Circle of Ambition"
+ValueTier = 50
+DropsFrom = ["Uber Venarius", "UniqueDropLevel:"]
+SpecificCards = []
+GambleCards = ["Chasing Risk"]
+Owned = false
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Bone Ring"
+DropLevel = 30
+ItemInfo = "IM:Minions have +(10-15)% to all Elemental Resistances"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Diamond Ring"
+DropLevel = 25
+ItemInfo = "IM:(20-30)% increased Global Critical Strike Chance"
+ShowRarity = ["Unique"]
+[Equipment.Unique]
+Name = "Gifts from Above"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Snakepit"
+Name = "Romira's Banquet"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Feast"]
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Grattus Signet"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
+Owned = false
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Dusk Ring"
+DropLevel = 25
+ItemInfo = "IM:Left ring slot: 15% reduced Skill Effect Duration Right ring slot: 15% increased Skill Effect Duration"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Gloam Ring"
+DropLevel = 25
+ItemInfo = "IM:Left ring slot: Minions take 15% reduced Damage Right ring slot: Minions take 15% increased Damage"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Moonstone Ring"
+DropLevel = 25
+ItemInfo = "IM:+(15-25) to maximum Energy Shield"
+ShowRarity = ["Unique"]
 [Equipment.Unique]
-Name = "Tasalio's Sign"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Tasalio's Sign"
+Name = "Anathema"
 ValueTier = 10
-DropsFrom = ["CurioDisplay"]
+DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["The Forward Gaze"]
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
-Name = "Uzaza's Meadow"
-ValueTier = 40
+Name = "Heartbound Loop"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:50"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Shavronne's Revelation"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:70"]
+SpecificCards = ["The Thaumaturgist"]
+GambleCards = ["The Aesthete", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Tawhanuku's Timing"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Timeclasp"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Valyrium"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Timetwist"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Penumbra Ring"
+DropLevel = 25
+ItemInfo = "IM:Left ring slot: 30% reduced Effect of Curses on you Right ring slot: 30% increased Effect of Curses on you"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Shadowed Ring"
+DropLevel = 25
+ItemInfo = "IM:Left ring slot: 25% of Cold Damage from Hits taken as Fire Damage Right ring slot: 25% of Fire Damage from Hits taken as Cold Damage OR Left ring slot: 25% of Fire Damage from Hits taken as Lightning Damage Right ring slot: 25% of Lightning Damage from Hits taken as Fire Damage OR Left ring slot: 25% of Lightning Damage from Hits taken as Cold Damage Right ring slot: 25% of Cold Damage from Hits taken as Lightning Damage"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Tenebrous Ring"
+DropLevel = 25
+ItemInfo = "IM:Left ring slot: 30% reduced Duration of Ailments on You Right ring slot: 30% increased Duration of Ailments on You"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Gold Ring"
+DropLevel = 20
+ItemInfo = "IM:(6-15)% increased Rarity of Items found"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Andvarius"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:50"]
+SpecificCards = []
+GambleCards = ["Glimmer of Hope", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Highwayman"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:55"]
+SpecificCards = []
+GambleCards = ["Glimmer of Hope", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Ventor's Gamble"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Risk"]
+GambleCards = ["Glimmer of Hope", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Ixchel's Temptation"
+ValueTier = 0
+DropsFrom = ["Trialmaster (ultimatum encounter)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Two-Stone Ring"
+DropLevel = 20
+ItemInfo = "IM:+(12-16)% to Cold and Lightning Resistances"
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Berek's Grip"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Heterochromia", "The Valkyrie", "The Undaunted", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Berek's Respite"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Spark and the Flame"]
+GambleCards = ["Heterochromia", "The Valkyrie", "The Undaunted", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Berek's Pass"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Heterochromia", "The Valkyrie", "The Undaunted", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Call of the Brotherhood"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:40"]
+SpecificCards = []
+GambleCards = ["Heterochromia", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Precursor's Emblem"
+ValueTier = 100
+DropsFrom = ["Crafted"]
+SpecificCards = ["Remembrance"]
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Rigwald's Crest"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Heterochromia", "The Wolf", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Ruby Ring"
+DropLevel = 16
+ItemInfo = "IM:+(20-30)% to Fire Resistance"
+ShowRarity = ["Unique", "SUnique"]
+[Equipment.Unique]
+Name = "Ahkeli's Meadow"
+ValueTier = 50
+DropsFrom = ["Aul (Delve)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Ahkeli's Mountain"
+ValueTier = 50
 DropsFrom = ["Ahuatotli (Vaal Outpost Delve)"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
-Name = "Uzaza's Mountain"
+Name = "Ahkeli's Valley"
 ValueTier = 50
 DropsFrom = ["Krugal (Abyssal City Delve)"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
-Name = "Uzaza's Valley"
+Name = "Circle of Anguish"
+ValueTier = 10
+DropsFrom = ["Altered Distant Memory"]
+SpecificCards = []
+GambleCards = ["Chasing Risk"]
+Owned = true
+[Equipment.Unique]
+Name = "Emberwake"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:40"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Emberwake"
+ValueTier = 10
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
+Name = "Mokou's Embrace"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Ngamahu's Sign"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Precursor's Emblem"
 ValueTier = 100
-DropsFrom = ["Aul (Delve)"]
+DropsFrom = ["Crafted"]
+SpecificCards = ["Remembrance"]
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Warrior's Legacy"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:75"]
+SpecificCards = []
+GambleCards = ["Haunting Shadows", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Golden Hoop"
+DropLevel = 12
+ItemInfo = "IM:+(8-12) to all Attributes"
+ShowRarity = []
+[Equipment.Disabled.Unique]
+Name = "Demigod's Eye"
+ValueTier = -1
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
 Owned = false
 
 [[Equipment]]
-Class = "Ring"
+Class = "Rings"
 BaseType = "Topaz Ring"
+DropLevel = 12
+ItemInfo = "IM:+(20-30)% to Lightning Resistance"
 ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Astral Projector"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:75"]
 SpecificCards = ["The Mind's Eyes"]
 GambleCards = ["Haunting Shadows", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
@@ -385,7 +547,7 @@ Owned = true
 [Equipment.Unique]
 Name = "Nimis"
 ValueTier = 1000
-DropsFrom = ["Uber Eater of Worlds"]
+DropsFrom = ["Uber Eater of Worlds", "UniqueDropLevel:87"]
 SpecificCards = ["Fire Of Unknown Origin"]
 GambleCards = []
 Owned = false
@@ -433,498 +595,332 @@ GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curi
 Owned = true
 
 [[Equipment]]
-Class = "Ring"
-BaseType = "Ruby Ring"
-ShowRarity = ["Unique", "SUnique"]
+Class = "Rings"
+BaseType = "Sapphire Ring"
+DropLevel = 8
+ItemInfo = "IM:+(20-30)% to Cold Resistance"
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Ahkeli's Meadow"
-ValueTier = 50
-DropsFrom = ["Aul (Delve)"]
+Name = "Call of the Void"
+ValueTier = 10
+DropsFrom = ["Uber Uber Elder", "UniqueDropLevel:"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
-Name = "Ahkeli's Mountain"
-ValueTier = 50
-DropsFrom = ["Ahuatotli (Vaal Outpost Delve)"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Ahkeli's Valley"
-ValueTier = 50
-DropsFrom = ["Krugal (Abyssal City Delve)"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Circle of Anguish"
+Name = "Circle of Fear"
 ValueTier = 10
 DropsFrom = ["Altered Distant Memory"]
 SpecificCards = []
 GambleCards = ["Chasing Risk"]
 Owned = true
 [Equipment.Unique]
-Name = "Emberwake"
+Name = "Dream Fragments"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Replica Emberwake"
+Name = "Precursor's Emblem"
+ValueTier = 100
+DropsFrom = ["Crafted"]
+SpecificCards = ["Remembrance"]
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Pyre"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Snakepit"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:77"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Tasalio's Sign"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Tasalio's Sign"
 ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
 [Equipment.Unique]
-Name = "Mokou's Embrace"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+Name = "Uzaza's Meadow"
+ValueTier = 40
+DropsFrom = ["Ahuatotli (Vaal Outpost Delve)"]
 SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Ngamahu's Sign"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Precursor's Emblem"
-ValueTier = 100
-DropsFrom = ["Crafted"]
-SpecificCards = ["Remembrance"]
 GambleCards = []
 Owned = false
 [Equipment.Unique]
-Name = "Warrior's Legacy"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+Name = "Uzaza's Mountain"
+ValueTier = 50
+DropsFrom = ["Krugal (Abyssal City Delve)"]
 SpecificCards = []
-GambleCards = ["Haunting Shadows", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = []
 Owned = false
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Diamond Ring"
-ShowRarity = ["Unique"]
 [Equipment.Unique]
-Name = "Gifts from Above"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+Name = "Uzaza's Valley"
+ValueTier = 100
+DropsFrom = ["Aul (Delve)"]
 SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Romira's Banquet"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Feast"]
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Grattus Signet"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = []
 Owned = false
 
 [[Equipment]]
-Class = "Ring"
-BaseType = "Gold Ring"
+Class = "Rings"
+BaseType = "Unset Ring"
+DropLevel = 45
+ItemInfo = "IM:Has 1 Socket"
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Andvarius"
+Name = "Angler's Plait"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = ["Baited Expectations"]
+Owned = false
+[Equipment.Unique]
+Name = "Brinerot Mark"
+ValueTier = 0
+DropsFrom = ["Brinerot Warband monsters", "UniqueDropLevel:55"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Essence Worm"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Glimmer of Hope", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["The Penitent", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "The Highwayman"
+Name = "Malachai's Artifice"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Glimmer of Hope", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["The Penitent", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Ventor's Gamble"
+Name = "Replica Malachai's Artifice"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = true
+[Equipment.Unique]
+Name = "Mark of Submission"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Risk"]
-GambleCards = ["Glimmer of Hope", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+SpecificCards = []
+GambleCards = ["The Penitent", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Ixchel's Temptation"
+Name = "Mutewind Seal"
 ValueTier = 0
-DropsFrom = ["Trialmaster (ultimatum encounter)"]
+DropsFrom = ["Mutewind warband leaders, Mutewind Delve Cache", "UniqueDropLevel:55"]
 SpecificCards = []
 GambleCards = []
 Owned = false
-
+[Equipment.Unique]
+Name = "Profane Proxy"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Penitent", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Redblade Band"
+ValueTier = 0
+DropsFrom = ["Redblade Warbands"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Rotblood Promise"
+ValueTier = 0
+DropsFrom = ["Rituals"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Hungry Loop"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:70"]
+SpecificCards = []
+GambleCards = ["The Penitent", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Pariah"
+ValueTier = 0
+DropsFrom = ["Renegades warband and Renegades Delve Cache"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Triumvirate Authority"
+ValueTier = 0
+DropsFrom = ["Atziri (Apex or Incursion Throne of Atziri)"]
+SpecificCards = []
+GambleCards = ["The Admirer"]
+Owned = true
+[Equipment.Unique]
+Name = "Vivinsect"
+ValueTier = 0
+DropsFrom = ["Research Safehouses", "UniqueDropLevel:78"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Voideye"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Penitent", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Voideye"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
 
 [[Equipment]]
-Class = "Ring"
-BaseType = "Moonstone Ring"
-ShowRarity = ["Unique"]
+Class = "Rings"
+BaseType = "Breach Ring"
+DropLevel = 1
+ItemInfo = "IM:Properties are doubled while in a BreachCorrupted"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Rings"
+BaseType = "Coral Ring"
+DropLevel = 4
+ItemInfo = "IM:+(20-30) to maximum Life"
+ShowRarity = []
 [Equipment.Unique]
-Name = "Anathema"
-ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
+Name = "Kaom's Sign"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:29"]
 SpecificCards = []
 GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 [Equipment.Unique]
-Name = "Heartbound Loop"
+Name = "Sibyl's Lament"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Shavronne's Revelation"
-ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Thaumaturgist"]
-GambleCards = ["The Aesthete", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-[Equipment.Unique]
-Name = "Tawhanuku's Timing"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Timeclasp"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Valyrium"
+Name = "Winterweave"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Disabled.Unique]
-Name = "Timetwist"
+Name = "Bloodboil"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Honoured Alliance"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Kaom's Way"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Winterweave (fated)"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
 Owned = false
 
-
 [[Equipment]]
-Class = "Ring"
-BaseType = "Two-Stone Ring"
-ShowRarity = ["SUnique"]
+Class = "Rings"
+BaseType = "Iron Ring"
+DropLevel = 2
+ItemInfo = "IM:Adds 1 to 4 Physical Damage to Attacks"
+ShowRarity = []
 [Equipment.Unique]
-Name = "Berek's Grip"
+Name = "Blackheart"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Circle of Guilt"
 ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Heterochromia", "The Valkyrie", "The Undaunted", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Berek's Respite"
-ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Spark and the Flame"]
-GambleCards = ["Heterochromia", "The Valkyrie", "The Undaunted", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Berek's Pass"
-ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Heterochromia", "The Valkyrie", "The Undaunted", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Call of the Brotherhood"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Heterochromia", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Precursor's Emblem"
-ValueTier = 100
-DropsFrom = ["Crafted"]
-SpecificCards = ["Remembrance"]
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Rigwald's Crest"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Heterochromia", "The Wolf", "Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Cogwork Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Composite Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Dusk Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Geodesic Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Gloam Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Helical Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Manifold Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Nameless Ring"
-ShowRarity = ["SUnique"]
-[Equipment.Unique]
-Name = "The Queller of Minds"
-ValueTier = 0
-DropsFrom = ["Rituals"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "The Selfish Shepherd"
-ValueTier = 0
-DropsFrom = ["Rituals"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "The Hateful Accuser"
-ValueTier = 10
-DropsFrom = ["Rituals"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Penumbra Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Ratcheting Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Shadowed Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Tenebrous Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Bone Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Amethyst Ring"
-ShowRarity = ["SUnique"]
-[Equipment.Unique]
-Name = "Blackflame"
-ValueTier = 0
-DropsFrom = ["Rituals"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "Circle of Nostalgia"
-ValueTier = 100
 DropsFrom = ["Altered Distant Memory"]
 SpecificCards = []
 GambleCards = ["Chasing Risk"]
-Owned = false
+Owned = true
 [Equipment.Unique]
-Name = "Death Rush"
+Name = "Icefang Orbit"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Ming's Heart"
+Name = "Le Heup of All"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:24"]
+SpecificCards = ["The One With All"]
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Warden's Brand"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Original Sin"
-ValueTier = 1000
-DropsFrom = ["Sanctum (special expensive)"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Prismatic Ring"
-ShowRarity = ["SUnique"]
-[Equipment.Unique]
-Name = "Lori's Lantern"
+Name = "Venopuncture"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Hope", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
-[Equipment.Unique]
-Name = "Precursor's Emblem"
-ValueTier = 100
-DropsFrom = ["Crafted"]
-SpecificCards = ["Remembrance"]
-GambleCards = []
-Owned = false
-[Equipment.Unique]
-Name = "The Taming"
-ValueTier = 50
-DropsFrom = ["Crafted with Bereks"]
-SpecificCards = ["Hunter's Reward"]
-GambleCards = []
-Owned = true
-[Equipment.Unique]
-Name = "Thief's Torment"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hope", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Circle of Ambition"
-ValueTier = 50
-DropsFrom = ["Uber Venarius"]
-SpecificCards = []
-GambleCards = ["Chasing Risk"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Cerulean Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Iolite Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Opal Ring"
-ShowRarity = ["SUnique"]
-[Equipment.Unique]
-Name = "Mark of the Shaper"
-ValueTier = 0
-DropsFrom = ["Uber Elder"]
-SpecificCards = []
-GambleCards = []
-Owned = true
-[Equipment.Unique]
-Name = "Stormfire"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Polaric Devastation"
-ValueTier = 10
-DropsFrom = ["Tiny Exarch"]
+[Equipment.Disabled.Unique]
+Name = "Voidheart"
+ValueTier = -1
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
 Owned = false
 
-
 [[Equipment]]
-Class = "Ring"
-BaseType = "Steel Ring"
-ShowRarity = ["SUnique"]
-[Equipment.Unique]
-Name = "Mark of the Elder"
-ValueTier = 0
-DropsFrom = ["Uber Elder"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Vermillion Ring"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Ring"
-BaseType = "Ring"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Kalandra's Touch"
-ValueTier = 1000
-DropsFrom = ["Anywhere"]
-SpecificCards = []
-GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Ring"
+Class = "Rings"
 BaseType = "Jet Ring"
+DropLevel = 15
+ItemInfo = "IM:(5-10)% increased Global Defences"
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Band of the Victor"
@@ -934,15 +930,65 @@ SpecificCards = []
 GambleCards = []
 Owned = false
 
+[[Equipment]]
+Class = "Rings"
+BaseType = "Paua Ring"
+DropLevel = 5
+ItemInfo = "IM:+(20-30) to maximum Mana"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Doedre's Damning"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Doedre's Madness", "Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Doedre's Damning"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
+Name = "Fated End"
+ValueTier = 10
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
+Name = "Perandus Signet"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:75"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+[Equipment.Unique]
+Name = "Praxis"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Soulbound"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
 
 [[Equipment]]
-Class = "Ring"
-BaseType = "Golden Hoop"
+Class = "Rings"
+BaseType = "Ring"
+DropLevel = 1
+ItemInfo = "IM:Drop disabled"
 ShowRarity = []
-[Equipment.Disabled.Unique]
-Name = "Demigod's Eye"
-ValueTier = -1
-DropsFrom = []
+[Equipment.Unique]
+Name = "Kalandra's Touch"
+ValueTier = 1000
+DropsFrom = ["Anywhere", "UniqueDropLevel:60"]
 SpecificCards = []
-GambleCards = []
+GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false

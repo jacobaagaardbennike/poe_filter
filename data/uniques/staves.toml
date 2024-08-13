@@ -1,28 +1,30 @@
 
-
-
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:70", "D:65-120", "C:6.00%", "IM:Spend Energy Shield before Mana for Costs of Socketed Skills & (140-165) to maximum Energy Shield"]
 BaseType = "Battery Staff"
+DropLevel = 70
+ItemInfo = ["D:65-120", "C:6.00%", "AS:1.25", "IM:Spend Energy Shield before Mana for Costs of Socketed Skills & (140-165) to maximum Energy Shield"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:70", "D:70-145", "C:6.00%", "IM:100% increased Global Critical Strike Chance"]
 BaseType = "Eclipse Staff"
+DropLevel = 70
+ItemInfo = ["D:70-145", "C:6.00%", "AS:1.20", "IM:100% increased Global Critical Strike Chance"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:70", "D:78-144", "C:7.00%", "IM:+1 to Maximum Power Charges and Maximum Endurance Charges"]
 BaseType = "Eventuality Rod"
+DropLevel = 70
+ItemInfo = ["D:78-144", "C:7.00%", "AS:1.25", "IM:+1 to Maximum Power Charges and Maximum Endurance Charges"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:68", "D:73-136", "C:6.50%", "IM:+20% Chance to Block Spell Damage while wielding a Staff"]
 BaseType = "Judgement Staff"
+DropLevel = 68
+ItemInfo = ["D:73-136", "C:6.50%", "AS:1.30", "IM:+20% Chance to Block Spell Damage while wielding a Staff"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Atziri's Rule"
@@ -34,7 +36,7 @@ Owned = true
 [Equipment.Unique]
 Name = "Hegemony's Era"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:71"]
 SpecificCards = []
 GambleCards = ["The Tower", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -55,8 +57,9 @@ Owned = true
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:66", "D:57-171", "C:7.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Imperial Staff"
+DropLevel = 66
+ItemInfo = ["D:57-171", "C:7.00%", "AS:1.15", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Agnerod East"
@@ -103,8 +106,9 @@ Owned = false
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:64", "D:71-147", "C:6.80%", "IM:+25% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Maelström Staff"
+DropLevel = 64
+ItemInfo = ["D:71-147", "C:6.80%", "AS:1.25", "IM:+25% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Disintegrator"
@@ -137,8 +141,9 @@ Owned = true
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:62", "D:72-120", "C:6.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Lathi"
+DropLevel = 62
+ItemInfo = ["D:72-120", "C:6.00%", "AS:1.30", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Searing Touch"
@@ -150,8 +155,9 @@ Owned = true
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:60", "D:53-160", "C:7.30%", "IM:+20% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Ezomyte Staff"
+DropLevel = 60
+ItemInfo = ["D:53-160", "C:7.30%", "AS:CHAN1.25GEME", "IM:+20% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Cane of Unravelling"
@@ -177,8 +183,9 @@ Owned = false
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:58", "D:55-165", "C:6.20%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Primordial Staff"
+DropLevel = 58
+ItemInfo = ["D:55-165", "C:6.20%", "AS:1.15", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Femurs of the Saints"
@@ -197,14 +204,16 @@ Owned = true
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:57", "D:66-138", "C:6.00%", "IM:80% increased Global Critical Strike Chance"]
 BaseType = "Moon Staff"
+DropLevel = 57
+ItemInfo = ["D:66-138", "C:6.00%", "AS:1.20", "IM:80% increased Global Critical Strike Chance"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:55", "D:65-121", "C:6.10%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Foul Staff"
+DropLevel = 55
+ItemInfo = ["D:65-121", "C:6.10%", "AS:1.30", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "The Winds of Fate"
@@ -216,8 +225,9 @@ Owned = false
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:52", "D:48-145", "C:6.50%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Highborn Staff"
+DropLevel = 52
+ItemInfo = ["D:48-145", "C:6.50%", "AS:1.15", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Martyr of Innocence"
@@ -243,20 +253,23 @@ Owned = false
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:50", "D:61-113", "C:7.00%", "IM:+1 to Maximum Power Charges and Maximum Endurance Charges"]
 BaseType = "Potentiality Rod"
+DropLevel = 50
+ItemInfo = ["D:61-113", "C:7.00%", "AS:1.25", "IM:+1 to Maximum Power Charges and Maximum Endurance Charges"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:50", "D:55-102", "C:6.00%", "IM:Spend Energy Shield before Mana for Costs of Socketed Skills & (100-120) to maximum Energy Shield"]
 BaseType = "Reciprocation Staff"
+DropLevel = 50
+ItemInfo = ["D:55-102", "C:6.00%", "AS:1.25", "IM:Spend Energy Shield before Mana for Costs of Socketed Skills & (100-120) to maximum Energy Shield"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:49", "D:56-117", "C:6.30%", "IM:+20% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Serpentine Staff"
+DropLevel = 49
+ItemInfo = ["D:56-117", "C:6.30%", "AS:1.25", "IM:+20% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Cane of Kulemak"
@@ -275,8 +288,9 @@ Owned = true
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:45", "D:51-86", "C:6.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Quarterstaff"
+DropLevel = 45
+ItemInfo = ["D:51-86", "C:6.00%", "AS:1.30", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Annihilating Light"
@@ -288,8 +302,9 @@ Owned = true
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:41", "D:38-114", "C:6.60%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Military Staff"
+DropLevel = 41
+ItemInfo = ["D:38-114", "C:6.60%", "AS:1.25", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Tremor Rod"
@@ -301,20 +316,23 @@ Owned = true
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:37", "D:34-102", "C:6.20%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Woodful Staff"
+DropLevel = 37
+ItemInfo = ["D:34-102", "C:6.20%", "AS:1.15", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:36", "D:41-85", "C:6.00%", "IM:80% increased Global Critical Strike Chance"]
 BaseType = "Crescent Staff"
+DropLevel = 36
+ItemInfo = ["D:41-85", "C:6.00%", "AS:1.20", "IM:80% increased Global Critical Strike Chance"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:33", "D:41-76", "C:6.10%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Vile Staff"
+DropLevel = 33
+ItemInfo = ["D:41-76", "C:6.10%", "AS:1.30", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Whispering Ice"
@@ -326,18 +344,21 @@ Owned = true
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:30", "D:39-73", "C:7.00%", "IM:+1 to Maximum Power Charges and Maximum Endurance Charges"]
 BaseType = "Capacity Rod"
+DropLevel = 30
+ItemInfo = ["D:39-73", "C:7.00%", "AS:1.25", "IM:+1 to Maximum Power Charges and Maximum Endurance Charges"]
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:30", "D:36-66", "C:6.00%", "IM:Spend Energy Shield before Mana for Costs of Socketed Skills & (66-80) to maximum Energy Shield"]
 BaseType = "Transformer Staff"
+DropLevel = 30
+ItemInfo = ["D:36-66", "C:6.00%", "AS:1.25", "IM:Spend Energy Shield before Mana for Costs of Socketed Skills & (66-80) to maximum Energy Shield"]
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:28", "D:27-81", "C:6.50%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Royal Staff"
+DropLevel = 28
+ItemInfo = ["D:27-81", "C:6.50%", "AS:1.15", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Stormheart"
@@ -356,27 +377,30 @@ Owned = true
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:23", "D:27-57", "C:6.20%", "IM:+20% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Coiled Staff"
+DropLevel = 23
+ItemInfo = ["D:27-57", "C:6.20%", "AS:1.30", "IM:+20% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Xirgil's Crank"
 ValueTier = 0
-DropsFrom = ["Labyrinth"]
+DropsFrom = ["Labyrinth", "UniqueDropLevel:30"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:18", "D:24-41", "C:6.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Long Staff"
+DropLevel = 18
+ItemInfo = ["D:24-41", "C:6.00%", "AS:1.30", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Wartaves"
-ItemInfo = ["L:13", "D:14-42", "C:6.40%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Iron Staff"
+DropLevel = 13
+ItemInfo = ["D:14-42", "C:6.40%", "AS:1.30", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Dying Breath"
@@ -409,14 +433,16 @@ Owned = false
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:9", "D:10-31", "C:6.20%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Primitive Staff"
+DropLevel = 9
+ItemInfo = ["D:10-31", "C:6.20%", "AS:1.30", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Staves"
-ItemInfo = ["L:1", "D:9-19", "C:6.00%", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 BaseType = "Gnarled Branch"
+DropLevel = 4
+ItemInfo = ["D:9-19", "C:6.00%", "AS:1.30", "IM:+18% Chance to Block Attack Damage while wielding a Staff"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Fencoil"

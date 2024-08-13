@@ -1,189 +1,247 @@
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Alternating Sceptre"
+DropLevel = 70
+ItemInfo = ["D:41-61", "C:6.30%", "AS:1.45", "IM:Secrets of Suffering"]
+ShowRarity = []
+
 [[Equipment]]
 Class = "One Hand Maces"
-BaseType = "Driftwood Club"
+BaseType = "Behemoth Mace"
+DropLevel = 70
+ItemInfo = ["D:49-74", "C:5.00%", "AS:1.35", "IM:6% increased Attack Speed"]
 ShowRarity = []
-[Equipment.Disabled.Unique]
-Name = "Ashes of the Sun"
-ValueTier = -1
-DropsFrom = []
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Boom Mace"
+DropLevel = 70
+ItemInfo = ["D:39-81", "C:5.00%", "AS:1.30", "IM:Trigger DropLevel 20 Fiery Impact on Melee Hit with this Weapon"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Impact Force Propagator"
+DropLevel = 70
+ItemInfo = ["D:81-135", "C:5.00%", "AS:1.15", "IM:Warcries Exert 2 additional Attacks"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Sambar Sceptre"
+DropLevel = 70
+ItemInfo = ["D:42-78", "C:6.00%", "AS:1.30", "IM:Damage Penetrates 6% Elemental Resistances"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Coronal Maul"
+DropLevel = 69
+ItemInfo = ["D:91-136", "C:5.00%", "AS:CHA", "IM:20% increased Area of Effect"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Nightmare Mace"
+DropLevel = 68
+ItemInfo = ["D:38-80", "C:5.00%", "AS:1.40", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Nebuloch"
+ValueTier = 10
+DropsFrom = ["Elder", "UniqueDropLevel:75"]
 SpecificCards = []
 GambleCards = []
+Owned = true
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Void Sceptre"
+DropLevel = 68
+ItemInfo = ["D:50-76", "C:6.20%", "AS:1.25", "IM:40% increased Elemental Damage"]
+ShowRarity = ["Unique", "SUnique"]
+[Equipment.Unique]
+Name = "Augyre"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:77"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Tribal Club"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Spiked Club"
-ShowRarity = []
 [Equipment.Unique]
-Name = "Gorebreaker"
+Name = "Mon'tregul's Grasp"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Stone Hammer"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "War Hammer"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Brightbeak"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
+SpecificCards = ["Death"]
 GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Lavianga's Wisdom"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+Name = "Nebulis"
+ValueTier = 10
+DropsFrom = ["Lethean Temptation"]
 SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Bladed Mace"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Ceremonial Mace"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Dream Mace"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Flesh-Eater"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Wyrm Mace"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Petrified Club"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Barbed Club"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Rock Breaker"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Clayshaper"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Battle Hammer"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Flanged Mace"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Crack Mace"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Ornate Mace"
-ShowRarity = ["SUnique"]
-[Equipment.Unique]
-Name = "Frostbreath"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+GambleCards = ["Chasing Risk"]
 Owned = true
 [Equipment.Unique]
-Name = "Replica Frostbreath"
+Name = "Replica Nebulis"
 ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
 
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Terror Maul"
+DropLevel = 67
+ItemInfo = ["D:101-137", "C:6.00%", "AS:CHA", "IM:25% chance to double Stun Duration"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Kongor's Undying Rage"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Kongor's Undying Rage"
+ValueTier = 50
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
 
 [[Equipment]]
 Class = "One Hand Maces"
-BaseType = "Phantom Mace"
+BaseType = "Auric Mace"
+DropLevel = 66
+ItemInfo = ["D:65-82", "C:5.00%", "AS:1.20", "IM:15% reduced Enemy Stun Threshold"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Callinellus Malleus"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Carnal Sceptre"
+DropLevel = 66
+ItemInfo = ["D:41-95", "C:6.00%", "AS:1.20", "IM:32% increased Elemental Damage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Breath of the Council"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Imperial Maul"
+DropLevel = 65
+ItemInfo = ["D:102-153", "C:5.00%", "AS:CHA", "IM:10% increased Strength"]
+ShowRarity = ["Unique"]
+[Equipment.Unique]
+Name = "Tidebreaker"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Deep Ones"]
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Pernach"
+DropLevel = 64
+ItemInfo = ["D:49-82", "C:5.00%", "AS:1.30", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Vaal Sceptre"
+DropLevel = 64
+ItemInfo = ["D:37-70", "C:6.00%", "AS:1.40", "IM:32% increased Elemental Damage"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Serle's Masterwork"
+Name = "Doryani's Catalyst"
 ValueTier = 0
-DropsFrom = ["Kingsmarch ship to Riben Fell, Pondium, or Kalguur."]
+DropsFrom = ["Atziri", "Atziri in temple throne"]
+SpecificCards = []
+GambleCards = ["The Admirer"]
+Owned = false
+[Equipment.Unique]
+Name = "Doon Cuebiyari"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:74"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Yaomac's Accord"
+ValueTier = 0
+DropsFrom = ["Trialmaster"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Meatgrinder"
+DropLevel = 63
+ItemInfo = ["D:74-138", "C:5.00%", "AS:CHA", "IM:5% chance to deal Double Damage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Brain Rattler"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:77"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
 
 [[Equipment]]
 Class = "One Hand Maces"
-BaseType = "Dragon Mace"
+BaseType = "Legion Hammer"
+DropLevel = 62
+ItemInfo = ["D:35-81", "C:5.00%", "AS:1.40", "IM:10% reduced Enemy Stun Threshold"]
 ShowRarity = []
-
 
 [[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Ancestral Club"
+Class = "Secptres"
+BaseType = "Platinum Sceptre"
+DropLevel = 62
+ItemInfo = ["D:51-76", "C:6.00%", "AS:1.25", "IM:30% increased Elemental Damage"]
 ShowRarity = []
-
+[Equipment.Unique]
+Name = "Singularity"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
 
 [[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Tenderizer"
-ShowRarity = []
-
+Class = "Two Hand Maces"
+BaseType = "Piledriver"
+DropLevel = 61
+ItemInfo = ["D:77-115", "C:5.00%", "AS:CHA", "IM:20% reduced Enemy Stun Threshold"]
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Tawhoa's Felling"
+ValueTier = 0
+DropsFrom = ["Kingsmarch ship to Ngakanu or Te Onui"]
+SpecificCards = []
+GambleCards = []
+Owned = false
 
 [[Equipment]]
 Class = "One Hand Maces"
 BaseType = "Gavel"
+DropLevel = 60
+ItemInfo = ["D:54-101", "C:5.00%", "AS:1.15", "IM:15% reduced Enemy Stun Threshold"]
 ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Cameria's Avarice"
@@ -207,156 +265,304 @@ SpecificCards = ["The Avenger"]
 GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 
-
 [[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Legion Hammer"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Pernach"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "One Hand Maces"
-BaseType = "Auric Mace"
+Class = "Secptres"
+BaseType = "Opal Sceptre"
+DropLevel = 60
+ItemInfo = ["D:49-73", "C:6.50%", "AS:1.25", "IM:40% increased Elemental Damage"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Callinellus Malleus"
+Name = "Balefire"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Forbidden Power"]
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Colossus Mallet"
+DropLevel = 59
+ItemInfo = ["D:65-135", "C:5.50%", "AS:CHA", "IM:30% increased Area Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Tenderizer"
+DropLevel = 58
+ItemInfo = ["D:49-62", "C:5.00%", "AS:1.40", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Tyrant's Sekhem"
+DropLevel = 58
+ItemInfo = ["D:43-80", "C:6.00%", "AS:1.25", "IM:26% increased Elemental Damage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Sign of the Sin Eater"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Karui Maul"
+DropLevel = 57
+ItemInfo = ["D:112-168", "C:5.00%", "AS:CHA", "IM:45% increased Stun Duration on Enemies"]
+ShowRarity = ["Unique"]
+[Equipment.Unique]
+Name = "Marohi Erqi"
+ValueTier = 50
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Ancestral Club"
+DropLevel = 56
+ItemInfo = ["D:48-80", "C:5.00%", "AS:1.25", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Karui Sceptre"
+DropLevel = 56
+ItemInfo = ["D:37-55", "C:6.00%", "AS:1.50", "IM:26% increased Elemental Damage"]
+ShowRarity = ["Unique"]
+[Equipment.Unique]
+Name = "Death's Hand"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:72"]
+SpecificCards = ["The Demoness"]
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Maata's Teaching"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+Class = "Two Hand Maces"
+BaseType = "Solar Maul"
+DropLevel = 56
+ItemInfo = ["D:75-113", "C:5.00%", "AS:CHA", "IM:15% increased Area of Effect"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Dragon Mace"
+DropLevel = 55
+ItemInfo = ["D:44-66", "C:5.00%", "AS:1.35", "IM:4% increased Attack Speed"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Stag Sceptre"
+DropLevel = 55
+ItemInfo = ["D:39-72", "C:6.00%", "AS:1.30", "IM:Damage Penetrates 4% Elemental Resistances"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Dread Maul"
+DropLevel = 54
+ItemInfo = ["D:77-104", "C:5.00%", "AS:CHA", "IM:30% increased Stun Duration on Enemies"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Voidhome"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Abyssal Sceptre"
+DropLevel = 53
+ItemInfo = ["D:45-67", "C:6.20%", "AS:1.25", "IM:30% increased Elemental Damage"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "One Hand Maces"
-BaseType = "Nightmare Mace"
-ShowRarity = []
+BaseType = "Phantom Mace"
+DropLevel = 53
+ItemInfo = ["D:33-69", "C:5.00%", "AS:1.40", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Nebuloch"
+Name = "Serle's Masterwork"
+ValueTier = 0
+DropsFrom = ["Kingsmarch ship to Riben Fell, Pondium, or Kalguur."]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Plated Maul"
+DropLevel = 51
+ItemInfo = ["D:72-108", "C:5.00%", "AS:CHA", "IM:30% increased Stun Duration on Enemies"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Crack Mace"
+DropLevel = 50
+ItemInfo = ["D:31-64", "C:5.00%", "AS:1.30", "IM:Trigger DropLevel 15 Fiery Impact on Melee Hit with this Weapon"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Crushing Force Magnifier"
+DropLevel = 50
+ItemInfo = ["D:62-103", "C:5.00%", "AS:CHA", "IM:Warcries Exert 1 additional Attack"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Ornate Mace"
+DropLevel = 50
+ItemInfo = ["D:53-67", "C:5.00%", "AS:1.20", "IM:15% reduced Enemy Stun Threshold"]
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Frostbreath"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Frostbreath"
 ValueTier = 10
-DropsFrom = ["Elder"]
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Royal Sceptre"
+DropLevel = 50
+ItemInfo = ["D:34-80", "C:6.00%", "AS:1.20", "IM:24% increased Elemental Damage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "The Black Cane"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:73"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Stabilising Sceptre"
+DropLevel = 50
+ItemInfo = ["D:35-52", "C:6.30%", "AS:1.45", "IM:Elemental Equilibrium"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Spiny Maul"
+DropLevel = 48
+ItemInfo = ["D:55-103", "C:5.00%", "AS:1.25", "IM:30% increased Stun Duration on Enemies"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Blood Sceptre"
+DropLevel = 47
+ItemInfo = ["D:30-55", "C:6.00%", "AS:1.40", "IM:24% increased Elemental Damage"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Cerberus Limb"
+ValueTier = 0
+DropsFrom = ["Ahuatotli (Delve Vaal Outpost)"]
 SpecificCards = []
 GambleCards = []
 Owned = true
-
 
 [[Equipment]]
 Class = "One Hand Maces"
-BaseType = "Behemoth Mace"
+BaseType = "Flanged Mace"
+DropLevel = 47
+ItemInfo = ["D:38-63", "C:5.00%", "AS:1.30", "IM:10% reduced Enemy Stun Threshold"]
 ShowRarity = []
-
 
 [[Equipment]]
 Class = "One Hand Maces"
-BaseType = "Boom Mace"
+BaseType = "Battle Hammer"
+DropLevel = 44
+ItemInfo = ["D:25-59", "C:5.00%", "AS:1.40", "IM:10% reduced Enemy Stun Threshold"]
 ShowRarity = []
 
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Lead Sceptre"
+DropLevel = 44
+ItemInfo = ["D:38-57", "C:6.00%", "AS:1.25", "IM:22% increased Elemental Damage"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Maces"
-BaseType = "Driftwood Maul"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Tribal Maul"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Mallet"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Sledgehammer"
+BaseType = "Steelhead"
+DropLevel = 44
+ItemInfo = ["D:54-81", "C:5.00%", "AS:1.30", "IM:45% increased Stun Duration on Enemies"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Hrimnor's Hymn"
+Name = "Jorrhast's Blacksteel"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Crystal Sceptre"
+DropLevel = 41
+ItemInfo = ["D:35-52", "C:6.50%", "AS:1.25", "IM:30% increased Elemental Damage"]
+ShowRarity = ["Unique"]
+[Equipment.Unique]
+Name = "Nycta's Lantern"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Light and Truth", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "The Supreme Truth"
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Light and Truth", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = false
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Rock Breaker"
+DropLevel = 41
+ItemInfo = ["D:37-69", "C:5.00%", "AS:1.15", "IM:15% reduced Enemy Stun Threshold"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Clayshaper"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
-[Equipment.Disabled.Unique]
-Name = "Hrimnor's Dirge"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Jagged Maul"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Quecholli"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Panquetzaliztli"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Brass Maul"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Geofri's Baptism"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Disabled.Unique]
-Name = "Geofri's Devotion"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Fright Maul"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Morning Star"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Totemic Maul"
-ShowRarity = []
-
 
 [[Equipment]]
 Class = "Two Hand Maces"
 BaseType = "Great Mallet"
+DropLevel = 40
+ItemInfo = ["D:43-88", "C:5.00%", "AS:1.25", "IM:30% increased Stun Duration on Enemies"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Chober Chaber"
@@ -387,224 +593,102 @@ SpecificCards = []
 GambleCards = []
 Owned = false
 
-
 [[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Steelhead"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Jorrhast's Blacksteel"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Spiny Maul"
+Class = "One Hand Maces"
+BaseType = "Barbed Club"
+DropLevel = 38
+ItemInfo = ["D:33-42", "C:5.00%", "AS:1.40", "IM:10% reduced Enemy Stun Threshold"]
 ShowRarity = []
 
-
 [[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Crushing Force Magnifier"
+Class = "Secptres"
+BaseType = "Sekhem"
+DropLevel = 38
+ItemInfo = ["D:30-55", "C:6.00%", "AS:1.25", "IM:18% increased Elemental Damage"]
 ShowRarity = []
 
-
 [[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Plated Maul"
+Class = "Secptres"
+BaseType = "Horned Sceptre"
+DropLevel = 36
+ItemInfo = ["D:27-50", "C:6.00%", "AS:1.30", "IM:Damage Penetrates 4% Elemental Resistances"]
 ShowRarity = []
 
-
 [[Equipment]]
 Class = "Two Hand Maces"
-BaseType = "Dread Maul"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Voidhome"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Solar Maul"
+BaseType = "Totemic Maul"
+DropLevel = 36
+ItemInfo = ["D:57-85", "C:5.00%", "AS:1.10", "IM:30% increased Stun Duration on Enemies"]
 ShowRarity = []
 
-
 [[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Karui Maul"
-ShowRarity = ["Unique"]
-[Equipment.Unique]
-Name = "Marohi Erqi"
-ValueTier = 50
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Colossus Mallet"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Piledriver"
+Class = "Secptres"
+BaseType = "Grinning Fetish"
+DropLevel = 35
+ItemInfo = ["D:24-36", "C:6.00%", "AS:1.50", "IM:18% increased Elemental Damage"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "Tawhoa's Felling"
-ValueTier = 0
-DropsFrom = ["Kingsmarch ship to Ngakanu or Te Onui"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Meatgrinder"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Brain Rattler"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Imperial Maul"
-ShowRarity = ["Unique"]
-[Equipment.Unique]
-Name = "Tidebreaker"
-ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Deep Ones"]
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Terror Maul"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Kongor's Undying Rage"
+Name = "Earendel's Embrace"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Replica Kongor's Undying Rage"
-ValueTier = 50
+Name = "Replica Earendel's Embrace"
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
 
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Petrified Club"
+DropLevel = 35
+ItemInfo = ["D:31-51", "C:5.00%", "AS:1.25", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
 
 [[Equipment]]
 Class = "Two Hand Maces"
-BaseType = "Coronal Maul"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Two Hand Maces"
-BaseType = "Impact Force Propagator"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = ""
+BaseType = "Morning Star"
+DropLevel = 34
+ItemInfo = ["D:45-68", "C:5.00%", "AS:1.25", "IM:15% increased Area of Effect"]
 ShowRarity = []
 
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Driftwood Sceptre"
+Class = "One Hand Maces"
+BaseType = "Wyrm Mace"
+DropLevel = 34
+ItemInfo = ["D:28-42", "C:5.00%", "AS:1.35", "IM:4% increased Attack Speed"]
 ShowRarity = []
 
-
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Darkwood Sceptre"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Bronze Sceptre"
+Class = "One Hand Maces"
+BaseType = "Dream Mace"
+DropLevel = 32
+ItemInfo = ["D:21-43", "C:5.00%", "AS:1.40", "IM:10% reduced Enemy Stun Threshold"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Axiom Perpetuum"
+Name = "Flesh-Eater"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
-
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Quartz Sceptre"
+Class = "Two Hand Maces"
+BaseType = "Fright Maul"
+DropLevel = 32
+ItemInfo = ["D:46-62", "C:5.00%", "AS:1.25", "IM:30% increased Stun Duration on Enemies"]
 ShowRarity = []
 
-
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Iron Sceptre"
-ShowRarity = []
-[Equipment.Disabled.Unique]
-Name = "Spine of the First Claimant"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Ochre Sceptre"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Ritual Sceptre"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Brutus' Lead Sprinkler"
-ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Oscillating Sceptre"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Sceptres"
+Class = "Secptres"
 BaseType = "Shadow Sceptre"
+DropLevel = 32
+ItemInfo = ["D:29-44", "C:6.20%", "AS:1.25", "IM:22% increased Elemental Damage"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Bitterdream"
@@ -628,249 +712,256 @@ SpecificCards = []
 GambleCards = []
 Owned = true
 
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Blunt Force Condenser"
+DropLevel = 30
+ItemInfo = ["D:39-64", "C:5.00%", "AS:1.15", "IM:Warcries Exert 1 additional Attack"]
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Flare Mace"
+DropLevel = 30
+ItemInfo = ["D:20-41", "C:5.00%", "AS:1.30", "IM:Trigger DropLevel 10 Fiery Impact on Melee Hit with this Weapon"]
 
 [[Equipment]]
 Class = "Sceptres"
-BaseType = "Grinning Fetish"
-ShowRarity = ["SUnique"]
-[Equipment.Unique]
-Name = "Earendel's Embrace"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Earendel's Embrace"
-ValueTier = 0
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Horned Sceptre"
+BaseType = "Oscillating Sceptre"
+DropLevel = 30
+ItemInfo = ["D:23-34", "C:6.30%", "AS:1.45", "IM:Elemental Overload"]
 ShowRarity = []
 
-
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Sekhem"
+Class = "One Hand Maces"
+BaseType = "Ceremonial Mace"
+DropLevel = 28
+ItemInfo = ["D:32-40", "C:5.00%", "AS:1.20", "IM:15% reduced Enemy Stun Threshold"]
 ShowRarity = []
 
-
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Crystal Sceptre"
-ShowRarity = ["Unique"]
+Class = "Secptres"
+BaseType = "Ritual Sceptre"
+DropLevel = 28
+ItemInfo = ["D:21-50", "C:6.00%", "AS:1.20", "IM:16% increased Elemental Damage"]
+ShowRarity = []
 [Equipment.Unique]
-Name = "Nycta's Lantern"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Light and Truth", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "The Supreme Truth"
+Name = "Brutus' Lead Sprinkler"
 ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
-GambleCards = ["Light and Truth", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Lead Sceptre"
-ShowRarity = []
-
+GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
 
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Blood Sceptre"
+Class = "Two Hand Maces"
+BaseType = "Brass Maul"
+DropLevel = 27
+ItemInfo = ["D:40-60", "C:5.00%", "AS:1.20", "IM:30% increased Stun Duration on Enemies"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Cerberus Limb"
+Name = "Geofri's Baptism"
 ValueTier = 0
-DropsFrom = ["Ahuatotli (Delve Vaal Outpost)"]
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Geofri's Devotion"
+ValueTier = -1
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Royal Sceptre"
-ShowRarity = []
-[Equipment.Unique]
-Name = "The Black Cane"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Stabilising Sceptre"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Abyssal Sceptre"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Stag Sceptre"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Karui Sceptre"
-ShowRarity = ["Unique"]
-[Equipment.Unique]
-Name = "Death's Hand"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["The Demoness"]
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Maata's Teaching"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Bladed Mace"
+DropLevel = 24
+ItemInfo = ["D:19-32", "C:5.00%", "AS:1.40", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
 
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Tyrant's Sekhem"
+Class = "Secptres"
+BaseType = "Ochre Sceptre"
+DropLevel = 24
+ItemInfo = ["D:24-45", "C:6.00%", "AS:1.15", "IM:16% increased Elemental Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Jagged Maul"
+DropLevel = 22
+ItemInfo = ["D:27-49", "C:5.00%", "AS:1.30", "IM:30% increased Stun Duration on Enemies"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Sign of the Sin Eater"
+Name = "Quecholli"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Panquetzaliztli"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Iron Sceptre"
+DropLevel = 20
+ItemInfo = ["D:27-40", "C:6.00%", "AS:1.10", "IM:14% increased Elemental Damage"]
+ShowRarity = []
+[Equipment.Disabled.Unique]
+Name = "Spine of the First Claimant"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "War Hammer"
+DropLevel = 20
+ItemInfo = ["D:13-31", "C:5.00%", "AS:1.45", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Brightbeak"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Lavianga's Wisdom"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
-
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Opal Sceptre"
+Class = "Two Hand Maces"
+BaseType = "Sledgehammer"
+DropLevel = 17
+ItemInfo = ["D:25-38", "C:5.00%", "AS:1.30", "IM:45% increased Stun Duration on Enemies"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Balefire"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["Forbidden Power"]
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Platinum Sceptre"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Singularity"
+Name = "Hrimnor's Hymn"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
-
-
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Vaal Sceptre"
-ShowRarity = ["SUnique"]
-[Equipment.Unique]
-Name = "Doryani's Catalyst"
-ValueTier = 0
-DropsFrom = ["Atziri", "Atziri in temple throne"]
-SpecificCards = []
-GambleCards = ["The Admirer"]
-Owned = false
-[Equipment.Unique]
-Name = "Doon Cuebiyari"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Yaomac's Accord"
-ValueTier = 0
-DropsFrom = ["Trialmaster"]
+[Equipment.Disabled.Unique]
+Name = "Hrimnor's Dirge"
+ValueTier = -1
+DropsFrom = []
 SpecificCards = []
 GambleCards = []
 Owned = false
 
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Quartz Sceptre"
+DropLevel = 15
+ItemInfo = ["D:21-32", "C:6.50%", "AS:1.10", "IM:20% increased Elemental Damage"]
+ShowRarity = []
 
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Carnal Sceptre"
+Class = "One Hand Maces"
+BaseType = "Stone Hammer"
+DropLevel = 15
+ItemInfo = ["D:15-27", "C:5.00%", "AS:1.30", "IM:15% reduced Enemy Stun Threshold"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Mallet"
+DropLevel = 12
+ItemInfo = ["D:16-33", "C:5.00%", "AS:1.30", "IM:30% increased Stun Duration on Enemies"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Bronze Sceptre"
+DropLevel = 10
+ItemInfo = ["D:15-29", "C:6.00%", "AS:1.10", "IM:12% increased Elemental Damage"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Breath of the Council"
+Name = "Axiom Perpetuum"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 
-
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Void Sceptre"
-ShowRarity = ["Unique", "SUnique"]
+Class = "One Hand Maces"
+BaseType = "Spiked Club"
+DropLevel = 10
+ItemInfo = ["D:13-16", "C:5.00%", "AS:1.45", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
 [Equipment.Unique]
-Name = "Augyre"
+Name = "Gorebreaker"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Tribal Maul"
+DropLevel = 8
+ItemInfo = ["D:17-25", "C:5.00%", "AS:1.25", "IM:30% increased Stun Duration on Enemies"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Secptres"
+BaseType = "Darkwood Sceptre"
+DropLevel = 5
+ItemInfo = ["D:11-17", "C:6.00%", "AS:1.20", "IM:12% increased Elemental Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Tribal Club"
+DropLevel = 5
+ItemInfo = ["D:8-13", "C:5.00%", "AS:1.40", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Two Hand Maces"
+BaseType = "Driftwood Maul"
+DropLevel = 3
+ItemInfo = ["D:10-16", "C:5.00%", "AS:1.30", "IM:30% increased Stun Duration on Enemies"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "One Hand Maces"
+BaseType = "Driftwood Club"
+DropLevel = 1
+ItemInfo = ["D:6-8", "C:5.00%", "AS:1.45", "IM:10% reduced Enemy Stun Threshold"]
+ShowRarity = []
+[Equipment.Disabled.Unique]
+Name = "Ashes of the Sun"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
 Owned = false
-[Equipment.Unique]
-Name = "Mon'tregul's Grasp"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["Death"]
-GambleCards = ["Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Nebulis"
-ValueTier = 10
-DropsFrom = ["Lethean Temptation"]
-SpecificCards = []
-GambleCards = ["Chasing Risk"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Nebulis"
-ValueTier = 10
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-
 
 [[Equipment]]
-Class = "Sceptres"
-BaseType = "Alternating Sceptre"
+Class = "Secptres"
+BaseType = "Driftwood Sceptre"
+DropLevel = 1
+ItemInfo = ["D:8-11", "C:6.00%", "AS:1.20", "IM:10% increased Elemental Damage"]
 ShowRarity = []
 
 
-[[Equipment]]
-Class = "Sceptres"
-BaseType = "Sambar Sceptre"
-ShowRarity = []
+
+

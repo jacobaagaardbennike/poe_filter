@@ -1,256 +1,43 @@
 [[Equipment]]
-Class = "Claw"
-BaseType = "Nailed Fist"
-ShowRarity = ["SUnique"]
+Class = "Claws"
+BaseType = "Gemini Claw"
+DropLevel = 72
+ItemInfo = ["D:23-68", "C:6.30%", "AS:1.50", "IM:Grants 38 Life & 14 Mana per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Void Fangs"
+DropLevel = 70
+ItemInfo = ["D:22-41", "C:6.00%", "AS:1.60", "IM:Adds (46-63) to (92-113) Chaos Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Terror Claw"
+DropLevel = 70
+ItemInfo = ["D:18-71", "C:6.30%", "AS:1.50", "IM:2% of Physical Attack Damage Leeched as Life"]
+ShowRarity = ["Unique"]
 [Equipment.Unique]
-Name = "Last Resort"
+Name = "Rive"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "Replica Last Resort"
+Name = "The Scourge"
 ValueTier = 0
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Disabled.Unique]
-Name = "Scar of Fate"
-ValueTier = -1
-DropsFrom = []
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Sharktooth Claw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Awl"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Wildslash"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Cat's Paw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Blinder"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Timeworn Claw"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Al Dhih"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolverine", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Sparkling Claw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Fright Claw"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Mortem Morsu"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Double Claw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Thresher Claw"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Cybil's Paw"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Gouger"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Tiger's Paw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Gut Ripper"
-ShowRarity = []
-[Equipment.Unique]
-Name = "Advancing Fortress"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Advancing Fortress"
-ValueTier = 0
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = 0
-[Equipment.Unique]
-Name = "Ornament of the East"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Prehistoric Claw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Malign Fangs"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Noble Claw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Eagle Claw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Twin Claw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Great White Claw"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Throat Stabber"
-ShowRarity = []
-[Equipment.Unique]
-Name = "The Wasp Nest"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Hellion's Paw"
-ShowRarity = ["SUnique"]
-[Equipment.Unique]
-Name = "Bloodseeker"
-ValueTier = 50
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Law of the Wilds"
-ValueTier = 0
-DropsFrom = ["Oshabi (grove)"]
-SpecificCards = []
-GambleCards = []
-Owned = false
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Eye Gouger"
-ShowRarity = []
-
-
-[[Equipment]]
-Class = "Claw"
-BaseType = "Vaal Claw"
-ShowRarity = ["Unique", "SUnique"]
-[Equipment.Unique]
-Name = "Allure"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Replica Allure"
-ValueTier = 0
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
-[Equipment.Unique]
-Name = "Essentia Sanguis"
-ValueTier = 50
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:77"]
 SpecificCards = []
 GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 
-
 [[Equipment]]
-Class = "Claw"
+Class = "Claws"
 BaseType = "Imperial Claw"
+DropLevel = 68
+ItemInfo = ["D:25-65", "C:6.00%", "AS:1.60", "IM:Grants 46 Life per Enemy Hit"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Hand of Thought and Motion"
@@ -281,34 +68,281 @@ SpecificCards = []
 GambleCards = []
 Owned = false
 
-
 [[Equipment]]
-Class = "Claw"
-BaseType = "Terror Claw"
-ShowRarity = ["Unique"]
+Class = "Claws"
+BaseType = "Vaal Claw"
+DropLevel = 66
+ItemInfo = ["D:29-76", "C:6.50%", "AS:1.30", "IM:2% of Physical Attack Damage Leeched as Life"]
+ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
-Name = "Rive"
+Name = "Allure"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
-Name = "The Scourge"
+Name = "Replica Allure"
 ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Unique]
+Name = "Essentia Sanguis"
+ValueTier = 50
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 
-
 [[Equipment]]
-Class = "Claw"
-BaseType = "Void Fangs"
+Class = "Claws"
+BaseType = "Eye Gouger"
+DropLevel = 64
+ItemInfo = ["D:26-68", "C:6.30%", "AS:1.50", "IM:Grants 50 Life per Enemy Hit"]
 ShowRarity = []
 
+[[Equipment]]
+Class = "Claws"
+BaseType = "Hellion's Paw"
+DropLevel = 62
+ItemInfo = ["D:29-55", "C:6.00%", "AS:1.60", "IM:1.6% of Physical Attack Damage Leeched as Life"]
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Bloodseeker"
+ValueTier = 50
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Law of the Wilds"
+ValueTier = 0
+DropsFrom = ["Oshabi (grove)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
 
 [[Equipment]]
-Class = "Claw"
-BaseType = "Gemini Claw"
+Class = "Claws"
+BaseType = "Throat Stabber"
+DropLevel = 60
+ItemInfo = ["D:21-73", "C:6.30%", "AS:1.50", "IM:Grants 40 Life per Enemy Hit"]
 ShowRarity = []
+[Equipment.Unique]
+Name = "The Wasp Nest"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Great White Claw"
+DropLevel = 58
+ItemInfo = ["D:30-78", "C:6.50%", "AS:1.30", "IM:Grants 46 Life per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Twin Claw"
+DropLevel = 57
+ItemInfo = ["D:21-64", "C:6.30%", "AS:1.50", "IM:Grants 28 Life & 10 Mana per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Eagle Claw"
+DropLevel = 55
+ItemInfo = ["D:17-69", "C:6.30%", "AS:1.50", "IM:2% of Physical Attack Damage Leeched as Life"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Noble Claw"
+DropLevel = 52
+ItemInfo = ["D:21-56", "C:6.00%", "AS:1.60", "IM:Grants 40 Life per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Malign Fangs"
+DropLevel = 50
+ItemInfo = ["D:20-37", "C:6.00%", "AS:1.60", "IM:Adds (43-55) to (81-104) Chaos Damage"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Prehistoric Claw"
+DropLevel = 49
+ItemInfo = ["D:26-68", "C:6.50%", "AS:1.30", "IM:2% of Physical Attack Damage Leeched as Life"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Gut Ripper"
+DropLevel = 46
+ItemInfo = ["D:20-53", "C:6.30%", "AS:1.50", "IM:Grants 44 Life per Enemy Hit"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Advancing Fortress"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Advancing Fortress"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = 0
+[Equipment.Unique]
+Name = "Ornament of the East"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Tiger's Paw"
+DropLevel = 43
+ItemInfo = ["D:23-43", "C:6.00%", "AS:1.60", "IM:1.6% of Physical Attack Damage Leeched as Life"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Gouger"
+DropLevel = 40
+ItemInfo = ["D:15-51", "C:6.30%", "AS:1.50", "IM:Grants 24 Life per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Thresher Claw"
+DropLevel = 37
+ItemInfo = ["D:20-53", "C:6.50%", "AS:1.30", "IM:Grants 25 Life per Enemy Hit"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Cybil's Paw"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Double Claw"
+DropLevel = 36
+ItemInfo = ["D:15-44", "C:6.30%", "AS:1.50", "IM:Grants 15 Life & 6 Mana per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Fright Claw"
+DropLevel = 34
+ItemInfo = ["D:12-46", "C:6.30%", "AS:1.50", "IM:Grants 20 Life per Enemy Hit"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Mortem Morsu"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Shadow Fangs"
+DropLevel = 30
+ItemInfo = ["D:13-24", "C:6.00%", "AS:1.60", "IM:Adds (26-38) to (52-70) Chaos Damage"]
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Sparkling Claw"
+DropLevel = 30
+ItemInfo = ["D:14-38", "C:6.00%", "AS:1.60", "IM:Grants 15 Life per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Timeworn Claw"
+DropLevel = 26
+ItemInfo = ["D:16-43", "C:6.50%", "AS:1.30", "IM:Grants 19 Life per Enemy Hit"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Al Dhih"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolverine", "Fateful Meeting", "Time-Lost Relic", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Blinder"
+DropLevel = 22
+ItemInfo = ["D:12-31", "C:6.30%", "AS:1.55", "IM:Grants 12 Life per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Cat's Paw"
+DropLevel = 17
+ItemInfo = ["D:12-22", "C:6.00%", "AS:1.60", "IM:Grants 8 Life per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Awl"
+DropLevel = 12
+ItemInfo = ["D:7-23", "C:6.30%", "AS:1.55", "IM:Grants 7 Life per Enemy Hit"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Wildslash"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Sharktooth Claw"
+DropLevel = 7
+ItemInfo = ["D:6-17", "C:6.50%", "AS:1.50", "IM:Grants 6 Life per Enemy Hit"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Claws"
+BaseType = "Nailed Fist"
+DropLevel = 3
+ItemInfo = ["D:4-11", "C:6.20%", "AS:1.60", "IM:Grants 3 Life per Enemy Hit"]
+ShowRarity = ["SUnique"]
+[Equipment.Unique]
+Name = "Last Resort"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Wolverine", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Replica Last Resort"
+ValueTier = 0
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Scar of Fate"
+ValueTier = -1
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false

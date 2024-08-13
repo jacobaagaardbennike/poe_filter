@@ -1,89 +1,103 @@
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Leviathan Gauntlets"
-ItemInfo = ["L:84", "AR:359-413", "S:114"]
+DropLevel = 84
+ItemInfo = ["AR:359-413", "S:114"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Paladin Gloves"
-ItemInfo = ["L:84", "AR:205-236", "ES:41-47", "S:80", "I:80"]
+DropLevel = 84
+ItemInfo = ["AR:205-236", "ES:41-47", "S:80", "I:80"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Phantom Mitts"
-ItemInfo = ["L:84", "EV:205-236", "ES:41-47", "D:80", "I:80"]
+DropLevel = 84
+ItemInfo = ["EV:205-236", "ES:41-47", "D:80", "I:80"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Velour Gloves"
-ItemInfo = ["L:84", "EV:359-413", "D:144"]
+DropLevel = 84
+ItemInfo = ["EV:359-413", "D:144"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Warlock Gloves"
-ItemInfo = ["L:84", "ES:72-83", "I:144"]
+DropLevel = 84
+ItemInfo = ["ES:72-83", "I:144"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Wyvernscale Gauntlets"
-ItemInfo = ["L:84", "AR:205", "EV:205", "S:80", "D:80"]
+DropLevel = 84
+ItemInfo = ["AR:205", "EV:205", "S:80", "D:80"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Chimerascale Gauntlets"
-ItemInfo = ["L:78", "AR:176", "EV:176", "S:70", "D:70"]
+DropLevel = 78
+ItemInfo = ["AR:176", "EV:176", "S:70", "D:70"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Harpyskin Gloves"
-ItemInfo = ["L:78", "EV:307-353", "D:125"]
+DropLevel = 78
+ItemInfo = ["EV:307-353", "D:125"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Martyr Gloves"
-ItemInfo = ["L:78", "AR:176-203", "ES:35-41", "S:70", "I:70"]
+DropLevel = 78
+ItemInfo = ["AR:176-203", "ES:35-41", "S:70", "I:70"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Precursor Gauntlets"
-ItemInfo = ["L:78", "AR:307-353", "S:125"]
+DropLevel = 78
+ItemInfo = ["AR:307-353", "S:125"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Sage Gloves"
-ItemInfo = ["L:78", "ES:62-71", "I:125"]
+DropLevel = 78
+ItemInfo = ["ES:62-71", "I:125"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Apothecary's Gloves"
-ItemInfo = ["L:70", "AR:108-124", "ES: 29-33", "S:46", "I:59", "IM:(14-18)% increased Damage over Time"]
+DropLevel = 70
+ItemInfo = ["AR:108-124", "ES: 29-33", "S:46", "I:59", "IM:(14-18)% increased Damage over Time"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Debilitation Gauntlets"
-ItemInfo = ["L:70", "AR:236-271", "S:101", "IM:Exerted Attacks deal (40-50)% increased Damage & Warcry Skills have +2 seconds to Cooldown"]
+DropLevel = 70
+ItemInfo = ["AR:236-271", "S:101", "IM:Exerted Attacks deal (40-50)% increased Damage & Warcry Skills have +2 seconds to Cooldown"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Fingerless Silk Gloves"
-ItemInfo = ["L:70", "ES: 45-52", "I:95", "IM:(12-16)% increased Spell Damage"]
-ShowRarity = []
+DropLevel = 70
+ItemInfo = ["ES: 45-52", "I:95", "IM:(12-16)% increased Spell Damage"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Black Zenith"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Tiny Eater"]
 SpecificCards = []
 GambleCards = []
@@ -92,29 +106,33 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Gripped Gloves"
-ItemInfo = ["L:70", "AR:220-253", "D:95", "IM:(14-18)% increased Projectile Attack Damage"]
+DropLevel = 70
+ItemInfo = ["AR:220-253", "D:95", "IM:(14-18)% increased Projectile Attack Damage"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Infiltrator Mitts"
-ItemInfo = ["L:70", "EV:176-203", "ES:35-41", "D:70", "I:70"]
+DropLevel = 70
+ItemInfo = ["EV:176-203", "ES:35-41", "D:70", "I:70"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Nexus Gloves"
-ItemInfo = ["L:70", "ES: 47-54", "I:101", "IM:30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"]
+DropLevel = 70
+ItemInfo = ["ES: 47-54", "I:101", "IM:30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Slink Gloves"
-ItemInfo = ["L:70", "AR:242-278", "D:95"]
+DropLevel = 70
+ItemInfo = ["AR:242-278", "D:95"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Mercenary's Lot"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -123,11 +141,12 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Spiked Gloves"
-ItemInfo = ["L:70", "AR:220-253", "S:95", "IM:(16-20)% increased Melee Damage"]
-ShowRarity = []
+DropLevel = 70
+ItemInfo = ["AR:220-253", "S:95", "IM:(16-20)% increased Melee Damage"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Ceaseless Feast"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Tiny Eater"]
 SpecificCards = []
 GambleCards = []
@@ -136,25 +155,26 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Titan Gauntlets"
-ItemInfo = ["L:69", "AR:242-278", "S:98"]
-ShowRarity = []
+DropLevel = 69
+ItemInfo = ["AR:242-278", "S:98"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Craiceann's Pincers"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
 Owned = false
 [Equipment.Unique]
 Name = "Veruso's Battering Rams"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Kaom's Spirit"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -163,29 +183,33 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Thwarting Gauntlets"
-ItemInfo = ["L:70", "AR:236-271", "S:101"]
+DropLevel = 70
+ItemInfo = ["AR:236-271", "S:101"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Trapsetter Gloves"
-ItemInfo = ["L:70", "EV:236-271", "D:101"]
+DropLevel = 70
+ItemInfo = ["EV:236-271", "D:101"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Sorcerer Gloves"
-ItemInfo = ["L:69", "ES: 49-57", "I:97"]
+DropLevel = 69
+ItemInfo = ["ES: 49-57", "I:97"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Runic Gauntlets"
-ItemInfo = ["L:69", "W:102-117", "S:38", "D:38", "I:38"]
+DropLevel = 69
+ItemInfo = ["W:102-117", "S:38", "D:38", "I:38"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Medved's Challenge"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Expedition Monsters"]
 SpecificCards = []
 GambleCards = []
@@ -194,11 +218,12 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Dragonscale Gauntlets"
-ItemInfo = ["L:67", "AR:121-139", "EV:121-139", "S:51", "D:51"]
+DropLevel = 67
+ItemInfo = ["AR:121-139", "EV:121-139", "S:51", "D:51"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Surgebinders"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -206,7 +231,7 @@ Owned = true
 [Equipment.Disabled.Unique]
 Name = "Worldcarver"
 ValueTier = -1
-DropsFrom = []
+DropsFrom = ["UniqueDropLevel:73"]
 SpecificCards = []
 GambleCards = []
 Owned = false
@@ -214,25 +239,26 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Murder Mitts"
-ItemInfo = ["L:67", "AR:121-139", "EV:25-28", "D:51", "I:51"]
-ShowRarity = []
+DropLevel = 67
+ItemInfo = ["AR:121-139", "EV:25-28", "D:51", "I:51"]
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Machina Mitts"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Hive of Knowledge"]
 GambleCards = ["Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Malachai's Mark"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Abomination Map (T17)"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 Name = "Thunderfist"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -241,25 +267,26 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Crusader Gloves"
-ItemInfo = ["L:66", "AR:121-139", "ES: 25-28", "S:51", "I:51"]
-ShowRarity = []
+DropLevel = 66
+ItemInfo = ["AR:121-139", "ES: 25-28", "S:51", "I:51"]
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Hands of the High Templar"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Sirus"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 Name = "Repentance"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Shaper's Touch"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Shaper"]
 SpecificCards = []
 GambleCards = []
@@ -268,26 +295,27 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Vaal Gauntlets"
-ItemInfo = ["L:63", "AR:232-266", "S:100"]
-ShowRarity = []
+DropLevel = 63
+ItemInfo = ["AR:232-266", "S:100"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Atziri's Acuity"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Uber Atziri"]
 SpecificCards = ["The Queen"]
 GambleCards = ["The Admirer"]
 Owned = false
 [Equipment.Unique]
 Name = "Replica Atziri's Acuity"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
 [Equipment.Unique]
 Name = "Doryani's Fist"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:69"]
 SpecificCards = ["The Conduit", "Audacity"]
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -295,24 +323,26 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Stealth Gloves"
-ItemInfo = ["L:62", "AR:231-265", "D:97"]
+DropLevel = 62
+ItemInfo = ["AR:231-265", "D:97"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Arcanist Gloves"
-ItemInfo = ["L:60", "ES: 45-52", "I:95"]
-ShowRarity = []
+DropLevel = 60
+ItemInfo = ["ES: 45-52", "I:95"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Grip of the Council"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Grip of the Council"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -321,31 +351,33 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Apprentice Gloves"
-ItemInfo = ["L:59", "EV:132-152", "D:40"]
+DropLevel = 59
+ItemInfo = ["EV:132-152", "D:40"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Hydrascale Gauntlets"
-ItemInfo = ["L:59", "AR:106-122", "EV:106-122", "S:45", "D:45"]
-ShowRarity = []
+DropLevel = 59
+ItemInfo = ["AR:106-122", "EV:106-122", "S:45", "D:45"]
+ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Farrul's Pounce"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
 SpecificCards = []
 GambleCards = ["Council of Cats", "Boon of the First Ones"]
 Owned = false
 [Equipment.Unique]
 Name = "Breathstealer"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Blighted map"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Gravebind"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -354,32 +386,33 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Assassin's Mitts"
-ItemInfo = ["L:58", "AR:104-123", "EV:21-25", "D:45"]
-ShowRarity = []
+DropLevel = 58
+ItemInfo = ["AR:104-123", "EV:21-25", "D:45"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Blasphemer's Grasp"
-ValueTier = CHANGEME
-DropsFrom = ["Elder"]
+ValueTier = 0
+DropsFrom = ["Elder", "UniqueDropLevel:68"]
 SpecificCards = []
 GambleCards = []
 Owned = true
 [Equipment.Unique]
 Name = "Snakebite"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Storm's Gift"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Entropic Devastation"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Uber Shaper"]
 SpecificCards = []
 GambleCards = []
@@ -388,18 +421,19 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Legion Gloves"
-ItemInfo = ["L:57", "AR:103-121", "ES: 21-25", "S:44", "I:44"]
-ShowRarity = []
+DropLevel = 57
+ItemInfo = ["AR:103-121", "ES: 21-25", "S:44", "I:44"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Null and Void"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Offering to the Serpent"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Venarius"]
 SpecificCards = []
 GambleCards = ["Chasing Risk"]
@@ -408,11 +442,12 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Conjurer Gloves"
-ItemInfo = ["L:55", "ES: 37-44", "I:79"]
+DropLevel = 55
+ItemInfo = ["ES: 37-44", "I:79"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Voidbringer"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -421,24 +456,26 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Shagreen Gloves"
-ItemInfo = ["L:55", "EV:177-212", "D:78"]
+DropLevel = 55
+ItemInfo = ["EV:177-212", "D:78"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Goliath Gauntlets"
-ItemInfo = ["L:53", "AR:174-200", "S:77"]
-ShowRarity = []
+DropLevel = 53
+ItemInfo = ["AR:174-200", "S:77"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Empire's Grasp"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "The Celestial Brace"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Uber Exarch"]
 SpecificCards = []
 GambleCards = []
@@ -447,18 +484,19 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Soldier Gloves"
-ItemInfo = ["L:51", "AR:92-103", "ES: 19-21", "S:40", "I:40"]
-ShowRarity = []
+DropLevel = 51
+ItemInfo = ["AR:92-103", "ES: 19-21", "S:40", "I:40"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Saqawal's Winds"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Saqawal (Saqawal's Roost)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
 Owned = false
 [Equipment.Unique]
 Name = "Southbound"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -467,33 +505,34 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Carnal Mitts"
-ItemInfo = ["L:50", "EV:90-101", "ES: 19-21", "D:39", "I:39"]
-ShowRarity = []
+DropLevel = 50
+ItemInfo = ["EV:90-101", "ES: 19-21", "D:39", "I:39"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Fenumus' Weave"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Fenumus (Fenumus' Lair)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
 Owned = true
 [Equipment.Unique]
 Name = "Algor Mortis"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:75"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "The Embalmer"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Soul Ascension"
-ValueTier = CHANGEME
-DropsFrom = ["Uber Uber Elder"]
+ValueTier = 50
+DropsFrom = ["Uber Uber Elder", "UniqueDropLevel:87"]
 SpecificCards = []
 GambleCards = []
 Owned = false
@@ -501,18 +540,19 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Wyrmscale Gauntlets"
-ItemInfo = ["L:49", "AR:88-104", "EV:88-104", "S:38", "D:38"]
+DropLevel = 49
+ItemInfo = ["AR:88-104", "EV:88-104", "S:38", "D:38"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Wyrmsign"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Tanu Ahi"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -521,11 +561,12 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Runic Gages"
-ItemInfo = ["L:48", "W:62-71", "S:31", "D:31", "I:31"]
-ShowRarity = []
+DropLevel = 48
+ItemInfo = ["W:62-71", "S:31", "D:31", "I:31"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Nightgrip"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Expedition Monsters"]
 SpecificCards = []
 GambleCards = []
@@ -534,7 +575,8 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Ancient Gauntlets"
-ItemInfo = ["L:47", "AR:154-173", "S:68"]
+DropLevel = 47
+ItemInfo = ["AR:154-173", "S:68"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Hateforge"
@@ -554,18 +596,19 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Samite Gloves"
-ItemInfo = ["L:47", "ES: 32-37", "I:68"]
-ShowRarity = []
+DropLevel = 47
+ItemInfo = ["ES: 32-37", "I:68"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Kalisa's Grace"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Kalisa's Grace"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -574,32 +617,33 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Ambush Mitts"
-ItemInfo = ["L:45", "EV:81-91", "ES: 17-19", "D:35", "I:35"]
-ShowRarity = []
+DropLevel = 45
+ItemInfo = ["EV:81-91", "ES: 17-19", "D:35", "I:35"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Abhorrent Interrogation"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Oshabi (Grove)"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Architect's Hand"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Defense Research Lab (tier3 incursion)"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Slavedriver's Hand"
-ValueTier = CHANGEME
+ValueTier = 50
 DropsFrom = ["Crafted"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Stormseeker"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -608,12 +652,13 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Sharkskin Gloves"
-ItemInfo = ["L:45", "EV:148-163", "D:66"]
+DropLevel = 45
+ItemInfo = ["EV:148-163", "D:66"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Painseeker"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:73"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -621,11 +666,12 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Serpentscale Gauntlets"
-ItemInfo = ["L:43", "AR:78-87", "EV:78-87", "S:34", "D:34"]
+DropLevel = 43
+ItemInfo = ["AR:78-87", "EV:78-87", "S:34", "D:34"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Haemophilia"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -634,39 +680,40 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Zealot Gloves"
-ItemInfo = ["L:43", "AR:78-92", "ES: 16-19", "S:34", "I:34"]
-ShowRarity = []
+DropLevel = 43
+ItemInfo = ["AR:78-92", "ES: 16-19", "S:34", "I:34"]
+ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Hand of the Fervent"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Rituals"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Volkuur's Guidance (fire)"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Volkuur's Guidance (lightning)"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Volkuur's Guidance (cold)"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Volkuur's Guidance"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
@@ -675,25 +722,26 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Satin Gloves"
-ItemInfo = ["L:41", "ES: 28-33", "I:60"]
-ShowRarity = []
+DropLevel = 41
+ItemInfo = ["ES: 28-33", "I:60"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Allelopathy"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Replica Allelopathy"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
 Owned = false
 [Equipment.Unique]
 Name = "Demon Stitcher"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Alone in the Darkness", "Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -702,35 +750,40 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Aetherwind Gloves"
-ItemInfo = ["L:40", "ES: 28-32", "I:59", "IM:30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"]
+DropLevel = 40
+ItemInfo = ["ES: 28-32", "I:59", "IM:30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Gruelling Gauntlets"
-ItemInfo = ["L:40", "AR:132-152", "S:59", "IM:Exerted Attacks deal (30-40)% increased Damage & Warcry Skills have +2 seconds to Cooldown"]
+DropLevel = 40
+ItemInfo = ["AR:132-152", "S:59", "IM:Exerted Attacks deal (30-40)% increased Damage & Warcry Skills have +2 seconds to Cooldown"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Guarding Gauntlets"
-ItemInfo = ["L:40", "AR:132-152", "S:59"]
+DropLevel = 40
+ItemInfo = ["AR:132-152", "S:59"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Southswing Gloves"
-ItemInfo = ["L:40", "AR:132-152", "D:59", "IM:25% reduced Attack Damage with Main Hand & (40-50)% increased Attack Damage with Off Hand"]
+DropLevel = 40
+ItemInfo = ["AR:132-152", "D:59", "IM:25% reduced Attack Damage with Main Hand & (40-50)% increased Attack Damage with Off Hand"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Antique Gauntlets"
-ItemInfo = ["L:39", "AR:129-154", "S:58"]
-ShowRarity = []
+DropLevel = 39
+ItemInfo = ["AR:129-154", "S:58"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Admiral's Arrogance"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Admiral Valerius (Shipping encounter)"]
 SpecificCards = []
 GambleCards = []
@@ -739,12 +792,13 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Eelskin Gloves"
-ItemInfo = ["L:38", "EV:125-148", "D:56"]
+DropLevel = 38
+ItemInfo = ["EV:125-148", "D:56"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Great Old One's Tentacles"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:70"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -752,11 +806,12 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Riveted Gloves"
-ItemInfo = ["L:37", "AR:67-77", "ES: 14-16", "S:29", "I:29"]
-ShowRarity = []
+DropLevel = 37
+ItemInfo = ["AR:67-77", "ES: 14-16", "S:29", "I:29"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Command of the Pit"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Kurgal, Delve Abyssal City"]
 SpecificCards = []
 GambleCards = []
@@ -765,11 +820,12 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Embroidered Gloves"
-ItemInfo = ["L:36", "ES: 25-28", "I:54"]
+DropLevel = 36
+ItemInfo = ["ES: 25-28", "I:54"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Vixen's Entrapment"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -778,18 +834,19 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Steelscale Gauntlets"
-ItemInfo = ["L:36", "AR:65-75", "EV:65-75", "S:29", "D:29"]
-ShowRarity = []
+DropLevel = 36
+ItemInfo = ["AR:65-75", "EV:65-75", "S:29", "D:29"]
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Aurseize"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
 [Equipment.Unique]
 Name = "Tombfist"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Abyssal Liches"]
 SpecificCards = []
 GambleCards = []
@@ -798,17 +855,19 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Trapper Mitts"
-ItemInfo = ["L:36", "EV:65-77", "ES: 14-16", "D:29", "I:29"]
+DropLevel = 36
+ItemInfo = ["EV:65-77", "ES: 14-16", "D:29", "I:29"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Steel Gauntlets"
-ItemInfo = ["L:35", "AR:116-127", "S:52"]
+DropLevel = 35
+ItemInfo = ["AR:116-127", "S:52"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Meginord's Vise"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -817,11 +876,12 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Nubuck Gloves"
-ItemInfo = ["L:33", "EV:109-122", "D:50"]
+DropLevel = 33
+ItemInfo = ["EV:109-122", "D:50"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Oskarm"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -830,18 +890,19 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Mesh Gloves"
-ItemInfo = ["L:32", "AR:58-67", "ES: 12-14", "S:26", "I:26"]
+DropLevel = 32
+ItemInfo = ["AR:58-67", "ES: 12-14", "S:26", "I:26"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Triad Grip"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "The Hand of Phrecia"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -850,18 +911,19 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Clasped Mitts"
-ItemInfo = ["L:31", "EV:57-65", "ES: 12-14", "D:25", "I:25"]
+DropLevel = 31
+ItemInfo = ["EV:57-65", "ES: 12-14", "D:25", "I:25"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Aukuna's Will"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Shadows and Dust"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -870,18 +932,19 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Bronzescale Gauntlets"
-ItemInfo = ["L:27", "AR:50-62", "EV:50-62", "S:22", "D:22"]
+DropLevel = 27
+ItemInfo = ["AR:50-62", "EV:50-62", "S:22", "D:22"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Slitherpinch"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Baited Expectations", "Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Vaal Caress"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -890,12 +953,13 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Silk Gloves"
-ItemInfo = ["L:25", "ES: 18-23", "I:39"]
+DropLevel = 25
+ItemInfo = ["ES: 18-23", "I:39"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Asenath's Gentle Touch"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
+ValueTier = 10
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:75"]
 SpecificCards = ["Gift of Asenath"]
 GambleCards = ["Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -903,17 +967,19 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Runic Gloves"
-ItemInfo = ["L:24", "W:24-28", "S:16", "D:16", "I:16"]
+DropLevel = 24
+ItemInfo = ["W:24-28", "S:16", "D:16", "I:16"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Bronze Gauntlets"
-ItemInfo = ["L:23", "AR:77-96", "S:36"]
+DropLevel = 23
+ItemInfo = ["AR:77-96", "S:36"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Giantsbane"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -922,12 +988,13 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Deerskin Gloves"
-ItemInfo = ["L:21", "EV:71-88", "D:33"]
+DropLevel = 21
+ItemInfo = ["EV:71-88", "D:33"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Maligaro's Virtuosity"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:75"]
 SpecificCards = ["The Betrayal"]
 GambleCards = ["Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -935,23 +1002,19 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Ringmail Gloves"
-ItemInfo = ["L:19", "AR:35-46", "ES: 8-10", "S:16", "I:16"]
-ShowRarity = []
-
-[[Equipment]]
-Class = "Gloves"
-BaseType = "Preserving Gauntlets"
-ItemInfo = ["L:16", "AR:35-41", "S:18"]
+DropLevel = 19
+ItemInfo = ["AR:35-46", "ES: 8-10", "S:16", "I:16"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Strapped Mitts"
-ItemInfo = ["L:16", "EV:30-39", "ES:7-9"]
+DropLevel = 16
+ItemInfo = ["EV:30-39", "ES:7-9"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Facebreaker"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["Unchained"]
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -960,11 +1023,12 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Ironscale Gauntlets"
-ItemInfo = ["L:15", "AR:28-37", "EV:28-37", "S:14", "D:14"]
+DropLevel = 15
+ItemInfo = ["AR:28-37", "EV:28-37", "S:14", "D:14"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Flesh and Spirit"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -973,7 +1037,8 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Golden Bracers"
-ItemInfo = ["L:12", "IM:(20-30) to maximum Life"]
+DropLevel = 12
+ItemInfo = ["IM:(20-30) to maximum Life"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Demigod's Touch"
@@ -986,11 +1051,12 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Velvet Gloves"
-ItemInfo = ["L:12", "ES: 10-13", "I:21"]
+DropLevel = 12
+ItemInfo = ["ES: 10-13", "I:21"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Doedre's Tenure"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Doedre's Madness", "Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1006,29 +1072,40 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Plated Gauntlets"
-ItemInfo = ["L:11", "AR:39-50", "S:20"]
+DropLevel = 11
+ItemInfo = ["AR:39-50", "S:20"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Leyline Gloves"
-ItemInfo = ["L:10", "ES: 9-10", "I:18", "IM:30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"]
+DropLevel = 10
+ItemInfo = ["ES: 9-10", "I:18", "IM:30% reduced maximum Mana & (25-30)% chance when you pay a Skill's Cost to gain that much Mana"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
+BaseType = "Preserving Gauntlets"
+DropLevel = 10
+ItemInfo = ["AR:35-41", "S:18"]
+ShowRarity = [] 
+
+[[Equipment]]
+Class = "Gloves"
 BaseType = "Tinker Gloves"
-ItemInfo = ["L:10", "EV:35-41", "D:18"]
+DropLevel = 10
+ItemInfo = ["EV:35-41", "D:18"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Goathide Gloves"
-ItemInfo = ["L:9", "EV:32-42", "D:17"]
+DropLevel = 9
+ItemInfo = ["EV:32-42", "D:17"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Hrimsorrow"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1044,11 +1121,12 @@ Owned = false
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Chain Gloves"
-ItemInfo = ["L:7", "AR:14-20", "ES: 4-6", "S:8", "I:8"]
+DropLevel = 7
+ItemInfo = ["AR:14-20", "ES: 4-6", "S:8", "I:8"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Shackles of the Wretched"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1057,11 +1135,12 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Wrapped Mitts"
-ItemInfo = ["L:5", "EV:11-15", "ES: 3-5", "D:6", "I:6"]
+DropLevel = 5
+ItemInfo = ["EV:11-15", "ES: 3-5", "D:6", "I:6"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Ondar's Clasp"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1070,17 +1149,26 @@ Owned = true
 [[Equipment]]
 Class = "Gloves"
 BaseType = "Fishscale Gauntlets"
-ItemInfo = ["L:1", "AR:9-12", "EV:9-12", "S:5", "D:5"]
+DropLevel = 4
+ItemInfo = ["AR:9-12", "EV:9-12", "S:5", "D:5"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Gloves"
-BaseType = "Iron Gauntlets"
-ItemInfo = ["L:1", "AR:6-9", "S:6"]
+BaseType = "Rawhide Gloves"
+DropLevel = 3
+ItemInfo = ["EV:13-18", "D:9"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Gloves"
+BaseType = "Wool Gloves"
+DropLevel = 3
+ItemInfo = ["ES: 5-7", "I:9"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Lochtonial Caress"
-ValueTier = CHANGEME
+Name = "Sadima's Touch"
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1088,18 +1176,13 @@ Owned = true
 
 [[Equipment]]
 Class = "Gloves"
-BaseType = "Rawhide Gloves"
-ItemInfo = ["L:1", "EV:13-18", "D:9"]
-ShowRarity = []
-
-[[Equipment]]
-Class = "Gloves"
-BaseType = "Wool Gloves"
-ItemInfo = ["L:1", "ES: 5-7", "I:9"]
+BaseType = "Iron Gauntlets"
+DropLevel = 1
+ItemInfo = ["AR:6-9", "S:6"]
 ShowRarity = []
 [Equipment.Unique]
-Name = "Sadima's Touch"
-ValueTier = CHANGEME
+Name = "Lochtonial Caress"
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]

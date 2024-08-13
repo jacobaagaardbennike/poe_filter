@@ -1,115 +1,134 @@
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Conquest Lamellar"
-ItemInfo = ["L:84", "AR:723-831", "EV:723-831", "S:173", "D:173", "IM:Movement Speed: -3%"]
+DropLevel = 84
+ItemInfo = ["AR:723-831", "EV:723-831", "S:173", "D:173", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Necrotic Armour"
-ItemInfo = ["L:84", "EV:723-831", "ES:145-167", "D:173", "I:173", "IM:Movement Speed: -3%"]
+DropLevel = 84
+ItemInfo = ["EV:723-831", "ES:145-167", "D:173", "I:173", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Royal Plate"
-ItemInfo = ["L:84", "AR:1183-1360", "S:293", "IM:Movement Speed: -5%"]
+DropLevel = 84
+ItemInfo = ["AR:1183-1360", "S:293", "IM:Movement Speed: -5%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sacred Chainmail"
-ItemInfo = ["L:84", "AR:'723-831'", "ES:145-167", "S:173", "I:173", "IM:Movement Speed: -5%"]
+DropLevel = 84
+ItemInfo = ["AR:'723-831'", "ES:145-167", "S:173", "I:173", "IM:Movement Speed: -5%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Syndicate's Garb"
-ItemInfo = ["L:84", "EV:1205-1386", "D:293", "IM:Movement Speed: -3%"]
+DropLevel = 84
+ItemInfo = ["EV:1205-1386", "D:293", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Twilight Regalia"
-ItemInfo = ["L:84", "ES:262-302", "I:293", "IM:Movement Speed: -3%"]
+DropLevel = 84
+ItemInfo = ["ES:262-302", "I:293", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Astral Leather"
-ItemInfo = ["L:78", "EV:1037-1193", "D:254", "IM:Movement Speed: -3%"]
+DropLevel = 78
+ItemInfo = ["EV:1037-1193", "D:254", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Legion Plate"
-ItemInfo = ["L:78", "AR:1018-1171", "S:254", "IM:Movement Speed: -5%"]
+DropLevel = 78
+ItemInfo = ["AR:1018-1171", "S:254", "IM:Movement Speed: -5%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Marshall's Brigandine"
-ItemInfo = ["L:78", "AR:627-721", "EV:627-721", "S:151", "D:151", "IM:Movement Speed: -3%"]
+DropLevel = 78
+ItemInfo = ["AR:627-721", "EV:627-721", "S:151", "D:151", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Nightweave Robe"
-ItemInfo = ["L:78", "ES:227-260", "I:254", "IM:Movement Speed: -3%"]
+DropLevel = 78
+ItemInfo = ["ES:227-260", "I:254", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Paladin's Hauberk"
-ItemInfo = ["L:78", "AR:627-721", "ES:126-145", "S:151", "I:151", "IM:Movement Speed: -5%"]
+DropLevel = 78
+ItemInfo = ["AR:627-721", "ES:126-145", "S:151", "I:151", "IM:Movement Speed: -5%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Torturer Garb"
-ItemInfo = ["L:78", "EV:627-721", "ES:126-145", "D:151", "I:151", "IM:Movement Speed: -3%"]
+DropLevel = 78
+ItemInfo = ["EV:627-721", "ES:126-145", "D:151", "I:151", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Arcane Vestment"
-ItemInfo = ["L:73", "ES:196-225", "I:222", "IM:Movement Speed: -3%"]
+DropLevel = 73
+ItemInfo = ["ES:196-225", "I:222", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Full Wyvernscale"
-ItemInfo = ["L:73", "AR:545-627", "EV:545-627", "S:133", "D:133", "IM:Movement Speed: -3%"]
+DropLevel = 73
+ItemInfo = ["AR:545-627", "EV:545-627", "S:133", "D:133", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Grand Ringmail"
-ItemInfo = ["L:73", "AR:545-627", "ES:110-127", "S:133", "I:133", "IM:Movement Speed: -5%"]
+DropLevel = 73
+ItemInfo = ["AR:545-627", "ES:110-127", "S:133", "I:133", "IM:Movement Speed: -5%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sanguine Raiment"
-ItemInfo = ["L:73", "EV:545-627", "ES:110-127", "D:133", "I:133", "IM:Movement Speed: -3%"]
+DropLevel = 73
+ItemInfo = ["EV:545-627", "ES:110-127", "D:133", "I:133", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Supreme Leather"
-ItemInfo = ["L:73", "EV:894-1028", "D:222", "IM:Movement Speed: -3%"]
+DropLevel = 73
+ItemInfo = ["EV:894-1028", "D:222", "IM:Movement Speed: -3%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Titan Plate"
-ItemInfo = ["L:73", "AR:877-1009", "S:222", "IM:Movement Speed: -5%"]
+DropLevel = 73
+ItemInfo = ["AR:877-1009", "S:222", "IM:Movement Speed: -5%"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Carnal Armour"
-ItemInfo = ["L:71", "EV:353-388", "ES:103-113","D:88", "I:122", "IM(20-25) to maximum Mana"]
+DropLevel = 71
+ItemInfo = ["EV:353-388", "ES:103-113","D:88", "I:122", "IM(20-25) to maximum Mana"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Shroud of the Lightless"
@@ -150,7 +169,8 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sacrificial Garb"
-ItemInfo = ["L:72", "EV:329-378", "ES:329-378", "S:66", "D:66", "I:66", "IM+1 to Level of all Vaal Skill Gems"]
+DropLevel = 72
+ItemInfo = ["EV:329-378", "ES:329-378", "S:66", "D:66", "I:66", "IM+1 to Level of all Vaal Skill Gems"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Atziri's Splendour"
@@ -170,13 +190,15 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Grasping Mail"
-ItemInfo = ["L:70", "AR:217-250", "EV:217-250", "S:60", "D:60", "I:60"]
+DropLevel = 70
+ItemInfo = ["AR:217-250", "EV:217-250", "S:60", "D:60", "I:60"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Saintly Chainmail"
-ItemInfo = ["L:70", "AR:401-461", "ES:96-110", "S:99", "I:115"]
+DropLevel = 70
+ItemInfo = ["AR:401-461", "ES:96-110", "S:99", "I:115"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Chains of Command"
@@ -196,7 +218,8 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Triumphant Lamellar"
-ItemInfo = ["L:69", "AR:380-437", "EV:477-549", "S:95", "D:116"]
+DropLevel = 69
+ItemInfo = ["AR:380-437", "EV:477-549", "S:95", "D:116"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Farrul's Fur"
@@ -223,7 +246,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Assassin's Garb"
-ItemInfo = ["L:68", "EV:737-811","D:183", "IM3% increased Movement Speed"]
+DropLevel = 68
+ItemInfo = ["EV:737-811","D:183", "IM3% increased Movement Speed"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Cospri's Will"
@@ -236,7 +260,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Glorious Plate"
-ItemInfo = ["L:68", "AR:776-892", "S:191"]
+DropLevel = 68
+ItemInfo = ["AR:776-892", "S:191"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Kaom's Heart"
@@ -255,7 +280,7 @@ Owned = false
 [Equipment.Unique]
 Name = "Perfidy"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:82"]
 SpecificCards = []
 GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -263,7 +288,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sadist Garb"
-ItemInfo = ["L:68", "EV:427-491", "ES:93-107","D:103", "I:109"]
+DropLevel = 68
+ItemInfo = ["EV:427-491", "ES:93-107","D:103", "I:109"]
 ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Doppelgänger Guise"
@@ -290,7 +316,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Vaal Regalia"
-ItemInfo = ["L:68", "ES:171-197","I:194"]
+DropLevel = 68
+ItemInfo = ["ES:171-197","I:194"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "The Beast Fur Shawl"
@@ -310,7 +337,8 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Saint's Hauberk"
-ItemInfo = ["L:67", "AR:443-496", "ES:76-85", "S:109", "I:94"]
+DropLevel = 67
+ItemInfo = ["AR:443-496", "ES:76-85", "S:109", "I:94"]
 ShowRarity = ["Unique", "SUnique"]
 [Equipment.Unique]
 Name = "Doryani's Prototype"
@@ -329,7 +357,7 @@ Owned = false
 [Equipment.Unique]
 Name = "The Ivory Tower"
 ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:73"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -337,13 +365,15 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "General's Brigandine"
-ItemInfo = ["L:66", "AR:415-465", "EV:415-465", "S:103", "D:103"]
+DropLevel = 66
+ItemInfo = ["AR:415-465", "EV:415-465", "S:103", "D:103"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Blood Raiment"
-ItemInfo = ["L:65", "EV:436-501", "ES:73-84","D:107", "I:90"]
+DropLevel = 65
+ItemInfo = ["EV:436-501", "ES:73-84","D:107", "I:90"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Replica Eternity Shroud"
@@ -370,12 +400,13 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Gladiator Plate"
-ItemInfo = ["L:65", "AR:738-848", "S:177"]
+DropLevel = 65
+ItemInfo = ["AR:738-848", "S:177"]
 ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "The Brass Dome"
 ValueTier = 10
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:77"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = false
@@ -383,7 +414,8 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Widowsilk Robe"
-ItemInfo = ["L:65", "ES:157-181","I:187"]
+DropLevel = 65
+ItemInfo = ["ES:157-181","I:187"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Doedre's Skin"
@@ -410,7 +442,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Zodiac Leather"
-ItemInfo = ["L:65", "EV:854-982","D:197"]
+DropLevel = 65
+ItemInfo = ["EV:854-982","D:197"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Hyrri's Ire"
@@ -451,7 +484,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Elegant Ringmail"
-ItemInfo = ["L:64", "AR:377-433", "ES:92-105", "S:90", "I:105"]
+DropLevel = 64
+ItemInfo = ["AR:377-433", "ES:92-105", "S:90", "I:105"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Geofri's Sanctuary"
@@ -478,7 +512,8 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Full Dragonscale"
-ItemInfo = ["L:63", "AR:470-541", "EV:373-429", "S:115", "D:94"]
+DropLevel = 63
+ItemInfo = ["AR:470-541", "EV:373-429", "S:115", "D:94"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Daresso's Defiance"
@@ -491,7 +526,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Astral Plate"
-ItemInfo = ["L:62", "AR:711-782", "S:180", "IM(8-12)% to all Elemental Resistances"]
+DropLevel = 62
+ItemInfo = ["AR:711-782", "S:180", "IM(8-12)% to all Elemental Resistances"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Blunderbore"
@@ -511,7 +547,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Exquisite Leather"
-ItemInfo = ["L:62", "AR:704-810","D:170"]
+DropLevel = 62
+ItemInfo = ["AR:704-810","D:170"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Kintsugi"
@@ -531,7 +568,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Occultist's Vestment"
-ItemInfo = ["L:62", "ES:137-151","I:180", "IM(3-10)% increased Spell Damage"]
+DropLevel = 62
+ItemInfo = ["ES:137-151","I:180", "IM(3-10)% increased Spell Damage"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Shavronne's Wrappings"
@@ -544,7 +582,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Varnished Coat"
-ItemInfo = ["L:62", "EV:387-434", "ES:79-89","D:96", "I:96"]
+DropLevel = 62
+ItemInfo = ["EV:387-434", "ES:79-89","D:96", "I:96"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Carcass Jack"
@@ -564,7 +603,8 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Conquest Chainmail"
-ItemInfo = ["L:61", "AR:387-445", "ES:79-91", "S:96", "I:96"]
+DropLevel = 61
+ItemInfo = ["AR:387-445", "ES:79-91", "S:96", "I:96"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Kingsguard"
@@ -577,7 +617,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Desert Brigandine"
-ItemInfo = ["L:60", "AR:376-451", "EV:376-451", "S:96", "D:96"]
+DropLevel = 60
+ItemInfo = ["AR:376-451", "EV:376-451", "S:96", "D:96"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Lightning Coil"
@@ -590,12 +631,13 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Crusader Plate"
-ItemInfo = ["L:59", "AR:601-691", "S:160"]
+DropLevel = 59
+ItemInfo = ["AR:601-691", "S:160"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Lioneye's Vision"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:71"]
 SpecificCards = ["The Visionary"]
 GambleCards = ["The Lion", "The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -617,7 +659,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Destiny Leather"
-ItemInfo = ["L:59", "AR:601-721","D:160"]
+DropLevel = 59
+ItemInfo = ["AR:601-721","D:160"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Queen of the Forest"
@@ -630,7 +673,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Necromancer Silks"
-ItemInfo = ["L:59", "ES:123-147","I:160"]
+DropLevel = 59
+ItemInfo = ["ES:123-147","I:160"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Fleshcrafter"
@@ -642,7 +686,7 @@ Owned = false
 [Equipment.Unique]
 Name = "Vis Mortis"
 ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb"]
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:65"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
@@ -650,7 +694,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sentinel Jacket"
-ItemInfo = ["L:59", "EV:330-370", "ES:67-76","D:86", "I:86"]
+DropLevel = 59
+ItemInfo = ["EV:330-370", "ES:67-76","D:86", "I:86"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Dendrobate"
@@ -670,7 +715,8 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Loricated Ringmail"
-ItemInfo = ["L:58", "AR:325-374", "ES:66-76", "S:84", "I:84"]
+DropLevel = 58
+ItemInfo = ["AR:325-374", "ES:66-76", "S:84", "I:84"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Rotting Legion"
@@ -683,19 +729,22 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Dragonscale Doublet"
-ItemInfo = ["L:57", "AR:313-351", "EV:313-351", "S:83", "D:83"]
+DropLevel = 57
+ItemInfo = ["AR:313-351", "EV:313-351", "S:83", "D:83"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Crypt Armour"
-ItemInfo = ["L:56", "EV:308-369", "ES:63-76","D:82", "I:82"]
+DropLevel = 56
+ItemInfo = ["EV:308-369", "ES:63-76","D:82", "I:82"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Golden Plate"
-ItemInfo = ["L:56", "AR:559-643", "S:152"]
+DropLevel = 56
+ItemInfo = ["AR:559-643", "S:152"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Greed's Embrace"
@@ -715,18 +764,19 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Savant's Robe"
-ItemInfo = ["L:56", "ES:115-132","I:152"]
-ShowRarity = []
+DropLevel = 56
+ItemInfo = ["ES:115-132","I:152"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Cloak of Tawm'r Isley"
-ValueTier = CHANGEME
+ValueTier = 50
 DropsFrom = ["None Intervention Syndicate Hideouts"]
 SpecificCards = []
 GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Garb of the Ephemeral"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Venarius"]
 SpecificCards = []
 GambleCards = ["Chasing Risk"]
@@ -735,11 +785,12 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sharkskin Tunic"
-ItemInfo = ["L:56", "AR:559-643","D:152"]
+DropLevel = 56
+ItemInfo = ["AR:559-643","D:152"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Rat Cage"
-ValueTier = CHANGEME
+ValueTier = 1
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -748,7 +799,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Devout Chainmail"
-ItemInfo = ["L:55", "AR:302-363", "ES:62-74", "S:80", "I:80"]
+DropLevel = 55
+ItemInfo = ["AR:302-363", "ES:62-74", "S:80", "I:80"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Fourth Vow"
@@ -761,17 +813,19 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Battle Lamellar"
-ItemInfo = ["L:54", "AR:297-341", "EV:297-341", "S:79", "D:79"]
+DropLevel = 54
+ItemInfo = ["AR:297-341", "EV:297-341", "S:79", "D:79"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Cutthroat's Garb"
-ItemInfo = ["L:53", "AR:530-594","D:145"]
+DropLevel = 53
+ItemInfo = ["AR:530-594","D:145"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Bronn's Lithe"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -780,11 +834,12 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Destroyer Regalia"
-ItemInfo = ["L:53", "ES:109-129","I:145"]
+DropLevel = 53
+ItemInfo = ["ES:109-129","I:145"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Coming Calamity"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -793,11 +848,12 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Majestic Plate"
-ItemInfo = ["L:53", "AR:530-625", "S:145"]
-ShowRarity = []
+DropLevel = 53
+ItemInfo = ["AR:530-625", "S:145"]
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Utula's Hunger"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -806,24 +862,26 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Chain Hauberk"
-ItemInfo = ["L:51", "AR:281-314", "ES:58-65", "S:75", "I:75"]
+DropLevel = 51
+ItemInfo = ["AR:281-314", "ES:58-65", "S:75", "I:75"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Lacquered Garb"
-ItemInfo = ["L:52", "EV:286-329", "ES:59-68","D:76", "I:76"]
+DropLevel = 52
+ItemInfo = ["EV:286-329", "ES:59-68","D:76", "I:76"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Cloak of Defiance"
-ValueTier = CHANGEME
+ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "Victario's Influence"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Adventuring Spirit", "The Enthusiasts"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -832,17 +890,19 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Commander's Brigandine"
-ItemInfo = ["L:50", "AR:275-325", "EV:275-325", "S:73", "D:73"]
+DropLevel = 50
+ItemInfo = ["AR:275-325", "EV:275-325", "S:73", "D:73"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Colosseum Plate"
-ItemInfo = ["L:49", "AR:491-589", "S:134"]
+DropLevel = 49
+ItemInfo = ["AR:491-589", "S:134"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Pragmatism"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["King in the Mists"]
 SpecificCards = []
 GambleCards = []
@@ -851,24 +911,26 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Coronal Leather"
-ItemInfo = ["L:49", "AR:491-579","D:134"]
+DropLevel = 49
+ItemInfo = ["AR:491-579","D:134"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Spidersilk Robe"
-ItemInfo = ["L:49", "ES:101-117","I:134"]
-ShowRarity = []
+DropLevel = 49
+ItemInfo = ["ES:101-117","I:134"]
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Soul Mantle"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
 Owned = true
 [Equipment.Unique]
 Name = "The Covenant"
-ValueTier = CHANGEME
+ValueTier = 20
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -884,17 +946,19 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Crimson Raiment"
-ItemInfo = ["L:48", "AR:264-304", "EV:55-63","D:71", "I:71"]
+DropLevel = 48
+ItemInfo = ["AR:264-304", "EV:55-63","D:71", "I:71"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Ornate Ringmail"
-ItemInfo = ["L:47", "AR:259-298", "ES:54-62", "S:69", "I:69"]
+DropLevel = 47
+ItemInfo = ["AR:259-298", "ES:54-62", "S:69", "I:69"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Lightbane Raiment"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -903,11 +967,12 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Full Wyrmscale"
-ItemInfo = ["L:46", "AR:254-292", "EV:254-292", "S:68", "D:68"]
+DropLevel = 46
+ItemInfo = ["AR:254-292", "EV:254-292", "S:68", "D:68"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Belly of the Beast"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Beast"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -916,32 +981,37 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Conjurer's Vestment"
-ItemInfo = ["L:45", "ES:94-105","I:124"]
+DropLevel = 45
+ItemInfo = ["ES:94-105","I:124"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Glorious Leather"
-ItemInfo = ["L:45", "AR:451-519","D:124"]
+DropLevel = 45
+ItemInfo = ["AR:451-519","D:124"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sun Plate"
-ItemInfo = ["L:45", "AR:451-506", "S:124"]
+DropLevel = 45
+ItemInfo = ["AR:451-506", "S:124"]
 ShowRarity = []
 
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sleek Coat"
-ItemInfo = ["L:44", "EV:243-287", "ES:51-60","D:65", "I:65"]
+DropLevel = 44
+ItemInfo = ["EV:243-287", "ES:51-60","D:65", "I:65"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Crusader Chainmail"
-ItemInfo = ["L:43", "AR:237-266", "ES:50-55", "S:64", "I:64"]
+DropLevel = 43
+ItemInfo = ["AR:237-266", "ES:50-55", "S:64", "I:64"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Ambu's Charge"
@@ -961,41 +1031,47 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Hussar Brigandine"
-ItemInfo = ["L:42", "AR:232-278", "EV:232-278", "S:62", "D:62"]
+DropLevel = 42
+ItemInfo = ["AR:232-278", "EV:232-278", "S:62", "D:62"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Battle Plate"
-ItemInfo = ["L:41", "AR:412-474", "S:114"]
+DropLevel = 41
+ItemInfo = ["AR:412-474", "S:114"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Frontier Leather"
-ItemInfo = ["L:41", "AR:412-495","D:114"]
+DropLevel = 41
+ItemInfo = ["AR:412-495","D:114"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Silken Wrap"
-ItemInfo = ["L:41", "ES:86-104","I:114"]
+DropLevel = 41
+ItemInfo = ["ES:86-104","I:114"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Quilted Jacket"
-ItemInfo = ["L:40", "EV:221-248", "ES:46-52","D:60", "I:60"]
+DropLevel = 40
+ItemInfo = ["EV:221-248", "ES:46-52","D:60", "I:60"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Latticed Ringmail"
-ItemInfo = ["L:39", "AR:216-248", "ES:45-52", "S:59", "I:59"]
+DropLevel = 39
+ItemInfo = ["AR:216-248", "ES:45-52", "S:59", "I:59"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Icetomb"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1011,11 +1087,12 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Wyrmscale Doublet"
-ItemInfo = ["L:38", "AR:210-236", "EV:210-236", "S:57", "D:57"]
+DropLevel = 38
+ItemInfo = ["AR:210-236", "EV:210-236", "S:57", "D:57"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Gruthkul's Pelt"
-ValueTier = CHANGEME
+ValueTier = 50
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1024,19 +1101,22 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Bronze Plate"
-ItemInfo = ["L:37", "AR:373-429", "S:104"]
+DropLevel = 37
+ItemInfo = ["AR:373-429", "S:104"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Eelskin Tunic"
-ItemInfo = ["L:37", "AR:373-429","D:104"]
+DropLevel = 37
+ItemInfo = ["AR:373-429","D:104"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sage's Robe"
-ItemInfo = ["L:37", "ES:79-90","I:104"]
+DropLevel = 37
+ItemInfo = ["ES:79-90","I:104"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Dialla's Malefaction"
@@ -1057,11 +1137,12 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Bone Armour"
-ItemInfo = ["L:35", "AR:194-233", "EV:41-49","D:53", "I:53"]
+DropLevel = 35
+ItemInfo = ["AR:194-233", "EV:41-49","D:53", "I:53"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Bloodbond"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Army of Blood"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1070,7 +1151,8 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Cabalist Regalia"
-ItemInfo = ["L:35", "ES:75-88","I:99"]
+DropLevel = 35
+ItemInfo = ["ES:75-88","I:99"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "The Apostate"
@@ -1083,17 +1165,19 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Field Lamellar"
-ItemInfo = ["L:35", "AR:194-223", "EV:194-223", "S:53", "D:53"]
+DropLevel = 35
+ItemInfo = ["AR:194-223", "EV:194-223", "S:53", "D:53"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Holy Chainmail"
-ItemInfo = ["L:35", "AR:194-233", "ES:41-49", "S:53", "I:53"]
+DropLevel = 35
+ItemInfo = ["AR:194-233", "ES:41-49", "S:53", "I:53"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Voll's Protector"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1102,47 +1186,54 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Lordly Plate"
-ItemInfo = ["L:35", "AR:353-417", "S:99"]
+DropLevel = 35
+ItemInfo = ["AR:353-417", "S:99"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Thief's Garb"
-ItemInfo = ["L:35", "AR:353-396","D:99"]
+DropLevel = 35
+ItemInfo = ["AR:353-396","D:99"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Arena Plate"
-ItemInfo = ["L:32", "AR:324-389", "S:91"]
+DropLevel = 32
+ItemInfo = ["AR:324-389", "S:91"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Full Chainmail"
-ItemInfo = ["L:32", "AR:178-199", "ES:38-43", "S:48", "I:48"]
+DropLevel = 32
+ItemInfo = ["AR:178-199", "ES:38-43", "S:48", "I:48"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Silk Robe"
-ItemInfo = ["L:32", "ES:69-80","I:91"]
+DropLevel = 32
+ItemInfo = ["ES:69-80","I:91"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Soldier's Brigandine"
-ItemInfo = ["L:32", "AR:178-210", "EV:178-210", "S:48", "D:48"]
+DropLevel = 32
+ItemInfo = ["AR:178-210", "EV:178-210", "S:48", "D:48"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Sun Leather"
-ItemInfo = ["L:32", "AR:324-382","D:91"]
+DropLevel = 32
+ItemInfo = ["AR:324-382","D:91"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Briskwrap"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1151,31 +1242,36 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Waxed Garb"
-ItemInfo = ["L:32", "EV:178-205", "ES:38-44","D:48", "I:48"]
+DropLevel = 32
+ItemInfo = ["EV:178-205", "ES:38-44","D:48", "I:48"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Full Leather"
-ItemInfo = ["L:28", "AR:284-327","D:81"]
+DropLevel = 28
+ItemInfo = ["AR:284-327","D:81"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Full Plate"
-ItemInfo = ["L:28", "AR:284-319", "S:81"]
+DropLevel = 28
+ItemInfo = ["AR:284-319", "S:81"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Full Ringmail"
-ItemInfo = ["L:28", "AR:156-180", "ES:34-39", "S:43", "I:43"]
+DropLevel = 28
+ItemInfo = ["AR:156-180", "ES:34-39", "S:43", "I:43"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Full Scale Armour"
-ItemInfo = ["L:28", "AR:156-180", "EV:156-180", "S:43", "D:43"]
+DropLevel = 28
+ItemInfo = ["AR:156-180", "EV:156-180", "S:43", "D:43"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Viper's Scales"
@@ -1188,29 +1284,33 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Mage's Vestment"
-ItemInfo = ["L:28", "ES:62-69","I:81"]
+DropLevel = 28
+ItemInfo = ["ES:62-69","I:81"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Scarlet Raiment"
-ItemInfo = ["L:28", "AR:156-180", "EV:34-39","D:43", "I:43"]
+DropLevel = 28
+ItemInfo = ["AR:156-180", "EV:34-39","D:43", "I:43"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Silken Garb"
-ItemInfo = ["L:25", "ES:56-64","I:73"]
+DropLevel = 25
+ItemInfo = ["ES:56-64","I:73"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Wild Leather"
-ItemInfo = ["L:25", "EV:255-306","D:73"]
+DropLevel = 25
+ItemInfo = ["EV:255-306","D:73"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Foxshade"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1226,31 +1326,36 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Oiled Coat"
-ItemInfo = ["L:22", "EV:124-146", "ES:28-33","D:35", "I:35"]
+DropLevel = 22
+ItemInfo = ["EV:124-146", "ES:28-33","D:35", "I:35"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Chainmail Doublet"
-ItemInfo = ["L:21", "AR:119-140", "ES:27-31", "S:34", "I:34"]
+DropLevel = 21
+ItemInfo = ["AR:119-140", "ES:27-31", "S:34", "I:34"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Infantry Brigandine"
-ItemInfo = ["L:21", "AR:119-142", "EV:119-142", "S:34", "D:34"]
+DropLevel = 21
+ItemInfo = ["AR:119-142", "EV:119-142", "S:34", "D:34"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "War Plate"
-ItemInfo = ["L:21", "AR:216-248", "S:63"]
+DropLevel = 21
+ItemInfo = ["AR:216-248", "S:63"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Golden Mantle"
-ItemInfo = ["L:20", "AR:75-86", "EV:75-86", "ES:17-19", "S:8", "D:8", "I:8", "IM(15-25)% to all Elemental Resistances"]
+DropLevel = 20
+ItemInfo = ["AR:75-86", "EV:75-86", "ES:17-19", "S:8", "D:8", "I:8", "IM(15-25)% to all Elemental Resistances"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Demigod's Dominance"
@@ -1263,13 +1368,15 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Padded Jacket"
-ItemInfo = ["L:18", "EV:102-128", "ES:24-29","D:30", "I:30"]
+DropLevel = 18
+ItemInfo = ["EV:102-128", "ES:24-29","D:30", "I:30"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Scholar's Robe"
-ItemInfo = ["L:18", "ES:43-53","I:55"]
+DropLevel = 18
+ItemInfo = ["ES:43-53","I:55"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Cloak of Flame"
@@ -1282,11 +1389,12 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Buckskin Tunic"
-ItemInfo = ["L:17", "AR:176-221","D:53"]
+DropLevel = 17
+ItemInfo = ["AR:176-221","D:53"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Ashrend"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1295,11 +1403,12 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Copper Plate"
-ItemInfo = ["L:17", "AR:176-221", "S:53"]
+DropLevel = 17
+ItemInfo = ["AR:176-221", "S:53"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Solaris Lorica"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1308,23 +1417,26 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Ringmail Coat"
-ItemInfo = ["L:17", "AR:97-121", "ES:22-28", "S:28", "I:28"]
+DropLevel = 17
+ItemInfo = ["AR:97-121", "ES:22-28", "S:28", "I:28"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Scale Doublet"
-ItemInfo = ["L:17", "AR:97-121", "EV:97-121", "S:28", "D:28"]
+DropLevel = 17
+ItemInfo = ["AR:97-121", "EV:97-121", "S:28", "D:28"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Silken Vest"
-ItemInfo = ["L:11", "ES:30-38","I:37"]
+DropLevel = 11
+ItemInfo = ["ES:30-38","I:37"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Ghostwrithe"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1333,13 +1445,15 @@ Owned = true
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Oiled Vest"
-ItemInfo = ["L:9", "EV:54-70", "ES:14-18","D:17", "I:17"]
+DropLevel = 9
+ItemInfo = ["EV:54-70", "ES:14-18","D:17", "I:17"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Strapped Leather"
-ItemInfo = ["L:9", "EV:98-127","D:32"]
+DropLevel = 9
+ItemInfo = ["EV:98-127","D:32"]
 ShowRarity = []
 [Equipment.Disabled.Unique]
 Name = "Wildwrap"
@@ -1352,41 +1466,96 @@ Owned = false
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Chainmail Tunic"
-ItemInfo = ["L:8", "AR:48-63", "ES:13-17", "S:16", "I:16"]
+DropLevel = 8
+ItemInfo = ["AR:48-63", "ES:13-17", "S:16", "I:16"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Light Brigandine"
-ItemInfo = ["L:8", "AR:48-63", "EV:48-63", "S:16", "D:16"]
+DropLevel = 8
+ItemInfo = ["AR:48-63", "EV:48-63", "S:16", "D:16"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Chestplate"
-ItemInfo = ["L:6", "AR:68-89", "S:25"]
+DropLevel = 6
+ItemInfo = ["AR:68-89", "S:25"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Scale Vest"
+DropLevel = 4
+ItemInfo = ["AR:27-38", "EV:27-38", "S:10", "D:10"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Chainmail Vest"
-ItemInfo = ["L:1", "AR:27-38", "ES:9-13", "S:10", "I:10"]
+DropLevel = 4
+ItemInfo = ["AR:27-38", "ES:9-13", "S:10", "I:10"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Padded Vest"
-ItemInfo = ["L:1", "EV:27-38", "ES:9-13","D:10", "I:10"]
+DropLevel = 4
+ItemInfo = ["EV:27-38", "ES:9-13","D:10", "I:10"]
+ShowRarity = []
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Simple Robe"
+DropLevel = 3
+ItemInfo = ["EV:14-20","I:17"]
+ShowRarity = []
+[Equipment.Unique]
+Name = "Skin of the Lords"
+ValueTier = 50
+DropsFrom = ["Chayula (Flawless Breachstone)", "Crafted"]
+SpecificCards = ["The Chosen"]
+GambleCards = ["The Dreamer", "The Breach"]
+Owned = true
+[Equipment.Unique]
+Name = "Skin of the Loyal"
+ValueTier = 10
+DropsFrom = ["Chayula Monsters"]
+SpecificCards = ["The Price of Loyalty"]
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Tabula Rasa"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["Humility", "Vanity"]
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Thousand Ribbons"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Body Armours"
+BaseType = "Shabby Jerkin"
+DropLevel = 2
+ItemInfo = ["AR:29-41","D:14"]
 ShowRarity = []
 
 [[Equipment]]
 Class = "Body Armours"
 BaseType = "Plate Vest"
-ItemInfo = ["L:1", "AR:19-27", "S:12"]
+DropLevel = 1
+ItemInfo = ["AR:19-27", "S:12"]
 ShowRarity = []
 [Equipment.Unique]
 Name = "Bramblejack"
-ValueTier = CHANGEME
+ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Fox in the Brambles"]
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
@@ -1398,49 +1567,3 @@ DropsFrom = []
 SpecificCards = []
 GambleCards = []
 Owned = false
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Scale Vest"
-ItemInfo = ["L:1", "AR:27-38", "EV:27-38", "S:10", "D:10"]
-ShowRarity = []
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Shabby Jerkin"
-ItemInfo = ["L:1", "AR:29-41","D:14"]
-ShowRarity = []
-
-[[Equipment]]
-Class = "Body Armours"
-BaseType = "Simple Robe"
-ItemInfo = ["L:1", "EV:14-20","I:17"]
-ShowRarity = []
-[Equipment.Unique]
-Name = "Skin of the Lords"
-ValueTier = CHANGEME
-DropsFrom = ["Chayula (Flawless Breachstone)", "Crafted"]
-SpecificCards = ["The Chosen"]
-GambleCards = ["The Dreamer", "The Breach"]
-Owned = true
-[Equipment.Unique]
-Name = "Skin of the Loyal"
-ValueTier = CHANGEME
-DropsFrom = ["Chayula Monsters"]
-SpecificCards = ["The Price of Loyalty"]
-GambleCards = []
-Owned = true
-[Equipment.Unique]
-Name = "Tabula Rasa"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = ["Humility", "Vanity"]
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
-[Equipment.Unique]
-Name = "Thousand Ribbons"
-ValueTier = CHANGEME
-DropsFrom = ["Anywhere", "ChanceOrb"]
-SpecificCards = []
-GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true

@@ -249,7 +249,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Rings"
@@ -963,7 +963,7 @@ ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:75"]
 SpecificCards = []
 GambleCards = ["Hubris", "Blind Venture", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Praxis"
 ValueTier = 0

@@ -829,7 +829,7 @@ ValueTier = 0
 DropsFrom = ["Kingsmarch ship to Ngakanu or Te Onui"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Helmets"

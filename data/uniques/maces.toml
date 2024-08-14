@@ -542,7 +542,7 @@ ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Light and Truth", "Atziri's Arsenal", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "One Hand Maces"

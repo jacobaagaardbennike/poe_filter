@@ -773,7 +773,7 @@ ValueTier = 50
 DropsFrom = ["None Intervention Syndicate Hideouts"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Garb of the Ephemeral"
 ValueTier = 10

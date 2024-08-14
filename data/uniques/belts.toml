@@ -187,7 +187,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 name = "Nevalius Inheritance"
 ValueTier = 0
@@ -483,7 +483,7 @@ ValueTier = 0
 DropsFrom = ["Crafted"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Disabled.Unique]
 name = "Chains of Time"
 ValueTier = -1

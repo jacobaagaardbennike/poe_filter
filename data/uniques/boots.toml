@@ -670,7 +670,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Boots"
@@ -747,7 +747,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Boots"
@@ -767,7 +767,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Boots"
@@ -820,7 +820,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Boots"
@@ -910,7 +910,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 
 [[Equipment]]
 Class = "Boots"
@@ -962,7 +962,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Boots"
@@ -988,7 +988,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Boots"

@@ -71,8 +71,8 @@ Owned = false
 Name = "Tulfall"
 ValueTier = 10
 DropsFrom = ["Tul (Flawless Breachstone)", "Crafted"]
-SpecificCards = ["The Breach"]
-GambleCards = []
+SpecificCards = []
+GambleCards = ["The Breach"]
 Owned = false
 [Equipment.Unique]
 Name = "Replica Tulfall"
@@ -170,7 +170,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Wands"
@@ -289,7 +289,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Wands"

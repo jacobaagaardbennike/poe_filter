@@ -444,7 +444,7 @@ Class = "Body Armours"
 BaseType = "Zodiac Leather"
 DropLevel = 65
 ItemInfo = ["EV:854-982","D:197"]
-ShowRarity = []
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Hyrri's Ire"
 ValueTier = 10
@@ -486,7 +486,7 @@ Class = "Body Armours"
 BaseType = "Elegant Ringmail"
 DropLevel = 64
 ItemInfo = ["AR:377-433", "ES:92-105", "S:90", "I:105"]
-ShowRarity = []
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Geofri's Sanctuary"
 ValueTier = 0
@@ -549,7 +549,7 @@ Class = "Body Armours"
 BaseType = "Exquisite Leather"
 DropLevel = 62
 ItemInfo = ["AR:704-810","D:170"]
-ShowRarity = []
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Kintsugi"
 ValueTier = 0
@@ -584,7 +584,7 @@ Class = "Body Armours"
 BaseType = "Varnished Coat"
 DropLevel = 62
 ItemInfo = ["EV:387-434", "ES:79-89","D:96", "I:96"]
-ShowRarity = []
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Carcass Jack"
 ValueTier = 0
@@ -598,7 +598,7 @@ ValueTier = 0
 DropsFrom = ["Unique Contract: Death to Darnaw"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Body Armours"
@@ -633,7 +633,7 @@ Class = "Body Armours"
 BaseType = "Crusader Plate"
 DropLevel = 59
 ItemInfo = ["AR:601-691", "S:160"]
-ShowRarity = []
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Lioneye's Vision"
 ValueTier = 0
@@ -654,7 +654,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 
 [[Equipment]]
 Class = "Body Armours"
@@ -675,7 +675,7 @@ Class = "Body Armours"
 BaseType = "Necromancer Silks"
 DropLevel = 59
 ItemInfo = ["ES:123-147","I:160"]
-ShowRarity = []
+ShowRarity = ["Unique"]
 [Equipment.Unique]
 Name = "Fleshcrafter"
 ValueTier = 10
@@ -696,7 +696,7 @@ Class = "Body Armours"
 BaseType = "Sentinel Jacket"
 DropLevel = 59
 ItemInfo = ["EV:330-370", "ES:67-76","D:86", "I:86"]
-ShowRarity = []
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Dendrobate"
 ValueTier = 0
@@ -724,7 +724,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Body Armours"
@@ -745,7 +745,7 @@ Class = "Body Armours"
 BaseType = "Golden Plate"
 DropLevel = 56
 ItemInfo = ["AR:559-643", "S:152"]
-ShowRarity = []
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Greed's Embrace"
 ValueTier = 0
@@ -1012,7 +1012,7 @@ Class = "Body Armours"
 BaseType = "Crusader Chainmail"
 DropLevel = 43
 ItemInfo = ["AR:237-266", "ES:50-55", "S:64", "I:64"]
-ShowRarity = []
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Ambu's Charge"
 ValueTier = 0
@@ -1026,7 +1026,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Body Armours"
@@ -1082,7 +1082,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Body Armours"
@@ -1279,7 +1279,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Body Armours"
@@ -1321,7 +1321,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Body Armours"
@@ -1363,7 +1363,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Body Armours"
@@ -1461,7 +1461,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Body Armours"
@@ -1566,4 +1566,4 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"

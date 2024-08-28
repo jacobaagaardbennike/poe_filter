@@ -157,7 +157,7 @@ ValueTier = -1
 DropsFrom = ["UniqueDropLevel:66"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
@@ -320,7 +320,7 @@ DropLevel = 60
 ItemInfo = ["D:54-78", "C:5.00%", "AS:1.30", "IM:40% increased Global Accuracy Rating"]
 ShowRarity = ["SUnique"]
 [Equipment.Unique]
-Name = "1"
+Name = "Scaeva"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
@@ -339,7 +339,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Two Hand Swords"
@@ -367,7 +367,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "One Hand Swords"
@@ -724,7 +724,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "One Hand Swords"
@@ -780,7 +780,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
@@ -955,7 +955,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Thrusting One Hand Swords"
@@ -991,7 +991,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "One Hand Swords"
@@ -1012,11 +1012,11 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 [Equipment.Disabled.Unique]
 Name = "Dreadbeak"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"

@@ -1,0 +1,1454 @@
+
+[[Equipment]]
+Class = "Abyss Jewels"
+BaseType = "Ghastly Eye Jewel"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Amanamu's Gaze"
+ValueTier = 1000
+DropsFrom = ["Abyssal Liches"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Abyss Jewels"
+BaseType = "Hypnotic Eye Jewel"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Kurgal's Gaze"
+ValueTier = 1000
+DropsFrom = ["Abyssal Liches"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Abyss Jewels"
+BaseType = "Murderous Eye Jewel"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Tecrod's Gaze"
+ValueTier = 1000
+DropsFrom = ["Abyssal Liches"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Abyss Jewels"
+BaseType = "Searching Eye Jewel"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Ulaman's Gaze"
+ValueTier = 1000
+DropsFrom = ["Abyssal Liches"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Jewels"
+BaseType = "Large Cluster Jewel"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Voices"
+ValueTier = 1000
+DropsFrom = ["Simulacrum (After Kosis or Omniphobia)"]
+SpecificCards = ["Luminous Trove"]
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Jewels"
+BaseType = "Medium Cluster Jewel"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Megalomaniac"
+ValueTier = 1000
+DropsFrom = ["Simulacrum (After Kosis or Omniphobia)"]
+SpecificCards = ["A Modest Request"]
+GambleCards = []
+Owned = true
+
+
+[[Equipment]]
+Class = "Jewels"
+BaseType = "Small Cluster Jewel"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Calamitous Visions"
+ValueTier = 1000
+DropsFrom = ["Delirium bosses in maps"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Kitava's Teachings"
+ValueTier = 1000
+DropsFrom = ["Delirium bosses in maps"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Natural Affinity"
+ValueTier = 1000
+DropsFrom = ["Delirium bosses in maps"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "One With Nothing"
+ValueTier = 1000
+DropsFrom = ["Delirium bosses in maps"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Front Line"
+ValueTier = 1000
+DropsFrom = ["Delirium bosses in maps"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Interrogation"
+ValueTier = 1000
+DropsFrom = ["Delirium bosses in maps"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Siege"
+ValueTier = 1000
+DropsFrom = ["Delirium bosses in maps"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[[Equipment]]
+Class = "Jewels"
+BaseType = "Cobalt Jewel"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Brute Force Solution"
+ValueTier = 1000
+DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
+SpecificCards = []
+GambleCards = ["The Unexpected Prize"]
+Owned = true
+[Equipment.Unique]
+Name = "Combat Focus"
+ValueTier = 1000
+DropsFrom = ["Vendor (Q20 prismatic gem + Sapphire Ring and Topaz Ring"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Dead Reckoning"
+ValueTier = 1000
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Garish Power", "The Eye of the Dragon", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Emperor's Wit"
+ValueTier = 1000
+DropsFrom = ["Labyrinth Chests at end (Eternal and Enriched Eternal)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Energy From Within"
+ValueTier = 1000
+DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Fertile Mind"
+ValueTier = 1000
+DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
+SpecificCards = ["A Mother's Parting Gift"]
+GambleCards = ["The Unexpected Prize"]
+Owned = true
+[Equipment.Unique]
+Name = "Fevered Mind"
+ValueTier = 1000
+DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Forbidden Flesh"
+ValueTier = 1000
+DropsFrom = ["The Eater of Worlds"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Fortress Covenant"
+ValueTier = 1000
+DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Healthy Mind"
+ValueTier = 1000
+DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Powerlessness"
+ValueTier = 1000
+DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Replica Powerlessness"
+ValueTier = 1000
+DropsFrom = ["Curio Display"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Reckless Defence"
+ValueTier = 1000
+DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Replica Reckless Defence"
+ValueTier = 1000
+DropsFrom = ["Curio Display"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "To Dust"
+ValueTier = 1000
+DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+[Equipment.Unique]
+Name = "Unending Hunger"
+ValueTier = 1000
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = ["The Craving"]
+GambleCards = ["The Garish Power", "The Eye of the Dragon", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+Name = "Witchbane"
+ValueTier = 1000
+DropsFrom = ["Anywhere", "ChanceOrb"]
+SpecificCards = []
+GambleCards = ["The Garish Power", "The Eye of the Dragon", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+
+[[Equipment]]
+Class = "Jewels"
+BaseType = "Crimson Jewel"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Jewels"
+BaseType = "Viridian Jewel"
+ShowRarity = []
+
+[[Equipment]]
+Class = "Jewels"
+BaseType = "Prismatic Jewel"
+ShowRarity = []
+[Equipment.Unique]
+Name = "Emperor's Mastery"
+ValueTier = 1000
+DropsFrom = ["Labyrinth Chests at end (Eternal and Enriched Eternal)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Sublime Vision"
+ValueTier = 1000
+DropsFrom = ["Uber Shaper or Uber Uber Elder"]
+SpecificCards = ["Father's Love"]
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "The Anima Stone"
+ValueTier = 1000
+DropsFrom = ["Vendor recipe (Primordial Might + Primordial Harmony + Primordial Eminence)"]
+SpecificCards = []
+GambleCards = ["Azyran's Reward"]
+Owned = false
+[Equipment.Unique]
+Name = "The Light of Meaning"
+ValueTier = 1000
+DropsFrom = ["The King in the Mists"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+[Equipment.Unique]
+Name = "Watcher's Eye"
+ValueTier = 1000
+DropsFrom = ["The Elder"]
+SpecificCards = ["The Samurai's Eye", "The Destination"]
+GambleCards = ["Azyran's Reward"]
+Owned = true
+
+
+
+
+
+[Equipment.Unique]
+Name = "Anatomical Knowledge"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Ancestral Vision"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Apex Mode"
+ValueTier = 1000
+DropsFrom = ["The Unbreakable (T17 fortress)"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Apparitions"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Assassin's Haste"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Atziri's Reign"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Blood Sacrifice"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Bloodnotch"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Brawn"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Brittle Barrier"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Brutal Restraint"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+
+
+[Equipment.Unique]
+Name = "Careful Planning"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Cheap Construction"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Chill of Corruption"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Coated Shrapnel"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+[Equipment.Unique]
+Name = "Combat Focus"
+ValueTier = 1000
+DropsFrom = ["Vendor (Q20 prismatic gem + Ruby Ring and Topaz Ring"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Combat Focus"
+ValueTier = 1000
+DropsFrom = ["Vendor (Q20 prismatic gem + Ruby Ring and Sapphire Ring"]
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Conqueror's Efficiency"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Conqueror's Longevity"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Conqueror's Potency"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+[Equipment.Unique]
+Name = "Dissolution of the Flesh"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Divine Inferno"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Efficient Training"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Eldritch Knowledge"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Elegant Hubris"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Emperor's Cunning"
+ValueTier = 1000
+DropsFrom = ["Labyrinth Chests at end (Eternal and Enriched Eternal)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+[Equipment.Unique]
+Name = "Emperor's Might"
+ValueTier = 1000
+DropsFrom = ["Labyrinth Chests at end (Eternal and Enriched Eternal)"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+[Equipment.Unique]
+Name = "Endless Misery"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Energised Armour"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+
+
+
+
+
+[Equipment.Unique]
+Name = "Fight for Survival"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Firesong"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "First Snow"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Fluid Motion"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Forbidden Flame"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+
+
+
+[Equipment.Unique]
+Name = "Fragile Bloom"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Fragility"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Replica Fragility"
+ValueTier = 1000
+DropsFrom = ["Curio Display"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "From Dust"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Frozen Trail"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Glorious Vanity"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Grand Spectrum"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Grand Spectrum"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Grand Spectrum"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Grand Spectrum"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Grand Spectrum"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Grand Spectrum"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Grand Spectrum"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Grand Spectrum"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Grand Spectrum"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Growing Agony"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Hair Trigger"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Hazardous Research"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+
+[Equipment.Unique]
+Name = "Hidden Potential"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Immutable Force"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Impossible Escape"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Inertia"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Inevitability"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Inspired Learning"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Intuitive Leap"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+
+
+
+[Equipment.Unique]
+Name = "Lethal Pride"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Lioneye's Fall"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Lord of Steel"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Lord of Steel"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Martial Artistry"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+[Equipment.Unique]
+Name = "Melding of the Flesh"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Might and Influence"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Might in All Forms"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Might of the Meek"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Militant Faith"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Nadir Mode"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+[Equipment.Unique]
+Name = "Omen on the Winds"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+
+
+[Equipment.Unique]
+Name = "Overwhelming Odds"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Pacifism"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Replica Pacifism"
+ValueTier = 1000
+DropsFrom = ["Curio Display"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Poacher's Aim"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+
+[Equipment.Unique]
+Name = "Primordial Eminence"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Primordial Harmony"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Primordial Might"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Replica Primordial Might"
+ValueTier = 1000
+DropsFrom = ["Curio Display"]
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Pugilist"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Pure Talent"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Quickening Covenant"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Rain of Splinters"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Rapid Expansion"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Rational Doctrine"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+[Equipment.Unique]
+Name = "Ring of Blades"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Rolling Flames"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Seething Fury"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Self-Flagellation"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Soul's Wick"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Spire of Stone"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Spirit Guards"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Spirited Response"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Split Personality"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Spreading Rot"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Stormshroud"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+
+[Equipment.Unique]
+Name = "Survival Instincts"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Survival Secrets"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Survival Skills"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+
+[Equipment.Unique]
+Name = "Tempered Flesh"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Transcendent Flesh"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Tempered Mind"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Transcendent Mind"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Tempered Spirit"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Transcendent Spirit"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "The Adorned"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+[Equipment.Unique]
+Name = "The Balance of Terror"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "The Blue Dream"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "The Blue Nightmare"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+
+
+
+
+[Equipment.Unique]
+Name = "The Golden Rule"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "The Green Dream"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "The Green Nightmare"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Equipment.Unique]
+Name = "The Long Winter"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "The Red Dream"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "The Red Nightmare"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+
+
+
+[Equipment.Unique]
+Name = "The Vigil"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Thread of Hope"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+
+
+
+
+[Equipment.Unique]
+Name = "Unnatural Instinct"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = false
+
+
+[Equipment.Unique]
+Name = "Unstable Payload"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Violent Dead"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+
+[Equipment.Unique]
+Name = "Volley Fire"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Warlord's Reach"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+
+[Equipment.Unique]
+Name = "Weight of the Empire"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Wildfire"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+[Equipment.Unique]
+Name = "Winter's Bounty"
+ValueTier = 1000
+DropsFrom = []
+SpecificCards = []
+GambleCards = []
+Owned = true
+
+
+

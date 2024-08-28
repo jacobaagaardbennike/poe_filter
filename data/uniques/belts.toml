@@ -76,21 +76,21 @@ ValueTier = 0
 DropsFrom = ["shipping resources from Kingsmarch to Riben Fell, Pondium, or Kalguur."]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Disabled.Unique]
 name = "The Nomad"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 [Equipment.Disabled.Unique]
 name = "The Tactician"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Belts"
@@ -207,7 +207,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Belts"
@@ -414,7 +414,7 @@ ValueTier = 0
 DropsFrom = ["Boss of Unique Contract: The Slaver King"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Coward's Chains"
 ValueTier = 10
@@ -442,13 +442,13 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Belts"
 BaseType = "Rustic Sash"
 ItemInfo = ["L:1", "IM:(12-24)% increased Global Physical Damage"]
-ShowRarity = ["SUnique"]
+ShowRarity = []
 [Equipment.Unique]
 name = "Faminebind"
 ValueTier = 0
@@ -490,7 +490,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Belts"

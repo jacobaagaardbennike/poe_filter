@@ -234,7 +234,7 @@ ValueTier = -1
 DropsFrom = ["UniqueDropLevel:73"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Gloves"
@@ -459,6 +459,13 @@ BaseType = "Shagreen Gloves"
 DropLevel = 55
 ItemInfo = ["EV:177-212", "D:78"]
 ShowRarity = []
+[Equipment.Unique]
+Name = "Painseeker"
+ValueTier = 0
+DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:73"]
+SpecificCards = []
+GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
 
 [[Equipment]]
 Class = "Gloves"
@@ -655,13 +662,6 @@ BaseType = "Sharkskin Gloves"
 DropLevel = 45
 ItemInfo = ["EV:148-163", "D:66"]
 ShowRarity = []
-[Equipment.Unique]
-Name = "Painseeker"
-ValueTier = 0
-DropsFrom = ["Anywhere", "ChanceOrb", "UniqueDropLevel:73"]
-SpecificCards = []
-GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = true
 
 [[Equipment]]
 Class = "Gloves"
@@ -696,7 +696,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Mitts", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Volkuur's Guidance (lightning)"
 ValueTier = 0
@@ -738,7 +738,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Demon Stitcher"
 ValueTier = 0
@@ -1046,7 +1046,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Gloves"
@@ -1067,7 +1067,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 
 [[Equipment]]
 Class = "Gloves"
@@ -1116,7 +1116,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Gloves"

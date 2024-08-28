@@ -43,7 +43,7 @@ ValueTier = 0
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Amulet"
@@ -252,7 +252,7 @@ ValueTier = 0
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Amulet"
@@ -318,28 +318,28 @@ ValueTier = 0
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 [Equipment.Disabled.Unique]
 Name = "Bisco's Collar"
 ValueTier = 0
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 [Equipment.Disabled.Unique]
 Name = "Demigod's Presence"
 ValueTier = 0
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 [Equipment.Disabled.Unique]
 Name = "The Effigon"
 ValueTier = 0
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Amulet"
@@ -838,4 +838,4 @@ ValueTier = 0
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"

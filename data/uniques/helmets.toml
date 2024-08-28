@@ -743,7 +743,7 @@ Owned = true
 Name = "Lightpoacher"
 ValueTier = 0
 DropsFrom = ["Liches", "UniqueDropLevel:73"]
-SpecificCards = []
+SpecificCards = ["The Fathomless Depths"]
 GambleCards = []
 Owned = false
 [Equipment.Disabled.Unique]
@@ -752,14 +752,14 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 [Equipment.Disabled.Unique]
 Name = "Replica Forbidden Shako"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Helmets"
@@ -808,7 +808,7 @@ ValueTier = 10
 DropsFrom = ["Unique Contract: Heart of Glory"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Helmets"
@@ -822,7 +822,7 @@ Class = "Helmets"
 BaseType = "Siege Helmet"
 DropLevel = 48
 ItemInfo = ["AR:237-272", "S:101"]
-ShowRarity = ["SUnique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Kaom's Command"
 ValueTier = 0
@@ -941,7 +941,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Helmets"
@@ -1088,7 +1088,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Helmets"
@@ -1130,7 +1130,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Helmets"
@@ -1193,7 +1193,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 
 [[Equipment]]
 Class = "Helmets"
@@ -1214,7 +1214,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Helmets"
@@ -1242,7 +1242,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 
 [[Equipment]]
 Class = "Helmets"
@@ -1277,7 +1277,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Helmets"
@@ -1326,7 +1326,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Helmets"
@@ -1340,7 +1340,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Helmets"
@@ -1410,7 +1410,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Helmets"
@@ -1487,19 +1487,19 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 [Equipment.Disabled.Unique]
 Name = "Tear of Entropy"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 [Equipment.Disabled.Unique]
 Name = "Martyr's Crown"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 

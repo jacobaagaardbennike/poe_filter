@@ -66,7 +66,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Claws"
@@ -185,7 +185,7 @@ Class = "Claws"
 BaseType = "Gut Ripper"
 DropLevel = 46
 ItemInfo = ["D:20-53", "C:6.30%", "AS:1.50", "IM:Grants 44 Life per Enemy Hit"]
-ShowRarity = []
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Advancing Fortress"
 ValueTier = 0
@@ -199,7 +199,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = 0
+Owned = false
 [Equipment.Unique]
 Name = "Ornament of the East"
 ValueTier = 0
@@ -324,7 +324,7 @@ Class = "Claws"
 BaseType = "Nailed Fist"
 DropLevel = 3
 ItemInfo = ["D:4-11", "C:6.20%", "AS:1.60", "IM:Grants 3 Life per Enemy Hit"]
-ShowRarity = ["SUnique"]
+ShowRarity = []
 [Equipment.Unique]
 Name = "Last Resort"
 ValueTier = 0
@@ -338,11 +338,11 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Disabled.Unique]
 Name = "Scar of Fate"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"

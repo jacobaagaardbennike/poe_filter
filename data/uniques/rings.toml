@@ -319,7 +319,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Rings"
@@ -515,7 +515,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Rings"
@@ -655,7 +655,7 @@ ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Uzaza's Meadow"
 ValueTier = 40
@@ -837,28 +837,28 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 [Equipment.Disabled.Unique]
 Name = "Honoured Alliance"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 [Equipment.Disabled.Unique]
 Name = "Kaom's Way"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 [Equipment.Disabled.Unique]
 Name = "Winterweave (fated)"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Rings"
@@ -914,7 +914,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Rings"
@@ -928,7 +928,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Rings"
@@ -955,7 +955,7 @@ Name = "Fated End"
 ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
-GambleCards = ["The Forward Gaze"]
+GambleCards = []
 Owned = false
 [Equipment.Unique]
 Name = "Perandus Signet"

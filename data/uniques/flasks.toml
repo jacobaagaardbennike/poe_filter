@@ -288,7 +288,7 @@ ShowRarity = ["SUnique"]
 Name = "Coruscating Elixir"
 ValueTier = 0
 DropsFrom = []
-SpecificCards = ["Coruscating Elixir"]
+SpecificCards = ["The Dragon"]
 GambleCards = []
 Owned = true
 [Equipment.Unique]
@@ -447,7 +447,7 @@ ValueTier = 0
 DropsFrom = ["Vaal Omnitect"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Soul Ripper"
 ValueTier = 1000

@@ -1,0 +1,393 @@
+
+[[Equipment]]
+BaseType = "Champion Kite Shield"
+[Equipment.Unique]
+Name = "Aegis Aurora"
+Owned = true
+
+[[Equipment]]
+BaseType = "Colossal Tower Shield"
+[Equipment.Unique]
+Name = "Ahn's Heritage"
+Owned = true
+[Equipment.Unique]
+Name = "Dawnbreaker"
+Owned = true
+
+[[Equipment]]
+BaseType = "Vaal Spirit Shield"
+[Equipment.Unique]
+Name = "Apep's Slumber"
+Owned = false
+[Equipment.Unique]
+Name = "Apep's Supremacy"
+Owned = false
+[Equipment.Unique]
+Name = "Esh's Mirror"
+Owned = true
+[Equipment.Unique]
+Name = "Esh's Visage"
+Owned = false
+
+[[Equipment]]
+BaseType = "Golden Buckler"
+[Equipment.Unique]
+Name = "Atziri's Reflection"
+Owned = false
+[Equipment.Disabled.Unique]
+Name = "Atziri's Mirror"
+Owned = false
+
+[[Equipment]]
+BaseType = "Titanium Spirit Shield"
+[Equipment.Unique]
+Name = "Bitterbind Point"
+Owned = true
+[Equipment.Unique]
+Name = "Rathpith Globe"
+Owned = false
+
+[[Equipment]]
+BaseType = "Tarnished Spirit Shield"
+[Equipment.Unique]
+Name = "Brinerot Flag"
+Owned = true
+[Equipment.Unique]
+Name = "Matua Tupuna"
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Whakatutuki o Matua"
+Owned = false
+
+[[Equipment]]
+BaseType = "Archon Kite Shield"
+[Equipment.Unique]
+Name = "Broken Faith"
+Owned = false
+[[Equipment]]
+BaseType = "CHANGE"
+[Equipment.Unique]
+Name = "Unyielding Flame"
+Owned = false
+[Equipment.Unique]
+Name = "Invictus Solaris"
+Owned = true
+[Equipment.Unique]
+Name = "Prism Guardian"
+Owned = true
+[Equipment.Unique]
+Name = "The Immortal Will"
+Owned = false
+[Equipment.Unique]
+Name = "The Unshattered Will"
+Owned = false
+
+[[Equipment]]
+BaseType = "War Buckler"
+[Equipment.Unique]
+Name = "Chalice of Horrors"
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Thirst for Horrors"
+Owned = false
+
+[[Equipment]]
+BaseType = "Ebony Tower Shield"
+[Equipment.Unique]
+Name = "Chernobog's Pillar"
+Owned = true
+[Equipment.Unique]
+Name = "Tukohama's Fortress"
+Owned = false
+[Equipment.Unique]
+Name = "Replica Tukohama's Fortress"
+Owned = false
+
+[[Equipment]]
+BaseType = "Pine Buckler"
+[Equipment.Unique]
+Name = "Crest of Perandus"
+Owned = true
+
+[[Equipment]]
+BaseType = "Baroque Round Shield"
+[Equipment.Unique]
+Name = "Daresso's Courage"
+Owned = true
+
+
+
+[[Equipment]]
+BaseType = "Steel Kite Shield"
+[Equipment.Unique]
+Name = "Emperor's Vigilance"
+Owned = true
+[Equipment.Unique]
+Name = "Mahuxotl's Machination"
+Owned = false
+
+
+[[Equipment]]
+BaseType = "Mirrored Spiked Shield"
+[Equipment.Unique]
+Name = "Font of Thunder"
+Owned = false
+[Equipment.Unique]
+Name = "Leper's Alms"
+Owned = true
+
+[[Equipment]]
+BaseType = "Corrugated Buckler"
+[Equipment.Unique]
+Name = "Great Old One's Ward"
+Owned = true
+
+
+[[Equipment]]
+BaseType = "Supreme Spiked Shield"
+[Equipment.Unique]
+Name = "Jaws of Agony"
+Owned = true
+
+[[Equipment]]
+BaseType = "Painted Buckler"
+[Equipment.Unique]
+Name = "Kaltenhalt"
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "Kaltensoul"
+Owned = false
+
+[[Equipment]]
+BaseType = "Ironwood Buckler"
+[Equipment.Unique]
+Name = "Kiloava's Bluster"
+Owned = true
+
+[[Equipment]]
+BaseType = "Ancient Spirit Shield"
+[Equipment.Unique]
+Name = "Kongming's Stratagem"
+Owned = true
+
+[[Equipment]]
+BaseType = "Jingling Spirit Shield"
+[Equipment.Unique]
+Name = "Light of Lunaris"
+Owned = false
+
+[[Equipment]]
+BaseType = "Pinnacle Tower Shield"
+[Equipment.Unique]
+Name = "Lioneye's Remorse"
+Owned = true
+[Equipment.Unique]
+Name = "Magna Eclipsis"
+Owned = false
+
+[[Equipment]]
+BaseType = "Rawhide Tower Shield"
+[Equipment.Unique]
+Name = "Lycosidae"
+Owned = true
+
+[[Equipment]]
+BaseType = "Harmonic Spirit Shield"
+[Equipment.Unique]
+Name = "Malachai's Loop"
+Owned = true
+
+[[Equipment]]
+BaseType = "Compound Spiked Shield"
+[Equipment.Unique]
+Name = "Maligaro's Lens"
+Owned = true
+
+[[Equipment]]
+BaseType = "Lacewood Spirit Shield"
+[Equipment.Unique]
+Name = "Manastorm"
+Owned = true
+
+
+
+[[Equipment]]
+BaseType = "Lacquered Buckler"
+[Equipment.Unique]
+Name = "Mistwall"
+Owned = false
+[Equipment.Unique]
+Name = "Replica Mistwall"
+Owned = false
+
+[[Equipment]]
+BaseType = "Enameled Buckler"
+[Equipment.Unique]
+Name = "Mutewind Pennant"
+Owned = true
+
+[[Equipment]]
+BaseType = "Ezomyte Spiked Shield"
+[Equipment.Unique]
+Name = "Perepiteia"
+Owned = true
+
+[[Equipment]]
+BaseType = "Sovereign Spiked Shield"
+[Equipment.Unique]
+Name = "Qotra's Regulator"
+Owned = false
+
+[[Equipment]]
+BaseType = "Painted Tower Shield"
+[Equipment.Unique]
+Name = "Redblade Banner"
+Owned = true
+
+[[Equipment]]
+BaseType = "Mosaic Kite Shield"
+[Equipment.Unique]
+Name = "Rise of the Phoenix"
+Owned = true
+
+[[Equipment]]
+BaseType = "Branded Kite Shield"
+[Equipment.Unique]
+Name = "Saffell's Frame"
+Owned = false
+
+[[Equipment]]
+BaseType = "Brass Spirit Shield"
+[Equipment.Unique]
+Name = "Sentari's Answer"
+Owned = true
+
+[[Equipment]]
+BaseType = "Crimson Round Shield"
+[Equipment.Unique]
+Name = "Shattershard"
+Owned = false
+
+[[Equipment]]
+BaseType = "Plank Kite Shield"
+[Equipment.Unique]
+Name = "Springleaf"
+Owned = true
+[Equipment.Disabled.Unique]
+Name = "The Oak"
+Owned = false
+
+[[Equipment]]
+BaseType = "Ezomyte Tower Shield"
+[Equipment.Unique]
+Name = "The Anticipation"
+Owned = false
+[Equipment.Unique]
+Name = "The Surrender"
+Owned = false
+
+[[Equipment]]
+BaseType = "Studded Round Shield"
+[Equipment.Unique]
+Name = "The Deep One's Hide"
+Owned = true
+
+[[Equipment]]
+BaseType = "Chiming Spirit Shield"
+[Equipment.Unique]
+Name = "The Eternal Apple"
+Owned = true
+[Equipment.Unique]
+Name = "The Scales of Justice"
+Owned = false
+
+[[Equipment]]
+BaseType = "Maple Round Shield"
+[Equipment.Unique]
+Name = "The Flawed Refuge"
+Owned = true
+
+[[Equipment]]
+BaseType = "Teak Round Shield"
+[Equipment.Unique]
+Name = "The Ghastly Theatre"
+Owned = true
+
+[[Equipment]]
+BaseType = "CHANGE"
+[Equipment.Unique]
+Name = "The Oppressor"
+Owned = true
+
+
+[[Equipment]]
+BaseType = "CHANGE"
+[Equipment.Unique]
+Name = "The Squire"
+Owned = false
+
+
+
+[[Equipment]]
+BaseType = "Vaal Buckler"
+[Equipment.Unique]
+Name = "Thousand Teeth Temu"
+Owned = true
+
+[[Equipment]]
+BaseType = "CHANGE"
+[Equipment.Unique]
+Name = "Titucius' Span"
+Owned = true
+
+[[Equipment]]
+BaseType = "Cedar Tower Shield"
+[Equipment.Unique]
+Name = "Trolltimber Spire"
+Owned = true
+
+
+
+
+
+[[Equipment]]
+BaseType = "Laminated Kite Shield"
+[Equipment.Unique]
+Name = "Victario's Charity"
+Owned = true
+Name = "Replica Victario's Charity"
+Owned = true
+
+[[Equipment]]
+BaseType = "Cardinal Round Shield"
+[Equipment.Unique]
+Name = "Vix Lunaris"
+Owned = false
+
+[[Equipment]]
+BaseType = "Rotted Round Shield"
+[Equipment.Unique]
+Name = "Wheel of the Stormsail"
+Owned = true
+
+[[Equipment]]
+BaseType = "Polished Spiked Shield"
+[Equipment.Unique]
+Name = "Zeel's Amplifier"
+Owned = true
+
+
+[[Equipment]]
+BaseType = "Girded Tower Shield"
+[Equipment.Unique]
+Name = "Svalinn"
+Owned = true
+
+
+[[Equipment]]
+BaseType = "Reinforced Tower Shield"
+[Equipment.Unique]
+Name = "Titucius' Span"
+Owned = false
+
+

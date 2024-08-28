@@ -249,7 +249,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Wartaves"
@@ -277,7 +277,7 @@ ValueTier = 10
 DropsFrom = ["Catarina (betrayal"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Sire of Shards"
 ValueTier = 0
@@ -373,7 +373,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = true
+DisOwned = "yes"
 
 [[Equipment]]
 Class = "Wartaves"
@@ -429,7 +429,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Staves"
@@ -457,7 +457,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "The Blood Thorn"
 ValueTier = 0
@@ -478,11 +478,11 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 [Equipment.Disabled.Unique]
 Name = "Vestige of Divinity"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"

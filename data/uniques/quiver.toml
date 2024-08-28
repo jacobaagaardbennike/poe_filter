@@ -15,14 +15,14 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 [Equipment.Disabled.Unique]
 Name = "Slivers of Providence"
 ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 [[Equipment]]
 Class = "Quiver"
@@ -54,7 +54,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 
 [[Equipment]]
@@ -127,7 +127,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Wolven King's Bite", "Etched in Blood"]
 GambleCards = ["The Wolf", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Skirmish"
 ValueTier = 0
@@ -140,7 +140,7 @@ Owned = true
 [[Equipment]]
 Class = "Quiver"
 BaseType = "Spike-Point Arrow Quiver"
-ShowRarity = []
+ShowRarity = ["SUnique"]
 [Equipment.Unique]
 Name = "Soul Strike"
 ValueTier = 0
@@ -174,7 +174,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 
 [[Equipment]]
@@ -194,7 +194,7 @@ ValueTier = 10
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 
 
 [[Equipment]]
@@ -240,7 +240,7 @@ ValueTier = -1
 DropsFrom = []
 SpecificCards = []
 GambleCards = []
-Owned = false
+DisOwned = "no"
 
 
 [[Equipment]]

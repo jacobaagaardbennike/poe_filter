@@ -87,7 +87,7 @@ ValueTier = 1000
 DropsFrom = ["Delirium bosses in maps"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Kitava's Teachings"
 ValueTier = 1000
@@ -170,7 +170,7 @@ ValueTier = 1000
 DropsFrom = ["Vaal Orb + Cobalt Jewel (normal, magic or rare"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Fertile Mind"
 ValueTier = 1000
@@ -330,7 +330,7 @@ Owned = false
 [Equipment.Unique]
 Name = "Apex Mode"
 ValueTier = 1000
-DropsFrom = ["The Unbreakable (T17 fortress)"]
+DropsFrom = ["The Unbreakable (T17 fortress) or unique heist"]
 SpecificCards = []
 GambleCards = []
 Owned = true
@@ -973,7 +973,7 @@ ValueTier = 1000
 DropsFrom = ["Curio Display"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 
 
 [Equipment.Unique]
@@ -1019,7 +1019,7 @@ ValueTier = 1000
 DropsFrom = ["Curio Display"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 
 
 [Equipment.Unique]

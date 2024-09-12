@@ -52,7 +52,7 @@ ValueTier = 10
 DropsFrom = ["Esh (Flawless Breachstone)", "Crafted"]
 SpecificCards = []
 GambleCards = ["The Breach"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Touch of Anguish"
 ValueTier = 0
@@ -87,7 +87,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Essentia Sanguis"
 ValueTier = 50
@@ -199,7 +199,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Ornament of the East"
 ValueTier = 0

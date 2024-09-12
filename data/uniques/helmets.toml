@@ -346,7 +346,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Helmets"
@@ -605,7 +605,7 @@ ValueTier = 0
 DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Crown of the Tyrant"
 ValueTier = 100
@@ -647,7 +647,7 @@ ValueTier = 0
 DropsFrom = ["Farrul (Farrul's Den Spirit Beast)"]
 SpecificCards = []
 GambleCards = ["Council of Cats", "Boon of the First Ones"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Mind of the Council"
 ValueTier = 0
@@ -697,7 +697,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 Name = "Fenumus' Toxins"
 ValueTier = 10
 DropsFrom = ["Fenumus (Fenumus' Lair)"]
@@ -1235,7 +1235,7 @@ ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Disabled.Unique]
 Name = "Frostferno"
 ValueTier = -1

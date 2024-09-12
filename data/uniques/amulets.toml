@@ -492,7 +492,7 @@ ValueTier = 10
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = ["The Polymath"]
 GambleCards = ["The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Aul's Uprising"
 ValueTier = 10
@@ -548,7 +548,7 @@ ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Presence of Chayula"
 ValueTier = 100

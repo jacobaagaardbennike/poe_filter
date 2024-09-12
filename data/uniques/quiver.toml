@@ -151,7 +151,7 @@ Owned = true
 [Equipment.Unique]
 Name = "Replica Soul Strike"
 ValueTier = 0
-DropsFrom = []
+DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = []
 Owned = false
@@ -191,7 +191,7 @@ Owned = false
 [Equipment.Unique]
 Name = "Replica Maloney's Mechanism"
 ValueTier = 10
-DropsFrom = []
+DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = []
 Owned = true

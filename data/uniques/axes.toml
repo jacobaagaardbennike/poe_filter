@@ -120,7 +120,7 @@ ValueTier = 100
 DropsFrom = ["Uul-Netol (Flawless Breachstone)"]
 SpecificCards = []
 GambleCards = ["The Breach"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Uul-Netol's Kiss"
 ValueTier = 0
@@ -167,7 +167,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "One Hand Axes"

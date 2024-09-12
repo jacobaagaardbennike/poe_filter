@@ -164,7 +164,7 @@ ValueTier = 50
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Body Armours"
@@ -178,7 +178,7 @@ ValueTier = 10
 DropsFrom = ["Uber Atziri"]
 SpecificCards = []
 GambleCards = ["The Admirer"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Shadowstitch"
 ValueTier = 1337
@@ -234,7 +234,7 @@ ValueTier = 100
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Cherrubim's Maleficence"
 ValueTier = 0
@@ -276,7 +276,7 @@ ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Perfidy"
 ValueTier = 0
@@ -507,7 +507,7 @@ ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Body Armours"
@@ -857,7 +857,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Body", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Body Armours"

@@ -471,7 +471,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Disabled.Unique]
 Name = "Mirebough"
 ValueTier = -1

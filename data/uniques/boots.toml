@@ -340,7 +340,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Boots"
@@ -401,7 +401,7 @@ ValueTier = 0
 DropsFrom = ["Ultimatum"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Boots"
@@ -434,7 +434,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Fateful Meeting", "Time-Lost Relic", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Omeyocan"
 ValueTier = 10
@@ -461,7 +461,7 @@ ValueTier = 0
 DropsFrom = ["Ultimatum"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Three-step Assault"
 ValueTier = 0
@@ -488,7 +488,7 @@ ValueTier = 0
 DropsFrom = ["Craiceann (Craiceann's Cove Spirit Beast)"]
 SpecificCards = []
 GambleCards = ["Boon of the First Ones"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "The Tempest Rising"
 ValueTier = 10
@@ -787,7 +787,7 @@ ValueTier = 0
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Boots"
@@ -942,7 +942,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Shepherd's Sandals", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 Name = "Victario's Flight"
 ValueTier = 0

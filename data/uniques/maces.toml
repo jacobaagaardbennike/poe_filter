@@ -235,7 +235,7 @@ ValueTier = 0
 DropsFrom = ["Kingsmarch ship to Ngakanu or Te Onui"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "One Hand Maces"
@@ -444,7 +444,7 @@ ValueTier = 10
 DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Secptres"

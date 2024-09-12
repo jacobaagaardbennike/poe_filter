@@ -194,7 +194,7 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Belts"
@@ -255,7 +255,7 @@ ValueTier = 10
 DropsFrom = ["Transportation Safehouses"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 name = "Immortal Flesh"
 ValueTier = 0
@@ -317,7 +317,7 @@ ValueTier = 0
 DropsFrom = ["Atziri (Apex of Sacrifice or Throne of Atziri in the Temple"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 name = "Dyadian Dawn"
 ValueTier = 0
@@ -338,20 +338,20 @@ ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["Haunting Shadows", "The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
-Owned = false
-[Equipment.Unique]
-name = "Replica Siegebreaker"
-ValueTier = 10
-DropsFrom = ["CurioDisplay"]
-SpecificCards = []
-GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 [Equipment.Unique]
 name = "Siegebreaker"
 ValueTier = 0
 DropsFrom = ["Anywhere", "ChanceOrb"]
 SpecificCards = []
 GambleCards = ["The Wretched", "The Dungeon Master", "The Cache", "Prejudice", "Costly Curio", "Arrogance of the Vaal", "Jack in the Box"]
+Owned = true
+[Equipment.Unique]
+name = "Replica Siegebreaker"
+ValueTier = 10
+DropsFrom = ["CurioDisplay"]
+SpecificCards = []
+GambleCards = ["The Forward Gaze"]
 Owned = true
 [Equipment.Unique]
 name = "String of Servitude"
@@ -366,7 +366,7 @@ ValueTier = 0
 DropsFrom = ["Rituals"]
 SpecificCards = []
 GambleCards = []
-Owned = false
+Owned = true
 [Equipment.Unique]
 name = "Mageblood"
 ValueTier = 1000

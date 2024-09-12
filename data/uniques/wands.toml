@@ -77,9 +77,10 @@ Owned = false
 [Equipment.Unique]
 Name = "Replica Tulfall"
 ValueTier = 0
+DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = ["The Forward Gaze"]
-Owned = false
+Owned = true
 
 [[Equipment]]
 Class = "Wands"
@@ -195,7 +196,7 @@ Owned = true
 [Equipment.Unique]
 Name = "Replica Midnight Bargain"
 ValueTier = 0
-SpecificCards = []
+DropsFrom = ["CurioDisplay"]
 SpecificCards = []
 GambleCards = []
 Owned = true
